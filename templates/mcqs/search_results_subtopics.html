@@ -1,0 +1,25 @@
+{% if results.subtopics %}
+<div class="row">
+    {% for subtopic in results.subtopics %}
+    <div class="col-md-6 mb-3">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">{{ subtopic.name }}</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                    {{ subtopic.topic.domain.name }} > {{ subtopic.topic.name }}
+                </h6>
+                <p class="card-text">{{ subtopic.description|truncatewords:30 }}</p>
+                <div class="mb-2">
+                    <span class="badge bg-info">{{ subtopic.mcq_count }} MCQs</span>
+                </div>
+                <a href="{% url 'mcqs:mcq_list' %}?subtopic={{ subtopic.id }}" class="btn btn-sm btn-primary">
+                    View MCQs
+                </a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% else %}
+<div class="alert alert-info">No subtopics found</div>
+{% endif %}

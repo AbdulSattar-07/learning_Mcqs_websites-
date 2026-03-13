@@ -1,0 +1,23 @@
+{% if results.domains %}
+<div class="row">
+    {% for domain in results.domains %}
+    <div class="col-md-6 mb-3">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">{{ domain.name }}</h5>
+                <p class="card-text">{{ domain.description|truncatewords:30 }}</p>
+                <div class="mb-2">
+                    <span class="badge bg-primary">{{ domain.topic_count }} Topics</span>
+                    <span class="badge bg-info">{{ domain.mcq_count }} MCQs</span>
+                </div>
+                <a href="{% url 'mcqs:topic_list_by_domain' domain.id %}" class="btn btn-sm btn-primary">
+                    View Topics
+                </a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% else %}
+<div class="alert alert-info">No domains found</div>
+{% endif %}

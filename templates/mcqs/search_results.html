@@ -1,0 +1,228 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Search Results - {{ query }}{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <!-- Search Header -->
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <h2>Search Results</h2>
+            <p class="text-muted">
+                Found {{ total_results }} result{{ total_results|pluralize }} for "{{ query }}"
+            </p>
+        </div>
+    </div>
+
+    <!-- Search Bar with Autocomplete -->
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <form method="get" action="{% url 'mcqs:global_search' %}" id="searchForm">
+                <div class="input-group input-group-lg">
+                    <input type="text" 
+                           class="form-control" 
+                           name="q" 
+                           id="searchInput"
+                           value="{{ query }}" 
+                           placeholder="Search domains, topics, MCQs..."
+                           autocomplete="off">
+                    <button class="btn btn-primary" type="submit">
+                        <i class="fas fa-search"></i> Search
+                    </button>
+                </div>
+                <div id="suggestions" class="list-group mt-1" style="display: none; position: absolute; z-index: 1000; width: 100%;"></div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Advanced Filters -->
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <button class="btn btn-sm btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#advancedFilters">
+                        <i class="fas fa-filter"></i> Advanced Filters
+                    </button>
+                </div>
+                <div class="collapse" id="advancedFilters">
+                    <div class="card-body">
+                        <form method="get" action="{% url 'mcqs:global_search' %}">
+                            <input type="hidden" name="q" value="{{ query }}">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <label>Domain</label>
+                                    <select name="domain" class="form-select">
+                                        <option value="">All Domains</option>
+                                        {% for domain in filter_options.domains %}
+                                        <option value="{{ domain.id }}" {% if filters.domain_id == domain.id|stringformat:"s" %}selected{% endif %}>
+                                            {{ domain.name }}
+                                        </option>
+                                        {% endfor %}
+                                    </select>
+                                </div>
+                                <div class="col-md-3">
+                                    <label>Topic</label>
+                                    <select name="topic" class="form-select">
+                                        <option value="">All Topics</option>
+                                        {% for topic in filter_options.topics %}
+                                        <option value="{{ topic.id }}" {% if filters.topic_id == topic.id|stringformat:"s" %}selected{% endif %}>
+                                            {{ topic.name }}
+                                        </option>
+                                        {% endfor %}
+                                    </select>
+                                </div>
+                                <div class="col-md-3">
+                                    <label>Difficulty</label>
+                                    <select name="difficulty" class="form-select">
+                                        <option value="">All Levels</option>
+                                        {% for diff in filter_options.difficulties %}
+                                        <option value="{{ diff }}" {% if filters.difficulty == diff %}selected{% endif %}>
+                                            {{ diff }}
+                                        </option>
+                                        {% endfor %}
+                                    </select>
+                                </div>
+                                <div class="col-md-3">
+                                    <label>Batch</label>
+                                    <select name="batch" class="form-select">
+                                        <option value="">All Batches</option>
+                                        {% for batch in filter_options.batches %}
+                                        <option value="{{ batch.id }}" {% if filters.batch_id == batch.id|stringformat:"s" %}selected{% endif %}>
+                                            {{ batch.name }}
+                                        </option>
+                                        {% endfor %}
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-md-12">
+                                    <button type="submit" class="btn btn-primary">Apply Filters</button>
+                                    <a href="{% url 'mcqs:global_search' %}?q={{ query }}" class="btn btn-secondary">Clear Filters</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% if total_results > 0 %}
+        <!-- Results Tabs -->
+        <ul class="nav nav-tabs mb-3" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="tab" href="#all">
+                    All ({{ total_results }})
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#domains">
+                    Domains ({{ results.domains|length }})
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#topics">
+                    Topics ({{ results.topics|length }})
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#subtopics">
+                    Subtopics ({{ results.subtopics|length }})
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#mcqs">
+                    MCQs ({{ results.mcqs|length }})
+                </a>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+            <!-- All Results Tab -->
+            <div class="tab-pane fade show active" id="all">
+                {% include 'mcqs/search_results_all.html' %}
+            </div>
+
+            <!-- Domains Tab -->
+            <div class="tab-pane fade" id="domains">
+                {% include 'mcqs/search_results_domains.html' %}
+            </div>
+
+            <!-- Topics Tab -->
+            <div class="tab-pane fade" id="topics">
+                {% include 'mcqs/search_results_topics.html' %}
+            </div>
+
+            <!-- Subtopics Tab -->
+            <div class="tab-pane fade" id="subtopics">
+                {% include 'mcqs/search_results_subtopics.html' %}
+            </div>
+
+            <!-- MCQs Tab -->
+            <div class="tab-pane fade" id="mcqs">
+                {% include 'mcqs/search_results_mcqs.html' %}
+            </div>
+        </div>
+
+        <!-- Export Button -->
+        {% if user.is_authenticated %}
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <a href="{% url 'mcqs:export_search' %}?q={{ query }}&{{ request.GET.urlencode }}" 
+                   class="btn btn-success">
+                    <i class="fas fa-download"></i> Export Results to CSV
+                </a>
+            </div>
+        </div>
+        {% endif %}
+    {% else %}
+        <div class="alert alert-info">
+            <h4>No results found</h4>
+            <p>Try different keywords or check out <a href="{% url 'mcqs:search_analytics' %}">popular searches</a></p>
+        </div>
+    {% endif %}
+</div>
+
+<script>
+// Autocomplete functionality
+const searchInput = document.getElementById('searchInput');
+const suggestionsDiv = document.getElementById('suggestions');
+let debounceTimer;
+
+searchInput.addEventListener('input', function() {
+    clearTimeout(debounceTimer);
+    const query = this.value.trim();
+    
+    if (query.length < 2) {
+        suggestionsDiv.style.display = 'none';
+        return;
+    }
+    
+    debounceTimer = setTimeout(() => {
+        fetch(`{% url 'mcqs:search_suggestions' %}?q=${encodeURIComponent(query)}`)
+            .then(response => response.json())
+            .then(data => {
+                if (data.suggestions.length > 0) {
+                    suggestionsDiv.innerHTML = data.suggestions.map(s => 
+                        `<a href="{% url 'mcqs:global_search' %}?q=${encodeURIComponent(s.text)}" 
+                            class="list-group-item list-group-item-action">
+                            ${s.text} <span class="badge bg-secondary">${s.type || ''}</span>
+                        </a>`
+                    ).join('');
+                    suggestionsDiv.style.display = 'block';
+                } else {
+                    suggestionsDiv.style.display = 'none';
+                }
+            });
+    }, 300);
+});
+
+// Hide suggestions when clicking outside
+document.addEventListener('click', function(e) {
+    if (!searchInput.contains(e.target) && !suggestionsDiv.contains(e.target)) {
+        suggestionsDiv.style.display = 'none';
+    }
+});
+</script>
+{% endblock %}

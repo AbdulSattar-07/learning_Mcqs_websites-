@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block title %}Access Denied - MCQ Platform{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6 text-center">
+        <div class="card shadow">
+            <div class="card-body p-5">
+                <i class="bi bi-lock-fill text-warning" style="font-size: 5rem;"></i>
+                <h2 class="mt-4 mb-3">MCQ Access Required</h2>
+                <p class="lead">
+                    Your account does not have MCQ access. Please get a subscription to access MCQs.
+                </p>
+                
+                <div class="alert alert-info mt-4">
+                    <h5>Get Access Now!</h5>
+                    <p>Choose from 7, 15, or 30 days subscription packages</p>
+                </div>
+                
+                <hr class="my-4">
+                
+                <div class="d-grid gap-3">
+                    <a href="{% url 'accounts:subscription_request' %}" class="btn btn-success btn-lg">
+                        <i class="bi bi-whatsapp"></i> Get MCQ Access
+                    </a>
+                    
+                    <a href="{{ WHATSAPP_LINK }}" target="_blank" class="btn btn-outline-success btn-lg">
+                        <i class="bi bi-whatsapp"></i> Chat on WhatsApp: {{ WHATSAPP_NUMBER }}
+                    </a>
+                    
+                    <a href="{% url 'home' %}" class="btn btn-outline-secondary">
+                        <i class="bi bi-house"></i> Back to Home
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

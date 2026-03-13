@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% block title %}Popular Searches{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Popular Searches</h2>
+            <p class="text-muted">Discover what others are searching for (Last {{ days }} days)</p>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-8">
+            {% if popular_searches %}
+            <div class="list-group">
+                {% for query, count in popular_searches %}
+                <a href="{% url 'mcqs:global_search' %}?q={{ query }}" 
+                   class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                    <span>
+                        <i class="fas fa-search"></i> {{ query }}
+                    </span>
+                    <span class="badge bg-primary rounded-pill">{{ count }} search{{ count|pluralize:"es" }}</span>
+                </a>
+                {% endfor %}
+            </div>
+            {% else %}
+            <div class="alert alert-info">
+                No search data available yet. Be the first to search!
+            </div>
+            {% endif %}
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Quick Links</h5>
+                </div>
+                <div class="card-body">
+                    <ul class="list-unstyled">
+                        <li><a href="{% url 'mcqs:domain_list' %}">Browse Domains</a></li>
+                        <li><a href="{% url 'mcqs:topic_list' %}">Browse Topics</a></li>
+                        <li><a href="{% url 'mcqs:subtopic_list' %}">Browse Subtopics</a></li>
+                        {% if user.is_authenticated %}
+                        <li><a href="{% url 'mcqs:mcq_list' %}">Browse MCQs</a></li>
+                        {% endif %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

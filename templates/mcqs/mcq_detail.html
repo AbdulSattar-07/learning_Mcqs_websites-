@@ -1,0 +1,121 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}MCQ Detail - MCQ Platform{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/mcq_protection.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-10">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="{% url 'mcqs:mcq_list' %}">MCQs</a></li>
+                <li class="breadcrumb-item active">Question #{{ mcq.id }}</li>
+            </ol>
+        </nav>
+        
+        <div class="card shadow protected-content">
+            <div class="card-body p-4">
+                <div class="d-flex justify-content-between align-items-start mb-4">
+                    <div>
+                        <span class="badge bg-primary">{{ mcq.domain.name }}</span>
+                        <span class="badge bg-success">{{ mcq.topic.name }}</span>
+                        <span class="badge bg-info">{{ mcq.subtopic.name }}</span>
+                        {% if mcq.batch %}
+                        <span class="badge bg-secondary">{{ mcq.batch.name }}</span>
+                        {% endif %}
+                    </div>
+                    <div>
+                        {% if mcq.difficulty == 'Easy' %}
+                        <span class="badge bg-success">Easy</span>
+                        {% elif mcq.difficulty == 'Medium' %}
+                        <span class="badge bg-warning">Medium</span>
+                        {% else %}
+                        <span class="badge bg-danger">Hard</span>
+                        {% endif %}
+                        {% if mcq.tag %}
+                        <span class="badge bg-dark">{{ mcq.tag }}</span>
+                        {% endif %}
+                    </div>
+                </div>
+                
+                <h4 class="mb-4">Question #{{ mcq.id }}</h4>
+                <p class="lead">{{ mcq.question_text }}</p>
+                
+                <hr>
+                
+                <h5 class="mb-3">Options:</h5>
+                <div class="options mb-4">
+                    <div class="p-3 mb-2 border rounded">
+                        <strong>A.</strong> {{ mcq.option_a }}
+                    </div>
+                    <div class="p-3 mb-2 border rounded">
+                        <strong>B.</strong> {{ mcq.option_b }}
+                    </div>
+                    <div class="p-3 mb-2 border rounded">
+                        <strong>C.</strong> {{ mcq.option_c }}
+                    </div>
+                    <div class="p-3 mb-2 border rounded">
+                        <strong>D.</strong> {{ mcq.option_d }}
+                    </div>
+                </div>
+                
+                <div class="answer-section mb-4" id="answer-section" style="display: none;">
+                    <div class="alert alert-success">
+                        <h5><i class="bi bi-check-circle"></i> Correct Answer</h5>
+                        <p class="mb-0 fs-4"><strong>{{ mcq.correct_answer }}</strong></p>
+                    </div>
+                </div>
+                
+                <div class="reason-section mb-4" id="reason-section" style="display: none;">
+                    <div class="alert alert-info">
+                        <h5><i class="bi bi-lightbulb"></i> Explanation</h5>
+                        <p class="mb-0">{{ mcq.reason }}</p>
+                    </div>
+                </div>
+                
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-success" onclick="toggleAnswer()">
+                        <i class="bi bi-eye"></i> Show Answer
+                    </button>
+                    <button type="button" class="btn btn-info" onclick="toggleReason()">
+                        <i class="bi bi-lightbulb"></i> Show Reason
+                    </button>
+                </div>
+                
+                <hr class="my-4">
+                
+                <a href="{% url 'mcqs:mcq_list' %}" class="btn btn-outline-secondary">
+                    <i class="bi bi-arrow-left"></i> Back to MCQ List
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{% static 'js/mcq_protection.js' %}"></script>
+<script>
+function toggleAnswer() {
+    const answerDiv = document.getElementById('answer-section');
+    if (answerDiv.style.display === 'none') {
+        answerDiv.style.display = 'block';
+    } else {
+        answerDiv.style.display = 'none';
+    }
+}
+
+function toggleReason() {
+    const reasonDiv = document.getElementById('reason-section');
+    if (reasonDiv.style.display === 'none') {
+        reasonDiv.style.display = 'block';
+    } else {
+        reasonDiv.style.display = 'none';
+    }
+}
+</script>
+{% endblock %}

@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block title %}Get MCQ Access - Subscription Request{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="mb-0">Get MCQ Access</h3>
+                </div>
+                <div class="card-body">
+                    <div class="alert alert-info">
+                        <h5>How it works:</h5>
+                        <ol>
+                            <li>Fill out the form below with your details</li>
+                            <li>Select your preferred subscription package</li>
+                            <li>Submit your request</li>
+                            <li>Admin will review and contact you on WhatsApp</li>
+                            <li>You'll receive your login credentials via WhatsApp</li>
+                            <li>Login and start practicing MCQs immediately!</li>
+                        </ol>
+                        <p class="mb-0"><strong>Note:</strong> Only one device can be logged in at a time for security purposes.</p>
+                    </div>
+
+                    <div class="alert alert-success text-center">
+                        <h6><i class="bi bi-whatsapp"></i> Have Questions?</h6>
+                        <p class="mb-2">Contact us directly on WhatsApp before submitting:</p>
+                        <a href="{{ WHATSAPP_LINK }}" target="_blank" class="btn btn-success">
+                            <i class="bi bi-whatsapp"></i> Chat Now
+                        </a>
+                        <p class="mt-2 mb-0"><small>{{ WHATSAPP_NUMBER }}</small></p>
+                    </div>
+
+                    <h4 class="mt-4 mb-3">Available Packages:</h4>
+                    <div class="row mb-4">
+                        <div class="col-md-4">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">7 Days</h5>
+                                    <p class="card-text">Perfect for quick revision</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">15 Days</h5>
+                                    <p class="card-text">Ideal for thorough practice</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">30 Days</h5>
+                                    <p class="card-text">Complete preparation</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form method="post">
+                        {% csrf_token %}
+                        {{ form|crispy }}
+                        <div class="d-grid gap-2 mt-4">
+                            <button type="submit" class="btn btn-primary btn-lg">Submit Request</button>
+                            <a href="{% url 'home' %}" class="btn btn-secondary">Cancel</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

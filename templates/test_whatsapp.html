@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% block title %}WhatsApp Test{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2>WhatsApp Integration Test</h2>
+    
+    <div class="card mt-4">
+        <div class="card-body">
+            <h5>Configuration Values:</h5>
+            <p><strong>WHATSAPP_NUMBER:</strong> {{ WHATSAPP_NUMBER }}</p>
+            <p><strong>WHATSAPP_LINK:</strong> {{ WHATSAPP_LINK }}</p>
+        </div>
+    </div>
+    
+    <div class="card mt-4">
+        <div class="card-body">
+            <h5>Test Links:</h5>
+            
+            <div class="mb-3">
+                <p><strong>Test 1: Using Variable</strong></p>
+                <a href="{{ WHATSAPP_LINK }}" target="_blank" class="btn btn-success">
+                    <i class="bi bi-whatsapp"></i> Open WhatsApp (Variable)
+                </a>
+            </div>
+            
+            <div class="mb-3">
+                <p><strong>Test 2: Direct Link</strong></p>
+                <a href="https://wa.me/923252467739" target="_blank" class="btn btn-success">
+                    <i class="bi bi-whatsapp"></i> Open WhatsApp (Direct)
+                </a>
+            </div>
+            
+            <div class="mb-3">
+                <p><strong>Test 3: With Message</strong></p>
+                <a href="https://wa.me/923252467739?text=Hello%20from%20MCQ%20Platform" target="_blank" class="btn btn-success">
+                    <i class="bi bi-whatsapp"></i> Open WhatsApp (With Message)
+                </a>
+            </div>
+            
+            <div class="mb-3">
+                <p><strong>Test 4: Alternative Format</strong></p>
+                <a href="https://api.whatsapp.com/send?phone=923252467739" target="_blank" class="btn btn-success">
+                    <i class="bi bi-whatsapp"></i> Open WhatsApp (API Format)
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="alert alert-info mt-4">
+        <h5>Troubleshooting:</h5>
+        <ul>
+            <li>Make sure WhatsApp is installed (mobile) or WhatsApp Web is accessible (desktop)</li>
+            <li>Try different browsers (Chrome, Firefox, Edge)</li>
+            <li>Check if popup blocker is enabled</li>
+            <li>Try on mobile device</li>
+            <li>Clear browser cache and reload</li>
+        </ul>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block title %}Request Submitted Successfully{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow">
+                <div class="card-body text-center py-5">
+                    <div class="mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-check-circle text-success" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                        </svg>
+                    </div>
+                    <h2 class="text-success mb-3">Request Submitted Successfully!</h2>
+                    <p class="lead">Thank you for your subscription request.</p>
+                    
+                    <div class="alert alert-info text-start mt-4">
+                        <h5>What happens next?</h5>
+                        <ol>
+                            <li>Our admin will review your request</li>
+                            <li>You'll receive a message on your WhatsApp number</li>
+                            <li>The message will contain your username and password</li>
+                            <li>Use these credentials to login and access MCQs</li>
+                            <li>Your subscription will be active for the selected duration</li>
+                        </ol>
+                        <p class="mb-0"><strong>Important:</strong> Please keep your WhatsApp notifications on to receive your credentials promptly.</p>
+                    </div>
+
+                    <div class="alert alert-success text-center mt-4">
+                        <h5><i class="bi bi-whatsapp"></i> Need Help?</h5>
+                        <p class="mb-2">Contact us directly on WhatsApp:</p>
+                        <a href="{{ WHATSAPP_LINK }}" target="_blank" class="btn btn-success btn-lg">
+                            <i class="bi bi-whatsapp"></i> Chat on WhatsApp
+                        </a>
+                        <p class="mt-2 mb-0"><small>{{ WHATSAPP_NUMBER }}</small></p>
+                    </div>
+
+                    <div class="mt-4">
+                        <a href="{% url 'home' %}" class="btn btn-primary me-2">Go to Home</a>
+                        <a href="{% url 'accounts:login' %}" class="btn btn-outline-primary">Login Page</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

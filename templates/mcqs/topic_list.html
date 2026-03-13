@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+
+{% block title %}Topics - MCQ Platform{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        {% if domain %}
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="{% url 'mcqs:domain_list' %}">Domains</a></li>
+                <li class="breadcrumb-item active">{{ domain.name }}</li>
+            </ol>
+        </nav>
+        <h2 class="mb-4">
+            <i class="bi bi-list-ul"></i> Topics in {{ domain.name }}
+        </h2>
+        {% else %}
+        <h2 class="mb-4">
+            <i class="bi bi-list-ul"></i> All Topics
+        </h2>
+        {% endif %}
+        
+        <div class="row">
+            {% for topic in topics %}
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ topic.name }}</h5>
+                        <p class="text-muted small">
+                            <i class="bi bi-folder"></i> {{ topic.domain.name }}
+                        </p>
+                        <p class="card-text text-muted">{{ topic.description|truncatewords:15 }}</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="badge bg-success">{{ topic.subtopic_count }} Subtopics</span>
+                            <a href="{% url 'mcqs:subtopic_list_by_topic' topic.id %}" class="btn btn-sm btn-outline-success">
+                                View Subtopics <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% empty %}
+            <div class="col-12">
+                <div class="alert alert-info">
+                    <i class="bi bi-info-circle"></i> No topics available yet.
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}

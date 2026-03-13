@@ -1,0 +1,209 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}MCQs - MCQ Platform{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/mcq_protection.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <h2 class="mb-4">
+            <i class="bi bi-question-circle-fill"></i> Multiple Choice Questions
+        </h2>
+        
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5 class="card-title">
+                    <i class="bi bi-funnel"></i> Filters
+                </h5>
+                <form method="get" class="row g-3">
+                    <div class="col-md-3">
+                        <select name="domain" class="form-select">
+                            <option value="">All Domains</option>
+                            {% for domain in domains %}
+                            <option value="{{ domain.id }}" {% if selected_domain == domain.id|stringformat:"s" %}selected{% endif %}>
+                                {{ domain.name }}
+                            </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <select name="topic" class="form-select">
+                            <option value="">All Topics</option>
+                            {% for topic in topics %}
+                            <option value="{{ topic.id }}" {% if selected_topic == topic.id|stringformat:"s" %}selected{% endif %}>
+                                {{ topic.name }}
+                            </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <select name="subtopic" class="form-select">
+                            <option value="">All Subtopics</option>
+                            {% for subtopic in subtopics %}
+                            <option value="{{ subtopic.id }}" {% if selected_subtopic == subtopic.id|stringformat:"s" %}selected{% endif %}>
+                                {{ subtopic.name }}
+                            </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <select name="difficulty" class="form-select">
+                            <option value="">All Difficulties</option>
+                            <option value="Easy" {% if selected_difficulty == "Easy" %}selected{% endif %}>Easy</option>
+                            <option value="Medium" {% if selected_difficulty == "Medium" %}selected{% endif %}>Medium</option>
+                            <option value="Hard" {% if selected_difficulty == "Hard" %}selected{% endif %}>Hard</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" name="keyword" class="form-control" placeholder="Search keyword..." value="{{ keyword }}">
+                    </div>
+                    <div class="col-md-3">
+                        <input type="text" name="tag" class="form-control" placeholder="Tag..." value="{{ selected_tag }}">
+                    </div>
+                    <div class="col-md-3">
+                        <button type="submit" class="btn btn-primary w-100">
+                            <i class="bi bi-search"></i> Filter
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        {% for mcq in page_obj %}
+        <div class="card mb-3 mcq-card protected-content">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-start mb-3">
+                    <div>
+                        <span class="badge bg-primary">{{ mcq.domain.name }}</span>
+                        <span class="badge bg-success">{{ mcq.topic.name }}</span>
+                        <span class="badge bg-info">{{ mcq.subtopic.name }}</span>
+                        {% if mcq.batch %}
+                        <span class="badge bg-secondary">{{ mcq.batch.name }}</span>
+                        {% endif %}
+                    </div>
+                    <div>
+                        {% if mcq.difficulty == 'Easy' %}
+                        <span class="badge bg-success">Easy</span>
+                        {% elif mcq.difficulty == 'Medium' %}
+                        <span class="badge bg-warning">Medium</span>
+                        {% else %}
+                        <span class="badge bg-danger">Hard</span>
+                        {% endif %}
+                        {% if mcq.tag %}
+                        <span class="badge bg-dark">{{ mcq.tag }}</span>
+                        {% endif %}
+                    </div>
+                </div>
+                
+                <h5 class="card-title">Question #{{ mcq.id }}</h5>
+                <p class="card-text">{{ mcq.question_text }}</p>
+                
+                <div class="options mb-3">
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <strong>A.</strong> {{ mcq.option_a }}
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <strong>B.</strong> {{ mcq.option_b }}
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <strong>C.</strong> {{ mcq.option_c }}
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <strong>D.</strong> {{ mcq.option_d }}
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="answer-section" id="answer-{{ mcq.id }}" style="display: none;">
+                    <div class="alert alert-success">
+                        <strong><i class="bi bi-check-circle"></i> Correct Answer:</strong> {{ mcq.correct_answer }}
+                    </div>
+                </div>
+                
+                <div class="reason-section" id="reason-{{ mcq.id }}" style="display: none;">
+                    <div class="alert alert-info">
+                        <strong><i class="bi bi-lightbulb"></i> Explanation:</strong>
+                        <p class="mb-0 mt-2">{{ mcq.reason }}</p>
+                    </div>
+                </div>
+                
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-outline-success" onclick="toggleAnswer({{ mcq.id }})">
+                        <i class="bi bi-eye"></i> Show Answer
+                    </button>
+                    <button type="button" class="btn btn-outline-info" onclick="toggleReason({{ mcq.id }})">
+                        <i class="bi bi-lightbulb"></i> Show Reason
+                    </button>
+                </div>
+            </div>
+        </div>
+        {% empty %}
+        <div class="alert alert-info">
+            <i class="bi bi-info-circle"></i> No MCQs found matching your filters.
+        </div>
+        {% endfor %}
+        
+        {% if page_obj.has_other_pages %}
+        <nav aria-label="Page navigation">
+            <ul class="pagination justify-content-center">
+                {% if page_obj.has_previous %}
+                <li class="page-item">
+                    <a class="page-link" href="?page=1{% if selected_domain %}&domain={{ selected_domain }}{% endif %}{% if selected_topic %}&topic={{ selected_topic }}{% endif %}{% if selected_subtopic %}&subtopic={{ selected_subtopic }}{% endif %}{% if selected_difficulty %}&difficulty={{ selected_difficulty }}{% endif %}{% if selected_tag %}&tag={{ selected_tag }}{% endif %}{% if keyword %}&keyword={{ keyword }}{% endif %}">First</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="?page={{ page_obj.previous_page_number }}{% if selected_domain %}&domain={{ selected_domain }}{% endif %}{% if selected_topic %}&topic={{ selected_topic }}{% endif %}{% if selected_subtopic %}&subtopic={{ selected_subtopic }}{% endif %}{% if selected_difficulty %}&difficulty={{ selected_difficulty }}{% endif %}{% if selected_tag %}&tag={{ selected_tag }}{% endif %}{% if keyword %}&keyword={{ keyword }}{% endif %}">Previous</a>
+                </li>
+                {% endif %}
+                
+                <li class="page-item active">
+                    <span class="page-link">Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}</span>
+                </li>
+                
+                {% if page_obj.has_next %}
+                <li class="page-item">
+                    <a class="page-link" href="?page={{ page_obj.next_page_number }}{% if selected_domain %}&domain={{ selected_domain }}{% endif %}{% if selected_topic %}&topic={{ selected_topic }}{% endif %}{% if selected_subtopic %}&subtopic={{ selected_subtopic }}{% endif %}{% if selected_difficulty %}&difficulty={{ selected_difficulty }}{% endif %}{% if selected_tag %}&tag={{ selected_tag }}{% endif %}{% if keyword %}&keyword={{ keyword }}{% endif %}">Next</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="?page={{ page_obj.paginator.num_pages }}{% if selected_domain %}&domain={{ selected_domain }}{% endif %}{% if selected_topic %}&topic={{ selected_topic }}{% endif %}{% if selected_subtopic %}&subtopic={{ selected_subtopic }}{% endif %}{% if selected_difficulty %}&difficulty={{ selected_difficulty }}{% endif %}{% if selected_tag %}&tag={{ selected_tag }}{% endif %}{% if keyword %}&keyword={{ keyword }}{% endif %}">Last</a>
+                </li>
+                {% endif %}
+            </ul>
+        </nav>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{% static 'js/mcq_protection.js' %}"></script>
+<script>
+function toggleAnswer(mcqId) {
+    const answerDiv = document.getElementById('answer-' + mcqId);
+    if (answerDiv.style.display === 'none') {
+        answerDiv.style.display = 'block';
+    } else {
+        answerDiv.style.display = 'none';
+    }
+}
+
+function toggleReason(mcqId) {
+    const reasonDiv = document.getElementById('reason-' + mcqId);
+    if (reasonDiv.style.display === 'none') {
+        reasonDiv.style.display = 'block';
+    } else {
+        reasonDiv.style.display = 'none';
+    }
+}
+</script>
+{% endblock %}

@@ -1,0 +1,119 @@
+<!-- Combined view of all results -->
+
+{% if results.domains %}
+<div class="mb-4">
+    <h4>Domains</h4>
+    <div class="list-group">
+        {% for domain in results.domains %}
+        <a href="{% url 'mcqs:topic_list_by_domain' domain.id %}" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">{{ domain.name }}</h5>
+                <small>
+                    <span class="badge bg-primary">{{ domain.topic_count }} topics</span>
+                    <span class="badge bg-info">{{ domain.mcq_count }} MCQs</span>
+                </small>
+            </div>
+            {% if domain.description %}
+            <p class="mb-1">{{ domain.description|truncatewords:20 }}</p>
+            {% endif %}
+        </a>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
+
+{% if results.topics %}
+<div class="mb-4">
+    <h4>Topics</h4>
+    <div class="list-group">
+        {% for topic in results.topics %}
+        <a href="{% url 'mcqs:subtopic_list_by_topic' topic.id %}" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">{{ topic.name }}</h5>
+                <small>
+                    <span class="badge bg-primary">{{ topic.subtopic_count }} subtopics</span>
+                    <span class="badge bg-info">{{ topic.mcq_count }} MCQs</span>
+                </small>
+            </div>
+            <small class="text-muted">{{ topic.domain.name }}</small>
+            {% if topic.description %}
+            <p class="mb-1">{{ topic.description|truncatewords:20 }}</p>
+            {% endif %}
+        </a>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
+
+{% if results.subtopics %}
+<div class="mb-4">
+    <h4>Subtopics</h4>
+    <div class="list-group">
+        {% for subtopic in results.subtopics %}
+        <a href="{% url 'mcqs:mcq_list' %}?subtopic={{ subtopic.id }}" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">{{ subtopic.name }}</h5>
+                <small>
+                    <span class="badge bg-info">{{ subtopic.mcq_count }} MCQs</span>
+                </small>
+            </div>
+            <small class="text-muted">{{ subtopic.topic.domain.name }} > {{ subtopic.topic.name }}</small>
+            {% if subtopic.description %}
+            <p class="mb-1">{{ subtopic.description|truncatewords:20 }}</p>
+            {% endif %}
+        </a>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
+
+{% if results.mcqs %}
+<div class="mb-4">
+    <h4>MCQs</h4>
+    {% if user.is_authenticated and user.has_mcq_access %}
+        <div class="list-group">
+            {% for mcq in mcq_page_obj %}
+            <a href="{% url 'mcqs:mcq_detail' mcq.id %}" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1">{{ mcq.question_text|truncatewords:15 }}</h6>
+                    <small>
+                        <span class="badge bg-{{ mcq.difficulty|lower }}">{{ mcq.difficulty }}</span>
+                        {% if mcq.tag %}<span class="badge bg-secondary">{{ mcq.tag }}</span>{% endif %}
+                    </small>
+                </div>
+                <small class="text-muted">
+                    {{ mcq.domain.name }} > {{ mcq.topic.name }} > {{ mcq.subtopic.name }}
+                </small>
+            </a>
+            {% endfor %}
+        </div>
+        
+        <!-- Pagination -->
+        {% if mcq_page_obj.has_other_pages %}
+        <nav class="mt-3">
+            <ul class="pagination">
+                {% if mcq_page_obj.has_previous %}
+                <li class="page-item">
+                    <a class="page-link" href="?q={{ query }}&page={{ mcq_page_obj.previous_page_number }}">Previous</a>
+                </li>
+                {% endif %}
+                
+                <li class="page-item active">
+                    <span class="page-link">Page {{ mcq_page_obj.number }} of {{ mcq_page_obj.paginator.num_pages }}</span>
+                </li>
+                
+                {% if mcq_page_obj.has_next %}
+                <li class="page-item">
+                    <a class="page-link" href="?q={{ query }}&page={{ mcq_page_obj.next_page_number }}">Next</a>
+                </li>
+                {% endif %}
+            </ul>
+        </nav>
+        {% endif %}
+    {% else %}
+        <div class="alert alert-warning">
+            <a href="{% url 'accounts:login' %}">Login</a> to view MCQ details
+        </div>
+    {% endif %}
+</div>
+{% endif %}
