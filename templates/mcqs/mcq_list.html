@@ -189,21 +189,66 @@
 <script src="{% static 'js/mcq_protection.js' %}"></script>
 <script>
 function toggleAnswer(mcqId) {
-    const answerDiv = document.getElementById('answer-' + mcqId);
-    if (answerDiv.style.display === 'none') {
-        answerDiv.style.display = 'block';
-    } else {
-        answerDiv.style.display = 'none';
+    try {
+        const answerDiv = document.getElementById('answer-' + mcqId);
+        const button = event.target.closest('button');
+        
+        if (!answerDiv) {
+            console.error('Answer div not found for MCQ:', mcqId);
+            return;
+        }
+        
+        if (answerDiv.style.display === 'none' || answerDiv.style.display === '') {
+            answerDiv.style.display = 'block';
+            if (button) {
+                button.innerHTML = '<i class="bi bi-eye-slash"></i> Hide Answer';
+                button.classList.remove('btn-outline-success');
+                button.classList.add('btn-success');
+            }
+        } else {
+            answerDiv.style.display = 'none';
+            if (button) {
+                button.innerHTML = '<i class="bi bi-eye"></i> Show Answer';
+                button.classList.remove('btn-success');
+                button.classList.add('btn-outline-success');
+            }
+        }
+    } catch (error) {
+        console.error('Error toggling answer:', error);
     }
 }
 
 function toggleReason(mcqId) {
-    const reasonDiv = document.getElementById('reason-' + mcqId);
-    if (reasonDiv.style.display === 'none') {
-        reasonDiv.style.display = 'block';
-    } else {
-        reasonDiv.style.display = 'none';
+    try {
+        const reasonDiv = document.getElementById('reason-' + mcqId);
+        const button = event.target.closest('button');
+        
+        if (!reasonDiv) {
+            console.error('Reason div not found for MCQ:', mcqId);
+            return;
+        }
+        
+        if (reasonDiv.style.display === 'none' || reasonDiv.style.display === '') {
+            reasonDiv.style.display = 'block';
+            if (button) {
+                button.innerHTML = '<i class="bi bi-lightbulb-fill"></i> Hide Reason';
+                button.classList.remove('btn-outline-info');
+                button.classList.add('btn-info');
+            }
+        } else {
+            reasonDiv.style.display = 'none';
+            if (button) {
+                button.innerHTML = '<i class="bi bi-lightbulb"></i> Show Reason';
+                button.classList.remove('btn-info');
+                button.classList.add('btn-outline-info');
+            }
+        }
+    } catch (error) {
+        console.error('Error toggling reason:', error);
     }
 }
+
+// Debug: Log when script loads
+console.log('MCQ toggle functions loaded successfully');
 </script>
 {% endblock %}
