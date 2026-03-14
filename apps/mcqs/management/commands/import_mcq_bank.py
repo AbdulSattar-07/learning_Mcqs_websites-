@@ -20,6 +20,7 @@ class Command(BaseCommand):
             'skipped': 0,
             'errors': 0
         }
+        self.verbosity = 1
     
     def add_arguments(self, parser):
         parser.add_argument(
@@ -37,6 +38,7 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         mcq_bank_path = options['path']
         clear_existing = options['clear']
+        self.verbosity = options.get('verbosity', 1)
         
         # Validate path
         if not os.path.exists(mcq_bank_path):
@@ -108,9 +110,20 @@ class Command(BaseCommand):
             # Import MCQs
             imported = self.import_mcqs(mcqs)
             
-            self.stdout.write(self.style.SUCCESS(
-                f'     ✓ Imported: {imported} MCQs'
-            ))
+            total_parsed = len(mcqs)
+            
+            if imported == total_parsed and total_parsed > 0:
+                self.stdout.write(self.style.SUCCESS(
+                    f'     ✓ Imported: {imported}/{total_parsed} MCQs'
+                ))
+            elif imported > 0:
+                self.stdout.write(self.style.WARNING(
+                    f'     ⚠ Imported: {imported}/{total_parsed} MCQs'
+                ))
+            else:
+                self.stdout.write(self.style.ERROR(
+                    f'     ✗ Failed: 0/{total_parsed} MCQs imported'
+                ))
             
         except Exception as e:
             self.stdout.write(self.style.ERROR(f'     ✗ Error: {str(e)}'))
@@ -123,77 +136,87 @@ class Command(BaseCommand):
         # Split content by question markers
         question_blocks = re.split(r'###\s+Question\s+\d+', content)
         
-        for block in question_blocks[1:]:  # Skip first empty split
+        total_questions = len(question_blocks) - 1
+        
+        for idx, block in enumerate(question_blocks[1:], 1):  # Skip first empty split
             try:
                 mcq_data = self.parse_single_mcq(block, batch_filename)
                 if mcq_data:
                     mcqs.append(mcq_data)
             except Exception as e:
-                self.stdout.write(self.style.WARNING(f'     Warning: Failed to parse MCQ - {str(e)}'))
+                self.stdout.write(self.style.WARNING(
+                    f'     ⚠ Q{idx}/{total_questions}: {str(e)[:80]}'
+                ))
                 self.stats['errors'] += 1
+                
+                # Debug: Show first 200 chars of problematic block
+                if self.verbosity >= 2:
+                    self.stdout.write(f'     Block preview: {block[:200]}...')
         
         return mcqs
     
     def parse_single_mcq(self, block, batch_filename):
-        """Parse a single MCQ from text block"""
+        """Parse a single MCQ from text block with improved regex"""
         mcq_data = {}
         
         # Extract Domain
-        domain_match = re.search(r'Domain:\s*(.+)', block)
+        domain_match = re.search(r'Domain:\s*(.+?)(?=\n)', block, re.IGNORECASE)
         if domain_match:
             mcq_data['domain'] = domain_match.group(1).strip()
         
         # Extract Topic
-        topic_match = re.search(r'Topic:\s*(.+)', block)
+        topic_match = re.search(r'Topic:\s*(.+?)(?=\n)', block, re.IGNORECASE)
         if topic_match:
             mcq_data['topic'] = topic_match.group(1).strip()
         
         # Extract Subtopic
-        subtopic_match = re.search(r'Subtopic:\s*(.+)', block)
+        subtopic_match = re.search(r'Subtopic:\s*(.+?)(?=\n)', block, re.IGNORECASE)
         if subtopic_match:
             mcq_data['subtopic'] = subtopic_match.group(1).strip()
         
         # Extract Difficulty
-        difficulty_match = re.search(r'Difficulty:\s*(.+)', block)
+        difficulty_match = re.search(r'Difficulty:\s*(.+?)(?=\n)', block, re.IGNORECASE)
         if difficulty_match:
             mcq_data['difficulty'] = difficulty_match.group(1).strip()
         
-        # Extract Question
-        question_match = re.search(r'Question:\s*(.+?)(?=\nA\))', block, re.DOTALL)
+        # Extract Question - improved pattern
+        question_match = re.search(r'Question:\s*(.+?)(?=\n[A-D]\))', block, re.DOTALL | re.IGNORECASE)
         if question_match:
             mcq_data['question'] = question_match.group(1).strip()
         
-        # Extract Options
-        option_a_match = re.search(r'A\)\s*(.+?)(?=\nB\))', block, re.DOTALL)
+        # Extract Options - improved patterns to handle multiline
+        option_a_match = re.search(r'A\)\s*(.+?)(?=\n[B-D]\)|\n✔|\nCorrect)', block, re.DOTALL | re.IGNORECASE)
         if option_a_match:
             mcq_data['option_a'] = option_a_match.group(1).strip()
         
-        option_b_match = re.search(r'B\)\s*(.+?)(?=\nC\))', block, re.DOTALL)
+        option_b_match = re.search(r'B\)\s*(.+?)(?=\n[C-D]\)|\n✔|\nCorrect)', block, re.DOTALL | re.IGNORECASE)
         if option_b_match:
             mcq_data['option_b'] = option_b_match.group(1).strip()
         
-        option_c_match = re.search(r'C\)\s*(.+?)(?=\nD\))', block, re.DOTALL)
+        option_c_match = re.search(r'C\)\s*(.+?)(?=\nD\)|\n✔|\nCorrect)', block, re.DOTALL | re.IGNORECASE)
         if option_c_match:
             mcq_data['option_c'] = option_c_match.group(1).strip()
         
-        option_d_match = re.search(r'D\)\s*(.+?)(?=\n)', block, re.DOTALL)
+        option_d_match = re.search(r'D\)\s*(.+?)(?=\n✔|\nCorrect)', block, re.DOTALL | re.IGNORECASE)
         if option_d_match:
             mcq_data['option_d'] = option_d_match.group(1).strip()
         
-        # Extract Correct Answer
-        answer_match = re.search(r'✔\s*Correct Answer:\s*([A-D])', block)
+        # Extract Correct Answer - multiple patterns
+        answer_match = re.search(r'(?:✔\s*)?Correct\s*Answer:\s*([A-D])', block, re.IGNORECASE)
         if answer_match:
-            mcq_data['correct_answer'] = answer_match.group(1).strip()
+            mcq_data['correct_answer'] = answer_match.group(1).strip().upper()
         
-        # Extract Reason
-        reason_match = re.search(r'Reason:\s*(.+?)(?=\nTag:)', block, re.DOTALL)
+        # Extract Reason - improved pattern
+        reason_match = re.search(r'Reason:\s*(.+?)(?=\nTag:|\n---|\Z)', block, re.DOTALL | re.IGNORECASE)
         if reason_match:
             mcq_data['reason'] = reason_match.group(1).strip()
         
         # Extract Tag
-        tag_match = re.search(r'Tag:\s*(.+)', block)
+        tag_match = re.search(r'Tag:\s*(.+?)(?=\n---|\Z)', block, re.IGNORECASE)
         if tag_match:
             mcq_data['tag'] = tag_match.group(1).strip()
+        else:
+            mcq_data['tag'] = 'Normal'  # Default tag
         
         # Add batch filename
         mcq_data['batch_name'] = batch_filename.replace('.md', '')
@@ -203,11 +226,13 @@ class Command(BaseCommand):
                           'option_a', 'option_b', 'option_c', 'option_d', 
                           'correct_answer', 'reason']
         
-        if all(field in mcq_data for field in required_fields):
-            return mcq_data
-        else:
-            missing = [f for f in required_fields if f not in mcq_data]
+        missing = [f for f in required_fields if f not in mcq_data or not mcq_data[f]]
+        
+        if missing:
+            # Try to provide more context for debugging
             raise ValueError(f"Missing fields: {', '.join(missing)}")
+        
+        return mcq_data
     
     @transaction.atomic
     def import_mcqs(self, mcqs):
