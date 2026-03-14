@@ -1,0 +1,77 @@
+/* MCQ Content Protection Styles - Simplified */
+
+/* Disable text selection but allow ALL interactive elements */
+.protected-content {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* CRITICAL: Allow ALL buttons and interactive elements to work properly */
+.protected-content button,
+.protected-content .btn,
+.protected-content .btn-group,
+.protected-content input,
+.protected-content select,
+.protected-content textarea,
+.protected-content a,
+.protected-content label {
+    -webkit-user-select: auto !important;
+    -moz-user-select: auto !important;
+    -ms-user-select: auto !important;
+    user-select: auto !important;
+    pointer-events: auto !important;
+    cursor: pointer !important;
+}
+
+/* Ensure buttons are clickable */
+button, .btn {
+    pointer-events: auto !important;
+    cursor: pointer !important;
+}
+
+/* Disable dragging */
+.protected-content img,
+.protected-content p,
+.protected-content div {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+}
+
+/* Watermark overlay (optional) */
+.protected-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Ensure content is still visible */
+.protected-content * {
+    position: relative;
+    z-index: 2;
+}
+
+/* Print protection */
+@media print {
+    .protected-content {
+        display: none !important;
+    }
+    
+    body::before {
+        content: "This content is protected and cannot be printed.";
+        display: block;
+        text-align: center;
+        font-size: 24px;
+        padding: 50px;
+        color: red;
+    }
+}
