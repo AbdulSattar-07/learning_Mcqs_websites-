@@ -4,11 +4,11 @@
 {% block title %}MCQ Detail - MCQ Platform{% endblock %}
 
 {% block extra_css %}
-<!-- Protection CSS removed for button functionality -->
+<link rel="stylesheet" href="{% static 'css/mcq_protection.css' %}">
 {% endblock %}
 
 {% block content %}
-<div class="row justify-content-center">
+<div class="row justify-content-center protected-content">
     <div class="col-lg-10">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
@@ -98,13 +98,12 @@
 {% endblock %}
 
 {% block extra_js %}
+<script src="{% static 'js/mcq_protection.js' %}"></script>
 <script>
-// Wait for DOM to be fully loaded
+// MCQ Detail Show/Hide Functionality - SIMPLIFIED VERSION
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('=== MCQ Detail Page Loaded ===');
-    console.log('Time:', new Date().toLocaleTimeString());
+    console.log('=== MCQ Detail Page Loading ===');
     
-    // Get elements
     const answerButton = document.getElementById('btn-show-answer');
     const reasonButton = document.getElementById('btn-show-reason');
     const answerSection = document.getElementById('answer-section');
@@ -115,67 +114,43 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('Answer Section:', answerSection !== null);
     console.log('Reason Section:', reasonSection !== null);
     
-    // Answer button click handler
     if (answerButton && answerSection) {
-        answerButton.addEventListener('click', function(e) {
-            e.preventDefault();
-            e.stopPropagation();
-            
-            console.log('Answer button clicked');
-            console.log('Current display:', answerSection.style.display);
-            
+        answerButton.onclick = function() {
             if (answerSection.style.display === 'none' || answerSection.style.display === '') {
-                // Show answer
                 answerSection.style.display = 'block';
                 this.innerHTML = '<i class="bi bi-eye-slash"></i> Hide Answer';
                 this.classList.remove('btn-success');
                 this.classList.add('btn-danger');
-                console.log('Answer SHOWN');
+                console.log('✓ Answer SHOWN');
             } else {
-                // Hide answer
                 answerSection.style.display = 'none';
                 this.innerHTML = '<i class="bi bi-eye"></i> Show Answer';
                 this.classList.remove('btn-danger');
                 this.classList.add('btn-success');
-                console.log('Answer HIDDEN');
+                console.log('✓ Answer HIDDEN');
             }
-        });
-        console.log('Answer button event listener attached');
-    } else {
-        console.error('Answer button or section not found!');
+        };
     }
     
-    // Reason button click handler
     if (reasonButton && reasonSection) {
-        reasonButton.addEventListener('click', function(e) {
-            e.preventDefault();
-            e.stopPropagation();
-            
-            console.log('Reason button clicked');
-            console.log('Current display:', reasonSection.style.display);
-            
+        reasonButton.onclick = function() {
             if (reasonSection.style.display === 'none' || reasonSection.style.display === '') {
-                // Show reason
                 reasonSection.style.display = 'block';
                 this.innerHTML = '<i class="bi bi-lightbulb-fill"></i> Hide Reason';
                 this.classList.remove('btn-info');
                 this.classList.add('btn-warning');
-                console.log('Reason SHOWN');
+                console.log('✓ Reason SHOWN');
             } else {
-                // Hide reason
                 reasonSection.style.display = 'none';
                 this.innerHTML = '<i class="bi bi-lightbulb"></i> Show Reason';
                 this.classList.remove('btn-warning');
                 this.classList.add('btn-info');
-                console.log('Reason HIDDEN');
+                console.log('✓ Reason HIDDEN');
             }
-        });
-        console.log('Reason button event listener attached');
-    } else {
-        console.error('Reason button or section not found!');
+        };
     }
     
-    console.log('=== Event Listeners Attached Successfully ===');
+    console.log('=== MCQ Detail Buttons Ready ===');
 });
 </script>
 {% endblock %}

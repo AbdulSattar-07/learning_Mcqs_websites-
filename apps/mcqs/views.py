@@ -61,7 +61,7 @@ def mcq_list(request):
     tag = request.GET.get('tag')
     keyword = request.GET.get('keyword')
     
-    # Base queryset with optimizations
+    # Base queryset with optimizations and domain-wise ordering
     mcqs = MCQ.objects.select_related('domain', 'topic', 'subtopic', 'batch').all()
     
     # Apply filters
@@ -86,10 +86,18 @@ def mcq_list(request):
             Q(option_d__icontains=keyword)
         )
     
+    # Order by domain display_order, then topic, subtopic, and ID
+    mcqs = mcqs.order_by('domain__display_order', 'domain__name', 'topic__name', 'subtopic__name', 'id')
+    
     # Pagination
     paginator = Paginator(mcqs, 20)
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
+    
+    # Add sequential numbering starting from page start
+    start_index = (page_obj.number - 1) * paginator.per_page
+    for idx, mcq in enumerate(page_obj, start=start_index + 1):
+        mcq.display_number = idx
     
     # Get filter options
     domains = Domain.objects.all()

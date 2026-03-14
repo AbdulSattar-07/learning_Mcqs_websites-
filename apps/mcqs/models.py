@@ -4,13 +4,17 @@ from django.db import models
 class Domain(models.Model):
     name = models.CharField(max_length=200, unique=True)
     description = models.TextField(blank=True)
+    display_order = models.IntegerField(default=0, help_text='Order in which domain should be displayed')
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     
     class Meta:
         db_table = 'domain'
-        ordering = ['name']
-        indexes = [models.Index(fields=['name'])]
+        ordering = ['display_order', 'name']
+        indexes = [
+            models.Index(fields=['name']),
+            models.Index(fields=['display_order']),
+        ]
     
     def __str__(self):
         return self.name
@@ -99,7 +103,7 @@ class MCQ(models.Model):
     
     class Meta:
         db_table = 'mcq'
-        ordering = ['-created_at']
+        ordering = ['domain__display_order', 'domain__name', 'topic__name', 'subtopic__name', 'id']
         indexes = [
             models.Index(fields=['domain', 'topic', 'subtopic']),
             models.Index(fields=['difficulty']),

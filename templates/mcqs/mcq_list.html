@@ -4,11 +4,11 @@
 {% block title %}MCQs - MCQ Platform{% endblock %}
 
 {% block extra_css %}
-<!-- Protection CSS removed for button functionality -->
+<link rel="stylesheet" href="{% static 'css/mcq_protection.css' %}">
 {% endblock %}
 
 {% block content %}
-<div class="row">
+<div class="row protected-content">
     <div class="col-12">
         <h2 class="mb-4">
             <i class="bi bi-question-circle-fill"></i> Multiple Choice Questions
@@ -73,7 +73,17 @@
             </div>
         </div>
 
-        {% for mcq in page_obj %}
+        {% regroup page_obj by domain as domain_groups %}
+        
+        {% for domain_group in domain_groups %}
+        <!-- Domain Header -->
+        <div class="alert alert-primary mb-3" role="alert">
+            <h4 class="mb-0">
+                <i class="bi bi-folder-fill"></i> Domain {{ domain_group.grouper.display_order|stringformat:"02d" }}: {{ domain_group.grouper.name }}
+            </h4>
+        </div>
+        
+        {% for mcq in domain_group.list %}
         <div class="card mb-3 mcq-card">
             <div class="card-body">
                 <div class="d-flex justify-content-between align-items-start mb-3">
@@ -99,7 +109,7 @@
                     </div>
                 </div>
                 
-                <h5 class="card-title">Question #{{ mcq.id }}</h5>
+                <h5 class="card-title">Question #{{ mcq.display_number }}</h5>
                 <p class="card-text">{{ mcq.question_text }}</p>
                 
                 <div class="options mb-3">
@@ -150,6 +160,11 @@
         </div>
         {% empty %}
         <div class="alert alert-info">
+            <i class="bi bi-info-circle"></i> No MCQs found in this domain.
+        </div>
+        {% endfor %}
+        {% empty %}
+        <div class="alert alert-info">
             <i class="bi bi-info-circle"></i> No MCQs found matching your filters.
         </div>
         {% endfor %}
@@ -186,91 +201,69 @@
 {% endblock %}
 
 {% block extra_js %}
+<script src="{% static 'js/mcq_protection.js' %}"></script>
 <script>
-// Wait for DOM to be fully loaded
+// MCQ Show/Hide Functionality - SIMPLIFIED VERSION
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('=== MCQ Page Loaded ===');
-    console.log('Time:', new Date().toLocaleTimeString());
+    console.log('=== MCQ Buttons Initializing ===');
     
-    // Get all Show Answer buttons
-    const answerButtons = document.querySelectorAll('.btn-show-answer');
-    console.log('Found Answer Buttons:', answerButtons.length);
-    
-    // Get all Show Reason buttons
-    const reasonButtons = document.querySelectorAll('.btn-show-reason');
-    console.log('Found Reason Buttons:', reasonButtons.length);
-    
-    // Add click event to each Answer button
-    answerButtons.forEach(function(button) {
-        button.addEventListener('click', function(e) {
-            e.preventDefault();
-            e.stopPropagation();
-            
+    // Show Answer buttons
+    document.querySelectorAll('.btn-show-answer').forEach(function(button) {
+        button.onclick = function() {
             const mcqId = this.getAttribute('data-mcq-id');
             const answerDiv = document.getElementById('answer-' + mcqId);
             
             console.log('Answer button clicked for MCQ:', mcqId);
-            console.log('Answer div found:', answerDiv !== null);
             
             if (answerDiv) {
                 if (answerDiv.style.display === 'none' || answerDiv.style.display === '') {
-                    // Show answer
                     answerDiv.style.display = 'block';
                     this.innerHTML = '<i class="bi bi-eye-slash"></i> Hide Answer';
                     this.classList.remove('btn-outline-success');
                     this.classList.add('btn-success');
-                    console.log('Answer SHOWN');
+                    console.log('✓ Answer SHOWN');
                 } else {
-                    // Hide answer
                     answerDiv.style.display = 'none';
                     this.innerHTML = '<i class="bi bi-eye"></i> Show Answer';
                     this.classList.remove('btn-success');
                     this.classList.add('btn-outline-success');
-                    console.log('Answer HIDDEN');
+                    console.log('✓ Answer HIDDEN');
                 }
             } else {
-                console.error('Answer div NOT FOUND for MCQ:', mcqId);
-                alert('Error: Cannot find answer section!');
+                console.error('❌ Answer div not found:', 'answer-' + mcqId);
             }
-        });
+        };
     });
     
-    // Add click event to each Reason button
-    reasonButtons.forEach(function(button) {
-        button.addEventListener('click', function(e) {
-            e.preventDefault();
-            e.stopPropagation();
-            
+    // Show Reason buttons
+    document.querySelectorAll('.btn-show-reason').forEach(function(button) {
+        button.onclick = function() {
             const mcqId = this.getAttribute('data-mcq-id');
             const reasonDiv = document.getElementById('reason-' + mcqId);
             
             console.log('Reason button clicked for MCQ:', mcqId);
-            console.log('Reason div found:', reasonDiv !== null);
             
             if (reasonDiv) {
                 if (reasonDiv.style.display === 'none' || reasonDiv.style.display === '') {
-                    // Show reason
                     reasonDiv.style.display = 'block';
                     this.innerHTML = '<i class="bi bi-lightbulb-fill"></i> Hide Reason';
                     this.classList.remove('btn-outline-info');
                     this.classList.add('btn-info');
-                    console.log('Reason SHOWN');
+                    console.log('✓ Reason SHOWN');
                 } else {
-                    // Hide reason
                     reasonDiv.style.display = 'none';
                     this.innerHTML = '<i class="bi bi-lightbulb"></i> Show Reason';
                     this.classList.remove('btn-info');
                     this.classList.add('btn-outline-info');
-                    console.log('Reason HIDDEN');
+                    console.log('✓ Reason HIDDEN');
                 }
             } else {
-                console.error('Reason div NOT FOUND for MCQ:', mcqId);
-                alert('Error: Cannot find reason section!');
+                console.error('❌ Reason div not found:', 'reason-' + mcqId);
             }
-        });
+        };
     });
     
-    console.log('=== Event Listeners Attached Successfully ===');
+    console.log('=== MCQ Buttons Ready ===');
 });
 </script>
 {% endblock %}
