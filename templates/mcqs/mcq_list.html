@@ -4,7 +4,7 @@
 {% block title %}MCQs - MCQ Platform{% endblock %}
 
 {% block extra_css %}
-<link rel="stylesheet" href="{% static 'css/mcq_protection.css' %}?v=2.0">
+<!-- Protection CSS removed for button functionality -->
 {% endblock %}
 
 {% block content %}
@@ -74,7 +74,7 @@
         </div>
 
         {% for mcq in page_obj %}
-        <div class="card mb-3 mcq-card protected-content">
+        <div class="card mb-3 mcq-card">
             <div class="card-body">
                 <div class="d-flex justify-content-between align-items-start mb-3">
                     <div>
