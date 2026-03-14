@@ -203,67 +203,116 @@
 {% block extra_js %}
 <script src="{% static 'js/mcq_protection.js' %}"></script>
 <script>
-// MCQ Show/Hide Functionality - SIMPLIFIED VERSION
-document.addEventListener('DOMContentLoaded', function() {
-    console.log('=== MCQ Buttons Initializing ===');
+// MCQ Show/Hide Functionality - FIXED VERSION
+(function() {
+    'use strict';
     
-    // Show Answer buttons
-    document.querySelectorAll('.btn-show-answer').forEach(function(button) {
-        button.onclick = function() {
-            const mcqId = this.getAttribute('data-mcq-id');
-            const answerDiv = document.getElementById('answer-' + mcqId);
+    console.log('=== MCQ Buttons Script Loading ===');
+    
+    function initializeMCQButtons() {
+        console.log('=== Initializing MCQ Buttons ===');
+        
+        // Show Answer buttons
+        const answerButtons = document.querySelectorAll('.btn-show-answer');
+        console.log('Found Answer Buttons:', answerButtons.length);
+        
+        answerButtons.forEach(function(button) {
+            console.log('Setting up Answer button for MCQ:', button.getAttribute('data-mcq-id'));
             
-            console.log('Answer button clicked for MCQ:', mcqId);
-            
-            if (answerDiv) {
-                if (answerDiv.style.display === 'none' || answerDiv.style.display === '') {
-                    answerDiv.style.display = 'block';
-                    this.innerHTML = '<i class="bi bi-eye-slash"></i> Hide Answer';
-                    this.classList.remove('btn-outline-success');
-                    this.classList.add('btn-success');
-                    console.log('✓ Answer SHOWN');
+            // Remove any existing event listeners
+            button.replaceWith(button.cloneNode(true));
+        });
+        
+        // Re-select after cloning
+        document.querySelectorAll('.btn-show-answer').forEach(function(button) {
+            button.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                
+                const mcqId = this.getAttribute('data-mcq-id');
+                const answerDiv = document.getElementById('answer-' + mcqId);
+                
+                console.log('✓ Answer button CLICKED for MCQ:', mcqId);
+                
+                if (answerDiv) {
+                    const isHidden = answerDiv.style.display === 'none' || answerDiv.style.display === '';
+                    
+                    if (isHidden) {
+                        answerDiv.style.display = 'block';
+                        this.innerHTML = '<i class="bi bi-eye-slash"></i> Hide Answer';
+                        this.classList.remove('btn-outline-success');
+                        this.classList.add('btn-success');
+                        console.log('✓✓ Answer SHOWN for MCQ:', mcqId);
+                    } else {
+                        answerDiv.style.display = 'none';
+                        this.innerHTML = '<i class="bi bi-eye"></i> Show Answer';
+                        this.classList.remove('btn-success');
+                        this.classList.add('btn-outline-success');
+                        console.log('✓✓ Answer HIDDEN for MCQ:', mcqId);
+                    }
                 } else {
-                    answerDiv.style.display = 'none';
-                    this.innerHTML = '<i class="bi bi-eye"></i> Show Answer';
-                    this.classList.remove('btn-success');
-                    this.classList.add('btn-outline-success');
-                    console.log('✓ Answer HIDDEN');
+                    console.error('❌ Answer div NOT FOUND:', 'answer-' + mcqId);
                 }
-            } else {
-                console.error('❌ Answer div not found:', 'answer-' + mcqId);
-            }
-        };
-    });
-    
-    // Show Reason buttons
-    document.querySelectorAll('.btn-show-reason').forEach(function(button) {
-        button.onclick = function() {
-            const mcqId = this.getAttribute('data-mcq-id');
-            const reasonDiv = document.getElementById('reason-' + mcqId);
+            }, true);
+        });
+        
+        // Show Reason buttons
+        const reasonButtons = document.querySelectorAll('.btn-show-reason');
+        console.log('Found Reason Buttons:', reasonButtons.length);
+        
+        reasonButtons.forEach(function(button) {
+            console.log('Setting up Reason button for MCQ:', button.getAttribute('data-mcq-id'));
             
-            console.log('Reason button clicked for MCQ:', mcqId);
-            
-            if (reasonDiv) {
-                if (reasonDiv.style.display === 'none' || reasonDiv.style.display === '') {
-                    reasonDiv.style.display = 'block';
-                    this.innerHTML = '<i class="bi bi-lightbulb-fill"></i> Hide Reason';
-                    this.classList.remove('btn-outline-info');
-                    this.classList.add('btn-info');
-                    console.log('✓ Reason SHOWN');
+            // Remove any existing event listeners
+            button.replaceWith(button.cloneNode(true));
+        });
+        
+        // Re-select after cloning
+        document.querySelectorAll('.btn-show-reason').forEach(function(button) {
+            button.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                
+                const mcqId = this.getAttribute('data-mcq-id');
+                const reasonDiv = document.getElementById('reason-' + mcqId);
+                
+                console.log('✓ Reason button CLICKED for MCQ:', mcqId);
+                
+                if (reasonDiv) {
+                    const isHidden = reasonDiv.style.display === 'none' || reasonDiv.style.display === '';
+                    
+                    if (isHidden) {
+                        reasonDiv.style.display = 'block';
+                        this.innerHTML = '<i class="bi bi-lightbulb-fill"></i> Hide Reason';
+                        this.classList.remove('btn-outline-info');
+                        this.classList.add('btn-info');
+                        console.log('✓✓ Reason SHOWN for MCQ:', mcqId);
+                    } else {
+                        reasonDiv.style.display = 'none';
+                        this.innerHTML = '<i class="bi bi-lightbulb"></i> Show Reason';
+                        this.classList.remove('btn-info');
+                        this.classList.add('btn-outline-info');
+                        console.log('✓✓ Reason HIDDEN for MCQ:', mcqId);
+                    }
                 } else {
-                    reasonDiv.style.display = 'none';
-                    this.innerHTML = '<i class="bi bi-lightbulb"></i> Show Reason';
-                    this.classList.remove('btn-info');
-                    this.classList.add('btn-outline-info');
-                    console.log('✓ Reason HIDDEN');
+                    console.error('❌ Reason div NOT FOUND:', 'reason-' + mcqId);
                 }
-            } else {
-                console.error('❌ Reason div not found:', 'reason-' + mcqId);
-            }
-        };
-    });
+            }, true);
+        });
+        
+        console.log('=== MCQ Buttons Ready ===');
+    }
     
-    console.log('=== MCQ Buttons Ready ===');
-});
+    // Initialize when DOM is ready
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initializeMCQButtons);
+    } else {
+        initializeMCQButtons();
+    }
+    
+    // Also initialize after a short delay to ensure everything is loaded
+    setTimeout(initializeMCQButtons, 500);
+    
+})();
 </script>
 {% endblock %}

@@ -1,4 +1,4 @@
-/* MCQ Content Protection Styles - Simplified */
+/* MCQ Content Protection Styles - FIXED */
 
 /* Disable text selection but allow ALL interactive elements */
 .protected-content {
@@ -6,29 +6,37 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    position: relative;
 }
 
 /* CRITICAL: Allow ALL buttons and interactive elements to work properly */
 .protected-content button,
 .protected-content .btn,
+.protected-content .btn-show-answer,
+.protected-content .btn-show-reason,
 .protected-content .btn-group,
+.protected-content .btn-group button,
 .protected-content input,
 .protected-content select,
 .protected-content textarea,
 .protected-content a,
-.protected-content label {
+.protected-content label,
+.protected-content .page-link {
     -webkit-user-select: auto !important;
     -moz-user-select: auto !important;
     -ms-user-select: auto !important;
     user-select: auto !important;
     pointer-events: auto !important;
     cursor: pointer !important;
+    position: relative !important;
+    z-index: 1000 !important;
 }
 
-/* Ensure buttons are clickable */
-button, .btn {
+/* Ensure buttons are ALWAYS clickable */
+button, .btn, .btn-show-answer, .btn-show-reason {
     pointer-events: auto !important;
     cursor: pointer !important;
+    z-index: 1000 !important;
 }
 
 /* Disable dragging */
