@@ -1,26 +1,34 @@
-/* MCQ Content Protection Styles */
+/* MCQ Content Protection Styles - Simplified */
 
-/* Disable text selection but allow buttons to work */
+/* Disable text selection but allow ALL interactive elements */
 .protected-content {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    -webkit-touch-callout: none;
 }
 
-/* Allow buttons and interactive elements to work */
+/* CRITICAL: Allow ALL buttons and interactive elements to work properly */
 .protected-content button,
 .protected-content .btn,
+.protected-content .btn-group,
 .protected-content input,
 .protected-content select,
-.protected-content a {
-    -webkit-user-select: auto;
-    -moz-user-select: auto;
-    -ms-user-select: auto;
-    user-select: auto;
-    pointer-events: auto;
-    cursor: pointer;
+.protected-content textarea,
+.protected-content a,
+.protected-content label {
+    -webkit-user-select: auto !important;
+    -moz-user-select: auto !important;
+    -ms-user-select: auto !important;
+    user-select: auto !important;
+    pointer-events: auto !important;
+    cursor: pointer !important;
+}
+
+/* Ensure buttons are clickable */
+button, .btn {
+    pointer-events: auto !important;
+    cursor: pointer !important;
 }
 
 /* Disable dragging */

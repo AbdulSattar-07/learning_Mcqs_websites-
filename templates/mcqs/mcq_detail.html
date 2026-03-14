@@ -63,25 +63,25 @@
                     </div>
                 </div>
                 
-                <div class="answer-section mb-4" id="answer-section" style="display: none;">
-                    <div class="alert alert-success">
+                <div class="answer-section" id="answer-section" style="display: none;">
+                    <div class="alert alert-success mt-3">
                         <h5><i class="bi bi-check-circle"></i> Correct Answer</h5>
                         <p class="mb-0 fs-4"><strong>{{ mcq.correct_answer }}</strong></p>
                     </div>
                 </div>
                 
-                <div class="reason-section mb-4" id="reason-section" style="display: none;">
-                    <div class="alert alert-info">
+                <div class="reason-section" id="reason-section" style="display: none;">
+                    <div class="alert alert-info mt-3">
                         <h5><i class="bi bi-lightbulb"></i> Explanation</h5>
                         <p class="mb-0">{{ mcq.reason }}</p>
                     </div>
                 </div>
                 
-                <div class="btn-group" role="group">
-                    <button type="button" class="btn btn-success" onclick="toggleAnswer()">
+                <div class="btn-group mt-3" role="group">
+                    <button type="button" class="btn btn-success" id="btn-show-answer">
                         <i class="bi bi-eye"></i> Show Answer
                     </button>
-                    <button type="button" class="btn btn-info" onclick="toggleReason()">
+                    <button type="button" class="btn btn-info" id="btn-show-reason">
                         <i class="bi bi-lightbulb"></i> Show Reason
                     </button>
                 </div>
@@ -98,86 +98,84 @@
 {% endblock %}
 
 {% block extra_js %}
-<script src="{% static 'js/mcq_protection.js' %}?v=2.0"></script>
 <script>
-function toggleAnswer() {
-    try {
-        const answerDiv = document.getElementById('answer-section');
-        const button = event.target.closest('button');
-        
-        console.log('toggleAnswer called');
-        console.log('answerDiv found:', answerDiv);
-        console.log('current display:', answerDiv ? answerDiv.style.display : 'not found');
-        
-        if (!answerDiv) {
-            console.error('Answer section not found');
-            alert('Error: Answer section not found!');
-            return;
-        }
-        
-        if (answerDiv.style.display === 'none' || answerDiv.style.display === '') {
-            answerDiv.style.display = 'block';
-            console.log('Answer shown');
-            if (button) {
-                button.innerHTML = '<i class="bi bi-eye-slash"></i> Hide Answer';
-                button.classList.remove('btn-success');
-                button.classList.add('btn-danger');
+// Wait for DOM to be fully loaded
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('=== MCQ Detail Page Loaded ===');
+    console.log('Time:', new Date().toLocaleTimeString());
+    
+    // Get elements
+    const answerButton = document.getElementById('btn-show-answer');
+    const reasonButton = document.getElementById('btn-show-reason');
+    const answerSection = document.getElementById('answer-section');
+    const reasonSection = document.getElementById('reason-section');
+    
+    console.log('Answer Button:', answerButton !== null);
+    console.log('Reason Button:', reasonButton !== null);
+    console.log('Answer Section:', answerSection !== null);
+    console.log('Reason Section:', reasonSection !== null);
+    
+    // Answer button click handler
+    if (answerButton && answerSection) {
+        answerButton.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            
+            console.log('Answer button clicked');
+            console.log('Current display:', answerSection.style.display);
+            
+            if (answerSection.style.display === 'none' || answerSection.style.display === '') {
+                // Show answer
+                answerSection.style.display = 'block';
+                this.innerHTML = '<i class="bi bi-eye-slash"></i> Hide Answer';
+                this.classList.remove('btn-success');
+                this.classList.add('btn-danger');
+                console.log('Answer SHOWN');
+            } else {
+                // Hide answer
+                answerSection.style.display = 'none';
+                this.innerHTML = '<i class="bi bi-eye"></i> Show Answer';
+                this.classList.remove('btn-danger');
+                this.classList.add('btn-success');
+                console.log('Answer HIDDEN');
             }
-        } else {
-            answerDiv.style.display = 'none';
-            console.log('Answer hidden');
-            if (button) {
-                button.innerHTML = '<i class="bi bi-eye"></i> Show Answer';
-                button.classList.remove('btn-danger');
-                button.classList.add('btn-success');
-            }
-        }
-    } catch (error) {
-        console.error('Error toggling answer:', error);
-        alert('Error: ' + error.message);
+        });
+        console.log('Answer button event listener attached');
+    } else {
+        console.error('Answer button or section not found!');
     }
-}
-
-function toggleReason() {
-    try {
-        const reasonDiv = document.getElementById('reason-section');
-        const button = event.target.closest('button');
-        
-        console.log('toggleReason called');
-        console.log('reasonDiv found:', reasonDiv);
-        console.log('current display:', reasonDiv ? reasonDiv.style.display : 'not found');
-        
-        if (!reasonDiv) {
-            console.error('Reason section not found');
-            alert('Error: Reason section not found!');
-            return;
-        }
-        
-        if (reasonDiv.style.display === 'none' || reasonDiv.style.display === '') {
-            reasonDiv.style.display = 'block';
-            console.log('Reason shown');
-            if (button) {
-                button.innerHTML = '<i class="bi bi-lightbulb-fill"></i> Hide Reason';
-                button.classList.remove('btn-info');
-                button.classList.add('btn-warning');
+    
+    // Reason button click handler
+    if (reasonButton && reasonSection) {
+        reasonButton.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            
+            console.log('Reason button clicked');
+            console.log('Current display:', reasonSection.style.display);
+            
+            if (reasonSection.style.display === 'none' || reasonSection.style.display === '') {
+                // Show reason
+                reasonSection.style.display = 'block';
+                this.innerHTML = '<i class="bi bi-lightbulb-fill"></i> Hide Reason';
+                this.classList.remove('btn-info');
+                this.classList.add('btn-warning');
+                console.log('Reason SHOWN');
+            } else {
+                // Hide reason
+                reasonSection.style.display = 'none';
+                this.innerHTML = '<i class="bi bi-lightbulb"></i> Show Reason';
+                this.classList.remove('btn-warning');
+                this.classList.add('btn-info');
+                console.log('Reason HIDDEN');
             }
-        } else {
-            reasonDiv.style.display = 'none';
-            console.log('Reason hidden');
-            if (button) {
-                button.innerHTML = '<i class="bi bi-lightbulb"></i> Show Reason';
-                button.classList.remove('btn-warning');
-                button.classList.add('btn-info');
-            }
-        }
-    } catch (error) {
-        console.error('Error toggling reason:', error);
-        alert('Error: ' + error.message);
+        });
+        console.log('Reason button event listener attached');
+    } else {
+        console.error('Reason button or section not found!');
     }
-}
-
-// Debug log
-console.log('MCQ detail toggle functions loaded - Version 2.0');
-console.log('Page loaded at:', new Date().toLocaleTimeString());
+    
+    console.log('=== Event Listeners Attached Successfully ===');
+});
 </script>
 {% endblock %}
