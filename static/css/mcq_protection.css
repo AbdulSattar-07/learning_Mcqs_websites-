@@ -1,12 +1,26 @@
 /* MCQ Content Protection Styles */
 
-/* Disable text selection */
+/* Disable text selection but allow buttons to work */
 .protected-content {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
     -webkit-touch-callout: none;
+}
+
+/* Allow buttons and interactive elements to work */
+.protected-content button,
+.protected-content .btn,
+.protected-content input,
+.protected-content select,
+.protected-content a {
+    -webkit-user-select: auto;
+    -moz-user-select: auto;
+    -ms-user-select: auto;
+    user-select: auto;
+    pointer-events: auto;
+    cursor: pointer;
 }
 
 /* Disable dragging */

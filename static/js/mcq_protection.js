@@ -9,8 +9,12 @@
         return false;
     });
 
-    // Disable text selection via mouse
+    // Disable text selection via mouse (but allow buttons to work)
     document.addEventListener('selectstart', function (e) {
+        // Allow buttons and interactive elements to work
+        if (e.target.tagName === 'BUTTON' || e.target.closest('button')) {
+            return true;
+        }
         if (e.target.closest('.protected-content')) {
             e.preventDefault();
             return false;
