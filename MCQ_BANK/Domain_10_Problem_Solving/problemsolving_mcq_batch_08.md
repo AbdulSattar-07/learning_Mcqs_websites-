@@ -435,9 +435,7 @@ Question: What does I/O complexity measure?
 A) CPU time
 B) Number of data transfers between memory levels
 C) Memory usage
-D: No measurement
-
-D) [Missing option - Please review]
+D) No measurement
 
 ✔ Correct Answer: B
 
@@ -1508,9 +1506,7 @@ Question: When is Johnson's algorithm preferred over Floyd-Warshall?
 A) Dense graphs
 B) Sparse graphs
 C) Always
-D: Never
-
-D) [Missing option - Please review]
+D) Never
 
 ✔ Correct Answer: B
 

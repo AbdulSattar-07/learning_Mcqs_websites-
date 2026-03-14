@@ -72,9 +72,7 @@ Difficulty: Hard
 Question: What is Bridge pattern?
 A) Connects classes
 B) Separates abstraction from implementation
-C: Bridge between objects
-C) [Missing option - Please review]
-
+C) Bridge between objects
 D) Connection pattern
 
 ✔ Correct Answer: B

@@ -10,12 +10,10 @@ Subtopic: Replace Words
 Difficulty: Medium
 
 Question: How to replace words with shortest root from dictionary?
-A: Check each word against all roots
-B: Build trie of roots, search for shortest prefix match
-C: Sort dictionary
-D: Hashmap
-
-D) [Missing option - Please review]
+A) Check each word against all roots
+B) Build trie of roots, search for shortest prefix match
+C) Sort dictionary
+D) Hashmap
 
 ✔ Correct Answer: B
 
@@ -32,12 +30,10 @@ Subtopic: Shortest Bridge
 Difficulty: Medium
 
 Question: Find shortest bridge connecting two islands in binary matrix?
-A: BFS from all cells
-B: DFS to find first island, BFS to find shortest path to second
-C: Count distances
-D: Diagonal search
-
-D) [Missing option - Please review]
+A) BFS from all cells
+B) DFS to find first island, BFS to find shortest path to second
+C) Count distances
+D) Diagonal search
 
 ✔ Correct Answer: B
 
@@ -54,12 +50,10 @@ Subtopic: Minimum ASCII Delete Sum
 Difficulty: Medium
 
 Question: Minimum ASCII sum of deleted characters to make two strings equal?
-A: Delete all different characters
-B: DP: dp[i][j] = min cost for s1[0:i] and s2[0:j]
-C: Greedy delete largest
-D: Count differences
-
-D) [Missing option - Please review]
+A) Delete all different characters
+B) DP: dp[i][j] = min cost for s1[0:i] and s2[0:j]
+C) Greedy delete largest
+D) Count differences
 
 ✔ Correct Answer: B
 
@@ -76,12 +70,10 @@ Subtopic: Find Duplicate Subtrees
 Difficulty: Medium
 
 Question: How to find all duplicate subtrees?
-A: Compare all pairs
-B: Serialize each subtree, use hashmap to track occurrences
-C: Inorder comparison
-D: Count nodes
-
-D) [Missing option - Please review]
+A) Compare all pairs
+B) Serialize each subtree, use hashmap to track occurrences
+C) Inorder comparison
+D) Count nodes
 
 ✔ Correct Answer: B
 
@@ -98,12 +90,10 @@ Subtopic: Shortest Unsorted Subarray
 Difficulty: Medium
 
 Question: Find shortest subarray to sort to make entire array sorted?
-A: Sort and compare
-B: Find leftmost and rightmost out-of-place elements
-C: Linear scan
-D: Binary search
-
-D) [Missing option - Please review]
+A) Sort and compare
+B) Find leftmost and rightmost out-of-place elements
+C) Linear scan
+D) Binary search
 
 ✔ Correct Answer: B
 
@@ -120,12 +110,10 @@ Subtopic: Repeated DNA Sequences
 Difficulty: Medium
 
 Question: Find all 10-letter sequences that occur more than once in DNA string?
-A: Check all substrings
-B: Sliding window with hashset tracking seen and repeated
-C: Sort substrings
-D: Trie
-
-D) [Missing option - Please review]
+A) Check all substrings
+B) Sliding window with hashset tracking seen and repeated
+C) Sort substrings
+D) Trie
 
 ✔ Correct Answer: B
 
@@ -142,12 +130,10 @@ Subtopic: Reconstruct Itinerary
 Difficulty: Medium
 
 Question: Reconstruct itinerary from tickets using all tickets once, lexical order?
-A: Sort tickets
-B: Hierholzer's algorithm for Eulerian path with DFS
-C: BFS
-D: Greedy
-
-D) [Missing option - Please review]
+A) Sort tickets
+B) Hierholzer's algorithm for Eulerian path with DFS
+C) BFS
+D) Greedy
 
 ✔ Correct Answer: B
 
@@ -164,12 +150,10 @@ Subtopic: Partition Equal Subset Sum
 Difficulty: Medium
 
 Question: Can array be partitioned into two subsets with equal sum?
-A: Try all partitions
-B: DP subset sum for target = total_sum/2
-C: Greedy split
-D: Sort and split
-
-D) [Missing option - Please review]
+A) Try all partitions
+B) DP subset sum for target = total_sum/2
+C) Greedy split
+D) Sort and split
 
 ✔ Correct Answer: B
 
@@ -186,12 +170,10 @@ Subtopic: Path Sum III
 Difficulty: Medium
 
 Question: Count paths with given sum (not necessarily root to leaf)?
-A: Check all paths O(n²)
-B: DFS with prefix sum hashmap
-C: Level order
-D: Inorder traversal
-
-D) [Missing option - Please review]
+A) Check all paths O(n²)
+B) DFS with prefix sum hashmap
+C) Level order
+D) Inorder traversal
 
 ✔ Correct Answer: B
 
@@ -208,12 +190,10 @@ Subtopic: Find All Duplicates
 Difficulty: Medium
 
 Question: Find all duplicates in array where 1 ≤ a[i] ≤ n in O(n) time O(1) space?
-A: Use hashset
-B: Mark visited by negating value at index a[i]-1
-C: Sort array
-D: Nested loops
-
-D) [Missing option - Please review]
+A) Use hashset
+B) Mark visited by negating value at index a[i]-1
+C) Sort array
+D) Nested loops
 
 ✔ Correct Answer: B
 
@@ -230,12 +210,10 @@ Subtopic: Decode String
 Difficulty: Medium
 
 Question: Decode string like "3[a2[c]]" to "accaccacc"?
-A: Recursion only
-B: Stack for numbers and strings, build result
-C: String replacement
-D: Iteration
-
-D) [Missing option - Please review]
+A) Recursion only
+B) Stack for numbers and strings, build result
+C) String replacement
+D) Iteration
 
 ✔ Correct Answer: B
 
@@ -252,12 +230,10 @@ Subtopic: Satisfiability of Equality Equations
 Difficulty: Medium
 
 Question: Check if equality equations are satisfiable?
-A: Solve algebraically
-B: Union-Find: union equal variables, check if inequal variables in same set
-C: Graph coloring
-D: DFS
-
-D) [Missing option - Please review]
+A) Solve algebraically
+B) Union-Find: union equal variables, check if inequal variables in same set
+C) Graph coloring
+D) DFS
 
 ✔ Correct Answer: B
 
@@ -274,12 +250,10 @@ Subtopic: Smallest String Starting From Leaf
 Difficulty: Medium
 
 Question: Find lexicographically smallest string from leaf to root?
-A: Inorder traversal
-B: DFS all root-to-leaf paths, reverse and compare
-C: Level order
-D: Preorder
-
-D) [Missing option - Please review]
+A) Inorder traversal
+B) DFS all root-to-leaf paths, reverse and compare
+C) Level order
+D) Preorder
 
 ✔ Correct Answer: B
 
@@ -296,12 +270,10 @@ Subtopic: Target Sum
 Difficulty: Medium
 
 Question: Count ways to assign +/- to numbers to reach target?
-A: Try all combinations 2^n
-B: DP subset sum: find subset with sum = (total+target)/2
-C: Greedy
-D: Backtracking only
-
-D) [Missing option - Please review]
+A) Try all combinations 2^n
+B) DP subset sum: find subset with sum = (total+target)/2
+C) Greedy
+D) Backtracking only
 
 ✔ Correct Answer: B
 
@@ -318,12 +290,10 @@ Subtopic: Advantage Shuffle
 Difficulty: Medium
 
 Question: Rearrange A to maximize advantage over B (A[i] > B[i] count)?
-A: Sort both
-B: Greedy: sort both, use smallest A that beats B[i], else use smallest remaining
-C: Random shuffle
-D: Reverse A
-
-D) [Missing option - Please review]
+A) Sort both
+B) Greedy: sort both, use smallest A that beats B[i], else use smallest remaining
+C) Random shuffle
+D) Reverse A
 
 ✔ Correct Answer: B
 
@@ -340,12 +310,10 @@ Subtopic: Bold Words in String
 Difficulty: Medium
 
 Question: How to bold all occurrences of dictionary words in string?
-A: Replace each word
-B: Mark bold intervals, merge overlapping, insert tags
-C: Trie search
-D: Regex
-
-D) [Missing option - Please review]
+A) Replace each word
+B) Mark bold intervals, merge overlapping, insert tags
+C) Trie search
+D) Regex
 
 ✔ Correct Answer: B
 
@@ -362,12 +330,10 @@ Subtopic: Minimize Malware Spread
 Difficulty: Hard
 
 Question: Which node removal minimizes malware spread?
-A: Remove highest degree node
-B: Union-Find to find components, remove node from largest infected component
-C: Remove random node
-D: BFS from each
-
-D) [Missing option - Please review]
+A) Remove highest degree node
+B) Union-Find to find components, remove node from largest infected component
+C) Remove random node
+D) BFS from each
 
 ✔ Correct Answer: B
 
@@ -384,12 +350,10 @@ Subtopic: Flip Equivalent Binary Trees
 Difficulty: Medium
 
 Question: Check if trees are flip equivalent (can swap children)?
-A: Compare structures only
-B: Recursively check if equal or flipped children are equivalent
-C: Inorder comparison
-D: Level order comparison
-
-D) [Missing option - Please review]
+A) Compare structures only
+B) Recursively check if equal or flipped children are equivalent
+C) Inorder comparison
+D) Level order comparison
 
 ✔ Correct Answer: B
 
@@ -406,12 +370,10 @@ Subtopic: Knight Probability
 Difficulty: Medium
 
 Question: Probability knight remains on board after K moves?
-A: Count all paths
-B: DP: dp[k][r][c] = probability at position after k moves
-C: Random simulation
-D: Greedy
-
-D) [Missing option - Please review]
+A) Count all paths
+B) DP: dp[k][r][c] = probability at position after k moves
+C) Random simulation
+D) Greedy
 
 ✔ Correct Answer: B
 
@@ -428,12 +390,10 @@ Subtopic: Shortest Subarray with Sum at Least K
 Difficulty: Hard
 
 Question: Find shortest subarray with sum ≥ K?
-A: Check all subarrays
-B: Prefix sum with monotonic deque
-C: Two pointers
-D: Binary search
-
-D) [Missing option - Please review]
+A) Check all subarrays
+B) Prefix sum with monotonic deque
+C) Two pointers
+D) Binary search
 
 ✔ Correct Answer: B
 
@@ -450,12 +410,10 @@ Subtopic: Longest Duplicate Substring
 Difficulty: Hard
 
 Question: Find longest duplicate substring?
-A: Check all substrings O(n²)
-B: Binary search on length + Rabin-Karp rolling hash
-C: Trie
-D: Sort suffixes
-
-D) [Missing option - Please review]
+A) Check all substrings O(n²)
+B) Binary search on length + Rabin-Karp rolling hash
+C) Trie
+D) Sort suffixes
 
 ✔ Correct Answer: B
 
@@ -472,12 +430,10 @@ Subtopic: Regions Cut By Slashes
 Difficulty: Medium
 
 Question: Count regions in grid with '/', '\', and ' '?
-A: Count slashes
-B: Divide each cell into 4 triangles, Union-Find
-C: DFS on cells
-D: BFS
-
-D) [Missing option - Please review]
+A) Count slashes
+B) Divide each cell into 4 triangles, Union-Find
+C) DFS on cells
+D) BFS
 
 ✔ Correct Answer: B
 
@@ -494,12 +450,10 @@ Subtopic: Smallest Subtree with All Deepest Nodes
 Difficulty: Medium
 
 Question: Find smallest subtree containing all deepest nodes?
-A: Find all deepest nodes
-B: Recursively return depth and LCA of deepest nodes
-C: Level order
-D: Preorder
-
-D) [Missing option - Please review]
+A) Find all deepest nodes
+B) Recursively return depth and LCA of deepest nodes
+C) Level order
+D) Preorder
 
 ✔ Correct Answer: B
 
@@ -516,12 +470,10 @@ Subtopic: Soup Servings
 Difficulty: Medium
 
 Question: Probability of serving soup A first with given operations?
-A: Simulate all scenarios
-B: DP with memoization on remaining amounts
-C: Calculate directly
-D: Random
-
-D) [Missing option - Please review]
+A) Simulate all scenarios
+B) DP with memoization on remaining amounts
+C) Calculate directly
+D) Random
 
 ✔ Correct Answer: B
 
@@ -538,12 +490,10 @@ Subtopic: Pancake Sorting
 Difficulty: Medium
 
 Question: Sort array using only flip(k) operation (reverse first k elements)?
-A: Bubble sort
-B: Find max, flip to front, flip to position, repeat
-C: Merge sort
-D: Quick sort
-
-D) [Missing option - Please review]
+A) Bubble sort
+B) Find max, flip to front, flip to position, repeat
+C) Merge sort
+D) Quick sort
 
 ✔ Correct Answer: B
 
@@ -560,12 +510,10 @@ Subtopic: Remove Duplicate Letters
 Difficulty: Medium
 
 Question: Remove duplicate letters to get lexicographically smallest result?
-A: Remove all duplicates
-B: Stack with greedy removal: pop if current < top and top appears later
-C: Sort characters
-D: First occurrence only
-
-D) [Missing option - Please review]
+A) Remove all duplicates
+B) Stack with greedy removal: pop if current < top and top appears later
+C) Sort characters
+D) First occurrence only
 
 ✔ Correct Answer: B
 
@@ -582,12 +530,10 @@ Subtopic: Possible Bipartition
 Difficulty: Medium
 
 Question: Check if graph can be bipartitioned (two groups with no internal edges)?
-A: Count nodes
-B: Graph coloring with 2 colors using BFS/DFS
-C: Check degrees
-D: Sort nodes
-
-D) [Missing option - Please review]
+A) Count nodes
+B) Graph coloring with 2 colors using BFS/DFS
+C) Check degrees
+D) Sort nodes
 
 ✔ Correct Answer: B
 
@@ -604,12 +550,10 @@ Subtopic: Complete Binary Tree Inserter
 Difficulty: Medium
 
 Question: How to implement insert in complete binary tree maintaining completeness?
-A: Insert randomly
-B: Level order queue tracking nodes with available children
-C: Always insert left
-D: Balanced insertion
-
-D) [Missing option - Please review]
+A) Insert randomly
+B) Level order queue tracking nodes with available children
+C) Always insert left
+D) Balanced insertion
 
 ✔ Correct Answer: B
 
@@ -626,12 +570,10 @@ Subtopic: Profitable Schemes
 Difficulty: Hard
 
 Question: Count schemes with at least minProfit and at most G members?
-A: Try all combinations
-B: DP: dp[g][p] = ways with g members and p profit
-C: Greedy
-D: Backtracking
-
-D) [Missing option - Please review]
+A) Try all combinations
+B) DP: dp[g][p] = ways with g members and p profit
+C) Greedy
+D) Backtracking
 
 ✔ Correct Answer: B
 
@@ -648,12 +590,10 @@ Subtopic: Minimum Domino Rotations
 Difficulty: Medium
 
 Question: Minimum rotations to make all dominoes show same value?
-A: Try all values
-B: Check if top[0] or bottom[0] can fill entire row, count swaps
-C: Sort dominoes
-D: Greedy
-
-D) [Missing option - Please review]
+A) Try all values
+B) Check if top[0] or bottom[0] can fill entire row, count swaps
+C) Sort dominoes
+D) Greedy
 
 ✔ Correct Answer: B
 
@@ -670,10 +610,10 @@ Subtopic: Longest String Chain
 Difficulty: Medium
 
 Question: Find longest chain where each word is predecessor of next (one letter added)?
-A: Check all pairs
-B: Sort by length, DP on each word checking predecessors
-C: Trie
-D: Greedy
+A) Check all pairs
+B) Sort by length, DP on each word checking predecessors
+C) Trie
+D) Greedy
 
 ✔ Correct Answer: B
 
@@ -690,12 +630,10 @@ Subtopic: Shortest Path Visiting All Nodes
 Difficulty: Hard
 
 Question: Shortest path visiting all nodes in undirected graph (can revisit)?
-A: DFS all paths
-B: BFS with state (visited_set, current_node)
-C: Dijkstra
-D: Greedy nearest
-
-D) [Missing option - Please review]
+A) DFS all paths
+B) BFS with state (visited_set, current_node)
+C) Dijkstra
+D) Greedy nearest
 
 ✔ Correct Answer: B
 
@@ -712,12 +650,10 @@ Subtopic: Binary Tree Coloring Game
 Difficulty: Medium
 
 Question: Can second player win tree coloring game?
-A: Always
-B: Check if second player can control larger subtree by blocking first player's node
-C: Never
-D: Random
-
-D) [Missing option - Please review]
+A) Always
+B) Check if second player can control larger subtree by blocking first player's node
+C) Never
+D) Random
 
 ✔ Correct Answer: B
 
@@ -734,12 +670,10 @@ Subtopic: Number of Longest Increasing Subsequence
 Difficulty: Medium
 
 Question: Count number of LIS (not just length)?
-A: Generate all subsequences
-B: DP: track both length and count at each position
-C: Backtracking
-D: Greedy
-
-D) [Missing option - Please review]
+A) Generate all subsequences
+B) DP: track both length and count at each position
+C) Backtracking
+D) Greedy
 
 ✔ Correct Answer: B
 
@@ -756,12 +690,10 @@ Subtopic: Largest Plus Sign
 Difficulty: Medium
 
 Question: Find largest plus sign of 1s in binary matrix?
-A: Check all centers
-B: Precompute consecutive 1s in 4 directions, min is plus size
-C: DFS
-D: Count 1s
-
-D) [Missing option - Please review]
+A) Check all centers
+B) Precompute consecutive 1s in 4 directions, min is plus size
+C) DFS
+D) Count 1s
 
 ✔ Correct Answer: B
 
@@ -778,12 +710,10 @@ Subtopic: Shortest Way to Form String
 Difficulty: Medium
 
 Question: Minimum subsequences of source to form target?
-A: Greedy matching
-B: For each char in target, find in source from last position, increment count on wrap
-C: DP
-D: Sort strings
-
-D) [Missing option - Please review]
+A) Greedy matching
+B) For each char in target, find in source from last position, increment count on wrap
+C) DP
+D) Sort strings
 
 ✔ Correct Answer: B
 
@@ -800,12 +730,10 @@ Subtopic: Minimum Cost to Connect Sticks
 Difficulty: Medium
 
 Question: Minimum cost to connect n sticks (cost = sum of lengths)?
-A: Connect in order
-B: Min heap: always connect two smallest sticks
-C: Connect largest first
-D: Random
-
-D) [Missing option - Please review]
+A) Connect in order
+B) Min heap: always connect two smallest sticks
+C) Connect largest first
+D) Random
 
 ✔ Correct Answer: B
 
@@ -822,12 +750,10 @@ Subtopic: Maximum Difference Between Node and Ancestor
 Difficulty: Medium
 
 Question: Find maximum |node.val - ancestor.val|?
-A: Compare all pairs
-B: DFS tracking min and max in path, compute difference at leaves
-C: Level order
-D: Inorder
-
-D) [Missing option - Please review]
+A) Compare all pairs
+B) DFS tracking min and max in path, compute difference at leaves
+C) Level order
+D) Inorder
 
 ✔ Correct Answer: B
 
@@ -844,12 +770,10 @@ Subtopic: Minimum Falling Path Sum
 Difficulty: Medium
 
 Question: Minimum sum of falling path in matrix (move down, down-left, down-right)?
-A: Greedy down
-B: DP: dp[i][j] = min path sum to position (i,j)
-C: DFS all paths
-D: Diagonal sum
-
-D) [Missing option - Please review]
+A) Greedy down
+B) DP: dp[i][j] = min path sum to position (i,j)
+C) DFS all paths
+D) Diagonal sum
 
 ✔ Correct Answer: B
 
@@ -866,12 +790,10 @@ Subtopic: Online Stock Span
 Difficulty: Medium
 
 Question: How to calculate stock span (consecutive days with price ≤ today)?
-A: Check all previous days
-B: Monotonic stack storing (price, span) pairs
-C: Array scan
-D: Heap
-
-D) [Missing option - Please review]
+A) Check all previous days
+B) Monotonic stack storing (price, span) pairs
+C) Array scan
+D) Heap
 
 ✔ Correct Answer: B
 
@@ -888,12 +810,10 @@ Subtopic: Minimum Add to Make Parentheses Valid
 Difficulty: Medium
 
 Question: Minimum insertions to make parentheses valid?
-A: Count all parentheses
-B: Track unmatched opening and closing counts
-C: Stack size
-D: String length
-
-D) [Missing option - Please review]
+A) Count all parentheses
+B) Track unmatched opening and closing counts
+C) Stack size
+D) String length
 
 ✔ Correct Answer: B
 
@@ -910,12 +830,10 @@ Subtopic: Loud and Rich
 Difficulty: Medium
 
 Question: Find quietest person among richer people (including self)?
-A: Check all people
-B: DFS/BFS on reverse graph (richer → person), track minimum quiet
-C: Sort by richness
-D: Greedy
-
-D) [Missing option - Please review]
+A) Check all people
+B) DFS/BFS on reverse graph (richer → person), track minimum quiet
+C) Sort by richness
+D) Greedy
 
 ✔ Correct Answer: B
 
@@ -932,12 +850,10 @@ Subtopic: Construct Quad Tree
 Difficulty: Medium
 
 Question: How to construct quad tree from 2D grid?
-A: Linear construction
-B: Recursively divide into 4 quadrants, create leaf if all same
-C: Level order
-D: Random division
-
-D) [Missing option - Please review]
+A) Linear construction
+B) Recursively divide into 4 quadrants, create leaf if all same
+C) Level order
+D) Random division
 
 ✔ Correct Answer: B
 
@@ -954,12 +870,10 @@ Subtopic: Best Time to Buy and Sell Stock IV
 Difficulty: Hard
 
 Question: Maximum profit with at most K transactions?
-A: Try all combinations
-B: DP: dp[k][i] = max profit with k transactions by day i
-C: Greedy K largest gains
-D: Sort prices
-
-D) [Missing option - Please review]
+A) Try all combinations
+B) DP: dp[k][i] = max profit with k transactions by day i
+C) Greedy K largest gains
+D) Sort prices
 
 ✔ Correct Answer: B
 
@@ -976,12 +890,10 @@ Subtopic: Koko Eating Bananas
 Difficulty: Medium
 
 Question: Minimum eating speed to finish all bananas in H hours?
-A: Try all speeds
-B: Binary search on speed, check if feasible
-C: Greedy average
-D: Sort piles
-
-D) [Missing option - Please review]
+A) Try all speeds
+B) Binary search on speed, check if feasible
+C) Greedy average
+D) Sort piles
 
 ✔ Correct Answer: B
 
@@ -998,12 +910,10 @@ Subtopic: Expressive Words
 Difficulty: Medium
 
 Question: Check if word can be stretched to match query (extend consecutive chars)?
-A: String comparison
-B: Two pointers checking groups, group in query must be ≥ 3 or equal
-C: Count characters
-D: Sort
-
-D) [Missing option - Please review]
+A) String comparison
+B) Two pointers checking groups, group in query must be ≥ 3 or equal
+C) Count characters
+D) Sort
 
 ✔ Correct Answer: B
 
@@ -1020,12 +930,10 @@ Subtopic: Most Stones Removed
 Difficulty: Medium
 
 Question: Maximum stones removable (remove if shares row or column with another)?
-A: Remove all
-B: Union-Find: stones in same row/column connected, remove all but one per component
-C: Greedy
-D: BFS
-
-D) [Missing option - Please review]
+A) Remove all
+B) Union-Find: stones in same row/column connected, remove all but one per component
+C) Greedy
+D) BFS
 
 ✔ Correct Answer: B
 
@@ -1042,12 +950,10 @@ Subtopic: Longest Univalue Path
 Difficulty: Medium
 
 Question: Find longest path with same values in binary tree?
-A: DFS all paths
-B: Post-order: compute longest univalue path through each node
-C: Level order
-D: Inorder
-
-D) [Missing option - Please review]
+A) DFS all paths
+B) Post-order: compute longest univalue path through each node
+C) Level order
+D) Inorder
 
 ✔ Correct Answer: B
 
@@ -1064,12 +970,10 @@ Subtopic: Minimum Swaps to Make Sequences Increasing
 Difficulty: Hard
 
 Question: Minimum swaps to make both arrays strictly increasing?
-A: Try all swaps
-B: DP: track min swaps with/without swapping at position i
-C: Greedy swap
-D: Sort
-
-D) [Missing option - Please review]
+A) Try all swaps
+B) DP: track min swaps with/without swapping at position i
+C) Greedy swap
+D) Sort
 
 ✔ Correct Answer: B
 
@@ -1086,12 +990,10 @@ Subtopic: Car Fleet
 Difficulty: Medium
 
 Question: How many car fleets reach destination?
-A: Count cars
-B: Sort by position, calculate time to destination, count decreasing times
-C: Simulate movement
-D: Greedy
-
-D) [Missing option - Please review]
+A) Count cars
+B) Sort by position, calculate time to destination, count decreasing times
+C) Simulate movement
+D) Greedy
 
 ✔ Correct Answer: B
 
@@ -1107,12 +1009,10 @@ Subtopic: Consecutive Characters
 Difficulty: Easy
 
 Question: Find length of longest consecutive same character?
-A: Nested loops
-B: Single pass tracking current character and count
-C: Sort string
-D: Hashmap
-
-D) [Missing option - Please review]
+A) Nested loops
+B) Single pass tracking current character and count
+C) Sort string
+D) Hashmap
 
 ✔ Correct Answer: B
 
@@ -1129,12 +1029,10 @@ Subtopic: Sentence Similarity II
 Difficulty: Medium
 
 Question: Check if two sentences are similar with transitive word pairs?
-A: Direct comparison
-B: Union-Find on word pairs, check if corresponding words connected
-C: Hashmap
-D: Sort words
-
-D) [Missing option - Please review]
+A) Direct comparison
+B) Union-Find on word pairs, check if corresponding words connected
+C) Hashmap
+D) Sort words
 
 ✔ Correct Answer: B
 
@@ -1151,12 +1049,10 @@ Subtopic: Insufficient Nodes in Root to Leaf Paths
 Difficulty: Medium
 
 Question: Remove nodes where all root-to-leaf paths through them have sum < limit?
-A: Remove all small values
-B: Post-order: remove if both children removed and path sum < limit
-C: Level order removal
-D: Preorder removal
-
-D) [Missing option - Please review]
+A) Remove all small values
+B) Post-order: remove if both children removed and path sum < limit
+C) Level order removal
+D) Preorder removal
 
 ✔ Correct Answer: B
 
@@ -1173,12 +1069,10 @@ Subtopic: Minimum Cost For Tickets
 Difficulty: Medium
 
 Question: Minimum cost for train tickets (1-day, 7-day, 30-day passes)?
-A: Buy daily passes
-B: DP: dp[i] = min cost to cover days up to i
-C: Greedy longest pass
-D: Buy monthly only
-
-D) [Missing option - Please review]
+A) Buy daily passes
+B) DP: dp[i] = min cost to cover days up to i
+C) Greedy longest pass
+D) Buy monthly only
 
 ✔ Correct Answer: B
 
@@ -1195,10 +1089,10 @@ Subtopic: Minimum Number of Arrows
 Difficulty: Medium
 
 Question: Minimum arrows to burst all balloons (arrow at x bursts [start, end] if start ≤ x ≤ end)?
-A: One arrow per balloon
-B: Sort by end, greedy shoot at end of first, skip overlapping
-C: Sort by start
-D: Binary search
+A) One arrow per balloon
+B) Sort by end, greedy shoot at end of first, skip overlapping
+C) Sort by start
+D) Binary search
 
 ✔ Correct Answer: B
 
@@ -1215,12 +1109,10 @@ Subtopic: Shifting Letters
 Difficulty: Medium
 
 Question: Shift string where each position shifted by sum of shifts[i:n]?
-A: Shift each position separately
-B: Compute suffix sum of shifts, apply to each character
-C: Shift randomly
-D: Sort shifts
-
-D) [Missing option - Please review]
+A) Shift each position separately
+B) Compute suffix sum of shifts, apply to each character
+C) Shift randomly
+D) Sort shifts
 
 ✔ Correct Answer: B
 
@@ -1237,12 +1129,10 @@ Subtopic: Couples Holding Hands
 Difficulty: Hard
 
 Question: Minimum swaps to make couples sit together?
-A: Try all swaps
-B: Union-Find or cycle detection: each swap fixes one couple
-C: Greedy nearest
-D: Sort couples
-
-D) [Missing option - Please review]
+A) Try all swaps
+B) Union-Find or cycle detection: each swap fixes one couple
+C) Greedy nearest
+D) Sort couples
 
 ✔ Correct Answer: B
 
@@ -1259,12 +1149,10 @@ Subtopic: Smallest String Starting From Leaf
 Difficulty: Medium
 
 Question: What traversal order is needed for leaf-to-root strings?
-A: Preorder
-B: DFS with path tracking, reverse at leaves
-C: Level order
-D: Inorder
-
-D) [Missing option - Please review]
+A) Preorder
+B) DFS with path tracking, reverse at leaves
+C) Level order
+D) Inorder
 
 ✔ Correct Answer: B
 
@@ -1281,12 +1169,10 @@ Subtopic: Tallest Billboard
 Difficulty: Hard
 
 Question: Maximum height of billboard with equal support rods on both sides?
-A: Try all partitions
-B: DP: dp[diff] = max height with difference diff between sides
-C: Greedy tallest
-D: Sort rods
-
-D) [Missing option - Please review]
+A) Try all partitions
+B) DP: dp[diff] = max height with difference diff between sides
+C) Greedy tallest
+D) Sort rods
 
 ✔ Correct Answer: B
 
@@ -1303,12 +1189,10 @@ Subtopic: Fruit Into Baskets
 Difficulty: Medium
 
 Question: Maximum fruits collected with two baskets (longest subarray with 2 distinct values)?
-A: Check all subarrays
-B: Sliding window with hashmap tracking two types
-C: Greedy
-D: Sort fruits
-
-D) [Missing option - Please review]
+A) Check all subarrays
+B) Sliding window with hashmap tracking two types
+C) Greedy
+D) Sort fruits
 
 ✔ Correct Answer: B
 
@@ -1325,12 +1209,10 @@ Subtopic: Orderly Queue
 Difficulty: Hard
 
 Question: Smallest string after K rotations (move first K chars to end in any order)?
-A: Try all rotations
-B: If K=1 try all rotations, if K≥2 sort string
-C: Reverse string
-D: Random
-
-D) [Missing option - Please review]
+A) Try all rotations
+B) If K=1 try all rotations, if K≥2 sort string
+C) Reverse string
+D) Random
 
 ✔ Correct Answer: B
 
@@ -1347,12 +1229,10 @@ Subtopic: Reorder Routes
 Difficulty: Medium
 
 Question: Minimum edge reversals so all cities reach city 0?
-A: Reverse all edges
-B: DFS from 0, count edges going away from 0
-C: BFS
-D: Count degrees
-
-D) [Missing option - Please review]
+A) Reverse all edges
+B) DFS from 0, count edges going away from 0
+C) BFS
+D) Count degrees
 
 ✔ Correct Answer: B
 
@@ -1369,12 +1249,10 @@ Subtopic: Delete Nodes and Return Forest
 Difficulty: Medium
 
 Question: Delete nodes and return remaining trees as forest?
-A: Delete and rebuild
-B: Post-order: if node deleted, children become roots
-C: Level order deletion
-D: Preorder deletion
-
-D) [Missing option - Please review]
+A) Delete and rebuild
+B) Post-order: if node deleted, children become roots
+C) Level order deletion
+D) Preorder deletion
 
 ✔ Correct Answer: B
 
@@ -1391,12 +1269,10 @@ Subtopic: Pizza With 3n Slices
 Difficulty: Hard
 
 Question: Maximum sum picking n slices where adjacent slices can't be picked (circular)?
-A: Greedy largest
-B: DP: reduce to house robber on circular array, try twice
-C: Pick every third
-D: Random
-
-D) [Missing option - Please review]
+A) Greedy largest
+B) DP: reduce to house robber on circular array, try twice
+C) Pick every third
+D) Random
 
 ✔ Correct Answer: B
 
@@ -1413,12 +1289,10 @@ Subtopic: Maximum Sum Circular Subarray
 Difficulty: Medium
 
 Question: Maximum sum of circular subarray?
-A: Check all subarrays
-B: Max of (Kadane's max, total - Kadane's min)
-C: Sum all elements
-D: Greedy
-
-D) [Missing option - Please review]
+A) Check all subarrays
+B) Max of (Kadane's max, total - Kadane's min)
+C) Sum all elements
+D) Greedy
 
 ✔ Correct Answer: B
 
@@ -1435,12 +1309,10 @@ Subtopic: Longest Chunked Palindrome
 Difficulty: Hard
 
 Question: Maximum chunks in palindrome decomposition (greedy shortest chunks)?
-A: Check all decompositions
-B: Two pointers from ends, match shortest equal chunks
-C: DP
-D: Divide in half
-
-D) [Missing option - Please review]
+A) Check all decompositions
+B) Two pointers from ends, match shortest equal chunks
+C) DP
+D) Divide in half
 
 ✔ Correct Answer: B
 
@@ -1457,12 +1329,10 @@ Subtopic: Parallel Courses
 Difficulty: Medium
 
 Question: Minimum semesters to complete courses with prerequisites?
-A: Count courses
-B: Topological sort with BFS, track levels
-C: DFS
-D: Greedy
-
-D) [Missing option - Please review]
+A) Count courses
+B) Topological sort with BFS, track levels
+C) DFS
+D) Greedy
 
 ✔ Correct Answer: B
 
@@ -1479,12 +1349,10 @@ Subtopic: Validate Binary Tree Nodes
 Difficulty: Medium
 
 Question: Check if edges form valid binary tree?
-A: Count nodes
-B: Check single root, no cycles, all nodes reachable, each node has ≤ 1 parent
-C: DFS
-D: Count edges
-
-D) [Missing option - Please review]
+A) Count nodes
+B) Check single root, no cycles, all nodes reachable, each node has ≤ 1 parent
+C) DFS
+D) Count edges
 
 ✔ Correct Answer: B
 
@@ -1501,12 +1369,10 @@ Subtopic: Frog Jump
 Difficulty: Hard
 
 Question: Can frog cross river jumping k-1, k, or k+1 units (last jump was k)?
-A: Try all jumps
-B: DP/DFS with memoization: dp[position][last_jump]
-C: Greedy
-D: BFS
-
-D) [Missing option - Please review]
+A) Try all jumps
+B) DP/DFS with memoization: dp[position][last_jump]
+C) Greedy
+D) BFS
 
 ✔ Correct Answer: B
 
@@ -1523,12 +1389,10 @@ Subtopic: Bag of Tokens
 Difficulty: Medium
 
 Question: Maximum score playing tokens face-up (cost power) or face-down (gain power)?
-A: Random play
-B: Sort tokens, greedy play smallest face-up, largest face-down
-C: Play all face-up
-D: Play all face-down
-
-D) [Missing option - Please review]
+A) Random play
+B) Sort tokens, greedy play smallest face-up, largest face-down
+C) Play all face-up
+D) Play all face-down
 
 ✔ Correct Answer: B
 
@@ -1545,12 +1409,10 @@ Subtopic: Reverse Words in String III
 Difficulty: Easy
 
 Question: Reverse characters in each word but maintain word order?
-A: Reverse entire string
-B: Split by spaces, reverse each word, join
-C: Reverse pairs
-D: Stack
-
-D) [Missing option - Please review]
+A) Reverse entire string
+B) Split by spaces, reverse each word, join
+C) Reverse pairs
+D) Stack
 
 ✔ Correct Answer: B
 
@@ -1567,12 +1429,10 @@ Subtopic: Find Eventual Safe Nodes
 Difficulty: Medium
 
 Question: Find nodes that eventually reach terminal nodes (no outgoing edges)?
-A: DFS from terminal nodes backward
-B: DFS with coloring: detect cycles, safe nodes don't lead to cycles
-C: BFS
-D: Count edges
-
-D) [Missing option - Please review]
+A) DFS from terminal nodes backward
+B) DFS with coloring: detect cycles, safe nodes don't lead to cycles
+C) BFS
+D) Count edges
 
 ✔ Correct Answer: B
 
@@ -1589,12 +1449,10 @@ Subtopic: Leaf-Similar Trees
 Difficulty: Easy
 
 Question: Check if two trees have same leaf value sequence?
-A: Compare all nodes
-B: Extract leaf sequences with DFS, compare
-C: Level order comparison
-D: Inorder comparison
-
-D) [Missing option - Please review]
+A) Compare all nodes
+B) Extract leaf sequences with DFS, compare
+C) Level order comparison
+D) Inorder comparison
 
 ✔ Correct Answer: B
 
@@ -1611,12 +1469,10 @@ Subtopic: Champagne Tower
 Difficulty: Medium
 
 Question: How much champagne in glass (query_row, query_col) after pouring?
-A: Simulate pouring
-B: DP: dp[r][c] = amount in glass, overflow splits to children
-C: Calculate directly
-D: Random
-
-D) [Missing option - Please review]
+A) Simulate pouring
+B) DP: dp[r][c] = amount in glass, overflow splits to children
+C) Calculate directly
+D) Random
 
 ✔ Correct Answer: B
 
@@ -1633,12 +1489,10 @@ Subtopic: Minimum Increment to Make Array Unique
 Difficulty: Medium
 
 Question: Minimum increments to make all array elements unique?
-A: Increment randomly
-B: Sort array, for duplicates increment to next available value
-C: Hashset
-D: Count duplicates
-
-D) [Missing option - Please review]
+A) Increment randomly
+B) Sort array, for duplicates increment to next available value
+C) Hashset
+D) Count duplicates
 
 ✔ Correct Answer: B
 
@@ -1655,12 +1509,10 @@ Subtopic: Longest Absolute File Path
 Difficulty: Medium
 
 Question: Find length of longest absolute file path?
-A: Check all paths
-B: Stack tracking directory depths and lengths
-C: Recursion
-D: Count characters
-
-D) [Missing option - Please review]
+A) Check all paths
+B) Stack tracking directory depths and lengths
+C) Recursion
+D) Count characters
 
 ✔ Correct Answer: B
 
@@ -1677,12 +1529,10 @@ Subtopic: Minimize Hamming Distance After Swap
 Difficulty: Medium
 
 Question: Minimum Hamming distance after swapping elements in allowed positions?
-A: Try all swaps
-B: Union-Find groups swappable positions, match optimally within groups
-C: Greedy swap
-D: Sort
-
-D) [Missing option - Please review]
+A) Try all swaps
+B) Union-Find groups swappable positions, match optimally within groups
+C) Greedy swap
+D) Sort
 
 ✔ Correct Answer: B
 
@@ -1699,12 +1549,10 @@ Subtopic: Maximum Level Sum
 Difficulty: Medium
 
 Question: Find level with maximum sum in binary tree?
-A: Sum all nodes
-B: Level order traversal computing sum at each level
-C: DFS
-D: Preorder sum
-
-D) [Missing option - Please review]
+A) Sum all nodes
+B) Level order traversal computing sum at each level
+C) DFS
+D) Preorder sum
 
 ✔ Correct Answer: B
 
@@ -1721,12 +1569,10 @@ Subtopic: Longest Arithmetic Subsequence
 Difficulty: Medium
 
 Question: Find length of longest arithmetic subsequence?
-A: Check all subsequences
-B: DP: dp[i][diff] = length of arithmetic seq ending at i with difference diff
-C: Greedy
-D: Sort array
-
-D) [Missing option - Please review]
+A) Check all subsequences
+B) DP: dp[i][diff] = length of arithmetic seq ending at i with difference diff
+C) Greedy
+D) Sort array
 
 ✔ Correct Answer: B
 
@@ -1743,12 +1589,10 @@ Subtopic: Smallest Range Covering K Lists
 Difficulty: Hard
 
 Question: Find smallest range covering at least one element from each of k sorted lists?
-A: Merge all lists
-B: Min heap with k elements, track max, update range
-C: Binary search
-D: Two pointers
-
-D) [Missing option - Please review]
+A) Merge all lists
+B) Min heap with k elements, track max, update range
+C) Binary search
+D) Two pointers
 
 ✔ Correct Answer: B
 
@@ -1765,12 +1609,10 @@ Subtopic: Camelcase Matching
 Difficulty: Medium
 
 Question: Check if query matches pattern with lowercase insertions?
-A: String comparison
-B: Two pointers: match uppercase exactly, skip lowercase in query
-C: Regex
-D: Sort
-
-D) [Missing option - Please review]
+A) String comparison
+B) Two pointers: match uppercase exactly, skip lowercase in query
+C) Regex
+D) Sort
 
 ✔ Correct Answer: B
 
@@ -1787,12 +1629,10 @@ Subtopic: Escape Large Maze
 Difficulty: Hard
 
 Question: Can reach target in large grid with blocked cells?
-A: BFS entire grid
-B: BFS limited steps (blocked cells can trap in area ≤ n*(n-1)/2)
-C: DFS
-D: Dijkstra
-
-D) [Missing option - Please review]
+A) BFS entire grid
+B) BFS limited steps (blocked cells can trap in area ≤ n*(n-1)/2)
+C) DFS
+D) Dijkstra
 
 ✔ Correct Answer: B
 
@@ -1809,12 +1649,10 @@ Subtopic: Construct BST from Preorder
 Difficulty: Medium
 
 Question: How to construct BST from preorder traversal?
-A: Sort and build
-B: Recursively: first element is root, split by value into left/right
-C: Inorder construction
-D: Level order
-
-D) [Missing option - Please review]
+A) Sort and build
+B) Recursively: first element is root, split by value into left/right
+C) Inorder construction
+D) Level order
 
 ✔ Correct Answer: B
 
@@ -1831,12 +1669,10 @@ Subtopic: Minimum Difficulty of Job Schedule
 Difficulty: Hard
 
 Question: Minimum difficulty scheduling jobs over d days (difficulty = max job in day)?
-A: Divide equally
-B: DP: dp[i][j] = min difficulty for first i jobs in j days
-C: Greedy
-D: Random
-
-D) [Missing option - Please review]
+A) Divide equally
+B) DP: dp[i][j] = min difficulty for first i jobs in j days
+C) Greedy
+D) Random
 
 ✔ Correct Answer: B
 
@@ -1853,12 +1689,10 @@ Subtopic: Maximum Points from Cards
 Difficulty: Medium
 
 Question: Maximum points taking k cards from either end?
-A: Take from larger end
-B: Sliding window: try all combinations of left and right cards
-C: Greedy largest
-D: Binary search
-
-D) [Missing option - Please review]
+A) Take from larger end
+B) Sliding window: try all combinations of left and right cards
+C) Greedy largest
+D) Binary search
 
 ✔ Correct Answer: B
 
@@ -1875,12 +1709,10 @@ Subtopic: Check If Word Occurs As Prefix
 Difficulty: Easy
 
 Question: Return index of first word having searchWord as prefix?
-A: Check all words
-B: Split sentence, iterate checking startsWith
-C: Trie
-D: Sort
-
-D) [Missing option - Please review]
+A) Check all words
+B) Split sentence, iterate checking startsWith
+C) Trie
+D) Sort
 
 ✔ Correct Answer: B
 
@@ -1897,12 +1729,10 @@ Subtopic: Number of Enclaves
 Difficulty: Medium
 
 Question: Count land cells that can't reach boundary?
-A: Count all land
-B: DFS from boundary marking reachable, count unmarked land
-C: BFS from center
-D: Greedy
-
-D) [Missing option - Please review]
+A) Count all land
+B) DFS from boundary marking reachable, count unmarked land
+C) BFS from center
+D) Greedy
 
 ✔ Correct Answer: B
 
@@ -1919,12 +1749,10 @@ Subtopic: Sum of Distances in Tree
 Difficulty: Hard
 
 Question: For each node, sum of distances to all other nodes?
-A: BFS from each node O(n²)
-B: Two DFS: compute subtree info, then re-root to get answers
-C: Level order
-D: Preorder
-
-D) [Missing option - Please review]
+A) BFS from each node O(n²)
+B) Two DFS: compute subtree info, then re-root to get answers
+C) Level order
+D) Preorder
 
 ✔ Correct Answer: B
 
@@ -1941,12 +1769,10 @@ Subtopic: Number of Ways to Stay in Same Place
 Difficulty: Hard
 
 Question: Ways to stay at index 0 after exactly steps moves (left/right/stay)?
-A: Try all paths
-B: DP: dp[i][j] = ways to be at position i after j steps
-C: Calculate directly
-D: Greedy
-
-D) [Missing option - Please review]
+A) Try all paths
+B) DP: dp[i][j] = ways to be at position i after j steps
+C) Calculate directly
+D) Greedy
 
 ✔ Correct Answer: B
 
@@ -1963,12 +1789,10 @@ Subtopic: Maximum Subarray Sum with One Deletion
 Difficulty: Medium
 
 Question: Maximum subarray sum allowing one element deletion?
-A: Try deleting each element
-B: DP: track max sum with 0 and 1 deletions
-C: Kadane's algorithm
-D: Greedy
-
-D) [Missing option - Please review]
+A) Try deleting each element
+B) DP: track max sum with 0 and 1 deletions
+C) Kadane's algorithm
+D) Greedy
 
 ✔ Correct Answer: B
 
@@ -1985,12 +1809,10 @@ Subtopic: Remove All Adjacent Duplicates II
 Difficulty: Medium
 
 Question: Remove k consecutive duplicate characters repeatedly?
-A: Iterate removing pairs
-B: Stack storing (char, count), pop when count reaches k
-C: Recursion
-D: Sort
-
-D) [Missing option - Please review]
+A) Iterate removing pairs
+B) Stack storing (char, count), pop when count reaches k
+C) Recursion
+D) Sort
 
 ✔ Correct Answer: B
 
@@ -2007,12 +1829,10 @@ Subtopic: Time Needed to Inform All Employees
 Difficulty: Medium
 
 Question: Time for manager to inform all employees in tree hierarchy?
-A: Count employees
-B: DFS computing max time from root to leaves
-C: BFS
-D: Sum all times
-
-D) [Missing option - Please review]
+A) Count employees
+B) DFS computing max time from root to leaves
+C) BFS
+D) Sum all times
 
 ✔ Correct Answer: B
 
@@ -2029,12 +1849,10 @@ Subtopic: Deepest Leaves Sum
 Difficulty: Medium
 
 Question: Sum of values at deepest level?
-A: Sum all nodes
-B: Level order traversal, sum last level
-C: DFS tracking depth
-D: Preorder sum
-
-D) [Missing option - Please review]
+A) Sum all nodes
+B) Level order traversal, sum last level
+C) DFS tracking depth
+D) Preorder sum
 
 ✔ Correct Answer: B
 
@@ -2051,12 +1869,10 @@ Subtopic: Longest Arithmetic Subsequence of Given Difference
 Difficulty: Medium
 
 Question: Longest arithmetic subsequence with specific difference d?
-A: Check all subsequences
-B: DP: dp[num] = length of longest seq ending at num
-C: Greedy
-D: Sort array
-
-D) [Missing option - Please review]
+A) Check all subsequences
+B) DP: dp[num] = length of longest seq ending at num
+C) Greedy
+D) Sort array
 
 ✔ Correct Answer: B
 
@@ -2073,12 +1889,10 @@ Subtopic: Minimum Moves to Equal Array Elements II
 Difficulty: Medium
 
 Question: Minimum moves to make all elements equal (increment or decrement one element)?
-A: Move to average
-B: Move all to median
-C: Move to max
-D: Move to min
-
-D) [Missing option - Please review]
+A) Move to average
+B) Move all to median
+C) Move to max
+D) Move to min
 
 ✔ Correct Answer: B
 
@@ -2095,12 +1909,10 @@ Subtopic: Number of Matching Subsequences
 Difficulty: Medium
 
 Question: Count words that are subsequences of string s?
-A: Check each word separately
-B: Bucket words by first char, advance pointers as chars seen
-C: Trie
-D: Sort
-
-D) [Missing option - Please review]
+A) Check each word separately
+B) Bucket words by first char, advance pointers as chars seen
+C) Trie
+D) Sort
 
 ✔ Correct Answer: B
 
@@ -2117,12 +1929,10 @@ Subtopic: Keys and Rooms
 Difficulty: Medium
 
 Question: Can visit all rooms starting from room 0 with keys?
-A: Count rooms
-B: DFS/BFS from room 0 collecting keys, check if all rooms visited
-C: Check keys only
-D: Greedy
-
-D) [Missing option - Please review]
+A) Count rooms
+B) DFS/BFS from room 0 collecting keys, check if all rooms visited
+C) Check keys only
+D) Greedy
 
 ✔ Correct Answer: B
 
@@ -2139,12 +1949,10 @@ Subtopic: Binary Search Tree Iterator
 Difficulty: Medium
 
 Question: How to implement BST iterator with O(h) space?
-A: Store all nodes in array
-B: Stack for controlled inorder traversal
-C: Recursion
-D: Queue
-
-D) [Missing option - Please review]
+A) Store all nodes in array
+B) Stack for controlled inorder traversal
+C) Recursion
+D) Queue
 
 ✔ Correct Answer: B
 
@@ -2161,12 +1969,10 @@ Subtopic: Stone Game II
 Difficulty: Medium
 
 Question: Maximum stones first player can get with M parameter (take 1 to 2M piles)?
-A: Greedy
-B: DP with memoization: dp[i][M] = max stones from position i with parameter M
-C: Take all
-D: Random
-
-D) [Missing option - Please review]
+A) Greedy
+B) DP with memoization: dp[i][M] = max stones from position i with parameter M
+C) Take all
+D) Random
 
 ✔ Correct Answer: B
 
@@ -2183,12 +1989,10 @@ Subtopic: Maximize Distance to Closest Person
 Difficulty: Medium
 
 Question: Maximum distance to closest person when sitting in empty seat?
-A: Try all seats
-B: Find largest gap between people, consider ends
-C: Sit in middle
-D: Random
-
-D) [Missing option - Please review]
+A) Try all seats
+B) Find largest gap between people, consider ends
+C) Sit in middle
+D) Random
 
 ✔ Correct Answer: B
 

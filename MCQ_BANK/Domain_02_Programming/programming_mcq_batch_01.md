@@ -1264,9 +1264,7 @@ Difficulty: Medium
 
 Question: What is method overriding?
 A) Overloading
-B: Subclass providing specific implementation of parent method
-B) [Missing option - Please review]
-
+B) Subclass providing specific implementation of parent method
 C) Deleting methods
 D) Copying methods
 
@@ -1456,9 +1454,7 @@ Difficulty: Medium
 Question: What advantage does ArrayList have over arrays in Java?
 A) Faster access
 B) Dynamic size
-C: Less memory
-C) [Missing option - Please review]
-
+C) Less memory
 D) Simpler syntax
 
 ✔ Correct Answer: B

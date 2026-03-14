@@ -651,9 +651,7 @@ Difficulty: Hard
 
 Question: What is LLMNR used for in Windows networks?
 A) File sharing
-B: Local name resolution when DNS fails
-B) [Missing option - Please review]
-
+B) Local name resolution when DNS fails
 C) Printer discovery
 D) User authentication
 
@@ -1655,9 +1653,7 @@ Question: What does BackboneFast optimize?
 A) Backbone bandwidth
 B) Convergence when indirect link fails
 C) Security
-D: Compression
-
-D) [Missing option - Please review]
+D) Compression
 
 ✔ Correct Answer: B
 

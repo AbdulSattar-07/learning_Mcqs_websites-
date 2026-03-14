@@ -120,9 +120,7 @@ Difficulty: Medium
 
 Question: What does the File System Access API enable?
 A) Server file access
-B: Reading and writing local files with user permission
-B) [Missing option - Please review]
-
+B) Reading and writing local files with user permission
 C) Cloud storage
 D) Database files
 
@@ -176,9 +174,7 @@ Difficulty: Hard
 
 Question: What is the sidecar pattern?
 A) Motorcycle attachment
-B: Deploying helper container alongside main application
-B) [Missing option - Please review]
-
+B) Deploying helper container alongside main application
 C) Backup pattern
 D) Caching pattern
 
@@ -214,9 +210,7 @@ Difficulty: Medium
 
 Question: What is AbortController used for?
 A) Stopping loops
-B: Canceling asynchronous operations like fetch
-B) [Missing option - Please review]
-
+B) Canceling asynchronous operations like fetch
 C) Error handling
 D) Aborting functions
 
@@ -234,9 +228,7 @@ Difficulty: Medium
 
 Question: What are database migrations?
 A) Moving databases
-B: Version-controlled schema changes
-B) [Missing option - Please review]
-
+B) Version-controlled schema changes
 C) Data backups
 D) Database replication
 
@@ -254,13 +246,9 @@ Difficulty: Medium
 
 Question: What does Largest Contentful Paint (LCP) measure?
 A) Total page size
-B: Time to render largest visible content element
-B) [Missing option - Please review]
-
+B) Time to render largest visible content element
 C) Number of elements
-D: Paint operations
-
-D) [Missing option - Please review]
+D) Paint operations
 
 ✔ Correct Answer: B
 Reason: LCP measures loading performance by tracking largest content render time.
@@ -276,11 +264,9 @@ Difficulty: Medium
 
 Question: What does the :has() pseudo-class do?
 A) Checks existence
-B: Selects parent based on child elements
-C: Validates forms
-D: Checks properties
-
-D) [Missing option - Please review]
+B) Selects parent based on child elements
+C) Validates forms
+D) Checks properties
 
 ✔ Correct Answer: B
 Reason: :has() is a parent selector that matches elements containing specific descendants.
@@ -295,12 +281,10 @@ Subtopic: Supply Chain Attacks
 Difficulty: Hard
 
 Question: What is a supply chain attack in web development?
-A: Attacking suppliers
-B: Compromising dependencies to inject malicious code
-C: Network attacks
-D: Physical attacks
-
-D) [Missing option - Please review]
+A) Attacking suppliers
+B) Compromising dependencies to inject malicious code
+C) Network attacks
+D) Physical attacks
 
 ✔ Correct Answer: B
 Reason: Supply chain attacks target dependencies and build tools to compromise applications.
@@ -316,11 +300,9 @@ Difficulty: Medium
 
 Question: What does the popover attribute enable?
 A) Pop-up ads
-B: Native popover UI without JavaScript
-C: Tooltips only
-D: Modal dialogs
-
-D) [Missing option - Please review]
+B) Native popover UI without JavaScript
+C) Tooltips only
+D) Modal dialogs
 
 ✔ Correct Answer: B
 Reason: Popover API provides declarative way to create popover elements.
@@ -335,12 +317,10 @@ Subtopic: Event Sourcing
 Difficulty: Hard
 
 Question: What is event sourcing?
-A: Tracking event attendance
-B: Storing state changes as sequence of events
-C: Event logging
-D: Event handling
-
-D) [Missing option - Please review]
+A) Tracking event attendance
+B) Storing state changes as sequence of events
+C) Event logging
+D) Event handling
 
 ✔ Correct Answer: B
 Reason: Event sourcing persists all state changes as events, enabling replay and audit.
@@ -355,12 +335,10 @@ Subtopic: Top-Level Await
 Difficulty: Medium
 
 Question: Where can top-level await be used?
-A: Anywhere in code
-B: In ES modules at module scope
-C: Only in functions
-D: Only in classes
-
-D) [Missing option - Please review]
+A) Anywhere in code
+B) In ES modules at module scope
+C) Only in functions
+D) Only in classes
 
 ✔ Correct Answer: B
 Reason: Top-level await allows await at module top level in ES modules.
@@ -375,12 +353,10 @@ Subtopic: Web Share API
 Difficulty: Easy
 
 Question: What does the Web Share API allow?
-A: Sharing files between servers
-B: Native sharing of content to other apps
-C: Social media integration
-D: Screen sharing
-
-D) [Missing option - Please review]
+A) Sharing files between servers
+B) Native sharing of content to other apps
+C) Social media integration
+D) Screen sharing
 
 ✔ Correct Answer: B
 Reason: Web Share API invokes native sharing mechanisms of the device.
@@ -395,12 +371,10 @@ Subtopic: Nesting
 Difficulty: Medium
 
 Question: What does native CSS nesting allow?
-A: Nested loops
-B: Writing selectors inside other selectors
-C: Nested functions
-D: Nested grids
-
-D) [Missing option - Please review]
+A) Nested loops
+B) Writing selectors inside other selectors
+C) Nested functions
+D) Nested grids
 
 ✔ Correct Answer: B
 Reason: CSS nesting allows writing child selectors inside parent rules, like Sass.
@@ -415,12 +389,10 @@ Subtopic: Shift-Left Testing
 Difficulty: Medium
 
 Question: What does "shift-left" mean in testing?
-A: Moving left on screen
-B: Testing earlier in development cycle
-C: Left-aligned tests
-D: Testing on left side
-
-D) [Missing option - Please review]
+A) Moving left on screen
+B) Testing earlier in development cycle
+C) Left-aligned tests
+D) Testing on left side
 
 ✔ Correct Answer: B
 Reason: Shift-left moves testing earlier to catch issues sooner and reduce costs.
@@ -435,12 +407,10 @@ Subtopic: Strangler Fig Pattern
 Difficulty: Hard
 
 Question: What is the strangler fig pattern?
-A: Plant biology
-B: Gradually replacing legacy system with new implementation
-C: Throttling pattern
-D: Caching pattern
-
-D) [Missing option - Please review]
+A) Plant biology
+B) Gradually replacing legacy system with new implementation
+C) Throttling pattern
+D) Caching pattern
 
 ✔ Correct Answer: B
 Reason: Strangler fig incrementally migrates functionality from old to new system.
@@ -455,12 +425,10 @@ Subtopic: Logical Assignment
 Difficulty: Medium
 
 Question: What does the ??= operator do?
-A: Null check
-B: Assigns only if left side is null/undefined
-C: Comparison
-D: Multiplication
-
-D) [Missing option - Please review]
+A) Null check
+B) Assigns only if left side is null/undefined
+C) Comparison
+D) Multiplication
 
 ✔ Correct Answer: B
 Reason: ??= is nullish coalescing assignment, assigns only for null/undefined.
@@ -475,12 +443,10 @@ Subtopic: Vector Databases
 Difficulty: Hard
 
 Question: What are vector databases optimized for?
-A: Graphics
-B: Similarity search and embeddings
-C: Vectors only
-D: Mathematical operations
-
-D) [Missing option - Please review]
+A) Graphics
+B) Similarity search and embeddings
+C) Vectors only
+D) Mathematical operations
 
 ✔ Correct Answer: B
 Reason: Vector databases store and query high-dimensional vectors for AI/ML applications.
@@ -495,12 +461,10 @@ Subtopic: Interaction to Next Paint
 Difficulty: Medium
 
 Question: What does Interaction to Next Paint (INP) measure?
-A: Paint time
-B: Overall responsiveness to user interactions
-C: Initial load
-D: Animation performance
-
-D) [Missing option - Please review]
+A) Paint time
+B) Overall responsiveness to user interactions
+C) Initial load
+D) Animation performance
 
 ✔ Correct Answer: B
 Reason: INP measures latency of all interactions throughout page lifecycle.
@@ -515,12 +479,10 @@ Subtopic: Container Query Units
 Difficulty: Medium
 
 Question: What does 'cqw' stand for in CSS?
-A: Custom query width
-B: Container query width
-C: Computed query width
-D: Content query width
-
-D) [Missing option - Please review]
+A) Custom query width
+B) Container query width
+C) Computed query width
+D) Content query width
 
 ✔ Correct Answer: B
 Reason: cqw is 1% of container's width, used with container queries.
@@ -535,12 +497,10 @@ Subtopic: Trusted Types
 Difficulty: Hard
 
 Question: What do Trusted Types prevent?
-A: Type errors
-B: DOM-based XSS attacks
-C: Type coercion
-D: CSRF attacks
-
-D) [Missing option - Please review]
+A) Type errors
+B) DOM-based XSS attacks
+C) Type coercion
+D) CSRF attacks
 
 ✔ Correct Answer: B
 Reason: Trusted Types enforce type checking for dangerous DOM sinks to prevent XSS.
@@ -555,12 +515,10 @@ Subtopic: Inert Attribute
 Difficulty: Medium
 
 Question: What does the inert attribute do?
-A: Makes element inactive
-B: Removes element from accessibility tree and interaction
-C: Hides element
-D: Disables animations
-
-D) [Missing option - Please review]
+A) Makes element inactive
+B) Removes element from accessibility tree and interaction
+C) Hides element
+D) Disables animations
 
 ✔ Correct Answer: B
 Reason: inert makes element and descendants non-interactive and ignored by assistive tech.
@@ -575,12 +533,10 @@ Subtopic: CQRS Pattern
 Difficulty: Hard
 
 Question: What does CQRS stand for?
-A: Command Query Request System
-B: Command Query Responsibility Segregation
-C: Concurrent Query Response System
-D: Cached Query Result Storage
-
-D) [Missing option - Please review]
+A) Command Query Request System
+B) Command Query Responsibility Segregation
+C) Concurrent Query Response System
+D) Cached Query Result Storage
 
 ✔ Correct Answer: B
 Reason: CQRS separates read and write operations into different models.
@@ -595,12 +551,10 @@ Subtopic: Import Assertions
 Difficulty: Hard
 
 Question: What are import assertions used for?
-A: Testing imports
-B: Specifying expected module type (JSON, CSS)
-C: Validating imports
-D: Import errors
-
-D) [Missing option - Please review]
+A) Testing imports
+B) Specifying expected module type (JSON, CSS)
+C) Validating imports
+D) Import errors
 
 ✔ Correct Answer: B
 Reason: Import assertions declare expected module type for security and correctness.
@@ -615,12 +569,10 @@ Subtopic: View Transitions API
 Difficulty: Hard
 
 Question: What does the View Transitions API enable?
-A: View switching
-B: Smooth animated transitions between page states
-C: Multiple views
-D: View rendering
-
-D) [Missing option - Please review]
+A) View switching
+B) Smooth animated transitions between page states
+C) Multiple views
+D) View rendering
 
 ✔ Correct Answer: B
 Reason: View Transitions API creates smooth animations when DOM changes.
@@ -635,12 +587,10 @@ Subtopic: Anchor Positioning
 Difficulty: Hard
 
 Question: What does CSS anchor positioning allow?
-A: Link styling
-B: Positioning elements relative to other elements
-C: Anchor tags
-D: Fixed positioning
-
-D) [Missing option - Please review]
+A) Link styling
+B) Positioning elements relative to other elements
+C) Anchor tags
+D) Fixed positioning
 
 ✔ Correct Answer: B
 Reason: Anchor positioning enables positioning elements relative to anchor elements.
@@ -655,12 +605,10 @@ Subtopic: Gitflow vs Trunk-Based
 Difficulty: Medium
 
 Question: What characterizes Gitflow workflow?
-A: Single branch
-B: Multiple long-lived branches (develop, release, hotfix)
-C: No branches
-D: Trunk-based development
-
-D) [Missing option - Please review]
+A) Single branch
+B) Multiple long-lived branches (develop, release, hotfix)
+C) No branches
+D) Trunk-based development
 
 ✔ Correct Answer: B
 Reason: Gitflow uses structured branching model with develop, feature, release branches.
@@ -675,12 +623,10 @@ Subtopic: Ambassador Pattern
 Difficulty: Hard
 
 Question: What is the ambassador pattern?
-A: Diplomatic pattern
-B: Proxy for network communication handling
-C: Authentication pattern
-D: Routing pattern
-
-D) [Missing option - Please review]
+A) Diplomatic pattern
+B) Proxy for network communication handling
+C) Authentication pattern
+D) Routing pattern
 
 ✔ Correct Answer: B
 Reason: Ambassador pattern offloads network tasks like retry, monitoring to helper service.
@@ -695,12 +641,10 @@ Subtopic: Numeric Separators
 Difficulty: Easy
 
 Question: What is the purpose of underscores in numbers like 1_000_000?
-A: Multiplication
-B: Improving readability (numeric separators)
-C: Special operation
-D: Error
-
-D) [Missing option - Please review]
+A) Multiplication
+B) Improving readability (numeric separators)
+C) Special operation
+D) Error
 
 ✔ Correct Answer: B
 Reason: Numeric separators improve readability of large numbers without affecting value.
@@ -715,12 +659,10 @@ Subtopic: Multi-Tenancy
 Difficulty: Medium
 
 Question: What is multi-tenancy in databases?
-A: Multiple databases
-B: Single database serving multiple customers with data isolation
-C: Multiple servers
-D: Backup strategy
-
-D) [Missing option - Please review]
+A) Multiple databases
+B) Single database serving multiple customers with data isolation
+C) Multiple servers
+D) Backup strategy
 
 ✔ Correct Answer: B
 Reason: Multi-tenancy allows multiple tenants to share infrastructure with isolated data.
@@ -735,12 +677,10 @@ Subtopic: Time to First Byte
 Difficulty: Easy
 
 Question: What does Time to First Byte (TTFB) measure?
-A: First download
-B: Time from request to first byte of response
-C: First render
-D: First interaction
-
-D) [Missing option - Please review]
+A) First download
+B) Time from request to first byte of response
+C) First render
+D) First interaction
 
 ✔ Correct Answer: B
 Reason: TTFB measures server responsiveness from request to first response byte.
@@ -755,12 +695,10 @@ Subtopic: Scope
 Difficulty: Hard
 
 Question: What does the @scope rule do?
-A: Variable scope
-B: Limits CSS rules to specific DOM subtree
-C: Global scope
-D: Function scope
-
-D) [Missing option - Please review]
+A) Variable scope
+B) Limits CSS rules to specific DOM subtree
+C) Global scope
+D) Function scope
 
 ✔ Correct Answer: B
 Reason: @scope creates scoped styles applying only to specific DOM sections.
@@ -775,12 +713,10 @@ Subtopic: Sandboxing
 Difficulty: Medium
 
 Question: What does the sandbox attribute on iframes do?
-A: Creates sandbox
-B: Restricts iframe capabilities for security
-C: Styles iframe
-D: Hides iframe
-
-D) [Missing option - Please review]
+A) Creates sandbox
+B) Restricts iframe capabilities for security
+C) Styles iframe
+D) Hides iframe
 
 ✔ Correct Answer: B
 Reason: sandbox attribute applies security restrictions to iframe content.
@@ -795,12 +731,10 @@ Subtopic: Search Element
 Difficulty: Medium
 
 Question: What is the <search> element used for?
-A: SEO optimization
-B: Marking up search functionality sections
-C: Database search
-D: Text search
-
-D) [Missing option - Please review]
+A) SEO optimization
+B) Marking up search functionality sections
+C) Database search
+D) Text search
 
 ✔ Correct Answer: B
 Reason: <search> is semantic element for search/filtering functionality.
@@ -815,12 +749,10 @@ Subtopic: Retry Strategies
 Difficulty: Medium
 
 Question: What is exponential backoff in retry logic?
-A: Linear retries
-B: Increasing delay between retry attempts exponentially
-C: Immediate retries
-D: Random delays
-
-D) [Missing option - Please review]
+A) Linear retries
+B) Increasing delay between retry attempts exponentially
+C) Immediate retries
+D) Random delays
 
 ✔ Correct Answer: B
 Reason: Exponential backoff increases wait time between retries to reduce load.
@@ -835,12 +767,10 @@ Subtopic: Record and Tuple
 Difficulty: Hard
 
 Question: What are Records and Tuples in JavaScript?
-A: Database records
-B: Immutable data structures (proposal)
-C: Function types
-D: Array methods
-
-D) [Missing option - Please review]
+A) Database records
+B) Immutable data structures (proposal)
+C) Function types
+D) Array methods
 
 ✔ Correct Answer: B
 Reason: Records and Tuples are proposed immutable, deeply comparable data structures.
@@ -855,12 +785,10 @@ Subtopic: Badging API
 Difficulty: Medium
 
 Question: What does the Badging API allow?
-A: Creating badges
-B: Setting notification badges on app icons
-C: User badges
-D: Security badges
-
-D) [Missing option - Please review]
+A) Creating badges
+B) Setting notification badges on app icons
+C) User badges
+D) Security badges
 
 ✔ Correct Answer: B
 Reason: Badging API sets notification count badges on installed web app icons.
@@ -875,12 +803,10 @@ Subtopic: Trigonometric Functions
 Difficulty: Medium
 
 Question: Which CSS functions are trigonometric?
-A: calc(), min(), max()
-B: sin(), cos(), tan()
-C: abs(), sign()
-D: round(), floor()
-
-D) [Missing option - Please review]
+A) calc(), min(), max()
+B) sin(), cos(), tan()
+C) abs(), sign()
+D) round(), floor()
 
 ✔ Correct Answer: B
 Reason: CSS now supports sin(), cos(), tan(), asin(), acos(), atan() functions.
@@ -895,12 +821,10 @@ Subtopic: Infrastructure as Code
 Difficulty: Medium
 
 Question: What is Infrastructure as Code (IaC)?
-A: Coding infrastructure
-B: Managing infrastructure through code/configuration files
-C: Infrastructure documentation
-D: Server programming
-
-D) [Missing option - Please review]
+A) Coding infrastructure
+B) Managing infrastructure through code/configuration files
+C) Infrastructure documentation
+D) Server programming
 
 ✔ Correct Answer: B
 Reason: IaC uses code to provision and manage infrastructure automatically.
@@ -915,12 +839,10 @@ Subtopic: Adapter Pattern
 Difficulty: Medium
 
 Question: What is the adapter pattern used for?
-A: Power adapters
-B: Converting interface to match expected interface
-C: Network adapters
-D: Database adapters
-
-D) [Missing option - Please review]
+A) Power adapters
+B) Converting interface to match expected interface
+C) Network adapters
+D) Database adapters
 
 ✔ Correct Answer: B
 Reason: Adapter pattern makes incompatible interfaces work together.
@@ -935,12 +857,10 @@ Subtopic: Private Methods
 Difficulty: Medium
 
 Question: How do you declare a private method in JavaScript classes?
-A: private method()
-B: #method()
-C: _method()
-D: $method()
-
-D) [Missing option - Please review]
+A) private method()
+B) #method()
+C) _method()
+D) $method()
 
 ✔ Correct Answer: B
 Reason: # prefix creates truly private methods in JavaScript classes.
@@ -955,12 +875,10 @@ Subtopic: Database Pooling
 Difficulty: Medium
 
 Question: What is the benefit of connection pooling?
-A: More connections
-B: Reusing connections reduces overhead
-C: Faster queries
-D: Better security
-
-D) [Missing option - Please review]
+A) More connections
+B) Reusing connections reduces overhead
+C) Faster queries
+D) Better security
 
 ✔ Correct Answer: B
 Reason: Connection pooling reuses existing connections, avoiding creation overhead.
@@ -975,12 +893,10 @@ Subtopic: Resource Prioritization
 Difficulty: Medium
 
 Question: What does fetchpriority="high" do?
-A: Faster fetch
-B: Hints browser to prioritize resource loading
-C: Caches resource
-D: Preloads resource
-
-D) [Missing option - Please review]
+A) Faster fetch
+B) Hints browser to prioritize resource loading
+C) Caches resource
+D) Preloads resource
 
 ✔ Correct Answer: B
 Reason: fetchpriority attribute provides hints for resource loading priority.
@@ -995,12 +911,10 @@ Subtopic: Relative Colors
 Difficulty: Hard
 
 Question: What do relative color syntax allow?
-A: Relative positioning
-B: Deriving colors from other colors
-C: Color relationships
-D: Relative units
-
-D) [Missing option - Please review]
+A) Relative positioning
+B) Deriving colors from other colors
+C) Color relationships
+D) Relative units
 
 ✔ Correct Answer: B
 Reason: Relative colors create new colors by modifying existing color values.
@@ -1015,12 +929,10 @@ Subtopic: Reporting API
 Difficulty: Hard
 
 Question: What is the Reporting API used for?
-A: Analytics
-B: Collecting security and deprecation reports
-C: Error reporting
-D: Performance reports
-
-D) [Missing option - Please review]
+A) Analytics
+B) Collecting security and deprecation reports
+C) Error reporting
+D) Performance reports
 
 ✔ Correct Answer: B
 Reason: Reporting API collects CSP violations, deprecations, and other browser reports.
@@ -1035,12 +947,10 @@ Subtopic: Blocking Attribute
 Difficulty: Medium
 
 Question: What does blocking="render" do on scripts/styles?
-A: Blocks execution
-B: Explicitly marks resource as render-blocking
-C: Prevents loading
-D: Blocks users
-
-D) [Missing option - Please review]
+A) Blocks execution
+B) Explicitly marks resource as render-blocking
+C) Prevents loading
+D) Blocks users
 
 ✔ Correct Answer: B
 Reason: blocking attribute explicitly declares render-blocking behavior.
@@ -1055,12 +965,10 @@ Subtopic: Observability
 Difficulty: Medium
 
 Question: What are the three pillars of observability?
-A: Speed, security, scalability
-B: Logs, metrics, traces
-C: Frontend, backend, database
-D: Development, testing, production
-
-D) [Missing option - Please review]
+A) Speed, security, scalability
+B) Logs, metrics, traces
+C) Frontend, backend, database
+D) Development, testing, production
 
 ✔ Correct Answer: B
 Reason: Observability relies on logs, metrics, and distributed traces.
@@ -1075,12 +983,10 @@ Subtopic: Decorators
 Difficulty: Hard
 
 Question: What are decorators in JavaScript?
-A: Design patterns
-B: Functions that modify classes/methods (proposal)
-C: Styling functions
-D: Comments
-
-D) [Missing option - Please review]
+A) Design patterns
+B) Functions that modify classes/methods (proposal)
+C) Styling functions
+D) Comments
 
 ✔ Correct Answer: B
 Reason: Decorators are proposed syntax for modifying class declarations and members.
@@ -1095,12 +1001,10 @@ Subtopic: Compute Pressure API
 Difficulty: Hard
 
 Question: What does the Compute Pressure API provide?
-A: Compression
-B: Information about system resource pressure
-C: CPU calculations
-D: Performance metrics
-
-D) [Missing option - Please review]
+A) Compression
+B) Information about system resource pressure
+C) CPU calculations
+D) Performance metrics
 
 ✔ Correct Answer: B
 Reason: Compute Pressure API exposes system thermal and CPU pressure states.
@@ -1115,12 +1019,10 @@ Subtopic: View Transitions
 Difficulty: Hard
 
 Question: What does view-transition-name do?
-A: Names views
-B: Identifies elements for view transition animations
-C: Transitions names
-D: View labels
-
-D) [Missing option - Please review]
+A) Names views
+B) Identifies elements for view transition animations
+C) Transitions names
+D) View labels
 
 ✔ Correct Answer: B
 Reason: view-transition-name creates correspondence between old and new states.
@@ -1135,12 +1037,10 @@ Subtopic: Chaos Engineering
 Difficulty: Hard
 
 Question: What is chaos engineering?
-A: Disorganized development
-B: Deliberately injecting failures to test resilience
-C: Random testing
-D: Chaotic code
-
-D) [Missing option - Please review]
+A) Disorganized development
+B) Deliberately injecting failures to test resilience
+C) Random testing
+D) Chaotic code
 
 ✔ Correct Answer: B
 Reason: Chaos engineering tests system resilience by introducing controlled failures.
@@ -1155,12 +1055,10 @@ Subtopic: Outbox Pattern
 Difficulty: Hard
 
 Question: What problem does the outbox pattern solve?
-A: Email sending
-B: Ensuring reliable message publishing with database transactions
-C: Output formatting
-D: Logging pattern
-
-D) [Missing option - Please review]
+A) Email sending
+B) Ensuring reliable message publishing with database transactions
+C) Output formatting
+D) Logging pattern
 
 ✔ Correct Answer: B
 Reason: Outbox pattern ensures atomic database updates and message publishing.
@@ -1175,12 +1073,10 @@ Subtopic: Pattern Matching
 Difficulty: Hard
 
 Question: What is pattern matching in JavaScript (proposal)?
-A: Regex patterns
-B: Structural matching similar to switch with destructuring
-C: String matching
-D: Design patterns
-
-D) [Missing option - Please review]
+A) Regex patterns
+B) Structural matching similar to switch with destructuring
+C) String matching
+D) Design patterns
 
 ✔ Correct Answer: B
 Reason: Pattern matching proposal enables concise conditional logic with destructuring.
@@ -1195,12 +1091,10 @@ Subtopic: Change Data Capture
 Difficulty: Hard
 
 Question: What is Change Data Capture (CDC)?
-A: Capturing screenshots
-B: Tracking and capturing database changes for replication
-C: Data validation
-D: Change logs
-
-D) [Missing option - Please review]
+A) Capturing screenshots
+B) Tracking and capturing database changes for replication
+C) Data validation
+D) Change logs
 
 ✔ Correct Answer: B
 Reason: CDC identifies and captures database changes for downstream processing.
@@ -1215,12 +1109,10 @@ Subtopic: Priority Hints
 Difficulty: Medium
 
 Question: What does importance="low" indicate?
-A: Unimportant content
-B: Resource can be loaded with lower priority
-C: Low quality
-D: Optional resource
-
-D) [Missing option - Please review]
+A) Unimportant content
+B) Resource can be loaded with lower priority
+C) Low quality
+D) Optional resource
 
 ✔ Correct Answer: B
 Reason: importance attribute (now fetchpriority) hints resource loading priority.
@@ -1235,12 +1127,10 @@ Subtopic: Scroll-Driven Animations
 Difficulty: Hard
 
 Question: What are scroll-driven animations?
-A: Scrolling effects
-B: Animations controlled by scroll position
-C: Smooth scrolling
-D: Scroll bars
-
-D) [Missing option - Please review]
+A) Scrolling effects
+B) Animations controlled by scroll position
+C) Smooth scrolling
+D) Scroll bars
 
 ✔ Correct Answer: B
 Reason: Scroll-driven animations link animation progress to scroll position.
@@ -1255,12 +1145,10 @@ Subtopic: Isolation
 Difficulty: Hard
 
 Question: What does Cross-Origin-Embedder-Policy do?
-A: Embeds content
-B: Enables cross-origin isolation for SharedArrayBuffer
-C: Blocks embedding
-D: Policy management
-
-D) [Missing option - Please review]
+A) Embeds content
+B) Enables cross-origin isolation for SharedArrayBuffer
+C) Blocks embedding
+D) Policy management
 
 ✔ Correct Answer: B
 Reason: COEP is required for cross-origin isolation and powerful features.
@@ -1275,12 +1163,10 @@ Subtopic: Declarative Shadow DOM
 Difficulty: Hard
 
 Question: What is declarative Shadow DOM?
-A: Dark mode
-B: Creating Shadow DOM with HTML instead of JavaScript
-C: Hidden DOM
-D: Shadow effects
-
-D) [Missing option - Please review]
+A) Dark mode
+B) Creating Shadow DOM with HTML instead of JavaScript
+C) Hidden DOM
+D) Shadow effects
 
 ✔ Correct Answer: B
 Reason: Declarative Shadow DOM enables server-side rendering of Web Components.
@@ -1295,12 +1181,10 @@ Subtopic: Distributed Tracing
 Difficulty: Medium
 
 Question: What is distributed tracing?
-A: Trace routes
-B: Tracking requests across multiple services
-C: Error tracing
-D: Code tracing
-
-D) [Missing option - Please review]
+A) Trace routes
+B) Tracking requests across multiple services
+C) Error tracing
+D) Code tracing
 
 ✔ Correct Answer: B
 Reason: Distributed tracing follows requests through microservices for debugging.
@@ -1315,12 +1199,10 @@ Subtopic: Pipeline Operator
 Difficulty: Hard
 
 Question: What does the pipeline operator (|>) do (proposal)?
-A: Bitwise operation
-B: Chains function calls in readable sequence
-C: Pipes data
-D: Logical OR
-
-D) [Missing option - Please review]
+A) Bitwise operation
+B) Chains function calls in readable sequence
+C) Pipes data
+D) Logical OR
 
 ✔ Correct Answer: B
 Reason: Pipeline operator enables functional composition: value |> func1 |> func2.
@@ -1335,12 +1217,10 @@ Subtopic: Eyedropper API
 Difficulty: Medium
 
 Question: What does the EyeDropper API allow?
-A: Eye tracking
-B: Picking colors from screen
-C: Dropdown menus
-D: Visual effects
-
-D) [Missing option - Please review]
+A) Eye tracking
+B) Picking colors from screen
+C) Dropdown menus
+D) Visual effects
 
 ✔ Correct Answer: B
 Reason: EyeDropper API lets users sample colors from anywhere on screen.
@@ -1355,12 +1235,10 @@ Subtopic: Layers Cascade
 Difficulty: Hard
 
 Question: How do cascade layers affect specificity?
-A: No effect
-B: Layer order matters more than specificity within layers
-C: Increases specificity
-D: Removes specificity
-
-D) [Missing option - Please review]
+A) No effect
+B) Layer order matters more than specificity within layers
+C) Increases specificity
+D) Removes specificity
 
 ✔ Correct Answer: B
 Reason: Cascade layers create specificity contexts; later layers win regardless of specificity.
@@ -1375,12 +1253,10 @@ Subtopic: GitOps
 Difficulty: Medium
 
 Question: What is GitOps?
-A: Git operations
-B: Using Git as single source of truth for infrastructure
-C: Git workflows
-D: Git optimization
-
-D) [Missing option - Please review]
+A) Git operations
+B) Using Git as single source of truth for infrastructure
+C) Git workflows
+D) Git optimization
 
 ✔ Correct Answer: B
 Reason: GitOps uses Git repositories to declaratively manage infrastructure and deployments.
@@ -1395,10 +1271,10 @@ Subtopic: Backends for Frontends
 Difficulty: Hard
 
 Question: What is the BFF (Backend for Frontend) pattern?
-A: Best friends forever
-B: Separate backend services tailored for each frontend
-C: Backend framework
-D: Frontend backend
+A) Best friends forever
+B) Separate backend services tailored for each frontend
+C) Backend framework
+D) Frontend backend
 
 ✔ Correct Answer: B
 Reason: BFF creates dedicated backend services optimized for specific frontend needs.
@@ -1413,12 +1289,10 @@ Subtopic: Error Cause
 Difficulty: Medium
 
 Question: What does the cause property in Error objects provide?
-A: Error reason
-B: Original error that caused current error
-C: Error location
-D: Error type
-
-D) [Missing option - Please review]
+A) Error reason
+B) Original error that caused current error
+C) Error location
+D) Error type
 
 ✔ Correct Answer: B
 Reason: cause property chains errors, preserving original error context.
@@ -1433,12 +1307,10 @@ Subtopic: Hot vs Cold Data
 Difficulty: Medium
 
 Question: What is "hot" data in database context?
-A: Temperature
-B: Frequently accessed data
-C: Recent data
-D: Important data
-
-D) [Missing option - Please review]
+A) Temperature
+B) Frequently accessed data
+C) Recent data
+D) Important data
 
 ✔ Correct Answer: B
 Reason: Hot data is frequently accessed; cold data is rarely accessed.
@@ -1453,12 +1325,10 @@ Subtopic: Speculation Rules
 Difficulty: Hard
 
 Question: What do speculation rules enable?
-A: Guessing content
-B: Declarative prefetching and prerendering
-C: Speculative execution
-D: Future predictions
-
-D) [Missing option - Please review]
+A) Guessing content
+B) Declarative prefetching and prerendering
+C) Speculative execution
+D) Future predictions
 
 ✔ Correct Answer: B
 Reason: Speculation rules API defines prefetch/prerender rules for navigation.
@@ -1473,12 +1343,10 @@ Subtopic: Comparison Functions
 Difficulty: Medium
 
 Question: What does the CSS round() function do?
-A: Rounds corners
-B: Rounds numeric values to nearest step
-C: Creates circles
-D: Rounds borders
-
-D) [Missing option - Please review]
+A) Rounds corners
+B) Rounds numeric values to nearest step
+C) Creates circles
+D) Rounds borders
 
 ✔ Correct Answer: B
 Reason: round() rounds values to nearest multiple of specified step.
@@ -1493,12 +1361,10 @@ Subtopic: Permissions Policy
 Difficulty: Medium
 
 Question: How is Permissions Policy set?
-A: JavaScript only
-B: HTTP header or iframe allow attribute
-C: Meta tags only
-D: CSS
-
-D) [Missing option - Please review]
+A) JavaScript only
+B) HTTP header or iframe allow attribute
+C) Meta tags only
+D) CSS
 
 ✔ Correct Answer: B
 Reason: Permissions Policy uses Permissions-Policy header or allow attribute.
@@ -1513,12 +1379,10 @@ Subtopic: Invoker Commands
 Difficulty: Hard
 
 Question: What does the invoketarget attribute do?
-A: Invokes functions
-B: Declaratively triggers actions on target elements
-C: Targets elements
-D: Invokes APIs
-
-D) [Missing option - Please review]
+A) Invokes functions
+B) Declaratively triggers actions on target elements
+C) Targets elements
+D) Invokes APIs
 
 ✔ Correct Answer: B
 Reason: invoketarget enables declarative element interactions without JavaScript.
@@ -1533,12 +1397,10 @@ Subtopic: API Versioning Strategies
 Difficulty: Medium
 
 Question: Which API versioning strategy uses headers?
-A: URL versioning
-B: Header versioning (Accept header)
-C: Query parameter versioning
-D: No versioning
-
-D) [Missing option - Please review]
+A) URL versioning
+B) Header versioning (Accept header)
+C) Query parameter versioning
+D) No versioning
 
 ✔ Correct Answer: B
 Reason: Header versioning uses Accept or custom headers to specify API version.
@@ -1553,12 +1415,10 @@ Subtopic: Temporal Dead Zone
 Difficulty: Hard
 
 Question: What is the Temporal Dead Zone?
-A: Time zone
-B: Period where let/const variables exist but can't be accessed
-C: Dead code
-D: Timeout zone
-
-D) [Missing option - Please review]
+A) Time zone
+B) Period where let/const variables exist but can't be accessed
+C) Dead code
+D) Timeout zone
 
 ✔ Correct Answer: B
 Reason: TDZ is time between scope entry and variable declaration where access throws error.
@@ -1573,12 +1433,10 @@ Subtopic: Idle Detection API
 Difficulty: Medium
 
 Question: What does the Idle Detection API detect?
-A: Idle servers
-B: User inactivity (idle state)
-C: Idle processes
-D: Idle connections
-
-D) [Missing option - Please review]
+A) Idle servers
+B) User inactivity (idle state)
+C) Idle processes
+D) Idle connections
 
 ✔ Correct Answer: B
 Reason: Idle Detection API detects when user is inactive or screen is locked.
@@ -1593,12 +1451,10 @@ Subtopic: Exponential Functions
 Difficulty: Medium
 
 Question: Which CSS function calculates exponential values?
-A: exp()
-B: power()
-C: exponent()
-D: pow()
-
-D) [Missing option - Please review]
+A) exp()
+B) power()
+C) exponent()
+D) pow()
 
 ✔ Correct Answer: D
 Reason: pow() calculates base raised to exponent; exp() calculates e^x.
@@ -1613,12 +1469,10 @@ Subtopic: Feature Toggles vs Feature Flags
 Difficulty: Easy
 
 Question: What's the difference between feature toggles and feature flags?
-A: Completely different
-B: Same concept, different terminology
-C: Toggles are permanent
-D: Flags are deprecated
-
-D) [Missing option - Please review]
+A) Completely different
+B) Same concept, different terminology
+C) Toggles are permanent
+D) Flags are deprecated
 
 ✔ Correct Answer: B
 Reason: Feature toggles and feature flags are synonymous terms.
@@ -1633,12 +1487,10 @@ Subtopic: Graceful Shutdown
 Difficulty: Medium
 
 Question: What is graceful shutdown?
-A: Immediate shutdown
-B: Completing in-flight requests before shutting down
-C: Slow shutdown
-D: Scheduled shutdown
-
-D) [Missing option - Please review]
+A) Immediate shutdown
+B) Completing in-flight requests before shutting down
+C) Slow shutdown
+D) Scheduled shutdown
 
 ✔ Correct Answer: B
 Reason: Graceful shutdown finishes processing requests before terminating.
@@ -1653,12 +1505,10 @@ Subtopic: Object.hasOwn
 Difficulty: Medium
 
 Question: What's the advantage of Object.hasOwn() over hasOwnProperty()?
-A: Faster
-B: Safer, works with objects without hasOwnProperty method
-C: Newer syntax
-D: No advantage
-
-D) [Missing option - Please review]
+A) Faster
+B) Safer, works with objects without hasOwnProperty method
+C) Newer syntax
+D) No advantage
 
 ✔ Correct Answer: B
 Reason: Object.hasOwn() is safer for objects created with null prototype.
@@ -1673,12 +1523,10 @@ Subtopic: Optimistic vs Pessimistic Locking
 Difficulty: Hard
 
 Question: What is optimistic locking?
-A: Always optimistic
-B: Assumes conflicts are rare, checks at commit time
-C: Locks immediately
-D: No locking
-
-D) [Missing option - Please review]
+A) Always optimistic
+B) Assumes conflicts are rare, checks at commit time
+C) Locks immediately
+D) No locking
 
 ✔ Correct Answer: B
 Reason: Optimistic locking doesn't lock; detects conflicts when committing changes.
@@ -1693,12 +1541,10 @@ Subtopic: Back/Forward Cache
 Difficulty: Medium
 
 Question: What is the back/forward cache (bfcache)?
-A: Browser cache
-B: Instant navigation by caching entire pages
-C: Forward proxy
-D: Backward compatibility
-
-D) [Missing option - Please review]
+A) Browser cache
+B) Instant navigation by caching entire pages
+C) Forward proxy
+D) Backward compatibility
 
 ✔ Correct Answer: B
 Reason: bfcache stores complete page snapshots for instant back/forward navigation.
@@ -1713,12 +1559,10 @@ Subtopic: Starting Style
 Difficulty: Hard
 
 Question: What does @starting-style do?
-A: Initial styles
-B: Defines styles before transition from display:none
-C: Starting animations
-D: First styles
-
-D) [Missing option - Please review]
+A) Initial styles
+B) Defines styles before transition from display:none
+C) Starting animations
+D) First styles
 
 ✔ Correct Answer: B
 Reason: @starting-style enables transitions when elements become visible.
@@ -1733,12 +1577,10 @@ Subtopic: Fenced Frames
 Difficulty: Hard
 
 Question: What are fenced frames?
-A: Border frames
-B: Isolated frames for privacy-preserving ads
-C: Secure iframes
-D: Frame borders
-
-D) [Missing option - Please review]
+A) Border frames
+B) Isolated frames for privacy-preserving ads
+C) Secure iframes
+D) Frame borders
 
 ✔ Correct Answer: B
 Reason: Fenced frames provide isolation for embedded content with limited communication.
@@ -1753,12 +1595,10 @@ Subtopic: Selectmenu Element
 Difficulty: Hard
 
 Question: What does the <selectmenu> element provide?
-A: Menu selection
-B: Fully customizable select dropdown (proposal)
-C: Context menu
-D: Navigation menu
-
-D) [Missing option - Please review]
+A) Menu selection
+B) Fully customizable select dropdown (proposal)
+C) Context menu
+D) Navigation menu
 
 ✔ Correct Answer: B
 Reason: <selectmenu> is proposed element for styleable, accessible select controls.
@@ -1773,12 +1613,10 @@ Subtopic: Correlation IDs
 Difficulty: Medium
 
 Question: What are correlation IDs used for?
-A: Data correlation
-B: Tracking requests across distributed systems
-C: ID generation
-D: Database relations
-
-D) [Missing option - Please review]
+A) Data correlation
+B) Tracking requests across distributed systems
+C) ID generation
+D) Database relations
 
 ✔ Correct Answer: B
 Reason: Correlation IDs link related operations across services for tracing.
@@ -1793,12 +1631,10 @@ Subtopic: Array Grouping
 Difficulty: Medium
 
 Question: What does Object.groupBy() do?
-A: Groups objects
-B: Groups array elements by callback result
-C: Object grouping
-D: Creates groups
-
-D) [Missing option - Please review]
+A) Groups objects
+B) Groups array elements by callback result
+C) Object grouping
+D) Creates groups
 
 ✔ Correct Answer: B
 Reason: Object.groupBy() groups array elements into object based on callback.
@@ -1813,12 +1649,10 @@ Subtopic: Sanitizer API
 Difficulty: Hard
 
 Question: What does the Sanitizer API do?
-A: Cleans code
-B: Safely sanitizes HTML to prevent XSS
-C: Data cleaning
-D: Input validation
-
-D) [Missing option - Please review]
+A) Cleans code
+B) Safely sanitizes HTML to prevent XSS
+C) Data cleaning
+D) Input validation
 
 ✔ Correct Answer: B
 Reason: Sanitizer API provides safe HTML sanitization built into browsers.
@@ -1833,12 +1667,10 @@ Subtopic: Light-Dark Function
 Difficulty: Medium
 
 Question: What does the light-dark() function do?
-A: Lighting effects
-B: Returns different values for light/dark color schemes
-C: Brightness control
-D: Theme switching
-
-D) [Missing option - Please review]
+A) Lighting effects
+B) Returns different values for light/dark color schemes
+C) Brightness control
+D) Theme switching
 
 ✔ Correct Answer: B
 Reason: light-dark() simplifies color scheme adaptation with single declaration.
@@ -1853,12 +1685,10 @@ Subtopic: Immutable Infrastructure
 Difficulty: Medium
 
 Question: What is immutable infrastructure?
-A: Unchangeable code
-B: Replacing servers instead of updating them
-C: Permanent infrastructure
-D: Static infrastructure
-
-D) [Missing option - Please review]
+A) Unchangeable code
+B) Replacing servers instead of updating them
+C) Permanent infrastructure
+D) Static infrastructure
 
 ✔ Correct Answer: B
 Reason: Immutable infrastructure replaces servers rather than modifying them.
@@ -1873,12 +1703,10 @@ Subtopic: Request Coalescing
 Difficulty: Hard
 
 Question: What is request coalescing?
-A: Combining requests
-B: Merging duplicate concurrent requests into single operation
-C: Request batching
-D: Request caching
-
-D) [Missing option - Please review]
+A) Combining requests
+B) Merging duplicate concurrent requests into single operation
+C) Request batching
+D) Request caching
 
 ✔ Correct Answer: B
 Reason: Request coalescing deduplicates identical concurrent requests.
@@ -1893,12 +1721,10 @@ Subtopic: Array.fromAsync
 Difficulty: Hard
 
 Question: What does Array.fromAsync() do?
-A: Async arrays
-B: Creates array from async iterable
-C: Async conversion
-D: Promise arrays
-
-D) [Missing option - Please review]
+A) Async arrays
+B) Creates array from async iterable
+C) Async conversion
+D) Promise arrays
 
 ✔ Correct Answer: B
 Reason: Array.fromAsync() creates arrays from async iterables or promises.
@@ -1913,12 +1739,10 @@ Subtopic: Eventual vs Causal Consistency
 Difficulty: Hard
 
 Question: What is causal consistency?
-A: Cause and effect
-B: Preserves cause-effect relationships in distributed systems
-C: Casual consistency
-D: Random consistency
-
-D) [Missing option - Please review]
+A) Cause and effect
+B) Preserves cause-effect relationships in distributed systems
+C) Casual consistency
+D) Random consistency
 
 ✔ Correct Answer: B
 Reason: Causal consistency ensures causally related operations are seen in order.
@@ -1933,12 +1757,10 @@ Subtopic: Navigation Timing
 Difficulty: Medium
 
 Question: What does the Navigation Timing API measure?
-A: Navigation clicks
-B: Detailed timing of page navigation and loading
-C: Route timing
-D: Link timing
-
-D) [Missing option - Please review]
+A) Navigation clicks
+B) Detailed timing of page navigation and loading
+C) Route timing
+D) Link timing
 
 ✔ Correct Answer: B
 Reason: Navigation Timing API provides detailed performance metrics for page loads.
@@ -1953,12 +1775,10 @@ Subtopic: Field Sizing
 Difficulty: Medium
 
 Question: What does field-sizing: content do?
-A: Sizes fields
-B: Makes form controls size to their content
-C: Content sizing
-D: Field width
-
-D) [Missing option - Please review]
+A) Sizes fields
+B) Makes form controls size to their content
+C) Content sizing
+D) Field width
 
 ✔ Correct Answer: B
 Reason: field-sizing: content makes inputs automatically size to content.
@@ -1973,12 +1793,10 @@ Subtopic: Full Stack Development
 Difficulty: Medium
 
 Question: What defines a full-stack web developer?
-A: Knows everything
-B: Proficient in both frontend and backend technologies
-C: Works full time
-D: Senior developer
-
-D) [Missing option - Please review]
+A) Knows everything
+B) Proficient in both frontend and backend technologies
+C) Works full time
+D) Senior developer
 
 ✔ Correct Answer: B
 Reason: Full-stack developers work across the entire web application stack from UI to database.

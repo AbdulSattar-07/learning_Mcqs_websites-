@@ -1872,9 +1872,7 @@ Question: Why should you avoid using SELECT DISTINCT unnecessarily?
 A) It's faster
 B) It adds overhead for duplicate elimination
 C) It's required
-D: No reason
-
-D) [Missing option - Please review]
+D) No reason
 
 ✔ Correct Answer: B
 

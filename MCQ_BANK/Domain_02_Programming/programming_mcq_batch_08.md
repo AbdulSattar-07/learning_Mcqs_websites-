@@ -1570,9 +1570,7 @@ def my_context():
 with my_context():
     print("Inside")
 ```
-A: Inside
-A) [Missing option - Please review]
-
+A) Inside
 B) Enter Inside Exit
 C) Enter Exit
 D) Error

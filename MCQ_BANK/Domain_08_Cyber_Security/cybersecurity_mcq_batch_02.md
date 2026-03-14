@@ -1307,12 +1307,10 @@ Subtopic: Compliance Auditing
 Difficulty: Easy
 
 Question: What is compliance auditing?
-A: Random checking
-B: Verifying adherence to standards
-C: No verification
-D: Performance testing
-
-D) [Missing option - Please review]
+A) Random checking
+B) Verifying adherence to standards
+C) No verification
+D) Performance testing
 
 ✔ Correct Answer: B
 Reason: Compliance audits ensure organization meets regulatory requirements.
@@ -1327,12 +1325,10 @@ Subtopic: Data Sovereignty
 Difficulty: Medium
 
 Question: What is data sovereignty?
-A: No regulations
-B: Data subject to laws of storage location
-C: Global data
-D: No boundaries
-
-D) [Missing option - Please review]
+A) No regulations
+B) Data subject to laws of storage location
+C) Global data
+D) No boundaries
 
 ✔ Correct Answer: B
 Reason: Data sovereignty means data is governed by laws of country where stored.
@@ -1347,12 +1343,10 @@ Subtopic: Security Automation
 Difficulty: Medium
 
 Question: What is security automation?
-A: Manual processes
-B: Using technology to perform security tasks
-C: No automation
-D: Slowing security
-
-D) [Missing option - Please review]
+A) Manual processes
+B) Using technology to perform security tasks
+C) No automation
+D) Slowing security
 
 ✔ Correct Answer: B
 Reason: Automation handles repetitive security tasks for faster response.
@@ -1367,12 +1361,10 @@ Subtopic: Corrective Controls
 Difficulty: Easy
 
 Question: What is a corrective control?
-A: Prevents attacks
-B: Fixes damage after incident
-C: Detects attacks
-D: No action
-
-D) [Missing option - Please review]
+A) Prevents attacks
+B) Fixes damage after incident
+C) Detects attacks
+D) No action
 
 ✔ Correct Answer: B
 Reason: Corrective controls restore systems and mitigate damage.
@@ -1387,12 +1379,10 @@ Subtopic: Quantum-Resistant Cryptography
 Difficulty: Hard
 
 Question: Why develop quantum-resistant algorithms?
-A: No reason
-B: Quantum computers threaten current encryption
-C: Slower encryption
-D: Aesthetic purposes
-
-D) [Missing option - Please review]
+A) No reason
+B) Quantum computers threaten current encryption
+C) Slower encryption
+D) Aesthetic purposes
 
 ✔ Correct Answer: B
 Reason: Post-quantum cryptography resists attacks from quantum computers.
@@ -1407,12 +1397,10 @@ Subtopic: Network Access Control
 Difficulty: Medium
 
 Question: What is NAC?
-A: Network Access Control
-B: Network Application Center
-C: New Access Configuration
-D: No Access Control
-
-D) [Missing option - Please review]
+A) Network Access Control
+B) Network Application Center
+C) New Access Configuration
+D) No Access Control
 
 ✔ Correct Answer: A
 Reason: NAC enforces security policy on devices accessing network.
@@ -1427,12 +1415,10 @@ Subtopic: Broken Authentication
 Difficulty: Medium
 
 Question: What causes broken authentication?
-A: Strong passwords
-B: Weak session management
-C: Perfect implementation
-D: No authentication
-
-D) [Missing option - Please review]
+A) Strong passwords
+B) Weak session management
+C) Perfect implementation
+D) No authentication
 
 ✔ Correct Answer: B
 Reason: Broken authentication results from flawed credential/session handling.
@@ -1447,12 +1433,10 @@ Subtopic: Polymorphic Malware
 Difficulty: Hard
 
 Question: What is polymorphic malware?
-A: Static code
-B: Changes code to evade detection
-C: No changes
-D: Deleted malware
-
-D) [Missing option - Please review]
+A) Static code
+B) Changes code to evade detection
+C) No changes
+D) Deleted malware
 
 ✔ Correct Answer: B
 Reason: Polymorphic malware mutates while maintaining functionality.
@@ -1467,12 +1451,10 @@ Subtopic: Privileged Access Management
 Difficulty: Medium
 
 Question: What is PAM?
-A: Password Access Manager
-B: Privileged Access Management
-C: Public Access Module
-D: Protected Application Method
-
-D) [Missing option - Please review]
+A) Password Access Manager
+B) Privileged Access Management
+C) Public Access Module
+D) Protected Application Method
 
 ✔ Correct Answer: B
 Reason: PAM controls and monitors privileged account access.
@@ -1487,12 +1469,10 @@ Subtopic: Open Design
 Difficulty: Medium
 
 Question: What is open design principle?
-A: Secret algorithms
-B: Security not dependent on secrecy of design
-C: Hidden implementation
-D: Proprietary only
-
-D) [Missing option - Please review]
+A) Secret algorithms
+B) Security not dependent on secrecy of design
+C) Hidden implementation
+D) Proprietary only
 
 ✔ Correct Answer: B
 Reason: Open design relies on key secrecy, not algorithm secrecy.
@@ -1507,12 +1487,10 @@ Subtopic: Kernel Security
 Difficulty: Hard
 
 Question: What is kernel hardening?
-A: Making hardware harder
-B: Securing OS kernel against attacks
-C: No security
-D: User space only
-
-D) [Missing option - Please review]
+A) Making hardware harder
+B) Securing OS kernel against attacks
+C) No security
+D) User space only
 
 ✔ Correct Answer: B
 Reason: Kernel hardening applies security measures to OS core.
@@ -1527,12 +1505,10 @@ Subtopic: Cipher Modes
 Difficulty: Medium
 
 Question: What is CBC mode?
-A: Cipher Block Chaining
-B: Central Block Cipher
-C: Complete Block Code
-D: Circular Block Cipher
-
-D) [Missing option - Please review]
+A) Cipher Block Chaining
+B) Central Block Cipher
+C) Complete Block Code
+D) Circular Block Cipher
 
 ✔ Correct Answer: A
 Reason: CBC chains blocks where each depends on previous ciphertext.
@@ -1547,12 +1523,10 @@ Subtopic: DNS Security
 Difficulty: Medium
 
 Question: What is DNSSEC?
-A: DNS Speed Enhancement
-B: DNS Security Extensions
-C: Dynamic Name System Security
-D: Direct Network Security
-
-D) [Missing option - Please review]
+A) DNS Speed Enhancement
+B) DNS Security Extensions
+C) Dynamic Name System Security
+D) Direct Network Security
 
 ✔ Correct Answer: B
 Reason: DNSSEC adds authentication to DNS to prevent spoofing.
@@ -1567,12 +1541,10 @@ Subtopic: Security Logging
 Difficulty: Easy
 
 Question: Why log security events?
-A: Waste storage
-B: Audit trail and incident investigation
-C: No reason
-D: Slow application
-
-D) [Missing option - Please review]
+A) Waste storage
+B) Audit trail and incident investigation
+C) No reason
+D) Slow application
 
 ✔ Correct Answer: B
 Reason: Logs provide evidence and help detect/investigate security incidents.
@@ -1587,12 +1559,10 @@ Subtopic: Supply Chain Attack
 Difficulty: Hard
 
 Question: What is a supply chain attack?
-A: Direct attack
-B: Compromising trusted third-party
-C: Physical attack
-D: No attack
-
-D) [Missing option - Please review]
+A) Direct attack
+B) Compromising trusted third-party
+C) Physical attack
+D) No attack
 
 ✔ Correct Answer: B
 Reason: Supply chain attacks infiltrate through trusted vendors or software.
@@ -1607,12 +1577,10 @@ Subtopic: Secure Coding Standards
 Difficulty: Easy
 
 Question: Why follow secure coding standards?
-A: Slow development
-B: Prevent common vulnerabilities
-C: No benefit
-D: Increase bugs
-
-D) [Missing option - Please review]
+A) Slow development
+B) Prevent common vulnerabilities
+C) No benefit
+D) Increase bugs
 
 ✔ Correct Answer: B
 Reason: Secure coding standards reduce security flaws in software.
@@ -1627,12 +1595,10 @@ Subtopic: Anti-Forensics
 Difficulty: Hard
 
 Question: What is anti-forensics?
-A: Forensic tools
-B: Techniques to hinder investigation
-C: Evidence collection
-D: Forensic analysis
-
-D) [Missing option - Please review]
+A) Forensic tools
+B) Techniques to hinder investigation
+C) Evidence collection
+D) Forensic analysis
 
 ✔ Correct Answer: B
 Reason: Anti-forensics attempts to prevent or mislead forensic analysis.
@@ -1647,12 +1613,10 @@ Subtopic: Incident Metrics
 Difficulty: Medium
 
 Question: What is MTTD?
-A: Maximum Time To Detect
-B: Mean Time To Detect
-C: Minimum Time To Detect
-D: Multiple Time To Detect
-
-D) [Missing option - Please review]
+A) Maximum Time To Detect
+B) Mean Time To Detect
+C) Minimum Time To Detect
+D) Multiple Time To Detect
 
 ✔ Correct Answer: B
 Reason: MTTD measures average time to identify security incident.
@@ -1667,12 +1631,10 @@ Subtopic: Mobile App Security
 Difficulty: Medium
 
 Question: What is app sandboxing on mobile?
-A: No isolation
-B: Isolating apps from each other
-C: Full access
-D: No security
-
-D) [Missing option - Please review]
+A) No isolation
+B) Isolating apps from each other
+C) Full access
+D) No security
 
 ✔ Correct Answer: B
 Reason: Mobile sandboxing restricts app access to system and other apps.
@@ -1687,12 +1649,10 @@ Subtopic: Cloud Encryption
 Difficulty: Easy
 
 Question: Where should cloud data be encrypted?
-A: Never
-B: At rest and in transit
-C: Only at rest
-D: Only in transit
-
-D) [Missing option - Please review]
+A) Never
+B) At rest and in transit
+C) Only at rest
+D) Only in transit
 
 ✔ Correct Answer: B
 Reason: Comprehensive protection requires encryption both stored and transmitted.
@@ -1707,12 +1667,10 @@ Subtopic: Security Posture Assessment
 Difficulty: Medium
 
 Question: What is security posture assessment?
-A: Physical posture
-B: Evaluating overall security status
-C: No evaluation
-D: Network speed test
-
-D) [Missing option - Please review]
+A) Physical posture
+B) Evaluating overall security status
+C) No evaluation
+D) Network speed test
 
 ✔ Correct Answer: B
 Reason: Posture assessment identifies security strengths and weaknesses.
@@ -1727,12 +1685,10 @@ Subtopic: Cybercrime
 Difficulty: Easy
 
 Question: What is cybercrime?
-A: Legal activity
-B: Criminal activity using computers
-C: Ethical hacking
-D: Security testing
-
-D) [Missing option - Please review]
+A) Legal activity
+B) Criminal activity using computers
+C) Ethical hacking
+D) Security testing
 
 ✔ Correct Answer: B
 Reason: Cybercrime involves illegal acts committed via computer systems.
@@ -1747,12 +1703,10 @@ Subtopic: Extended Detection and Response
 Difficulty: Hard
 
 Question: What is XDR?
-A: Extra Data Recovery
-B: Extended Detection and Response
-C: External Device Registry
-D: Extreme Data Replication
-
-D) [Missing option - Please review]
+A) Extra Data Recovery
+B) Extended Detection and Response
+C) External Device Registry
+D) Extreme Data Replication
 
 ✔ Correct Answer: B
 Reason: XDR integrates security tools for unified threat detection and response.
@@ -1767,12 +1721,10 @@ Subtopic: Security Awareness
 Difficulty: Easy
 
 Question: Why is security awareness training important?
-A: Waste time
-B: Reduce human error and social engineering
-C: No importance
-D: Slow productivity
-
-D) [Missing option - Please review]
+A) Waste time
+B) Reduce human error and social engineering
+C) No importance
+D) Slow productivity
 
 ✔ Correct Answer: B
 Reason: Training helps users recognize and avoid security threats.
@@ -1787,12 +1739,10 @@ Subtopic: Steganography
 Difficulty: Medium
 
 Question: What is steganography?
-A: Encryption
-B: Hiding messages in other data
-C: Hashing
-D: Compression
-
-D) [Missing option - Please review]
+A) Encryption
+B) Hiding messages in other data
+C) Hashing
+D) Compression
 
 ✔ Correct Answer: B
 Reason: Steganography conceals information within innocent-looking files.
@@ -1807,12 +1757,10 @@ Subtopic: Secure Shell
 Difficulty: Easy
 
 Question: What is SSH used for?
-A: Web browsing
-B: Secure remote access
-C: Email
-D: File storage
-
-D) [Missing option - Please review]
+A) Web browsing
+B) Secure remote access
+C) Email
+D) File storage
 
 ✔ Correct Answer: B
 Reason: SSH provides encrypted remote login and command execution.
@@ -1827,12 +1775,10 @@ Subtopic: Rate Limiting
 Difficulty: Easy
 
 Question: What does rate limiting prevent?
-A: Slow access
-B: Brute force and DoS attacks
-C: Encryption
-D: Authentication
-
-D) [Missing option - Please review]
+A) Slow access
+B) Brute force and DoS attacks
+C) Encryption
+D) Authentication
 
 ✔ Correct Answer: B
 Reason: Rate limiting restricts request frequency to prevent abuse.
@@ -1847,12 +1793,10 @@ Subtopic: Credential Stuffing
 Difficulty: Medium
 
 Question: What is credential stuffing?
-A: Password creation
-B: Using stolen credentials on multiple sites
-C: Password hashing
-D: Account creation
-
-D) [Missing option - Please review]
+A) Password creation
+B) Using stolen credentials on multiple sites
+C) Password hashing
+D) Account creation
 
 ✔ Correct Answer: B
 Reason: Credential stuffing exploits password reuse across services.

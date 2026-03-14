@@ -1582,9 +1582,7 @@ Difficulty: Medium
 
 Question: What is load balancing?
 A) Balancing data
-B: Distributing requests across servers
-B) [Missing option - Please review]
-
+B) Distributing requests across servers
 C) Balancing features
 D) No distribution
 

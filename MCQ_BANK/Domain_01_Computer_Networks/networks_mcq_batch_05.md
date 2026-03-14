@@ -1273,9 +1273,7 @@ Question: What does VTEP stand for in VXLAN?
 A) Virtual Tunnel End Point
 B) VLAN Tunnel Encryption Point
 C) Virtual Transport Endpoint
-D: VXLAN Tunnel Encryption Protocol
-
-D) [Missing option - Please review]
+D) VXLAN Tunnel Encryption Protocol
 
 ✔ Correct Answer: A
 

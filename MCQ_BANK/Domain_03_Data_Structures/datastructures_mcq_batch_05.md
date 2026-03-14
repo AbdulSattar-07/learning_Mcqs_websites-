@@ -865,9 +865,7 @@ Difficulty: Hard
 
 Question: What does Aho-Corasick algorithm do?
 A) Single pattern matching
-B: Multiple pattern matching simultaneously
-B) [Missing option - Please review]
-
+B) Multiple pattern matching simultaneously
 C) Sorting
 D) Hashing
 

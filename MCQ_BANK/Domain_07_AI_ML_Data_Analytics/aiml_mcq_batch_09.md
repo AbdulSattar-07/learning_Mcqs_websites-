@@ -490,9 +490,7 @@ Difficulty: Easy
 
 Question: What is batch size?
 A) Model size
-B: Number of samples per training iteration
-B) [Missing option - Please review]
-
+B) Number of samples per training iteration
 C) Dataset size
 D) Layer size
 
@@ -786,9 +784,7 @@ Difficulty: Medium
 Question: What does momentum in optimization do?
 A) Stops training
 B) Accelerates convergence using past gradients
-C: Slows training
-C) [Missing option - Please review]
-
+C) Slows training
 D) No effect
 
 ✔ Correct Answer: B
@@ -843,9 +839,7 @@ Question: What distinguishes instance segmentation?
 A) No difference
 B) Separates individual object instances
 C) Only classes
-D: Random segmentation
-
-D) [Missing option - Please review]
+D) Random segmentation
 
 ✔ Correct Answer: B
 Reason: Instance segmentation identifies each object separately, not just classes.
@@ -897,9 +891,7 @@ Difficulty: Hard
 
 Question: What is federated learning?
 A) Centralized training
-B: Training on decentralized data
-B) [Missing option - Please review]
-
+B) Training on decentralized data
 C) No training
 D) Single device
 
@@ -1048,9 +1040,7 @@ Difficulty: Medium
 Question: When is balanced accuracy useful?
 A) Balanced datasets
 B) Imbalanced datasets
-C: Never useful
-C) [Missing option - Please review]
-
+C) Never useful
 D) Only regression
 
 ✔ Correct Answer: B
@@ -1067,9 +1057,7 @@ Difficulty: Hard
 
 Question: What does mutual information measure?
 A) Nothing
-B: Dependency between variables
-B) [Missing option - Please review]
-
+B) Dependency between variables
 C) Mean
 D) Variance
 
@@ -1123,9 +1111,7 @@ Difficulty: Medium
 
 Question: What is dependency parsing?
 A) Word counting
-B: Analyzing grammatical structure relationships
-B) [Missing option - Please review]
-
+B) Analyzing grammatical structure relationships
 C) Translation
 D) Summarization
 
@@ -1143,9 +1129,7 @@ Difficulty: Hard
 
 Question: What is optical flow?
 A) Light intensity
-B: Pattern of motion between frames
-B) [Missing option - Please review]
-
+B) Pattern of motion between frames
 C) Color flow
 D) No flow
 
@@ -1163,9 +1147,7 @@ Difficulty: Medium
 
 Question: What is a data lake?
 A) Small database
-B: Centralized repository for raw data
-B) [Missing option - Please review]
-
+B) Centralized repository for raw data
 C) Processed data only
 D) No storage
 
@@ -1183,13 +1165,9 @@ Difficulty: Hard
 
 Question: What is a feature store?
 A) Data warehouse
-B: Centralized repository for ML features
-B) [Missing option - Please review]
-
+B) Centralized repository for ML features
 C) Model storage
-D: Code repository
-
-D) [Missing option - Please review]
+D) Code repository
 
 ✔ Correct Answer: B
 Reason: Feature store manages, versions, and serves features for ML models.
@@ -1205,13 +1183,9 @@ Difficulty: Hard
 
 Question: What is model poisoning?
 A) Deleting model
-B: Injecting malicious data during training
-B) [Missing option - Please review]
-
+B) Injecting malicious data during training
 C) Model compression
-D: No attack
-
-D) [Missing option - Please review]
+D) No attack
 
 ✔ Correct Answer: B
 Reason: Model poisoning corrupts training data to compromise model behavior.
@@ -1232,9 +1206,7 @@ arr = np.array([[1, 2], [3, 4]])
 print(arr.flatten().sum())
 ```
 A) 4
-B: 10
-B) [Missing option - Please review]
-
+B) 10
 C) 7
 D) 5
 
@@ -1252,13 +1224,9 @@ Difficulty: Hard
 
 Question: What is Taylor series used for?
 A) Random approximation
-B: Approximating functions with polynomials
-B) [Missing option - Please review]
-
+B) Approximating functions with polynomials
 C) No use
-D: Exact values only
-
-D) [Missing option - Please review]
+D) Exact values only
 
 ✔ Correct Answer: B
 Reason: Taylor series expresses function as infinite sum of polynomial terms.
@@ -1274,13 +1242,9 @@ Difficulty: Hard
 
 Question: What constraint does isotonic regression enforce?
 A) No constraint
-B: Monotonic relationship
-B) [Missing option - Please review]
-
+B) Monotonic relationship
 C) Linear only
-D: Random
-
-D) [Missing option - Please review]
+D) Random
 
 ✔ Correct Answer: B
 Reason: Isotonic regression fits non-decreasing function to data.
@@ -1296,13 +1260,9 @@ Difficulty: Medium
 
 Question: What is winsorization?
 A) Deleting outliers
-B: Capping extreme values at percentiles
-B) [Missing option - Please review]
-
+B) Capping extreme values at percentiles
 C) No change
-D: Adding outliers
-
-D) [Missing option - Please review]
+D) Adding outliers
 
 ✔ Correct Answer: B
 Reason: Winsorization limits extreme values to reduce outlier impact.
@@ -1318,13 +1278,9 @@ Difficulty: Medium
 
 Question: What does QQ plot compare?
 A) Two datasets
-B: Sample distribution vs theoretical distribution
-B) [Missing option - Please review]
-
+B) Sample distribution vs theoretical distribution
 C) Time series
-D: Categories
-
-D) [Missing option - Please review]
+D) Categories
 
 ✔ Correct Answer: B
 Reason: QQ plot compares quantiles to assess if data follows distribution.
@@ -1340,11 +1296,9 @@ Difficulty: Hard
 
 Question: What are snapshot ensembles?
 A) Random models
-B: Models from different training epochs
-C: Single model
-D: No ensemble
-
-D) [Missing option - Please review]
+B) Models from different training epochs
+C) Single model
+D) No ensemble
 
 ✔ Correct Answer: B
 Reason: Snapshot ensembles save models at different training stages.
@@ -1360,11 +1314,9 @@ Difficulty: Hard
 
 Question: What does spectral clustering use?
 A) Random values
-B: Eigenvalues of similarity matrix
-C: No matrix
-D: Distance only
-
-D) [Missing option - Please review]
+B) Eigenvalues of similarity matrix
+C) No matrix
+D) Distance only
 
 ✔ Correct Answer: B
 Reason: Spectral clustering uses graph theory and eigendecomposition.
@@ -1380,13 +1332,9 @@ Difficulty: Hard
 
 Question: What does Cohen's Kappa measure?
 A) Accuracy
-B: Inter-rater agreement beyond chance
-B) [Missing option - Please review]
-
+B) Inter-rater agreement beyond chance
 C) Loss
-D: Speed
-
-D) [Missing option - Please review]
+D) Speed
 
 ✔ Correct Answer: B
 Reason: Cohen's Kappa measures agreement between raters accounting for chance.
@@ -1402,11 +1350,9 @@ Difficulty: Medium
 
 Question: What are interaction features?
 A) Single features
-B: Products or combinations of features
-C: Deleted features
-D: No features
-
-D) [Missing option - Please review]
+B) Products or combinations of features
+C) Deleted features
+D) No features
 
 ✔ Correct Answer: B
 Reason: Interaction features capture relationships between multiple variables.
@@ -1422,11 +1368,9 @@ Difficulty: Medium
 
 Question: What is learning rate decay?
 A) Constant rate
-B: Gradually reducing learning rate
-C: Increasing rate
-D: Random rate
-
-D) [Missing option - Please review]
+B) Gradually reducing learning rate
+C) Increasing rate
+D) Random rate
 
 ✔ Correct Answer: B
 Reason: Learning rate decay reduces step size over time for fine-tuning.
@@ -1442,11 +1386,9 @@ Difficulty: Hard
 
 Question: What is NAS?
 A) Manual design
-B: Automated neural network architecture design
-C: No search
-D: Random architecture
-
-D) [Missing option - Please review]
+B) Automated neural network architecture design
+C) No search
+D) Random architecture
 
 ✔ Correct Answer: B
 Reason: NAS automatically discovers optimal network architectures.
@@ -1461,12 +1403,10 @@ Subtopic: Coreference Resolution
 Difficulty: Hard
 
 Question: What is coreference resolution?
-A: Word counting
-B: Identifying expressions referring to same entity
-C: Translation
-D: Summarization
-
-D) [Missing option - Please review]
+A) Word counting
+B) Identifying expressions referring to same entity
+C) Translation
+D) Summarization
 
 ✔ Correct Answer: B
 Reason: Coreference resolution links pronouns/mentions to their referents.
@@ -1481,12 +1421,10 @@ Subtopic: Facial Recognition
 Difficulty: Medium
 
 Question: What is face verification?
-A: Identifying person
-B: Confirming if two faces match
-C: Detecting faces
-D: No verification
-
-D) [Missing option - Please review]
+A) Identifying person
+B) Confirming if two faces match
+C) Detecting faces
+D) No verification
 
 ✔ Correct Answer: B
 Reason: Face verification determines if two images are of same person.
@@ -1501,12 +1439,10 @@ Subtopic: Column-Oriented Storage
 Difficulty: Medium
 
 Question: What is advantage of columnar storage?
-A: Slower queries
-B: Efficient for analytical queries
-C: More space
-D: No advantage
-
-D) [Missing option - Please review]
+A) Slower queries
+B) Efficient for analytical queries
+C) More space
+D) No advantage
 
 ✔ Correct Answer: B
 Reason: Columnar storage optimizes read performance for analytical workloads.
@@ -1521,12 +1457,10 @@ Subtopic: Shadow Deployment
 Difficulty: Hard
 
 Question: What is shadow deployment?
-A: Dark mode
-B: Running new model alongside old without affecting users
-C: No deployment
-D: Replacing old model
-
-D) [Missing option - Please review]
+A) Dark mode
+B) Running new model alongside old without affecting users
+C) No deployment
+D) Replacing old model
 
 ✔ Correct Answer: B
 Reason: Shadow deployment tests new model in production without serving results.
@@ -1541,12 +1475,10 @@ Subtopic: Homomorphic Encryption
 Difficulty: Hard
 
 Question: What is homomorphic encryption?
-A: Standard encryption
-B: Computing on encrypted data
-C: No encryption
-D: Decryption only
-
-D) [Missing option - Please review]
+A) Standard encryption
+B) Computing on encrypted data
+C) No encryption
+D) Decryption only
 
 ✔ Correct Answer: B
 Reason: Homomorphic encryption allows computations on encrypted data without decrypting.
@@ -1565,12 +1497,10 @@ Question: What is the output?
 x = [1, 2, 3, 4, 5]
 print(sum(x) / len(x))
 ```
-A: 2.0
-B: 3.0
-C: 15.0
-D: 5.0
-
-D) [Missing option - Please review]
+A) 2.0
+B) 3.0
+C) 15.0
+D) 5.0
 
 ✔ Correct Answer: B
 Reason: Sum = 15, length = 5, mean = 15/5 = 3.0.
@@ -1585,12 +1515,10 @@ Subtopic: Jacobian Matrix
 Difficulty: Hard
 
 Question: What is the Jacobian matrix?
-A: Random matrix
-B: Matrix of first-order partial derivatives
-C: Identity matrix
-D: No matrix
-
-D) [Missing option - Please review]
+A) Random matrix
+B) Matrix of first-order partial derivatives
+C) Identity matrix
+D) No matrix
 
 ✔ Correct Answer: B
 Reason: Jacobian contains all first-order partial derivatives of vector function.
@@ -1605,12 +1533,10 @@ Subtopic: Quantile Regression
 Difficulty: Hard
 
 Question: What does quantile regression predict?
-A: Mean only
-B: Conditional quantiles of response
-C: Mode only
-D: Variance only
-
-D) [Missing option - Please review]
+A) Mean only
+B) Conditional quantiles of response
+C) Mode only
+D) Variance only
 
 ✔ Correct Answer: B
 Reason: Quantile regression estimates specific percentiles of target distribution.
@@ -1625,12 +1551,10 @@ Subtopic: Data Profiling
 Difficulty: Easy
 
 Question: What is data profiling?
-A: Deleting data
-B: Analyzing data structure and quality
-C: Storing data
-D: Visualizing only
-
-D) [Missing option - Please review]
+A) Deleting data
+B) Analyzing data structure and quality
+C) Storing data
+D) Visualizing only
 
 ✔ Correct Answer: B
 Reason: Data profiling examines data to understand content, structure, and quality.
@@ -1645,12 +1569,10 @@ Subtopic: Andrews Curves
 Difficulty: Hard
 
 Question: What are Andrews curves used for?
-A: Time series
-B: Visualizing multivariate data
-C: Single variable
-D: No use
-
-D) [Missing option - Please review]
+A) Time series
+B) Visualizing multivariate data
+C) Single variable
+D) No use
 
 ✔ Correct Answer: B
 Reason: Andrews curves map multivariate data to curves for pattern detection.
@@ -1665,12 +1587,10 @@ Subtopic: Negative Correlation Learning
 Difficulty: Hard
 
 Question: What is negative correlation learning?
-A: Positive correlation
-B: Training diverse ensemble members
-C: No correlation
-D: Random training
-
-D) [Missing option - Please review]
+A) Positive correlation
+B) Training diverse ensemble members
+C) No correlation
+D) Random training
 
 ✔ Correct Answer: B
 Reason: Negative correlation learning encourages diversity among ensemble models.
@@ -1685,12 +1605,10 @@ Subtopic: Affinity Propagation
 Difficulty: Hard
 
 Question: What does affinity propagation find?
-A: Random clusters
-B: Exemplars representing clusters
-C: No clusters
-D: Single cluster
-
-D) [Missing option - Please review]
+A) Random clusters
+B) Exemplars representing clusters
+C) No clusters
+D) Single cluster
 
 ✔ Correct Answer: B
 Reason: Affinity propagation identifies exemplar data points as cluster centers.
@@ -1705,12 +1623,10 @@ Subtopic: Brier Score
 Difficulty: Hard
 
 Question: What does Brier score measure?
-A: Classification accuracy
-B: Accuracy of probabilistic predictions
-C: Regression error
-D: Clustering quality
-
-D) [Missing option - Please review]
+A) Classification accuracy
+B) Accuracy of probabilistic predictions
+C) Regression error
+D) Clustering quality
 
 ✔ Correct Answer: B
 Reason: Brier score measures mean squared difference between predicted probabilities and outcomes.
@@ -1725,12 +1641,10 @@ Subtopic: Boruta Algorithm
 Difficulty: Hard
 
 Question: What is Boruta algorithm?
-A: Clustering method
-B: Feature selection using random forests
-C: Classification method
-D: No algorithm
-
-D) [Missing option - Please review]
+A) Clustering method
+B) Feature selection using random forests
+C) Classification method
+D) No algorithm
 
 ✔ Correct Answer: B
 Reason: Boruta identifies relevant features by comparing with shadow features.
@@ -1745,12 +1659,10 @@ Subtopic: Cyclical Learning Rates
 Difficulty: Hard
 
 Question: What are cyclical learning rates?
-A: Constant rates
-B: Varying learning rate in cycles
-C: Decreasing only
-D: No variation
-
-D) [Missing option - Please review]
+A) Constant rates
+B) Varying learning rate in cycles
+C) Decreasing only
+D) No variation
 
 ✔ Correct Answer: B
 Reason: Cyclical learning rates oscillate between bounds to escape local minima.
@@ -1765,12 +1677,10 @@ Subtopic: Meta-Learning
 Difficulty: Hard
 
 Question: What is meta-learning?
-A: Single task learning
-B: Learning to learn from few examples
-C: No learning
-D: Random learning
-
-D) [Missing option - Please review]
+A) Single task learning
+B) Learning to learn from few examples
+C) No learning
+D) Random learning
 
 ✔ Correct Answer: B
 Reason: Meta-learning trains models to quickly adapt to new tasks with limited data.
@@ -1785,12 +1695,10 @@ Subtopic: Question Answering
 Difficulty: Medium
 
 Question: What is extractive QA?
-A: Generating answers
-B: Selecting answer span from text
-C: Translation
-D: Summarization
-
-D) [Missing option - Please review]
+A) Generating answers
+B) Selecting answer span from text
+C) Translation
+D) Summarization
 
 ✔ Correct Answer: B
 Reason: Extractive QA identifies answer location in given passage.
@@ -1805,12 +1713,10 @@ Subtopic: Siamese Networks
 Difficulty: Hard
 
 Question: What are Siamese networks used for?
-A: Classification only
-B: Learning similarity between inputs
-C: Regression only
-D: No use
-
-D) [Missing option - Please review]
+A) Classification only
+B) Learning similarity between inputs
+C) Regression only
+D) No use
 
 ✔ Correct Answer: B
 Reason: Siamese networks learn embeddings for similarity comparison tasks.
@@ -1825,12 +1731,10 @@ Subtopic: Lambda Architecture
 Difficulty: Hard
 
 Question: What does lambda architecture combine?
-A: Single layer
-B: Batch and stream processing
-C: No processing
-D: Storage only
-
-D) [Missing option - Please review]
+A) Single layer
+B) Batch and stream processing
+C) No processing
+D) Storage only
 
 ✔ Correct Answer: B
 Reason: Lambda architecture integrates batch and real-time processing layers.
@@ -1845,12 +1749,10 @@ Subtopic: Model Registry
 Difficulty: Medium
 
 Question: What is a model registry?
-A: Data storage
-B: Centralized model metadata repository
-C: Code repository
-D: No registry
-
-D) [Missing option - Please review]
+A) Data storage
+B) Centralized model metadata repository
+C) Code repository
+D) No registry
 
 ✔ Correct Answer: B
 Reason: Model registry tracks versions, metadata, and lineage of ML models.
@@ -1865,12 +1767,10 @@ Subtopic: Membership Inference Attack
 Difficulty: Hard
 
 Question: What is membership inference attack?
-A: Adding members
-B: Determining if data was in training set
-C: Deleting members
-D: No attack
-
-D) [Missing option - Please review]
+A) Adding members
+B) Determining if data was in training set
+C) Deleting members
+D) No attack
 
 ✔ Correct Answer: B
 Reason: Membership inference identifies whether specific data point was used in training.
@@ -1890,12 +1790,10 @@ import pandas as pd
 df = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
 print(df.values.shape)
 ```
-A: (3,)
-B: (3, 2)
-C: (2, 3)
-D: 6
-
-D) [Missing option - Please review]
+A) (3,)
+B) (3, 2)
+C) (2, 3)
+D) 6
 
 ✔ Correct Answer: B
 Reason: values returns array with shape (rows, columns) = (3, 2).
@@ -1910,12 +1808,10 @@ Subtopic: Lagrange Multipliers
 Difficulty: Hard
 
 Question: What are Lagrange multipliers used for?
-A: Random optimization
-B: Constrained optimization
-C: No optimization
-D: Unconstrained only
-
-D) [Missing option - Please review]
+A) Random optimization
+B) Constrained optimization
+C) No optimization
+D) Unconstrained only
 
 ✔ Correct Answer: B
 Reason: Lagrange multipliers find extrema of function subject to constraints.
@@ -1930,12 +1826,10 @@ Subtopic: Future of AI
 Difficulty: Easy
 
 Question: What is Artificial General Intelligence (AGI)?
-A: Narrow AI
-B: AI with human-level general intelligence
-C: Current AI
-D: No intelligence
-
-D) [Missing option - Please review]
+A) Narrow AI
+B) AI with human-level general intelligence
+C) Current AI
+D) No intelligence
 
 ✔ Correct Answer: B
 Reason: AGI refers to AI systems with broad human-like cognitive abilities.

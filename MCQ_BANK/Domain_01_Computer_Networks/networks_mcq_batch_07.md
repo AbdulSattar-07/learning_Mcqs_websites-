@@ -10,12 +10,10 @@ Subtopic: MLD Snooping
 Difficulty: Hard
 
 Question: What is MLD snooping?
-A: Security monitoring
-B: IPv6 multicast optimization like IGMP snooping
-C: Encryption method
-D: Routing protocol
-
-D) [Missing option - Please review]
+A) Security monitoring
+B) IPv6 multicast optimization like IGMP snooping
+C) Encryption method
+D) Routing protocol
 
 ✔ Correct Answer: B
 
@@ -32,12 +30,10 @@ Subtopic: Multicast Address Mapping
 Difficulty: Hard
 
 Question: How many IP multicast addresses map to one Ethernet multicast MAC?
-A: 1
-B: 16
-C: 32
-D: 64
-
-D) [Missing option - Please review]
+A) 1
+B) 16
+C) 32
+D) 64
 
 ✔ Correct Answer: C
 
@@ -54,12 +50,10 @@ Subtopic: Converged Network
 Difficulty: Medium
 
 Question: What is a converged network?
-A: Network with single protocol
-B: Network carrying multiple traffic types (data, voice, video)
-C: Wireless only network
-D: Backup network
-
-D) [Missing option - Please review]
+A) Network with single protocol
+B) Network carrying multiple traffic types (data, voice, video)
+C) Wireless only network
+D) Backup network
 
 ✔ Correct Answer: B
 
@@ -77,12 +71,10 @@ Subtopic: PoE Standards
 Difficulty: Medium
 
 Question: What is the maximum power delivery in PoE (802.3af)?
-A: 7.5W
-B: 15.4W
-C: 30W
-D: 60W
-
-D) [Missing option - Please review]
+A) 7.5W
+B) 15.4W
+C) 30W
+D) 60W
 
 ✔ Correct Answer: B
 
@@ -99,12 +91,10 @@ Subtopic: PoE Plus
 Difficulty: Medium
 
 Question: How much power does PoE+ (802.3at) provide?
-A: 15.4W
-B: 25.5W
-C: 30W
-D: 60W
-
-D) [Missing option - Please review]
+A) 15.4W
+B) 25.5W
+C) 30W
+D) 60W
 
 ✔ Correct Answer: C
 
@@ -121,12 +111,10 @@ Subtopic: UPoE
 Difficulty: Hard
 
 Question: What is UPoE (Universal PoE)?
-A: Standard PoE
-B: Cisco proprietary 60W PoE
-C: Wireless PoE
-D: Low-power PoE
-
-D) [Missing option - Please review]
+A) Standard PoE
+B) Cisco proprietary 60W PoE
+C) Wireless PoE
+D) Low-power PoE
 
 ✔ Correct Answer: B
 
@@ -143,12 +131,10 @@ Subtopic: PoE 802.3bt
 Difficulty: Hard
 
 Question: What are the two types defined in 802.3bt?
-A: Type 1 and 2
-B: Type 3 (60W) and Type 4 (100W)
-C: Type A and B
-D: Class 1 and 2
-
-D) [Missing option - Please review]
+A) Type 1 and 2
+B) Type 3 (60W) and Type 4 (100W)
+C) Type A and B
+D) Class 1 and 2
 
 ✔ Correct Answer: B
 
@@ -165,12 +151,10 @@ Subtopic: PoE Planning
 Difficulty: Medium
 
 Question: What must be considered when planning PoE deployment?
-A: Only device count
-B: Total power budget of switch and per-port requirements
-C: Only cable length
-D: Only switch model
-
-D) [Missing option - Please review]
+A) Only device count
+B) Total power budget of switch and per-port requirements
+C) Only cable length
+D) Only switch model
 
 ✔ Correct Answer: B
 
@@ -187,12 +171,10 @@ Subtopic: LLDP-MED
 Difficulty: Hard
 
 Question: What does LLDP-MED add to standard LLDP?
-A: Encryption
-B: Extensions for VoIP and media endpoint devices
-C: Faster discovery
-D: Compression
-
-D) [Missing option - Please review]
+A) Encryption
+B) Extensions for VoIP and media endpoint devices
+C) Faster discovery
+D) Compression
 
 ✔ Correct Answer: B
 
@@ -209,12 +191,10 @@ Subtopic: BPDU Guard
 Difficulty: Medium
 
 Question: What does BPDU Guard do?
-A: Protects BPDUs from corruption
-B: Disables port if BPDU is received
-C: Encrypts BPDUs
-D: Compresses BPDUs
-
-D) [Missing option - Please review]
+A) Protects BPDUs from corruption
+B) Disables port if BPDU is received
+C) Encrypts BPDUs
+D) Compresses BPDUs
 
 ✔ Correct Answer: B
 
@@ -231,12 +211,10 @@ Subtopic: Root Guard
 Difficulty: Hard
 
 Question: What does Root Guard prevent?
-A: Root password attacks
-B: Unauthorized switch from becoming root bridge
-C: Root access
-D: Root directory access
-
-D) [Missing option - Please review]
+A) Root password attacks
+B) Unauthorized switch from becoming root bridge
+C) Root access
+D) Root directory access
 
 ✔ Correct Answer: B
 
@@ -253,12 +231,10 @@ Subtopic: Loop Guard
 Difficulty: Hard
 
 Question: What problem does Loop Guard address?
-A: Physical loops
-B: Unidirectional link failures causing loops
-C: Routing loops
-D: Application loops
-
-D) [Missing option - Please review]
+A) Physical loops
+B) Unidirectional link failures causing loops
+C) Routing loops
+D) Application loops
 
 ✔ Correct Answer: B
 
@@ -275,12 +251,10 @@ Subtopic: PortFast
 Difficulty: Medium
 
 Question: What does PortFast do?
-A: Increases port speed
-B: Bypasses STP listening/learning states on access ports
-C: Encrypts port traffic
-D: Disables ports
-
-D) [Missing option - Please review]
+A) Increases port speed
+B) Bypasses STP listening/learning states on access ports
+C) Encrypts port traffic
+D) Disables ports
 
 ✔ Correct Answer: B
 
@@ -297,12 +271,10 @@ Subtopic: UplinkFast
 Difficulty: Hard
 
 Question: What is UplinkFast used for?
-A: Increase uplink speed
-B: Fast convergence when direct uplink fails
-C: Encrypt uplinks
-D: Load balance uplinks
-
-D) [Missing option - Please review]
+A) Increase uplink speed
+B) Fast convergence when direct uplink fails
+C) Encrypt uplinks
+D) Load balance uplinks
 
 ✔ Correct Answer: B
 
@@ -319,12 +291,10 @@ Subtopic: BackboneFast
 Difficulty: Hard
 
 Question: What does BackboneFast optimize?
-A: Backbone speed
-B: Convergence for indirect link failures
-C: Backbone security
-D: Backbone capacity
-
-D) [Missing option - Please review]
+A) Backbone speed
+B) Convergence for indirect link failures
+C) Backbone security
+D) Backbone capacity
 
 ✔ Correct Answer: B
 
@@ -341,12 +311,10 @@ Subtopic: Stacking
 Difficulty: Medium
 
 Question: What is switch stacking?
-A: Physical stacking only
-B: Connecting switches to operate as single logical unit
-C: Backup switches
-D: Wireless connection
-
-D) [Missing option - Please review]
+A) Physical stacking only
+B) Connecting switches to operate as single logical unit
+C) Backup switches
+D) Wireless connection
 
 ✔ Correct Answer: B
 
@@ -363,12 +331,10 @@ Subtopic: VSS
 Difficulty: Hard
 
 Question: What does VSS (Virtual Switching System) provide?
-A: Virtual machines
-B: Two physical switches operating as one logical switch
-C: Software switches only
-D: Wireless switching
-
-D) [Missing option - Please review]
+A) Virtual machines
+B) Two physical switches operating as one logical switch
+C) Software switches only
+D) Wireless switching
 
 ✔ Correct Answer: B
 
@@ -385,12 +351,10 @@ Subtopic: vPC
 Difficulty: Hard
 
 Question: What does vPC (Virtual Port Channel) enable?
-A: Virtual ports only
-B: Device to connect to two switches as single port channel
-C: Wireless channels
-D: Encrypted channels
-
-D) [Missing option - Please review]
+A) Virtual ports only
+B) Device to connect to two switches as single port channel
+C) Wireless channels
+D) Encrypted channels
 
 ✔ Correct Answer: B
 
@@ -407,12 +371,10 @@ Subtopic: MLAG
 Difficulty: Hard
 
 Question: What is MLAG (Multi-Chassis Link Aggregation)?
-A: Single switch feature
-B: Link aggregation across multiple switches
-C: Wireless aggregation
-D: Bandwidth compression
-
-D) [Missing option - Please review]
+A) Single switch feature
+B) Link aggregation across multiple switches
+C) Wireless aggregation
+D) Bandwidth compression
 
 ✔ Correct Answer: B
 
@@ -429,12 +391,10 @@ Subtopic: FHRP Load Balancing
 Difficulty: Hard
 
 Question: Which FHRP provides load balancing across multiple routers?
-A: HSRP
-B: VRRP
-C: GLBP
-D: None
-
-D) [Missing option - Please review]
+A) HSRP
+B) VRRP
+C) GLBP
+D) None
 
 ✔ Correct Answer: C
 
@@ -451,12 +411,10 @@ Subtopic: Jitter
 Difficulty: Easy
 
 Question: What is jitter in network performance?
-A: Packet loss
-B: Variation in packet delay
-C: Bandwidth fluctuation
-D: Signal interference
-
-D) [Missing option - Please review]
+A) Packet loss
+B) Variation in packet delay
+C) Bandwidth fluctuation
+D) Signal interference
 
 ✔ Correct Answer: B
 
@@ -473,12 +431,10 @@ Subtopic: Jitter Buffer
 Difficulty: Medium
 
 Question: What is the purpose of a jitter buffer?
-A: Increase bandwidth
-B: Smooth out delay variations in real-time streams
-C: Encrypt packets
-D: Compress audio
-
-D) [Missing option - Please review]
+A) Increase bandwidth
+B) Smooth out delay variations in real-time streams
+C) Encrypt packets
+D) Compress audio
 
 ✔ Correct Answer: B
 
@@ -495,12 +451,10 @@ Subtopic: Codecs
 Difficulty: Medium
 
 Question: What does a codec do in VoIP?
-A: Encrypt calls
-B: Compress and decompress audio
-C: Route calls
-D: Authenticate users
-
-D) [Missing option - Please review]
+A) Encrypt calls
+B) Compress and decompress audio
+C) Route calls
+D) Authenticate users
 
 ✔ Correct Answer: B
 
@@ -517,12 +471,10 @@ Subtopic: QoS Requirements
 Difficulty: Medium
 
 Question: What is the maximum acceptable latency for good VoIP quality?
-A: 50ms
-B: 150ms
-C: 300ms
-D: 500ms
-
-D) [Missing option - Please review]
+A) 50ms
+B) 150ms
+C) 300ms
+D) 500ms
 
 ✔ Correct Answer: B
 
@@ -539,12 +491,10 @@ Subtopic: SIP Components
 Difficulty: Hard
 
 Question: What is a SIP proxy server?
-A: Web proxy
-B: Intermediary routing SIP requests
-C: DNS server
-D: DHCP server
-
-D) [Missing option - Please review]
+A) Web proxy
+B) Intermediary routing SIP requests
+C) DNS server
+D) DHCP server
 
 ✔ Correct Answer: B
 
@@ -561,12 +511,10 @@ Subtopic: SIP Registrar
 Difficulty: Hard
 
 Question: What does a SIP registrar do?
-A: Register domain names
-B: Accept REGISTER requests and maintain user location
-C: Register IP addresses
-D: Register MAC addresses
-
-D) [Missing option - Please review]
+A) Register domain names
+B) Accept REGISTER requests and maintain user location
+C) Register IP addresses
+D) Register MAC addresses
 
 ✔ Correct Answer: B
 
@@ -583,12 +531,10 @@ Subtopic: H.323
 Difficulty: Hard
 
 Question: What is H.323?
-A: Video codec
-B: Suite of protocols for multimedia communication
-C: Audio codec
-D: Encryption standard
-
-D) [Missing option - Please review]
+A) Video codec
+B) Suite of protocols for multimedia communication
+C) Audio codec
+D) Encryption standard
 
 ✔ Correct Answer: B
 
@@ -605,12 +551,10 @@ Subtopic: Unified Communications
 Difficulty: Medium
 
 Question: What does unified communications integrate?
-A: Only voice and video
-B: Voice, video, messaging, presence, collaboration
-C: Only email and chat
-D: Only phone systems
-
-D) [Missing option - Please review]
+A) Only voice and video
+B) Voice, video, messaging, presence, collaboration
+C) Only email and chat
+D) Only phone systems
 
 ✔ Correct Answer: B
 
@@ -627,12 +571,10 @@ Subtopic: MGCP
 Difficulty: Hard
 
 Question: What is MGCP (Media Gateway Control Protocol)?
-A: Peer-to-peer protocol
-B: Centralized call control protocol
-C: Routing protocol
-D: Security protocol
-
-D) [Missing option - Please review]
+A) Peer-to-peer protocol
+B) Centralized call control protocol
+C) Routing protocol
+D) Security protocol
 
 ✔ Correct Answer: B
 
@@ -649,12 +591,10 @@ Subtopic: Megaco/H.248
 Difficulty: Hard
 
 Question: What is the relationship between Megaco and H.248?
-A: Different protocols
-B: Same protocol with different names
-C: Megaco replaced H.248
-D: Unrelated
-
-D) [Missing option - Please review]
+A) Different protocols
+B) Same protocol with different names
+C) Megaco replaced H.248
+D) Unrelated
 
 ✔ Correct Answer: B
 
@@ -671,12 +611,10 @@ Subtopic: Network Slicing
 Difficulty: Hard
 
 Question: What is network slicing in 5G?
-A: Physical network division
-B: Creating multiple virtual networks on shared infrastructure
-C: Bandwidth reduction
-D: Security feature only
-
-D) [Missing option - Please review]
+A) Physical network division
+B) Creating multiple virtual networks on shared infrastructure
+C) Bandwidth reduction
+D) Security feature only
 
 ✔ Correct Answer: B
 
@@ -693,12 +631,10 @@ Subtopic: 5G Features
 Difficulty: Medium
 
 Question: What is a key feature of 5G compared to 4G?
-A: Lower speed
-B: Ultra-low latency (1ms)
-C: Higher latency
-D: Less bandwidth
-
-D) [Missing option - Please review]
+A) Lower speed
+B) Ultra-low latency (1ms)
+C) Higher latency
+D) Less bandwidth
 
 ✔ Correct Answer: B
 
@@ -715,12 +651,10 @@ Subtopic: Handover
 Difficulty: Medium
 
 Question: What is handover in mobile networks?
-A: Transferring files
-B: Transferring connection from one cell to another
-C: Handing over control
-D: Device replacement
-
-D) [Missing option - Please review]
+A) Transferring files
+B) Transferring connection from one cell to another
+C) Handing over control
+D) Device replacement
 
 ✔ Correct Answer: B
 
@@ -737,12 +671,10 @@ Subtopic: Roaming
 Difficulty: Easy
 
 Question: What is roaming in mobile networks?
-A: Walking with phone
-B: Using network outside home network area
-C: Switching apps
-D: Changing phone numbers
-
-D) [Missing option - Please review]
+A) Walking with phone
+B) Using network outside home network area
+C) Switching apps
+D) Changing phone numbers
 
 ✔ Correct Answer: B
 
@@ -759,12 +691,10 @@ Subtopic: Small Cell
 Difficulty: Medium
 
 Question: What is a small cell in mobile networks?
-A: Small phone
-B: Low-power cellular base station
-C: Small antenna
-D: Reduced coverage area only
-
-D) [Missing option - Please review]
+A) Small phone
+B) Low-power cellular base station
+C) Small antenna
+D) Reduced coverage area only
 
 ✔ Correct Answer: B
 
@@ -781,12 +711,10 @@ Subtopic: Femtocell
 Difficulty: Medium
 
 Question: What is a femtocell?
-A: Large cell tower
-B: Small cellular base station for home/office
-C: Satellite station
-D: Wireless router
-
-D) [Missing option - Please review]
+A) Large cell tower
+B) Small cellular base station for home/office
+C) Satellite station
+D) Wireless router
 
 ✔ Correct Answer: B
 
@@ -803,12 +731,10 @@ Subtopic: Picocell
 Difficulty: Medium
 
 Question: What is the typical coverage range of a picocell?
-A: 10-200 meters
-B: 1-2 km
-C: 5-10 km
-D: 20-50 km
-
-D) [Missing option - Please review]
+A) 10-200 meters
+B) 1-2 km
+C) 5-10 km
+D) 20-50 km
 
 ✔ Correct Answer: A
 
@@ -825,12 +751,10 @@ Subtopic: Macrocell
 Difficulty: Easy
 
 Question: What is a macrocell?
-A: Small indoor cell
-B: Traditional large cell tower
-C: Satellite cell
-D: Underground cell
-
-D) [Missing option - Please review]
+A) Small indoor cell
+B) Traditional large cell tower
+C) Satellite cell
+D) Underground cell
 
 ✔ Correct Answer: B
 
@@ -847,12 +771,10 @@ Subtopic: HetNet
 Difficulty: Hard
 
 Question: What is a HetNet (Heterogeneous Network)?
-A: Single cell type network
-B: Network mixing macro, micro, pico, and femtocells
-C: Wired network only
-D: Satellite network
-
-D) [Missing option - Please review]
+A) Single cell type network
+B) Network mixing macro, micro, pico, and femtocells
+C) Wired network only
+D) Satellite network
 
 ✔ Correct Answer: B
 
@@ -869,12 +791,10 @@ Subtopic: MIMO
 Difficulty: Medium
 
 Question: What does MIMO stand for?
-A: Multiple Input Multiple Output
-B: Managed Input Managed Output
-C: Modular Input Modular Output
-D: Maximum Input Maximum Output
-
-D) [Missing option - Please review]
+A) Multiple Input Multiple Output
+B) Managed Input Managed Output
+C) Modular Input Modular Output
+D) Maximum Input Maximum Output
 
 ✔ Correct Answer: A
 
@@ -891,12 +811,10 @@ Subtopic: Beamforming
 Difficulty: Hard
 
 Question: What is beamforming in wireless networks?
-A: Creating physical beams
-B: Focusing signal toward specific receiver
-C: Blocking signals
-D: Encrypting signals
-
-D) [Missing option - Please review]
+A) Creating physical beams
+B) Focusing signal toward specific receiver
+C) Blocking signals
+D) Encrypting signals
 
 ✔ Correct Answer: B
 
@@ -913,12 +831,10 @@ Subtopic: MU-MIMO
 Difficulty: Hard
 
 Question: What does MU-MIMO enable?
-A: Single user only
-B: Simultaneous communication with multiple users
-C: Faster single-user speed
-D: Better encryption
-
-D) [Missing option - Please review]
+A) Single user only
+B) Simultaneous communication with multiple users
+C) Faster single-user speed
+D) Better encryption
 
 ✔ Correct Answer: B
 
@@ -935,12 +851,10 @@ Subtopic: Channel Width
 Difficulty: Medium
 
 Question: What is the standard channel width for 2.4 GHz Wi-Fi?
-A: 10 MHz
-B: 20 MHz
-C: 40 MHz
-D: 80 MHz
-
-D) [Missing option - Please review]
+A) 10 MHz
+B) 20 MHz
+C) 40 MHz
+D) 80 MHz
 
 ✔ Correct Answer: B
 
@@ -957,12 +871,10 @@ Subtopic: 5 GHz Channels
 Difficulty: Medium
 
 Question: What advantage does 5 GHz band have over 2.4 GHz?
-A: Longer range
-B: More non-overlapping channels
-C: Better wall penetration
-D: Lower cost
-
-D) [Missing option - Please review]
+A) Longer range
+B) More non-overlapping channels
+C) Better wall penetration
+D) Lower cost
 
 ✔ Correct Answer: B
 
@@ -979,12 +891,10 @@ Subtopic: DFS
 Difficulty: Hard
 
 Question: What is DFS (Dynamic Frequency Selection) in Wi-Fi?
-A: Faster frequency switching
-B: Avoiding radar interference on 5 GHz channels
-C: Selecting best channel automatically
-D: Frequency encryption
-
-D) [Missing option - Please review]
+A) Faster frequency switching
+B) Avoiding radar interference on 5 GHz channels
+C) Selecting best channel automatically
+D) Frequency encryption
 
 ✔ Correct Answer: B
 
@@ -1002,12 +912,10 @@ Subtopic: TPC
 Difficulty: Hard
 
 Question: What does TPC (Transmit Power Control) do?
-A: Increase power always
-B: Adjust transmit power to reduce interference
-C: Disable transmission
-D: Encrypt transmissions
-
-D) [Missing option - Please review]
+A) Increase power always
+B) Adjust transmit power to reduce interference
+C) Disable transmission
+D) Encrypt transmissions
 
 ✔ Correct Answer: B
 
@@ -1024,12 +932,10 @@ Subtopic: Roaming Standards
 Difficulty: Hard
 
 Question: Which standard defines fast roaming for Wi-Fi?
-A: 802.11r
-B: 802.11k
-C: 802.11v
-D: 802.11w
-
-D) [Missing option - Please review]
+A) 802.11r
+B) 802.11k
+C) 802.11v
+D) 802.11w
 
 ✔ Correct Answer: A
 
@@ -1046,12 +952,10 @@ Subtopic: 802.11k
 Difficulty: Hard
 
 Question: What does 802.11k provide?
-A: Security
-B: Radio resource measurement for better roaming decisions
-C: Faster speed
-D: Longer range
-
-D) [Missing option - Please review]
+A) Security
+B) Radio resource measurement for better roaming decisions
+C) Faster speed
+D) Longer range
 
 ✔ Correct Answer: B
 
@@ -1068,12 +972,10 @@ Subtopic: 802.11v
 Difficulty: Hard
 
 Question: What does 802.11v enable?
-A: Video streaming
-B: Network-assisted power management and roaming
-C: Voice calls
-D: Virtual networks
-
-D) [Missing option - Please review]
+A) Video streaming
+B) Network-assisted power management and roaming
+C) Voice calls
+D) Virtual networks
 
 ✔ Correct Answer: B
 
@@ -1090,12 +992,10 @@ Subtopic: 802.11w
 Difficulty: Hard
 
 Question: What does 802.11w protect?
-A: Data frames
-B: Management frames from spoofing/forgery
-C: Control frames
-D: All frames equally
-
-D) [Missing option - Please review]
+A) Data frames
+B) Management frames from spoofing/forgery
+C) Control frames
+D) All frames equally
 
 ✔ Correct Answer: B
 
@@ -1112,12 +1012,10 @@ Subtopic: Wireless Controller
 Difficulty: Medium
 
 Question: What is the purpose of a wireless LAN controller?
-A: Control wired networks
-B: Centrally manage multiple access points
-C: Control internet access
-D: Manage switches
-
-D) [Missing option - Please review]
+A) Control wired networks
+B) Centrally manage multiple access points
+C) Control internet access
+D) Manage switches
 
 ✔ Correct Answer: B
 
@@ -1134,12 +1032,10 @@ Subtopic: Autonomous AP
 Difficulty: Medium
 
 Question: What characterizes an autonomous access point?
-A: Requires controller
-B: Standalone with full configuration
-C: Cannot work independently
-D: Cloud-managed only
-
-D) [Missing option - Please review]
+A) Requires controller
+B) Standalone with full configuration
+C) Cannot work independently
+D) Cloud-managed only
 
 ✔ Correct Answer: B
 
@@ -1156,12 +1052,10 @@ Subtopic: Lightweight AP
 Difficulty: Medium
 
 Question: What is a lightweight access point?
-A: Low-weight hardware
-B: AP requiring controller for configuration and management
-C: Low-power AP
-D: Portable AP
-
-D) [Missing option - Please review]
+A) Low-weight hardware
+B) AP requiring controller for configuration and management
+C) Low-power AP
+D) Portable AP
 
 ✔ Correct Answer: B
 
@@ -1178,12 +1072,10 @@ Subtopic: CAPWAP
 Difficulty: Hard
 
 Question: What does CAPWAP protocol do?
-A: Encrypt wireless traffic
-B: Encapsulate and tunnel traffic between AP and controller
-C: Authenticate users
-D: Assign channels
-
-D) [Missing option - Please review]
+A) Encrypt wireless traffic
+B) Encapsulate and tunnel traffic between AP and controller
+C) Authenticate users
+D) Assign channels
 
 ✔ Correct Answer: B
 
@@ -1200,12 +1092,10 @@ Subtopic: LWAPP
 Difficulty: Hard
 
 Question: What is LWAPP?
-A: Lightweight application
-B: Cisco proprietary predecessor to CAPWAP
-C: Linux wireless protocol
-D: Low-power protocol
-
-D) [Missing option - Please review]
+A) Lightweight application
+B) Cisco proprietary predecessor to CAPWAP
+C) Linux wireless protocol
+D) Low-power protocol
 
 ✔ Correct Answer: B
 
@@ -1222,12 +1112,10 @@ Subtopic: WPA3 Features
 Difficulty: Hard
 
 Question: What security improvement does WPA3 provide over WPA2?
-A: Faster encryption
-B: Protection against offline dictionary attacks
-C: Longer passwords only
-D: No improvements
-
-D) [Missing option - Please review]
+A) Faster encryption
+B) Protection against offline dictionary attacks
+C) Longer passwords only
+D) No improvements
 
 ✔ Correct Answer: B
 
@@ -1244,12 +1132,10 @@ Subtopic: SAE
 Difficulty: Hard
 
 Question: What does SAE (Simultaneous Authentication of Equals) provide?
-A: Faster authentication
-B: Secure password-based authentication resistant to offline attacks
-C: No password needed
-D: Biometric authentication
-
-D) [Missing option - Please review]
+A) Faster authentication
+B) Secure password-based authentication resistant to offline attacks
+C) No password needed
+D) Biometric authentication
 
 ✔ Correct Answer: B
 
@@ -1266,12 +1152,10 @@ Subtopic: OWE
 Difficulty: Hard
 
 Question: What does OWE (Opportunistic Wireless Encryption) provide?
-A: Maximum security
-B: Encryption for open networks without authentication
-C: No encryption
-D: Password-based encryption
-
-D) [Missing option - Please review]
+A) Maximum security
+B) Encryption for open networks without authentication
+C) No encryption
+D) Password-based encryption
 
 ✔ Correct Answer: B
 
@@ -1288,12 +1172,10 @@ Subtopic: Mesh Networks
 Difficulty: Medium
 
 Question: What characterizes a wireless mesh network?
-A: Single access point
-B: APs interconnected wirelessly forming mesh
-C: Wired connections only
-D: Star topology only
-
-D) [Missing option - Please review]
+A) Single access point
+B) APs interconnected wirelessly forming mesh
+C) Wired connections only
+D) Star topology only
 
 ✔ Correct Answer: B
 
@@ -1310,12 +1192,10 @@ Subtopic: Mesh Protocols
 Difficulty: Hard
 
 Question: Which protocol is used for wireless mesh routing?
-A: OSPF
-B: HWMP (Hybrid Wireless Mesh Protocol)
-C: RIP
-D: BGP
-
-D) [Missing option - Please review]
+A) OSPF
+B) HWMP (Hybrid Wireless Mesh Protocol)
+C) RIP
+D) BGP
 
 ✔ Correct Answer: B
 
@@ -1332,12 +1212,10 @@ Subtopic: CoS to DSCP Mapping
 Difficulty: Hard
 
 Question: How many CoS values can be mapped to DSCP?
-A: 4
-B: 8
-C: 64
-D: 256
-
-D) [Missing option - Please review]
+A) 4
+B) 8
+C) 64
+D) 256
 
 ✔ Correct Answer: B
 
@@ -1354,12 +1232,10 @@ Subtopic: Trust Boundary
 Difficulty: Medium
 
 Question: What is a QoS trust boundary?
-A: Security perimeter
-B: Point where QoS markings are trusted or remarked
-C: Network edge only
-D: Firewall location
-
-D) [Missing option - Please review]
+A) Security perimeter
+B) Point where QoS markings are trusted or remarked
+C) Network edge only
+D) Firewall location
 
 ✔ Correct Answer: B
 
@@ -1376,12 +1252,10 @@ Subtopic: Classification
 Difficulty: Medium
 
 Question: Where should traffic classification ideally occur?
-A: Core layer
-B: As close to source as possible (access layer)
-C: Distribution layer only
-D: At destination
-
-D) [Missing option - Please review]
+A) Core layer
+B) As close to source as possible (access layer)
+C) Distribution layer only
+D) At destination
 
 ✔ Correct Answer: B
 
@@ -1398,12 +1272,10 @@ Subtopic: Marking
 Difficulty: Medium
 
 Question: What is the difference between classification and marking?
-A: They are the same
-B: Classification identifies traffic, marking sets QoS bits
-C: Marking is faster
-D: Classification is more secure
-
-D) [Missing option - Please review]
+A) They are the same
+B) Classification identifies traffic, marking sets QoS bits
+C) Marking is faster
+D) Classification is more secure
 
 ✔ Correct Answer: B
 
@@ -1420,12 +1292,10 @@ Subtopic: Policing vs Shaping
 Difficulty: Hard
 
 Question: Where is traffic policing typically applied?
-A: Only at source
-B: At network boundaries and ingress
-C: Only at destination
-D: Core only
-
-D) [Missing option - Please review]
+A) Only at source
+B) At network boundaries and ingress
+C) Only at destination
+D) Core only
 
 ✔ Correct Answer: B
 
@@ -1442,12 +1312,10 @@ Subtopic: TCP Congestion Window
 Difficulty: Hard
 
 Question: What limits the sending rate in TCP?
-A: Only bandwidth
-B: Minimum of congestion window and receiver window
-C: Only receiver window
-D: Only congestion window
-
-D) [Missing option - Please review]
+A) Only bandwidth
+B) Minimum of congestion window and receiver window
+C) Only receiver window
+D) Only congestion window
 
 ✔ Correct Answer: B
 
@@ -1464,12 +1332,10 @@ Subtopic: Bandwidth-Delay Product
 Difficulty: Hard
 
 Question: What does bandwidth-delay product represent?
-A: Total bandwidth
-B: Amount of data in flight on the network
-C: Delay only
-D: Packet loss rate
-
-D) [Missing option - Please review]
+A) Total bandwidth
+B) Amount of data in flight on the network
+C) Delay only
+D) Packet loss rate
 
 ✔ Correct Answer: B
 
@@ -1486,12 +1352,10 @@ Subtopic: TCP Throughput
 Difficulty: Hard
 
 Question: What primarily limits TCP throughput on high-latency links?
-A: Bandwidth only
-B: Window size and RTT
-C: CPU speed
-D: Encryption
-
-D) [Missing option - Please review]
+A) Bandwidth only
+B) Window size and RTT
+C) CPU speed
+D) Encryption
 
 ✔ Correct Answer: B
 
@@ -1508,12 +1372,10 @@ Subtopic: TCP Cubic
 Difficulty: Hard
 
 Question: What is TCP Cubic?
-A: Encryption algorithm
-B: Congestion control algorithm
-C: Routing protocol
-D: Security protocol
-
-D) [Missing option - Please review]
+A) Encryption algorithm
+B) Congestion control algorithm
+C) Routing protocol
+D) Security protocol
 
 ✔ Correct Answer: B
 
@@ -1530,12 +1392,10 @@ Subtopic: TCP BBR
 Difficulty: Hard
 
 Question: What does BBR (Bottleneck Bandwidth and RTT) optimize?
-A: Security
-B: Congestion control based on bottleneck bandwidth
-C: Encryption speed
-D: Routing
-
-D) [Missing option - Please review]
+A) Security
+B) Congestion control based on bottleneck bandwidth
+C) Encryption speed
+D) Routing
 
 ✔ Correct Answer: B
 
@@ -1553,12 +1413,10 @@ Subtopic: Content Caching
 Difficulty: Medium
 
 Question: Where is content caching most effective?
-A: At origin server only
-B: Close to end users (edge)
-C: In core network only
-D: At ISP only
-
-D) [Missing option - Please review]
+A) At origin server only
+B) Close to end users (edge)
+C) In core network only
+D) At ISP only
 
 ✔ Correct Answer: B
 
@@ -1575,12 +1433,10 @@ Subtopic: HTTP Caching
 Difficulty: Medium
 
 Question: Which HTTP header controls caching behavior?
-A: Content-Type
-B: Cache-Control
-C: Accept
-D: Host
-
-D) [Missing option - Please review]
+A) Content-Type
+B) Cache-Control
+C) Accept
+D) Host
 
 ✔ Correct Answer: B
 
@@ -1597,12 +1453,10 @@ Subtopic: ETag
 Difficulty: Medium
 
 Question: What is an ETag in HTTP?
-A: Encryption tag
-B: Identifier for specific version of resource
-C: Error tag
-D: Expiration tag
-
-D) [Missing option - Please review]
+A) Encryption tag
+B) Identifier for specific version of resource
+C) Error tag
+D) Expiration tag
 
 ✔ Correct Answer: B
 
@@ -1619,12 +1473,10 @@ Subtopic: HTTP Status Codes
 Difficulty: Easy
 
 Question: What does HTTP status code 404 indicate?
-A: Success
-B: Not Found
-C: Server Error
-D: Redirect
-
-D) [Missing option - Please review]
+A) Success
+B) Not Found
+C) Server Error
+D) Redirect
 
 ✔ Correct Answer: B
 
@@ -1641,12 +1493,10 @@ Subtopic: HTTP Status Codes
 Difficulty: Medium
 
 Question: What does HTTP status code 503 indicate?
-A: Not Found
-B: Forbidden
-C: Service Unavailable
-D: Bad Request
-
-D) [Missing option - Please review]
+A) Not Found
+B) Forbidden
+C) Service Unavailable
+D) Bad Request
 
 ✔ Correct Answer: C
 
@@ -1663,12 +1513,10 @@ Subtopic: HTTP Methods
 Difficulty: Easy
 
 Question: Which HTTP method is idempotent?
-A: POST
-B: PUT
-C: PATCH
-D: All methods
-
-D) [Missing option - Please review]
+A) POST
+B) PUT
+C) PATCH
+D) All methods
 
 ✔ Correct Answer: B
 
@@ -1685,12 +1533,10 @@ Subtopic: HTTP/2 Server Push
 Difficulty: Hard
 
 Question: What does HTTP/2 server push allow?
-A: Client pushing data
-B: Server sending resources before client requests them
-C: Faster uploads
-D: Better encryption
-
-D) [Missing option - Please review]
+A) Client pushing data
+B) Server sending resources before client requests them
+C) Faster uploads
+D) Better encryption
 
 ✔ Correct Answer: B
 
@@ -1707,12 +1553,10 @@ Subtopic: HTTP/2 Header Compression
 Difficulty: Hard
 
 Question: Which compression algorithm does HTTP/2 use for headers?
-A: GZIP
-B: HPACK
-C: Deflate
-D: Brotli
-
-D) [Missing option - Please review]
+A) GZIP
+B) HPACK
+C) Deflate
+D) Brotli
 
 ✔ Correct Answer: B
 
@@ -1729,12 +1573,10 @@ Subtopic: HSTS
 Difficulty: Medium
 
 Question: What does HSTS (HTTP Strict Transport Security) enforce?
-A: HTTP only
-B: HTTPS connections only
-C: FTP connections
-D: No encryption
-
-D) [Missing option - Please review]
+A) HTTP only
+B) HTTPS connections only
+C) FTP connections
+D) No encryption
 
 ✔ Correct Answer: B
 
@@ -1751,12 +1593,10 @@ Subtopic: Certificate Pinning
 Difficulty: Hard
 
 Question: What is certificate pinning?
-A: Attaching certificates
-B: Associating host with specific certificate or public key
-C: Removing certificates
-D: Encrypting certificates
-
-D) [Missing option - Please review]
+A) Attaching certificates
+B) Associating host with specific certificate or public key
+C) Removing certificates
+D) Encrypting certificates
 
 ✔ Correct Answer: B
 
@@ -1773,12 +1613,10 @@ Subtopic: OCSP
 Difficulty: Hard
 
 Question: What does OCSP (Online Certificate Status Protocol) check?
-A: Certificate expiration only
-B: Real-time certificate revocation status
-C: Certificate creation date
-D: Certificate owner
-
-D) [Missing option - Please review]
+A) Certificate expiration only
+B) Real-time certificate revocation status
+C) Certificate creation date
+D) Certificate owner
 
 ✔ Correct Answer: B
 
@@ -1795,12 +1633,10 @@ Subtopic: OCSP Stapling
 Difficulty: Hard
 
 Question: What problem does OCSP stapling solve?
-A: Slow encryption
-B: Privacy and performance issues of OCSP
-C: Certificate storage
-D: Key generation
-
-D) [Missing option - Please review]
+A) Slow encryption
+B) Privacy and performance issues of OCSP
+C) Certificate storage
+D) Key generation
 
 ✔ Correct Answer: B
 
@@ -1817,12 +1653,10 @@ Subtopic: mDNS
 Difficulty: Medium
 
 Question: What is mDNS (Multicast DNS) used for?
-A: Internet DNS
-B: Name resolution on local network without DNS server
-C: Encrypted DNS
-D: Faster DNS
-
-D) [Missing option - Please review]
+A) Internet DNS
+B) Name resolution on local network without DNS server
+C) Encrypted DNS
+D) Faster DNS
 
 ✔ Correct Answer: B
 
@@ -1839,12 +1673,10 @@ Subtopic: DNS-SD
 Difficulty: Hard
 
 Question: What does DNS-SD (DNS Service Discovery) enable?
-A: Faster DNS
-B: Discovering services on network using DNS records
-C: Secure DNS
-D: DNS caching
-
-D) [Missing option - Please review]
+A) Faster DNS
+B) Discovering services on network using DNS records
+C) Secure DNS
+D) DNS caching
 
 ✔ Correct Answer: B
 
@@ -1861,12 +1693,10 @@ Subtopic: UPnP
 Difficulty: Medium
 
 Question: What does UPnP (Universal Plug and Play) enable?
-A: USB devices
-B: Automatic device discovery and configuration
-C: Faster processing
-D: Better graphics
-
-D) [Missing option - Please review]
+A) USB devices
+B) Automatic device discovery and configuration
+C) Faster processing
+D) Better graphics
 
 ✔ Correct Answer: B
 
@@ -1883,12 +1713,10 @@ Subtopic: UPnP Security
 Difficulty: Medium
 
 Question: What is a security concern with UPnP?
-A: Too slow
-B: Can be exploited to open firewall ports
-C: Too complex
-D: Requires passwords
-
-D) [Missing option - Please review]
+A) Too slow
+B) Can be exploited to open firewall ports
+C) Too complex
+D) Requires passwords
 
 ✔ Correct Answer: B
 
@@ -1905,12 +1733,10 @@ Subtopic: SSDP
 Difficulty: Hard
 
 Question: What protocol does UPnP use for device discovery?
-A: ARP
-B: SSDP (Simple Service Discovery Protocol)
-C: DNS
-D: DHCP
-
-D) [Missing option - Please review]
+A) ARP
+B) SSDP (Simple Service Discovery Protocol)
+C) DNS
+D) DHCP
 
 ✔ Correct Answer: B
 
@@ -1927,12 +1753,10 @@ Subtopic: Anycast DNS
 Difficulty: Hard
 
 Question: How does anycast improve DNS performance?
-A: Faster encryption
-B: Routes queries to nearest DNS server
-C: Caches more data
-D: Uses more servers
-
-D) [Missing option - Please review]
+A) Faster encryption
+B) Routes queries to nearest DNS server
+C) Caches more data
+D) Uses more servers
 
 ✔ Correct Answer: B
 
@@ -1949,12 +1773,10 @@ Subtopic: GeoDNS
 Difficulty: Medium
 
 Question: What does GeoDNS do?
-A: Encrypt DNS
-B: Return different IP addresses based on client location
-C: Faster DNS resolution
-D: Block DNS queries
-
-D) [Missing option - Please review]
+A) Encrypt DNS
+B) Return different IP addresses based on client location
+C) Faster DNS resolution
+D) Block DNS queries
 
 ✔ Correct Answer: B
 
@@ -1971,12 +1793,10 @@ Subtopic: DNS Round Robin
 Difficulty: Easy
 
 Question: What does DNS round robin provide?
-A: Security
-B: Simple load distribution across multiple IPs
-C: Faster resolution
-D: Encryption
-
-D) [Missing option - Please review]
+A) Security
+B) Simple load distribution across multiple IPs
+C) Faster resolution
+D) Encryption
 
 ✔ Correct Answer: B
 
@@ -1993,12 +1813,10 @@ Subtopic: GSLB
 Difficulty: Hard
 
 Question: What does GSLB (Global Server Load Balancing) provide?
-A: Local load balancing only
-B: Intelligent traffic distribution across geographic locations
-C: Faster routing
-D: Better encryption
-
-D) [Missing option - Please review]
+A) Local load balancing only
+B) Intelligent traffic distribution across geographic locations
+C) Faster routing
+D) Better encryption
 
 ✔ Correct Answer: B
 
@@ -2015,12 +1833,10 @@ Subtopic: Active-Active
 Difficulty: Medium
 
 Question: What characterizes an active-active configuration?
-A: One active, one standby
-B: All systems actively handling traffic simultaneously
-C: Sequential activation
-D: Random activation
-
-D) [Missing option - Please review]
+A) One active, one standby
+B) All systems actively handling traffic simultaneously
+C) Sequential activation
+D) Random activation
 
 ✔ Correct Answer: B
 
@@ -2037,12 +1853,10 @@ Subtopic: Active-Passive
 Difficulty: Easy
 
 Question: In active-passive configuration, when does the passive system activate?
-A: Always active
-B: When active system fails
-C: Randomly
-D: Never
-
-D) [Missing option - Please review]
+A) Always active
+B) When active system fails
+C) Randomly
+D) Never
 
 ✔ Correct Answer: B
 
@@ -2059,12 +1873,10 @@ Subtopic: Keepalive Mechanisms
 Difficulty: Medium
 
 Question: What is the purpose of application-level keepalives?
-A: Increase speed
-B: Detect connection failures and maintain sessions
-C: Encrypt connections
-D: Compress data
-
-D) [Missing option - Please review]
+A) Increase speed
+B) Detect connection failures and maintain sessions
+C) Encrypt connections
+D) Compress data
 
 ✔ Correct Answer: B
 
@@ -2081,12 +1893,10 @@ Subtopic: Connection Pooling
 Difficulty: Medium
 
 Question: What benefit does connection pooling provide?
-A: More connections
-B: Reuses connections reducing overhead of creating new ones
-C: Better security
-D: Faster encryption
-
-D) [Missing option - Please review]
+A) More connections
+B) Reuses connections reducing overhead of creating new ones
+C) Better security
+D) Faster encryption
 
 ✔ Correct Answer: B
 
@@ -2103,12 +1913,10 @@ Subtopic: HTTP Persistent Connections
 Difficulty: Medium
 
 Question: What is the advantage of HTTP persistent connections (keep-alive)?
-A: Better security
-B: Reuses TCP connection for multiple requests
-C: Faster encryption
-D: Larger files
-
-D) [Missing option - Please review]
+A) Better security
+B) Reuses TCP connection for multiple requests
+C) Faster encryption
+D) Larger files
 
 ✔ Correct Answer: B
 
@@ -2125,12 +1933,10 @@ Subtopic: HTTP Pipelining
 Difficulty: Hard
 
 Question: What does HTTP pipelining allow?
-A: Parallel connections
-B: Multiple requests without waiting for responses
-C: Faster encryption
-D: Better compression
-
-D) [Missing option - Please review]
+A) Parallel connections
+B) Multiple requests without waiting for responses
+C) Faster encryption
+D) Better compression
 
 ✔ Correct Answer: B
 
@@ -2147,12 +1953,10 @@ Subtopic: API Gateway
 Difficulty: Medium
 
 Question: What is the primary function of an API gateway?
-A: Network routing
-B: Single entry point managing API requests
-C: DNS resolution
-D: File storage
-
-D) [Missing option - Please review]
+A) Network routing
+B) Single entry point managing API requests
+C) DNS resolution
+D) File storage
 
 ✔ Correct Answer: B
 
@@ -2169,12 +1973,10 @@ Subtopic: Rate Limiting
 Difficulty: Medium
 
 Question: What is the purpose of rate limiting?
-A: Increase speed
-B: Control request rate to prevent abuse and overload
-C: Encrypt faster
-D: Compress data
-
-D) [Missing option - Please review]
+A) Increase speed
+B) Control request rate to prevent abuse and overload
+C) Encrypt faster
+D) Compress data
 
 ✔ Correct Answer: B
 
@@ -2191,12 +1993,10 @@ Subtopic: Token Bucket Rate Limiting
 Difficulty: Hard
 
 Question: In token bucket rate limiting, what happens when bucket is empty?
-A: Requests are queued
-B: Requests are rejected or delayed
-C: Bucket refills instantly
-D: All requests allowed
-
-D) [Missing option - Please review]
+A) Requests are queued
+B) Requests are rejected or delayed
+C) Bucket refills instantly
+D) All requests allowed
 
 ✔ Correct Answer: B
 

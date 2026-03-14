@@ -601,9 +601,7 @@ Difficulty: Medium
 Question: What happens if a recursive function has no base case?
 
 A) Works perfectly
-B: Infinite recursion leading to stack overflow
-B) [Missing option - Please review]
-
+B) Infinite recursion leading to stack overflow
 C) Faster execution
 D) No effect
 
@@ -977,9 +975,7 @@ Question: What are boundary conditions?
 
 A) Middle values
 B) Extreme or edge values of input range
-C: Average values
-C) [Missing option - Please review]
-
+C) Average values
 D) Random values
 
 ✔ Correct Answer: B

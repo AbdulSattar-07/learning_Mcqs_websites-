@@ -769,9 +769,7 @@ Question: What are filter methods?
 A) Model-based selection
 B) Statistical measures for feature selection
 C) No selection
-D: Random selection
-
-D) [Missing option - Please review]
+D) Random selection
 
 ✔ Correct Answer: B
 Reason: Filter methods use statistical tests independent of ML models.
@@ -804,12 +802,10 @@ Subtopic: Knowledge Distillation
 Difficulty: Hard
 
 Question: What is knowledge distillation?
-A: Random training
-B: Transferring knowledge from large to small model
-C: No transfer
-D: Single model training
-
-D) [Missing option - Please review]
+A) Random training
+B) Transferring knowledge from large to small model
+C) No transfer
+D) Single model training
 
 ✔ Correct Answer: B
 Reason: Distillation trains compact model to mimic larger teacher model.
@@ -824,12 +820,10 @@ Subtopic: Text Classification
 Difficulty: Easy
 
 Question: What is text classification?
-A: Text generation
-B: Assigning categories to text
-C: Translation
-D: Summarization
-
-D) [Missing option - Please review]
+A) Text generation
+B) Assigning categories to text
+C) Translation
+D) Summarization
 
 ✔ Correct Answer: B
 Reason: Text classification assigns predefined labels to documents.
@@ -844,12 +838,10 @@ Subtopic: Keypoint Detection
 Difficulty: Medium
 
 Question: What are keypoints in images?
-A: Random points
-B: Distinctive points like corners
-C: All pixels
-D: No points
-
-D) [Missing option - Please review]
+A) Random points
+B) Distinctive points like corners
+C) All pixels
+D) No points
 
 ✔ Correct Answer: B
 Reason: Keypoints are salient features used for matching and recognition.
@@ -864,12 +856,10 @@ Subtopic: Data Warehouse
 Difficulty: Easy
 
 Question: What is a data warehouse?
-A: Small database
-B: Central repository for integrated data
-C: Temporary storage
-D: No storage
-
-D) [Missing option - Please review]
+A) Small database
+B) Central repository for integrated data
+C) Temporary storage
+D) No storage
 
 ✔ Correct Answer: B
 Reason: Data warehouse stores historical data from multiple sources for analysis.
@@ -884,12 +874,10 @@ Subtopic: Inference Optimization
 Difficulty: Medium
 
 Question: What is batch inference?
-A: Single prediction
-B: Processing multiple inputs together
-C: No inference
-D: Random processing
-
-D) [Missing option - Please review]
+A) Single prediction
+B) Processing multiple inputs together
+C) No inference
+D) Random processing
 
 ✔ Correct Answer: B
 Reason: Batch inference processes multiple samples simultaneously for efficiency.
@@ -904,12 +892,10 @@ Subtopic: Fairness Metrics
 Difficulty: Hard
 
 Question: What is demographic parity?
-A: No fairness
-B: Equal positive prediction rates across groups
-C: Random predictions
-D: Single group
-
-D) [Missing option - Please review]
+A) No fairness
+B) Equal positive prediction rates across groups
+C) Random predictions
+D) Single group
 
 ✔ Correct Answer: B
 Reason: Demographic parity ensures equal outcome rates regardless of protected attributes.
@@ -929,12 +915,10 @@ import numpy as np
 arr = np.array([1, 2, 3])
 print(arr * 2)
 ```
-A: [1 2 3]
-B: [2 4 6]
-C: 6
-D: [3 4 5]
-
-D) [Missing option - Please review]
+A) [1 2 3]
+B) [2 4 6]
+C) 6
+D) [3 4 5]
 
 ✔ Correct Answer: B
 Reason: Broadcasting multiplies each element by 2: [2, 4, 6].
@@ -949,12 +933,10 @@ Subtopic: Information Theory
 Difficulty: Medium
 
 Question: What is entropy in information theory?
-A: Temperature
-B: Measure of uncertainty/information
-C: Energy
-D: No measure
-
-D) [Missing option - Please review]
+A) Temperature
+B) Measure of uncertainty/information
+C) Energy
+D) No measure
 
 ✔ Correct Answer: B
 Reason: Entropy H(X) = -Σp(x)log(p(x)), quantifies information content.
@@ -969,12 +951,10 @@ Subtopic: Multi-output Regression
 Difficulty: Medium
 
 Question: What is multi-output regression?
-A: Single output
-B: Predicting multiple continuous targets
-C: Classification
-D: Clustering
-
-D) [Missing option - Please review]
+A) Single output
+B) Predicting multiple continuous targets
+C) Classification
+D) Clustering
 
 ✔ Correct Answer: B
 Reason: Multi-output regression predicts multiple dependent variables simultaneously.
@@ -989,12 +969,10 @@ Subtopic: Data Lineage
 Difficulty: Medium
 
 Question: What is data lineage?
-A: Data size
-B: Tracking data origin and transformations
-C: Data type
-D: No tracking
-
-D) [Missing option - Please review]
+A) Data size
+B) Tracking data origin and transformations
+C) Data type
+D) No tracking
 
 ✔ Correct Answer: B
 Reason: Data lineage documents data flow from source through transformations.
@@ -1009,12 +987,10 @@ Subtopic: Cumulative Distribution
 Difficulty: Easy
 
 Question: What is CDF?
-A: Probability density
-B: Cumulative Distribution Function
-C: Central Data Function
-D: No function
-
-D) [Missing option - Please review]
+A) Probability density
+B) Cumulative Distribution Function
+C) Central Data Function
+D) No function
 
 ✔ Correct Answer: B
 Reason: CDF gives probability that variable is less than or equal to value.
@@ -1029,12 +1005,10 @@ Subtopic: Mixture of Experts
 Difficulty: Hard
 
 Question: What is mixture of experts?
-A: Single expert
-B: Multiple specialized models with gating network
-C: No experts
-D: Random models
-
-D) [Missing option - Please review]
+A) Single expert
+B) Multiple specialized models with gating network
+C) No experts
+D) Random models
 
 ✔ Correct Answer: B
 Reason: Mixture of experts uses gating network to route inputs to specialized models.
@@ -1049,12 +1023,10 @@ Subtopic: Density Estimation
 Difficulty: Medium
 
 Question: What is kernel density estimation?
-A: Parametric method
-B: Non-parametric density estimation
-C: No estimation
-D: Classification method
-
-D) [Missing option - Please review]
+A) Parametric method
+B) Non-parametric density estimation
+C) No estimation
+D) Classification method
 
 ✔ Correct Answer: B
 Reason: KDE estimates probability density function without assuming distribution.
@@ -1069,12 +1041,10 @@ Subtopic: Bias in Evaluation
 Difficulty: Medium
 
 Question: What is selection bias in evaluation?
-A: No bias
-B: Non-representative test set
-C: Perfect evaluation
-D: Random bias
-
-D) [Missing option - Please review]
+A) No bias
+B) Non-representative test set
+C) Perfect evaluation
+D) Random bias
 
 ✔ Correct Answer: B
 Reason: Selection bias occurs when test data doesn't represent real distribution.
@@ -1089,12 +1059,10 @@ Subtopic: Domain Knowledge
 Difficulty: Easy
 
 Question: Why use domain knowledge in feature engineering?
-A: No benefit
-B: Create meaningful features
-C: Random features
-D: Delete features
-
-D) [Missing option - Please review]
+A) No benefit
+B) Create meaningful features
+C) Random features
+D) Delete features
 
 ✔ Correct Answer: B
 Reason: Domain expertise helps identify relevant features and relationships.
@@ -1109,12 +1077,10 @@ Subtopic: Gradient Descent Variants
 Difficulty: Medium
 
 Question: What is stochastic gradient descent?
-A: Using all data
-B: Using single random sample per update
-C: No updates
-D: Fixed updates
-
-D) [Missing option - Please review]
+A) Using all data
+B) Using single random sample per update
+C) No updates
+D) Fixed updates
 
 ✔ Correct Answer: B
 Reason: SGD updates parameters using gradient from single training example.
@@ -1129,12 +1095,10 @@ Subtopic: Few-Shot Learning
 Difficulty: Hard
 
 Question: What is few-shot learning?
-A: Many examples
-B: Learning from very few examples
-C: No learning
-D: Infinite examples
-
-D) [Missing option - Please review]
+A) Many examples
+B) Learning from very few examples
+C) No learning
+D) Infinite examples
 
 ✔ Correct Answer: B
 Reason: Few-shot learning trains models to generalize from limited labeled data.
@@ -1149,12 +1113,10 @@ Subtopic: Text Preprocessing
 Difficulty: Easy
 
 Question: What is text normalization?
-A: No change
-B: Converting text to standard form
-C: Deleting text
-D: Random changes
-
-D) [Missing option - Please review]
+A) No change
+B) Converting text to standard form
+C) Deleting text
+D) Random changes
 
 ✔ Correct Answer: B
 Reason: Normalization standardizes text (lowercasing, removing punctuation, etc.).
@@ -1169,12 +1131,10 @@ Subtopic: Image Pyramids
 Difficulty: Medium
 
 Question: What is an image pyramid?
-A: Single image
-B: Multi-scale representation
-C: No representation
-D: Random images
-
-D) [Missing option - Please review]
+A) Single image
+B) Multi-scale representation
+C) No representation
+D) Random images
 
 ✔ Correct Answer: B
 Reason: Image pyramid contains multiple resolutions for scale-invariant processing.
@@ -1189,12 +1149,10 @@ Subtopic: ETL Process
 Difficulty: Easy
 
 Question: What does ETL stand for?
-A: Enter Transform Load
-B: Extract Transform Load
-C: Exit Transfer Load
-D: Evaluate Test Load
-
-D) [Missing option - Please review]
+A) Enter Transform Load
+B) Extract Transform Load
+C) Exit Transfer Load
+D) Evaluate Test Load
 
 ✔ Correct Answer: B
 Reason: ETL extracts data from sources, transforms it, and loads to destination.
@@ -1209,12 +1167,10 @@ Subtopic: Model Governance
 Difficulty: Medium
 
 Question: What is model governance?
-A: No oversight
-B: Framework for managing ML lifecycle
-C: Random management
-D: Single deployment
-
-D) [Missing option - Please review]
+A) No oversight
+B) Framework for managing ML lifecycle
+C) Random management
+D) Single deployment
 
 ✔ Correct Answer: B
 Reason: Model governance ensures compliance, quality, and accountability.
@@ -1229,12 +1185,10 @@ Subtopic: Accountability
 Difficulty: Medium
 
 Question: What is algorithmic accountability?
-A: No responsibility
-B: Responsibility for AI system outcomes
-C: Random outcomes
-D: No oversight
-
-D) [Missing option - Please review]
+A) No responsibility
+B) Responsibility for AI system outcomes
+C) Random outcomes
+D) No oversight
 
 ✔ Correct Answer: B
 Reason: Algorithmic accountability assigns responsibility for AI decisions and impacts.
@@ -1254,12 +1208,10 @@ import pandas as pd
 s = pd.Series([1, 2, 3, 4, 5])
 print(s.iloc[-1])
 ```
-A: 1
-B: 4
-C: 5
-D: Error
-
-D) [Missing option - Please review]
+A) 1
+B) 4
+C) 5
+D) Error
 
 ✔ Correct Answer: C
 Reason: iloc[-1] accesses last element: 5.
@@ -1274,12 +1226,10 @@ Subtopic: Sampling Theory
 Difficulty: Medium
 
 Question: What is the Central Limit Theorem?
-A: Random theorem
-B: Sample means approach normal distribution
-C: No theorem
-D: Single sample
-
-D) [Missing option - Please review]
+A) Random theorem
+B) Sample means approach normal distribution
+C) No theorem
+D) Single sample
 
 ✔ Correct Answer: B
 Reason: CLT states that sample means distribution becomes normal with large samples.
@@ -1294,12 +1244,10 @@ Subtopic: Online Learning
 Difficulty: Medium
 
 Question: What is online learning?
-A: Batch training
-B: Incremental learning from streaming data
-C: No learning
-D: Offline only
-
-D) [Missing option - Please review]
+A) Batch training
+B) Incremental learning from streaming data
+C) No learning
+D) Offline only
 
 ✔ Correct Answer: B
 Reason: Online learning updates model continuously as new data arrives.
@@ -1314,12 +1262,10 @@ Subtopic: Data Consistency
 Difficulty: Easy
 
 Question: What is data consistency?
-A: Random data
-B: Data uniformity across sources
-C: Inconsistent data
-D: No data
-
-D) [Missing option - Please review]
+A) Random data
+B) Data uniformity across sources
+C) Inconsistent data
+D) No data
 
 ✔ Correct Answer: B
 Reason: Consistency ensures data is uniform and follows same format/rules.
@@ -1334,12 +1280,10 @@ Subtopic: Time Series Components
 Difficulty: Medium
 
 Question: What are components of time series?
-A: Single component
-B: Trend, seasonality, noise
-C: No components
-D: Random values
-
-D) [Missing option - Please review]
+A) Single component
+B) Trend, seasonality, noise
+C) No components
+D) Random values
 
 ✔ Correct Answer: B
 Reason: Time series decomposed into trend, seasonal, and residual components.
@@ -1354,12 +1298,10 @@ Subtopic: Cascading
 Difficulty: Hard
 
 Question: What is cascade ensemble?
-A: Parallel models
-B: Sequential models with early exit
-C: Single model
-D: No ensemble
-
-D) [Missing option - Please review]
+A) Parallel models
+B) Sequential models with early exit
+C) Single model
+D) No ensemble
 
 ✔ Correct Answer: B
 Reason: Cascade uses simpler models first, complex ones only when needed.
@@ -1374,12 +1316,10 @@ Subtopic: Manifold Learning
 Difficulty: Hard
 
 Question: What is manifold learning?
-A: Random learning
-B: Learning low-dimensional structure in high-dimensional data
-C: No learning
-D: Supervised learning
-
-D) [Missing option - Please review]
+A) Random learning
+B) Learning low-dimensional structure in high-dimensional data
+C) No learning
+D) Supervised learning
 
 ✔ Correct Answer: B
 Reason: Manifold learning discovers intrinsic geometry of data.
@@ -1394,12 +1334,10 @@ Subtopic: Confidence Intervals
 Difficulty: Medium
 
 Question: What is a confidence interval?
-A: Single value
-B: Range likely containing true parameter
-C: No range
-D: Random range
-
-D) [Missing option - Please review]
+A) Single value
+B) Range likely containing true parameter
+C) No range
+D) Random range
 
 ✔ Correct Answer: B
 Reason: Confidence interval provides range with specified probability of containing parameter.
@@ -1414,12 +1352,10 @@ Subtopic: Feature Hashing
 Difficulty: Hard
 
 Question: What is feature hashing?
-A: Deleting features
-B: Mapping features to fixed-size vector using hash
-C: No mapping
-D: Random features
-
-D) [Missing option - Please review]
+A) Deleting features
+B) Mapping features to fixed-size vector using hash
+C) No mapping
+D) Random features
 
 ✔ Correct Answer: B
 Reason: Feature hashing (hashing trick) reduces dimensionality using hash functions.
@@ -1434,12 +1370,10 @@ Subtopic: Regularization Techniques
 Difficulty: Easy
 
 Question: What is the purpose of regularization?
-A: Increase overfitting
-B: Prevent overfitting
-C: No purpose
-D: Increase complexity
-
-D) [Missing option - Please review]
+A) Increase overfitting
+B) Prevent overfitting
+C) No purpose
+D) Increase complexity
 
 ✔ Correct Answer: B
 Reason: Regularization adds constraints to reduce model complexity and overfitting.
@@ -1454,12 +1388,10 @@ Subtopic: Neural ODEs
 Difficulty: Hard
 
 Question: What are Neural ODEs?
-A: Standard networks
-B: Networks using differential equations
-C: No networks
-D: Random networks
-
-D) [Missing option - Please review]
+A) Standard networks
+B) Networks using differential equations
+C) No networks
+D) Random networks
 
 ✔ Correct Answer: B
 Reason: Neural ODEs model continuous transformations using ordinary differential equations.
@@ -1474,12 +1406,10 @@ Subtopic: Language Detection
 Difficulty: Easy
 
 Question: What is language detection?
-A: Translation
-B: Identifying language of text
-C: Summarization
-D: Generation
-
-D) [Missing option - Please review]
+A) Translation
+B) Identifying language of text
+C) Summarization
+D) Generation
 
 ✔ Correct Answer: B
 Reason: Language detection classifies text into language categories.
@@ -1494,12 +1424,10 @@ Subtopic: 3D Vision
 Difficulty: Hard
 
 Question: What is depth estimation?
-A: Color detection
-B: Estimating distance from camera
-C: Edge detection
-D: No estimation
-
-D) [Missing option - Please review]
+A) Color detection
+B) Estimating distance from camera
+C) Edge detection
+D) No estimation
 
 ✔ Correct Answer: B
 Reason: Depth estimation infers 3D structure from 2D images.
@@ -1514,12 +1442,10 @@ Subtopic: Real-Time Analytics
 Difficulty: Medium
 
 Question: What is real-time analytics?
-A: Batch processing
-B: Immediate data analysis as it arrives
-C: Delayed analysis
-D: No analysis
-
-D) [Missing option - Please review]
+A) Batch processing
+B) Immediate data analysis as it arrives
+C) Delayed analysis
+D) No analysis
 
 ✔ Correct Answer: B
 Reason: Real-time analytics processes and analyzes data with minimal latency.
@@ -1534,12 +1460,10 @@ Subtopic: Rollback Strategy
 Difficulty: Medium
 
 Question: Why have model rollback capability?
-A: No reason
-B: Revert to previous version if issues occur
-C: Slow deployment
-D: Increase errors
-
-D) [Missing option - Please review]
+A) No reason
+B) Revert to previous version if issues occur
+C) Slow deployment
+D) Increase errors
 
 ✔ Correct Answer: B
 Reason: Rollback allows quick recovery from problematic deployments.
@@ -1554,12 +1478,10 @@ Subtopic: Data Minimization
 Difficulty: Easy
 
 Question: What is data minimization?
-A: Collecting all data
-B: Collecting only necessary data
-C: No collection
-D: Random collection
-
-D) [Missing option - Please review]
+A) Collecting all data
+B) Collecting only necessary data
+C) No collection
+D) Random collection
 
 ✔ Correct Answer: B
 Reason: Data minimization principle limits collection to what's needed for purpose.
@@ -1578,12 +1500,10 @@ Question: What is the output?
 x = [1, 2, 3, 4]
 print(x[1:3])
 ```
-A: [1, 2]
-B: [2, 3]
-C: [1, 2, 3]
-D: [2, 3, 4]
-
-D) [Missing option - Please review]
+A) [1, 2]
+B) [2, 3]
+C) [1, 2, 3]
+D) [2, 3, 4]
 
 ✔ Correct Answer: B
 Reason: Slicing [1:3] returns elements at indices 1 and 2: [2, 3].
@@ -1598,12 +1518,10 @@ Subtopic: Bayes' Theorem
 Difficulty: Medium
 
 Question: What does Bayes' theorem calculate?
-A: Joint probability
-B: Posterior probability from prior and likelihood
-C: Marginal probability
-D: No probability
-
-D) [Missing option - Please review]
+A) Joint probability
+B) Posterior probability from prior and likelihood
+C) Marginal probability
+D) No probability
 
 ✔ Correct Answer: B
 Reason: Bayes: P(A|B) = P(B|A)P(A)/P(B), updates beliefs with evidence.
@@ -1618,12 +1536,10 @@ Subtopic: Active Learning
 Difficulty: Hard
 
 Question: What is active learning?
-A: Passive learning
-B: Model selects most informative samples to label
-C: Random selection
-D: No selection
-
-D) [Missing option - Please review]
+A) Passive learning
+B) Model selects most informative samples to label
+C) Random selection
+D) No selection
 
 ✔ Correct Answer: B
 Reason: Active learning queries most uncertain examples to minimize labeling effort.
@@ -1638,12 +1554,10 @@ Subtopic: Data Provenance
 Difficulty: Medium
 
 Question: What is data provenance?
-A: Data size
-B: Documentation of data origin and history
-C: Data type
-D: No documentation
-
-D) [Missing option - Please review]
+A) Data size
+B) Documentation of data origin and history
+C) Data type
+D) No documentation
 
 ✔ Correct Answer: B
 Reason: Provenance tracks data sources, transformations, and custody chain.
@@ -1658,12 +1572,10 @@ Subtopic: Multicollinearity
 Difficulty: Medium
 
 Question: What is multicollinearity?
-A: No correlation
-B: High correlation among predictor variables
-C: Low correlation
-D: Random correlation
-
-D) [Missing option - Please review]
+A) No correlation
+B) High correlation among predictor variables
+C) Low correlation
+D) Random correlation
 
 ✔ Correct Answer: B
 Reason: Multicollinearity occurs when features are highly correlated with each other.
@@ -1678,12 +1590,10 @@ Subtopic: Dynamic Ensemble Selection
 Difficulty: Hard
 
 Question: What is dynamic ensemble selection?
-A: Static selection
-B: Selecting ensemble members per instance
-C: No selection
-D: Random selection
-
-D) [Missing option - Please review]
+A) Static selection
+B) Selecting ensemble members per instance
+C) No selection
+D) Random selection
 
 ✔ Correct Answer: B
 Reason: Dynamic selection chooses competent models for each test sample.
@@ -1698,12 +1608,10 @@ Subtopic: Topic Modeling
 Difficulty: Medium
 
 Question: What is LDA in topic modeling?
-A: Linear Discriminant Analysis
-B: Latent Dirichlet Allocation
-C: Logistic Data Analysis
-D: No method
-
-D) [Missing option - Please review]
+A) Linear Discriminant Analysis
+B) Latent Dirichlet Allocation
+C) Logistic Data Analysis
+D) No method
 
 ✔ Correct Answer: B
 Reason: LDA discovers abstract topics in document collections.
@@ -1718,12 +1626,10 @@ Subtopic: Statistical Significance
 Difficulty: Medium
 
 Question: What is p-value?
-A: Probability value
-B: Probability of observing results if null hypothesis true
-C: Power value
-D: No value
-
-D) [Missing option - Please review]
+A) Probability value
+B) Probability of observing results if null hypothesis true
+C) Power value
+D) No value
 
 ✔ Correct Answer: B
 Reason: P-value measures evidence against null hypothesis.
@@ -1738,12 +1644,10 @@ Subtopic: Dimensionality Curse
 Difficulty: Medium
 
 Question: What is curse of dimensionality?
-A: Blessing
-B: Problems arising from high-dimensional spaces
-C: No problems
-D: Low dimensions
-
-D) [Missing option - Please review]
+A) Blessing
+B) Problems arising from high-dimensional spaces
+C) No problems
+D) Low dimensions
 
 ✔ Correct Answer: B
 Reason: High dimensions cause sparsity, making learning difficult.
@@ -1758,12 +1662,10 @@ Subtopic: Batch Normalization Benefits
 Difficulty: Medium
 
 Question: What does batch normalization enable?
-A: Slower training
-B: Higher learning rates and faster convergence
-C: No benefit
-D: Smaller models
-
-D) [Missing option - Please review]
+A) Slower training
+B) Higher learning rates and faster convergence
+C) No benefit
+D) Smaller models
 
 ✔ Correct Answer: B
 Reason: Batch norm stabilizes training, allowing higher learning rates.
@@ -1778,12 +1680,10 @@ Subtopic: Self-Supervised Learning
 Difficulty: Hard
 
 Question: What is self-supervised learning?
-A: Fully supervised
-B: Learning from unlabeled data using pretext tasks
-C: No learning
-D: Random learning
-
-D) [Missing option - Please review]
+A) Fully supervised
+B) Learning from unlabeled data using pretext tasks
+C) No learning
+D) Random learning
 
 ✔ Correct Answer: B
 Reason: Self-supervised creates labels from data structure for pre-training.
@@ -1798,12 +1698,10 @@ Subtopic: Text Augmentation
 Difficulty: Medium
 
 Question: What is back-translation in NLP?
-A: No translation
-B: Translating to another language and back
-C: Forward translation
-D: Random translation
-
-D) [Missing option - Please review]
+A) No translation
+B) Translating to another language and back
+C) Forward translation
+D) Random translation
 
 ✔ Correct Answer: B
 Reason: Back-translation creates paraphrases for data augmentation.
@@ -1818,12 +1716,10 @@ Subtopic: Image Generation
 Difficulty: Medium
 
 Question: What is image synthesis?
-A: Image analysis
-B: Creating new images from models
-C: Image compression
-D: No generation
-
-D) [Missing option - Please review]
+A) Image analysis
+B) Creating new images from models
+C) Image compression
+D) No generation
 
 ✔ Correct Answer: B
 Reason: Image synthesis generates novel images using learned distributions.
@@ -1838,12 +1734,10 @@ Subtopic: Data Partitioning Strategies
 Difficulty: Medium
 
 Question: What is hash partitioning?
-A: Random partitioning
-B: Using hash function to distribute data
-C: No partitioning
-D: Sequential partitioning
-
-D) [Missing option - Please review]
+A) Random partitioning
+B) Using hash function to distribute data
+C) No partitioning
+D) Sequential partitioning
 
 ✔ Correct Answer: B
 Reason: Hash partitioning uses hash of key to determine partition.
@@ -1858,12 +1752,10 @@ Subtopic: Monitoring Metrics
 Difficulty: Easy
 
 Question: What should be monitored in production?
-A: Nothing
-B: Model performance and data drift
-C: Only accuracy
-D: Random metrics
-
-D) [Missing option - Please review]
+A) Nothing
+B) Model performance and data drift
+C) Only accuracy
+D) Random metrics
 
 ✔ Correct Answer: B
 Reason: Monitor performance degradation and distribution changes.
@@ -1878,12 +1770,10 @@ Subtopic: Transparency
 Difficulty: Easy
 
 Question: What is model transparency?
-A: Hidden model
-B: Understandable model decisions
-C: Black box
-D: No understanding
-
-D) [Missing option - Please review]
+A) Hidden model
+B) Understandable model decisions
+C) Black box
+D) No understanding
 
 ✔ Correct Answer: B
 Reason: Transparency enables understanding how models make decisions.
@@ -1903,12 +1793,10 @@ import numpy as np
 arr = np.arange(5)
 print(arr.sum())
 ```
-A: 5
-B: 10
-C: 15
-D: 0
-
-D) [Missing option - Please review]
+A) 5
+B) 10
+C) 15
+D) 0
 
 ✔ Correct Answer: B
 Reason: arange(5) = [0,1,2,3,4], sum = 0+1+2+3+4 = 10.
@@ -1923,12 +1811,10 @@ Subtopic: Optimization Constraints
 Difficulty: Medium
 
 Question: What is a constraint in optimization?
-A: No restriction
-B: Condition that solution must satisfy
-C: Random condition
-D: Objective function
-
-D) [Missing option - Please review]
+A) No restriction
+B) Condition that solution must satisfy
+C) Random condition
+D) Objective function
 
 ✔ Correct Answer: B
 Reason: Constraints limit feasible solution space in optimization problems.
@@ -1943,12 +1829,10 @@ Subtopic: Future Trends
 Difficulty: Easy
 
 Question: What is edge AI?
-A: Cloud computing
-B: Running AI on local devices
-C: Centralized AI
-D: No AI
-
-D) [Missing option - Please review]
+A) Cloud computing
+B) Running AI on local devices
+C) Centralized AI
+D) No AI
 
 ✔ Correct Answer: B
 Reason: Edge AI processes data locally on devices for low latency and privacy.

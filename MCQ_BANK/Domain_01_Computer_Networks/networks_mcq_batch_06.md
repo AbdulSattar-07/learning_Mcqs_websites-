@@ -193,9 +193,7 @@ Question: What are the three components in 802.1X authentication?
 A) Client, Server, Database
 B) Supplicant, Authenticator, Authentication Server
 C) User, Switch, Router
-D: Host, Gateway, Firewall
-
-D) [Missing option - Please review]
+D) Host, Gateway, Firewall
 
 ✔ Correct Answer: B
 
@@ -233,9 +231,7 @@ Difficulty: Hard
 
 Question: What does PEAP (Protected EAP) provide?
 A) Faster authentication
-B: TLS tunnel protecting inner authentication
-B) [Missing option - Please review]
-
+B) TLS tunnel protecting inner authentication
 C) No encryption
 D) Simpler configuration
 
@@ -275,9 +271,7 @@ Difficulty: Easy
 
 Question: What is an enterprise network?
 A) Small home network
-B: Organization's entire network infrastructure
-B) [Missing option - Please review]
-
+B) Organization's entire network infrastructure
 C) Public Internet
 D) Single LAN
 
@@ -299,9 +293,7 @@ Question: What is the first criterion in BGP path selection?
 A) AS_PATH length
 B) Highest weight (Cisco)
 C) LOCAL_PREF
-D: MED
-
-D) [Missing option - Please review]
+D) MED
 
 ✔ Correct Answer: B
 
@@ -319,9 +311,7 @@ Difficulty: Hard
 
 Question: What is the scope of BGP LOCAL_PREF attribute?
 A) Global
-B: Within the AS only
-B) [Missing option - Please review]
-
+B) Within the AS only
 C) Between two routers only
 D) Across all ASes
 
@@ -342,9 +332,7 @@ Difficulty: Hard
 Question: What does MED (Multi-Exit Discriminator) influence?
 A) Outbound traffic
 B) Inbound traffic from neighboring AS
-C: Internal routing
-C) [Missing option - Please review]
-
+C) Internal routing
 D) Multicast routing
 
 ✔ Correct Answer: B
@@ -365,9 +353,7 @@ Question: Why would you prepend AS numbers to AS_PATH?
 A) Increase security
 B) Make path less preferred by increasing length
 C) Faster routing
-D: Better encryption
-
-D) [Missing option - Please review]
+D) Better encryption
 
 ✔ Correct Answer: B
 
@@ -385,13 +371,9 @@ Difficulty: Hard
 
 Question: What are BGP communities used for?
 A) Social networking
-B: Grouping routes for common policy application
-B) [Missing option - Please review]
-
+B) Grouping routes for common policy application
 C) Encryption
-D: Compression
-
-D) [Missing option - Please review]
+D) Compression
 
 ✔ Correct Answer: B
 
@@ -408,12 +390,10 @@ Subtopic: BGP Route Reflector
 Difficulty: Hard
 
 Question: What problem does BGP route reflector solve?
-A: Slow convergence
-B: Full mesh iBGP requirement
-C: Security issues
-D: Bandwidth limitations
-
-D) [Missing option - Please review]
+A) Slow convergence
+B) Full mesh iBGP requirement
+C) Security issues
+D) Bandwidth limitations
 
 ✔ Correct Answer: B
 
@@ -430,12 +410,10 @@ Subtopic: BGP Confederation
 Difficulty: Hard
 
 Question: What is the purpose of BGP confederation?
-A: Increase speed
-B: Divide large AS into sub-ASes to reduce iBGP mesh
-C: Encrypt BGP
-D: Compress updates
-
-D) [Missing option - Please review]
+A) Increase speed
+B) Divide large AS into sub-ASes to reduce iBGP mesh
+C) Encrypt BGP
+D) Compress updates
 
 ✔ Correct Answer: B
 
@@ -452,12 +430,10 @@ Subtopic: TCP Window Size
 Difficulty: Medium
 
 Question: What is the maximum TCP window size without window scaling?
-A: 32 KB
-B: 64 KB
-C: 128 KB
-D: 256 KB
-
-D) [Missing option - Please review]
+A) 32 KB
+B) 64 KB
+C) 128 KB
+D) 256 KB
 
 ✔ Correct Answer: B
 
@@ -474,12 +450,10 @@ Subtopic: TCP Window Scaling Factor
 Difficulty: Hard
 
 Question: What is the maximum window scaling factor in TCP?
-A: 8
-B: 14
-C: 16
-D: 32
-
-D) [Missing option - Please review]
+A) 8
+B) 14
+C) 16
+D) 32
 
 ✔ Correct Answer: B
 
@@ -496,12 +470,10 @@ Subtopic: MSS
 Difficulty: Medium
 
 Question: What does MSS (Maximum Segment Size) specify?
-A: Maximum packet size
-B: Maximum TCP payload size
-C: Maximum window size
-D: Maximum frame size
-
-D) [Missing option - Please review]
+A) Maximum packet size
+B) Maximum TCP payload size
+C) Maximum window size
+D) Maximum frame size
 
 ✔ Correct Answer: B
 
@@ -518,12 +490,10 @@ Subtopic: MSS vs MTU
 Difficulty: Medium
 
 Question: How is MSS related to MTU?
-A: MSS = MTU
-B: MSS = MTU - IP header - TCP header
-C: MSS > MTU
-D: Unrelated
-
-D) [Missing option - Please review]
+A) MSS = MTU
+B) MSS = MTU - IP header - TCP header
+C) MSS > MTU
+D) Unrelated
 
 ✔ Correct Answer: B
 
@@ -540,12 +510,10 @@ Subtopic: Path MTU Discovery Issues
 Difficulty: Hard
 
 Question: What can cause PMTUD to fail?
-A: Slow links
-B: ICMP filtering by firewalls
-C: High bandwidth
-D: Low latency
-
-D) [Missing option - Please review]
+A) Slow links
+B) ICMP filtering by firewalls
+C) High bandwidth
+D) Low latency
 
 ✔ Correct Answer: B
 
@@ -562,12 +530,10 @@ Subtopic: TCP MSS Clamping
 Difficulty: Hard
 
 Question: What is TCP MSS clamping used for?
-A: Increase speed
-B: Adjust MSS to prevent fragmentation
-C: Encrypt TCP
-D: Compress segments
-
-D) [Missing option - Please review]
+A) Increase speed
+B) Adjust MSS to prevent fragmentation
+C) Encrypt TCP
+D) Compress segments
 
 ✔ Correct Answer: B
 
@@ -584,12 +550,10 @@ Subtopic: GRE Overhead
 Difficulty: Hard
 
 Question: How much overhead does GRE add to packets?
-A: 4 bytes
-B: 20 bytes
-C: 24 bytes (20 IP + 4 GRE)
-D: 40 bytes
-
-D) [Missing option - Please review]
+A) 4 bytes
+B) 20 bytes
+C) 24 bytes (20 IP + 4 GRE)
+D) 40 bytes
 
 ✔ Correct Answer: C
 
@@ -606,12 +570,10 @@ Subtopic: IPSec Overhead
 Difficulty: Hard
 
 Question: Approximately how much overhead does IPSec ESP in tunnel mode add?
-A: 10 bytes
-B: 30 bytes
-C: 50-60 bytes
-D: 100 bytes
-
-D) [Missing option - Please review]
+A) 10 bytes
+B) 30 bytes
+C) 50-60 bytes
+D) 100 bytes
 
 ✔ Correct Answer: C
 
@@ -628,12 +590,10 @@ Subtopic: TCP Offload
 Difficulty: Hard
 
 Question: What does TCP offload engine (TOE) do?
-A: Disable TCP
-B: Move TCP processing to network card
-C: Encrypt TCP
-D: Compress TCP
-
-D) [Missing option - Please review]
+A) Disable TCP
+B) Move TCP processing to network card
+C) Encrypt TCP
+D) Compress TCP
 
 ✔ Correct Answer: B
 
@@ -650,12 +610,10 @@ Subtopic: RSS
 Difficulty: Hard
 
 Question: What does RSS (Receive Side Scaling) do?
-A: Encrypt received packets
-B: Distribute packet processing across multiple CPU cores
-C: Compress received data
-D: Filter received packets
-
-D) [Missing option - Please review]
+A) Encrypt received packets
+B) Distribute packet processing across multiple CPU cores
+C) Compress received data
+D) Filter received packets
 
 ✔ Correct Answer: B
 
@@ -672,12 +630,10 @@ Subtopic: Interrupt Coalescing
 Difficulty: Hard
 
 Question: What is interrupt coalescing?
-A: Combining packets
-B: Batching interrupts to reduce CPU overhead
-C: Encrypting interrupts
-D: Blocking interrupts
-
-D) [Missing option - Please review]
+A) Combining packets
+B) Batching interrupts to reduce CPU overhead
+C) Encrypting interrupts
+D) Blocking interrupts
 
 ✔ Correct Answer: B
 
@@ -694,12 +650,10 @@ Subtopic: Jumbo Frames Benefits
 Difficulty: Medium
 
 Question: What is the main benefit of jumbo frames?
-A: Better security
-B: Reduced overhead and CPU usage
-C: Longer transmission distance
-D: Better encryption
-
-D) [Missing option - Please review]
+A) Better security
+B) Reduced overhead and CPU usage
+C) Longer transmission distance
+D) Better encryption
 
 ✔ Correct Answer: B
 
@@ -716,12 +670,10 @@ Subtopic: Jumbo Frames Requirement
 Difficulty: Medium
 
 Question: What is required for jumbo frames to work?
-A: Only sender support
-B: End-to-end support across all devices
-C: Only receiver support
-D: No special requirements
-
-D) [Missing option - Please review]
+A) Only sender support
+B) End-to-end support across all devices
+C) Only receiver support
+D) No special requirements
 
 ✔ Correct Answer: B
 
@@ -738,12 +690,10 @@ Subtopic: Baby Giant Frames
 Difficulty: Hard
 
 Question: What are baby giant frames?
-A: Small jumbo frames
-B: Frames slightly larger than 1500 bytes for VLAN tags
-C: Compressed frames
-D: Encrypted frames
-
-D) [Missing option - Please review]
+A) Small jumbo frames
+B) Frames slightly larger than 1500 bytes for VLAN tags
+C) Compressed frames
+D) Encrypted frames
 
 ✔ Correct Answer: B
 
@@ -760,12 +710,10 @@ Subtopic: Ethernet Frame Types
 Difficulty: Medium
 
 Question: Which Ethernet frame type is most commonly used today?
-A: Ethernet II (DIX)
-B: 802.3 with 802.2 LLC
-C: 802.3 Raw
-D: Token Ring
-
-D) [Missing option - Please review]
+A) Ethernet II (DIX)
+B) 802.3 with 802.2 LLC
+C) 802.3 Raw
+D) Token Ring
 
 ✔ Correct Answer: A
 
@@ -782,12 +730,10 @@ Subtopic: ARP Timeout
 Difficulty: Medium
 
 Question: Why do ARP cache entries have timeouts?
-A: Save memory
-B: Ensure entries stay current and detect changes
-C: Increase speed
-D: Improve security
-
-D) [Missing option - Please review]
+A) Save memory
+B) Ensure entries stay current and detect changes
+C) Increase speed
+D) Improve security
 
 ✔ Correct Answer: B
 
@@ -804,12 +750,10 @@ Subtopic: MAC Spoofing
 Difficulty: Medium
 
 Question: What is MAC address spoofing?
-A: Encrypting MAC addresses
-B: Changing device's MAC address to impersonate another
-C: Hiding MAC address
-D: Compressing MAC addresses
-
-D) [Missing option - Please review]
+A) Encrypting MAC addresses
+B) Changing device's MAC address to impersonate another
+C) Hiding MAC address
+D) Compressing MAC addresses
 
 ✔ Correct Answer: B
 
@@ -826,12 +770,10 @@ Subtopic: CAM Table Overflow
 Difficulty: Hard
 
 Question: What is a CAM table overflow attack?
-A: Overloading router
-B: Flooding switch with fake MAC addresses to fill CAM table
-C: DDoS attack
-D: DNS attack
-
-D) [Missing option - Please review]
+A) Overloading router
+B) Flooding switch with fake MAC addresses to fill CAM table
+C) DDoS attack
+D) DNS attack
 
 ✔ Correct Answer: B
 
@@ -848,12 +790,10 @@ Subtopic: Port Security Violation
 Difficulty: Medium
 
 Question: What happens in "shutdown" violation mode for port security?
-A: Warning only
-B: Port is disabled (err-disabled state)
-C: Traffic is dropped silently
-D: Nothing
-
-D) [Missing option - Please review]
+A) Warning only
+B) Port is disabled (err-disabled state)
+C) Traffic is dropped silently
+D) Nothing
 
 ✔ Correct Answer: B
 
@@ -870,12 +810,10 @@ Subtopic: Port Security Modes
 Difficulty: Hard
 
 Question: In "restrict" violation mode, what happens?
-A: Port shuts down
-B: Violation packets dropped, SNMP trap sent, counter incremented
-C: All traffic allowed
-D: Port speed reduced
-
-D) [Missing option - Please review]
+A) Port shuts down
+B) Violation packets dropped, SNMP trap sent, counter incremented
+C) All traffic allowed
+D) Port speed reduced
 
 ✔ Correct Answer: B
 
@@ -892,12 +830,10 @@ Subtopic: Sticky MAC
 Difficulty: Medium
 
 Question: What does sticky MAC learning do in port security?
-A: Makes MAC permanent
-B: Dynamically learns and saves MAC addresses to config
-C: Blocks all MACs
-D: Encrypts MACs
-
-D) [Missing option - Please review]
+A) Makes MAC permanent
+B) Dynamically learns and saves MAC addresses to config
+C) Blocks all MACs
+D) Encrypts MACs
 
 ✔ Correct Answer: B
 
@@ -914,12 +850,10 @@ Subtopic: DTP Modes
 Difficulty: Hard
 
 Question: Which DTP mode actively attempts to form a trunk?
-A: Access
-B: Dynamic desirable
-C: Dynamic auto
-D: Trunk
-
-D) [Missing option - Please review]
+A) Access
+B) Dynamic desirable
+C) Dynamic auto
+D) Trunk
 
 ✔ Correct Answer: B
 
@@ -936,12 +870,10 @@ Subtopic: VTP Modes
 Difficulty: Hard
 
 Question: Which VTP mode can create, modify, and delete VLANs?
-A: Client
-B: Server
-C: Transparent
-D: Off
-
-D) [Missing option - Please review]
+A) Client
+B) Server
+C) Transparent
+D) Off
 
 ✔ Correct Answer: B
 
@@ -958,12 +890,10 @@ Subtopic: VTP Pruning
 Difficulty: Hard
 
 Question: What does VTP pruning do?
-A: Deletes VLANs
-B: Restricts flooded traffic to trunk links with active VLANs
-C: Removes old entries
-D: Compresses VTP messages
-
-D) [Missing option - Please review]
+A) Deletes VLANs
+B) Restricts flooded traffic to trunk links with active VLANs
+C) Removes old entries
+D) Compresses VTP messages
 
 ✔ Correct Answer: B
 
@@ -980,12 +910,10 @@ Subtopic: VTP Version 3
 Difficulty: Hard
 
 Question: What feature does VTP version 3 add?
-A: Faster updates
-B: Extended VLAN support and authentication
-C: Encryption
-D: Compression
-
-D) [Missing option - Please review]
+A) Faster updates
+B) Extended VLAN support and authentication
+C) Encryption
+D) Compression
 
 ✔ Correct Answer: B
 
@@ -1002,12 +930,10 @@ Subtopic: Broadcast Storm
 Difficulty: Medium
 
 Question: What causes a broadcast storm?
-A: Too many users
-B: Layer 2 loops causing infinite broadcast propagation
-C: High bandwidth
-D: Encryption
-
-D) [Missing option - Please review]
+A) Too many users
+B) Layer 2 loops causing infinite broadcast propagation
+C) High bandwidth
+D) Encryption
 
 ✔ Correct Answer: B
 
@@ -1024,10 +950,10 @@ Subtopic: STP Convergence Time
 Difficulty: Medium
 
 Question: What is the typical convergence time for traditional STP (802.1D)?
-A: 1-2 seconds
-B: 5-10 seconds
-C: 30-50 seconds
-D: 2-3 minutes
+A) 1-2 seconds
+B) 5-10 seconds
+C) 30-50 seconds
+D) 2-3 minutes
 
 ✔ Correct Answer: C
 
@@ -1044,12 +970,10 @@ Subtopic: RSTP Port States
 Difficulty: Hard
 
 Question: How many port states does RSTP have?
-A: 3 (Discarding, Learning, Forwarding)
-B: 5
-C: 2
-D: 4
-
-D) [Missing option - Please review]
+A) 3 (Discarding, Learning, Forwarding)
+B) 5
+C) 2
+D) 4
 
 ✔ Correct Answer: A
 
@@ -1066,12 +990,10 @@ Subtopic: RSTP Port Roles
 Difficulty: Hard
 
 Question: Which port role is unique to RSTP (not in STP)?
-A: Root port
-B: Designated port
-C: Alternate port
-D: Disabled port
-
-D) [Missing option - Please review]
+A) Root port
+B) Designated port
+C) Alternate port
+D) Disabled port
 
 ✔ Correct Answer: C
 
@@ -1088,12 +1010,10 @@ Subtopic: RSTP Proposal/Agreement
 Difficulty: Hard
 
 Question: What does RSTP proposal/agreement mechanism provide?
-A: Encryption
-B: Rapid convergence without waiting timers
-C: Load balancing
-D: Compression
-
-D) [Missing option - Please review]
+A) Encryption
+B) Rapid convergence without waiting timers
+C) Load balancing
+D) Compression
 
 ✔ Correct Answer: B
 
@@ -1110,12 +1030,10 @@ Subtopic: MST Regions
 Difficulty: Hard
 
 Question: What must match for switches to be in the same MST region?
-A: Only region name
-B: Region name, revision number, and VLAN-to-instance mapping
-C: Only VLAN configuration
-D: Only priority
-
-D) [Missing option - Please review]
+A) Only region name
+B) Region name, revision number, and VLAN-to-instance mapping
+C) Only VLAN configuration
+D) Only priority
 
 ✔ Correct Answer: B
 
@@ -1132,12 +1050,10 @@ Subtopic: MST Instances
 Difficulty: Hard
 
 Question: How many MST instances can be configured?
-A: 16
-B: 64
-C: 4096
-D: 16 (0-15) plus IST
-
-D) [Missing option - Please review]
+A) 16
+B) 64
+C) 4096
+D) 16 (0-15) plus IST
 
 ✔ Correct Answer: D
 
@@ -1154,12 +1070,10 @@ Subtopic: EtherChannel Load Balancing
 Difficulty: Medium
 
 Question: Which method can EtherChannel use for load balancing?
-A: Round robin only
-B: Source/destination MAC, IP, or port hashing
-C: Random selection
-D: Bandwidth-based
-
-D) [Missing option - Please review]
+A) Round robin only
+B) Source/destination MAC, IP, or port hashing
+C) Random selection
+D) Bandwidth-based
 
 ✔ Correct Answer: B
 
@@ -1176,12 +1090,10 @@ Subtopic: EtherChannel Requirements
 Difficulty: Medium
 
 Question: What must match for ports to form an EtherChannel?
-A: Only speed
-B: Speed, duplex, VLAN, and other configurations
-C: Only VLAN
-D: Nothing
-
-D) [Missing option - Please review]
+A) Only speed
+B) Speed, duplex, VLAN, and other configurations
+C) Only VLAN
+D) Nothing
 
 ✔ Correct Answer: B
 
@@ -1198,12 +1110,10 @@ Subtopic: LACP Modes
 Difficulty: Hard
 
 Question: Which LACP mode actively initiates negotiation?
-A: On
-B: Active
-C: Passive
-D: Auto
-
-D) [Missing option - Please review]
+A) On
+B) Active
+C) Passive
+D) Auto
 
 ✔ Correct Answer: B
 
@@ -1220,12 +1130,10 @@ Subtopic: PAgP Modes
 Difficulty: Hard
 
 Question: Which PAgP mode actively initiates negotiation?
-A: On
-B: Desirable
-C: Auto
-D: Off
-
-D) [Missing option - Please review]
+A) On
+B) Desirable
+C) Auto
+D) Off
 
 ✔ Correct Answer: B
 
@@ -1242,12 +1150,10 @@ Subtopic: EtherChannel Guard
 Difficulty: Hard
 
 Question: What does EtherChannel guard prevent?
-A: Port failures
-B: Loops from EtherChannel misconfiguration
-C: Bandwidth issues
-D: Security breaches
-
-D) [Missing option - Please review]
+A) Port failures
+B) Loops from EtherChannel misconfiguration
+C) Bandwidth issues
+D) Security breaches
 
 ✔ Correct Answer: B
 
@@ -1264,12 +1170,10 @@ Subtopic: Uplink
 Difficulty: Easy
 
 Question: What is an uplink in network terminology?
-A: Wireless connection
-B: Connection from lower to higher layer in hierarchy
-C: Backup link
-D: Encrypted link
-
-D) [Missing option - Please review]
+A) Wireless connection
+B) Connection from lower to higher layer in hierarchy
+C) Backup link
+D) Encrypted link
 
 ✔ Correct Answer: B
 
@@ -1286,12 +1190,10 @@ Subtopic: Downlink
 Difficulty: Easy
 
 Question: What is a downlink?
-A: Failed link
-B: Connection from higher to lower layer in hierarchy
-C: Slow link
-D: Wireless link only
-
-D) [Missing option - Please review]
+A) Failed link
+B) Connection from higher to lower layer in hierarchy
+C) Slow link
+D) Wireless link only
 
 ✔ Correct Answer: B
 
@@ -1308,12 +1210,10 @@ Subtopic: UDLD
 Difficulty: Hard
 
 Question: What does UDLD (Unidirectional Link Detection) detect?
-A: Slow links
-B: Links where traffic flows only one direction
-C: Encrypted links
-D: Wireless links
-
-D) [Missing option - Please review]
+A) Slow links
+B) Links where traffic flows only one direction
+C) Encrypted links
+D) Wireless links
 
 ✔ Correct Answer: B
 
@@ -1330,12 +1230,10 @@ Subtopic: UDLD Modes
 Difficulty: Hard
 
 Question: What does UDLD aggressive mode do?
-A: Increases speed
-B: Disables port on any UDLD failure including neighbor loss
-C: Encrypts traffic
-D: Increases bandwidth
-
-D) [Missing option - Please review]
+A) Increases speed
+B) Disables port on any UDLD failure including neighbor loss
+C) Encrypts traffic
+D) Increases bandwidth
 
 ✔ Correct Answer: B
 
@@ -1352,12 +1250,10 @@ Subtopic: Micro-segmentation
 Difficulty: Hard
 
 Question: What is micro-segmentation in modern networks?
-A: Creating tiny subnets
-B: Isolating workloads with granular security policies
-C: Physical cable segmentation
-D: VLAN subdivision only
-
-D) [Missing option - Please review]
+A) Creating tiny subnets
+B) Isolating workloads with granular security policies
+C) Physical cable segmentation
+D) VLAN subdivision only
 
 ✔ Correct Answer: B
 
@@ -1374,12 +1270,10 @@ Subtopic: Zero Trust
 Difficulty: Medium
 
 Question: What is the core principle of zero trust networking?
-A: Trust all internal traffic
-B: Never trust, always verify
-C: Trust based on location
-D: Trust based on device type
-
-D) [Missing option - Please review]
+A) Trust all internal traffic
+B) Never trust, always verify
+C) Trust based on location
+D) Trust based on device type
 
 ✔ Correct Answer: B
 
@@ -1396,12 +1290,10 @@ Subtopic: LISP
 Difficulty: Hard
 
 Question: What does LISP (Locator/ID Separation Protocol) separate?
-A: VLANs
-B: Device identity from location
-C: Data and control planes
-D: IPv4 and IPv6
-
-D) [Missing option - Please review]
+A) VLANs
+B) Device identity from location
+C) Data and control planes
+D) IPv4 and IPv6
 
 ✔ Correct Answer: B
 
@@ -1418,12 +1310,10 @@ Subtopic: Fabric
 Difficulty: Hard
 
 Question: What is a network fabric?
-A: Physical cables
-B: Unified network architecture with consistent policies
-C: Wireless network
-D: Backup network
-
-D) [Missing option - Please review]
+A) Physical cables
+B) Unified network architecture with consistent policies
+C) Wireless network
+D) Backup network
 
 ✔ Correct Answer: B
 
@@ -1440,12 +1330,10 @@ Subtopic: Leaf-Spine Benefits
 Difficulty: Medium
 
 Question: What is a key benefit of leaf-spine architecture?
-A: Lower cost only
-B: Predictable latency and high bandwidth
-C: Simpler cabling only
-D: Less equipment
-
-D) [Missing option - Please review]
+A) Lower cost only
+B) Predictable latency and high bandwidth
+C) Simpler cabling only
+D) Less equipment
 
 ✔ Correct Answer: B
 
@@ -1462,12 +1350,10 @@ Subtopic: TRILL
 Difficulty: Hard
 
 Question: What does TRILL (Transparent Interconnection of Lots of Links) provide?
-A: Encryption
-B: Layer 2 multipathing using IS-IS
-C: Faster switching
-D: Compression
-
-D) [Missing option - Please review]
+A) Encryption
+B) Layer 2 multipathing using IS-IS
+C) Faster switching
+D) Compression
 
 ✔ Correct Answer: B
 
@@ -1484,12 +1370,10 @@ Subtopic: SPB
 Difficulty: Hard
 
 Question: What does SPB (Shortest Path Bridging) provide?
-A: Longest path routing
-B: Layer 2 multipathing alternative to STP
-C: Layer 3 routing only
-D: Encryption
-
-D) [Missing option - Please review]
+A) Longest path routing
+B) Layer 2 multipathing alternative to STP
+C) Layer 3 routing only
+D) Encryption
 
 ✔ Correct Answer: B
 
@@ -1506,12 +1390,10 @@ Subtopic: FabricPath
 Difficulty: Hard
 
 Question: What is Cisco FabricPath?
-A: Physical cable type
-B: Layer 2 multipathing technology
-C: Routing protocol
-D: Encryption method
-
-D) [Missing option - Please review]
+A) Physical cable type
+B) Layer 2 multipathing technology
+C) Routing protocol
+D) Encryption method
 
 ✔ Correct Answer: B
 
@@ -1528,12 +1410,10 @@ Subtopic: Clos Network
 Difficulty: Hard
 
 Question: What is a Clos network topology?
-A: Ring topology
-B: Multi-stage switching fabric with multiple paths
-C: Bus topology
-D: Single path topology
-
-D) [Missing option - Please review]
+A) Ring topology
+B) Multi-stage switching fabric with multiple paths
+C) Bus topology
+D) Single path topology
 
 ✔ Correct Answer: B
 
@@ -1550,12 +1430,10 @@ Subtopic: Fat Tree
 Difficulty: Hard
 
 Question: What characterizes a fat tree topology?
-A: Single root
-B: Increasing bandwidth toward root
-C: Decreasing bandwidth toward root
-D: Equal bandwidth everywhere
-
-D) [Missing option - Please review]
+A) Single root
+B) Increasing bandwidth toward root
+C) Decreasing bandwidth toward root
+D) Equal bandwidth everywhere
 
 ✔ Correct Answer: B
 
@@ -1572,12 +1450,10 @@ Subtopic: Elephant Flows
 Difficulty: Hard
 
 Question: What are elephant flows?
-A: Small, short-lived flows
-B: Large, long-lived flows consuming significant bandwidth
-C: Multicast flows
-D: Encrypted flows
-
-D) [Missing option - Please review]
+A) Small, short-lived flows
+B) Large, long-lived flows consuming significant bandwidth
+C) Multicast flows
+D) Encrypted flows
 
 ✔ Correct Answer: B
 
@@ -1594,12 +1470,10 @@ Subtopic: Mice Flows
 Difficulty: Hard
 
 Question: What characterizes mice flows?
-A: Large size
-B: Small, short-lived flows
-C: Long duration
-D: High bandwidth
-
-D) [Missing option - Please review]
+A) Large size
+B) Small, short-lived flows
+C) Long duration
+D) High bandwidth
 
 ✔ Correct Answer: B
 
@@ -1616,12 +1490,10 @@ Subtopic: ECMP Hashing
 Difficulty: Hard
 
 Question: Why does ECMP use hashing for path selection?
-A: Encryption
-B: Ensure packets of same flow take same path
-C: Random distribution
-D: Compression
-
-D) [Missing option - Please review]
+A) Encryption
+B) Ensure packets of same flow take same path
+C) Random distribution
+D) Compression
 
 ✔ Correct Answer: B
 
@@ -1638,12 +1510,10 @@ Subtopic: Flow-based vs Packet-based
 Difficulty: Hard
 
 Question: What is the advantage of flow-based load balancing over packet-based?
-A: Faster
-B: Prevents packet reordering within flows
-C: Better encryption
-D: Lower latency
-
-D) [Missing option - Please review]
+A) Faster
+B) Prevents packet reordering within flows
+C) Better encryption
+D) Lower latency
 
 ✔ Correct Answer: B
 
@@ -1660,12 +1530,10 @@ Subtopic: Anycast Gateway
 Difficulty: Hard
 
 Question: What is an anycast gateway in VXLAN?
-A: Single gateway
-B: Same gateway IP/MAC on multiple VTEPs
-C: Random gateway
-D: Backup gateway
-
-D) [Missing option - Please review]
+A) Single gateway
+B) Same gateway IP/MAC on multiple VTEPs
+C) Random gateway
+D) Backup gateway
 
 ✔ Correct Answer: B
 
@@ -1682,12 +1550,10 @@ Subtopic: Active-Active
 Difficulty: Medium
 
 Question: What is active-active configuration?
-A: One active, one standby
-B: Multiple devices actively forwarding traffic simultaneously
-C: All devices standby
-D: Sequential activation
-
-D) [Missing option - Please review]
+A) One active, one standby
+B) Multiple devices actively forwarding traffic simultaneously
+C) All devices standby
+D) Sequential activation
 
 ✔ Correct Answer: B
 
@@ -1704,12 +1570,10 @@ Subtopic: Active-Standby
 Difficulty: Easy
 
 Question: In active-standby configuration, when does standby device activate?
-A: Immediately
-B: When active device fails
-C: Never
-D: Randomly
-
-D) [Missing option - Please review]
+A) Immediately
+B) When active device fails
+C) Never
+D) Randomly
 
 ✔ Correct Answer: B
 
@@ -1726,12 +1590,10 @@ Subtopic: FHRP Comparison
 Difficulty: Medium
 
 Question: Which FHRP provides load balancing by default?
-A: HSRP
-B: VRRP
-C: GLBP
-D: None
-
-D) [Missing option - Please review]
+A) HSRP
+B) VRRP
+C) GLBP
+D) None
 
 ✔ Correct Answer: C
 
@@ -1749,12 +1611,10 @@ Subtip: VLAN Security Best Practices
 Difficulty: Medium
 
 Question: Which is a VLAN security best practice?
-A: Use VLAN 1 for all traffic
-B: Change native VLAN from default and disable unused ports
-C: Enable DTP on all ports
-D: Use same VLAN for all devices
-
-D) [Missing option - Please review]
+A) Use VLAN 1 for all traffic
+B) Change native VLAN from default and disable unused ports
+C) Enable DTP on all ports
+D) Use same VLAN for all devices
 
 ✔ Correct Answer: B
 
@@ -1771,12 +1631,10 @@ Subtopic: Management VLAN
 Difficulty: Medium
 
 Question: Why use a separate management VLAN?
-A: Faster management
-B: Isolate management traffic for security
-C: Reduce costs
-D: Increase bandwidth
-
-D) [Missing option - Please review]
+A) Faster management
+B) Isolate management traffic for security
+C) Reduce costs
+D) Increase bandwidth
 
 ✔ Correct Answer: B
 
@@ -1793,12 +1651,10 @@ Subtopic: Voice VLAN
 Difficulty: Medium
 
 Question: Why use a separate voice VLAN for IP phones?
-A: Phones require it
-B: QoS prioritization and security separation
-C: Cost reduction
-D: Faster calls
-
-D) [Missing option - Please review]
+A) Phones require it
+B) QoS prioritization and security separation
+C) Cost reduction
+D) Faster calls
 
 ✔ Correct Answer: B
 
@@ -1815,12 +1671,10 @@ Subtopic: LLDP-MED Voice VLAN
 Difficulty: Hard
 
 Question: How do IP phones discover voice VLAN?
-A: Manual configuration
-B: LLDP-MED or CDP from switch
-C: DHCP
-D: DNS
-
-D) [Missing option - Please review]
+A) Manual configuration
+B) LLDP-MED or CDP from switch
+C) DHCP
+D) DNS
 
 ✔ Correct Answer: B
 
@@ -1837,12 +1691,10 @@ Subtopic: Trust Boundary
 Difficulty: Medium
 
 Question: What is a trust boundary in QoS?
-A: Firewall location
-B: Point where QoS markings are trusted or remarked
-C: Network edge only
-D: Router location
-
-D) [Missing option - Please review]
+A) Firewall location
+B) Point where QoS markings are trusted or remarked
+C) Network edge only
+D) Router location
 
 ✔ Correct Answer: B
 
@@ -1859,12 +1711,10 @@ Subtopic: Marking vs Classification
 Difficulty: Medium
 
 Question: What is the difference between classification and marking?
-A: They are the same
-B: Classification identifies traffic, marking sets QoS bits
-C: Marking is faster
-D: Classification is more secure
-
-D) [Missing option - Please review]
+A) They are the same
+B) Classification identifies traffic, marking sets QoS bits
+C) Marking is faster
+D) Classification is more secure
 
 ✔ Correct Answer: B
 
@@ -1881,12 +1731,10 @@ Subtopic: NBAR
 Difficulty: Hard
 
 Question: What does NBAR (Network-Based Application Recognition) do?
-A: Encrypts applications
-B: Classifies traffic by deep packet inspection
-C: Blocks applications
-D: Compresses traffic
-
-D) [Missing option - Please review]
+A) Encrypts applications
+B) Classifies traffic by deep packet inspection
+C) Blocks applications
+D) Compresses traffic
 
 ✔ Correct Answer: B
 
@@ -1903,12 +1751,10 @@ Subtopic: Queuing Disciplines
 Difficulty: Medium
 
 Question: Which queuing method serves all queues equally?
-A: Priority queuing
-B: Round robin
-C: Weighted fair queuing
-D: FIFO
-
-D) [Missing option - Please review]
+A) Priority queuing
+B) Round robin
+C) Weighted fair queuing
+D) FIFO
 
 ✔ Correct Answer: B
 
@@ -1925,12 +1771,10 @@ Subtopic: Ethernet Pause
 Difficulty: Medium
 
 Question: What is a limitation of 802.3x PAUSE frames?
-A: Too slow
-B: Pauses all traffic, not per-priority
-C: Too complex
-D: Requires expensive hardware
-
-D) [Missing option - Please review]
+A) Too slow
+B) Pauses all traffic, not per-priority
+C) Too complex
+D) Requires expensive hardware
 
 ✔ Correct Answer: B
 
@@ -1947,12 +1791,10 @@ Subtopic: Cut-through Switching
 Difficulty: Medium
 
 Question: What is cut-through switching?
-A: Cutting cables
-B: Forwarding frame before fully received
-C: Blocking traffic
-D: Encrypting frames
-
-D) [Missing option - Please review]
+A) Cutting cables
+B) Forwarding frame before fully received
+C) Blocking traffic
+D) Encrypting frames
 
 ✔ Correct Answer: B
 
@@ -1969,12 +1811,10 @@ Subtopic: Store-and-Forward
 Difficulty: Easy
 
 Question: What does store-and-forward switching do?
-A: Forwards immediately
-B: Receives entire frame, checks errors, then forwards
-C: Stores frames permanently
-D: Forwards to all ports
-
-D) [Missing option - Please review]
+A) Forwards immediately
+B) Receives entire frame, checks errors, then forwards
+C) Stores frames permanently
+D) Forwards to all ports
 
 ✔ Correct Answer: B
 
@@ -1991,12 +1831,10 @@ Subtopic: Fragment-Free Switching
 Difficulty: Hard
 
 Question: What does fragment-free switching check?
-A: Entire frame
-B: First 64 bytes for collision fragments
-C: Only destination MAC
-D: Nothing
-
-D) [Missing option - Please review]
+A) Entire frame
+B) First 64 bytes for collision fragments
+C) Only destination MAC
+D) Nothing
 
 ✔ Correct Answer: B
 
@@ -2013,12 +1851,10 @@ Subtopic: Switching Latency
 Difficulty: Medium
 
 Question: Which switching method has the lowest latency?
-A: Store-and-forward
-B: Cut-through
-C: Fragment-free
-D: All equal
-
-D) [Missing option - Please review]
+A) Store-and-forward
+B) Cut-through
+C) Fragment-free
+D) All equal
 
 ✔ Correct Answer: B
 
@@ -2035,12 +1871,10 @@ Subtopic: MAC Address Table
 Difficulty: Easy
 
 Question: How does a switch learn MAC addresses?
-A: Manual configuration
-B: Examining source MAC of received frames
-C: DNS queries
-D: DHCP
-
-D) [Missing option - Please review]
+A) Manual configuration
+B) Examining source MAC of received frames
+C) DNS queries
+D) DHCP
 
 ✔ Correct Answer: B
 
@@ -2057,12 +1891,10 @@ Subtopic: MAC Address Aging
 Difficulty: Medium
 
 Question: What is the typical MAC address table aging time?
-A: 30 seconds
-B: 5 minutes (300 seconds)
-C: 1 hour
-D: 24 hours
-
-D) [Missing option - Please review]
+A) 30 seconds
+B) 5 minutes (300 seconds)
+C) 1 hour
+D) 24 hours
 
 ✔ Correct Answer: B
 
@@ -2079,12 +1911,10 @@ Subtopic: Unknown Unicast Flooding
 Difficulty: Medium
 
 Question: What does a switch do with a frame destined to an unknown MAC address?
-A: Drops it
-B: Floods it out all ports except ingress port
-C: Sends to router
-D: Buffers it
-
-D) [Missing option - Please review]
+A) Drops it
+B) Floods it out all ports except ingress port
+C) Sends to router
+D) Buffers it
 
 ✔ Correct Answer: B
 
@@ -2101,12 +1931,10 @@ Subtopic: Unknown Unicast Flood Blocking
 Difficulty: Hard
 
 Question: Why would you block unknown unicast flooding?
-A: Increase speed
-B: Prevent CAM table overflow attacks
-C: Reduce costs
-D: Improve encryption
-
-D) [Missing option - Please review]
+A) Increase speed
+B) Prevent CAM table overflow attacks
+C) Reduce costs
+D) Improve encryption
 
 ✔ Correct Answer: B
 
@@ -2123,12 +1951,10 @@ Subtopic: Multicast MAC Address
 Difficulty: Hard
 
 Question: How is a multicast MAC address identified?
-A: First byte is FF
-B: Least significant bit of first byte is 1
-C: Last byte is FF
-D: All bytes are same
-
-D) [Missing option - Please review]
+A) First byte is FF
+B) Least significant bit of first byte is 1
+C) Last byte is FF
+D) All bytes are same
 
 ✔ Correct Answer: B
 
@@ -2145,12 +1971,10 @@ Subtopic: IGMP Snooping
 Difficulty: Hard
 
 Question: What does IGMP snooping do?
-A: Spies on users
-B: Forwards multicast only to ports with interested receivers
-C: Blocks all multicast
-D: Encrypts multicast
-
-D) [Missing option - Please review]
+A) Spies on users
+B) Forwards multicast only to ports with interested receivers
+C) Blocks all multicast
+D) Encrypts multicast
 
 ✔ Correct Answer: B
 
@@ -2167,12 +1991,10 @@ Subtopic: MLD
 Difficulty: Hard
 
 Question: What is MLD in IPv6?
-A: Multicast routing protocol
-B: IPv6 equivalent of IGMP for multicast group management
-C: Encryption protocol
-D: Load balancing protocol
-
-D) [Missing option - Please review]
+A) Multicast routing protocol
+B) IPv6 equivalent of IGMP for multicast group management
+C) Encryption protocol
+D) Load balancing protocol
 
 ✔ Correct Answer: B
 

@@ -822,9 +822,7 @@ Difficulty: Hard
 
 Question: What does Content-Security-Policy header do?
 A) Compress content
-B: Prevent XSS and injection attacks
-B) [Missing option - Please review]
-
+B) Prevent XSS and injection attacks
 C) Cache content
 D) No function
 
@@ -895,12 +893,10 @@ Subtopic: Eradication
 Difficulty: Easy
 
 Question: What happens during eradication phase?
-A: Monitoring only
-B: Removing threat from environment
-C: Documentation only
-D: No action
-
-D) [Missing option - Please review]
+A) Monitoring only
+B) Removing threat from environment
+C) Documentation only
+D) No action
 
 ✔ Correct Answer: B
 Reason: Eradication eliminates malware, closes vulnerabilities, and removes attacker access.
@@ -915,12 +911,10 @@ Subtopic: Bluetooth Security
 Difficulty: Medium
 
 Question: What is bluejacking?
-A: Bluetooth hacking for data theft
-B: Sending unsolicited messages via Bluetooth
-C: Bluetooth encryption
-D: Bluetooth pairing
-
-D) [Missing option - Please review]
+A) Bluetooth hacking for data theft
+B) Sending unsolicited messages via Bluetooth
+C) Bluetooth encryption
+D) Bluetooth pairing
 
 ✔ Correct Answer: B
 Reason: Bluejacking sends anonymous messages to nearby Bluetooth devices.
@@ -935,12 +929,10 @@ Subtopic: Container Security
 Difficulty: Hard
 
 Question: What is container escape?
-A: Container backup
-B: Breaking out of container to access host
-C: Container migration
-D: Container shutdown
-
-D) [Missing option - Please review]
+A) Container backup
+B) Breaking out of container to access host
+C) Container migration
+D) Container shutdown
 
 ✔ Correct Answer: B
 Reason: Container escape exploits vulnerabilities to access underlying host system.
@@ -955,12 +947,10 @@ Subtopic: Vulnerability Scanning
 Difficulty: Easy
 
 Question: What is vulnerability scanning?
-A: Creating vulnerabilities
-B: Automated identification of security weaknesses
-C: Exploiting vulnerabilities
-D: Ignoring vulnerabilities
-
-D) [Missing option - Please review]
+A) Creating vulnerabilities
+B) Automated identification of security weaknesses
+C) Exploiting vulnerabilities
+D) Ignoring vulnerabilities
 
 ✔ Correct Answer: B
 Reason: Vulnerability scanners automatically detect known security flaws.
@@ -975,12 +965,10 @@ Subtopic: Ethical Hacking
 Difficulty: Easy
 
 Question: What is ethical hacking?
-A: Illegal hacking
-B: Authorized security testing
-C: Malicious hacking
-D: No hacking
-
-D) [Missing option - Please review]
+A) Illegal hacking
+B) Authorized security testing
+C) Malicious hacking
+D) No hacking
 
 ✔ Correct Answer: B
 Reason: Ethical hackers test systems with permission to find vulnerabilities.
@@ -995,12 +983,10 @@ Subtopic: Blockchain Security
 Difficulty: Hard
 
 Question: How does blockchain enhance security?
-A: No security
-B: Immutable distributed ledger
-C: Centralized control
-D: Easy modification
-
-D) [Missing option - Please review]
+A) No security
+B) Immutable distributed ledger
+C) Centralized control
+D) Easy modification
 
 ✔ Correct Answer: B
 Reason: Blockchain's distributed, tamper-resistant nature enhances data integrity.
@@ -1015,12 +1001,10 @@ Subtopic: Security Threats
 Difficulty: Easy
 
 Question: What is a threat actor?
-A: Security tool
-B: Entity that poses security threat
-C: Firewall
-D: Antivirus
-
-D) [Missing option - Please review]
+A) Security tool
+B) Entity that poses security threat
+C) Firewall
+D) Antivirus
 
 ✔ Correct Answer: B
 Reason: Threat actor is individual or group that carries out attacks.
@@ -1035,12 +1019,10 @@ Subtopic: AES
 Difficulty: Medium
 
 Question: What is AES?
-A: Advanced Encryption Standard
-B: Automatic Encryption System
-C: Applied Encryption Security
-D: Advanced Electronic Security
-
-D) [Missing option - Please review]
+A) Advanced Encryption Standard
+B) Automatic Encryption System
+C) Applied Encryption Security
+D) Advanced Electronic Security
 
 ✔ Correct Answer: A
 Reason: AES is widely-used symmetric encryption algorithm.
@@ -1055,12 +1037,10 @@ Subtopic: NAT
 Difficulty: Medium
 
 Question: What security benefit does NAT provide?
-A: No benefit
-B: Hides internal IP addresses
-C: Increases speed
-D: Encrypts data
-
-D) [Missing option - Please review]
+A) No benefit
+B) Hides internal IP addresses
+C) Increases speed
+D) Encrypts data
 
 ✔ Correct Answer: B
 Reason: NAT obscures internal network structure from external networks.
@@ -1075,12 +1055,10 @@ Subtopic: Session Management
 Difficulty: Medium
 
 Question: What is session hijacking?
-A: Creating sessions
-B: Stealing user session to impersonate
-C: Ending sessions
-D: Session encryption
-
-D) [Missing option - Please review]
+A) Creating sessions
+B) Stealing user session to impersonate
+C) Ending sessions
+D) Session encryption
 
 ✔ Correct Answer: B
 Reason: Session hijacking captures session tokens to gain unauthorized access.
@@ -1095,12 +1073,10 @@ Subtopic: Rootkit
 Difficulty: Hard
 
 Question: What is a rootkit?
-A: Root password
-B: Malware hiding its presence
-C: Admin tool
-D: Backup system
-
-D) [Missing option - Please review]
+A) Root password
+B) Malware hiding its presence
+C) Admin tool
+D) Backup system
 
 ✔ Correct Answer: B
 Reason: Rootkit conceals malware by modifying OS to avoid detection.
@@ -1115,12 +1091,10 @@ Subtopic: Single Sign-On
 Difficulty: Medium
 
 Question: What is SSO?
-A: Single Security Option
-B: Single Sign-On for multiple applications
-C: Super Secure Operation
-D: System Security Only
-
-D) [Missing option - Please review]
+A) Single Security Option
+B) Single Sign-On for multiple applications
+C) Super Secure Operation
+D) System Security Only
 
 ✔ Correct Answer: B
 Reason: SSO allows one authentication for access to multiple systems.
@@ -1135,12 +1109,10 @@ Subtopic: Security by Obscurity
 Difficulty: Medium
 
 Question: Why is security by obscurity discouraged?
-A: Very effective
-B: Relies on secrecy, not strong design
-C: Best practice
-D: Always works
-
-D) [Missing option - Please review]
+A) Very effective
+B) Relies on secrecy, not strong design
+C) Best practice
+D) Always works
 
 ✔ Correct Answer: B
 Reason: Security by obscurity fails when secret is discovered; use proven methods.
@@ -1155,12 +1127,10 @@ Subtopic: SELinux
 Difficulty: Hard
 
 Question: What is SELinux?
-A: Linux distribution
-B: Security-Enhanced Linux with mandatory access control
-C: Linux firewall
-D: Linux antivirus
-
-D) [Missing option - Please review]
+A) Linux distribution
+B) Security-Enhanced Linux with mandatory access control
+C) Linux firewall
+D) Linux antivirus
 
 ✔ Correct Answer: B
 Reason: SELinux implements MAC (Mandatory Access Control) in Linux kernel.
@@ -1175,12 +1145,10 @@ Subtopic: PKI
 Difficulty: Medium
 
 Question: What is PKI?
-A: Private Key Infrastructure
-B: Public Key Infrastructure
-C: Protected Key Internet
-D: Public Kernel Interface
-
-D) [Missing option - Please review]
+A) Private Key Infrastructure
+B) Public Key Infrastructure
+C) Protected Key Internet
+D) Public Kernel Interface
 
 ✔ Correct Answer: B
 Reason: PKI manages digital certificates and public-key encryption.
@@ -1195,12 +1163,10 @@ Subtopic: Honeypot
 Difficulty: Medium
 
 Question: What is a honeypot?
-A: Sweet storage
-B: Decoy system to attract attackers
-C: Backup server
-D: Load balancer
-
-D) [Missing option - Please review]
+A) Sweet storage
+B) Decoy system to attract attackers
+C) Backup server
+D) Load balancer
 
 ✔ Correct Answer: B
 Reason: Honeypot lures attackers to study tactics and protect real systems.
@@ -1215,12 +1181,10 @@ Subtopic: OWASP Top 10
 Difficulty: Easy
 
 Question: What is OWASP?
-A: Operating Web Application Security Protocol
-B: Open Web Application Security Project
-C: Online Web Access Security Platform
-D: Organized Web Application System
-
-D) [Missing option - Please review]
+A) Operating Web Application Security Protocol
+B) Open Web Application Security Project
+C) Online Web Access Security Platform
+D) Organized Web Application System
 
 ✔ Correct Answer: B
 Reason: OWASP is nonprofit focused on improving software security.
@@ -1235,12 +1199,10 @@ Subtopic: Social Engineering
 Difficulty: Easy
 
 Question: What is social engineering?
-A: Network attack
-B: Manipulating people to divulge information
-C: Software vulnerability
-D: Encryption method
-
-D) [Missing option - Please review]
+A) Network attack
+B) Manipulating people to divulge information
+C) Software vulnerability
+D) Encryption method
 
 ✔ Correct Answer: B
 Reason: Social engineering exploits human psychology rather than technical vulnerabilities.
@@ -1255,12 +1217,10 @@ Subtopic: OWASP SAMM
 Difficulty: Hard
 
 Question: What is OWASP SAMM?
-A: Security tool
-B: Software Assurance Maturity Model
-C: Malware scanner
-D: Network protocol
-
-D) [Missing option - Please review]
+A) Security tool
+B) Software Assurance Maturity Model
+C) Malware scanner
+D) Network protocol
 
 ✔ Correct Answer: B
 Reason: SAMM helps organizations assess and improve software security practices.
@@ -1275,12 +1235,10 @@ Subtopic: Network Forensics
 Difficulty: Medium
 
 Question: What is network forensics?
-A: Network design
-B: Capturing and analyzing network traffic
-C: Network speed testing
-D: Network installation
-
-D) [Missing option - Please review]
+A) Network design
+B) Capturing and analyzing network traffic
+C) Network speed testing
+D) Network installation
 
 ✔ Correct Answer: B
 Reason: Network forensics monitors and analyzes network data for investigations.
@@ -1295,12 +1253,10 @@ Subtopic: Recovery
 Difficulty: Easy
 
 Question: What happens during recovery phase?
-A: Deleting systems
-B: Restoring systems to normal operation
-C: Ignoring incident
-D: No action
-
-D) [Missing option - Please review]
+A) Deleting systems
+B) Restoring systems to normal operation
+C) Ignoring incident
+D) No action
 
 ✔ Correct Answer: B
 Reason: Recovery restores affected systems and services to operational state.
@@ -1315,12 +1271,10 @@ Subtopic: BYOD
 Difficulty: Medium
 
 Question: What security challenge does BYOD present?
-A: No challenges
-B: Managing personal devices accessing corporate data
-C: Faster networks
-D: Better security
-
-D) [Missing option - Please review]
+A) No challenges
+B) Managing personal devices accessing corporate data
+C) Faster networks
+D) Better security
 
 ✔ Correct Answer: B
 Reason: BYOD (Bring Your Own Device) creates security and policy enforcement challenges.
@@ -1335,12 +1289,10 @@ Subtopic: Multi-tenancy
 Difficulty: Medium
 
 Question: What is multi-tenancy risk in cloud?
-A: No risk
-B: Data isolation between customers
-C: Faster performance
-D: Lower cost
-
-D) [Missing option - Please review]
+A) No risk
+B) Data isolation between customers
+C) Faster performance
+D) Lower cost
 
 ✔ Correct Answer: B
 Reason: Multi-tenancy requires strong isolation to prevent data leakage between tenants.
@@ -1355,12 +1307,10 @@ Subtopic: Penetration Testing
 Difficulty: Medium
 
 Question: What is penetration testing?
-A: Network installation
-B: Simulated attack to find vulnerabilities
-C: Software development
-D: Data backup
-
-D) [Missing option - Please review]
+A) Network installation
+B) Simulated attack to find vulnerabilities
+C) Software development
+D) Data backup
 
 ✔ Correct Answer: B
 Reason: Pen testing ethically exploits systems to identify security weaknesses.
@@ -1375,12 +1325,10 @@ Subtopic: Data Breach Notification
 Difficulty: Easy
 
 Question: Why are data breach notifications required?
-A: No reason
-B: Inform affected individuals of compromise
-C: Hide breaches
-D: Slow response
-
-D) [Missing option - Please review]
+A) No reason
+B) Inform affected individuals of compromise
+C) Hide breaches
+D) Slow response
 
 ✔ Correct Answer: B
 Reason: Breach notification laws require timely disclosure to affected parties.
@@ -1395,12 +1343,10 @@ Subtopic: Quantum Cryptography
 Difficulty: Hard
 
 Question: What threat does quantum computing pose to cryptography?
-A: No threat
-B: Breaking current encryption algorithms
-C: Stronger encryption
-D: Faster encryption
-
-D) [Missing option - Please review]
+A) No threat
+B) Breaking current encryption algorithms
+C) Stronger encryption
+D) Faster encryption
 
 ✔ Correct Answer: B
 Reason: Quantum computers could break RSA and other current encryption methods.
@@ -1415,12 +1361,10 @@ Subtopic: Attack Surface
 Difficulty: Easy
 
 Question: What is attack surface?
-A: Physical area
-B: Sum of vulnerabilities accessible to attackers
-C: Network speed
-D: Storage capacity
-
-D) [Missing option - Please review]
+A) Physical area
+B) Sum of vulnerabilities accessible to attackers
+C) Network speed
+D) Storage capacity
 
 ✔ Correct Answer: B
 Reason: Attack surface includes all points where unauthorized user can enter or extract data.
@@ -1435,12 +1379,10 @@ Subtopic: Salt
 Difficulty: Medium
 
 Question: What is salt in password hashing?
-A: Seasoning
-B: Random data added before hashing
-C: Encryption key
-D: Hash algorithm
-
-D) [Missing option - Please review]
+A) Seasoning
+B) Random data added before hashing
+C) Encryption key
+D) Hash algorithm
 
 ✔ Correct Answer: B
 Reason: Salt adds randomness to prevent rainbow table attacks on hashed passwords.
@@ -1455,12 +1397,10 @@ Subtopic: MAC Filtering
 Difficulty: Easy
 
 Question: What is MAC address filtering?
-A: Computer brand filtering
-B: Allowing/blocking devices by hardware address
-C: IP filtering
-D: Port filtering
-
-D) [Missing option - Please review]
+A) Computer brand filtering
+B) Allowing/blocking devices by hardware address
+C) IP filtering
+D) Port filtering
 
 ✔ Correct Answer: B
 Reason: MAC filtering controls network access based on device MAC addresses.
@@ -1475,12 +1415,10 @@ Subtopic: API Security
 Difficulty: Medium
 
 Question: What is API rate limiting?
-A: Slowing APIs
-B: Restricting number of requests per time period
-C: Stopping APIs
-D: No limits
-
-D) [Missing option - Please review]
+A) Slowing APIs
+B) Restricting number of requests per time period
+C) Stopping APIs
+D) No limits
 
 ✔ Correct Answer: B
 Reason: Rate limiting prevents abuse and DoS attacks on APIs.
@@ -1495,12 +1433,10 @@ Subtopic: Zero-Day Exploit
 Difficulty: Hard
 
 Question: What is a zero-day exploit?
-A: Old vulnerability
-B: Attack on unknown vulnerability
-C: Patched vulnerability
-D: No vulnerability
-
-D) [Missing option - Please review]
+A) Old vulnerability
+B) Attack on unknown vulnerability
+C) Patched vulnerability
+D) No vulnerability
 
 ✔ Correct Answer: B
 Reason: Zero-day exploits target vulnerabilities before vendor awareness or patches.
@@ -1515,12 +1451,10 @@ Subtopic: OAuth
 Difficulty: Medium
 
 Question: What is OAuth?
-A: Password protocol
-B: Open standard for access delegation
-C: Encryption method
-D: Firewall rule
-
-D) [Missing option - Please review]
+A) Password protocol
+B) Open standard for access delegation
+C) Encryption method
+D) Firewall rule
 
 ✔ Correct Answer: B
 Reason: OAuth allows third-party access without sharing credentials.
@@ -1535,12 +1469,10 @@ Subtopic: Separation of Duties
 Difficulty: Medium
 
 Question: What is separation of duties?
-A: Single person control
-B: Dividing tasks among multiple people
-C: No division
-D: Random assignment
-
-D) [Missing option - Please review]
+A) Single person control
+B) Dividing tasks among multiple people
+C) No division
+D) Random assignment
 
 ✔ Correct Answer: B
 Reason: Separation of duties prevents fraud by requiring multiple parties for critical tasks.
@@ -1555,12 +1487,10 @@ Subtopic: Secure Boot
 Difficulty: Medium
 
 Question: What is secure boot?
-A: Fast boot
-B: Verifying boot components before loading
-C: No verification
-D: Random boot
-
-D) [Missing option - Please review]
+A) Fast boot
+B) Verifying boot components before loading
+C) No verification
+D) Random boot
 
 ✔ Correct Answer: B
 Reason: Secure boot ensures only trusted software loads during startup.
@@ -1575,12 +1505,10 @@ Subtopic: Certificate Authority
 Difficulty: Easy
 
 Question: What is a Certificate Authority (CA)?
-A: Government agency
-B: Trusted entity issuing digital certificates
-C: Antivirus company
-D: ISP
-
-D) [Missing option - Please review]
+A) Government agency
+B) Trusted entity issuing digital certificates
+C) Antivirus company
+D) ISP
 
 ✔ Correct Answer: B
 Reason: CA verifies identity and issues digital certificates for secure communication.
@@ -1595,12 +1523,10 @@ Subtopic: VLAN
 Difficulty: Medium
 
 Question: How do VLANs improve security?
-A: No improvement
-B: Segment network to isolate traffic
-C: Increase speed
-D: Reduce cost
-
-D) [Missing option - Please review]
+A) No improvement
+B) Segment network to isolate traffic
+C) Increase speed
+D) Reduce cost
 
 ✔ Correct Answer: B
 Reason: VLANs create logical network segments to contain broadcast and limit access.
@@ -1615,12 +1541,10 @@ Subtopic: Input Sanitization
 Difficulty: Easy
 
 Question: What is input sanitization?
-A: Accepting all input
-B: Cleaning user input to prevent attacks
-C: Ignoring input
-D: No validation
-
-D) [Missing option - Please review]
+A) Accepting all input
+B) Cleaning user input to prevent attacks
+C) Ignoring input
+D) No validation
 
 ✔ Correct Answer: B
 Reason: Sanitization removes or escapes dangerous characters from user input.
@@ -1635,12 +1559,10 @@ Subtopic: Spyware
 Difficulty: Easy
 
 Question: What is spyware?
-A: Antivirus
-B: Software secretly monitoring user activity
-C: Firewall
-D: Encryption tool
-
-D) [Missing option - Please review]
+A) Antivirus
+B) Software secretly monitoring user activity
+C) Firewall
+D) Encryption tool
 
 ✔ Correct Answer: B
 Reason: Spyware collects information without user knowledge or consent.
@@ -1655,12 +1577,10 @@ Subtopic: Threat Modeling
 Difficulty: Medium
 
 Question: What is threat modeling?
-A: Random analysis
-B: Identifying and prioritizing potential threats
-C: No analysis
-D: Performance testing
-
-D) [Missing option - Please review]
+A) Random analysis
+B) Identifying and prioritizing potential threats
+C) No analysis
+D) Performance testing
 
 ✔ Correct Answer: B
 Reason: Threat modeling systematically identifies security threats during design.
@@ -1675,12 +1595,10 @@ Subtopic: Memory Forensics
 Difficulty: Hard
 
 Question: What is memory forensics?
-A: Disk analysis
-B: Analyzing RAM for evidence
-C: Network analysis
-D: File analysis
-
-D) [Missing option - Please review]
+A) Disk analysis
+B) Analyzing RAM for evidence
+C) Network analysis
+D) File analysis
 
 ✔ Correct Answer: B
 Reason: Memory forensics examines volatile memory for malware, passwords, and artifacts.
@@ -1695,12 +1613,10 @@ Subtopic: Lessons Learned
 Difficulty: Easy
 
 Question: What is the purpose of lessons learned phase?
-A: Blame individuals
-B: Improve future incident response
-C: Ignore incident
-D: No purpose
-
-D) [Missing option - Please review]
+A) Blame individuals
+B) Improve future incident response
+C) Ignore incident
+D) No purpose
 
 ✔ Correct Answer: B
 Reason: Lessons learned reviews incident to improve processes and prevent recurrence.
@@ -1715,12 +1631,10 @@ Subtopic: Evil Twin Attack
 Difficulty: Medium
 
 Question: What is an evil twin attack?
-A: Legitimate access point
-B: Rogue access point mimicking legitimate one
-C: Firewall
-D: Encryption method
-
-D) [Missing option - Please review]
+A) Legitimate access point
+B) Rogue access point mimicking legitimate one
+C) Firewall
+D) Encryption method
 
 ✔ Correct Answer: B
 Reason: Evil twin is fake WiFi hotspot impersonating legitimate network.
@@ -1735,12 +1649,10 @@ Subtopic: Data Encryption in Cloud
 Difficulty: Easy
 
 Question: Why encrypt data in cloud?
-A: Slow access
-B: Protect confidentiality
-C: Increase cost
-D: No reason
-
-D) [Missing option - Please review]
+A) Slow access
+B) Protect confidentiality
+C) Increase cost
+D) No reason
 
 ✔ Correct Answer: B
 Reason: Encryption protects data from unauthorized access in cloud environments.
@@ -1755,12 +1667,10 @@ Subtopic: Security Baseline
 Difficulty: Medium
 
 Question: What is a security baseline?
-A: Random configuration
-B: Minimum security standards
-C: Maximum security
-D: No standards
-
-D) [Missing option - Please review]
+A) Random configuration
+B) Minimum security standards
+C) Maximum security
+D) No standards
 
 ✔ Correct Answer: B
 Reason: Security baseline defines minimum acceptable security configuration.
@@ -1775,12 +1685,10 @@ Subtopic: Intellectual Property
 Difficulty: Easy
 
 Question: What is software piracy?
-A: Legal copying
-B: Unauthorized copying or distribution
-C: Purchasing software
-D: Open source
-
-D) [Missing option - Please review]
+A) Legal copying
+B) Unauthorized copying or distribution
+C) Purchasing software
+D) Open source
 
 ✔ Correct Answer: B
 Reason: Software piracy violates copyright by illegal copying or distribution.
@@ -1795,12 +1703,10 @@ Subtopic: IoT Security
 Difficulty: Medium
 
 Question: What is a major IoT security challenge?
-A: Too secure
-B: Many devices with weak security
-C: No devices
-D: Perfect security
-
-D) [Missing option - Please review]
+A) Too secure
+B) Many devices with weak security
+C) No devices
+D) Perfect security
 
 ✔ Correct Answer: B
 Reason: IoT devices often lack security features and create large attack surface.
@@ -1815,12 +1721,10 @@ Subtopic: Security Posture
 Difficulty: Easy
 
 Question: What is security posture?
-A: Physical stance
-B: Overall security status of organization
-C: Network speed
-D: Storage capacity
-
-D) [Missing option - Please review]
+A) Physical stance
+B) Overall security status of organization
+C) Network speed
+D) Storage capacity
 
 ✔ Correct Answer: B
 Reason: Security posture reflects organization's cybersecurity strength and readiness.
@@ -1835,12 +1739,10 @@ Subtopic: Key Management
 Difficulty: Medium
 
 Question: Why is key management important?
-A: No importance
-B: Secure generation, storage, and distribution of keys
-C: Slow encryption
-D: Increase cost
-
-D) [Missing option - Please review]
+A) No importance
+B) Secure generation, storage, and distribution of keys
+C) Slow encryption
+D) Increase cost
 
 ✔ Correct Answer: B
 Reason: Poor key management undermines encryption effectiveness.
@@ -1855,12 +1757,10 @@ Subtopic: Network Segmentation
 Difficulty: Medium
 
 Question: What is network segmentation?
-A: Combining networks
-B: Dividing network into isolated segments
-C: No division
-D: Single network
-
-D) [Missing option - Please review]
+A) Combining networks
+B) Dividing network into isolated segments
+C) No division
+D) Single network
 
 ✔ Correct Answer: B
 Reason: Segmentation limits lateral movement and contains breaches.
@@ -1875,12 +1775,10 @@ Subtopic: Security Misconfiguration
 Difficulty: Easy
 
 Question: What is security misconfiguration?
-A: Perfect configuration
-B: Insecure default or incomplete settings
-C: No configuration
-D: Optimal settings
-
-D) [Missing option - Please review]
+A) Perfect configuration
+B) Insecure default or incomplete settings
+C) No configuration
+D) Optimal settings
 
 ✔ Correct Answer: B
 Reason: Misconfiguration leaves systems vulnerable through improper settings.
@@ -1895,12 +1793,10 @@ Subtopic: APT
 Difficulty: Hard
 
 Question: What is an Advanced Persistent Threat (APT)?
-A: Simple attack
-B: Prolonged targeted attack by sophisticated actors
-C: One-time attack
-D: Automated attack
-
-D) [Missing option - Please review]
+A) Simple attack
+B) Prolonged targeted attack by sophisticated actors
+C) One-time attack
+D) Automated attack
 
 ✔ Correct Answer: B
 Reason: APT is stealthy, continuous attack campaign by skilled adversaries.

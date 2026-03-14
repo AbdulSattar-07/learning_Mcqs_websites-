@@ -1005,9 +1005,7 @@ Difficulty: Medium
 
 Question: What does the law of large numbers state?
 
-A: Small samples are accurate
-A) [Missing option - Please review]
-
+A) Small samples are accurate
 B) Sample average converges to expected value as sample size increases
 C) Random convergence
 D) No law
@@ -1871,9 +1869,7 @@ Question: When is external sorting needed?
 A) Small data
 B) Data too large to fit in memory
 C) Data fits in memory
-D: Never needed
-
-D) [Missing option - Please review]
+D) Never needed
 
 ✔ Correct Answer: B
 
@@ -1996,9 +1992,7 @@ Difficulty: Medium
 
 Question: What are oblique strategies?
 
-A: Direct solutions
-A) [Missing option - Please review]
-
+A) Direct solutions
 B) Prompts to overcome creative blocks
 C) Linear thinking
 D) No strategies

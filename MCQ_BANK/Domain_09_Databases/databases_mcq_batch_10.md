@@ -78,9 +78,7 @@ Question: What are database statistics used for?
 A) Backup
 B) Query optimization and cost estimation
 C) User management
-D: Security
-
-D) [Missing option - Please review]
+D) Security
 
 ✔ Correct Answer: B
 
@@ -99,9 +97,7 @@ Difficulty: Easy
 Question: What is SQL injection?
 
 A) Normal query
-B: Malicious SQL code inserted through user input
-B) [Missing option - Please review]
-
+B) Malicious SQL code inserted through user input
 C) Database backup
 D) Index creation
 
@@ -145,9 +141,7 @@ Question: What does CAP theorem state?
 A) All three guaranteed
 B) Distributed system can provide only two of: Consistency, Availability, Partition tolerance
 C) None guaranteed
-D: One guaranteed
-
-D) [Missing option - Please review]
+D) One guaranteed
 
 ✔ Correct Answer: B
 
@@ -209,9 +203,7 @@ Question: Which is an example of a document database?
 
 A) MySQL
 B) MongoDB
-C: PostgreSQL
-C) [Missing option - Please review]
-
+C) PostgreSQL
 D) Oracle
 
 ✔ Correct Answer: B
@@ -252,9 +244,7 @@ Difficulty: Medium
 Question: How does snowflake schema differ from star schema?
 
 A) No difference
-B: Dimension tables are normalized into multiple related tables
-B) [Missing option - Please review]
-
+B) Dimension tables are normalized into multiple related tables
 C) Simpler structure
 D) No dimensions
 
@@ -349,9 +339,7 @@ Question: What is the advantage of using CTEs?
 
 A) No advantage
 B) Improved readability and ability to reference result multiple times
-C: Slower performance
-C) [Missing option - Please review]
-
+C) Slower performance
 D) More complexity
 
 ✔ Correct Answer: B
@@ -393,9 +381,7 @@ Question: What is Domain-Key Normal Form (DKNF)?
 
 A) Basic form
 B) Ultimate normal form where all constraints are logical consequences of domains and keys
-C: First normal form
-C) [Missing option - Please review]
-
+C) First normal form
 D) No form
 
 ✔ Correct Answer: B
@@ -457,9 +443,7 @@ Difficulty: Hard
 Question: What is optimistic concurrency control?
 
 A) Pessimistic locking
-B: Assumes conflicts are rare, validates at commit time
-B) [Missing option - Please review]
-
+B) Assumes conflicts are rare, validates at commit time
 C) Always locks
 D) No control
 
@@ -500,9 +484,7 @@ Difficulty: Hard
 
 Question: What does ARIES stand for?
 
-A: Random acronym
-A) [Missing option - Please review]
-
+A) Random acronym
 B) Algorithm for Recovery and Isolation Exploiting Semantics
 C) No meaning
 D) Database name
@@ -588,9 +570,7 @@ Question: What is query rewriting?
 
 A) No changes
 B) Transforming query into equivalent but more efficient form
-C: Deleting query
-C) [Missing option - Please review]
-
+C) Deleting query
 D) Executing query
 
 ✔ Correct Answer: B
@@ -632,7 +612,7 @@ Question: What is Discretionary Access Control (DAC)?
 
 A) Mandatory control
 B) Owner controls access to their objects
-C: No control
+C) No control
 D) Role-based only
 
 ✔ Correct Answer: B
@@ -875,9 +855,7 @@ Question: What does an UNPIVOT operation do?
 
 A) No change
 B) Converts columns to rows
-C: Converts rows to columns
-C) [Missing option - Please review]
-
+C) Converts rows to columns
 D) Deletes data
 
 ✔ Correct Answer: B
@@ -1003,9 +981,7 @@ Question: What is the Thomas Write Rule?
 
 A) Read rule
 B) Optimization allowing outdated writes to be ignored
-C: Lock rule
-C) [Missing option - Please review]
-
+C) Lock rule
 D) No rule
 
 ✔ Correct Answer: B
@@ -1047,9 +1023,7 @@ Question: What is the Write-Ahead Logging (WAL) protocol?
 
 A) Write after commit
 B) Log records must be written before data modifications
-C: No logging
-C) [Missing option - Please review]
-
+C) No logging
 D) Random writing
 
 ✔ Correct Answer: B
@@ -1091,9 +1065,7 @@ Question: What is a full-text index?
 
 A) Regular index
 B) Index for efficient text searching and keyword queries
-C: No index
-C) [Missing option - Please review]
-
+C) No index
 D) Numeric index
 
 ✔ Correct Answer: B
@@ -1135,9 +1107,7 @@ Question: What are query hints?
 
 A) Automatic optimization
 B) Directives to influence optimizer's execution plan choices
-C: No hints
-C) [Missing option - Please review]
-
+C) No hints
 D) Error messages
 
 ✔ Correct Answer: B
@@ -1158,9 +1128,7 @@ Question: What is database auditing?
 
 A) No tracking
 B) Tracking and logging database activities for security
-C: Backup process
-C) [Missing option - Please review]
-
+C) Backup process
 D) Query optimization
 
 ✔ Correct Answer: B
@@ -1181,9 +1149,7 @@ Question: What is row-level security?
 
 A) Table-level security
 B) Access control at individual row level based on user attributes
-C: No security
-C) [Missing option - Please review]
-
+C) No security
 D) Column security
 
 ✔ Correct Answer: B
@@ -1203,9 +1169,7 @@ Difficulty: Medium
 Question: What is master-slave replication?
 
 A) Peer-to-peer
-B: One master for writes, multiple slaves for reads
-B) [Missing option - Please review]
-
+B) One master for writes, multiple slaves for reads
 C) No replication
 D) Random replication
 
@@ -1227,9 +1191,7 @@ Question: What is multi-master replication?
 
 A) Single master
 B) Multiple nodes can accept writes simultaneously
-C: No replication
-C) [Missing option - Please review]
-
+C) No replication
 D) Read-only replication
 
 ✔ Correct Answer: B
@@ -1250,9 +1212,7 @@ Question: What is a key-value store?
 
 A) Relational database
 B) Database storing data as key-value pairs
-C: Document database
-C) [Missing option - Please review]
-
+C) Document database
 D) Graph database
 
 ✔ Correct Answer: B
@@ -1273,9 +1233,7 @@ Question: Which is an example of a key-value store?
 
 A) MongoDB
 B) Redis
-C: PostgreSQL
-C) [Missing option - Please review]
-
+C) PostgreSQL
 D) Neo4j
 
 ✔ Correct Answer: B
@@ -1296,9 +1254,7 @@ Question: What is a fact table?
 
 A) Dimension table
 B) Central table containing measurable business metrics
-C: Lookup table
-C) [Missing option - Please review]
-
+C) Lookup table
 D) No table
 
 ✔ Correct Answer: B
@@ -1319,9 +1275,7 @@ Question: What is a dimension table?
 
 A) Fact table
 B) Table containing descriptive attributes for analysis
-C: No table
-C) [Missing option - Please review]
-
+C) No table
 D) Transaction table
 
 ✔ Correct Answer: B
@@ -1348,9 +1302,7 @@ ORDER BY total_sold DESC;
 
 A) Random order
 B) Products ordered by total quantity sold (highest first)
-C: Alphabetical order
-C) [Missing option - Please review]
-
+C) Alphabetical order
 D) Error
 
 ✔ Correct Answer: B
@@ -1376,9 +1328,7 @@ FROM employees;
 
 A) Random groups
 B) Employees divided into 4 salary quartiles
-C: Only salaries
-C) [Missing option - Please review]
-
+C) Only salaries
 D) Error
 
 ✔ Correct Answer: B
@@ -1399,9 +1349,7 @@ Question: What is a recursive CTE used for?
 
 A) Simple queries
 B) Hierarchical or graph-like data traversal
-C: No use
-C) [Missing option - Please review]
-
+C) No use
 D) Deletion only
 
 ✔ Correct Answer: B
@@ -1422,9 +1370,7 @@ Question: What does FIRST_VALUE() window function return?
 
 A) Last value
 B) First value in the window frame
-C: Random value
-C) [Missing option - Please review]
-
+C) Random value
 D) Average value
 
 ✔ Correct Answer: B
@@ -1445,9 +1391,7 @@ Question: What is a summary table?
 
 A) Normalized table
 B) Precomputed aggregated data for performance
-C: Regular table
-C) [Missing option - Please review]
-
+C) Regular table
 D) Deleted table
 
 ✔ Correct Answer: B
@@ -1468,9 +1412,7 @@ Question: What is column duplication?
 
 A) No duplication
 B) Storing same data in multiple tables to avoid joins
-C: Normalization
-C) [Missing option - Please review]
-
+C) Normalization
 D) Deletion
 
 ✔ Correct Answer: B
@@ -1491,9 +1433,7 @@ Question: What is a dirty write?
 
 A) Clean write
 B) Overwriting uncommitted data from another transaction
-C: Normal write
-C) [Missing option - Please review]
-
+C) Normal write
 D) No write
 
 ✔ Correct Answer: B
@@ -1514,9 +1454,7 @@ Question: What is a lost update?
 
 A) Successful update
 B) One transaction's update is overwritten by another
-C: No update
-C) [Missing option - Please review]
-
+C) No update
 D) Saved update
 
 ✔ Correct Answer: B
@@ -1537,9 +1475,7 @@ Question: What is lock granularity?
 
 A) Lock type
 B) Size of data item that can be locked
-C: Lock duration
-C) [Missing option - Please review]
-
+C) Lock duration
 D) No granularity
 
 ✔ Correct Answer: B
@@ -1559,11 +1495,9 @@ Difficulty: Medium
 Question: What is the trade-off with fine-grained locking?
 
 A) No trade-off
-B: Higher concurrency but more lock overhead
-C: Lower concurrency
-D: No overhead
-
-D) [Missing option - Please review]
+B) Higher concurrency but more lock overhead
+C) Lower concurrency
+D) No overhead
 
 ✔ Correct Answer: B
 
@@ -1582,11 +1516,9 @@ Difficulty: Medium
 Question: What is a redo log?
 
 A) Undo log
-B: Log recording changes to redo committed transactions
-C: No log
-D: Backup log
-
-D) [Missing option - Please review]
+B) Log recording changes to redo committed transactions
+C) No log
+D) Backup log
 
 ✔ Correct Answer: B
 
@@ -1606,9 +1538,7 @@ Question: What is an undo log?
 
 A) Redo log
 B) Log recording old values to undo uncommitted transactions
-C: No log
-C) [Missing option - Please review]
-
+C) No log
 D) Backup log
 
 ✔ Correct Answer: B
@@ -1628,11 +1558,9 @@ Difficulty: Medium
 Question: What is index fragmentation?
 
 A) No fragmentation
-B: Logical disorder in index pages reducing performance
-C: Perfect order
-D: No impact
-
-D) [Missing option - Please review]
+B) Logical disorder in index pages reducing performance
+C) Perfect order
+D) No impact
 
 ✔ Correct Answer: B
 
@@ -1651,11 +1579,9 @@ Difficulty: Medium
 Question: How is index fragmentation resolved?
 
 A) Delete index
-B: Rebuild or reorganize the index
-C: Ignore it
-D: No solution
-
-D) [Missing option - Please review]
+B) Rebuild or reorganize the index
+C) Ignore it
+D) No solution
 
 ✔ Correct Answer: B
 
@@ -1674,11 +1600,9 @@ Difficulty: Easy
 Question: What is an execution plan?
 
 A) Database schema
-B: Step-by-step strategy for executing a query
-C: Backup plan
-D: No plan
-
-D) [Missing option - Please review]
+B) Step-by-step strategy for executing a query
+C) Backup plan
+D) No plan
 
 ✔ Correct Answer: B
 
@@ -1697,11 +1621,9 @@ Difficulty: Medium
 Question: What is plan caching?
 
 A) No caching
-B: Storing compiled execution plans for reuse
-C: Data caching
-D: Random caching
-
-D) [Missing option - Please review]
+B) Storing compiled execution plans for reuse
+C) Data caching
+D) Random caching
 
 ✔ Correct Answer: B
 
@@ -1720,11 +1642,9 @@ Difficulty: Easy
 Question: What is database authentication?
 
 A) Authorization
-B: Verifying user identity before granting access
-C: No verification
-D: Encryption
-
-D) [Missing option - Please review]
+B) Verifying user identity before granting access
+C) No verification
+D) Encryption
 
 ✔ Correct Answer: B
 
@@ -1743,11 +1663,9 @@ Difficulty: Medium
 Question: What is two-factor authentication (2FA)?
 
 A) Single factor
-B: Authentication requiring two different verification methods
-C: No authentication
-D: Three factors
-
-D) [Missing option - Please review]
+B) Authentication requiring two different verification methods
+C) No authentication
+D) Three factors
 
 ✔ Correct Answer: B
 
@@ -1766,11 +1684,9 @@ Difficulty: Hard
 Question: What is eventual consistency?
 
 A) Strong consistency
-B: System will become consistent eventually, not immediately
-C: No consistency
-D: Immediate consistency
-
-D) [Missing option - Please review]
+B) System will become consistent eventually, not immediately
+C) No consistency
+D) Immediate consistency
 
 ✔ Correct Answer: B
 
@@ -1789,11 +1705,9 @@ Difficulty: Hard
 Question: What is strong consistency?
 
 A) Weak consistency
-B: All reads return the most recent write immediately
-C: No consistency
-D: Eventual consistency
-
-D) [Missing option - Please review]
+B) All reads return the most recent write immediately
+C) No consistency
+D) Eventual consistency
 
 ✔ Correct Answer: B
 
@@ -1812,11 +1726,9 @@ Difficulty: Hard
 Question: What does BASE stand for in NoSQL?
 
 A) Random acronym
-B: Basically Available, Soft state, Eventually consistent
-C: No meaning
-D: ACID alternative
-
-D) [Missing option - Please review]
+B) Basically Available, Soft state, Eventually consistent
+C) No meaning
+D) ACID alternative
 
 ✔ Correct Answer: B
 
@@ -1835,11 +1747,9 @@ Difficulty: Medium
 Question: What is sharding?
 
 A) Replication
-B: Horizontal partitioning of data across multiple servers
-C: Vertical partitioning
-D: No partitioning
-
-D) [Missing option - Please review]
+B) Horizontal partitioning of data across multiple servers
+C) Vertical partitioning
+D) No partitioning
 
 ✔ Correct Answer: B
 
@@ -1857,12 +1767,10 @@ Difficulty: Hard
 
 Question: What is a Type 1 Slowly Changing Dimension?
 
-A: Preserves history
-B: Overwrites old values with new ones
-C: Adds new rows
-D: No changes
-
-D) [Missing option - Please review]
+A) Preserves history
+B) Overwrites old values with new ones
+C) Adds new rows
+D) No changes
 
 ✔ Correct Answer: B
 
@@ -1880,12 +1788,10 @@ Difficulty: Hard
 
 Question: What is a Type 2 Slowly Changing Dimension?
 
-A: Overwrites values
-B: Creates new row for each change, preserving history
-C: No changes
-D: Updates in place
-
-D) [Missing option - Please review]
+A) Overwrites values
+B) Creates new row for each change, preserving history
+C) No changes
+D) Updates in place
 
 ✔ Correct Answer: B
 
@@ -1912,12 +1818,10 @@ FROM employees
 GROUP BY salary_range;
 ```
 
-A: All salaries
-B: Count of employees in each salary range category
-C: Only names
-D: Error
-
-D) [Missing option - Please review]
+A) All salaries
+B) Count of employees in each salary range category
+C) Only names
+D) Error
 
 ✔ Correct Answer: B
 
@@ -1942,12 +1846,10 @@ FROM employees
 GROUP BY department;
 ```
 
-A: Only department totals
-B: Each department's total and company-wide total
-C: Only company total
-D: Error
-
-D) [Missing option - Please review]
+A) Only department totals
+B) Each department's total and company-wide total
+C) Only company total
+D) Error
 
 ✔ Correct Answer: B
 
@@ -1965,12 +1867,10 @@ Difficulty: Hard
 
 Question: What is a LATERAL join?
 
-A: Regular join
-B: Join allowing subquery to reference columns from preceding tables
-C: No join
-D: Cross join
-
-D) [Missing option - Please review]
+A) Regular join
+B) Join allowing subquery to reference columns from preceding tables
+C) No join
+D) Cross join
 
 ✔ Correct Answer: B
 
@@ -1988,12 +1888,10 @@ Difficulty: Medium
 
 Question: What SQL function unnests an array?
 
-A: NEST
-B: UNNEST or array expansion functions
-C: GROUP
-D: No function
-
-D) [Missing option - Please review]
+A) NEST
+B) UNNEST or array expansion functions
+C) GROUP
+D) No function
 
 ✔ Correct Answer: B
 
@@ -2011,12 +1909,10 @@ Difficulty: Hard
 
 Question: What is the closure of a set of attributes?
 
-A: No closure
-B: Set of all attributes functionally determined by the given set
-C: Random attributes
-D: Primary key only
-
-D) [Missing option - Please review]
+A) No closure
+B) Set of all attributes functionally determined by the given set
+C) Random attributes
+D) Primary key only
 
 ✔ Correct Answer: B
 
@@ -2034,12 +1930,10 @@ Difficulty: Medium
 
 Question: What is a candidate key?
 
-A: Foreign key
-B: Minimal superkey that can uniquely identify tuples
-C: Non-unique key
-D: No key
-
-D) [Missing option - Please review]
+A) Foreign key
+B) Minimal superkey that can uniquely identify tuples
+C) Non-unique key
+D) No key
 
 ✔ Correct Answer: B
 
@@ -2057,12 +1951,10 @@ Difficulty: Hard
 
 Question: What is a serial schedule?
 
-A: Concurrent schedule
-B: Schedule where transactions execute one after another
-C: Random schedule
-D: No schedule
-
-D) [Missing option - Please review]
+A) Concurrent schedule
+B) Schedule where transactions execute one after another
+C) Random schedule
+D) No schedule
 
 ✔ Correct Answer: B
 
@@ -2080,12 +1972,10 @@ Difficulty: Hard
 
 Question: What is a serializable schedule?
 
-A: Serial schedule only
-B: Schedule equivalent to some serial schedule
-C: Random schedule
-D: No schedule
-
-D) [Missing option - Please review]
+A) Serial schedule only
+B) Schedule equivalent to some serial schedule
+C) Random schedule
+D) No schedule
 
 ✔ Correct Answer: B
 
@@ -2103,12 +1993,10 @@ Difficulty: Hard
 
 Question: What is validation in optimistic concurrency control?
 
-A: No validation
-B: Checking if transaction's reads are still valid at commit time
-C: Lock acquisition
-D: Random check
-
-D) [Missing option - Please review]
+A) No validation
+B) Checking if transaction's reads are still valid at commit time
+C) Lock acquisition
+D) Random check
 
 ✔ Correct Answer: B
 
@@ -2126,12 +2014,10 @@ Difficulty: Hard
 
 Question: What is a wait-for graph?
 
-A: No graph
-B: Directed graph showing transaction wait dependencies
-C: Random graph
-D: Data structure
-
-D) [Missing option - Please review]
+A) No graph
+B) Directed graph showing transaction wait dependencies
+C) Random graph
+D) Data structure
 
 ✔ Correct Answer: B
 
@@ -2149,12 +2035,10 @@ Difficulty: Medium
 
 Question: What is a commit point?
 
-A: Start point
-B: Point where transaction's effects become permanent
-C: Abort point
-D: No point
-
-D) [Missing option - Please review]
+A) Start point
+B) Point where transaction's effects become permanent
+C) Abort point
+D) No point
 
 ✔ Correct Answer: B
 
@@ -2172,12 +2056,10 @@ Difficulty: Medium
 
 Question: What is rollback?
 
-A: Commit
-B: Undoing a transaction's changes
-C: Redo
-D: No action
-
-D) [Missing option - Please review]
+A) Commit
+B) Undoing a transaction's changes
+C) Redo
+D) No action
 
 ✔ Correct Answer: B
 
@@ -2195,12 +2077,10 @@ Difficulty: Easy
 
 Question: What is a database page?
 
-A: Web page
-B: Fixed-size block of storage
-C: Variable size
-D: No structure
-
-D) [Missing option - Please review]
+A) Web page
+B) Fixed-size block of storage
+C) Variable size
+D) No structure
 
 ✔ Correct Answer: B
 
@@ -2218,12 +2098,10 @@ Difficulty: Hard
 
 Question: What is cardinality estimation?
 
-A: No estimation
-B: Estimating number of rows in query results
-C: Counting columns
-D: Random guess
-
-D) [Missing option - Please review]
+A) No estimation
+B) Estimating number of rows in query results
+C) Counting columns
+D) Random guess
 
 ✔ Correct Answer: B
 
@@ -2241,12 +2119,10 @@ Difficulty: Easy
 
 Question: What is the principle of least privilege?
 
-A: Maximum access
-B: Users should have minimum permissions necessary for their tasks
-C: No access
-D: Random access
-
-D) [Missing option - Please review]
+A) Maximum access
+B) Users should have minimum permissions necessary for their tasks
+C) No access
+D) Random access
 
 ✔ Correct Answer: B
 
@@ -2264,12 +2140,10 @@ Difficulty: Medium
 
 Question: What is data locality in distributed databases?
 
-A: Remote data
-B: Placing data close to where it's frequently accessed
-C: Random placement
-D: No locality
-
-D) [Missing option - Please review]
+A) Remote data
+B) Placing data close to where it's frequently accessed
+C) Random placement
+D) No locality
 
 ✔ Correct Answer: B
 

@@ -196,7 +196,7 @@ Difficulty: Medium
 
 Question: What is out-of-bag (OOB) error?
 A) Training error
-B: Validation error using samples not in bootstrap sample
+B) Validation error using samples not in bootstrap sample
 C) Test error
 D) No error
 
@@ -214,13 +214,9 @@ Difficulty: Medium
 
 Question: What is feature crossing?
 A) Removing features
-B: Creating new features by combining existing ones
-B) [Missing option - Please review]
-
+B) Creating new features by combining existing ones
 C) Scaling features
-D: Encoding features
-
-D) [Missing option - Please review]
+D) Encoding features
 
 ✔ Correct Answer: B
 Reason: Feature crossing creates interaction features (e.g., [A, B] → [A, B, A×B]).
@@ -259,13 +255,9 @@ Difficulty: Medium
 
 Question: What is the difference between SGD and batch gradient descent?
 A) No difference
-B: SGD updates weights using single/mini-batch samples
-B) [Missing option - Please review]
-
+B) SGD updates weights using single/mini-batch samples
 C) SGD is slower
-D: Batch is more accurate
-
-D) [Missing option - Please review]
+D) Batch is more accurate
 
 ✔ Correct Answer: B
 Reason: SGD uses subset of data per update; batch GD uses entire dataset.
@@ -281,11 +273,9 @@ Difficulty: Hard
 
 Question: What is the Markov property?
 A) No memory
-B: Future state depends only on current state
-C: All states matter
-D: Random property
-
-D) [Missing option - Please review]
+B) Future state depends only on current state
+C) All states matter
+D) Random property
 
 ✔ Correct Answer: B
 Reason: Markov property: future is independent of past given present.
@@ -301,11 +291,9 @@ Difficulty: Medium
 
 Question: How can exploding gradients be addressed?
 A) Increase learning rate
-B: Gradient clipping or normalization
-C: Add more layers
-D: Remove regularization
-
-D) [Missing option - Please review]
+B) Gradient clipping or normalization
+C) Add more layers
+D) Remove regularization
 
 ✔ Correct Answer: B
 Reason: Gradient clipping caps gradient magnitude; normalization stabilizes training.
@@ -320,12 +308,10 @@ Subtopic: Missing Data Patterns
 Difficulty: Medium
 
 Question: What is MCAR in missing data?
-A: Missing Completely At Random
-B: Missing Conditionally At Random
-C: Missing Constantly At Random
-D: Missing Carefully At Random
-
-D) [Missing option - Please review]
+A) Missing Completely At Random
+B) Missing Conditionally At Random
+C) Missing Constantly At Random
+D) Missing Carefully At Random
 
 ✔ Correct Answer: A
 Reason: MCAR means missingness is independent of observed and unobserved data.
@@ -340,12 +326,10 @@ Subtopic: Transparency
 Difficulty: Easy
 
 Question: What is model transparency?
-A: Model speed
-B: Understanding how model works and makes decisions
-C: Model size
-D: Model accuracy
-
-D) [Missing option - Please review]
+A) Model speed
+B) Understanding how model works and makes decisions
+C) Model size
+D) Model accuracy
 
 ✔ Correct Answer: B
 Reason: Transparency involves making model behavior understandable to stakeholders.
@@ -360,12 +344,10 @@ Subtopic: Language Generation
 Difficulty: Medium
 
 Question: What is beam search in text generation?
-A: Random search
-B: Keeping top-k most probable sequences at each step
-C: Greedy search
-D: Exhaustive search
-
-D) [Missing option - Please review]
+A) Random search
+B) Keeping top-k most probable sequences at each step
+C) Greedy search
+D) Exhaustive search
 
 ✔ Correct Answer: B
 Reason: Beam search maintains multiple hypotheses to find better sequences.
@@ -380,12 +362,10 @@ Subtopic: Manifold Learning
 Difficulty: Hard
 
 Question: What is manifold learning?
-A: Surface learning
-B: Finding low-dimensional structure in high-dimensional data
-C: Deep learning
-D: Supervised learning
-
-D) [Missing option - Please review]
+A) Surface learning
+B) Finding low-dimensional structure in high-dimensional data
+C) Deep learning
+D) Supervised learning
 
 ✔ Correct Answer: B
 Reason: Manifold learning assumes data lies on low-dimensional manifold.
@@ -400,12 +380,10 @@ Subtopic: Model Drift
 Difficulty: Medium
 
 Question: What is model drift?
-A: Model movement
-B: Degradation of model performance over time
-C: Model training
-D: Model improvement
-
-D) [Missing option - Please review]
+A) Model movement
+B) Degradation of model performance over time
+C) Model training
+D) Model improvement
 
 ✔ Correct Answer: B
 Reason: Drift occurs when data distribution changes, affecting model accuracy.
@@ -420,12 +398,10 @@ Subtopic: Region Proposal Networks
 Difficulty: Hard
 
 Question: What do Region Proposal Networks (RPN) do?
-A: Classify images
-B: Generate candidate object bounding boxes
-C: Segment images
-D: Compress images
-
-D) [Missing option - Please review]
+A) Classify images
+B) Generate candidate object bounding boxes
+C) Segment images
+D) Compress images
 
 ✔ Correct Answer: B
 Reason: RPNs predict object locations for two-stage detectors like Faster R-CNN.
@@ -440,12 +416,10 @@ Subtopic: Learning Curves Analysis
 Difficulty: Medium
 
 Question: What does a large gap between training and validation curves indicate?
-A: Underfitting
-B: Overfitting
-C: Good fit
-D: No issue
-
-D) [Missing option - Please review]
+A) Underfitting
+B) Overfitting
+C) Good fit
+D) No issue
 
 ✔ Correct Answer: B
 Reason: Large gap suggests model memorizes training data but doesn't generalize.
@@ -465,12 +439,10 @@ import numpy as np
 arr = np.array([1, 2, 3, 4, 5])
 print(arr.max())
 ```
-A: 1
-B: 3
-C: 5
-D: 15
-
-D) [Missing option - Please review]
+A) 1
+B) 3
+C) 5
+D) 15
 
 ✔ Correct Answer: C
 Reason: max() returns maximum value in array: 5.
@@ -485,12 +457,10 @@ Subtopic: Lagrange Multipliers
 Difficulty: Hard
 
 Question: What are Lagrange multipliers used for?
-A: Matrix operations
-B: Optimization with constraints
-C: Integration
-D: Differentiation
-
-D) [Missing option - Please review]
+A) Matrix operations
+B) Optimization with constraints
+C) Integration
+D) Differentiation
 
 ✔ Correct Answer: B
 Reason: Lagrange multipliers find extrema of functions subject to constraints.
@@ -505,12 +475,10 @@ Subtopic: Attention Weights
 Difficulty: Medium
 
 Question: What do attention weights represent?
-A: Model weights
-B: Importance scores for different inputs
-C: Layer weights
-D: Bias terms
-
-D) [Missing option - Please review]
+A) Model weights
+B) Importance scores for different inputs
+C) Layer weights
+D) Bias terms
 
 ✔ Correct Answer: B
 Reason: Attention weights indicate how much focus to place on each input element.
@@ -525,12 +493,10 @@ Subtopic: Data Versioning
 Difficulty: Medium
 
 Question: Why is data versioning important in ML?
-A: Saves space
-B: Reproducibility and tracking data changes
-C: Faster processing
-D: Better accuracy
-
-D) [Missing option - Please review]
+A) Saves space
+B) Reproducibility and tracking data changes
+C) Faster processing
+D) Better accuracy
 
 ✔ Correct Answer: B
 Reason: Data versioning ensures experiments are reproducible with specific data versions.
@@ -545,12 +511,10 @@ Subtopic: Perplexity
 Difficulty: Medium
 
 Question: What does perplexity measure in language models?
-A: Complexity
-B: How well model predicts sample
-C: Speed
-D: Size
-
-D) [Missing option - Please review]
+A) Complexity
+B) How well model predicts sample
+C) Speed
+D) Size
 
 ✔ Correct Answer: B
 Reason: Perplexity measures model's uncertainty; lower perplexity = better predictions.
@@ -565,12 +529,10 @@ Subtopic: Boosting vs Bagging
 Difficulty: Easy
 
 Question: What is the main difference between boosting and bagging?
-A: No difference
-B: Boosting is sequential, bagging is parallel
-C: Bagging is sequential
-D: Both are sequential
-
-D) [Missing option - Please review]
+A) No difference
+B) Boosting is sequential, bagging is parallel
+C) Bagging is sequential
+D) Both are sequential
 
 ✔ Correct Answer: B
 Reason: Boosting trains models sequentially; bagging trains independently in parallel.
@@ -585,12 +547,10 @@ Subtopic: Binning Strategies
 Difficulty: Medium
 
 Question: What is equal-width binning?
-A: All bins have same number of samples
-B: All bins have same range
-C: Random binning
-D: No binning
-
-D) [Missing option - Please review]
+A) All bins have same number of samples
+B) All bins have same range
+C) Random binning
+D) No binning
 
 ✔ Correct Answer: B
 Reason: Equal-width divides range into intervals of equal size.
@@ -605,12 +565,10 @@ Subtopic: Siamese Networks
 Difficulty: Hard
 
 Question: What are Siamese networks used for?
-A: Classification only
-B: Learning similarity between inputs
-C: Regression only
-D: Clustering only
-
-D) [Missing option - Please review]
+A) Classification only
+B) Learning similarity between inputs
+C) Regression only
+D) Clustering only
 
 ✔ Correct Answer: B
 Reason: Siamese networks learn embeddings for similarity/distance learning tasks.
@@ -625,12 +583,10 @@ Subtopic: Nested Cross-Validation
 Difficulty: Hard
 
 Question: What is nested cross-validation?
-A: Single CV loop
-B: Outer loop for evaluation, inner loop for hyperparameter tuning
-C: No CV
-D: Random validation
-
-D) [Missing option - Please review]
+A) Single CV loop
+B) Outer loop for evaluation, inner loop for hyperparameter tuning
+C) No CV
+D) Random validation
 
 ✔ Correct Answer: B
 Reason: Nested CV prevents optimistic bias in hyperparameter selection.
@@ -650,12 +606,10 @@ import pandas as pd
 s = pd.Series([1, 2, 3, 4, 5])
 print(s.iloc[1:3])
 ```
-A: 1, 2
-B: 2, 3
-C: 2, 3, 4
-D: 1, 2, 3
-
-D) [Missing option - Please review]
+A) 1, 2
+B) 2, 3
+C) 2, 3, 4
+D) 1, 2, 3
 
 ✔ Correct Answer: B
 Reason: iloc[1:3] returns elements at index 1 and 2: values 2 and 3.
@@ -670,12 +624,10 @@ Subtopic: Probabilistic Classifiers
 Difficulty: Medium
 
 Question: What does a probabilistic classifier output?
-A: Class labels only
-B: Probability distribution over classes
-C: Binary values
-D: Continuous values
-
-D) [Missing option - Please review]
+A) Class labels only
+B) Probability distribution over classes
+C) Binary values
+D) Continuous values
 
 ✔ Correct Answer: B
 Reason: Probabilistic classifiers provide confidence scores for each class.
@@ -690,12 +642,10 @@ Subtopic: Monte Carlo Methods
 Difficulty: Hard
 
 Question: What are Monte Carlo methods based on?
-A: Deterministic algorithms
-B: Random sampling for numerical results
-C: Exact calculations
-D: Symbolic computation
-
-D) [Missing option - Please review]
+A) Deterministic algorithms
+B) Random sampling for numerical results
+C) Exact calculations
+D) Symbolic computation
 
 ✔ Correct Answer: B
 Reason: Monte Carlo uses repeated random sampling to obtain numerical results.
@@ -710,12 +660,10 @@ Subtopic: Curriculum Learning
 Difficulty: Hard
 
 Question: What is curriculum learning?
-A: Random training
-B: Training on easier examples first, then harder
-C: Training on hard examples first
-D: No specific order
-
-D) [Missing option - Please review]
+A) Random training
+B) Training on easier examples first, then harder
+C) Training on hard examples first
+D) No specific order
 
 ✔ Correct Answer: B
 Reason: Curriculum learning mimics human learning by starting with simple concepts.
@@ -730,12 +678,10 @@ Subtopic: Simpson's Paradox
 Difficulty: Hard
 
 Question: What is Simpson's Paradox?
-A: No paradox
-B: Trend reverses when data is aggregated
-C: Statistical error
-D: Sampling bias
-
-D) [Missing option - Please review]
+A) No paradox
+B) Trend reverses when data is aggregated
+C) Statistical error
+D) Sampling bias
 
 ✔ Correct Answer: B
 Reason: Simpson's Paradox occurs when trends in groups reverse in aggregate.
@@ -750,12 +696,10 @@ Subtopic: Accountability
 Difficulty: Medium
 
 Question: What is algorithmic accountability?
-A: Code documentation
-B: Responsibility for AI system outcomes
-C: Testing procedures
-D: Version control
-
-D) [Missing option - Please review]
+A) Code documentation
+B) Responsibility for AI system outcomes
+C) Testing procedures
+D) Version control
 
 ✔ Correct Answer: B
 Reason: Accountability ensures organizations are responsible for AI decisions and impacts.
@@ -770,12 +714,10 @@ Subtopic: Dialogue Systems
 Difficulty: Medium
 
 Question: What is a chatbot?
-A: Web crawler
-B: Conversational agent using NLP
-C: Search engine
-D: Database system
-
-D) [Missing option - Please review]
+A) Web crawler
+B) Conversational agent using NLP
+C) Search engine
+D) Database system
 
 ✔ Correct Answer: B
 Reason: Chatbots use NLP to understand and respond to user queries.
@@ -790,12 +732,10 @@ Subtopic: Biclustering
 Difficulty: Hard
 
 Question: What is biclustering?
-A: Two-step clustering
-B: Simultaneous clustering of rows and columns
-C: Binary clustering
-D: Hierarchical clustering
-
-D) [Missing option - Please review]
+A) Two-step clustering
+B) Simultaneous clustering of rows and columns
+C) Binary clustering
+D) Hierarchical clustering
 
 ✔ Correct Answer: B
 Reason: Biclustering finds submatrices with similar patterns in both dimensions.
@@ -810,12 +750,10 @@ Subtopic: Blue-Green Deployment
 Difficulty: Medium
 
 Question: What is blue-green deployment?
-A: Color coding
-B: Running two identical environments for zero-downtime updates
-C: Single environment
-D: No deployment
-
-D) [Missing option - Please review]
+A) Color coding
+B) Running two identical environments for zero-downtime updates
+C) Single environment
+D) No deployment
 
 ✔ Correct Answer: B
 Reason: Blue-green maintains two environments, switching traffic for seamless updates.
@@ -830,12 +768,10 @@ Subtopic: Optical Flow
 Difficulty: Hard
 
 Question: What is optical flow?
-A: Light measurement
-B: Pattern of apparent motion of objects in visual scene
-C: Image brightness
-D: Color flow
-
-D) [Missing option - Please review]
+A) Light measurement
+B) Pattern of apparent motion of objects in visual scene
+C) Image brightness
+D) Color flow
 
 ✔ Correct Answer: B
 Reason: Optical flow estimates motion between consecutive frames.
@@ -850,12 +786,10 @@ Subtopic: Cost-Sensitive Learning
 Difficulty: Hard
 
 Question: What is cost-sensitive learning?
-A: Reducing computational cost
-B: Assigning different costs to different types of errors
-C: Minimizing training time
-D: Reducing model size
-
-D) [Missing option - Please review]
+A) Reducing computational cost
+B) Assigning different costs to different types of errors
+C) Minimizing training time
+D) Reducing model size
 
 ✔ Correct Answer: B
 Reason: Cost-sensitive learning accounts for varying misclassification costs.
@@ -875,12 +809,10 @@ import numpy as np
 arr = np.zeros(5)
 print(arr.dtype)
 ```
-A: int64
-B: float64
-C: object
-D: bool
-
-D) [Missing option - Please review]
+A) int64
+B) float64
+C) object
+D) bool
 
 ✔ Correct Answer: B
 Reason: np.zeros() creates float64 array by default.
@@ -895,12 +827,10 @@ Subtopic: Singular Value Decomposition
 Difficulty: Hard
 
 Question: What does SVD decompose a matrix into?
-A: Two matrices
-B: Three matrices (U, Σ, V^T)
-C: Four matrices
-D: Cannot decompose
-
-D) [Missing option - Please review]
+A) Two matrices
+B) Three matrices (U, Σ, V^T)
+C) Four matrices
+D) Cannot decompose
 
 ✔ Correct Answer: B
 Reason: SVD factorizes matrix A = UΣV^T where U, V are orthogonal, Σ is diagonal.
@@ -915,12 +845,10 @@ Subtopic: Knowledge Distillation
 Difficulty: Hard
 
 Question: What is knowledge distillation?
-A: Data compression
-B: Training smaller model to mimic larger model
-C: Feature extraction
-D: Data augmentation
-
-D) [Missing option - Please review]
+A) Data compression
+B) Training smaller model to mimic larger model
+C) Feature extraction
+D) Data augmentation
 
 ✔ Correct Answer: B
 Reason: Distillation transfers knowledge from teacher model to student model.
@@ -935,12 +863,10 @@ Subtopic: Data Lineage
 Difficulty: Medium
 
 Question: What is data lineage?
-A: Data size
-B: Tracking data's origins and transformations
-C: Data type
-D: Data storage
-
-D) [Missing option - Please review]
+A) Data size
+B) Tracking data's origins and transformations
+C) Data type
+D) Data storage
 
 ✔ Correct Answer: B
 Reason: Data lineage documents data flow from source through transformations.
@@ -955,12 +881,10 @@ Subtopic: Text Augmentation
 Difficulty: Medium
 
 Question: What is back-translation in NLP?
-A: Reversing text
-B: Translating to another language and back for augmentation
-C: Backward propagation
-D: Text reversal
-
-D) [Missing option - Please review]
+A) Reversing text
+B) Translating to another language and back for augmentation
+C) Backward propagation
+D) Text reversal
 
 ✔ Correct Answer: B
 Reason: Back-translation creates paraphrases by translating through intermediate language.
@@ -975,12 +899,10 @@ Difficulty: Medium
 Subtopic: Ensemble Pruning
 
 Question: What is ensemble pruning?
-A: Removing trees
-B: Selecting subset of ensemble members
-C: Data pruning
-D: Feature pruning
-
-D) [Missing option - Please review]
+A) Removing trees
+B) Selecting subset of ensemble members
+C) Data pruning
+D) Feature pruning
 
 ✔ Correct Answer: B
 Reason: Pruning removes redundant models to reduce ensemble size while maintaining performance.
@@ -995,12 +917,10 @@ Subtopic: Feature Hashing
 Difficulty: Hard
 
 Question: What problem does feature hashing address?
-A: Feature scaling
-B: High-dimensional categorical features
-C: Missing values
-D: Outliers
-
-D) [Missing option - Please review]
+A) Feature scaling
+B) High-dimensional categorical features
+C) Missing values
+D) Outliers
 
 ✔ Correct Answer: B
 Reason: Feature hashing maps features to fixed-size vector, handling high cardinality.
@@ -1015,12 +935,10 @@ Subtopic: Pose Estimation
 Difficulty: Medium
 
 Question: What is human pose estimation?
-A: Face recognition
-B: Detecting body keypoints and skeleton
-C: Object detection
-D: Image classification
-
-D) [Missing option - Please review]
+A) Face recognition
+B) Detecting body keypoints and skeleton
+C) Object detection
+D) Image classification
 
 ✔ Correct Answer: B
 Reason: Pose estimation identifies locations of body joints and limbs.
@@ -1035,12 +953,10 @@ Subtopic: Concordance Index
 Difficulty: Hard
 
 Question: What is the C-index used for?
-A: Classification
-B: Survival analysis and ranking
-C: Regression
-D: Clustering
-
-D) [Missing option - Please review]
+A) Classification
+B) Survival analysis and ranking
+C) Regression
+D) Clustering
 
 ✔ Correct Answer: B
 Reason: C-index (concordance index) measures ranking quality in survival models.
@@ -1060,12 +976,10 @@ import pandas as pd
 df = pd.DataFrame({'A': [1, 2, 3]})
 print(df['A'].apply(lambda x: x * 2).sum())
 ```
-A: 6
-B: 12
-C: 18
-D: 24
-
-D) [Missing option - Please review]
+A) 6
+B) 12
+C) 18
+D) 24
 
 ✔ Correct Answer: B
 Reason: Apply doubles each value [2,4,6], sum = 2+4+6 = 12.
@@ -1080,12 +994,10 @@ Subtopic: Prototype-Based Learning
 Difficulty: Hard
 
 Question: What is prototype-based learning?
-A: Random learning
-B: Learning by storing representative examples
-C: Deep learning
-D: Ensemble learning
-
-D) [Missing option - Please review]
+A) Random learning
+B) Learning by storing representative examples
+C) Deep learning
+D) Ensemble learning
 
 ✔ Correct Answer: B
 Reason: Prototype methods represent classes with typical examples (e.g., K-NN, LVQ).
@@ -1100,12 +1012,10 @@ Subtopic: Fourier Transform
 Difficulty: Hard
 
 Question: What does Fourier Transform do?
-A: Time domain only
-B: Converts signal from time to frequency domain
-C: Spatial transform
-D: No transformation
-
-D) [Missing option - Please review]
+A) Time domain only
+B) Converts signal from time to frequency domain
+C) Spatial transform
+D) No transformation
 
 ✔ Correct Answer: B
 Reason: Fourier Transform decomposes signal into constituent frequencies.
@@ -1120,12 +1030,10 @@ Subtopic: Meta-Learning
 Difficulty: Hard
 
 Question: What is meta-learning?
-A: Learning metadata
-B: Learning to learn (learning algorithms)
-C: Deep learning
-D: Transfer learning
-
-D) [Missing option - Please review]
+A) Learning metadata
+B) Learning to learn (learning algorithms)
+C) Deep learning
+D) Transfer learning
 
 ✔ Correct Answer: B
 Reason: Meta-learning trains models to quickly adapt to new tasks with few examples.
@@ -1140,12 +1048,10 @@ Subtopic: Data Profiling
 Difficulty: Easy
 
 Question: What is data profiling?
-A: User profiling
-B: Analyzing data structure, content, and quality
-C: Data storage
-D: Data deletion
-
-D) [Missing option - Please review]
+A) User profiling
+B) Analyzing data structure, content, and quality
+C) Data storage
+D) Data deletion
 
 ✔ Correct Answer: B
 Reason: Data profiling examines data to understand its characteristics and quality issues.
@@ -1160,12 +1066,10 @@ Subtopic: Robustness
 Difficulty: Medium
 
 Question: What is model robustness?
-A: Model size
-B: Ability to maintain performance under perturbations
-C: Training speed
-D: Accuracy only
-
-D) [Missing option - Please review]
+A) Model size
+B) Ability to maintain performance under perturbations
+C) Training speed
+D) Accuracy only
 
 ✔ Correct Answer: B
 Reason: Robust models perform consistently despite noise or adversarial inputs.
@@ -1180,12 +1084,10 @@ Subtopic: Information Extraction
 Difficulty: Medium
 
 Question: What is relation extraction in NLP?
-A: Extracting keywords
-B: Identifying relationships between entities
-C: Text summarization
-D: Translation
-
-D) [Missing option - Please review]
+A) Extracting keywords
+B) Identifying relationships between entities
+C) Text summarization
+D) Translation
 
 ✔ Correct Answer: B
 Reason: Relation extraction identifies semantic relationships between named entities.
@@ -1200,12 +1102,10 @@ Subtopic: Density Estimation
 Difficulty: Hard
 
 Question: What is kernel density estimation?
-A: Clustering method
-B: Non-parametric way to estimate probability density
-C: Classification method
-D: Regression technique
-
-D) [Missing option - Please review]
+A) Clustering method
+B) Non-parametric way to estimate probability density
+C) Classification method
+D) Regression technique
 
 ✔ Correct Answer: B
 Reason: KDE estimates PDF by placing kernels at each data point.
@@ -1220,12 +1120,10 @@ Subtopic: Model Compression
 Difficulty: Medium
 
 Question: What is model quantization?
-A: Increasing precision
-B: Reducing numerical precision of weights
-C: Adding layers
-D: Removing layers
-
-D) [Missing option - Please review]
+A) Increasing precision
+B) Reducing numerical precision of weights
+C) Adding layers
+D) Removing layers
 
 ✔ Correct Answer: B
 Reason: Quantization converts weights to lower precision (e.g., float32 to int8).
@@ -1240,12 +1138,10 @@ Subtopic: Super Resolution
 Difficulty: Medium
 
 Question: What is image super-resolution?
-A: Image compression
-B: Increasing image resolution
-C: Image classification
-D: Object detection
-
-D) [Missing option - Please review]
+A) Image compression
+B) Increasing image resolution
+C) Image classification
+D) Object detection
 
 ✔ Correct Answer: B
 Reason: Super-resolution reconstructs high-resolution image from low-resolution input.
@@ -1260,12 +1156,10 @@ Subtopic: Active Learning
 Difficulty: Hard
 
 Question: What is active learning?
-A: Passive learning
-B: Model selects most informative samples to label
-C: Random sampling
-D: Batch learning
-
-D) [Missing option - Please review]
+A) Passive learning
+B) Model selects most informative samples to label
+C) Random sampling
+D) Batch learning
 
 ✔ Correct Answer: B
 Reason: Active learning queries oracle for labels on uncertain examples.
@@ -1285,12 +1179,10 @@ import numpy as np
 arr = np.array([1, 2, 3, 4, 5])
 print(arr.min())
 ```
-A: 0
-B: 1
-C: 5
-D: 15
-
-D) [Missing option - Please review]
+A) 0
+B) 1
+C) 5
+D) 15
 
 ✔ Correct Answer: B
 Reason: min() returns minimum value in array: 1.
@@ -1305,12 +1197,10 @@ Subtopic: Convex Optimization
 Difficulty: Hard
 
 Question: Why is convexity important in optimization?
-A: No importance
-B: Guarantees global optimum
-C: Faster only
-D: Better visualization
-
-D) [Missing option - Please review]
+A) No importance
+B) Guarantees global optimum
+C) Faster only
+D) Better visualization
 
 ✔ Correct Answer: B
 Reason: Convex problems have single global minimum, no local minima.
@@ -1325,12 +1215,10 @@ Subtopic: Capsule Networks
 Difficulty: Hard
 
 Question: What do capsule networks aim to improve?
-A: Speed
-B: Spatial hierarchies and viewpoint invariance
-C: Size
-D: Accuracy only
-
-D) [Missing option - Please review]
+A) Speed
+B) Spatial hierarchies and viewpoint invariance
+C) Size
+D) Accuracy only
 
 ✔ Correct Answer: B
 Reason: Capsule networks better capture spatial relationships and pose information.
@@ -1345,12 +1233,10 @@ Subtopic: Feature Extraction
 Difficulty: Easy
 
 Question: What is feature extraction?
-A: Removing features
-B: Transforming raw data into meaningful features
-C: Scaling features
-D: Encoding features
-
-D) [Missing option - Please review]
+A) Removing features
+B) Transforming raw data into meaningful features
+C) Scaling features
+D) Encoding features
 
 ✔ Correct Answer: B
 Reason: Feature extraction derives informative representations from raw data.
@@ -1365,12 +1251,10 @@ Subtopic: Semantic Similarity
 Difficulty: Medium
 
 Question: What measures semantic similarity between sentences?
-A: Character count
-B: Cosine similarity of embeddings
-C: Word count
-D: Length difference
-
-D) [Missing option - Please review]
+A) Character count
+B) Cosine similarity of embeddings
+C) Word count
+D) Length difference
 
 ✔ Correct Answer: B
 Reason: Semantic similarity computed using vector representations (embeddings).
@@ -1385,12 +1269,10 @@ Subtopic: Mixture of Experts
 Difficulty: Hard
 
 Question: What is mixture of experts?
-A: Single expert
-B: Multiple specialized models with gating network
-C: Ensemble voting
-D: Bagging
-
-D) [Missing option - Please review]
+A) Single expert
+B) Multiple specialized models with gating network
+C) Ensemble voting
+D) Bagging
 
 ✔ Correct Answer: B
 Reason: MoE uses gating network to route inputs to specialized expert models.
@@ -1405,12 +1287,10 @@ Subtopic: Wrapper Methods
 Difficulty: Medium
 
 Question: What are wrapper methods in feature selection?
-A: Feature wrapping
-B: Using model performance to select features
-C: Feature encoding
-D: Feature scaling
-
-D) [Missing option - Please review]
+A) Feature wrapping
+B) Using model performance to select features
+C) Feature encoding
+D) Feature scaling
 
 ✔ Correct Answer: B
 Reason: Wrapper methods evaluate feature subsets using actual model performance.
@@ -1425,12 +1305,10 @@ Subtopic: 3D Vision
 Difficulty: Hard
 
 Question: What is depth estimation?
-A: Image classification
-B: Predicting distance of objects from camera
-C: Object detection
-D: Image segmentation
-
-D) [Missing option - Please review]
+A) Image classification
+B) Predicting distance of objects from camera
+C) Object detection
+D) Image segmentation
 
 ✔ Correct Answer: B
 Reason: Depth estimation infers 3D structure from 2D images.
@@ -1445,12 +1323,10 @@ Subtopic: Permutation Test
 Difficulty: Hard
 
 Question: What is a permutation test?
-A: Feature permutation
-B: Non-parametric hypothesis test using random permutations
-C: Data shuffling
-D: Model testing
-
-D) [Missing option - Please review]
+A) Feature permutation
+B) Non-parametric hypothesis test using random permutations
+C) Data shuffling
+D) Model testing
 
 ✔ Correct Answer: B
 Reason: Permutation tests assess significance by comparing to random permutations.
@@ -1470,12 +1346,10 @@ import pandas as pd
 df = pd.DataFrame({'A': [1, 2, 3, 4]})
 print(df['A'].var())
 ```
-A: 1.0
-B: ~1.67
-C: 2.5
-D: 10
-
-D) [Missing option - Please review]
+A) 1.0
+B) ~1.67
+C) 2.5
+D) 10
 
 ✔ Correct Answer: B
 Reason: Variance of [1,2,3,4] with ddof=1 (sample variance) ≈ 1.67.
@@ -1490,12 +1364,10 @@ Subtopic: Imitation Learning
 Difficulty: Hard
 
 Question: What is imitation learning?
-A: Copying data
-B: Learning from expert demonstrations
-C: Transfer learning
-D: Ensemble learning
-
-D) [Missing option - Please review]
+A) Copying data
+B) Learning from expert demonstrations
+C) Transfer learning
+D) Ensemble learning
 
 ✔ Correct Answer: B
 Reason: Imitation learning trains agents by observing expert behavior.
@@ -1510,12 +1382,10 @@ Subtopic: Graph Theory
 Difficulty: Medium
 
 Question: What is a graph in machine learning context?
-A: Visualization
-B: Structure of nodes and edges representing relationships
-C: Chart
-D: Plot
-
-D) [Missing option - Please review]
+A) Visualization
+B) Structure of nodes and edges representing relationships
+C) Chart
+D) Plot
 
 ✔ Correct Answer: B
 Reason: Graphs model relationships between entities using nodes and edges.
@@ -1530,12 +1400,10 @@ Subtopic: Neural ODEs
 Difficulty: Hard
 
 Question: What are Neural ODEs?
-A: Standard neural networks
-B: Networks defined by ordinary differential equations
-C: Optimization methods
-D: Data structures
-
-D) [Missing option - Please review]
+A) Standard neural networks
+B) Networks defined by ordinary differential equations
+C) Optimization methods
+D) Data structures
 
 ✔ Correct Answer: B
 Reason: Neural ODEs model continuous-depth networks using ODE solvers.
@@ -1550,12 +1418,10 @@ Subtopic: Outlier Detection Methods
 Difficulty: Medium
 
 Question: What is the IQR method for outlier detection?
-A: Using mean
-B: Values beyond Q1-1.5×IQR or Q3+1.5×IQR
-C: Using median
-D: Using mode
-
-D) [Missing option - Please review]
+A) Using mean
+B) Values beyond Q1-1.5×IQR or Q3+1.5×IQR
+C) Using median
+D) Using mode
 
 ✔ Correct Answer: B
 Reason: IQR method defines outliers as points outside 1.5×IQR from quartiles.
@@ -1570,12 +1436,10 @@ Subtopic: Data Sovereignty
 Difficulty: Medium
 
 Question: What is data sovereignty?
-A: Data ownership
-B: Data subject to laws of country where it's located
-C: Data quality
-D: Data storage
-
-D) [Missing option - Please review]
+A) Data ownership
+B) Data subject to laws of country where it's located
+C) Data quality
+D) Data storage
 
 ✔ Correct Answer: B
 Reason: Data sovereignty refers to legal jurisdiction over data based on location.
@@ -1590,12 +1454,10 @@ Subtopic: Multilingual Models
 Difficulty: Hard
 
 Question: What is mBERT?
-A: Mobile BERT
-B: Multilingual BERT trained on multiple languages
-C: Mini BERT
-D: Modified BERT
-
-D) [Missing option - Please review]
+A) Mobile BERT
+B) Multilingual BERT trained on multiple languages
+C) Mini BERT
+D) Modified BERT
 
 ✔ Correct Answer: B
 Reason: mBERT is BERT trained on Wikipedia in 104 languages.
@@ -1610,12 +1472,10 @@ Subtopic: Subspace Clustering
 Difficulty: Hard
 
 Question: What is subspace clustering?
-A: Standard clustering
-B: Clustering in different subspaces of feature space
-C: 3D clustering
-D: Time-series clustering
-
-D) [Missing option - Please review]
+A) Standard clustering
+B) Clustering in different subspaces of feature space
+C) 3D clustering
+D) Time-series clustering
 
 ✔ Correct Answer: B
 Reason: Subspace clustering finds clusters in different feature subsets.
@@ -1630,12 +1490,10 @@ Subtopic: Inference Optimization
 Difficulty: Medium
 
 Question: What is model pruning?
-A: Data pruning
-B: Removing unnecessary weights/neurons
-C: Feature pruning
-D: Sample pruning
-
-D) [Missing option - Please review]
+A) Data pruning
+B) Removing unnecessary weights/neurons
+C) Feature pruning
+D) Sample pruning
 
 ✔ Correct Answer: B
 Reason: Pruning removes redundant parameters to reduce model size and latency.
@@ -1650,12 +1508,10 @@ Subtopic: Video Understanding
 Difficulty: Medium
 
 Question: What is action recognition in videos?
-A: Object detection
-B: Classifying actions/activities in video sequences
-C: Face recognition
-D: Image classification
-
-D) [Missing option - Please review]
+A) Object detection
+B) Classifying actions/activities in video sequences
+C) Face recognition
+D) Image classification
 
 ✔ Correct Answer: B
 Reason: Action recognition identifies human activities in video data.
@@ -1670,12 +1526,10 @@ Subtopic: Ordinal Classification
 Difficulty: Hard
 
 Question: What makes ordinal classification different from multi-class?
-A: No difference
-B: Classes have natural ordering
-C: More classes
-D: Binary only
-
-D) [Missing option - Please review]
+A) No difference
+B) Classes have natural ordering
+C) More classes
+D) Binary only
 
 ✔ Correct Answer: B
 Reason: Ordinal classification respects order relationships between classes.
@@ -1695,12 +1549,10 @@ import numpy as np
 arr = np.array([1, 2, 3])
 print(arr.shape)
 ```
-A: 3
-B: (3,)
-C: [3]
-D: (1, 3)
-
-D) [Missing option - Please review]
+A) 3
+B) (3,)
+C) [3]
+D) (1, 3)
 
 ✔ Correct Answer: B
 Reason: shape returns tuple of dimensions: (3,) for 1D array with 3 elements.
@@ -1715,12 +1567,10 @@ Subtopic: Bayesian Inference
 Difficulty: Hard
 
 Question: What is the posterior in Bayesian inference?
-A: Prior probability
-B: Updated probability after observing data
-C: Likelihood
-D: Evidence
-
-D) [Missing option - Please review]
+A) Prior probability
+B) Updated probability after observing data
+C) Likelihood
+D) Evidence
 
 ✔ Correct Answer: B
 Reason: Posterior = (Likelihood × Prior) / Evidence, represents updated beliefs.
@@ -1735,12 +1585,10 @@ Subtopic: Self-Supervised Learning
 Difficulty: Hard
 
 Question: What is self-supervised learning?
-A: Supervised learning
-B: Learning from unlabeled data by creating pretext tasks
-C: Unsupervised learning
-D: Reinforcement learning
-
-D) [Missing option - Please review]
+A) Supervised learning
+B) Learning from unlabeled data by creating pretext tasks
+C) Unsupervised learning
+D) Reinforcement learning
 
 ✔ Correct Answer: B
 Reason: Self-supervised learning generates labels from data structure itself.
@@ -1755,12 +1603,10 @@ Subtopic: Data Fusion
 Difficulty: Medium
 
 Question: What is data fusion?
-A: Data deletion
-B: Integrating data from multiple sources
-C: Data splitting
-D: Data compression
-
-D) [Missing option - Please review]
+A) Data deletion
+B) Integrating data from multiple sources
+C) Data splitting
+D) Data compression
 
 ✔ Correct Answer: B
 Reason: Data fusion combines information from heterogeneous sources.
@@ -1775,12 +1621,10 @@ Subtopic: Few-Shot Learning
 Difficulty: Hard
 
 Question: What is few-shot learning in NLP?
-A: Many examples
-B: Learning from very few examples
-C: No examples
-D: Standard training
-
-D) [Missing option - Please review]
+A) Many examples
+B) Learning from very few examples
+C) No examples
+D) Standard training
 
 ✔ Correct Answer: B
 Reason: Few-shot learning adapts to new tasks with minimal labeled examples.
@@ -1795,12 +1639,10 @@ Subtopic: Dynamic Ensemble Selection
 Difficulty: Hard
 
 Question: What is dynamic ensemble selection?
-A: Static selection
-B: Selecting ensemble members based on test instance
-C: Random selection
-D: All members always
-
-D) [Missing option - Please review]
+A) Static selection
+B) Selecting ensemble members based on test instance
+C) Random selection
+D) All members always
 
 ✔ Correct Answer: B
 Reason: DES chooses competent models for each test sample dynamically.
@@ -1815,12 +1657,10 @@ Subtopic: Filter Methods
 Difficulty: Medium
 
 Question: What are filter methods in feature selection?
-A: Using model performance
-B: Using statistical measures independent of model
-C: Random selection
-D: Manual selection
-
-D) [Missing option - Please review]
+A) Using model performance
+B) Using statistical measures independent of model
+C) Random selection
+D) Manual selection
 
 ✔ Correct Answer: B
 Reason: Filter methods use statistical tests (correlation, chi-square) before modeling.
@@ -1835,12 +1675,10 @@ Subtopic: Point Cloud Processing
 Difficulty: Hard
 
 Question: What is a point cloud?
-A: Cloud computing
-B: Set of 3D points representing object surface
-C: Image pixels
-D: Data cluster
-
-D) [Missing option - Please review]
+A) Cloud computing
+B) Set of 3D points representing object surface
+C) Image pixels
+D) Data cluster
 
 ✔ Correct Answer: B
 Reason: Point clouds are 3D representations from sensors like LiDAR.
@@ -1855,12 +1693,10 @@ Subtopic: Fairness Metrics
 Difficulty: Hard
 
 Question: What is demographic parity?
-A: Equal accuracy
-B: Equal positive prediction rates across groups
-C: Equal precision
-D: Equal recall
-
-D) [Missing option - Please review]
+A) Equal accuracy
+B) Equal positive prediction rates across groups
+C) Equal precision
+D) Equal recall
 
 ✔ Correct Answer: B
 Reason: Demographic parity requires same proportion of positive predictions per group.
@@ -1880,12 +1716,10 @@ import pandas as pd
 df = pd.DataFrame({'A': [1, 2, 3]})
 print(df['A'].nunique())
 ```
-A: 1
-B: 3
-C: 6
-D: 0
-
-D) [Missing option - Please review]
+A) 1
+B) 3
+C) 6
+D) 0
 
 ✔ Correct Answer: B
 Reason: nunique() counts unique values: 1, 2, 3 = 3 unique values.
@@ -1900,12 +1734,10 @@ Subtopic: Metric Learning
 Difficulty: Hard
 
 Question: What is metric learning?
-A: Measuring metrics
-B: Learning distance functions for similarity
-C: Feature scaling
-D: Model evaluation
-
-D) [Missing option - Please review]
+A) Measuring metrics
+B) Learning distance functions for similarity
+C) Feature scaling
+D) Model evaluation
 
 ✔ Correct Answer: B
 Reason: Metric learning trains models to learn appropriate distance metrics.
@@ -1920,12 +1752,10 @@ Subtopic: Optimization Algorithms
 Difficulty: Medium
 
 Question: What is the difference between convex and non-convex optimization?
-A: No difference
-B: Convex has single global minimum, non-convex may have multiple local minima
-C: Convex is slower
-D: Non-convex is easier
-
-D) [Missing option - Please review]
+A) No difference
+B) Convex has single global minimum, non-convex may have multiple local minima
+C) Convex is slower
+D) Non-convex is easier
 
 ✔ Correct Answer: B
 Reason: Non-convex problems can have multiple local minima, making optimization harder.
@@ -1940,12 +1770,10 @@ Subtopic: Contrastive Learning
 Difficulty: Hard
 
 Question: What is contrastive learning?
-A: Supervised learning
-B: Learning by contrasting similar and dissimilar pairs
-C: Classification
-D: Regression
-
-D) [Missing option - Please review]
+A) Supervised learning
+B) Learning by contrasting similar and dissimilar pairs
+C) Classification
+D) Regression
 
 ✔ Correct Answer: B
 Reason: Contrastive learning pulls similar samples together, pushes dissimilar apart.
@@ -1960,12 +1788,10 @@ Subtopic: Time Series Components
 Difficulty: Medium
 
 Question: What are the main components of time series?
-A: Only trend
-B: Trend, seasonality, and residual
-C: Only seasonality
-D: Only noise
-
-D) [Missing option - Please review]
+A) Only trend
+B) Trend, seasonality, and residual
+C) Only seasonality
+D) Only noise
 
 ✔ Correct Answer: B
 Reason: Time series decomposed into trend, seasonal, and residual components.
@@ -1980,12 +1806,10 @@ Subtopic: Model Inversion
 Difficulty: Hard
 
 Question: What is model inversion attack?
-A: Inverting predictions
-B: Reconstructing training data from model
-C: Reversing training
-D: Model deletion
-
-D) [Missing option - Please review]
+A) Inverting predictions
+B) Reconstructing training data from model
+C) Reversing training
+D) Model deletion
 
 ✔ Correct Answer: B
 Reason: Model inversion exploits model to recover sensitive training information.
@@ -2000,12 +1824,10 @@ Subtopic: Prompt Engineering
 Difficulty: Medium
 
 Question: What is prompt engineering?
-A: Engineering prompts
-B: Designing input prompts to guide model behavior
-C: Hardware engineering
-D: Software engineering
-
-D) [Missing option - Please review]
+A) Engineering prompts
+B) Designing input prompts to guide model behavior
+C) Hardware engineering
+D) Software engineering
 
 ✔ Correct Answer: B
 Reason: Prompt engineering crafts inputs to elicit desired outputs from language models.
@@ -2020,12 +1842,10 @@ Subtopic: Stream Processing
 Difficulty: Medium
 
 Question: What is stream processing?
-A: Batch processing
-B: Processing data in real-time as it arrives
-C: Offline processing
-D: Static processing
-
-D) [Missing option - Please review]
+A) Batch processing
+B) Processing data in real-time as it arrives
+C) Offline processing
+D) Static processing
 
 ✔ Correct Answer: B
 Reason: Stream processing analyzes continuous data flows in real-time.

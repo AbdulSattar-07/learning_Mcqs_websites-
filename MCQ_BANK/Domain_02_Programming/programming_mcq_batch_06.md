@@ -1383,9 +1383,7 @@ Difficulty: Medium
 
 Question: What is unittest?
 A) Single test
-B: Python's built-in testing framework
-B) [Missing option - Please review]
-
+B) Python's built-in testing framework
 C) Unit converter
 D) Measurement tool
 

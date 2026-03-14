@@ -10,12 +10,10 @@ Subtopic: Infix to Postfix
 Difficulty: Medium
 
 Question: What data structure converts infix to postfix?
-A: Queue
-B: Stack for operators
-C: Array
-D: Tree
-
-D) [Missing option - Please review]
+A) Queue
+B) Stack for operators
+C) Array
+D) Tree
 
 ✔ Correct Answer: B
 
@@ -32,12 +30,10 @@ Subtopic: Next Permutation
 Difficulty: Hard
 
 Question: How to find next lexicographic permutation?
-A: Generate all permutations
-B: Find rightmost ascending pair, swap and reverse suffix
-C: Sort
-D: Random
-
-D) [Missing option - Please review]
+A) Generate all permutations
+B) Find rightmost ascending pair, swap and reverse suffix
+C) Sort
+D) Random
 
 ✔ Correct Answer: B
 
@@ -54,12 +50,10 @@ Subtopic: Implement strStr
 Difficulty: Medium
 
 Question: What is the most efficient algorithm for substring search?
-A: Naive O(m*n)
-B: KMP O(m+n)
-C: Brute force
-D: Sorting
-
-D) [Missing option - Please review]
+A) Naive O(m*n)
+B) KMP O(m+n)
+C) Brute force
+D) Sorting
 
 ✔ Correct Answer: B
 
@@ -76,12 +70,10 @@ Subtopic: Rotate Array
 Difficulty: Easy
 
 Question: How to rotate array right by k positions in O(1) space?
-A: Use extra array
-B: Reverse entire, reverse first k, reverse remaining
-C: Shift one by one
-D: Impossible
-
-D) [Missing option - Please review]
+A) Use extra array
+B) Reverse entire, reverse first k, reverse remaining
+C) Shift one by one
+D) Impossible
 
 ✔ Correct Answer: B
 
@@ -98,12 +90,10 @@ Subtopic: Add Two Numbers
 Difficulty: Medium
 
 Question: How to add two numbers represented as linked lists?
-A: Convert to integers
-B: Traverse both lists with carry tracking
-C: Reverse and add
-D: Use array
-
-D) [Missing option - Please review]
+A) Convert to integers
+B) Traverse both lists with carry tracking
+C) Reverse and add
+D) Use array
 
 ✔ Correct Answer: B
 
@@ -120,12 +110,10 @@ Subtopic: Zigzag Level Order
 Difficulty: Medium
 
 Question: How to implement zigzag level order traversal?
-A: Use two stacks alternating direction
-B: Single queue with reverse
-C: Recursion only
-D: DFS
-
-D) [Missing option - Please review]
+A) Use two stacks alternating direction
+B) Single queue with reverse
+C) Recursion only
+D) DFS
 
 ✔ Correct Answer: A
 
@@ -142,12 +130,10 @@ Subtopic: Coin Change
 Difficulty: Medium
 
 Question: What approach solves minimum coins for amount?
-A: Greedy always works
-B: DP with dp[i] = min coins for amount i
-C: Backtracking only
-D: Sorting
-
-D) [Missing option - Please review]
+A) Greedy always works
+B) DP with dp[i] = min coins for amount i
+C) Backtracking only
+D) Sorting
 
 ✔ Correct Answer: B
 
@@ -164,12 +150,10 @@ Subtopic: Course Schedule
 Difficulty: Medium
 
 Question: How to detect if courses can be completed with prerequisites?
-A: Check for cycle in directed graph using DFS
-B: Sort courses
-C: Count edges
-D: BFS only
-
-D) [Missing option - Please review]
+A) Check for cycle in directed graph using DFS
+B) Sort courses
+C) Count edges
+D) BFS only
 
 ✔ Correct Answer: A
 
@@ -186,12 +170,10 @@ Subtopic: Kth Largest Element
 Difficulty: Medium
 
 Question: Most efficient way to find kth largest element?
-A: Sort array O(n log n)
-B: Min heap of size k, O(n log k)
-C: Linear scan
-D: Binary search
-
-D) [Missing option - Please review]
+A) Sort array O(n log n)
+B) Min heap of size k, O(n log k)
+C) Linear scan
+D) Binary search
 
 ✔ Correct Answer: B
 
@@ -208,12 +190,10 @@ Subtopic: Longest Palindromic Substring
 Difficulty: Medium
 
 Question: What technique finds longest palindromic substring efficiently?
-A: Check all substrings O(n³)
-B: Expand around centers O(n²)
-C: Greedy
-D: Sorting
-
-D) [Missing option - Please review]
+A) Check all substrings O(n³)
+B) Expand around centers O(n²)
+C) Greedy
+D) Sorting
 
 ✔ Correct Answer: B
 
@@ -230,12 +210,10 @@ Subtopic: Container With Most Water
 Difficulty: Medium
 
 Question: How to find maximum water container area?
-A: Check all pairs O(n²)
-B: Two pointers from ends, move smaller height
-C: Sort heights
-D: Stack
-
-D) [Missing option - Please review]
+A) Check all pairs O(n²)
+B) Two pointers from ends, move smaller height
+C) Sort heights
+D) Stack
 
 ✔ Correct Answer: B
 
@@ -252,12 +230,10 @@ Subtopic: Generate Parentheses
 Difficulty: Medium
 
 Question: How to generate all valid n pairs of parentheses?
-A: Generate all permutations and filter
-B: Backtrack with open/close count constraints
-C: Dynamic programming
-D: Greedy
-
-D) [Missing option - Please review]
+A) Generate all permutations and filter
+B) Backtrack with open/close count constraints
+C) Dynamic programming
+D) Greedy
 
 ✔ Correct Answer: B
 
@@ -274,12 +250,10 @@ Subtopic: Lowest Common Ancestor
 Difficulty: Medium
 
 Question: How to find LCA in binary tree?
-A: Store all ancestors in array
-B: Recursive: if p and q in different subtrees, root is LCA
-C: Level order traversal
-D: Inorder traversal
-
-D) [Missing option - Please review]
+A) Store all ancestors in array
+B) Recursive: if p and q in different subtrees, root is LCA
+C) Level order traversal
+D) Inorder traversal
 
 ✔ Correct Answer: B
 
@@ -296,12 +270,10 @@ Subtopic: Merge Intervals
 Difficulty: Medium
 
 Question: How to merge overlapping intervals?
-A: Sort by start, merge if overlap
-B: Check all pairs
-C: Use heap
-D: Dynamic programming
-
-D) [Missing option - Please review]
+A) Sort by start, merge if overlap
+B) Check all pairs
+C) Use heap
+D) Dynamic programming
 
 ✔ Correct Answer: A
 
@@ -318,12 +290,10 @@ Subtopic: Number of Islands
 Difficulty: Medium
 
 Question: How to count islands in 2D grid?
-A: Count all 1s
-B: DFS/BFS from each unvisited land cell, mark visited
-C: Union-find only
-D: Greedy
-
-D) [Missing option - Please review]
+A) Count all 1s
+B) DFS/BFS from each unvisited land cell, mark visited
+C) Union-find only
+D) Greedy
 
 ✔ Correct Answer: B
 
@@ -340,12 +310,10 @@ Subtopic: Unique Paths
 Difficulty: Medium
 
 Question: How many unique paths in m×n grid from top-left to bottom-right?
-A: 2^(m+n)
-B: dp[i][j] = dp[i-1][j] + dp[i][j-1]
-C: m + n
-D: m * n
-
-D) [Missing option - Please review]
+A) 2^(m+n)
+B) dp[i][j] = dp[i-1][j] + dp[i][j-1]
+C) m + n
+D) m * n
 
 ✔ Correct Answer: B
 
@@ -362,12 +330,10 @@ Subtopic: Group Anagrams
 Difficulty: Medium
 
 Question: How to group anagrams efficiently?
-A: Compare each pair O(n²)
-B: Use sorted string as hash key
-C: Count characters for each
-D: Random grouping
-
-D) [Missing option - Please review]
+A) Compare each pair O(n²)
+B) Use sorted string as hash key
+C) Count characters for each
+D) Random grouping
 
 ✔ Correct Answer: B
 
@@ -384,12 +350,10 @@ Subtopic: Build Tree from Traversals
 Difficulty: Hard
 
 Question: Can you uniquely construct binary tree from preorder and postorder only?
-A: Yes, always
-B: No, need inorder with one of them
-C: Yes, if tree is full binary tree
-D: Yes, with level order
-
-D) [Missing option - Please review]
+A) Yes, always
+B) No, need inorder with one of them
+C) Yes, if tree is full binary tree
+D) Yes, with level order
 
 ✔ Correct Answer: C
 
@@ -406,12 +370,10 @@ Subtopic: Jump Game
 Difficulty: Medium
 
 Question: How to determine if can reach last index jumping max arr[i] steps?
-A: Try all paths
-B: Greedy: track max reachable index
-C: BFS all positions
-D: Dynamic programming only
-
-D) [Missing option - Please review]
+A) Try all paths
+B) Greedy: track max reachable index
+C) BFS all positions
+D) Dynamic programming only
 
 ✔ Correct Answer: B
 
@@ -428,12 +390,10 @@ Subtopic: Merge K Sorted Lists
 Difficulty: Hard
 
 Question: Most efficient way to merge k sorted linked lists?
-A: Merge two at a time sequentially
-B: Use min heap with k elements
-C: Merge all into array and sort
-D: Recursion only
-
-D) [Missing option - Please review]
+A) Merge two at a time sequentially
+B) Use min heap with k elements
+C) Merge all into array and sort
+D) Recursion only
 
 ✔ Correct Answer: B
 
@@ -450,12 +410,10 @@ Subtopic: Search in Rotated Array
 Difficulty: Medium
 
 Question: How to search in rotated sorted array?
-A: Linear search O(n)
-B: Modified binary search checking which half is sorted
-C: Sort first
-D: Two pointers
-
-D) [Missing option - Please review]
+A) Linear search O(n)
+B) Modified binary search checking which half is sorted
+C) Sort first
+D) Two pointers
 
 ✔ Correct Answer: B
 
@@ -472,12 +430,10 @@ Subtopic: Word Break
 Difficulty: Medium
 
 Question: How to check if string can be segmented into dictionary words?
-A: Try all combinations
-B: DP: dp[i] = true if s[0:i] can be segmented
-C: Greedy matching
-D: Sort and search
-
-D) [Missing option - Please review]
+A) Try all combinations
+B) DP: dp[i] = true if s[0:i] can be segmented
+C) Greedy matching
+D) Sort and search
 
 ✔ Correct Answer: B
 
@@ -494,12 +450,10 @@ Subtopic: Serialize Binary Tree
 Difficulty: Hard
 
 Question: How to serialize and deserialize binary tree?
-A: Level order with null markers
-B: Inorder only
-C: Preorder only
-D: Count nodes
-
-D) [Missing option - Please review]
+A) Level order with null markers
+B) Inorder only
+C) Preorder only
+D) Count nodes
 
 ✔ Correct Answer: A
 
@@ -516,12 +470,10 @@ Subtopic: Clone Graph
 Difficulty: Medium
 
 Question: How to deep clone an undirected graph?
-A: Copy nodes only
-B: DFS/BFS with hashmap mapping old to new nodes
-C: Copy edges only
-D: Serialize and parse
-
-D) [Missing option - Please review]
+A) Copy nodes only
+B) DFS/BFS with hashmap mapping old to new nodes
+C) Copy edges only
+D) Serialize and parse
 
 ✔ Correct Answer: B
 
@@ -538,12 +490,10 @@ Subtopic: Longest Substring Without Repeating
 Difficulty: Medium
 
 Question: How to find longest substring without repeating characters?
-A: Check all substrings O(n³)
-B: Sliding window with hashset, expand/contract
-C: Sort characters
-D: Two passes
-
-D) [Missing option - Please review]
+A) Check all substrings O(n³)
+B) Sliding window with hashset, expand/contract
+C) Sort characters
+D) Two passes
 
 ✔ Correct Answer: B
 
@@ -560,12 +510,10 @@ Subtopic: Partition Labels
 Difficulty: Medium
 
 Question: How to partition string into max parts where each letter appears in only one part?
-A: Split randomly
-B: Track last occurrence of each char, extend partition to max last occurrence
-C: Sort characters
-D: Use stack
-
-D) [Missing option - Please review]
+A) Split randomly
+B) Track last occurrence of each char, extend partition to max last occurrence
+C) Sort characters
+D) Use stack
 
 ✔ Correct Answer: B
 
@@ -582,12 +530,10 @@ Subtopic: Flatten Binary Tree
 Difficulty: Medium
 
 Question: How to flatten binary tree to linked list in-place?
-A: Use extra array
-B: Morris traversal or reverse preorder with right pointer
-C: Level order
-D: Inorder only
-
-D) [Missing option - Please review]
+A) Use extra array
+B) Morris traversal or reverse preorder with right pointer
+C) Level order
+D) Inorder only
 
 ✔ Correct Answer: B
 
@@ -604,12 +550,10 @@ Subtopic: Decode Ways
 Difficulty: Medium
 
 Question: How many ways to decode numeric string where A=1, B=2, ..., Z=26?
-A: Count digits
-B: DP: dp[i] = dp[i-1] + dp[i-2] if valid two-digit
-C: Greedy
-D: Factorial
-
-D) [Missing option - Please review]
+A) Count digits
+B) DP: dp[i] = dp[i-1] + dp[i-2] if valid two-digit
+C) Greedy
+D) Factorial
 
 ✔ Correct Answer: B
 
@@ -626,12 +570,10 @@ Subtopic: Single Number II
 Difficulty: Medium
 
 Question: Find element appearing once when others appear three times?
-A: Use hashmap
-B: Bit manipulation with ones and twos variables
-C: Sort and compare
-D: XOR
-
-D) [Missing option - Please review]
+A) Use hashmap
+B) Bit manipulation with ones and twos variables
+C) Sort and compare
+D) XOR
 
 ✔ Correct Answer: B
 
@@ -648,12 +590,10 @@ Subtopic: Largest Rectangle in Histogram
 Difficulty: Hard
 
 Question: How to find largest rectangle area in histogram?
-A: Check all pairs O(n²)
-B: Stack maintaining increasing heights, calculate area on pop
-C: Divide and conquer only
-D: Greedy
-
-D) [Missing option - Please review]
+A) Check all pairs O(n²)
+B) Stack maintaining increasing heights, calculate area on pop
+C) Divide and conquer only
+D) Greedy
 
 ✔ Correct Answer: B
 
@@ -670,12 +610,10 @@ Subtopic: Word Ladder
 Difficulty: Hard
 
 Question: Shortest transformation sequence from beginWord to endWord changing one letter at a time?
-A: DFS all paths
-B: BFS treating words as graph nodes
-C: Greedy character matching
-D: Sort words
-
-D) [Missing option - Please review]
+A) DFS all paths
+B) BFS treating words as graph nodes
+C) Greedy character matching
+D) Sort words
 
 ✔ Correct Answer: B
 
@@ -692,12 +630,10 @@ Subtopic: Product Except Self
 Difficulty: Medium
 
 Question: How to compute product of array except self without division?
-A: Nested loops O(n²)
-B: Left and right product arrays
-C: Use division
-D: Impossible
-
-D) [Missing option - Please review]
+A) Nested loops O(n²)
+B) Left and right product arrays
+C) Use division
+D) Impossible
 
 ✔ Correct Answer: B
 
@@ -714,12 +650,10 @@ Subtopic: Binary Tree Maximum Path Sum
 Difficulty: Hard
 
 Question: How to find maximum path sum in binary tree?
-A: Sum all nodes
-B: Recursively compute max gain from each subtree, update global max
-C: Level order sum
-D: Preorder sum
-
-D) [Missing option - Please review]
+A) Sum all nodes
+B) Recursively compute max gain from each subtree, update global max
+C) Level order sum
+D) Preorder sum
 
 ✔ Correct Answer: B
 
@@ -736,12 +670,10 @@ Subtopic: Minimum Window Substring
 Difficulty: Hard
 
 Question: Find minimum window in s containing all characters of t?
-A: Check all substrings
-B: Sliding window with character frequency maps
-C: Sort both strings
-D: Greedy
-
-D) [Missing option - Please review]
+A) Check all substrings
+B) Sliding window with character frequency maps
+C) Sort both strings
+D) Greedy
 
 ✔ Correct Answer: B
 
@@ -758,12 +690,10 @@ Subtopic: Copy List with Random Pointer
 Difficulty: Medium
 
 Question: How to deep copy linked list with random pointers?
-A: Copy nodes only
-B: Hashmap old to new nodes, two passes
-C: Single pass impossible
-D: Ignore random pointers
-
-D) [Missing option - Please review]
+A) Copy nodes only
+B) Hashmap old to new nodes, two passes
+C) Single pass impossible
+D) Ignore random pointers
 
 ✔ Correct Answer: B
 
@@ -780,12 +710,10 @@ Subtopic: Edit Distance
 Difficulty: Hard
 
 Question: Minimum operations to convert string s to t (insert/delete/replace)?
-A: Count different characters
-B: DP: dp[i][j] = min ops for s[0:i] to t[0:j]
-C: Greedy replacement
-D: Sort and compare
-
-D) [Missing option - Please review]
+A) Count different characters
+B) DP: dp[i][j] = min ops for s[0:i] to t[0:j]
+C) Greedy replacement
+D) Sort and compare
 
 ✔ Correct Answer: B
 
@@ -802,12 +730,10 @@ Subtopic: Next Permutation
 Difficulty: Medium
 
 Question: What happens when finding next permutation of largest permutation?
-A: Return same
-B: Return smallest permutation (reverse array)
-C: Return error
-D: Return empty
-
-D) [Missing option - Please review]
+A) Return same
+B) Return smallest permutation (reverse array)
+C) Return error
+D) Return empty
 
 ✔ Correct Answer: B
 
@@ -824,12 +750,10 @@ Subtopic: Binary Tree Right Side View
 Difficulty: Medium
 
 Question: How to get right side view of binary tree?
-A: Traverse right subtree only
-B: Level order, take last node of each level
-C: Preorder traversal
-D: Inorder traversal
-
-D) [Missing option - Please review]
+A) Traverse right subtree only
+B) Level order, take last node of each level
+C) Preorder traversal
+D) Inorder traversal
 
 ✔ Correct Answer: B
 
@@ -846,12 +770,10 @@ Subtopic: Pacific Atlantic Water Flow
 Difficulty: Medium
 
 Question: Find cells where water can flow to both Pacific and Atlantic oceans?
-A: Check each cell individually
-B: DFS from ocean borders inward, find intersection
-C: BFS from center
-D: Greedy
-
-D) [Missing option - Please review]
+A) Check each cell individually
+B) DFS from ocean borders inward, find intersection
+C) BFS from center
+D) Greedy
 
 ✔ Correct Answer: B
 
@@ -868,12 +790,10 @@ Subtopic: Find Median from Data Stream
 Difficulty: Hard
 
 Question: How to maintain median as numbers are added?
-A: Sort after each insertion
-B: Two heaps: max heap for lower half, min heap for upper half
-C: Single array
-D: Binary search tree
-
-D) [Missing option - Please review]
+A) Sort after each insertion
+B) Two heaps: max heap for lower half, min heap for upper half
+C) Single array
+D) Binary search tree
 
 ✔ Correct Answer: B
 
@@ -890,12 +810,10 @@ Subtopic: Word Search II
 Difficulty: Hard
 
 Question: Find all words from dictionary in 2D board?
-A: Search each word separately
-B: Build trie of dictionary, DFS board with trie traversal
-C: Check all paths
-D: Sort board
-
-D) [Missing option - Please review]
+A) Search each word separately
+B) Build trie of dictionary, DFS board with trie traversal
+C) Check all paths
+D) Sort board
 
 ✔ Correct Answer: B
 
@@ -912,12 +830,10 @@ Subtopic: Trapping Rain Water
 Difficulty: Hard
 
 Question: How to calculate trapped rainwater in elevation map?
-A: Simulate water filling
-B: For each position, water = min(max_left, max_right) - height
-C: Sort heights
-D: Greedy
-
-D) [Missing option - Please review]
+A) Simulate water filling
+B) For each position, water = min(max_left, max_right) - height
+C) Sort heights
+D) Greedy
 
 ✔ Correct Answer: B
 
@@ -934,12 +850,10 @@ Subtopic: Longest Increasing Subsequence
 Difficulty: Medium
 
 Question: Most efficient algorithm for LIS length?
-A: DP O(n²)
-B: Binary search with patience sorting O(n log n)
-C: Greedy O(n)
-D: Backtracking
-
-D) [Missing option - Please review]
+A) DP O(n²)
+B) Binary search with patience sorting O(n log n)
+C) Greedy O(n)
+D) Backtracking
 
 ✔ Correct Answer: B
 
@@ -956,12 +870,10 @@ Subtopic: Valid Parentheses
 Difficulty: Easy
 
 Question: How to check if parentheses string is valid?
-A: Count opening and closing
-B: Stack: push opening, pop on closing, match types
-C: Recursion
-D: Two pointers
-
-D) [Missing option - Please review]
+A) Count opening and closing
+B) Stack: push opening, pop on closing, match types
+C) Recursion
+D) Two pointers
 
 ✔ Correct Answer: B
 
@@ -978,12 +890,10 @@ Subtopic: Alien Dictionary
 Difficulty: Hard
 
 Question: How to derive alien language character order from sorted words?
-A: Compare all word pairs
-B: Build graph from adjacent word pairs, topological sort
-C: Count character frequency
-D: Alphabetical order
-
-D) [Missing option - Please review]
+A) Compare all word pairs
+B) Build graph from adjacent word pairs, topological sort
+C) Count character frequency
+D) Alphabetical order
 
 ✔ Correct Answer: B
 
@@ -1000,12 +910,10 @@ Subtopic: Kth Smallest in BST
 Difficulty: Medium
 
 Question: How to find kth smallest element in BST?
-A: Inorder traversal, return kth element
-B: Level order traversal
-C: Preorder traversal
-D: Count all nodes
-
-D) [Missing option - Please review]
+A) Inorder traversal, return kth element
+B) Level order traversal
+C) Preorder traversal
+D) Count all nodes
 
 ✔ Correct Answer: A
 
@@ -1022,12 +930,10 @@ Subtopic: Find Peak Element
 Difficulty: Medium
 
 Question: How to find peak element in O(log n)?
-A: Linear scan
-B: Binary search: if mid > mid+1, peak in left half
-C: Sort array
-D: Two pointers
-
-D) [Missing option - Please review]
+A) Linear scan
+B) Binary search: if mid > mid+1, peak in left half
+C) Sort array
+D) Two pointers
 
 ✔ Correct Answer: B
 
@@ -1044,12 +950,10 @@ Subtopic: House Robber
 Difficulty: Easy
 
 Question: Maximum money robbing houses without robbing adjacent ones?
-A: Rob all houses
-B: DP: dp[i] = max(dp[i-1], dp[i-2] + nums[i])
-C: Rob every other house
-D: Greedy largest values
-
-D) [Missing option - Please review]
+A) Rob all houses
+B) DP: dp[i] = max(dp[i-1], dp[i-2] + nums[i])
+C) Rob every other house
+D) Greedy largest values
 
 ✔ Correct Answer: B
 
@@ -1066,12 +970,10 @@ Subtopic: Longest Common Subsequence
 Difficulty: Medium
 
 Question: How to find LCS length of two strings?
-A: Check all subsequences
-B: DP: dp[i][j] = LCS of s1[0:i] and s2[0:j]
-C: Greedy matching
-D: Sort and compare
-
-D) [Missing option - Please review]
+A) Check all subsequences
+B) DP: dp[i][j] = LCS of s1[0:i] and s2[0:j]
+C) Greedy matching
+D) Sort and compare
 
 ✔ Correct Answer: B
 
@@ -1088,12 +990,10 @@ Subtopic: Surrounded Regions
 Difficulty: Medium
 
 Question: How to capture surrounded regions in board?
-A: Check each region separately
-B: DFS from borders marking non-captured, flip remaining
-C: BFS from center
-D: Count regions
-
-D) [Missing option - Please review]
+A) Check each region separately
+B) DFS from borders marking non-captured, flip remaining
+C) BFS from center
+D) Count regions
 
 ✔ Correct Answer: B
 
@@ -1110,12 +1010,10 @@ Subtopic: Sort List
 Difficulty: Medium
 
 Question: How to sort linked list in O(n log n) time O(1) space?
-A: Convert to array and sort
-B: Merge sort with slow/fast pointers to find middle
-C: Bubble sort
-D: Insertion sort
-
-D) [Missing option - Please review]
+A) Convert to array and sort
+B) Merge sort with slow/fast pointers to find middle
+C) Bubble sort
+D) Insertion sort
 
 ✔ Correct Answer: B
 
@@ -1132,12 +1030,10 @@ Subtopic: Maximum Product Subarray
 Difficulty: Medium
 
 Question: How to find maximum product of contiguous subarray?
-A: Check all subarrays
-B: Track both max and min products (negatives can flip)
-C: Greedy largest values
-D: Sort array
-
-D) [Missing option - Please review]
+A) Check all subarrays
+B) Track both max and min products (negatives can flip)
+C) Greedy largest values
+D) Sort array
 
 ✔ Correct Answer: B
 
@@ -1154,12 +1050,10 @@ Subtopic: Count Complete Tree Nodes
 Difficulty: Medium
 
 Question: How to count nodes in complete binary tree better than O(n)?
-A: Traverse all nodes
-B: Check if perfect tree, else recurse on subtrees, O(log²n)
-C: Level order count
-D: Impossible
-
-D) [Missing option - Please review]
+A) Traverse all nodes
+B) Check if perfect tree, else recurse on subtrees, O(log²n)
+C) Level order count
+D) Impossible
 
 ✔ Correct Answer: B
 
@@ -1176,12 +1070,10 @@ Subtopic: Majority Element II
 Difficulty: Medium
 
 Question: Find all elements appearing more than n/3 times?
-A: Hashmap counting
-B: Boyer-Moore voting with two candidates
-C: Sort and count
-D: Nested loops
-
-D) [Missing option - Please review]
+A) Hashmap counting
+B) Boyer-Moore voting with two candidates
+C) Sort and count
+D) Nested loops
 
 ✔ Correct Answer: B
 
@@ -1198,12 +1090,10 @@ Subtopic: Evaluate Division
 Difficulty: Medium
 
 Question: Given equations a/b=k, how to evaluate queries?
-A: Solve algebraically
-B: Build weighted graph, DFS/BFS to find path product
-C: Store all ratios
-D: Matrix multiplication
-
-D) [Missing option - Please review]
+A) Solve algebraically
+B) Build weighted graph, DFS/BFS to find path product
+C) Store all ratios
+D) Matrix multiplication
 
 ✔ Correct Answer: B
 
@@ -1219,12 +1109,10 @@ Subtopic: Interleaving String
 Difficulty: Hard
 
 Question: Check if s3 is interleaving of s1 and s2?
-A: Try all combinations
-B: DP: dp[i][j] = true if s3[0:i+j] is interleaving of s1[0:i] and s2[0:j]
-C: Merge and compare
-D: Greedy matching
-
-D) [Missing option - Please review]
+A) Try all combinations
+B) DP: dp[i][j] = true if s3[0:i+j] is interleaving of s1[0:i] and s2[0:j]
+C) Merge and compare
+D) Greedy matching
 
 ✔ Correct Answer: B
 
@@ -1241,12 +1129,10 @@ Subtopic: Construct from Inorder and Postorder
 Difficulty: Medium
 
 Question: How to build binary tree from inorder and postorder?
-A: Random construction
-B: Last postorder element is root, find in inorder to split subtrees
-C: First postorder is root
-D: Impossible
-
-D) [Missing option - Please review]
+A) Random construction
+B) Last postorder element is root, find in inorder to split subtrees
+C) First postorder is root
+D) Impossible
 
 ✔ Correct Answer: B
 
@@ -1263,12 +1149,10 @@ Subtopic: Bitwise AND of Range
 Difficulty: Medium
 
 Question: Bitwise AND of all numbers in range [m,n]?
-A: Iterate and AND all
-B: Find common prefix of m and n in binary
-C: AND m and n only
-D: XOR operation
-
-D) [Missing option - Please review]
+A) Iterate and AND all
+B) Find common prefix of m and n in binary
+C) AND m and n only
+D) XOR operation
 
 ✔ Correct Answer: B
 
@@ -1285,12 +1169,10 @@ Subtopic: Basic Calculator
 Difficulty: Hard
 
 Question: How to implement calculator with +, -, (, )?
-A: Evaluate left to right
-B: Stack for numbers and operators, handle precedence and parentheses
-C: Convert to postfix first
-D: Recursion only
-
-D) [Missing option - Please review]
+A) Evaluate left to right
+B) Stack for numbers and operators, handle precedence and parentheses
+C) Convert to postfix first
+D) Recursion only
 
 ✔ Correct Answer: B
 
@@ -1307,12 +1189,10 @@ Subtopic: Gas Station
 Difficulty: Medium
 
 Question: Find starting gas station to complete circular route?
-A: Try each station
-B: Track total and current surplus, start where current goes negative
-C: Greedy largest gas
-D: Binary search
-
-D) [Missing option - Please review]
+A) Try each station
+B) Track total and current surplus, start where current goes negative
+C) Greedy largest gas
+D) Binary search
 
 ✔ Correct Answer: B
 
@@ -1329,12 +1209,10 @@ Subtopic: Palindrome Partitioning
 Difficulty: Medium
 
 Question: How to partition string into all palindromic substrings?
-A: Check all partitions
-B: Backtrack with palindrome checking, build partitions
-C: Greedy longest palindromes
-D: Dynamic programming only
-
-D) [Missing option - Please review]
+A) Check all partitions
+B) Backtrack with palindrome checking, build partitions
+C) Greedy longest palindromes
+D) Dynamic programming only
 
 ✔ Correct Answer: B
 
@@ -1351,12 +1229,10 @@ Subtopic: Network Delay Time
 Difficulty: Medium
 
 Question: Minimum time for signal to reach all nodes from source?
-A: BFS unweighted
-B: Dijkstra's algorithm for shortest paths
-C: DFS
-D: Count edges
-
-D) [Missing option - Please review]
+A) BFS unweighted
+B) Dijkstra's algorithm for shortest paths
+C) DFS
+D) Count edges
 
 ✔ Correct Answer: B
 
@@ -1373,12 +1249,10 @@ Subtopic: Vertical Order Traversal
 Difficulty: Hard
 
 Question: How to perform vertical order traversal of binary tree?
-A: Inorder traversal
-B: Assign column indices, use hashmap, sort by column then row then value
-C: Level order only
-D: Preorder traversal
-
-D) [Missing option - Please review]
+A) Inorder traversal
+B) Assign column indices, use hashmap, sort by column then row then value
+C) Level order only
+D) Preorder traversal
 
 ✔ Correct Answer: B
 
@@ -1395,12 +1269,10 @@ Subtopic: Burst Balloons
 Difficulty: Hard
 
 Question: Maximum coins from bursting balloons where coins = nums[i-1]*nums[i]*nums[i+1]?
-A: Greedy burst smallest
-B: DP: dp[i][j] = max coins bursting balloons between i and j, try each as last
-C: Burst randomly
-D: Sort and burst
-
-D) [Missing option - Please review]
+A) Greedy burst smallest
+B) DP: dp[i][j] = max coins bursting balloons between i and j, try each as last
+C) Burst randomly
+D) Sort and burst
 
 ✔ Correct Answer: B
 
@@ -1417,12 +1289,10 @@ Subtopic: Reorder List
 Difficulty: Medium
 
 Question: Reorder list L0→L1→...→Ln to L0→Ln→L1→Ln-1→...?
-A: Use extra array
-B: Find middle, reverse second half, merge alternately
-C: Recursion only
-D: Swap adjacent
-
-D) [Missing option - Please review]
+A) Use extra array
+B) Find middle, reverse second half, merge alternately
+C) Recursion only
+D) Swap adjacent
 
 ✔ Correct Answer: B
 
@@ -1439,12 +1309,10 @@ Subtopic: Sliding Window Maximum
 Difficulty: Hard
 
 Question: Maximum of each sliding window of size k?
-A: Max of each window O(n*k)
-B: Deque maintaining decreasing elements
-C: Heap for each window
-D: Sort each window
-
-D) [Missing option - Please review]
+A) Max of each window O(n*k)
+B) Deque maintaining decreasing elements
+C) Heap for each window
+D) Sort each window
 
 ✔ Correct Answer: B
 
@@ -1461,12 +1329,10 @@ Subtopic: Redundant Connection
 Difficulty: Medium
 
 Question: Find edge that creates cycle in undirected graph?
-A: DFS from each edge
-B: Union-Find, return edge that connects already connected nodes
-C: BFS
-D: Count degrees
-
-D) [Missing option - Please review]
+A) DFS from each edge
+B) Union-Find, return edge that connects already connected nodes
+C) BFS
+D) Count degrees
 
 ✔ Correct Answer: B
 
@@ -1483,12 +1349,10 @@ Subtopic: Binary Tree Cameras
 Difficulty: Hard
 
 Question: Minimum cameras to monitor all nodes (camera covers node, parent, children)?
-A: Place on all nodes
-B: Greedy post-order: place camera when child uncovered
-C: Place on leaves
-D: Random placement
-
-D) [Missing option - Please review]
+A) Place on all nodes
+B) Greedy post-order: place camera when child uncovered
+C) Place on leaves
+D) Random placement
 
 ✔ Correct Answer: B
 
@@ -1505,12 +1369,10 @@ Subtopic: Regular Expression Matching
 Difficulty: Hard
 
 Question: Implement regex matching with . and * operators?
-A: String comparison
-B: DP: dp[i][j] = match of s[0:i] and p[0:j]
-C: Greedy matching
-D: Backtracking only
-
-D) [Missing option - Please review]
+A) String comparison
+B) DP: dp[i][j] = match of s[0:i] and p[0:j]
+C) Greedy matching
+D) Backtracking only
 
 ✔ Correct Answer: B
 
@@ -1527,12 +1389,10 @@ Subtopic: First Missing Positive
 Difficulty: Hard
 
 Question: Find first missing positive integer in O(n) time O(1) space?
-A: Sort array
-B: Use array indices as hash, place each num at index num-1
-C: Use hashset
-D: Linear scan
-
-D) [Missing option - Please review]
+A) Sort array
+B) Use array indices as hash, place each num at index num-1
+C) Use hashset
+D) Linear scan
 
 ✔ Correct Answer: B
 
@@ -1549,12 +1409,10 @@ Subtopic: Simplify Path
 Difficulty: Medium
 
 Question: How to simplify Unix file path?
-A: String replacement
-B: Split by '/', use stack, push dirs, pop on '..'
-C: Remove all dots
-D: Reverse path
-
-D) [Missing option - Please review]
+A) String replacement
+B) Split by '/', use stack, push dirs, pop on '..'
+C) Remove all dots
+D) Reverse path
 
 ✔ Correct Answer: B
 
@@ -1571,12 +1429,10 @@ Subtopic: Accounts Merge
 Difficulty: Medium
 
 Question: How to merge accounts with common emails?
-A: Compare all pairs
-B: Union-Find on emails, group by component
-C: Sort emails
-D: Hashmap only
-
-D) [Missing option - Please review]
+A) Compare all pairs
+B) Union-Find on emails, group by component
+C) Sort emails
+D) Hashmap only
 
 ✔ Correct Answer: B
 
@@ -1593,12 +1449,10 @@ Subtopic: All Nodes Distance K
 Difficulty: Medium
 
 Question: Find all nodes at distance K from target in binary tree?
-A: BFS from target only
-B: Build parent pointers, BFS treating as undirected graph
-C: Level order from root
-D: Preorder traversal
-
-D) [Missing option - Please review]
+A) BFS from target only
+B) Build parent pointers, BFS treating as undirected graph
+C) Level order from root
+D) Preorder traversal
 
 ✔ Correct Answer: B
 
@@ -1615,12 +1469,10 @@ Subtopic: Distinct Subsequences
 Difficulty: Hard
 
 Question: Count distinct subsequences of s that equal t?
-A: Generate all subsequences
-B: DP: dp[i][j] = count for s[0:i] and t[0:j]
-C: Greedy matching
-D: Backtracking
-
-D) [Missing option - Please review]
+A) Generate all subsequences
+B) DP: dp[i][j] = count for s[0:i] and t[0:j]
+C) Greedy matching
+D) Backtracking
 
 ✔ Correct Answer: B
 
@@ -1637,12 +1489,10 @@ Subtopic: Longest Consecutive Sequence
 Difficulty: Medium
 
 Question: Find longest consecutive sequence in unsorted array in O(n)?
-A: Sort first O(n log n)
-B: HashSet, for each sequence start, count length
-C: Nested loops
-D: Binary search
-
-D) [Missing option - Please review]
+A) Sort first O(n log n)
+B) HashSet, for each sequence start, count length
+C) Nested loops
+D) Binary search
 
 ✔ Correct Answer: B
 
@@ -1659,12 +1509,10 @@ Subtopic: Wildcard Matching
 Difficulty: Hard
 
 Question: Implement wildcard matching with ? and * operators?
-A: String comparison
-B: DP: dp[i][j] = match of s[0:i] and p[0:j], handle * matching zero or more
-C: Greedy
-D: Regex library
-
-D) [Missing option - Please review]
+A) String comparison
+B) DP: dp[i][j] = match of s[0:i] and p[0:j], handle * matching zero or more
+C) Greedy
+D) Regex library
 
 ✔ Correct Answer: B
 
@@ -1681,12 +1529,10 @@ Subtopic: Minimum Height Trees
 Difficulty: Medium
 
 Question: Find roots that minimize tree height in undirected graph?
-A: Try each node as root
-B: Trim leaves iteratively, remaining nodes are centers
-C: BFS from random node
-D: DFS all paths
-
-D) [Missing option - Please review]
+A) Try each node as root
+B) Trim leaves iteratively, remaining nodes are centers
+C) BFS from random node
+D) DFS all paths
 
 ✔ Correct Answer: B
 
@@ -1703,12 +1549,10 @@ Subtopic: Sum Root to Leaf Numbers
 Difficulty: Medium
 
 Question: How to sum all root-to-leaf numbers in binary tree?
-A: DFS tracking current number, add at leaves
-B: Level order sum
-C: Inorder traversal
-D: Count nodes
-
-D) [Missing option - Please review]
+A) DFS tracking current number, add at leaves
+B) Level order sum
+C) Inorder traversal
+D) Count nodes
 
 ✔ Correct Answer: A
 
@@ -1725,12 +1569,10 @@ Subtopic: Scramble String
 Difficulty: Hard
 
 Question: Check if s2 is scrambled version of s1 (binary tree scrambling)?
-A: Compare sorted strings
-B: DP/Recursion: try all split points, check if scrambled
-C: Character count
-D: Reverse string
-
-D) [Missing option - Please review]
+A) Compare sorted strings
+B) DP/Recursion: try all split points, check if scrambled
+C) Character count
+D) Reverse string
 
 ✔ Correct Answer: B
 
@@ -1747,12 +1589,10 @@ Subtopic: Maximum Gap
 Difficulty: Hard
 
 Question: Find maximum gap between sorted elements in O(n) time?
-A: Sort and compare O(n log n)
-B: Bucket sort: gap must be >= ceiling((max-min)/(n-1))
-C: Linear scan
-D: Heap
-
-D) [Missing option - Please review]
+A) Sort and compare O(n log n)
+B) Bucket sort: gap must be >= ceiling((max-min)/(n-1))
+C) Linear scan
+D) Heap
 
 ✔ Correct Answer: B
 
@@ -1769,12 +1609,10 @@ Subtopic: Critical Connections
 Difficulty: Hard
 
 Question: Find critical connections (bridges) in network?
-A: Remove each edge and check connectivity
-B: Tarjan's algorithm with DFS and low-link values
-C: BFS from each node
-D: Count degrees
-
-D) [Missing option - Please review]
+A) Remove each edge and check connectivity
+B) Tarjan's algorithm with DFS and low-link values
+C) BFS from each node
+D) Count degrees
 
 ✔ Correct Answer: B
 
@@ -1791,12 +1629,10 @@ Subtopic: Shortest Palindrome
 Difficulty: Hard
 
 Question: Find shortest palindrome by adding characters to front?
-A: Add reverse of string
-B: Find longest palindromic prefix using KMP, add remaining reversed
-C: Check all possibilities
-D: Add one character
-
-D) [Missing option - Please review]
+A) Add reverse of string
+B) Find longest palindromic prefix using KMP, add remaining reversed
+C) Check all possibilities
+D) Add one character
 
 ✔ Correct Answer: B
 
@@ -1813,12 +1649,10 @@ Subtopic: Recover BST
 Difficulty: Hard
 
 Question: Two nodes swapped in BST, how to recover?
-A: Rebuild tree
-B: Inorder traversal finds two violations, swap them back
-C: Level order fix
-D: Preorder fix
-
-D) [Missing option - Please review]
+A) Rebuild tree
+B) Inorder traversal finds two violations, swap them back
+C) Level order fix
+D) Preorder fix
 
 ✔ Correct Answer: B
 
@@ -1835,12 +1669,10 @@ Subtopic: Maximal Rectangle
 Difficulty: Hard
 
 Question: Find largest rectangle of 1s in binary matrix?
-A: Check all rectangles
-B: Convert to histogram problem for each row
-C: Count 1s
-D: Greedy
-
-D) [Missing option - Please review]
+A) Check all rectangles
+B) Convert to histogram problem for each row
+C) Count 1s
+D) Greedy
 
 ✔ Correct Answer: B
 
@@ -1857,12 +1689,10 @@ Subtopic: Best Time to Buy and Sell Stock III
 Difficulty: Hard
 
 Question: Maximum profit with at most 2 transactions?
-A: Try all combinations
-B: DP tracking max profit after each transaction state
-C: Greedy two largest gains
-D: Sort prices
-
-D) [Missing option - Please review]
+A) Try all combinations
+B) DP tracking max profit after each transaction state
+C) Greedy two largest gains
+D) Sort prices
 
 ✔ Correct Answer: B
 
@@ -1879,12 +1709,10 @@ Subtopic: Text Justification
 Difficulty: Hard
 
 Question: How to justify text with maxWidth?
-A: Add spaces randomly
-B: Distribute spaces evenly, left-justify last line
-C: Center align all
-D: Right align
-
-D) [Missing option - Please review]
+A) Add spaces randomly
+B) Distribute spaces evenly, left-justify last line
+C) Center align all
+D) Right align
 
 ✔ Correct Answer: B
 
@@ -1901,12 +1729,10 @@ Subtopic: Cheapest Flights Within K Stops
 Difficulty: Medium
 
 Question: Find cheapest flight with at most K stops?
-A: Dijkstra's algorithm
-B: BFS with price tracking, limit depth to K+1
-C: DFS all paths
-D: Greedy shortest path
-
-D) [Missing option - Please review]
+A) Dijkstra's algorithm
+B) BFS with price tracking, limit depth to K+1
+C) DFS all paths
+D) Greedy shortest path
 
 ✔ Correct Answer: B
 
@@ -1923,12 +1749,10 @@ Subtopic: Binary Tree Maximum Width
 Difficulty: Medium
 
 Question: How to find maximum width of binary tree?
-A: Count all nodes
-B: Level order with position indices, width = max - min + 1
-C: Count leaves
-D: Height of tree
-
-D) [Missing option - Please review]
+A) Count all nodes
+B) Level order with position indices, width = max - min + 1
+C) Count leaves
+D) Height of tree
 
 ✔ Correct Answer: B
 
@@ -1945,12 +1769,10 @@ Subtopic: Stone Game
 Difficulty: Medium
 
 Question: Two players pick stones from ends, can first player always win with even piles?
-A: Depends on values
-B: Yes, first player can always choose all even or all odd indices
-C: No
-D: Random
-
-D) [Missing option - Please review]
+A) Depends on values
+B) Yes, first player can always choose all even or all odd indices
+C) No
+D) Random
 
 ✔ Correct Answer: B
 
@@ -1967,12 +1789,10 @@ Subtopic: Subarray Sum Equals K
 Difficulty: Medium
 
 Question: Count subarrays with sum equal to k?
-A: Check all subarrays O(n²)
-B: Prefix sum with hashmap tracking frequencies
-C: Sort array
-D: Two pointers
-
-D) [Missing option - Please review]
+A) Check all subarrays O(n²)
+B) Prefix sum with hashmap tracking frequencies
+C) Sort array
+D) Two pointers
 
 ✔ Correct Answer: B
 
@@ -1989,12 +1809,10 @@ Subtopic: Longest Palindromic Subsequence
 Difficulty: Medium
 
 Question: How to find LPS length?
-A: Check all subsequences
-B: DP: dp[i][j] = LPS length in s[i:j], or LCS of s and reverse(s)
-C: Greedy
-D: Expand around centers
-
-D) [Missing option - Please review]
+A) Check all subsequences
+B) DP: dp[i][j] = LPS length in s[i:j], or LCS of s and reverse(s)
+C) Greedy
+D) Expand around centers
 
 ✔ Correct Answer: B
 
@@ -2011,12 +1829,10 @@ Subtopic: Swim in Rising Water
 Difficulty: Hard
 
 Question: Minimum time to swim from top-left to bottom-right as water rises?
-A: BFS shortest path
-B: Binary search on time + BFS, or Dijkstra with max height as cost
-C: DFS all paths
-D: Greedy
-
-D) [Missing option - Please review]
+A) BFS shortest path
+B) Binary search on time + BFS, or Dijkstra with max height as cost
+C) DFS all paths
+D) Greedy
 
 ✔ Correct Answer: B
 
@@ -2033,12 +1849,10 @@ Subtopic: Distribute Coins in Binary Tree
 Difficulty: Medium
 
 Question: Minimum moves to distribute coins so each node has one?
-A: Count total coins
-B: Post-order: moves = sum of |balance| of children
-C: Level order distribution
-D: Preorder distribution
-
-D) [Missing option - Please review]
+A) Count total coins
+B) Post-order: moves = sum of |balance| of children
+C) Level order distribution
+D) Preorder distribution
 
 ✔ Correct Answer: B
 
@@ -2055,12 +1869,10 @@ Subtopic: Minimum Cost Tree From Leaf Values
 Difficulty: Medium
 
 Question: Build tree minimizing sum of non-leaf values (node.val = max of leaves in subtree)?
-A: Random tree
-B: Greedy or DP: merge smallest adjacent leaves first
-C: Balanced tree
-D: Left-skewed tree
-
-D) [Missing option - Please review]
+A) Random tree
+B) Greedy or DP: merge smallest adjacent leaves first
+C) Balanced tree
+D) Left-skewed tree
 
 ✔ Correct Answer: B
 
@@ -2077,12 +1889,10 @@ Subtopic: Minimum Window Subsequence
 Difficulty: Hard
 
 Question: Find minimum window in S containing T as subsequence?
-A: Check all windows
-B: Two pointers: expand to find T, contract to minimize
-C: Dynamic programming
-D: Sort strings
-
-D) [Missing option - Please review]
+A) Check all windows
+B) Two pointers: expand to find T, contract to minimize
+C) Dynamic programming
+D) Sort strings
 
 ✔ Correct Answer: B
 
@@ -2099,12 +1909,10 @@ Subtopic: Bus Routes
 Difficulty: Hard
 
 Question: Minimum buses to reach target stop from source?
-A: BFS on stops
-B: BFS on bus routes (nodes are buses, edges if share stop)
-C: DFS all routes
-D: Greedy nearest
-
-D) [Missing option - Please review]
+A) BFS on stops
+B) BFS on bus routes (nodes are buses, edges if share stop)
+C) DFS all routes
+D) Greedy nearest
 
 ✔ Correct Answer: B
 
@@ -2121,12 +1929,10 @@ Subtopic: Palindrome Pairs
 Difficulty: Hard
 
 Question: Find all pairs of words that concatenate to palindrome?
-A: Check all pairs O(n²*k)
-B: Trie with reverse lookup, check prefixes and suffixes
-C: Sort and compare
-D: Hashmap only
-
-D) [Missing option - Please review]
+A) Check all pairs O(n²*k)
+B) Trie with reverse lookup, check prefixes and suffixes
+C) Sort and compare
+D) Hashmap only
 
 ✔ Correct Answer: B
 
@@ -2143,12 +1949,10 @@ Subtopic: Maximum Binary Tree
 Difficulty: Medium
 
 Question: How to construct maximum binary tree from array (root is max, recurse on left/right)?
-A: Random construction
-B: Find max as root, recursively build left and right subtrees
-C: Inorder construction
-D: Level order construction
-
-D) [Missing option - Please review]
+A) Random construction
+B) Find max as root, recursively build left and right subtrees
+C) Inorder construction
+D) Level order construction
 
 ✔ Correct Answer: B
 
@@ -2165,12 +1969,10 @@ Subtopic: Cherry Pickup
 Difficulty: Hard
 
 Question: Maximum cherries collecting going down then up in grid?
-A: Two separate paths
-B: DP: two people going down simultaneously
-C: Greedy path
-D: BFS
-
-D) [Missing option - Please review]
+A) Two separate paths
+B) DP: two people going down simultaneously
+C) Greedy path
+D) BFS
 
 ✔ Correct Answer: B
 
@@ -2187,12 +1989,10 @@ Subtopic: Count of Range Sum
 Difficulty: Hard
 
 Question: Count range sums in [lower, upper] in array?
-A: Check all subarrays O(n²)
-B: Merge sort with prefix sums counting inversions
-C: Segment tree
-D: Binary search
-
-D) [Missing option - Please review]
+A) Check all subarrays O(n²)
+B) Merge sort with prefix sums counting inversions
+C) Segment tree
+D) Binary search
 
 ✔ Correct Answer: B
 

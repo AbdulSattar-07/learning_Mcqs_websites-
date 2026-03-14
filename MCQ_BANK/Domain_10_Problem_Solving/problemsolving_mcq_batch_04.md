@@ -120,8 +120,6 @@ Question: If "Being a mammal is necessary for being a dog", what does this mean?
 A) All mammals are dogs
 B) All dogs are mammals
 C) No relationship
-C) [Missing option - Please review]
-
 D) Random statement
 
 ✔ Correct Answer: B
@@ -142,7 +140,7 @@ Question: What is early exit optimization?
 
 A) Never exit
 B) Exiting loop/function as soon as result is found
-C: Always complete all iterations
+C) Always complete all iterations
 D) Random exit
 
 ✔ Correct Answer: B
@@ -912,9 +910,7 @@ Question: What is lazy evaluation?
 
 A) Immediate evaluation
 B) Delaying computation until result is needed
-C: Random evaluation
-C) [Missing option - Please review]
-
+C) Random evaluation
 D) No evaluation
 
 ✔ Correct Answer: B
@@ -1145,9 +1141,7 @@ Question: Why does rubber duck debugging work?
 
 A) Magic
 B) Explaining forces clear thinking and reveals assumptions
-C: Ducks are smart
-C) [Missing option - Please review]
-
+C) Ducks are smart
 D) No reason
 
 ✔ Correct Answer: B
@@ -1398,9 +1392,7 @@ Difficulty: Hard
 Question: What is the circuit breaker pattern?
 
 A) Electrical circuit
-B: Preventing cascading failures by stopping requests to failing service
-B) [Missing option - Please review]
-
+B) Preventing cascading failures by stopping requests to failing service
 C) No pattern
 D) Random pattern
 
@@ -1463,9 +1455,7 @@ Difficulty: Medium
 Question: What is the difference between satisficing and optimizing?
 
 A) No difference
-B: Satisficing finds acceptable solution, optimizing finds best solution
-B) [Missing option - Please review]
-
+B) Satisficing finds acceptable solution, optimizing finds best solution
 C) Same approach
 D) Random difference
 
@@ -1507,9 +1497,7 @@ Difficulty: Medium
 Question: What is impact analysis?
 
 A) Random analysis
-B: Assessing effects of proposed changes
-B) [Missing option - Please review]
-
+B) Assessing effects of proposed changes
 C) No analysis
 D) Final testing
 
@@ -1530,11 +1518,9 @@ Difficulty: Medium
 Question: Why is dependency mapping important?
 
 A) It's not important
-B: Identifies relationships and potential bottlenecks
-C: Wastes time
-D: No reason
-
-D) [Missing option - Please review]
+B) Identifies relationships and potential bottlenecks
+C) Wastes time
+D) No reason
 
 ✔ Correct Answer: B
 
@@ -1553,11 +1539,9 @@ Difficulty: Medium
 Question: What is a straw man fallacy?
 
 A) Valid argument
-B: Misrepresenting opponent's argument to make it easier to attack
-C: Strong argument
-D: No fallacy
-
-D) [Missing option - Please review]
+B) Misrepresenting opponent's argument to make it easier to attack
+C) Strong argument
+D) No fallacy
 
 ✔ Correct Answer: B
 
@@ -1576,11 +1560,9 @@ Difficulty: Medium
 Question: What is a slippery slope fallacy?
 
 A) Valid reasoning
-B: Claiming one event will lead to extreme consequences without evidence
-C: Logical progression
-D: No fallacy
-
-D) [Missing option - Please review]
+B) Claiming one event will lead to extreme consequences without evidence
+C) Logical progression
+D) No fallacy
 
 ✔ Correct Answer: B
 
@@ -1599,11 +1581,9 @@ Difficulty: Hard
 Question: What is tail recursion?
 
 A) Random recursion
-B: Recursive call is the last operation in function
-C: First operation
-D: No recursion
-
-D) [Missing option - Please review]
+B) Recursive call is the last operation in function
+C) First operation
+D) No recursion
 
 ✔ Correct Answer: B
 
@@ -1622,11 +1602,9 @@ Difficulty: Hard
 Question: What is mutual recursion?
 
 A) Single function recursion
-B: Two or more functions calling each other recursively
-C: No recursion
-D: Random calls
-
-D) [Missing option - Please review]
+B) Two or more functions calling each other recursively
+C) No recursion
+D) Random calls
 
 ✔ Correct Answer: B
 
@@ -1708,9 +1686,7 @@ Difficulty: Hard
 Question: What defines Hofstadter's Q-sequence?
 
 A) Linear growth
-B: Q(n) = Q(n - Q(n-1)) + Q(n - Q(n-2))
-B) [Missing option - Please review]
-
+B) Q(n) = Q(n - Q(n-1)) + Q(n - Q(n-2))
 C) Exponential growth
 D) Random values
 
@@ -1773,9 +1749,7 @@ Difficulty: Hard
 Question: What problem does the Dutch National Flag algorithm solve?
 
 A) Searching
-B: Partitioning array into three groups
-B) [Missing option - Please review]
-
+B) Partitioning array into three groups
 C) Sorting completely
 D) No problem
 
@@ -1796,9 +1770,7 @@ Difficulty: Hard
 Question: What does Boyer-Moore majority vote algorithm find?
 
 A) Minimum element
-B: Element appearing more than n/2 times
-B) [Missing option - Please review]
-
+B) Element appearing more than n/2 times
 C) All elements
 D) Random element
 
@@ -1819,9 +1791,7 @@ Difficulty: Medium
 Question: What is the Dunning-Kruger effect?
 
 A) Expert confidence
-B: Incompetent people overestimate their ability
-B) [Missing option - Please review]
-
+B) Incompetent people overestimate their ability
 C) Accurate self-assessment
 D) No effect
 
@@ -1842,11 +1812,9 @@ Difficulty: Medium
 Question: What is imposter syndrome?
 
 A) Overconfidence
-B: Doubting abilities despite evidence of competence
-C: Accurate assessment
-D: No syndrome
-
-D) [Missing option - Please review]
+B) Doubting abilities despite evidence of competence
+C) Accurate assessment
+D) No syndrome
 
 ✔ Correct Answer: B
 
@@ -1865,11 +1833,9 @@ Difficulty: Medium
 Question: What is canary testing?
 
 A) Testing all users
-B: Releasing to small subset before full rollout
-C: No testing
-D: Final testing
-
-D) [Missing option - Please review]
+B) Releasing to small subset before full rollout
+C) No testing
+D) Final testing
 
 ✔ Correct Answer: B
 
@@ -1888,11 +1854,9 @@ Difficulty: Medium
 Question: What is blue-green deployment?
 
 A) Color scheme
-B: Running two identical environments for zero-downtime deployment
-C: Single environment
-D: No deployment
-
-D) [Missing option - Please review]
+B) Running two identical environments for zero-downtime deployment
+C) Single environment
+D) No deployment
 
 ✔ Correct Answer: B
 
@@ -1911,11 +1875,9 @@ Difficulty: Hard
 Question: What are cache-oblivious algorithms?
 
 A) Ignore cache
-B: Efficient without knowing cache parameters
-C: Require cache knowledge
-D: No algorithms
-
-D) [Missing option - Please review]
+B) Efficient without knowing cache parameters
+C) Require cache knowledge
+D) No algorithms
 
 ✔ Correct Answer: B
 
@@ -1934,11 +1896,9 @@ Difficulty: Hard
 Question: What is an online algorithm?
 
 A) Internet-based
-B: Processes input piece-by-piece without future knowledge
-C: Knows all input upfront
-D: No algorithm
-
-D) [Missing option - Please review]
+B) Processes input piece-by-piece without future knowledge
+C) Knows all input upfront
+D) No algorithm
 
 ✔ Correct Answer: B
 
@@ -1957,11 +1917,9 @@ Difficulty: Hard
 Question: What is the purpose of context managers (with statement)?
 
 A) Random use
-B: Ensure proper resource acquisition and release
-C: Speed up code
-D: No purpose
-
-D) [Missing option - Please review]
+B) Ensure proper resource acquisition and release
+C) Speed up code
+D) No purpose
 
 ✔ Correct Answer: B
 
@@ -1980,11 +1938,9 @@ Difficulty: Medium
 Question: Why are list comprehensions often faster than loops?
 
 A) They're not faster
-B: Optimized at C level in Python
-C: Use more memory
-D: Random reason
-
-D) [Missing option - Please review]
+B) Optimized at C level in Python
+C) Use more memory
+D) Random reason
 
 ✔ Correct Answer: B
 
@@ -2003,11 +1959,9 @@ Difficulty: Hard
 Question: What is a Type I error?
 
 A) Correct decision
-B: False positive - rejecting true null hypothesis
-C: False negative
-D: No error
-
-D) [Missing option - Please review]
+B) False positive - rejecting true null hypothesis
+C) False negative
+D) No error
 
 ✔ Correct Answer: B
 
@@ -2026,11 +1980,9 @@ Difficulty: Hard
 Question: What is a Type II error?
 
 A) False positive
-B: False negative - failing to reject false null hypothesis
-C: Correct decision
-D: No error
-
-D) [Missing option - Please review]
+B) False negative - failing to reject false null hypothesis
+C) Correct decision
+D) No error
 
 ✔ Correct Answer: B
 
@@ -2049,11 +2001,9 @@ Difficulty: Medium
 Question: What is biomimicry?
 
 A) Random design
-B: Imitating nature's strategies to solve problems
-C: Avoiding nature
-D: No method
-
-D) [Missing option - Please review]
+B) Imitating nature's strategies to solve problems
+C) Avoiding nature
+D) No method
 
 ✔ Correct Answer: B
 
@@ -2072,11 +2022,9 @@ Difficulty: Hard
 Question: What is TRIZ?
 
 A) Random method
-B: Theory of Inventive Problem Solving
-C: Programming language
-D: No method
-
-D) [Missing option - Please review]
+B) Theory of Inventive Problem Solving
+C) Programming language
+D) No method
 
 ✔ Correct Answer: B
 
@@ -2095,11 +2043,9 @@ Difficulty: Medium
 Question: What is graceful degradation?
 
 A) Complete failure
-B: System continues with reduced functionality when components fail
-C: No degradation
-D: Random behavior
-
-D) [Missing option - Please review]
+B) System continues with reduced functionality when components fail
+C) No degradation
+D) Random behavior
 
 ✔ Correct Answer: B
 
@@ -2118,11 +2064,9 @@ Difficulty: Hard
 Question: What is idempotency?
 
 A) Random behavior
-B: Operation produces same result when repeated
-C: Different results each time
-D: No property
-
-D) [Missing option - Please review]
+B) Operation produces same result when repeated
+C) Different results each time
+D) No property
 
 ✔ Correct Answer: B
 
@@ -2141,9 +2085,7 @@ Difficulty: Medium
 Question: What is an ADR (Architecture Decision Record)?
 
 A) Random document
-B: Document capturing important architectural decisions
-B) [Missing option - Please review]
-
+B) Document capturing important architectural decisions
 C) Code comment
 D) No document
 
@@ -2164,9 +2106,7 @@ Difficulty: Medium
 Question: What is an RFC in software development?
 
 A) Random file
-B: Request for Comments - proposal for discussion
-B) [Missing option - Please review]
-
+B) Request for Comments - proposal for discussion
 C) Final decision
 D) No document
 

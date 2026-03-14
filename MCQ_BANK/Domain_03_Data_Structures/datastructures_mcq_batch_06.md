@@ -340,29 +340,10 @@ Subtopic: Matrix Rotation
 Difficulty: Hard
 
 Question: [Missing question - Please review]
-
-```java
-public static void rotate(int[][] matrix) {
-    int n = matrix.length;
-    
-    // Transpose
-    for(int i = 0; i < n; i++) {
-        for(int j = i; j < n; j++) {
-            int temp = matrix[i][j];
-            matrix[i][j] = matrix[j][i];
-            matrix[j][i] = temp;
-        }
-    }
-    
-    // Reverse each row
-    for(int i = 0; i < n; i++) {
-        for(int j = 0; j < n/2; j++) {
-            int temp = matrix[i][j];
-            matrix[i][j] = matrix[i][n-1-j];
-            matrix[i]
-
----
-
+A) [Option A]
+B) [Option B]
+C) [Option C]
+D) [Option D]
 ### Question 515
 Domain: Data Structures
 Topic: Matrix Algorithms
@@ -370,12 +351,10 @@ Subtopic: Spiral Traversal
 Difficulty: Medium
 
 Question: What is the time complexity of spiral matrix traversal?
-A: O(1)
-B: O(m*n) where m and n are dimensions
-C: O(m+n)
-D: O(log n)
-
-D) [Missing option - Please review]
+A) O(1)
+B) O(m*n) where m and n are dimensions
+C) O(m+n)
+D) O(log n)
 
 ✔ Correct Answer: B
 
@@ -392,12 +371,10 @@ Subtopic: XOR Properties
 Difficulty: Medium
 
 Question: What is the result of a XOR a?
-A: a
-B: 0
-C: 1
-D: 2a
-
-D) [Missing option - Please review]
+A) a
+B) 0
+C) 1
+D) 2a
 
 ✔ Correct Answer: B
 
@@ -414,12 +391,10 @@ Subtopic: Set Bit
 Difficulty: Easy
 
 Question: How do you set the nth bit of a number x?
-A: x & (1 << n)
-B: x | (1 << n)
-C: x ^ (1 << n)
-D: x >> n
-
-D) [Missing option - Please review]
+A) x & (1 << n)
+B) x | (1 << n)
+C) x ^ (1 << n)
+D) x >> n
 
 ✔ Correct Answer: B
 
@@ -436,12 +411,10 @@ Subtopic: Clear Bit
 Difficulty: Medium
 
 Question: How do you clear the nth bit of a number x?
-A: x & ~(1 << n)
-B: x | (1 << n)
-C: x ^ (1 << n)
-D: x << n
-
-D) [Missing option - Please review]
+A) x & ~(1 << n)
+B) x | (1 << n)
+C) x ^ (1 << n)
+D) x << n
 
 ✔ Correct Answer: A
 
@@ -458,12 +431,10 @@ Subtopic: Count Set Bits
 Difficulty: Medium
 
 Question: What is Brian Kernighan's algorithm used for?
-A: Sorting
-B: Counting set bits efficiently
-C: Searching
-D: Hashing
-
-D) [Missing option - Please review]
+A) Sorting
+B) Counting set bits efficiently
+C) Searching
+D) Hashing
 
 ✔ Correct Answer: B
 
@@ -480,12 +451,10 @@ Subtopic: Power of Two
 Difficulty: Easy
 
 Question: How to check if a number n is a power of 2?
-A: n % 2 == 0
-B: (n & (n-1)) == 0 and n != 0
-C: n / 2 == integer
-D: n > 0
-
-D) [Missing option - Please review]
+A) n % 2 == 0
+B) (n & (n-1)) == 0 and n != 0
+C) n / 2 == integer
+D) n > 0
 
 ✔ Correct Answer: B
 
@@ -502,12 +471,10 @@ Subtopic: Palindrome Check
 Difficulty: Easy
 
 Question: What is the time complexity of checking if a string is a palindrome?
-A: O(1)
-B: O(n)
-C: O(n²)
-D: O(log n)
-
-D) [Missing option - Please review]
+A) O(1)
+B) O(n)
+C) O(n²)
+D) O(log n)
 
 ✔ Correct Answer: B
 
@@ -524,12 +491,10 @@ Subtopic: Anagram Detection
 Difficulty: Medium
 
 Question: What is an efficient way to check if two strings are anagrams?
-A: Sort both and compare
-B: Count character frequencies
-C: Both A and B
-D: Nested loops
-
-D) [Missing option - Please review]
+A) Sort both and compare
+B) Count character frequencies
+C) Both A and B
+D) Nested loops
 
 ✔ Correct Answer: C
 
@@ -546,12 +511,10 @@ Subtopic: String Matching
 Difficulty: Medium
 
 Question: What is the time complexity of naive string matching?
-A: O(n)
-B: O(m+n)
-C: O(m*n) where m is pattern, n is text length
-D: O(log n)
-
-D) [Missing option - Please review]
+A) O(n)
+B) O(m+n)
+C) O(m*n) where m is pattern, n is text length
+D) O(log n)
 
 ✔ Correct Answer: C
 
@@ -568,12 +531,10 @@ Subtopic: KMP Algorithm
 Difficulty: Hard
 
 Question: What is the time complexity of KMP string matching?
-A: O(m*n)
-B: O(m+n)
-C: O(n²)
-D: O(log n)
-
-D) [Missing option - Please review]
+A) O(m*n)
+B) O(m+n)
+C) O(n²)
+D) O(log n)
 
 ✔ Correct Answer: B
 
@@ -590,12 +551,10 @@ Subtopic: Rabin-Karp
 Difficulty: Hard
 
 Question: What technique does Rabin-Karp algorithm use?
-A: Dynamic programming
-B: Rolling hash
-C: Divide and conquer
-D: Greedy approach
-
-D) [Missing option - Please review]
+A) Dynamic programming
+B) Rolling hash
+C) Divide and conquer
+D) Greedy approach
 
 ✔ Correct Answer: B
 
@@ -612,12 +571,10 @@ Subtopic: Trie Operations
 Difficulty: Medium
 
 Question: What is the time complexity of inserting a word of length k in a Trie?
-A: O(1)
-B: O(k)
-C: O(n)
-D: O(k²)
-
-D) [Missing option - Please review]
+A) O(1)
+B) O(k)
+C) O(n)
+D) O(k²)
 
 ✔ Correct Answer: B
 
@@ -634,12 +591,10 @@ Subtopic: Trie Space
 Difficulty: Hard
 
 Question: What is a disadvantage of Trie data structure?
-A: Slow search
-B: High space complexity
-C: Cannot store strings
-D: Slow insertion
-
-D) [Missing option - Please review]
+A) Slow search
+B) High space complexity
+C) Cannot store strings
+D) Slow insertion
 
 ✔ Correct Answer: B
 
@@ -656,12 +611,10 @@ Subtopic: Suffix Tree
 Difficulty: Hard
 
 Question: What is a suffix tree used for?
-A: Tree traversal
-B: Efficient pattern matching and substring operations
-C: Sorting
-D: Hashing
-
-D) [Missing option - Please review]
+A) Tree traversal
+B) Efficient pattern matching and substring operations
+C) Sorting
+D) Hashing
 
 ✔ Correct Answer: B
 
@@ -678,12 +631,10 @@ Subtopic: Segment Tree Height
 Difficulty: Hard
 
 Question: What is the height of a segment tree for array of size n?
-A: O(n)
-B: O(log n)
-C: O(√n)
-D: O(1)
-
-D) [Missing option - Please review]
+A) O(n)
+B) O(log n)
+C) O(√n)
+D) O(1)
 
 ✔ Correct Answer: B
 
@@ -700,12 +651,10 @@ Subtopic: Fenwick Tree
 Difficulty: Hard
 
 Question: What is another name for Fenwick Tree?
-A: AVL Tree
-B: Binary Indexed Tree (BIT)
-C: Red-Black Tree
-D: B-Tree
-
-D) [Missing option - Please review]
+A) AVL Tree
+B) Binary Indexed Tree (BIT)
+C) Red-Black Tree
+D) B-Tree
 
 ✔ Correct Answer: B
 
@@ -722,12 +671,10 @@ Subtopic: Topological Sort
 Difficulty: Medium
 
 Question: Topological sort is possible only for which type of graph?
-A: Undirected graph
-B: Directed Acyclic Graph (DAG)
-C: Cyclic graph
-D: Complete graph
-
-D) [Missing option - Please review]
+A) Undirected graph
+B) Directed Acyclic Graph (DAG)
+C) Cyclic graph
+D) Complete graph
 
 ✔ Correct Answer: B
 
@@ -744,14 +691,10 @@ Subtopic: Kahn's Algorithm
 Difficulty: Hard
 
 Question: What does Kahn's algorithm use for topological sorting?
-A: DFS
-B: BFS with in-degree tracking
-C: Dijkstra's approach
-D: Greedy method
-
-C) [Missing option - Please review]
-
-D) [Missing option - Please review]
+A) DFS
+B) BFS with in-degree tracking
+C) Dijkstra's approach
+D) Greedy method
 
 D) [Missing option - Please review]
 
@@ -770,12 +713,10 @@ Subtopic: Strongly Connected Components
 Difficulty: Hard
 
 Question: What algorithm finds strongly connected components?
-A: BFS
-B: Kosaraju's or Tarjan's algorithm
-C: Dijkstra's algorithm
-D: Prim's algorithm
-
-D) [Missing option - Please review]
+A) BFS
+B) Kosaraju's or Tarjan's algorithm
+C) Dijkstra's algorithm
+D) Prim's algorithm
 
 ✔ Correct Answer: B
 
@@ -792,12 +733,10 @@ Subtopic: Articulation Points
 Difficulty: Hard
 
 Question: What is an articulation point in a graph?
-A: Starting point
-B: Vertex whose removal increases connected components
-C: Ending point
-D: Highest degree vertex
-
-D) [Missing option - Please review]
+A) Starting point
+B) Vertex whose removal increases connected components
+C) Ending point
+D) Highest degree vertex
 
 ✔ Correct Answer: B
 
@@ -814,12 +753,10 @@ Subtopic: Bridge
 Difficulty: Hard
 
 Question: What is a bridge in graph theory?
-A: Physical bridge
-B: Edge whose removal increases connected components
-C: Shortest edge
-D: Longest edge
-
-D) [Missing option - Please review]
+A) Physical bridge
+B) Edge whose removal increases connected components
+C) Shortest edge
+D) Longest edge
 
 ✔ Correct Answer: B
 
@@ -836,10 +773,10 @@ Subtopic: Optimal Substructure
 Difficulty: Medium
 
 Question: What is optimal substructure property?
-A: Best structure
-B: Optimal solution contains optimal solutions to subproblems
-C: Largest structure
-D: Fastest structure
+A) Best structure
+B) Optimal solution contains optimal solutions to subproblems
+C) Largest structure
+D) Fastest structure
 
 ✔ Correct Answer: B
 
@@ -856,12 +793,10 @@ Subtopic: Overlapping Subproblems
 Difficulty: Medium
 
 Question: What characterizes overlapping subproblems?
-A: No repetition
-B: Same subproblems solved multiple times
-C: Unique subproblems
-D: No subproblems
-
-D) [Missing option - Please review]
+A) No repetition
+B) Same subproblems solved multiple times
+C) Unique subproblems
+D) No subproblems
 
 ✔ Correct Answer: B
 
@@ -878,12 +813,10 @@ Subtopic: Memoization vs Tabulation
 Difficulty: Medium
 
 Question: How does memoization differ from tabulation?
-A: Same thing
-B: Memoization is top-down, tabulation is bottom-up
-C: Memoization is slower
-D: Tabulation uses recursion
-
-D) [Missing option - Please review]
+A) Same thing
+B) Memoization is top-down, tabulation is bottom-up
+C) Memoization is slower
+D) Tabulation uses recursion
 
 ✔ Correct Answer: B
 
@@ -900,12 +833,10 @@ Subtopic: Fibonacci DP
 Difficulty: Easy
 
 Question: What is the time complexity of Fibonacci using DP?
-A: O(2ⁿ)
-B: O(n)
-C: O(n²)
-D: O(log n)
-
-D) [Missing option - Please review]
+A) O(2ⁿ)
+B) O(n)
+C) O(n²)
+D) O(log n)
 
 ✔ Correct Answer: B
 
@@ -922,12 +853,10 @@ Subtopic: Longest Common Subsequence
 Difficulty: Hard
 
 Question: What is the time complexity of LCS using DP?
-A: O(n)
-B: O(m*n) where m, n are string lengths
-C: O(n²)
-D: O(log n)
-
-D) [Missing option - Please review]
+A) O(n)
+B) O(m*n) where m, n are string lengths
+C) O(n²)
+D) O(log n)
 
 ✔ Correct Answer: B
 
@@ -944,12 +873,10 @@ Subtopic: Knapsack Problem
 Difficulty: Hard
 
 Question: What is the time complexity of 0/1 Knapsack using DP?
-A: O(n)
-B: O(n*W) where n is items, W is capacity
-C: O(n²)
-D: O(2ⁿ)
-
-D) [Missing option - Please review]
+A) O(n)
+B) O(n*W) where n is items, W is capacity
+C) O(n²)
+D) O(2ⁿ)
 
 ✔ Correct Answer: B
 
@@ -966,12 +893,10 @@ Subtopic: Coin Change
 Difficulty: Medium
 
 Question: What type of problem is coin change?
-A: Greedy only
-B: Dynamic programming (unbounded knapsack variant)
-C: Divide and conquer
-D: Backtracking
-
-D) [Missing option - Please review]
+A) Greedy only
+B) Dynamic programming (unbounded knapsack variant)
+C) Divide and conquer
+D) Backtracking
 
 ✔ Correct Answer: B
 
@@ -988,12 +913,10 @@ Subtopic: Edit Distance
 Difficulty: Hard
 
 Question: What does edit distance (Levenshtein distance) measure?
-A: String length
-B: Minimum operations to transform one string to another
-C: String similarity only
-D: Character count
-
-D) [Missing option - Please review]
+A) String length
+B) Minimum operations to transform one string to another
+C) String similarity only
+D) Character count
 
 ✔ Correct Answer: B
 
@@ -1010,12 +933,10 @@ Subtopic: Matrix Chain Multiplication
 Difficulty: Hard
 
 Question: What does matrix chain multiplication DP optimize?
-A: Matrix values
-B: Order of multiplication to minimize operations
-C: Matrix size
-D: Storage space
-
-D) [Missing option - Please review]
+A) Matrix values
+B) Order of multiplication to minimize operations
+C) Matrix size
+D) Storage space
 
 ✔ Correct Answer: B
 
@@ -1032,12 +953,10 @@ Subtopic: Activity Selection
 Difficulty: Medium
 
 Question: What greedy choice does activity selection make?
-A: Longest activity
-B: Activity finishing earliest
-C: Activity starting earliest
-D: Random activity
-
-D) [Missing option - Please review]
+A) Longest activity
+B) Activity finishing earliest
+C) Activity starting earliest
+D) Random activity
 
 ✔ Correct Answer: B
 
@@ -1054,12 +973,10 @@ Subtopic: Huffman Coding
 Difficulty: Hard
 
 Question: What does Huffman coding optimize?
-A: Encryption
-B: Variable-length encoding minimizing average code length
-C: Fixed-length encoding
-D: Decoding speed
-
-D) [Missing option - Please review]
+A) Encryption
+B) Variable-length encoding minimizing average code length
+C) Fixed-length encoding
+D) Decoding speed
 
 ✔ Correct Answer: B
 
@@ -1076,12 +993,10 @@ Subtopic: Fractional Knapsack
 Difficulty: Medium
 
 Question: How does fractional knapsack differ from 0/1 knapsack?
-A: Same problem
-B: Can take fractions of items, solvable by greedy
-C: Harder problem
-D: No difference
-
-D) [Missing option - Please review]
+A) Same problem
+B) Can take fractions of items, solvable by greedy
+C) Harder problem
+D) No difference
 
 ✔ Correct Answer: B
 
@@ -1098,12 +1013,10 @@ Subtopic: Merge Sort
 Difficulty: Easy
 
 Question: What is the time complexity of merge sort?
-A: O(n)
-B: O(n log n)
-C: O(n²)
-D: O(log n)
-
-D) [Missing option - Please review]
+A) O(n)
+B) O(n log n)
+C) O(n²)
+D) O(log n)
 
 ✔ Correct Answer: B
 
@@ -1120,12 +1033,10 @@ Subtopic: Quick Sort
 Difficulty: Medium
 
 Question: What is the worst-case time complexity of quick sort?
-A: O(n log n)
-B: O(n²)
-C: O(n)
-D: O(log n)
-
-D) [Missing option - Please review]
+A) O(n log n)
+B) O(n²)
+C) O(n)
+D) O(log n)
 
 ✔ Correct Answer: B
 
@@ -1142,12 +1053,10 @@ Subtopic: Binary Search
 Difficulty: Easy
 
 Question: What is required for binary search to work?
-A: Unsorted array
-B: Sorted array
-C: Linked list
-D: Tree structure
-
-D) [Missing option - Please review]
+A) Unsorted array
+B) Sorted array
+C) Linked list
+D) Tree structure
 
 ✔ Correct Answer: B
 
@@ -1165,12 +1074,10 @@ Subtopic: Stability
 Difficulty: Medium
 
 Question: Which sorting algorithm is stable?
-A: Quick sort
-B: Merge sort
-C: Heap sort
-D: Selection sort
-
-D) [Missing option - Please review]
+A) Quick sort
+B) Merge sort
+C) Heap sort
+D) Selection sort
 
 ✔ Correct Answer: B
 
@@ -1187,12 +1094,10 @@ Subtopic: In-Place Sorting
 Difficulty: Easy
 
 Question: Which sorting algorithm is NOT in-place?
-A: Bubble sort
-B: Merge sort
-C: Selection sort
-D: Insertion sort
-
-D) [Missing option - Please review]
+A) Bubble sort
+B) Merge sort
+C) Selection sort
+D) Insertion sort
 
 ✔ Correct Answer: B
 
@@ -1209,12 +1114,10 @@ Subtopic: Counting Sort
 Difficulty: Medium
 
 Question: When is counting sort efficient?
-A: Always
-B: When range of input is small compared to n
-C: For large ranges
-D: Never
-
-D) [Missing option - Please review]
+A) Always
+B) When range of input is small compared to n
+C) For large ranges
+D) Never
 
 ✔ Correct Answer: B
 
@@ -1231,12 +1134,10 @@ Subtopic: Radix Sort
 Difficulty: Hard
 
 Question: What is the time complexity of radix sort?
-A: O(n log n)
-B: O(d*n) where d is number of digits
-C: O(n²)
-D: O(n)
-
-D) [Missing option - Please review]
+A) O(n log n)
+B) O(d*n) where d is number of digits
+C) O(n²)
+D) O(n)
 
 ✔ Correct Answer: B
 
@@ -1253,12 +1154,10 @@ Subtopic: Bucket Sort
 Difficulty: Hard
 
 Question: When does bucket sort perform well?
-A: Random data
-B: Uniformly distributed data
-C: Sorted data
-D: Reverse sorted data
-
-D) [Missing option - Please review]
+A) Random data
+B) Uniformly distributed data
+C) Sorted data
+D) Reverse sorted data
 
 ✔ Correct Answer: B
 
@@ -1275,12 +1174,10 @@ Subtopic: Collision Resolution
 Difficulty: Medium
 
 Question: What is chaining in hash tables?
-A: Linking tables
-B: Storing colliding elements in linked list at same index
-C: Rehashing
-D: Linear probing
-
-D) [Missing option - Please review]
+A) Linking tables
+B) Storing colliding elements in linked list at same index
+C) Rehashing
+D) Linear probing
 
 ✔ Correct Answer: B
 
@@ -1297,12 +1194,10 @@ Subtopic: Open Addressing
 Difficulty: Medium
 
 Question: What is open addressing?
-A: Open hash table
-B: Finding alternative location for colliding element
-C: Using linked lists
-D: External storage
-
-D) [Missing option - Please review]
+A) Open hash table
+B) Finding alternative location for colliding element
+C) Using linked lists
+D) External storage
 
 ✔ Correct Answer: B
 
@@ -1319,12 +1214,10 @@ Subtopic: Linear Probing
 Difficulty: Medium
 
 Question: What is primary clustering in linear probing?
-A: Good clustering
-B: Consecutive occupied slots forming clusters
-C: Random distribution
-D: No clustering
-
-D) [Missing option - Please review]
+A) Good clustering
+B) Consecutive occupied slots forming clusters
+C) Random distribution
+D) No clustering
 
 ✔ Correct Answer: B
 
@@ -1341,12 +1234,10 @@ Subtopic: Quadratic Probing
 Difficulty: Hard
 
 Question: How does quadratic probing reduce clustering?
-A: Random probing
-B: Uses quadratic function for probe sequence
-C: Linear probing
-D: No reduction
-
-D) [Missing option - Please review]
+A) Random probing
+B) Uses quadratic function for probe sequence
+C) Linear probing
+D) No reduction
 
 ✔ Correct Answer: B
 
@@ -1363,12 +1254,10 @@ Subtopic: Double Hashing
 Difficulty: Hard
 
 Question: What makes double hashing effective?
-A: Single hash function
-B: Uses two hash functions for probe sequence
-C: Triple hashing
-D: No hashing
-
-D) [Missing option - Please review]
+A) Single hash function
+B) Uses two hash functions for probe sequence
+C) Triple hashing
+D) No hashing
 
 ✔ Correct Answer: B
 
@@ -1385,12 +1274,10 @@ Subtopic: Load Factor
 Difficulty: Medium
 
 Question: What is load factor in hash tables?
-A: Weight capacity
-B: Ratio of elements to table size (n/m)
-C: Hash function speed
-D: Collision count
-
-D) [Missing option - Please review]
+A) Weight capacity
+B) Ratio of elements to table size (n/m)
+C) Hash function speed
+D) Collision count
 
 ✔ Correct Answer: B
 
@@ -1407,12 +1294,10 @@ Subtopic: Rehashing
 Difficulty: Medium
 
 Question: When is rehashing typically performed?
-A: After every insertion
-B: When load factor exceeds threshold (e.g., 0.75)
-C: Never
-D: Randomly
-
-D) [Missing option - Please review]
+A) After every insertion
+B) When load factor exceeds threshold (e.g., 0.75)
+C) Never
+D) Randomly
 
 ✔ Correct Answer: B
 
@@ -1429,12 +1314,10 @@ Subtopic: Bloom Filter
 Difficulty: Hard
 
 Question: What does a Bloom filter guarantee?
-A: No false positives or negatives
-B: No false negatives, but possible false positives
-C: No false positives, but possible false negatives
-D: Both false positives and negatives
-
-D) [Missing option - Please review]
+A) No false positives or negatives
+B) No false negatives, but possible false positives
+C) No false positives, but possible false negatives
+D) Both false positives and negatives
 
 ✔ Correct Answer: B
 
@@ -1451,12 +1334,10 @@ Subtopic: Skip List
 Difficulty: Hard
 
 Question: What is the average time complexity of search in skip list?
-A: O(n)
-B: O(log n)
-C: O(1)
-D: O(n log n)
-
-D) [Missing option - Please review]
+A) O(n)
+B) O(log n)
+C) O(1)
+D) O(n log n)
 
 ✔ Correct Answer: B
 
@@ -1473,12 +1354,10 @@ Subtopic: Disjoint Set
 Difficulty: Hard
 
 Question: What is the time complexity of union-find with path compression and union by rank?
-A: O(n)
-B: O(α(n)) - inverse Ackermann, nearly constant
-C: O(log n)
-D: O(1)
-
-D) [Missing option - Please review]
+A) O(n)
+B) O(α(n)) - inverse Ackermann, nearly constant
+C) O(log n)
+D) O(1)
 
 ✔ Correct Answer: B
 
@@ -1495,12 +1374,10 @@ Subtopic: Minimum Spanning Tree
 Difficulty: Medium
 
 Question: What is a minimum spanning tree?
-A: Smallest tree
-B: Tree connecting all vertices with minimum total edge weight
-C: Shortest path tree
-D: Balanced tree
-
-D) [Missing option - Please review]
+A) Smallest tree
+B) Tree connecting all vertices with minimum total edge weight
+C) Shortest path tree
+D) Balanced tree
 
 ✔ Correct Answer: B
 
@@ -1517,12 +1394,10 @@ Subtopic: Prim's Algorithm
 Difficulty: Medium
 
 Question: What data structure makes Prim's algorithm efficient?
-A: Stack
-B: Min heap (priority queue)
-C: Queue
-D: Array only
-
-D) [Missing option - Please review]
+A) Stack
+B) Min heap (priority queue)
+C) Queue
+D) Array only
 
 ✔ Correct Answer: B
 
@@ -1539,10 +1414,10 @@ Subtopic: Kruskal's Algorithm
 Difficulty: Hard
 
 Question: What data structure does Kruskal's algorithm use?
-A: Stack
-B: Disjoint set (union-find)
-C: Queue
-D: Heap only
+A) Stack
+B) Disjoint set (union-find)
+C) Queue
+D) Heap only
 
 ✔ Correct Answer: B
 
@@ -1559,10 +1434,10 @@ Subtopic: Shortest Path
 Difficulty: Easy
 
 Question: Which algorithm finds shortest path from single source to all vertices?
-A: BFS (unweighted)
-B: Dijkstra's algorithm (non-negative weights)
-C: Both A and B
-D: DFS
+A) BFS (unweighted)
+B) Dijkstra's algorithm (non-negative weights)
+C) Both A and B
+D) DFS
 
 ✔ Correct Answer: C
 
@@ -1579,12 +1454,10 @@ Subtopic: Bellman-Ford
 Difficulty: Hard
 
 Question: What advantage does Bellman-Ford have over Dijkstra's?
-A: Faster
-B: Handles negative edge weights
-C: Simpler
-D: Uses less space
-
-D) [Missing option - Please review]
+A) Faster
+B) Handles negative edge weights
+C) Simpler
+D) Uses less space
 
 ✔ Correct Answer: B
 
@@ -1602,12 +1475,10 @@ Subtopic: Floyd-Warshall
 Difficulty: Hard
 
 Question: What does Floyd-Warshall algorithm find?
-A: Single source shortest path
-B: All-pairs shortest paths
-C: MST
-D: Topological sort
-
-D) [Missing option - Please review]
+A) Single source shortest path
+B) All-pairs shortest paths
+C) MST
+D) Topological sort
 
 ✔ Correct Answer: B
 
@@ -1624,12 +1495,10 @@ Subtopic: A* Algorithm
 Difficulty: Hard
 
 Question: What does A* algorithm use for pathfinding?
-A: BFS only
-B: Heuristic function with actual cost
-C: DFS only
-D: Random search
-
-D) [Missing option - Please review]
+A) BFS only
+B) Heuristic function with actual cost
+C) DFS only
+D) Random search
 
 ✔ Correct Answer: B
 
@@ -1646,12 +1515,10 @@ Subtopic: Cycle Detection
 Difficulty: Medium
 
 Question: How to detect cycle in undirected graph using DFS?
-A: Check all edges
-B: If back edge to visited non-parent node found
-C: Count vertices
-D: Random check
-
-D) [Missing option - Please review]
+A) Check all edges
+B) If back edge to visited non-parent node found
+C) Count vertices
+D) Random check
 
 ✔ Correct Answer: B
 
@@ -1668,12 +1535,10 @@ Subtopic: Directed Graph Cycle
 Difficulty: Hard
 
 Question: How to detect cycle in directed graph?
-A: BFS only
-B: DFS with recursion stack tracking
-C: Count edges
-D: Topological sort only
-
-D) [Missing option - Please review]
+A) BFS only
+B) DFS with recursion stack tracking
+C) Count edges
+D) Topological sort only
 
 ✔ Correct Answer: B
 
@@ -1690,12 +1555,10 @@ Subtopic: N-Queens
 Difficulty: Hard
 
 Question: What is the time complexity of N-Queens problem?
-A: O(n²)
-B: O(n!)
-C: O(2ⁿ)
-D: O(n log n)
-
-D) [Missing option - Please review]
+A) O(n²)
+B) O(n!)
+C) O(2ⁿ)
+D) O(n log n)
 
 ✔ Correct Answer: B
 
@@ -1712,12 +1575,10 @@ Subtopic: Sudoku Solver
 Difficulty: Hard
 
 Question: What technique does backtracking use?
-A: Greedy choice
-B: Try possibilities, backtrack on failure
-C: Dynamic programming
-D: Divide and conquer
-
-D) [Missing option - Please review]
+A) Greedy choice
+B) Try possibilities, backtrack on failure
+C) Dynamic programming
+D) Divide and conquer
 
 ✔ Correct Answer: B
 
@@ -1734,12 +1595,10 @@ Subtopic: Subset Sum
 Difficulty: Medium
 
 Question: What is the time complexity of subset sum using backtracking?
-A: O(n)
-B: O(2ⁿ)
-C: O(n²)
-D: O(n log n)
-
-D) [Missing option - Please review]
+A) O(n)
+B) O(2ⁿ)
+C) O(n²)
+D) O(n log n)
 
 ✔ Correct Answer: B
 
@@ -1756,12 +1615,10 @@ Subtopic: Sliding Window
 Difficulty: Medium
 
 Question: When is sliding window technique applicable?
-A: Random problems
-B: Contiguous subarray/substring problems
-C: Graph problems
-D: Tree problems
-
-D) [Missing option - Please review]
+A) Random problems
+B) Contiguous subarray/substring problems
+C) Graph problems
+D) Tree problems
 
 ✔ Correct Answer: B
 
@@ -1778,12 +1635,10 @@ Subtopic: Two Pointers
 Difficulty: Easy
 
 Question: What is the two-pointer technique?
-A: Using two variables
-B: Two pointers moving through data structure
-C: Two arrays
-D: Two loops
-
-D) [Missing option - Please review]
+A) Using two variables
+B) Two pointers moving through data structure
+C) Two arrays
+D) Two loops
 
 ✔ Correct Answer: B
 
@@ -1800,12 +1655,10 @@ Subtopic: Fast and Slow Pointers
 Difficulty: Medium
 
 Question: What is Floyd's cycle detection algorithm also called?
-A: Rabbit algorithm
-B: Tortoise and hare algorithm
-C: Fast algorithm
-D: Slow algorithm
-
-D) [Missing option - Please review]
+A) Rabbit algorithm
+B) Tortoise and hare algorithm
+C) Fast algorithm
+D) Slow algorithm
 
 ✔ Correct Answer: B
 
@@ -1822,12 +1675,10 @@ Subtopic: Lowest Common Ancestor
 Difficulty: Hard
 
 Question: What is the time complexity of LCA in binary tree?
-A: O(1)
-B: O(h) where h is height
-C: O(n)
-D: O(log n) always
-
-D) [Missing option - Please review]
+A) O(1)
+B) O(h) where h is height
+C) O(n)
+D) O(log n) always
 
 ✔ Correct Answer: B
 
@@ -1844,12 +1695,10 @@ Subtopic: Diameter of Tree
 Difficulty: Hard
 
 Question: What is the diameter of a tree?
-A: Tree width
-B: Longest path between any two nodes
-C: Tree height
-D: Number of nodes
-
-D) [Missing option - Please review]
+A) Tree width
+B) Longest path between any two nodes
+C) Tree height
+D) Number of nodes
 
 ✔ Correct Answer: B
 
@@ -1866,12 +1715,10 @@ Subtopic: Serialize/Deserialize
 Difficulty: Hard
 
 Question: What is tree serialization?
-A: Making tree serial
-B: Converting tree to string/array representation
-C: Sorting tree
-D: Deleting tree
-
-D) [Missing option - Please review]
+A) Making tree serial
+B) Converting tree to string/array representation
+C) Sorting tree
+D) Deleting tree
 
 ✔ Correct Answer: B
 
@@ -1888,12 +1735,10 @@ Subtopic: Kadane's Algorithm
 Difficulty: Medium
 
 Question: What problem does Kadane's algorithm solve?
-A: Sorting
-B: Maximum subarray sum
-C: Searching
-D: Merging
-
-D) [Missing option - Please review]
+A) Sorting
+B) Maximum subarray sum
+C) Searching
+D) Merging
 
 ✔ Correct Answer: B
 
@@ -1910,12 +1755,10 @@ Subtopic: Dutch National Flag
 Difficulty: Hard
 
 Question: What does Dutch National Flag algorithm do?
-A: Sort completely
-B: Partition array into three parts
-C: Binary partition
-D: Find median
-
-D) [Missing option - Please review]
+A) Sort completely
+B) Partition array into three parts
+C) Binary partition
+D) Find median
 
 ✔ Correct Answer: B
 
@@ -1932,12 +1775,10 @@ Subtopic: Moore's Voting
 Difficulty: Hard
 
 Question: What does Boyer-Moore majority vote algorithm find?
-A: All elements
-B: Element appearing more than n/2 times
-C: Minimum element
-D: Maximum element
-
-D) [Missing option - Please review]
+A) All elements
+B) Element appearing more than n/2 times
+C) Minimum element
+D) Maximum element
 
 ✔ Correct Answer: B
 
@@ -1954,12 +1795,10 @@ Subtopic: Longest Palindromic Substring
 Difficulty: Hard
 
 Question: What is the time complexity of Manacher's algorithm?
-A: O(n²)
-B: O(n)
-C: O(n log n)
-D: O(n³)
-
-D) [Missing option - Please review]
+A) O(n²)
+B) O(n)
+C) O(n log n)
+D) O(n³)
 
 ✔ Correct Answer: B
 
@@ -1976,12 +1815,10 @@ Subtopic: Reservoir Sampling
 Difficulty: Hard
 
 Question: What is reservoir sampling used for?
-A: Water sampling
-B: Random sampling from stream of unknown size
-C: Sorting
-D: Searching
-
-D) [Missing option - Please review]
+A) Water sampling
+B) Random sampling from stream of unknown size
+C) Sorting
+D) Searching
 
 ✔ Correct Answer: B
 
@@ -1998,12 +1835,10 @@ Subtopic: Fisher-Yates Shuffle
 Difficulty: Medium
 
 Question: What does Fisher-Yates algorithm do?
-A: Sort array
-B: Randomly shuffle array with uniform distribution
-C: Search array
-D: Reverse array
-
-D) [Missing option - Please review]
+A) Sort array
+B) Randomly shuffle array with uniform distribution
+C) Search array
+D) Reverse array
 
 ✔ Correct Answer: B
 
@@ -2020,12 +1855,10 @@ Subtopic: Morris Traversal
 Difficulty: Hard
 
 Question: What is special about Morris traversal?
-A: Uses recursion
-B: Inorder traversal in O(1) space
-C: Uses stack
-D: Requires extra tree
-
-D) [Missing option - Please review]
+A) Uses recursion
+B) Inorder traversal in O(1) space
+C) Uses stack
+D) Requires extra tree
 
 ✔ Correct Answer: B
 
@@ -2042,12 +1875,10 @@ Subtopic: LRU Cache
 Difficulty: Hard
 
 Question: What data structures implement LRU cache efficiently?
-A: Array only
-B: Hash map + doubly linked list
-C: Stack
-D: Queue only
-
-D) [Missing option - Please review]
+A) Array only
+B) Hash map + doubly linked list
+C) Stack
+D) Queue only
 
 ✔ Correct Answer: B
 
@@ -2064,12 +1895,10 @@ Subtopic: LFU Cache
 Difficulty: Hard
 
 Question: What does LFU cache track?
-A: Recent access
-B: Access frequency
-C: Item size
-D: Creation time
-
-D) [Missing option - Please review]
+A) Recent access
+B) Access frequency
+C) Item size
+D) Creation time
 
 ✔ Correct Answer: B
 
@@ -2086,12 +1915,10 @@ Subtopic: Z-Algorithm
 Difficulty: Hard
 
 Question: What does Z-algorithm compute?
-A: String length
-B: Length of longest substring starting from each position matching prefix
-C: Character count
-D: Hash value
-
-D) [Missing option - Please review]
+A) String length
+B) Length of longest substring starting from each position matching prefix
+C) Character count
+D) Hash value
 
 ✔ Correct Answer: B
 
@@ -2108,12 +1935,10 @@ Subtopic: Monotonic Stack
 Difficulty: Hard
 
 Question: When is monotonic stack useful?
-A: Random problems
-B: Finding next greater/smaller element
-C: Sorting
-D: Searching
-
-D) [Missing option - Please review]
+A) Random problems
+B) Finding next greater/smaller element
+C) Sorting
+D) Searching
 
 ✔ Correct Answer: B
 
@@ -2130,12 +1955,10 @@ Subtopic: Monotonic Queue
 Difficulty: Hard
 
 Question: What problem does monotonic queue solve efficiently?
-A: Sorting
-B: Sliding window maximum/minimum
-C: Searching
-D: Hashing
-
-D) [Missing option - Please review]
+A) Sorting
+B) Sliding window maximum/minimum
+C) Searching
+D) Hashing
 
 ✔ Correct Answer: B
 
@@ -2152,12 +1975,10 @@ Subtopic: Binary Lifting
 Difficulty: Hard
 
 Question: What is binary lifting used for?
-A: Lifting trees
-B: Finding kth ancestor in O(log n)
-C: Tree traversal
-D: Tree sorting
-
-D) [Missing option - Please review]
+A) Lifting trees
+B) Finding kth ancestor in O(log n)
+C) Tree traversal
+D) Tree sorting
 
 ✔ Correct Answer: B
 
@@ -2174,12 +1995,10 @@ Subtopic: Heavy-Light Decomposition
 Difficulty: Hard
 
 Question: What does heavy-light decomposition enable?
-A: Tree compression
-B: Path queries in O(log² n)
-C: Tree sorting
-D: Tree deletion
-
-D) [Missing option - Please review]
+A) Tree compression
+B) Path queries in O(log² n)
+C) Tree sorting
+D) Tree deletion
 
 ✔ Correct Answer: B
 
@@ -2196,12 +2015,10 @@ Subtopic: Centroid Decomposition
 Difficulty: Hard
 
 Question: What is centroid decomposition used for?
-A: Finding center
-B: Divide and conquer on trees
-C: Tree balancing
-D: Tree traversal
-
-D) [Missing option - Please review]
+A) Finding center
+B) Divide and conquer on trees
+C) Tree balancing
+D) Tree traversal
 
 ✔ Correct Answer: B
 
@@ -2218,12 +2035,10 @@ Subtopic: Ternary Search
 Difficulty: Hard
 
 Question: When is ternary search applicable?
-A: Any function
-B: Unimodal functions (single peak/valley)
-C: Multimodal functions
-D: Random functions
-
-D) [Missing option - Please review]
+A) Any function
+B) Unimodal functions (single peak/valley)
+C) Multimodal functions
+D) Random functions
 
 ✔ Correct Answer: B
 
@@ -2240,12 +2055,10 @@ Subtopic: Meet in the Middle
 Difficulty: Hard
 
 Question: What does meet in the middle technique do?
-A: Find middle element
-B: Split problem into two halves, solve separately and combine
-C: Sort middle elements
-D: Delete middle
-
-D) [Missing option - Please review]
+A) Find middle element
+B) Split problem into two halves, solve separately and combine
+C) Sort middle elements
+D) Delete middle
 
 ✔ Correct Answer: B
 

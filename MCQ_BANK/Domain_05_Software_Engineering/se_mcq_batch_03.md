@@ -473,9 +473,7 @@ Question: How is team velocity used?
 A) Not used
 B) Predict future sprint capacity
 C) Measure speed only
-D: No purpose
-
-D) [Missing option - Please review]
+D) No purpose
 
 ✔ Correct Answer: B
 
@@ -592,9 +590,7 @@ Subtopic: Proxy Pattern
 Difficulty: Hard
 
 Question: What is Proxy pattern?
-A: Direct access
-A) [Missing option - Please review]
-
+A) Direct access
 B) Provides surrogate controlling access to object
 C) No control
 D) Random access
@@ -1452,9 +1448,7 @@ Subtopic: Test Doubles
 Difficulty: Hard
 
 Question: What are test doubles?
-A: Duplicate tests
-A) [Missing option - Please review]
-
+A) Duplicate tests
 B) Generic term for mocks, stubs, fakes, spies
 C) No doubles
 D) Random objects

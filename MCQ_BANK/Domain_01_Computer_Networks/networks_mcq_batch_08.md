@@ -10,12 +10,10 @@ Subtopic: Microservices Communication
 Difficulty: Medium
 
 Question: Which pattern is commonly used for asynchronous microservices communication?
-A: Direct HTTP calls only
-B: Message queues and event streaming
-C: Shared database
-D: File sharing
-
-D) [Missing option - Please review]
+A) Direct HTTP calls only
+B) Message queues and event streaming
+C) Shared database
+D) File sharing
 
 ✔ Correct Answer: B
 
@@ -32,12 +30,10 @@ Subtopic: AMQP
 Difficulty: Hard
 
 Question: What does AMQP (Advanced Message Queuing Protocol) provide?
-A: Email queuing
-B: Reliable message queuing with routing and security
-C: Web queuing
-D: File queuing
-
-D) [Missing option - Please review]
+A) Email queuing
+B) Reliable message queuing with routing and security
+C) Web queuing
+D) File queuing
 
 ✔ Correct Answer: B
 
@@ -54,12 +50,10 @@ Subtopic: Event-Driven Architecture
 Difficulty: Medium
 
 Question: What characterizes event-driven architecture?
-A: Synchronous requests only
-B: Components communicate through events
-C: Polling-based only
-D: Direct coupling
-
-D) [Missing option - Please review]
+A) Synchronous requests only
+B) Components communicate through events
+C) Polling-based only
+D) Direct coupling
 
 ✔ Correct Answer: B
 
@@ -76,12 +70,10 @@ Subtopic: Kafka
 Difficulty: Hard
 
 Question: What type of system is Apache Kafka?
-A: Database
-B: Distributed event streaming platform
-C: Web server
-D: Email server
-
-D) [Missing option - Please review]
+A) Database
+B) Distributed event streaming platform
+C) Web server
+D) Email server
 
 ✔ Correct Answer: B
 
@@ -98,12 +90,10 @@ Subtopic: Circuit Breaker Pattern
 Difficulty: Hard
 
 Question: What does the circuit breaker pattern prevent?
-A: Electrical issues
-B: Cascading failures in distributed systems
-C: Network loops
-D: Data corruption
-
-D) [Missing option - Please review]
+A) Electrical issues
+B) Cascading failures in distributed systems
+C) Network loops
+D) Data corruption
 
 ✔ Correct Answer: B
 
@@ -120,12 +110,10 @@ Subtopic: Retry Logic
 Difficulty: Medium
 
 Question: What is exponential backoff in retry logic?
-A: Linear retry intervals
-B: Increasing retry intervals exponentially
-C: Random retries
-D: No retries
-
-D) [Missing option - Please review]
+A) Linear retry intervals
+B) Increasing retry intervals exponentially
+C) Random retries
+D) No retries
 
 ✔ Correct Answer: B
 
@@ -142,12 +130,10 @@ Subtopic: Bulkhead Pattern
 Difficulty: Hard
 
 Question: What does the bulkhead pattern do?
-A: Increase speed
-B: Isolate resources to prevent total system failure
-C: Encrypt data
-D: Compress data
-
-D) [Missing option - Please review]
+A) Increase speed
+B) Isolate resources to prevent total system failure
+C) Encrypt data
+D) Compress data
 
 ✔ Correct Answer: B
 
@@ -164,12 +150,10 @@ Subtopic: Connection Timeout
 Difficulty: Medium
 
 Question: What is connection timeout?
-A: Time to transfer data
-B: Maximum time to establish connection
-C: Time to close connection
-D: Idle timeout
-
-D) [Missing option - Please review]
+A) Time to transfer data
+B) Maximum time to establish connection
+C) Time to close connection
+D) Idle timeout
 
 ✔ Correct Answer: B
 
@@ -186,12 +170,10 @@ Subtopic: Read Timeout
 Difficulty: Medium
 
 Question: What is read timeout?
-A: Time to connect
-B: Maximum time waiting for data after connection established
-C: Time to write data
-D: DNS resolution time
-
-D) [Missing option - Please review]
+A) Time to connect
+B) Maximum time waiting for data after connection established
+C) Time to write data
+D) DNS resolution time
 
 ✔ Correct Answer: B
 
@@ -208,12 +190,10 @@ Subtopic: gRPC Streaming
 Difficulty: Hard
 
 Question: What types of streaming does gRPC support?
-A: Unary only
-B: Unary, server streaming, client streaming, bidirectional
-C: Server streaming only
-D: No streaming
-
-D) [Missing option - Please review]
+A) Unary only
+B) Unary, server streaming, client streaming, bidirectional
+C) Server streaming only
+D) No streaming
 
 ✔ Correct Answer: B
 
@@ -230,12 +210,10 @@ Subtopic: Protocol Buffers
 Difficulty: Hard
 
 Question: What is Protocol Buffers (protobuf)?
-A: Network buffer
-B: Binary serialization format
-C: Encryption protocol
-D: Routing protocol
-
-D) [Missing option - Please review]
+A) Network buffer
+B) Binary serialization format
+C) Encryption protocol
+D) Routing protocol
 
 ✔ Correct Answer: B
 
@@ -252,12 +230,10 @@ Subtopic: GraphQL
 Difficulty: Medium
 
 Question: What advantage does GraphQL have over REST?
-A: Faster always
-B: Clients specify exactly what data they need
-C: Better security
-D: Simpler implementation
-
-D) [Missing option - Please review]
+A) Faster always
+B) Clients specify exactly what data they need
+C) Better security
+D) Simpler implementation
 
 ✔ Correct Answer: B
 
@@ -274,10 +250,10 @@ Subtopic: BFF Pattern
 Difficulty: Hard
 
 Question: What does BFF (Backend for Frontend) pattern provide?
-A: Best friend forever
-B: Dedicated backend for each frontend type
-C: Single backend for all
-D: No backend
+A) Best friend forever
+B) Dedicated backend for each frontend type
+C) Single backend for all
+D) No backend
 
 ✔ Correct Answer: B
 
@@ -294,12 +270,10 @@ Subtopic: CORS
 Difficulty: Medium
 
 Question: What does CORS (Cross-Origin Resource Sharing) control?
-A: Core routing
-B: Cross-domain HTTP requests from browsers
-C: Encryption
-D: Compression
-
-D) [Missing option - Please review]
+A) Core routing
+B) Cross-domain HTTP requests from browsers
+C) Encryption
+D) Compression
 
 ✔ Correct Answer: B
 
@@ -316,12 +290,10 @@ Subtopic: Same-Origin Policy
 Difficulty: Medium
 
 Question: What does the same-origin policy restrict?
-A: Same domain access
-B: Cross-origin document/script interactions
-C: Same protocol only
-D: Port access
-
-D) [Missing option - Please review]
+A) Same domain access
+B) Cross-origin document/script interactions
+C) Same protocol only
+D) Port access
 
 ✔ Correct Answer: B
 
@@ -338,12 +310,10 @@ Subtopic: CSP
 Difficulty: Hard
 
 Question: What does CSP (Content Security Policy) prevent?
-A: Content theft
-B: XSS and code injection attacks
-C: DDoS attacks
-D: Phishing
-
-D) [Missing option - Please review]
+A) Content theft
+B) XSS and code injection attacks
+C) DDoS attacks
+D) Phishing
 
 ✔ Correct Answer: B
 
@@ -360,12 +330,10 @@ Subtopic: XSS
 Difficulty: Medium
 
 Question: What is Cross-Site Scripting (XSS)?
-A: Legitimate scripting
-B: Injecting malicious scripts into web pages
-C: Cross-platform development
-D: Faster scripting
-
-D) [Missing option - Please review]
+A) Legitimate scripting
+B) Injecting malicious scripts into web pages
+C) Cross-platform development
+D) Faster scripting
 
 ✔ Correct Answer: B
 
@@ -382,12 +350,10 @@ Subtopic: CSRF
 Difficulty: Hard
 
 Question: What does CSRF (Cross-Site Request Forgery) exploit?
-A: SQL databases
-B: User's authenticated session to perform unauthorized actions
-C: DNS servers
-D: Email servers
-
-D) [Missing option - Please review]
+A) SQL databases
+B) User's authenticated session to perform unauthorized actions
+C) DNS servers
+D) Email servers
 
 ✔ Correct Answer: B
 
@@ -404,12 +370,10 @@ Subtopic: SQL Injection
 Difficulty: Medium
 
 Question: What does SQL injection attack target?
-A: Network routers
-B: Database queries through unsanitized input
-C: Email servers
-D: DNS servers
-
-D) [Missing option - Please review]
+A) Network routers
+B) Database queries through unsanitized input
+C) Email servers
+D) DNS servers
 
 ✔ Correct Answer: B
 
@@ -426,12 +390,10 @@ Subtopic: Input Validation
 Difficulty: Easy
 
 Question: Why is input validation important?
-A: Faster processing
-B: Prevent injection attacks and data corruption
-C: Better UI
-D: Reduced bandwidth
-
-D) [Missing option - Please review]
+A) Faster processing
+B) Prevent injection attacks and data corruption
+C) Better UI
+D) Reduced bandwidth
 
 ✔ Correct Answer: B
 
@@ -449,12 +411,10 @@ Subtopic: Reverse Proxy Benefits
 Difficulty: Medium
 
 Question: What security benefit does a reverse proxy provide?
-A: Encrypts all data
-B: Hides backend server details from clients
-C: Blocks all attacks
-D: Requires no configuration
-
-D) [Missing option - Please review]
+A) Encrypts all data
+B) Hides backend server details from clients
+C) Blocks all attacks
+D) Requires no configuration
 
 ✔ Correct Answer: B
 
@@ -471,12 +431,10 @@ Subtopic: SSL Termination
 Difficulty: Medium
 
 Question: What is SSL termination at load balancer?
-A: Ending SSL support
-B: Decrypting SSL at load balancer, forwarding unencrypted to backend
-C: Encrypting everything
-D: Blocking SSL
-
-D) [Missing option - Please review]
+A) Ending SSL support
+B) Decrypting SSL at load balancer, forwarding unencrypted to backend
+C) Encrypting everything
+D) Blocking SSL
 
 ✔ Correct Answer: B
 
@@ -493,12 +451,10 @@ Subtopic: SSL Passthrough
 Difficulty: Medium
 
 Question: How does SSL passthrough differ from SSL termination?
-A: Faster
-B: Encrypted traffic forwarded to backend without decryption
-C: More secure always
-D: Requires no certificates
-
-D) [Missing option - Please review]
+A) Faster
+B) Encrypted traffic forwarded to backend without decryption
+C) More secure always
+D) Requires no certificates
 
 ✔ Correct Answer: B
 
@@ -515,12 +471,10 @@ Subtopic: SSL Bridging
 Difficulty: Hard
 
 Question: What is SSL bridging?
-A: Connecting SSL servers
-B: Decrypt at load balancer, re-encrypt to backend
-C: No encryption
-D: Bridge SSL versions
-
-D) [Missing option - Please review]
+A) Connecting SSL servers
+B) Decrypt at load balancer, re-encrypt to backend
+C) No encryption
+D) Bridge SSL versions
 
 ✔ Correct Answer: B
 
@@ -537,12 +491,10 @@ Subtopic: SNI
 Difficulty: Hard
 
 Question: What does SNI (Server Name Indication) enable?
-A: Faster DNS
-B: Multiple SSL certificates on same IP address
-C: Better encryption
-D: Automatic certificates
-
-D) [Missing option - Please review]
+A) Faster DNS
+B) Multiple SSL certificates on same IP address
+C) Better encryption
+D) Automatic certificates
 
 ✔ Correct Answer: B
 
@@ -559,12 +511,10 @@ Subtopic: ALPN
 Difficulty: Hard
 
 Question: What does ALPN (Application-Layer Protocol Negotiation) do?
-A: Negotiate IP addresses
-B: Negotiate application protocol during TLS handshake
-C: Negotiate encryption
-D: Negotiate ports
-
-D) [Missing option - Please review]
+A) Negotiate IP addresses
+B) Negotiate application protocol during TLS handshake
+C) Negotiate encryption
+D) Negotiate ports
 
 ✔ Correct Answer: B
 
@@ -581,12 +531,10 @@ Subtopic: TCP Fast Retransmit
 Difficulty: Hard
 
 Question: Why is fast retransmit faster than timeout-based retransmission?
-A: Uses faster network
-B: Detects loss through duplicate ACKs without waiting for timeout
-C: Skips retransmission
-D: Uses compression
-
-D) [Missing option - Please review]
+A) Uses faster network
+B) Detects loss through duplicate ACKs without waiting for timeout
+C) Skips retransmission
+D) Uses compression
 
 ✔ Correct Answer: B
 
@@ -603,12 +551,10 @@ Subtopic: TCP Spurious Retransmission
 Difficulty: Hard
 
 Question: What causes spurious retransmissions in TCP?
-A: Packet corruption
-B: Premature timeout when packet is delayed not lost
-C: Intentional duplication
-D: Encryption errors
-
-D) [Missing option - Please review]
+A) Packet corruption
+B) Premature timeout when packet is delayed not lost
+C) Intentional duplication
+D) Encryption errors
 
 ✔ Correct Answer: B
 
@@ -625,12 +571,10 @@ Subtopic: TCP Timestamps
 Difficulty: Hard
 
 Question: How do TCP timestamps help with spurious retransmissions?
-A: Prevent them completely
-B: Detect and ignore duplicate segments
-C: Speed up retransmission
-D: Encrypt timestamps
-
-D) [Missing option - Please review]
+A) Prevent them completely
+B) Detect and ignore duplicate segments
+C) Speed up retransmission
+D) Encrypt timestamps
 
 ✔ Correct Answer: B
 
@@ -647,12 +591,10 @@ Subtopic: Head-of-Line Blocking
 Difficulty: Hard
 
 Question: What is head-of-line blocking in TCP?
-A: Physical blocking
-B: Lost packet blocks delivery of subsequent packets
-C: Router blocking
-D: Firewall blocking
-
-D) [Missing option - Please review]
+A) Physical blocking
+B) Lost packet blocks delivery of subsequent packets
+C) Router blocking
+D) Firewall blocking
 
 ✔ Correct Answer: B
 
@@ -669,12 +611,10 @@ Subtopic: QUIC Streams
 Difficulty: Hard
 
 Question: How does QUIC solve head-of-line blocking?
-A: Faster retransmission
-B: Independent streams within connection
-C: No ordering
-D: Multiple connections
-
-D) [Missing option - Please review]
+A) Faster retransmission
+B) Independent streams within connection
+C) No ordering
+D) Multiple connections
 
 ✔ Correct Answer: B
 
@@ -691,12 +631,10 @@ Subtopic: QUIC 0-RTT
 Difficulty: Hard
 
 Question: What does QUIC 0-RTT enable?
-A: No encryption
-B: Sending data in first packet without handshake
-C: Slower connection
-D: Better security
-
-D) [Missing option - Please review]
+A) No encryption
+B) Sending data in first packet without handshake
+C) Slower connection
+D) Better security
 
 ✔ Correct Answer: B
 
@@ -713,12 +651,10 @@ Subtopic: 0-RTT Replay
 Difficulty: Hard
 
 Question: What security risk does 0-RTT have?
-A: No encryption
-B: Vulnerable to replay attacks
-C: Weak encryption
-D: No authentication
-
-D) [Missing option - Please review]
+A) No encryption
+B) Vulnerable to replay attacks
+C) Weak encryption
+D) No authentication
 
 ✔ Correct Answer: B
 
@@ -735,12 +671,10 @@ Subtopic: Sidecar Pattern
 Difficulty: Hard
 
 Question: What is the sidecar pattern in microservices?
-A: Physical placement
-B: Helper container deployed alongside main container
-C: Backup service
-D: Load balancer
-
-D) [Missing option - Please review]
+A) Physical placement
+B) Helper container deployed alongside main container
+C) Backup service
+D) Load balancer
 
 ✔ Correct Answer: B
 
@@ -757,12 +691,10 @@ Subtopic: Ambassador Pattern
 Difficulty: Hard
 
 Question: What does the ambassador pattern do?
-A: Diplomatic functions
-B: Proxy for external service communication
-C: Authentication only
-D: Routing only
-
-D) [Missing option - Please review]
+A) Diplomatic functions
+B) Proxy for external service communication
+C) Authentication only
+D) Routing only
 
 ✔ Correct Answer: B
 
@@ -779,12 +711,10 @@ Subtopic: Adapter Pattern
 Difficulty: Hard
 
 Question: What is the adapter pattern in microservices?
-A: Hardware adapter
-B: Standardizes interface to heterogeneous services
-C: Power adapter
-D: Network adapter
-
-D) [Missing option - Please review]
+A) Hardware adapter
+B) Standardizes interface to heterogeneous services
+C) Power adapter
+D) Network adapter
 
 ✔ Correct Answer: B
 
@@ -801,12 +731,10 @@ Subtopic: Observability
 Difficulty: Medium
 
 Question: What are the three pillars of observability?
-A: Speed, Security, Scalability
-B: Metrics, Logs, Traces
-C: CPU, Memory, Disk
-D: Latency, Throughput, Errors
-
-D) [Missing option - Please review]
+A) Speed, Security, Scalability
+B) Metrics, Logs, Traces
+C) CPU, Memory, Disk
+D) Latency, Throughput, Errors
 
 ✔ Correct Answer: B
 
@@ -823,12 +751,10 @@ Subtopic: Distributed Tracing
 Difficulty: Hard
 
 Question: What does distributed tracing track?
-A: Physical locations
-B: Request flow across multiple services
-C: User locations
-D: Network cables
-
-D) [Missing option - Please review]
+A) Physical locations
+B) Request flow across multiple services
+C) User locations
+D) Network cables
 
 ✔ Correct Answer: B
 
@@ -845,12 +771,10 @@ Subtopic: APM
 Difficulty: Medium
 
 Question: What does APM (Application Performance Monitoring) focus on?
-A: Network hardware only
-B: Application performance and user experience
-C: Power monitoring
-D: Physical monitoring
-
-D) [Missing option - Please review]
+A) Network hardware only
+B) Application performance and user experience
+C) Power monitoring
+D) Physical monitoring
 
 ✔ Correct Answer: B
 
@@ -867,12 +791,10 @@ Subtopic: Synthetic Monitoring
 Difficulty: Medium
 
 Question: What is synthetic monitoring?
-A: Monitoring fake systems
-B: Simulated transactions to test availability and performance
-C: Monitoring synthesis
-D: Chemical monitoring
-
-D) [Missing option - Please review]
+A) Monitoring fake systems
+B) Simulated transactions to test availability and performance
+C) Monitoring synthesis
+D) Chemical monitoring
 
 ✔ Correct Answer: B
 
@@ -889,12 +811,10 @@ Subtopic: RUM
 Difficulty: Medium
 
 Question: What does RUM (Real User Monitoring) measure?
-A: Simulated users
-B: Actual user experience and performance
-C: Robot users
-D: Random users
-
-D) [Missing option - Please review]
+A) Simulated users
+B) Actual user experience and performance
+C) Robot users
+D) Random users
 
 ✔ Correct Answer: B
 
@@ -911,12 +831,10 @@ Subtopic: Blue-Green Deployment
 Difficulty: Medium
 
 Question: What is blue-green deployment?
-A: Color coding
-B: Two identical environments for zero-downtime deployment
-C: Network coloring
-D: Cable coloring
-
-D) [Missing option - Please review]
+A) Color coding
+B) Two identical environments for zero-downtime deployment
+C) Network coloring
+D) Cable coloring
 
 ✔ Correct Answer: B
 
@@ -933,12 +851,10 @@ Subtopic: Canary Deployment
 Difficulty: Medium
 
 Question: What is canary deployment?
-A: Bird monitoring
-B: Gradual rollout to subset of users before full deployment
-C: Instant deployment
-D: Backup deployment
-
-D) [Missing option - Please review]
+A) Bird monitoring
+B) Gradual rollout to subset of users before full deployment
+C) Instant deployment
+D) Backup deployment
 
 ✔ Correct Answer: B
 
@@ -955,12 +871,10 @@ Subtopic: Feature Flags
 Difficulty: Medium
 
 Question: What do feature flags enable?
-A: Network flags
-B: Toggle features without deploying new code
-C: Security flags
-D: Error flags
-
-D) [Missing option - Please review]
+A) Network flags
+B) Toggle features without deploying new code
+C) Security flags
+D) Error flags
 
 ✔ Correct Answer: B
 
@@ -977,12 +891,10 @@ Subtopic: A/B Testing
 Difficulty: Easy
 
 Question: What is A/B testing?
-A: Testing two networks
-B: Comparing two versions to determine which performs better
-C: Alphabetical testing
-D: Testing twice
-
-D) [Missing option - Please review]
+A) Testing two networks
+B) Comparing two versions to determine which performs better
+C) Alphabetical testing
+D) Testing twice
 
 ✔ Correct Answer: B
 
@@ -1000,12 +912,10 @@ Subtopic: Chaos Engineering
 Difficulty: Hard
 
 Question: What is chaos engineering?
-A: Creating chaos
-B: Deliberately injecting failures to test resilience
-C: Random testing
-D: Disorganized development
-
-D) [Missing option - Please review]
+A) Creating chaos
+B) Deliberately injecting failures to test resilience
+C) Random testing
+D) Disorganized development
 
 ✔ Correct Answer: B
 
@@ -1022,12 +932,10 @@ Subtopic: Connection Draining
 Difficulty: Medium
 
 Question: What is connection draining during deployment?
-A: Closing all connections
-B: Allowing existing connections to complete before shutdown
-C: Draining bandwidth
-D: Removing connections
-
-D) [Missing option - Please review]
+A) Closing all connections
+B) Allowing existing connections to complete before shutdown
+C) Draining bandwidth
+D) Removing connections
 
 ✔ Correct Answer: B
 
@@ -1044,12 +952,10 @@ Subtopic: Health Checks
 Difficulty: Easy
 
 Question: What is the purpose of health checks in load balancing?
-A: Check user health
-B: Verify backend servers are operational
-C: Check network speed
-D: Monitor bandwidth
-
-D) [Missing option - Please review]
+A) Check user health
+B) Verify backend servers are operational
+C) Check network speed
+D) Monitor bandwidth
 
 ✔ Correct Answer: B
 
@@ -1066,12 +972,10 @@ Subtopic: Graceful Degradation
 Difficulty: Medium
 
 Question: What is graceful degradation?
-A: Slow failure
-B: System continues with reduced functionality when components fail
-C: Complete shutdown
-D: No degradation
-
-D) [Missing option - Please review]
+A) Slow failure
+B) System continues with reduced functionality when components fail
+C) Complete shutdown
+D) No degradation
 
 ✔ Correct Answer: B
 
@@ -1088,12 +992,10 @@ Subtopic: Failover Time
 Difficulty: Medium
 
 Question: What is failover time?
-A: Time to fail
-B: Time to switch from failed to backup system
-C: Time between failures
-D: Failure duration
-
-D) [Missing option - Please review]
+A) Time to fail
+B) Time to switch from failed to backup system
+C) Time between failures
+D) Failure duration
 
 ✔ Correct Answer: B
 
@@ -1110,12 +1012,10 @@ Subtopic: Time to First Byte
 Difficulty: Medium
 
 Question: What does TTFB (Time to First Byte) measure?
-A: Total transfer time
-B: Time from request to first byte of response
-C: Time to last byte
-D: Connection time only
-
-D) [Missing option - Please review]
+A) Total transfer time
+B) Time from request to first byte of response
+C) Time to last byte
+D) Connection time only
 
 ✔ Correct Answer: B
 
@@ -1132,12 +1032,10 @@ Subtopic: Page Load Time
 Difficulty: Easy
 
 Question: What factors affect web page load time?
-A: HTML size only
-B: Network latency, server processing, resource size, rendering
-C: Server location only
-D: Browser only
-
-D) [Missing option - Please review]
+A) HTML size only
+B) Network latency, server processing, resource size, rendering
+C) Server location only
+D) Browser only
 
 ✔ Correct Answer: B
 
@@ -1154,12 +1052,10 @@ Subtopic: Minification
 Difficulty: Easy
 
 Question: What is code minification?
-A: Making code smaller in lines
-B: Removing whitespace and comments to reduce file size
-C: Encrypting code
-D: Compressing images
-
-D) [Missing option - Please review]
+A) Making code smaller in lines
+B) Removing whitespace and comments to reduce file size
+C) Encrypting code
+D) Compressing images
 
 ✔ Correct Answer: B
 
@@ -1176,12 +1072,10 @@ Subtopic: Bundling
 Difficulty: Easy
 
 Question: What is the purpose of bundling JavaScript/CSS files?
-A: Better organization
-B: Reduce number of HTTP requests
-C: Improve security
-D: Enable caching only
-
-D) [Missing option - Please review]
+A) Better organization
+B) Reduce number of HTTP requests
+C) Improve security
+D) Enable caching only
 
 ✔ Correct Answer: B
 
@@ -1198,12 +1092,10 @@ Subtopic: Code Splitting
 Difficulty: Medium
 
 Question: What is code splitting in web applications?
-A: Dividing developers
-B: Loading only necessary code initially, lazy loading rest
-C: Splitting across servers
-D: Breaking code randomly
-
-D) [Missing option - Please review]
+A) Dividing developers
+B) Loading only necessary code initially, lazy loading rest
+C) Splitting across servers
+D) Breaking code randomly
 
 ✔ Correct Answer: B
 
@@ -1220,12 +1112,10 @@ Subtopic: Tree Shaking
 Difficulty: Medium
 
 Question: What is tree shaking in JavaScript?
-A: Removing trees
-B: Eliminating unused code from bundles
-C: Organizing code
-D: Testing code
-
-D) [Missing option - Please review]
+A) Removing trees
+B) Eliminating unused code from bundles
+C) Organizing code
+D) Testing code
 
 ✔ Correct Answer: B
 
@@ -1242,12 +1132,10 @@ Subtopic: Image Optimization
 Difficulty: Easy
 
 Question: What is a key strategy for image optimization?
-A: Using largest size
-B: Responsive images and modern formats (WebP, AVIF)
-C: Avoiding images
-D: Using only PNG
-
-D) [Missing option - Please review]
+A) Using largest size
+B) Responsive images and modern formats (WebP, AVIF)
+C) Avoiding images
+D) Using only PNG
 
 ✔ Correct Answer: B
 
@@ -1264,12 +1152,10 @@ Subtopic: HTTP/2 Prioritization
 Difficulty: Hard
 
 Question: What does HTTP/2 stream prioritization enable?
-A: Random ordering
-B: Specifying importance of resources for optimal loading
-C: Encryption priority
-D: Server priority only
-
-D) [Missing option - Please review]
+A) Random ordering
+B) Specifying importance of resources for optimal loading
+C) Encryption priority
+D) Server priority only
 
 ✔ Correct Answer: B
 
@@ -1286,12 +1172,10 @@ Subtopic: Resource Hints
 Difficulty: Medium
 
 Question: What does the "preconnect" resource hint do?
-A: Preload content
-B: Establish connection before resource is needed
-C: Prefetch DNS only
-D: Cache resources
-
-D) [Missing option - Please review]
+A) Preload content
+B) Establish connection before resource is needed
+C) Prefetch DNS only
+D) Cache resources
 
 ✔ Correct Answer: B
 
@@ -1308,12 +1192,10 @@ Subtopic: DNS Prefetch
 Difficulty: Easy
 
 Question: What does DNS prefetch do?
-A: Fetch all DNS records
-B: Resolve domain names before they're needed
-C: Cache DNS permanently
-D: Block DNS
-
-D) [Missing option - Please review]
+A) Fetch all DNS records
+B) Resolve domain names before they're needed
+C) Cache DNS permanently
+D) Block DNS
 
 ✔ Correct Answer: B
 
@@ -1330,12 +1212,10 @@ Subtopic: Preload
 Difficulty: Medium
 
 Question: What does the "preload" resource hint do?
-A: Load all resources
-B: Fetch critical resources early in page load
-C: Preload images only
-D: Preload DNS
-
-D) [Missing option - Please review]
+A) Load all resources
+B) Fetch critical resources early in page load
+C) Preload images only
+D) Preload DNS
 
 ✔ Correct Answer: B
 
@@ -1352,12 +1232,10 @@ Subtopic: Progressive Web Apps
 Difficulty: Medium
 
 Question: What is a key feature of Progressive Web Apps (PWA)?
-A: Native apps only
-B: Work offline using service workers
-C: Require app store
-D: iOS only
-
-D) [Missing option - Please review]
+A) Native apps only
+B) Work offline using service workers
+C) Require app store
+D) iOS only
 
 ✔ Correct Answer: B
 
@@ -1374,12 +1252,10 @@ Subtopic: Service Workers
 Difficulty: Medium
 
 Question: What can service workers do?
-A: Manage employees
-B: Intercept network requests and cache resources
-C: Process payments
-D: Manage databases
-
-D) [Missing option - Please review]
+A) Manage employees
+B) Intercept network requests and cache resources
+C) Process payments
+D) Manage databases
 
 ✔ Correct Answer: B
 
@@ -1396,12 +1272,10 @@ Subtopic: Edge Functions
 Difficulty: Hard
 
 Question: What are edge functions?
-A: Functions at network edge devices
-B: Serverless functions running at CDN edge locations
-C: Router functions
-D: Switch functions
-
-D) [Missing option - Please review]
+A) Functions at network edge devices
+B) Serverless functions running at CDN edge locations
+C) Router functions
+D) Switch functions
 
 ✔ Correct Answer: B
 
@@ -1418,12 +1292,10 @@ Subtopic: Serverless Computing
 Difficulty: Medium
 
 Question: What characterizes serverless computing?
-A: No servers exist
-B: Auto-scaling, pay-per-execution, no server management
-C: Dedicated servers
-D: Manual scaling
-
-D) [Missing option - Please review]
+A) No servers exist
+B) Auto-scaling, pay-per-execution, no server management
+C) Dedicated servers
+D) Manual scaling
 
 ✔ Correct Answer: B
 
@@ -1440,12 +1312,10 @@ Subtopic: Cold Start
 Difficulty: Medium
 
 Question: What is a cold start in serverless?
-A: Starting in winter
-B: Latency when function instance starts from scratch
-C: Fast start
-D: Warm start
-
-D) [Missing option - Please review]
+A) Starting in winter
+B) Latency when function instance starts from scratch
+C) Fast start
+D) Warm start
 
 ✔ Correct Answer: B
 
@@ -1462,12 +1332,10 @@ Subtopic: Function Warm-up
 Difficulty: Medium
 
 Question: What is function warm-up in serverless?
-A: Heating servers
-B: Keeping function instances alive to avoid cold starts
-C: Faster execution
-D: Better encryption
-
-D) [Missing option - Please review]
+A) Heating servers
+B) Keeping function instances alive to avoid cold starts
+C) Faster execution
+D) Better encryption
 
 ✔ Correct Answer: B
 
@@ -1484,12 +1352,10 @@ Subtopic: Container Orchestration
 Difficulty: Medium
 
 Question: What is container orchestration?
-A: Music for containers
-B: Automated deployment, scaling, and management of containers
-C: Manual container management
-D: Container storage
-
-D) [Missing option - Please review]
+A) Music for containers
+B) Automated deployment, scaling, and management of containers
+C) Manual container management
+D) Container storage
 
 ✔ Correct Answer: B
 
@@ -1506,12 +1372,10 @@ Subtopic: Kubernetes Service
 Difficulty: Hard
 
 Question: What does a Kubernetes Service provide?
-A: Application service
-B: Stable endpoint for accessing pods
-C: Storage service
-D: Security service
-
-D) [Missing option - Please review]
+A) Application service
+B) Stable endpoint for accessing pods
+C) Storage service
+D) Security service
 
 ✔ Correct Answer: B
 
@@ -1528,12 +1392,10 @@ Subtopic: Ingress Controller
 Difficulty: Hard
 
 Question: What does a Kubernetes Ingress controller do?
-A: Control entry to building
-B: Manage external access to services (HTTP/HTTPS routing)
-C: Control egress only
-D: Block all traffic
-
-D) [Missing option - Please review]
+A) Control entry to building
+B) Manage external access to services (HTTP/HTTPS routing)
+C) Control egress only
+D) Block all traffic
 
 ✔ Correct Answer: B
 
@@ -1551,12 +1413,10 @@ Subtopic: Network Policies
 Difficulty: Hard
 
 Question: What do Kubernetes Network Policies control?
-A: User policies
-B: Pod-to-pod communication rules
-C: Storage policies
-D: Deployment policies
-
-D) [Missing option - Please review]
+A) User policies
+B) Pod-to-pod communication rules
+C) Storage policies
+D) Deployment policies
 
 ✔ Correct Answer: B
 
@@ -1573,12 +1433,10 @@ Subtopic: CNI
 Difficulty: Hard
 
 Question: What does CNI (Container Network Interface) define?
-A: Container naming
-B: Standard for configuring container networking
-C: Container images
-D: Container storage
-
-D) [Missing option - Please review]
+A) Container naming
+B) Standard for configuring container networking
+C) Container images
+D) Container storage
 
 ✔ Correct Answer: B
 
@@ -1595,12 +1453,10 @@ Subtopic: Overlay Networks
 Difficulty: Hard
 
 Question: What is an overlay network in containers?
-A: Physical network layer
-B: Virtual network built on top of existing network
-C: Backup network
-D: Wireless network
-
-D) [Missing option - Please review]
+A) Physical network layer
+B) Virtual network built on top of existing network
+C) Backup network
+D) Wireless network
 
 ✔ Correct Answer: B
 
@@ -1617,12 +1473,10 @@ Subtopic: Service Discovery
 Difficulty: Medium
 
 Question: What is service discovery in microservices?
-A: Discovering new services
-B: Automatically locating service instances
-C: Manual configuration
-D: DNS only
-
-D) [Missing option - Please review]
+A) Discovering new services
+B) Automatically locating service instances
+C) Manual configuration
+D) DNS only
 
 ✔ Correct Answer: B
 
@@ -1639,12 +1493,10 @@ Subtopic: Service Registry
 Difficulty: Medium
 
 Question: What does a service registry maintain?
-A: User registrations
-B: Database of available service instances and locations
-C: Domain registrations
-D: Certificate registry
-
-D) [Missing option - Please review]
+A) User registrations
+B) Database of available service instances and locations
+C) Domain registrations
+D) Certificate registry
 
 ✔ Correct Answer: B
 
@@ -1661,12 +1513,10 @@ Subtopic: Client-Side Discovery
 Difficulty: Hard
 
 Question: In client-side service discovery, who queries the registry?
-A: Load balancer
-B: Client directly
-C: Server
-D: Router
-
-D) [Missing option - Please review]
+A) Load balancer
+B) Client directly
+C) Server
+D) Router
 
 ✔ Correct Answer: B
 
@@ -1683,12 +1533,10 @@ Subtopic: Server-Side Discovery
 Difficulty: Hard
 
 Question: In server-side service discovery, what handles registry queries?
-A: Client
-B: Load balancer or router
-C: Database
-D: DNS only
-
-D) [Missing option - Please review]
+A) Client
+B) Load balancer or router
+C) Database
+D) DNS only
 
 ✔ Correct Answer: B
 
@@ -1705,12 +1553,10 @@ Subtopic: gRPC Load Balancing
 Difficulty: Hard
 
 Question: Why is gRPC load balancing challenging?
-A: Too fast
-B: Uses long-lived HTTP/2 connections
-C: Too slow
-D: No load balancing support
-
-D) [Missing option - Please review]
+A) Too fast
+B) Uses long-lived HTTP/2 connections
+C) Too slow
+D) No load balancing support
 
 ✔ Correct Answer: B
 
@@ -1727,12 +1573,10 @@ Subtopic: Sidecar Proxy
 Difficulty: Hard
 
 Question: What does a sidecar proxy in service mesh do?
-A: Physical proxy
-B: Intercepts all service traffic for observability and control
-C: Backup proxy
-D: DNS proxy
-
-D) [Missing option - Please review]
+A) Physical proxy
+B) Intercepts all service traffic for observability and control
+C) Backup proxy
+D) DNS proxy
 
 ✔ Correct Answer: B
 
@@ -1749,12 +1593,10 @@ Subtopic: Control Plane vs Data Plane
 Difficulty: Medium
 
 Question: In service mesh, what does the control plane do?
-A: Handle all traffic
-B: Configure and manage data plane proxies
-C: Store data
-D: Process requests
-
-D) [Missing option - Please review]
+A) Handle all traffic
+B) Configure and manage data plane proxies
+C) Store data
+D) Process requests
 
 ✔ Correct Answer: B
 
@@ -1771,12 +1613,10 @@ Subtopic: Mutual TLS
 Difficulty: Hard
 
 Question: What does mutual TLS (mTLS) provide?
-A: One-way authentication
-B: Both client and server authenticate each other
-C: No authentication
-D: Faster TLS
-
-D) [Missing option - Please review]
+A) One-way authentication
+B) Both client and server authenticate each other
+C) No authentication
+D) Faster TLS
 
 ✔ Correct Answer: B
 
@@ -1793,12 +1633,10 @@ Subtopic: Zero Trust Architecture
 Difficulty: Hard
 
 Question: What does zero trust require for every request?
-A: Trust internal network
-B: Authentication and authorization
-C: VPN connection
-D: Physical access
-
-D) [Missing option - Please review]
+A) Trust internal network
+B) Authentication and authorization
+C) VPN connection
+D) Physical access
 
 ✔ Correct Answer: B
 
@@ -1815,12 +1653,10 @@ Subtopic: Traffic Splitting
 Difficulty: Medium
 
 Question: What is traffic splitting in service mesh?
-A: Physical cable splitting
-B: Routing percentage of traffic to different service versions
-C: Bandwidth division
-D: Packet fragmentation
-
-D) [Missing option - Please review]
+A) Physical cable splitting
+B) Routing percentage of traffic to different service versions
+C) Bandwidth division
+D) Packet fragmentation
 
 ✔ Correct Answer: B
 
@@ -1837,12 +1673,10 @@ Subtopic: Fault Injection
 Difficulty: Hard
 
 Question: What is fault injection in service mesh?
-A: Creating real faults
-B: Deliberately introducing delays or errors for testing
-C: Fixing faults
-D: Detecting faults
-
-D) [Missing option - Please review]
+A) Creating real faults
+B) Deliberately introducing delays or errors for testing
+C) Fixing faults
+D) Detecting faults
 
 ✔ Correct Answer: B
 
@@ -1859,12 +1693,10 @@ Subtopic: Request Timeout
 Difficulty: Medium
 
 Question: Why are request timeouts important?
-A: Save time
-B: Prevent indefinite waiting and resource exhaustion
-C: Increase speed
-D: Better encryption
-
-D) [Missing option - Please review]
+A) Save time
+B) Prevent indefinite waiting and resource exhaustion
+C) Increase speed
+D) Better encryption
 
 ✔ Correct Answer: B
 
@@ -1881,12 +1713,10 @@ Subtopic: Retry Budget
 Difficulty: Hard
 
 Question: What is a retry budget?
-A: Financial budget
-B: Limit on retry attempts to prevent retry storms
-C: Unlimited retries
-D: No retries
-
-D) [Missing option - Please review]
+A) Financial budget
+B) Limit on retry attempts to prevent retry storms
+C) Unlimited retries
+D) No retries
 
 ✔ Correct Answer: B
 
@@ -1903,12 +1733,10 @@ Subtopic: Deadline Propagation
 Difficulty: Hard
 
 Question: What is deadline propagation in distributed systems?
-A: Project deadlines
-B: Passing request deadline through service chain
-C: Time synchronization
-D: Timeout extension
-
-D) [Missing option - Please review]
+A) Project deadlines
+B) Passing request deadline through service chain
+C) Time synchronization
+D) Timeout extension
 
 ✔ Correct Answer: B
 
@@ -1925,12 +1753,10 @@ Subtopic: Saga Pattern
 Difficulty: Hard
 
 Question: What does the saga pattern manage?
-A: Stories
-B: Distributed transactions across microservices
-C: User sessions
-D: File transfers
-
-D) [Missing option - Please review]
+A) Stories
+B) Distributed transactions across microservices
+C) User sessions
+D) File transfers
 
 ✔ Correct Answer: B
 
@@ -1947,12 +1773,10 @@ Subtopic: Two-Phase Commit
 Difficulty: Hard
 
 Question: What is the main drawback of two-phase commit (2PC)?
-A: Too fast
-B: Blocking protocol with single point of failure
-C: Too simple
-D: No drawbacks
-
-D) [Missing option - Please review]
+A) Too fast
+B) Blocking protocol with single point of failure
+C) Too simple
+D) No drawbacks
 
 ✔ Correct Answer: B
 
@@ -1969,12 +1793,10 @@ Subtopic: Event Sourcing
 Difficulty: Hard
 
 Question: What is event sourcing?
-A: Finding event sources
-B: Storing state changes as sequence of events
-C: Event logging only
-D: Event deletion
-
-D) [Missing option - Please review]
+A) Finding event sources
+B) Storing state changes as sequence of events
+C) Event logging only
+D) Event deletion
 
 ✔ Correct Answer: B
 
@@ -1991,12 +1813,10 @@ Subtopic: CQRS
 Difficulty: Hard
 
 Question: What does CQRS (Command Query Responsibility Segregation) separate?
-A: Commands and queries into different models
-B: Servers and clients
-C: Networks and storage
-D: Users and admins
-
-D) [Missing option - Please review]
+A) Commands and queries into different models
+B) Servers and clients
+C) Networks and storage
+D) Users and admins
 
 ✔ Correct Answer: A
 
@@ -2013,12 +1833,10 @@ Subtopic: Database Connection Pooling
 Difficulty: Medium
 
 Question: Why use database connection pooling?
-A: More connections
-B: Reuse connections avoiding expensive creation overhead
-C: Better security
-D: Faster queries
-
-D) [Missing option - Please review]
+A) More connections
+B) Reuse connections avoiding expensive creation overhead
+C) Better security
+D) Faster queries
 
 ✔ Correct Answer: B
 
@@ -2035,12 +1853,10 @@ Subtopic: N+1 Query Problem
 Difficulty: Hard
 
 Question: What is the N+1 query problem?
-A: Math problem
-B: One query plus N additional queries in loop
-C: Query optimization
-D: Query caching
-
-D) [Missing option - Please review]
+A) Math problem
+B) One query plus N additional queries in loop
+C) Query optimization
+D) Query caching
 
 ✔ Correct Answer: B
 
@@ -2057,12 +1873,10 @@ Subtopic: Query Batching
 Difficulty: Medium
 
 Question: What is query batching?
-A: Running queries in batches
-B: Combining multiple queries into single request
-C: Delaying queries
-D: Caching queries
-
-D) [Missing option - Please review]
+A) Running queries in batches
+B) Combining multiple queries into single request
+C) Delaying queries
+D) Caching queries
 
 ✔ Correct Answer: B
 
@@ -2079,12 +1893,10 @@ Subtopic: Data Locality
 Difficulty: Medium
 
 Question: What is data locality in distributed systems?
-A: Local storage only
-B: Processing data close to where it's stored
-C: Remote processing only
-D: Cloud storage
-
-D) [Missing option - Please review]
+A) Local storage only
+B) Processing data close to where it's stored
+C) Remote processing only
+D) Cloud storage
 
 ✔ Correct Answer: B
 
@@ -2101,12 +1913,10 @@ Subtopic: Sharding
 Difficulty: Medium
 
 Question: What is database sharding?
-A: Breaking databases
-B: Horizontal partitioning across multiple databases
-C: Vertical partitioning
-D: Database backup
-
-D) [Missing option - Please review]
+A) Breaking databases
+B) Horizontal partitioning across multiple databases
+C) Vertical partitioning
+D) Database backup
 
 ✔ Correct Answer: B
 
@@ -2123,12 +1933,10 @@ Subtopic: Consistent Hashing
 Difficulty: Hard
 
 Question: What problem does consistent hashing solve?
-A: Hash collisions
-B: Minimizing remapping when nodes are added/removed
-C: Faster hashing
-D: Better encryption
-
-D) [Missing option - Please review]
+A) Hash collisions
+B) Minimizing remapping when nodes are added/removed
+C) Faster hashing
+D) Better encryption
 
 ✔ Correct Answer: B
 
@@ -2145,12 +1953,10 @@ Subtopic: Replication Lag
 Difficulty: Medium
 
 Question: What is replication lag?
-A: Slow replication
-B: Time delay between primary and replica data
-C: Replication failure
-D: Network lag
-
-D) [Missing option - Please review]
+A) Slow replication
+B) Time delay between primary and replica data
+C) Replication failure
+D) Network lag
 
 ✔ Correct Answer: B
 
@@ -2167,12 +1973,10 @@ Subtopic: Read Replicas
 Difficulty: Easy
 
 Question: What is the purpose of read replicas?
-A: Backup only
-B: Scale read operations by distributing across multiple copies
-C: Write scaling
-D: Encryption
-
-D) [Missing option - Please review]
+A) Backup only
+B) Scale read operations by distributing across multiple copies
+C) Write scaling
+D) Encryption
 
 ✔ Correct Answer: B
 
@@ -2189,12 +1993,10 @@ Subtopic: Write Scaling
 Difficulty: Hard
 
 Question: Which technique helps scale write operations?
-A: Read replicas
-B: Sharding and partitioning
-C: Caching
-D: CDN
-
-D) [Missing option - Please review]
+A) Read replicas
+B) Sharding and partitioning
+C) Caching
+D) CDN
 
 ✔ Correct Answer: B
 

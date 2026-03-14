@@ -1034,9 +1034,7 @@ Question: What does condition coverage measure?
 A) Weather conditions
 B) Each boolean sub-expression evaluated to true and false
 C) If statements only
-D: Loops only
-
-D) [Missing option - Please review]
+D) Loops only
 
 ✔ Correct Answer: B
 

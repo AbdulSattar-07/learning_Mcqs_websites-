@@ -471,9 +471,7 @@ Difficulty: Hard
 
 Question: What is coarse-grained multithreading?
 A) Fine switching
-B: Thread switch only on long-latency events
-B) [Missing option - Please review]
-
+B) Thread switch only on long-latency events
 C) Constant switching
 D) No switching
 
@@ -573,9 +571,7 @@ Difficulty: Hard
 
 Question: What is livelock?
 A) Deadlock variant
-B: Processes actively changing state but making no progress
-B) [Missing option - Please review]
-
+B) Processes actively changing state but making no progress
 C) Normal operation
 D) System crash
 
@@ -656,9 +652,7 @@ Difficulty: Hard
 Question: What is the multiple producer-consumer problem?
 A) Single producer and consumer
 B) Multiple producers and consumers sharing buffer
-C: No producers
-C) [Missing option - Please review]
-
+C) No producers
 D) No consumers
 
 ✔ Correct Answer: B
@@ -698,9 +692,7 @@ Difficulty: Hard
 Question: What is a drawback of deadlock prevention?
 A) No drawbacks
 B) May reduce resource utilization and system throughput
-C: Always optimal
-C) [Missing option - Please review]
-
+C) Always optimal
 D) Increases performance
 
 ✔ Correct Answer: B
@@ -718,9 +710,7 @@ Subtopic: Deadlock Avoidance Limitations
 Difficulty: Hard
 
 Question: What limits practical use of Banker's Algorithm?
-A: No limitations
-A) [Missing option - Please review]
-
+A) No limitations
 B) Requires knowing maximum resource needs in advance
 C) Too simple
 D) Always works perfectly
@@ -1663,9 +1653,7 @@ Question: What happens during RAID rebuild?
 A) Nothing
 B) Data reconstructed on replacement disk
 C) All data lost
-D: System shutdown
-
-D) [Missing option - Please review]
+D) System shutdown
 
 ✔ Correct Answer: B
 
@@ -1765,9 +1753,7 @@ Question: Why have interrupt priorities?
 A) No reason
 B) Handle urgent interrupts before less critical ones
 C) Slow down system
-D: Random handling
-
-D) [Missing option - Please review]
+D) Random handling
 
 ✔ Correct Answer: B
 
@@ -1847,9 +1833,7 @@ Question: Why salt passwords before hashing?
 A) Improve taste
 B) Prevent rainbow table attacks
 C) Slow down system
-D: No reason
-
-D) [Missing option - Please review]
+D) No reason
 
 ✔ Correct Answer: B
 
@@ -1888,9 +1872,7 @@ Difficulty: Hard
 Question: What does complete mediation require?
 A) No checking
 B) Every access checked against access control
-C: Random checking
-C) [Missing option - Please review]
-
+C) Random checking
 D) One-time checking
 
 ✔ Correct Answer: B
@@ -1951,9 +1933,7 @@ Question: What are stack canaries?
 A) Birds
 B) Values placed on stack to detect buffer overflows
 C) Stack pointers
-D: No function
-
-D) [Missing option - Please review]
+D) No function
 
 ✔ Correct Answer: B
 
@@ -2011,9 +1991,7 @@ Difficulty: Medium
 
 Question: What is security auditing?
 A) Financial audit
-B: Recording and analyzing system activities for security
-B) [Missing option - Please review]
-
+B) Recording and analyzing system activities for security
 C) Performance monitoring
 D) Disk checking
 

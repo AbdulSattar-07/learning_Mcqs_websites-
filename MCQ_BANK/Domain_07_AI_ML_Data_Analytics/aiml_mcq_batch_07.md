@@ -883,9 +883,7 @@ Difficulty: Easy
 
 Question: What is lowercasing in text preprocessing?
 A) Removing words
-B: Converting all text to lowercase
-B) [Missing option - Please review]
-
+B) Converting all text to lowercase
 C) Removing punctuation
 D) Tokenization
 
@@ -921,9 +919,7 @@ Difficulty: Easy
 
 Question: What is a numerical feature?
 A) Text feature
-B: Feature with numeric values
-B) [Missing option - Please review]
-
+B) Feature with numeric values
 C) Categorical feature
 D) Boolean feature
 
@@ -1072,9 +1068,7 @@ Difficulty: Medium
 
 Question: What is model stealing?
 A) Physical theft
-B: Extracting model through queries
-B) [Missing option - Please review]
-
+B) Extracting model through queries
 C) Deleting model
 D) Copying code
 
@@ -1092,9 +1086,7 @@ Difficulty: Easy
 
 Question: What is a vocabulary in NLP?
 A) Dictionary
-B: Set of unique words in corpus
-B) [Missing option - Please review]
-
+B) Set of unique words in corpus
 C) Grammar rules
 D) Sentences
 
@@ -1112,13 +1104,9 @@ Difficulty: Easy
 
 Question: Why use dimensionality reduction?
 A) Increase features
-B: Reduce features while preserving information
-B) [Missing option - Please review]
-
+B) Reduce features while preserving information
 C) Add noise
-D: Slow down training
-
-D) [Missing option - Please review]
+D) Slow down training
 
 ✔ Correct Answer: B
 Reason: Dimensionality reduction simplifies data while retaining important patterns.

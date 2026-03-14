@@ -876,9 +876,7 @@ Question: What is a skip list?
 A) Array
 B) Probabilistic data structure with multiple levels
 C) Simple list
-D: No structure
-
-D) [Missing option - Please review]
+D) No structure
 
 ✔ Correct Answer: B
 
@@ -898,9 +896,7 @@ Question: What does the Collatz conjecture state?
 
 A) All sequences diverge
 B) All sequences eventually reach 1
-C: No pattern
-C) [Missing option - Please review]
-
+C) No pattern
 D) Random conjecture
 
 ✔ Correct Answer: B
@@ -1339,9 +1335,7 @@ Difficulty: Hard
 Question: What is the circuit breaker pattern?
 
 A) Random pattern
-B: Preventing cascading failures by stopping requests to failing service
-B) [Missing option - Please review]
-
+B) Preventing cascading failures by stopping requests to failing service
 C) No prevention
 D) Continuous requests
 
@@ -1990,9 +1984,7 @@ Difficulty: Hard
 Question: What is the bias-variance tradeoff?
 
 A) No tradeoff
-B: Balance between model simplicity and flexibility
-B) [Missing option - Please review]
-
+B) Balance between model simplicity and flexibility
 C) Always choose high bias
 D) Random concept
 

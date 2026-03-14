@@ -13,9 +13,7 @@ Question: What is Treap?
 A) Trap data
 B) Randomized BST combining tree and heap properties
 C) Binary tree
-D: Array tree
-
-D) [Missing option - Please review]
+D) Array tree
 
 ✔ Correct Answer: B
 
@@ -81,9 +79,7 @@ Difficulty: Hard
 
 Question: Why serialize binary tree?
 A) Sort tree
-B: Convert to string/array for storage or transmission
-B) [Missing option - Please review]
-
+B) Convert to string/array for storage or transmission
 C) Delete tree
 D) Balance tree
 
@@ -321,9 +317,7 @@ Difficulty: Hard
 
 Question: What is heavy-light decomposition?
 A) Weight-based
-B: Decompose tree into chains for efficient path queries
-B) [Missing option - Please review]
-
+B) Decompose tree into chains for efficient path queries
 C) Tree splitting
 D) Balancing
 
@@ -1381,9 +1375,7 @@ Subtopic: Disjoint Sparse Table
 Difficulty: Hard
 
 Question: What is advantage of disjoint sparse table?
-A: Simpler
-A) [Missing option - Please review]
-
+A) Simpler
 B) Supports range queries on any associative operation
 C) Less space
 D) Faster

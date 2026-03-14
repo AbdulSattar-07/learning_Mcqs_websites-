@@ -412,9 +412,7 @@ Difficulty: Easy
 Question: What is analytical thinking?
 
 A) Emotional thinking
-B: Breaking down complex information into parts for understanding
-B) [Missing option - Please review]
-
+B) Breaking down complex information into parts for understanding
 C) Random thinking
 D) Avoiding analysis
 

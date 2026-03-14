@@ -433,9 +433,7 @@ Question: How to find minimum meeting rooms needed?
 A) Count meetings
 B) Sort by start, use min-heap for end times
 C) Random allocation
-D: Cannot determine
-
-D) [Missing option - Please review]
+D) Cannot determine
 
 ✔ Correct Answer: B
 
@@ -721,28 +719,10 @@ Subtopic: Right Side View
 Difficulty: Medium
 
 Question: What is the output?
-```python
-from collections import deque
-
-def right_side_view(root):
-    if not root:
-        return []
-    
-    result = []
-    queue = deque([root])
-    
-    while queue:
-        level_size = len(queue)
-        for i in range(level_size):
-            node = queue.popleft()
-            if i == level_size - 1:
-                result.append(node.val)
-            if node.left:
-                queue.append(node.left)
-            if node.right:
-                queue.append(node.right)
-    
-    retur
+A) [Option A]
+B) [Option B]
+C) [Option C]
+D) [Option D]
 ### Question 321
 Domain: Data Structures
 Topic: Stack Applications
@@ -1761,9 +1741,7 @@ Difficulty: Medium
 
 Question: How can you detect a cycle in a directed graph using DFS?
 A) Count vertices
-B: Check if back edge exists during DFS
-B) [Missing option - Please review]
-
+B) Check if back edge exists during DFS
 C) Use BFS
 D) Count edges
 

@@ -10,12 +10,10 @@ Subtopic: Prefix Sum
 Difficulty: Easy
 
 Question: What is the time complexity of range sum query using prefix sum?
-A: O(n)
-B: O(1)
-C: O(log n)
-D: O(n²)
-
-D) [Missing option - Please review]
+A) O(n)
+B) O(1)
+C) O(log n)
+D) O(n²)
 
 ✔ Correct Answer: B
 
@@ -32,12 +30,10 @@ Subtopic: Difference Array
 Difficulty: Medium
 
 Question: What is difference array used for?
-A: Finding differences
-B: Efficient range updates
-C: Sorting
-D: Searching
-
-D) [Missing option - Please review]
+A) Finding differences
+B) Efficient range updates
+C) Sorting
+D) Searching
 
 ✔ Correct Answer: B
 
@@ -54,12 +50,10 @@ Subtopic: Euler Tour
 Difficulty: Hard
 
 Question: What does Euler tour of tree provide?
-A: Tree traversal
-B: Flattening tree to array for range queries
-C: Tree sorting
-D: Tree deletion
-
-D) [Missing option - Please review]
+A) Tree traversal
+B) Flattening tree to array for range queries
+C) Tree sorting
+D) Tree deletion
 
 ✔ Correct Answer: B
 
@@ -76,12 +70,10 @@ Subtopic: Bipartite Graph
 Difficulty: Medium
 
 Question: How to check if a graph is bipartite?
-A: Count vertices
-B: 2-color using BFS/DFS
-C: Check edges
-D: Random check
-
-D) [Missing option - Please review]
+A) Count vertices
+B) 2-color using BFS/DFS
+C) Check edges
+D) Random check
 
 ✔ Correct Answer: B
 
@@ -98,12 +90,10 @@ Subtopic: Maximum Bipartite Matching
 Difficulty: Hard
 
 Question: What algorithm solves maximum bipartite matching?
-A: BFS only
-B: Hungarian algorithm or Ford-Fulkerson
-C: DFS only
-D: Dijkstra's
-
-D) [Missing option - Please review]
+A) BFS only
+B) Hungarian algorithm or Ford-Fulkerson
+C) DFS only
+D) Dijkstra's
 
 ✔ Correct Answer: B
 
@@ -120,12 +110,10 @@ Subtopic: Network Flow
 Difficulty: Hard
 
 Question: What does Ford-Fulkerson algorithm find?
-A: Shortest path
-B: Maximum flow in network
-C: MST
-D: Topological order
-
-D) [Missing option - Please review]
+A) Shortest path
+B) Maximum flow in network
+C) MST
+D) Topological order
 
 ✔ Correct Answer: B
 
@@ -142,12 +130,10 @@ Subtopic: Min Cut
 Difficulty: Hard
 
 Question: What is the relationship between max flow and min cut?
-A: Unrelated
-B: Max flow value equals min cut capacity
-C: Max flow > min cut
-D: Max flow < min cut
-
-D) [Missing option - Please review]
+A) Unrelated
+B) Max flow value equals min cut capacity
+C) Max flow > min cut
+D) Max flow < min cut
 
 ✔ Correct Answer: B
 
@@ -164,12 +150,10 @@ Subtopic: Binary Search Variants
 Difficulty: Medium
 
 Question: What is binary search on answer?
-A: Searching for answer
-B: Binary search on solution space to find optimal value
-C: Regular binary search
-D: Random search
-
-D) [Missing option - Please review]
+A) Searching for answer
+B) Binary search on solution space to find optimal value
+C) Regular binary search
+D) Random search
 
 ✔ Correct Answer: B
 
@@ -186,12 +170,10 @@ Subtopic: Matrix Exponentiation
 Difficulty: Hard
 
 Question: What is the time complexity of computing A^n using matrix exponentiation?
-A: O(n)
-B: O(log n) matrix multiplications
-C: O(n²)
-D: O(2ⁿ)
-
-D) [Missing option - Please review]
+A) O(n)
+B) O(log n) matrix multiplications
+C) O(n²)
+D) O(2ⁿ)
 
 ✔ Correct Answer: B
 
@@ -208,12 +190,10 @@ Subtopic: Fibonacci Fast
 Difficulty: Hard
 
 Question: How can Fibonacci be computed in O(log n)?
-A: Recursion
-B: Matrix exponentiation
-C: Iteration only
-D: Impossible
-
-D) [Missing option - Please review]
+A) Recursion
+B) Matrix exponentiation
+C) Iteration only
+D) Impossible
 
 ✔ Correct Answer: B
 
@@ -230,12 +210,10 @@ Subtopic: Longest Common Prefix
 Difficulty: Easy
 
 Question: What is the time complexity of finding LCP of n strings?
-A: O(1)
-B: O(n*m) where m is min string length
-C: O(n)
-D: O(log n)
-
-D) [Missing option - Please review]
+A) O(1)
+B) O(n*m) where m is min string length
+C) O(n)
+D) O(log n)
 
 ✔ Correct Answer: B
 
@@ -252,12 +230,10 @@ Subtopic: String Rotation
 Difficulty: Easy
 
 Question: How to check if string s2 is rotation of s1?
-A: Sort both
-B: Check if s2 is substring of s1+s1
-C: Compare lengths only
-D: Reverse and compare
-
-D) [Missing option - Please review]
+A) Sort both
+B) Check if s2 is substring of s1+s1
+C) Compare lengths only
+D) Reverse and compare
 
 ✔ Correct Answer: B
 
@@ -274,12 +250,10 @@ Subtopic: Trapping Rain Water
 Difficulty: Hard
 
 Question: What approach solves trapping rain water efficiently?
-A: Brute force only
-B: Two pointers or precomputed max heights
-C: Sorting
-D: Hashing
-
-D) [Missing option - Please review]
+A) Brute force only
+B) Two pointers or precomputed max heights
+C) Sorting
+D) Hashing
 
 ✔ Correct Answer: B
 
@@ -296,12 +270,10 @@ Subtopic: Stock Span
 Difficulty: Medium
 
 Question: What does stock span problem find?
-A: Stock prices
-B: Number of consecutive days with price ≤ current
-C: Maximum price
-D: Minimum price
-
-D) [Missing option - Please review]
+A) Stock prices
+B) Number of consecutive days with price ≤ current
+C) Maximum price
+D) Minimum price
 
 ✔ Correct Answer: B
 
@@ -318,12 +290,10 @@ Subtopic: Largest Rectangle
 Difficulty: Hard
 
 Question: How to find largest rectangle in histogram?
-A: Brute force only
-B: Stack-based approach in O(n)
-C: Sorting
-D: Binary search
-
-D) [Missing option - Please review]
+A) Brute force only
+B) Stack-based approach in O(n)
+C) Sorting
+D) Binary search
 
 ✔ Correct Answer: B
 
@@ -340,12 +310,10 @@ Subtopic: Sliding Window Maximum
 Difficulty: Hard
 
 Question: What data structure efficiently finds sliding window maximum?
-A: Simple queue
-B: Monotonic deque
-C: Stack
-D: Array
-
-D) [Missing option - Please review]
+A) Simple queue
+B) Monotonic deque
+C) Stack
+D) Array
 
 ✔ Correct Answer: B
 
@@ -362,12 +330,10 @@ Subtopic: Vertical Order Traversal
 Difficulty: Medium
 
 Question: What additional information is needed for vertical order traversal?
-A: Only level
-B: Horizontal distance from root
-C: Node value
-D: Parent pointer
-
-D) [Missing option - Please review]
+A) Only level
+B) Horizontal distance from root
+C) Node value
+D) Parent pointer
 
 ✔ Correct Answer: B
 
@@ -384,12 +350,10 @@ Subtopic: Boundary Traversal
 Difficulty: Medium
 
 Question: What does boundary traversal of binary tree include?
-A: All nodes
-B: Left boundary, leaves, right boundary (excluding root duplicates)
-C: Root only
-D: Leaves only
-
-D) [Missing option - Please review]
+A) All nodes
+B) Left boundary, leaves, right boundary (excluding root duplicates)
+C) Root only
+D) Leaves only
 
 ✔ Correct Answer: B
 
@@ -406,12 +370,10 @@ Subtopic: Diagonal Traversal
 Difficulty: Medium
 
 Question: What are diagonals in binary tree?
-A: Physical diagonals
-B: Nodes where right child is same diagonal, left child is next
-C: All nodes at same level
-D: Random grouping
-
-D) [Missing option - Please review]
+A) Physical diagonals
+B) Nodes where right child is same diagonal, left child is next
+C) All nodes at same level
+D) Random grouping
 
 ✔ Correct Answer: B
 
@@ -428,12 +390,10 @@ Subtopic: Eulerian Path
 Difficulty: Hard
 
 Question: When does an Eulerian path exist in undirected graph?
-A: Always
-B: Exactly 0 or 2 vertices with odd degree
-C: All even degrees
-D: Never
-
-D) [Missing option - Please review]
+A) Always
+B) Exactly 0 or 2 vertices with odd degree
+C) All even degrees
+D) Never
 
 ✔ Correct Answer: B
 
@@ -451,12 +411,10 @@ Subtopic: Hamiltonian Path
 Difficulty: Hard
 
 Question: What is the difference between Eulerian and Hamiltonian path?
-A: Same thing
-B: Eulerian visits each edge once, Hamiltonian visits each vertex once
-C: Eulerian is faster
-D: No difference
-
-D) [Missing option - Please review]
+A) Same thing
+B) Eulerian visits each edge once, Hamiltonian visits each vertex once
+C) Eulerian is faster
+D) No difference
 
 ✔ Correct Answer: B
 
@@ -473,12 +431,10 @@ Subtopic: Graph Coloring
 Difficulty: Hard
 
 Question: What is chromatic number of a graph?
-A: Number of colors
-B: Minimum colors needed to color vertices with no adjacent same color
-C: Maximum colors
-D: Average colors
-
-D) [Missing option - Please review]
+A) Number of colors
+B) Minimum colors needed to color vertices with no adjacent same color
+C) Maximum colors
+D) Average colors
 
 ✔ Correct Answer: B
 
@@ -495,12 +451,10 @@ Subtopic: Bipartite Matching
 Difficulty: Hard
 
 Question: What is the chromatic number of a bipartite graph?
-A: 1
-B: 2
-C: 3
-D: Depends on size
-
-D) [Missing option - Please review]
+A) 1
+B) 2
+C) 3
+D) Depends on size
 
 ✔ Correct Answer: B
 
@@ -517,12 +471,10 @@ Subtopic: Sparse Table
 Difficulty: Hard
 
 Question: What queries does sparse table answer efficiently?
-A: Update queries
-B: Range minimum/maximum queries (immutable)
-C: Insert queries
-D: Delete queries
-
-D) [Missing option - Please review]
+A) Update queries
+B) Range minimum/maximum queries (immutable)
+C) Insert queries
+D) Delete queries
 
 ✔ Correct Answer: B
 
@@ -539,12 +491,10 @@ Subtopic: Square Root Decomposition
 Difficulty: Hard
 
 Question: What is the time complexity of range query using sqrt decomposition?
-A: O(1)
-B: O(√n)
-C: O(n)
-D: O(log n)
-
-D) [Missing option - Please review]
+A) O(1)
+B) O(√n)
+C) O(n)
+D) O(log n)
 
 ✔ Correct Answer: B
 
@@ -561,12 +511,10 @@ Subtopic: Mo's Algorithm
 Difficulty: Hard
 
 Question: What type of queries does Mo's algorithm handle?
-A: Online queries
-B: Offline range queries
-C: Update queries
-D: Insert queries
-
-D) [Missing option - Please review]
+A) Online queries
+B) Offline range queries
+C) Update queries
+D) Insert queries
 
 ✔ Correct Answer: B
 
@@ -583,12 +531,10 @@ Subtopic: Suffix Array
 Difficulty: Hard
 
 Question: What is a suffix array?
-A: Array of suffixes
-B: Sorted array of suffix starting positions
-C: Array of prefixes
-D: Random array
-
-D) [Missing option - Please review]
+A) Array of suffixes
+B) Sorted array of suffix starting positions
+C) Array of prefixes
+D) Random array
 
 ✔ Correct Answer: B
 
@@ -605,12 +551,10 @@ Subtopic: LCP Array
 Difficulty: Hard
 
 Question: What does LCP array store?
-A: Longest common prefix
-B: Length of longest common prefix between consecutive suffixes in suffix array
-C: All prefixes
-D: Character positions
-
-D) [Missing option - Please review]
+A) Longest common prefix
+B) Length of longest common prefix between consecutive suffixes in suffix array
+C) All prefixes
+D) Character positions
 
 ✔ Correct Answer: B
 
@@ -627,12 +571,10 @@ Subtopic: Convex Hull
 Difficulty: Hard
 
 Question: What does Graham scan algorithm find?
-A: Graph scan
-B: Convex hull of points in O(n log n)
-C: Shortest path
-D: Maximum distance
-
-D) [Missing option - Please review]
+A) Graph scan
+B) Convex hull of points in O(n log n)
+C) Shortest path
+D) Maximum distance
 
 ✔ Correct Answer: B
 
@@ -649,12 +591,10 @@ Subtopic: Line Sweep
 Difficulty: Hard
 
 Question: What is line sweep algorithm technique?
-A: Drawing lines
-B: Processing events in sorted order (sweep line across plane)
-C: Random processing
-D: Parallel processing
-
-D) [Missing option - Please review]
+A) Drawing lines
+B) Processing events in sorted order (sweep line across plane)
+C) Random processing
+D) Parallel processing
 
 ✔ Correct Answer: B
 
@@ -671,12 +611,10 @@ Subtopic: Cartesian Tree
 Difficulty: Hard
 
 Question: What property does Cartesian tree satisfy?
-A: BST property only
-B: Heap property for values, BST property for indices
-C: AVL property
-D: No special property
-
-D) [Missing option - Please review]
+A) BST property only
+B) Heap property for values, BST property for indices
+C) AVL property
+D) No special property
 
 ✔ Correct Answer: B
 
@@ -693,12 +631,10 @@ Subtopic: Treap
 Difficulty: Hard
 
 Question: What does Treap combine?
-A: Tree and heap
-B: BST (by key) and heap (by random priority)
-C: Tree and map
-D: Heap and array
-
-D) [Missing option - Please review]
+A) Tree and heap
+B) BST (by key) and heap (by random priority)
+C) Tree and map
+D) Heap and array
 
 ✔ Correct Answer: B
 
@@ -715,12 +651,10 @@ Subtopic: Splay Tree
 Difficulty: Hard
 
 Question: What is special about splay trees?
-A: Always balanced
-B: Self-adjusting, recently accessed nodes move to root
-C: Fixed structure
-D: No rotations
-
-D) [Missing option - Please review]
+A) Always balanced
+B) Self-adjusting, recently accessed nodes move to root
+C) Fixed structure
+D) No rotations
 
 ✔ Correct Answer: B
 
@@ -737,12 +671,10 @@ Subtopic: B-Tree Order
 Difficulty: Hard
 
 Question: In a B-tree of order m, what is the maximum number of children per node?
-A: m-1
-B: m
-C: 2m
-D: m+1
-
-D) [Missing option - Please review]
+A) m-1
+B) m
+C) 2m
+D) m+1
 
 ✔ Correct Answer: B
 
@@ -759,12 +691,10 @@ Subtopic: B+ Tree
 Difficulty: Hard
 
 Question: How does B+ tree differ from B-tree?
-A: Same structure
-B: All data in leaf nodes, internal nodes only for routing
-C: B+ is smaller
-D: B+ is faster always
-
-D) [Missing option - Please review]
+A) Same structure
+B) All data in leaf nodes, internal nodes only for routing
+C) B+ is smaller
+D) B+ is faster always
 
 ✔ Correct Answer: B
 
@@ -781,12 +711,10 @@ Subtopic: Interval Scheduling
 Difficulty: Medium
 
 Question: What greedy choice solves interval scheduling?
-A: Longest interval
-B: Earliest finish time
-C: Earliest start time
-D: Random selection
-
-D) [Missing option - Please review]
+A) Longest interval
+B) Earliest finish time
+C) Earliest start time
+D) Random selection
 
 ✔ Correct Answer: B
 
@@ -803,12 +731,10 @@ Subtopic: Interval Partitioning
 Difficulty: Hard
 
 Question: What does interval partitioning minimize?
-A: Interval count
-B: Number of resources needed for overlapping intervals
-C: Interval length
-D: Start times
-
-D) [Missing option - Please review]
+A) Interval count
+B) Number of resources needed for overlapping intervals
+C) Interval length
+D) Start times
 
 ✔ Correct Answer: B
 
@@ -825,12 +751,10 @@ Subtopic: Path Sum
 Difficulty: Medium
 
 Question: How to find all root-to-leaf paths with given sum?
-A: BFS only
-B: DFS with backtracking
-C: Level order
-D: Inorder traversal
-
-D) [Missing option - Please review]
+A) BFS only
+B) DFS with backtracking
+C) Level order
+D) Inorder traversal
 
 ✔ Correct Answer: B
 
@@ -847,12 +771,10 @@ Subtopic: Maximum Path Sum
 Difficulty: Hard
 
 Question: What is the approach for maximum path sum in binary tree?
-A: Simple traversal
-B: Recursively compute max path through each node
-C: Level order
-D: Sorting
-
-D) [Missing option - Please review]
+A) Simple traversal
+B) Recursively compute max path through each node
+C) Level order
+D) Sorting
 
 ✔ Correct Answer: B
 
@@ -869,12 +791,10 @@ Subtopic: Traveling Salesman
 Difficulty: Hard
 
 Question: What is the time complexity of TSP using dynamic programming?
-A: O(n²)
-B: O(n² * 2ⁿ)
-C: O(n!)
-D: O(n log n)
-
-D) [Missing option - Please review]
+A) O(n²)
+B) O(n² * 2ⁿ)
+C) O(n!)
+D) O(n log n)
 
 ✔ Correct Answer: B
 
@@ -891,12 +811,10 @@ Subtopic: Bitmasking DP
 Difficulty: Hard
 
 Question: When is bitmasking useful in DP?
-A: Large state spaces
-B: Small state spaces representable as bits
-C: Continuous values
-D: Never
-
-D) [Missing option - Please review]
+A) Large state spaces
+B) Small state spaces representable as bits
+C) Continuous values
+D) Never
 
 ✔ Correct Answer: B
 
@@ -913,12 +831,10 @@ Subtopic: Digit DP
 Difficulty: Hard
 
 Question: What problems does digit DP solve?
-A: Arithmetic
-B: Counting numbers with digit constraints
-C: Sorting digits
-D: Finding digits
-
-D) [Missing option - Please review]
+A) Arithmetic
+B) Counting numbers with digit constraints
+C) Sorting digits
+D) Finding digits
 
 ✔ Correct Answer: B
 
@@ -935,12 +851,10 @@ Subtopic: Partition Problem
 Difficulty: Hard
 
 Question: What does partition problem ask?
-A: Partition array randomly
-B: Can array be partitioned into two equal sum subsets
-C: Find maximum partition
-D: Count partitions
-
-D) [Missing option - Please review]
+A) Partition array randomly
+B) Can array be partitioned into two equal sum subsets
+C) Find maximum partition
+D) Count partitions
 
 ✔ Correct Answer: B
 
@@ -957,12 +871,10 @@ Subtopic: Palindrome Partitioning
 Difficulty: Hard
 
 Question: What does palindrome partitioning find?
-A: All palindromes
-B: Minimum cuts to partition string into palindromes
-C: Longest palindrome
-D: Palindrome count
-
-D) [Missing option - Please review]
+A) All palindromes
+B) Minimum cuts to partition string into palindromes
+C) Longest palindrome
+D) Palindrome count
 
 ✔ Correct Answer: B
 
@@ -979,12 +891,10 @@ Subtopic: Egg Dropping
 Difficulty: Hard
 
 Question: What does egg dropping problem optimize?
-A: Egg count
-B: Minimum trials to find critical floor in worst case
-C: Floor count
-D: Breaking eggs
-
-D) [Missing option - Please review]
+A) Egg count
+B) Minimum trials to find critical floor in worst case
+C) Floor count
+D) Breaking eggs
 
 ✔ Correct Answer: B
 
@@ -1002,12 +912,10 @@ Subtopic: Catalan Numbers
 Difficulty: Hard
 
 Question: What problems involve Catalan numbers?
-A: Prime numbers
-B: Number of BSTs, valid parentheses, paths in grid
-C: Fibonacci variants
-D: Sorting problems
-
-D) [Missing option - Please review]
+A) Prime numbers
+B) Number of BSTs, valid parentheses, paths in grid
+C) Fibonacci variants
+D) Sorting problems
 
 ✔ Correct Answer: B
 
@@ -1024,12 +932,10 @@ Subtopic: BST from Traversals
 Difficulty: Hard
 
 Question: Which traversals uniquely determine a binary tree?
-A: Inorder only
-B: Inorder + (Preorder or Postorder)
-C: Preorder only
-D: Any single traversal
-
-D) [Missing option - Please review]
+A) Inorder only
+B) Inorder + (Preorder or Postorder)
+C) Preorder only
+D) Any single traversal
 
 ✔ Correct Answer: B
 
@@ -1046,12 +952,10 @@ Subtopic: Majority Element
 Difficulty: Medium
 
 Question: What is a majority element?
-A: Largest element
-B: Element appearing more than n/2 times
-C: Most frequent element
-D: Median element
-
-D) [Missing option - Please review]
+A) Largest element
+B) Element appearing more than n/2 times
+C) Most frequent element
+D) Median element
 
 ✔ Correct Answer: B
 
@@ -1068,12 +972,10 @@ Subtopic: Missing Number
 Difficulty: Easy
 
 Question: How to find missing number in array [0,n] with one missing?
-A: Sort and search
-B: Sum formula or XOR
-C: Linear search
-D: Binary search
-
-D) [Missing option - Please review]
+A) Sort and search
+B) Sum formula or XOR
+C) Linear search
+D) Binary search
 
 ✔ Correct Answer: B
 
@@ -1090,12 +992,10 @@ Subtopic: Duplicate Detection
 Difficulty: Easy
 
 Question: How to find duplicate in array of n+1 elements from [1,n]?
-A: Sort
-B: Floyd's cycle detection or sum/XOR
-C: Hash map only
-D: Linear search
-
-D) [Missing option - Please review]
+A) Sort
+B) Floyd's cycle detection or sum/XOR
+C) Hash map only
+D) Linear search
 
 ✔ Correct Answer: B
 
@@ -1112,12 +1012,10 @@ Subtopic: Rotate Matrix
 Difficulty: Medium
 
 Question: How to rotate n×n matrix 90° clockwise in-place?
-A: Create new matrix
-B: Transpose then reverse each row
-C: Reverse then transpose
-D: Cannot do in-place
-
-D) [Missing option - Please review]
+A) Create new matrix
+B) Transpose then reverse each row
+C) Reverse then transpose
+D) Cannot do in-place
 
 ✔ Correct Answer: B
 
@@ -1134,12 +1032,10 @@ Subtopic: Set Matrix Zeroes
 Difficulty: Medium
 
 Question: How to set entire row/column to zero if element is zero, using O(1) space?
-A: Impossible
-B: Use first row and column as markers
-C: Create new matrix
-D: Use hash map
-
-D) [Missing option - Please review]
+A) Impossible
+B) Use first row and column as markers
+C) Create new matrix
+D) Use hash map
 
 ✔ Correct Answer: B
 
@@ -1156,12 +1052,10 @@ Subtopic: Reverse in Groups
 Difficulty: Hard
 
 Question: What is the time complexity of reversing linked list in groups of k?
-A: O(n²)
-B: O(n)
-C: O(n*k)
-D: O(k)
-
-D) [Missing option - Please review]
+A) O(n²)
+B) O(n)
+C) O(n*k)
+D) O(k)
 
 ✔ Correct Answer: B
 
@@ -1178,12 +1072,10 @@ Subtopic: Palindrome Check
 Difficulty: Medium
 
 Question: How to check if linked list is palindrome in O(n) time, O(1) space?
-A: Use array
-B: Find middle, reverse second half, compare
-C: Use stack
-D: Impossible
-
-D) [Missing option - Please review]
+A) Use array
+B) Find middle, reverse second half, compare
+C) Use stack
+D) Impossible
 
 ✔ Correct Answer: B
 
@@ -1200,12 +1092,10 @@ Subtopic: Merge K Sorted Lists
 Difficulty: Hard
 
 Question: What is the time complexity of merging k sorted lists with n total elements?
-A: O(n)
-B: O(n log k)
-C: O(n*k)
-D: O(n²)
-
-D) [Missing option - Please review]
+A) O(n)
+B) O(n log k)
+C) O(n*k)
+D) O(n²)
 
 ✔ Correct Answer: B
 
@@ -1222,12 +1112,10 @@ Subtopic: Min Stack
 Difficulty: Medium
 
 Question: How to implement stack with O(1) getMin operation?
-A: Sort stack
-B: Maintain auxiliary stack tracking minimums
-C: Linear search
-D: Impossible
-
-D) [Missing option - Please review]
+A) Sort stack
+B) Maintain auxiliary stack tracking minimums
+C) Linear search
+D) Impossible
 
 ✔ Correct Answer: B
 
@@ -1244,12 +1132,10 @@ Subtopic: Queue using Stacks
 Difficulty: Medium
 
 Question: How to implement queue using two stacks?
-A: One stack only
-B: One for enqueue, one for dequeue with transfer
-C: Three stacks
-D: Impossible
-
-D) [Missing option - Please review]
+A) One stack only
+B) One for enqueue, one for dequeue with transfer
+C) Three stacks
+D) Impossible
 
 ✔ Correct Answer: B
 
@@ -1266,12 +1152,10 @@ Subtopic: Stack using Queues
 Difficulty: Medium
 
 Question: How to implement stack using two queues?
-A: One queue only
-B: Transfer elements between queues to maintain LIFO
-C: Three queues
-D: Impossible
-
-D) [Missing option - Please review]
+A) One queue only
+B) Transfer elements between queues to maintain LIFO
+C) Three queues
+D) Impossible
 
 ✔ Correct Answer: B
 
@@ -1288,12 +1172,10 @@ Subtopic: Flatten Binary Tree
 Difficulty: Medium
 
 Question: How to flatten binary tree to linked list in-place?
-A: Create new list
-B: Morris traversal or reverse postorder with pointer manipulation
-C: Level order
-D: Impossible in-place
-
-D) [Missing option - Please review]
+A) Create new list
+B) Morris traversal or reverse postorder with pointer manipulation
+C) Level order
+D) Impossible in-place
 
 ✔ Correct Answer: B
 
@@ -1310,12 +1192,10 @@ Subtopic: Construct Tree
 Difficulty: Hard
 
 Question: Can you construct unique binary tree from preorder and postorder only?
-A: Yes, always
-B: No, need inorder with one of them
-C: Yes, if full binary tree
-D: Never possible
-
-D) [Missing option - Please review]
+A) Yes, always
+B) No, need inorder with one of them
+C) Yes, if full binary tree
+D) Never possible
 
 ✔ Correct Answer: C
 
@@ -1332,12 +1212,10 @@ Subtopic: Clone Graph
 Difficulty: Medium
 
 Question: What approach clones a graph?
-A: Copy nodes only
-B: DFS/BFS with hash map tracking old-to-new node mapping
-C: Copy edges only
-D: Simple copy
-
-D) [Missing option - Please review]
+A) Copy nodes only
+B) DFS/BFS with hash map tracking old-to-new node mapping
+C) Copy edges only
+D) Simple copy
 
 ✔ Correct Answer: B
 
@@ -1354,12 +1232,10 @@ Subtopic: Word Ladder
 Difficulty: Hard
 
 Question: What algorithm solves word ladder problem?
-A: DFS
-B: BFS for shortest transformation sequence
-C: Binary search
-D: Sorting
-
-D) [Missing option - Please review]
+A) DFS
+B) BFS for shortest transformation sequence
+C) Binary search
+D) Sorting
 
 ✔ Correct Answer: B
 
@@ -1376,12 +1252,10 @@ Subtopic: Group Anagrams
 Difficulty: Medium
 
 Question: How to efficiently group anagrams?
-A: Compare all pairs
-B: Use sorted string or character count as hash key
-C: Random grouping
-D: Length-based grouping
-
-D) [Missing option - Please review]
+A) Compare all pairs
+B) Use sorted string or character count as hash key
+C) Random grouping
+D) Length-based grouping
 
 ✔ Correct Answer: B
 
@@ -1398,12 +1272,10 @@ Subtopic: Valid Parentheses
 Difficulty: Easy
 
 Question: What data structure checks valid parentheses?
-A: Queue
-B: Stack
-C: Array
-D: Tree
-
-D) [Missing option - Please review]
+A) Queue
+B) Stack
+C) Array
+D) Tree
 
 ✔ Correct Answer: B
 
@@ -1420,12 +1292,10 @@ Subtopic: Longest Valid Parentheses
 Difficulty: Hard
 
 Question: How to find longest valid parentheses substring?
-A: Simple counting
-B: Stack or DP tracking valid lengths
-C: Sorting
-D: Hashing
-
-D) [Missing option - Please review]
+A) Simple counting
+B) Stack or DP tracking valid lengths
+C) Sorting
+D) Hashing
 
 ✔ Correct Answer: B
 
@@ -1443,12 +1313,10 @@ Subtopic: Product Except Self
 Difficulty: Medium
 
 Question: How to compute product of array except self without division?
-A: Nested loops
-B: Left and right product arrays
-C: Sorting
-D: Impossible
-
-D) [Missing option - Please review]
+A) Nested loops
+B) Left and right product arrays
+C) Sorting
+D) Impossible
 
 ✔ Correct Answer: B
 
@@ -1465,12 +1333,10 @@ Subtopic: Container With Most Water
 Difficulty: Medium
 
 Question: What approach solves container with most water?
-A: Brute force only
-B: Two pointers from ends
-C: Sorting
-D: Binary search
-
-D) [Missing option - Please review]
+A) Brute force only
+B) Two pointers from ends
+C) Sorting
+D) Binary search
 
 ✔ Correct Answer: B
 
@@ -1487,12 +1353,10 @@ Subtopic: Three Sum
 Difficulty: Medium
 
 Question: What is the time complexity of three sum problem?
-A: O(n)
-B: O(n²)
-C: O(n³)
-D: O(n log n)
-
-D) [Missing option - Please review]
+A) O(n)
+B) O(n²)
+C) O(n³)
+D) O(n log n)
 
 ✔ Correct Answer: B
 
@@ -1509,12 +1373,10 @@ Subtopic: Minimum Window Substring
 Difficulty: Hard
 
 Question: What technique solves minimum window substring?
-A: Brute force
-B: Sliding window with character frequency
-C: Sorting
-D: Binary search
-
-D) [Missing option - Please review]
+A) Brute force
+B) Sliding window with character frequency
+C) Sorting
+D) Binary search
 
 ✔ Correct Answer: B
 
@@ -1531,12 +1393,10 @@ Subtopic: Longest Substring Without Repeating
 Difficulty: Medium
 
 Question: How to find longest substring without repeating characters?
-A: Brute force
-B: Sliding window with hash set
-C: Sorting
-D: Binary search
-
-D) [Missing option - Please review]
+A) Brute force
+B) Sliding window with hash set
+C) Sorting
+D) Binary search
 
 ✔ Correct Answer: B
 
@@ -1553,12 +1413,10 @@ Subtopic: Validate BST
 Difficulty: Medium
 
 Question: What is correct way to validate BST?
-A: Check each node with children only
-B: Check each node is within valid range from ancestors
-C: Inorder only
-D: Level order
-
-D) [Missing option - Please review]
+A) Check each node with children only
+B) Check each node is within valid range from ancestors
+C) Inorder only
+D) Level order
 
 ✔ Correct Answer: B
 
@@ -1575,12 +1433,10 @@ Subtopic: Recover BST
 Difficulty: Hard
 
 Question: If two nodes are swapped in BST, how to find them?
-A: Rebuild tree
-B: Inorder traversal finds two violations
-C: Level order
-D: Preorder traversal
-
-D) [Missing option - Please review]
+A) Rebuild tree
+B) Inorder traversal finds two violations
+C) Level order
+D) Preorder traversal
 
 ✔ Correct Answer: B
 
@@ -1597,12 +1453,10 @@ Subtopic: Course Schedule
 Difficulty: Medium
 
 Question: What does course schedule problem check?
-A: Schedule optimization
-B: If courses can be completed (cycle detection in DAG)
-C: Minimum courses
-D: Maximum courses
-
-D) [Missing option - Please review]
+A) Schedule optimization
+B) If courses can be completed (cycle detection in DAG)
+C) Minimum courses
+D) Maximum courses
 
 ✔ Correct Answer: B
 
@@ -1619,12 +1473,10 @@ Subtopic: Alien Dictionary
 Difficulty: Hard
 
 Question: What does alien dictionary problem find?
-A: Alien words
-B: Character order from sorted alien words
-C: Word count
-D: Dictionary size
-
-D) [Missing option - Please review]
+A) Alien words
+B) Character order from sorted alien words
+C) Word count
+D) Dictionary size
 
 ✔ Correct Answer: B
 
@@ -1641,12 +1493,10 @@ Subtopic: Longest Increasing Subsequence
 Difficulty: Hard
 
 Question: What is the optimal time complexity for LIS?
-A: O(n²)
-B: O(n log n) using binary search
-C: O(n)
-D: O(n³)
-
-D) [Missing option - Please review]
+A) O(n²)
+B) O(n log n) using binary search
+C) O(n)
+D) O(n³)
 
 ✔ Correct Answer: B
 
@@ -1663,12 +1513,10 @@ Subtopic: Russian Doll Envelopes
 Difficulty: Hard
 
 Question: How is Russian doll envelopes related to LIS?
-A: Unrelated
-B: 2D LIS problem after sorting
-C: Simple LIS
-D: Reverse LIS
-
-D) [Missing option - Please review]
+A) Unrelated
+B) 2D LIS problem after sorting
+C) Simple LIS
+D) Reverse LIS
 
 ✔ Correct Answer: B
 
@@ -1685,12 +1533,10 @@ Subtopic: Merge Intervals
 Difficulty: Medium
 
 Question: What is the approach for merging overlapping intervals?
-A: Random merging
-B: Sort by start time, then merge overlapping
-C: No sorting needed
-D: Binary search
-
-D) [Missing option - Please review]
+A) Random merging
+B) Sort by start time, then merge overlapping
+C) No sorting needed
+D) Binary search
 
 ✔ Correct Answer: B
 
@@ -1707,12 +1553,10 @@ Subtopic: Insert Interval
 Difficulty: Medium
 
 Question: How to insert interval into sorted non-overlapping intervals?
-A: Insert and resort
-B: Find position, merge overlapping intervals
-C: Append at end
-D: Random insertion
-
-D) [Missing option - Please review]
+A) Insert and resort
+B) Find position, merge overlapping intervals
+C) Append at end
+D) Random insertion
 
 ✔ Correct Answer: B
 
@@ -1729,12 +1573,10 @@ Subtopic: Kth Smallest in BST
 Difficulty: Medium
 
 Question: How to find kth smallest element in BST?
-A: Level order
-B: Inorder traversal (iterative or recursive)
-C: Preorder
-D: Postorder
-
-D) [Missing option - Please review]
+A) Level order
+B) Inorder traversal (iterative or recursive)
+C) Preorder
+D) Postorder
 
 ✔ Correct Answer: B
 
@@ -1751,12 +1593,10 @@ Subtopic: BST Iterator
 Difficulty: Hard
 
 Question: How to implement BST iterator with O(h) space?
-A: Store all nodes
-B: Use stack for controlled inorder traversal
-C: Use queue
-D: Use array
-
-D) [Missing option - Please review]
+A) Store all nodes
+B) Use stack for controlled inorder traversal
+C) Use queue
+D) Use array
 
 ✔ Correct Answer: B
 
@@ -1773,12 +1613,10 @@ Subtopic: Median of Two Sorted Arrays
 Difficulty: Hard
 
 Question: What is the optimal time complexity for median of two sorted arrays?
-A: O(m+n)
-B: O(log(min(m,n)))
-C: O(m*n)
-D: O(n)
-
-D) [Missing option - Please review]
+A) O(m+n)
+B) O(log(min(m,n)))
+C) O(m*n)
+D) O(n)
 
 ✔ Correct Answer: B
 
@@ -1795,12 +1633,10 @@ Subtopic: Kth Largest Element
 Difficulty: Medium
 
 Question: What is the average time complexity of quickselect?
-A: O(n²)
-B: O(n)
-C: O(n log n)
-D: O(log n)
-
-D) [Missing option - Please review]
+A) O(n²)
+B) O(n)
+C) O(n log n)
+D) O(log n)
 
 ✔ Correct Answer: B
 
@@ -1817,12 +1653,10 @@ Subtopic: Top K Elements
 Difficulty: Medium
 
 Question: How to find top k elements efficiently?
-A: Sort completely
-B: Min heap of size k
-C: Max heap of size n
-D: Array scan
-
-D) [Missing option - Please review]
+A) Sort completely
+B) Min heap of size k
+C) Max heap of size n
+D) Array scan
 
 ✔ Correct Answer: B
 
@@ -1839,12 +1673,10 @@ Subtopic: Kth Largest in Stream
 Difficulty: Medium
 
 Question: What data structure maintains kth largest in stream?
-A: Array
-B: Min heap of size k
-C: Max heap
-D: Stack
-
-D) [Missing option - Please review]
+A) Array
+B) Min heap of size k
+C) Max heap
+D) Stack
 
 ✔ Correct Answer: B
 
@@ -1861,12 +1693,10 @@ Subtopic: Median in Stream
 Difficulty: Hard
 
 Question: How to maintain median in data stream?
-A: Sort on each insertion
-B: Two heaps (max heap for lower half, min heap for upper half)
-C: Single heap
-D: Array
-
-D) [Missing option - Please review]
+A) Sort on each insertion
+B) Two heaps (max heap for lower half, min heap for upper half)
+C) Single heap
+D) Array
 
 ✔ Correct Answer: B
 
@@ -1883,12 +1713,10 @@ Subtopic: Word Search II
 Difficulty: Hard
 
 Question: How does Trie optimize word search in grid?
-A: No optimization
-B: Prunes search space by checking valid prefixes
-C: Sorts words
-D: Random search
-
-D) [Missing option - Please review]
+A) No optimization
+B) Prunes search space by checking valid prefixes
+C) Sorts words
+D) Random search
 
 ✔ Correct Answer: B
 
@@ -1905,12 +1733,10 @@ Subtopic: Autocomplete
 Difficulty: Medium
 
 Question: How does Trie enable autocomplete?
-A: Stores all words
-B: Finds all words with given prefix efficiently
-C: Random suggestions
-D: Sorting
-
-D) [Missing option - Please review]
+A) Stores all words
+B) Finds all words with given prefix efficiently
+C) Random suggestions
+D) Sorting
 
 ✔ Correct Answer: B
 
@@ -1927,12 +1753,10 @@ Subtopic: Longest Consecutive Sequence
 Difficulty: Medium
 
 Question: How to find longest consecutive sequence in O(n)?
-A: Sort first
-B: Hash set with sequence building
-C: Binary search
-D: Nested loops
-
-D) [Missing option - Please review]
+A) Sort first
+B) Hash set with sequence building
+C) Binary search
+D) Nested loops
 
 ✔ Correct Answer: B
 
@@ -1949,12 +1773,10 @@ Subtopic: Search 2D Matrix
 Difficulty: Medium
 
 Question: How to search in row-wise and column-wise sorted matrix?
-A: Linear search
-B: Start from top-right or bottom-left corner
-C: Binary search each row
-D: Random search
-
-D) [Missing option - Please review]
+A) Linear search
+B) Start from top-right or bottom-left corner
+C) Binary search each row
+D) Random search
 
 ✔ Correct Answer: B
 
@@ -1971,12 +1793,10 @@ Subtopic: Skyline Problem
 Difficulty: Hard
 
 Question: What approach solves skyline problem?
-A: Simple scan
-B: Sweep line with priority queue
-C: Sorting only
-D: Random
-
-D) [Missing option - Please review]
+A) Simple scan
+B) Sweep line with priority queue
+C) Sorting only
+D) Random
 
 ✔ Correct Answer: B
 
@@ -1993,12 +1813,10 @@ Subtopic: Decode Ways
 Difficulty: Medium
 
 Question: What technique solves decode ways problem?
-A: Greedy
-B: Dynamic programming
-C: Backtracking only
-D: Sorting
-
-D) [Missing option - Please review]
+A) Greedy
+B) Dynamic programming
+C) Backtracking only
+D) Sorting
 
 ✔ Correct Answer: B
 
@@ -2015,12 +1833,10 @@ Subtopic: Unique Paths
 Difficulty: Medium
 
 Question: How many unique paths in m×n grid from top-left to bottom-right?
-A: m+n
-B: C(m+n-2, m-1) or DP
-C: m*n
-D: m^n
-
-D) [Missing option - Please review]
+A) m+n
+B) C(m+n-2, m-1) or DP
+C) m*n
+D) m^n
 
 ✔ Correct Answer: B
 
@@ -2037,12 +1853,10 @@ Subtopic: Minimum Path Sum
 Difficulty: Easy
 
 Question: How to find minimum path sum in grid?
-A: Greedy
-B: DP with dp[i][j] = grid[i][j] + min(dp[i-1][j], dp[i][j-1])
-C: BFS
-D: DFS
-
-D) [Missing option - Please review]
+A) Greedy
+B) DP with dp[i][j] = grid[i][j] + min(dp[i-1][j], dp[i][j-1])
+C) BFS
+D) DFS
 
 ✔ Correct Answer: B
 
@@ -2059,12 +1873,10 @@ Subtopic: Number of Islands
 Difficulty: Medium
 
 Question: How to count islands in binary matrix?
-A: Count 1s
-B: DFS/BFS from each unvisited land cell
-C: Count rows
-D: Count columns
-
-D) [Missing option - Please review]
+A) Count 1s
+B) DFS/BFS from each unvisited land cell
+C) Count rows
+D) Count columns
 
 ✔ Correct Answer: B
 
@@ -2081,12 +1893,10 @@ Subtopic: Surrounded Regions
 Difficulty: Hard
 
 Question: How to capture surrounded regions?
-A: Capture all
-B: DFS/BFS from border, mark non-captured, flip rest
-C: Random capture
-D: Capture none
-
-D) [Missing option - Please review]
+A) Capture all
+B) DFS/BFS from border, mark non-captured, flip rest
+C) Random capture
+D) Capture none
 
 ✔ Correct Answer: B
 
@@ -2103,12 +1913,10 @@ Subtopic: Populating Next Right Pointers
 Difficulty: Medium
 
 Question: How to populate next right pointers in perfect binary tree?
-A: Level order with queue
-B: Use parent's next pointer (O(1) space)
-C: DFS
-D: Impossible
-
-D) [Missing option - Please review]
+A) Level order with queue
+B) Use parent's next pointer (O(1) space)
+C) DFS
+D) Impossible
 
 ✔ Correct Answer: B
 
@@ -2125,12 +1933,10 @@ Subtopic: Word Break
 Difficulty: Hard
 
 Question: What approach solves word break problem?
-A: Greedy
-B: DP with dp[i] = any(dp[j] and s[j:i] in dict)
-C: Backtracking only
-D: Sorting
-
-D) [Missing option - Please review]
+A) Greedy
+B) DP with dp[i] = any(dp[j] and s[j:i] in dict)
+C) Backtracking only
+D) Sorting
 
 ✔ Correct Answer: B
 
@@ -2147,12 +1953,10 @@ Subtopic: Regular Expression Matching
 Difficulty: Hard
 
 Question: What technique solves regex matching with . and *?
-A: Simple comparison
-B: Dynamic programming or recursion with memoization
-C: Greedy
-D: Sorting
-
-D) [Missing option - Please review]
+A) Simple comparison
+B) Dynamic programming or recursion with memoization
+C) Greedy
+D) Sorting
 
 ✔ Correct Answer: B
 
@@ -2169,12 +1973,10 @@ Subtopic: Wildcard Matching
 Difficulty: Hard
 
 Question: How does wildcard matching differ from regex?
-A: Same thing
-B: Uses ? (single char) and * (any sequence)
-C: Simpler always
-D: No difference
-
-D) [Missing option - Please review]
+A) Same thing
+B) Uses ? (single char) and * (any sequence)
+C) Simpler always
+D) No difference
 
 ✔ Correct Answer: B
 
@@ -2191,12 +1993,10 @@ Subtopic: Expression Evaluation
 Difficulty: Hard
 
 Question: How to evaluate postfix expression?
-A: Two stacks
-B: Single stack
-C: Queue
-D: Recursion
-
-D) [Missing option - Please review]
+A) Two stacks
+B) Single stack
+C) Queue
+D) Recursion
 
 ✔ Correct Answer: B
 

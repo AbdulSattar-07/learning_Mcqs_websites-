@@ -352,9 +352,7 @@ Difficulty: Easy
 Question: What does SIGTERM signal do?
 A) Continues process
 B) Requests graceful termination
-C: Forces immediate termination
-C) [Missing option - Please review]
-
+C) Forces immediate termination
 D) Pauses process
 
 ✔ Correct Answer: B
@@ -735,9 +733,7 @@ Question: Why are hardware synchronization instructions needed?
 A) Not needed
 B) Provide atomic operations for building synchronization primitives
 C) Slow down system
-D: No reason
-
-D) [Missing option - Please review]
+D) No reason
 
 ✔ Correct Answer: B
 
@@ -815,9 +811,7 @@ Difficulty: Hard
 
 Question: How can dining philosophers deadlock be prevented?
 A) Cannot prevent
-B: Limit philosophers, asymmetric solution, or resource ordering
-B) [Missing option - Please review]
-
+B) Limit philosophers, asymmetric solution, or resource ordering
 C) More forks
 D) No solution
 
@@ -839,9 +833,7 @@ Question: What does the sleeping barber problem illustrate?
 A) Sleep patterns
 B) Synchronization with limited resources and waiting
 C) Scheduling
-D: Memory management
-
-D) [Missing option - Please review]
+D) Memory management
 
 ✔ Correct Answer: B
 
@@ -881,9 +873,7 @@ Question: When does cycle guarantee deadlock in RAG?
 A) Always
 B) When each resource type has single instance
 C) Never
-D: Randomly
-
-D) [Missing option - Please review]
+D) Randomly
 
 ✔ Correct Answer: B
 
@@ -943,9 +933,7 @@ Question: What is rollback in deadlock recovery?
 A) Move forward
 B) Return process to safe state before deadlock
 C) Terminate process
-D: No action
-
-D) [Missing option - Please review]
+D) No action
 
 ✔ Correct Answer: B
 
@@ -985,9 +973,7 @@ Question: What is the 50-percent rule in dynamic partitioning?
 A) Use 50% memory
 B) On average, half of memory is in holes
 C) 50% fragmentation
-D: No rule
-
-D) [Missing option - Please review]
+D) No rule
 
 ✔ Correct Answer: B
 
@@ -1047,9 +1033,7 @@ Question: Why use multi-level page tables?
 A) Slower access
 B) Reduce memory overhead for sparse address spaces
 C) Increase complexity
-D: No benefit
-
-D) [Missing option - Please review]
+D) No benefit
 
 ✔ Correct Answer: B
 
@@ -1069,9 +1053,7 @@ Question: What is a page table walk?
 A) Physical walk
 B) Process of translating virtual to physical address through page tables
 C) Memory scan
-D: No process
-
-D) [Missing option - Please review]
+D) No process
 
 ✔ Correct Answer: B
 
@@ -1091,9 +1073,7 @@ Question: What is TLB reach?
 A) TLB size
 B) Amount of memory accessible via TLB (entries × page size)
 C) TLB speed
-D: No concept
-
-D) [Missing option - Please review]
+D) No concept
 
 ✔ Correct Answer: B
 
@@ -1112,10 +1092,8 @@ Difficulty: Hard
 Question: Who handles TLB misses?
 A) User program
 B) Hardware or OS depending on architecture
-C: Always user
-D: No handling
-
-D) [Missing option - Please review]
+C) Always user
+D) No handling
 
 ✔ Correct Answer: B
 
@@ -1134,10 +1112,8 @@ Difficulty: Hard
 Question: How does Intel x86 combine segmentation and paging?
 A) Only paging
 B) Logical address → segment → linear address → paging → physical
-C: Only segmentation
-D: No combination
-
-D) [Missing option - Please review]
+C) Only segmentation
+D) No combination
 
 ✔ Correct Answer: B
 
@@ -1155,11 +1131,9 @@ Difficulty: Hard
 
 Question: What is the advantage of memory-mapped files?
 A) Slower access
-B: File I/O through memory operations, shared memory
-C: More complex
-D: No advantage
-
-D) [Missing option - Please review]
+B) File I/O through memory operations, shared memory
+C) More complex
+D) No advantage
 
 ✔ Correct Answer: B
 
@@ -1177,11 +1151,9 @@ Difficulty: Hard
 
 Question: What factor most affects demand paging performance?
 A) CPU speed
-B: Page fault rate
-C: Memory size only
-D: Disk color
-
-D) [Missing option - Please review]
+B) Page fault rate
+C) Memory size only
+D) Disk color
 
 ✔ Correct Answer: B
 
@@ -1199,11 +1171,9 @@ Difficulty: Medium
 
 Question: Which page replacement algorithm is practical and approximates optimal?
 A) FIFO
-B: LRU or its approximations
-C: Random
-D: MFU
-
-D) [Missing option - Please review]
+B) LRU or its approximations
+C) Random
+D) MFU
 
 ✔ Correct Answer: B
 
@@ -1220,12 +1190,10 @@ Subtopic: Clock Algorithm
 Difficulty: Hard
 
 Question: How does clock algorithm improve on FIFO?
-A: No improvement
-B: Uses reference bit to give pages second chance
-C: Slower
-D: More complex only
-
-D) [Missing option - Please review]
+A) No improvement
+B) Uses reference bit to give pages second chance
+C) Slower
+D) More complex only
 
 ✔ Correct Answer: B
 
@@ -1242,12 +1210,10 @@ Subtopic: Enhanced Second Chance
 Difficulty: Hard
 
 Question: What does enhanced second chance algorithm consider?
-A: Only reference bit
-B: Reference and dirty bits for better victim selection
-C: Only dirty bit
-D: Nothing
-
-D) [Missing option - Please review]
+A) Only reference bit
+B) Reference and dirty bits for better victim selection
+C) Only dirty bit
+D) Nothing
 
 ✔ Correct Answer: B
 
@@ -1264,12 +1230,10 @@ Subtopic: Page Fault Frequency
 Difficulty: Hard
 
 Question: How does PFF scheme control thrashing?
-A: Ignores page faults
-B: Adjusts frame allocation based on fault rate
-C: Fixed allocation
-D: No control
-
-D) [Missing option - Please review]
+A) Ignores page faults
+B) Adjusts frame allocation based on fault rate
+C) Fixed allocation
+D) No control
 
 ✔ Correct Answer: B
 
@@ -1286,12 +1250,10 @@ Subtopic: Allocation Policies
 Difficulty: Medium
 
 Question: What is local replacement?
-A: Global selection
-B: Process selects victim from its own frames
-C: Any frame
-D: No replacement
-
-D) [Missing option - Please review]
+A) Global selection
+B) Process selects victim from its own frames
+C) Any frame
+D) No replacement
 
 ✔ Correct Answer: B
 
@@ -1308,12 +1270,10 @@ Subtopic: Allocation Policies
 Difficulty: Medium
 
 Question: What is global replacement?
-A: Local selection
-B: Process can select victim from all frames
-C: No selection
-D: Fixed frames
-
-D) [Missing option - Please review]
+A) Local selection
+B) Process can select victim from all frames
+C) No selection
+D) Fixed frames
 
 ✔ Correct Answer: B
 
@@ -1330,12 +1290,10 @@ Subtopic: File System Implementation
 Difficulty: Medium
 
 Question: What is stored in the boot block?
-A: User files
-B: Bootstrap loader code
-C: Data files
-D: Temporary files
-
-D) [Missing option - Please review]
+A) User files
+B) Bootstrap loader code
+C) Data files
+D) Temporary files
 
 ✔ Correct Answer: B
 
@@ -1352,12 +1310,10 @@ Subtopic: File System Layers
 Difficulty: Hard
 
 Question: What are the typical file system layers from top to bottom?
-A: Random order
-B: Logical file system → file organization → basic file system → I/O control
-C: Single layer
-D: No layers
-
-D) [Missing option - Please review]
+A) Random order
+B) Logical file system → file organization → basic file system → I/O control
+C) Single layer
+D) No layers
 
 ✔ Correct Answer: B
 
@@ -1374,12 +1330,10 @@ Subtopic: File Allocation Comparison
 Difficulty: Hard
 
 Question: Which allocation method provides best sequential access?
-A: Linked
-B: Contiguous
-C: Indexed
-D: All equal
-
-D) [Missing option - Please review]
+A) Linked
+B) Contiguous
+C) Indexed
+D) All equal
 
 ✔ Correct Answer: B
 
@@ -1396,12 +1350,10 @@ Subtopic: File Allocation Comparison
 Difficulty: Hard
 
 Question: Which allocation method provides best random access?
-A: Linked
-B: Contiguous or indexed
-C: FAT
-D: None
-
-D) [Missing option - Please review]
+A) Linked
+B) Contiguous or indexed
+C) FAT
+D) None
 
 ✔ Correct Answer: B
 
@@ -1418,12 +1370,10 @@ Subtopic: Free Space Management
 Difficulty: Medium
 
 Question: What is the advantage of bitmap over free list?
-A: Slower
-B: Efficient to find contiguous free blocks
-C: More space
-D: No advantage
-
-D) [Missing option - Please review]
+A) Slower
+B) Efficient to find contiguous free blocks
+C) More space
+D) No advantage
 
 ✔ Correct Answer: B
 
@@ -1440,12 +1390,10 @@ Subtopic: Free Space Management
 Difficulty: Hard
 
 Question: What is grouping in free space management?
-A: No grouping
-B: Storing addresses of n free blocks in first free block
-C: Random storage
-D: Single block
-
-D) [Missing option - Please review]
+A) No grouping
+B) Storing addresses of n free blocks in first free block
+C) Random storage
+D) Single block
 
 ✔ Correct Answer: B
 
@@ -1462,12 +1410,10 @@ Subtopic: Free Space Management
 Difficulty: Hard
 
 Question: What is counting in free space management?
-A: Count files
-B: Store address and count of contiguous free blocks
-C: Count users
-D: No counting
-
-D) [Missing option - Please review]
+A) Count files
+B) Store address and count of contiguous free blocks
+C) Count users
+D) No counting
 
 ✔ Correct Answer: B
 
@@ -1484,12 +1430,10 @@ Subtopic: Directory Implementation
 Difficulty: Medium
 
 Question: How are directories typically implemented?
-A: As processes
-B: As special files containing name-to-inode mappings
-C: As memory
-D: As networks
-
-D) [Missing option - Please review]
+A) As processes
+B) As special files containing name-to-inode mappings
+C) As memory
+D) As networks
 
 ✔ Correct Answer: B
 
@@ -1506,12 +1450,10 @@ Subtopic: Directory Search
 Difficulty: Medium
 
 Question: How can directory search be optimized?
-A: Linear search only
-B: Caching, hashing, or B-trees
-C: No optimization
-D: Random search
-
-D) [Missing option - Please review]
+A) Linear search only
+B) Caching, hashing, or B-trees
+C) No optimization
+D) Random search
 
 ✔ Correct Answer: B
 
@@ -1528,12 +1470,10 @@ Subtopic: File System Performance
 Difficulty: Medium
 
 Question: What improves file system performance?
-A: Slower disk
-B: Caching, read-ahead, write-behind
-C: Less memory
-D: No optimization
-
-D) [Missing option - Please review]
+A) Slower disk
+B) Caching, read-ahead, write-behind
+C) Less memory
+D) No optimization
 
 ✔ Correct Answer: B
 
@@ -1550,12 +1490,10 @@ Subtopic: Unified Buffer Cache
 Difficulty: Hard
 
 Question: What is unified buffer cache?
-A: Separate caches
-B: Single cache for file system and virtual memory
-C: No cache
-D: Multiple caches
-
-D) [Missing option - Please review]
+A) Separate caches
+B) Single cache for file system and virtual memory
+C) No cache
+D) Multiple caches
 
 ✔ Correct Answer: B
 
@@ -1572,12 +1510,10 @@ Subtopic: Asynchronous I/O
 Difficulty: Medium
 
 Question: What is asynchronous I/O?
-A: Synchronous operation
-B: I/O operation returns immediately, completes in background
-C: Blocking operation
-D: No I/O
-
-D) [Missing option - Please review]
+A) Synchronous operation
+B) I/O operation returns immediately, completes in background
+C) Blocking operation
+D) No I/O
 
 ✔ Correct Answer: B
 
@@ -1594,12 +1530,10 @@ Subtopic: Synchronous I/O
 Difficulty: Easy
 
 Question: What is synchronous I/O?
-A: Asynchronous operation
-B: Process waits until I/O completes
-C: Background operation
-D: No waiting
-
-D) [Missing option - Please review]
+A) Asynchronous operation
+B) Process waits until I/O completes
+C) Background operation
+D) No waiting
 
 ✔ Correct Answer: B
 
@@ -1616,12 +1550,10 @@ Subtopic: Disk Initialization
 Difficulty: Medium
 
 Question: What is disk partitioning used for?
-A: Delete disk
-B: Separate OS, data, swap; multiple file systems
-C: Speed up disk
-D: No purpose
-
-D) [Missing option - Please review]
+A) Delete disk
+B) Separate OS, data, swap; multiple file systems
+C) Speed up disk
+D) No purpose
 
 ✔ Correct Answer: B
 
@@ -1638,12 +1570,10 @@ Subtopic: Disk Reliability
 Difficulty: Medium
 
 Question: What is MTBF?
-A: Mean Time Before Failure
-B: Mean Time Between Failures
-C: Maximum Time Between Failures
-D: Minimum Time Before Failure
-
-D) [Missing option - Please review]
+A) Mean Time Before Failure
+B) Mean Time Between Failures
+C) Maximum Time Between Failures
+D) Minimum Time Before Failure
 
 ✔ Correct Answer: B
 
@@ -1660,12 +1590,10 @@ Subtopic: RAID Benefits
 Difficulty: Easy
 
 Question: What are the main benefits of RAID?
-A: Single disk
-B: Improved performance and/or reliability
-C: Slower access
-D: Less capacity
-
-D) [Missing option - Please review]
+A) Single disk
+B) Improved performance and/or reliability
+C) Slower access
+D) Less capacity
 
 ✔ Correct Answer: B
 
@@ -1682,12 +1610,10 @@ Subtopic: RAID Levels
 Difficulty: Hard
 
 Question: Which RAID level provides best write performance?
-A: RAID 1
-B: RAID 0
-C: RAID 5
-D: RAID 6
-
-D) [Missing option - Please review]
+A) RAID 1
+B) RAID 0
+C) RAID 5
+D) RAID 6
 
 ✔ Correct Answer: B
 
@@ -1704,12 +1630,10 @@ Subtopic: RAID Levels
 Difficulty: Hard
 
 Question: Which RAID level can tolerate two disk failures?
-A: RAID 0
-B: RAID 6
-C: RAID 1
-D: RAID 5
-
-D) [Missing option - Please review]
+A) RAID 0
+B) RAID 6
+C) RAID 1
+D) RAID 5
 
 ✔ Correct Answer: B
 
@@ -1726,12 +1650,10 @@ Subtopic: RAID Implementation
 Difficulty: Medium
 
 Question: What is hardware RAID?
-A: Software implementation
-B: Dedicated controller managing RAID
-C: No RAID
-D: OS-based RAID
-
-D) [Missing option - Please review]
+A) Software implementation
+B) Dedicated controller managing RAID
+C) No RAID
+D) OS-based RAID
 
 ✔ Correct Answer: B
 
@@ -1748,12 +1670,10 @@ Subtopic: RAID Implementation
 Difficulty: Medium
 
 Question: What is software RAID?
-A: Hardware controller
-B: OS manages RAID operations
-C: No RAID
-D: Firmware RAID
-
-D) [Missing option - Please review]
+A) Hardware controller
+B) OS manages RAID operations
+C) No RAID
+D) Firmware RAID
 
 ✔ Correct Answer: B
 
@@ -1770,12 +1690,10 @@ Subtopic: Stable Storage
 Difficulty: Hard
 
 Question: What is stable storage?
-A: Unstable storage
-B: Storage that survives failures through redundancy
-C: Single disk
-D: Temporary storage
-
-D) [Missing option - Please review]
+A) Unstable storage
+B) Storage that survives failures through redundancy
+C) Single disk
+D) Temporary storage
 
 ✔ Correct Answer: B
 
@@ -1792,12 +1710,10 @@ Subtopic: I/O Software Layers
 Difficulty: Hard
 
 Question: What are the I/O software layers?
-A: Single layer
-B: User-level, device-independent, device drivers, hardware
-C: Random layers
-D: No layers
-
-D) [Missing option - Please review]
+A) Single layer
+B) User-level, device-independent, device drivers, hardware
+C) Random layers
+D) No layers
 
 ✔ Correct Answer: B
 
@@ -1814,12 +1730,10 @@ Subtopic: Device Independence
 Difficulty: Medium
 
 Question: What is device-independent I/O software?
-A: Device-specific code
-B: Common I/O functions independent of device details
-C: Hardware code
-D: No software
-
-D) [Missing option - Please review]
+A) Device-specific code
+B) Common I/O functions independent of device details
+C) Hardware code
+D) No software
 
 ✔ Correct Answer: B
 
@@ -1836,12 +1750,10 @@ Subtopic: Device Drivers
 Difficulty: Easy
 
 Question: What is the role of device drivers?
-A: User interface
-B: Translate generic commands to device-specific operations
-C: File management
-D: Memory management
-
-D) [Missing option - Please review]
+A) User interface
+B) Translate generic commands to device-specific operations
+C) File management
+D) Memory management
 
 ✔ Correct Answer: B
 
@@ -1858,12 +1770,10 @@ Subtopic: Kernel I/O Subsystem
 Difficulty: Hard
 
 Question: What services does kernel I/O subsystem provide?
-A: No services
-B: Scheduling, buffering, caching, spooling, error handling
-C: Only scheduling
-D: Only buffering
-
-D) [Missing option - Please review]
+A) No services
+B) Scheduling, buffering, caching, spooling, error handling
+C) Only scheduling
+D) Only buffering
 
 ✔ Correct Answer: B
 
@@ -1880,12 +1790,10 @@ Subtopic: I/O Protection
 Difficulty: Medium
 
 Question: Why are I/O instructions privileged?
-A: Not privileged
-B: Prevent user programs from performing illegal I/O
-C: Faster execution
-D: No reason
-
-D) [Missing option - Please review]
+A) Not privileged
+B) Prevent user programs from performing illegal I/O
+C) Faster execution
+D) No reason
 
 ✔ Correct Answer: B
 
@@ -1902,12 +1810,10 @@ Subtopic: STREAMS
 Difficulty: Hard
 
 Question: What is STREAMS in UNIX?
-A: Water flow
-B: Framework for modular, bidirectional I/O
-C: File system
-D: Network only
-
-D) [Missing option - Please review]
+A) Water flow
+B) Framework for modular, bidirectional I/O
+C) File system
+D) Network only
 
 ✔ Correct Answer: B
 
@@ -1924,12 +1830,10 @@ Subtopic: Protection Domains
 Difficulty: Hard
 
 Question: What is a protection domain?
-A: Network domain
-B: Set of objects and access rights
-C: File system
-D: Memory region
-
-D) [Missing option - Please review]
+A) Network domain
+B) Set of objects and access rights
+C) File system
+D) Memory region
 
 ✔ Correct Answer: B
 
@@ -1946,12 +1850,10 @@ Subtopic: Domain Switching
 Difficulty: Hard
 
 Question: When does domain switching occur?
-A: Never
-B: When process changes protection domain (e.g., system call)
-C: Randomly
-D: At boot only
-
-D) [Missing option - Please review]
+A) Never
+B) When process changes protection domain (e.g., system call)
+C) Randomly
+D) At boot only
 
 ✔ Correct Answer: B
 
@@ -1968,12 +1870,10 @@ Subtopic: Access Control Implementation
 Difficulty: Hard
 
 Question: What is the tradeoff between ACLs and capability lists?
-A: No tradeoff
-B: ACLs easier to revoke, capabilities easier to transfer
-C: Same implementation
-D: No difference
-
-D) [Missing option - Please review]
+A) No tradeoff
+B) ACLs easier to revoke, capabilities easier to transfer
+C) Same implementation
+D) No difference
 
 ✔ Correct Answer: B
 
@@ -1990,12 +1890,10 @@ Subtopic: Revocation
 Difficulty: Hard
 
 Question: What makes capability revocation difficult?
-A: Easy revocation
-B: Capabilities distributed, hard to find all copies
-C: No difficulty
-D: Automatic revocation
-
-D) [Missing option - Please review]
+A) Easy revocation
+B) Capabilities distributed, hard to find all copies
+C) No difficulty
+D) Automatic revocation
 
 ✔ Correct Answer: B
 
@@ -2012,12 +1910,10 @@ Subtopic: Language-Based Protection
 Difficulty: Hard
 
 Question: What is language-based protection?
-A: Natural language
-B: Using programming language features for protection
-C: Assembly only
-D: No protection
-
-D) [Missing option - Please review]
+A) Natural language
+B) Using programming language features for protection
+C) Assembly only
+D) No protection
 
 ✔ Correct Answer: B
 
@@ -2034,12 +1930,10 @@ Subtopic: Security Attacks
 Difficulty: Medium
 
 Question: What is a man-in-the-middle attack?
-A: Physical attack
-B: Intercepting and possibly altering communication
-C: Denial of service
-D: Password guessing
-
-D) [Missing option - Please review]
+A) Physical attack
+B) Intercepting and possibly altering communication
+C) Denial of service
+D) Password guessing
 
 ✔ Correct Answer: B
 
@@ -2056,12 +1950,10 @@ Subtopic: Security Attacks
 Difficulty: Medium
 
 Question: What is a replay attack?
-A: Playing video
-B: Retransmitting valid data maliciously
-C: Deleting data
-D: Creating data
-
-D) [Missing option - Please review]
+A) Playing video
+B) Retransmitting valid data maliciously
+C) Deleting data
+D) Creating data
 
 ✔ Correct Answer: B
 
@@ -2078,12 +1970,10 @@ Subtopic: Cryptography
 Difficulty: Medium
 
 Question: What is symmetric encryption?
-A: Different keys
-B: Same key for encryption and decryption
-C: No key
-D: Public key
-
-D) [Missing option - Please review]
+A) Different keys
+B) Same key for encryption and decryption
+C) No key
+D) Public key
 
 ✔ Correct Answer: B
 
@@ -2100,12 +1990,10 @@ Subtopic: Cryptography
 Difficulty: Medium
 
 Question: What is asymmetric encryption?
-A: Same key
-B: Different keys for encryption (public) and decryption (private)
-C: No encryption
-D: Single key
-
-D) [Missing option - Please review]
+A) Same key
+B) Different keys for encryption (public) and decryption (private)
+C) No encryption
+D) Single key
 
 ✔ Correct Answer: B
 

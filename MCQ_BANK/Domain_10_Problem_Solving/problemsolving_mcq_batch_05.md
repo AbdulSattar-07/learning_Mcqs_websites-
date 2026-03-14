@@ -118,9 +118,7 @@ Difficulty: Hard
 Question: What distinguishes first-order logic from propositional logic?
 
 A) No difference
-B: Includes quantifiers and predicates over variables
-B) [Missing option - Please review]
-
+B) Includes quantifiers and predicates over variables
 C) Simpler
 D) Random difference
 
@@ -141,11 +139,9 @@ Difficulty: Hard
 Question: Why are loop invariants important?
 
 A) They're not important
-B: Help prove algorithm correctness
-C: Slow down execution
-D: No reason
-
-D) [Missing option - Please review]
+B) Help prove algorithm correctness
+C) Slow down execution
+D) No reason
 
 ✔ Correct Answer: B
 
@@ -163,12 +159,10 @@ Difficulty: Medium
 
 Question: What is a precondition?
 
-A: Final state
-B: Condition that must be true before function executes
-C: Random condition
-D: No condition
-
-D) [Missing option - Please review]
+A) Final state
+B) Condition that must be true before function executes
+C) Random condition
+D) No condition
 
 ✔ Correct Answer: B
 
@@ -186,12 +180,10 @@ Difficulty: Medium
 
 Question: What is a postcondition?
 
-A: Initial state
-B: Condition guaranteed to be true after function executes
-C: Random condition
-D: No condition
-
-D) [Missing option - Please review]
+A) Initial state
+B) Condition guaranteed to be true after function executes
+C) Random condition
+D) No condition
 
 ✔ Correct Answer: B
 
@@ -209,12 +201,10 @@ Difficulty: Hard
 
 Question: What is special about Gray code?
 
-A: Random encoding
-B: Adjacent values differ by only one bit
-C: Same as binary
-D: No special property
-
-D) [Missing option - Please review]
+A) Random encoding
+B) Adjacent values differ by only one bit
+C) Same as binary
+D) No special property
 
 ✔ Correct Answer: B
 
@@ -232,12 +222,10 @@ Difficulty: Medium
 
 Question: What is BCD (Binary Coded Decimal)?
 
-A: Random encoding
-B: Each decimal digit encoded as 4 bits
-C: Standard binary
-D: No encoding
-
-D) [Missing option - Please review]
+A) Random encoding
+B) Each decimal digit encoded as 4 bits
+C) Standard binary
+D) No encoding
 
 ✔ Correct Answer: B
 
@@ -255,12 +243,10 @@ Difficulty: Medium
 
 Question: What is the sum of first n natural numbers?
 
-A: n
-B: n(n+1)/2
-C: n²
-D: 2n
-
-D) [Missing option - Please review]
+A) n
+B) n(n+1)/2
+C) n²
+D) 2n
 
 ✔ Correct Answer: B
 
@@ -278,12 +264,10 @@ Difficulty: Hard
 
 Question: What is the sum of geometric series: 1 + 2 + 4 + 8 + ... + 2^n?
 
-A: 2^n
-B: 2^(n+1) - 1
-C: 2^n + 1
-D: n²
-
-D) [Missing option - Please review]
+A) 2^n
+B) 2^(n+1) - 1
+C) 2^n + 1
+D) n²
 
 ✔ Correct Answer: B
 
@@ -301,12 +285,10 @@ Difficulty: Medium
 
 Question: What does Σ(i=1 to 5) i² equal?
 
-A: 15
-B: 25
-C: 55
-D: 30
-
-D) [Missing option - Please review]
+A) 15
+B) 25
+C) 55
+D) 30
 
 ✔ Correct Answer: C
 
@@ -324,12 +306,10 @@ Difficulty: Medium
 
 Question: What does Π(i=1 to 4) i equal?
 
-A: 10
-B: 24
-C: 16
-D: 20
-
-D) [Missing option - Please review]
+A) 10
+B) 24
+C) 16
+D) 20
 
 ✔ Correct Answer: B
 
@@ -347,12 +327,10 @@ Difficulty: Hard
 
 Question: What does the Sieve of Eratosthenes find?
 
-A: Composite numbers
-B: All prime numbers up to n
-C: Perfect squares
-D: Random numbers
-
-D) [Missing option - Please review]
+A) Composite numbers
+B) All prime numbers up to n
+C) Perfect squares
+D) Random numbers
 
 ✔ Correct Answer: B
 
@@ -370,12 +348,10 @@ Difficulty: Medium
 
 Question: What is the Euclidean distance between (0,0) and (3,4)?
 
-A: 3
-B: 4
-C: 5
-D: 7
-
-D) [Missing option - Please review]
+A) 3
+B) 4
+C) 5
+D) 7
 
 ✔ Correct Answer: C
 
@@ -393,12 +369,10 @@ Difficulty: Medium
 
 Question: What is the Manhattan distance between (0,0) and (3,4)?
 
-A: 5
-B: 7
-C: 12
-D: 3
-
-D) [Missing option - Please review]
+A) 5
+B) 7
+C) 12
+D) 3
 
 ✔ Correct Answer: B
 
@@ -416,12 +390,10 @@ Difficulty: Medium
 
 Question: What is the key difference between correlation and causation?
 
-A: No difference
-B: Correlation shows relationship, causation shows one causes the other
-C: Same thing
-D: Random difference
-
-D) [Missing option - Please review]
+A) No difference
+B) Correlation shows relationship, causation shows one causes the other
+C) Same thing
+D) Random difference
 
 ✔ Correct Answer: B
 
@@ -439,12 +411,10 @@ Difficulty: Medium
 
 Question: What is spurious correlation?
 
-A: True relationship
-B: Apparent correlation without causal relationship
-C: Strong causation
-D: No correlation
-
-D) [Missing option - Please review]
+A) True relationship
+B) Apparent correlation without causal relationship
+C) Strong causation
+D) No correlation
 
 ✔ Correct Answer: B
 
@@ -462,12 +432,10 @@ Difficulty: Medium
 
 Question: When should assertions be used?
 
-A: Never
-B: To check assumptions during development
-C: In production only
-D: Randomly
-
-D) [Missing option - Please review]
+A) Never
+B) To check assumptions during development
+C) In production only
+D) Randomly
 
 ✔ Correct Answer: B
 
@@ -485,12 +453,10 @@ Difficulty: Easy
 
 Question: What is the typical order of logging levels from least to most severe?
 
-A: ERROR, WARN, INFO, DEBUG
-B: DEBUG, INFO, WARN, ERROR
-C: INFO, DEBUG, WARN, ERROR
-D: WARN, ERROR, INFO, DEBUG
-
-D) [Missing option - Please review]
+A) ERROR, WARN, INFO, DEBUG
+B) DEBUG, INFO, WARN, ERROR
+C) INFO, DEBUG, WARN, ERROR
+D) WARN, ERROR, INFO, DEBUG
 
 ✔ Correct Answer: B
 
@@ -508,12 +474,10 @@ Difficulty: Hard
 
 Question: What does amortized O(1) mean?
 
-A: Always constant time
-B: Average constant time over sequence of operations
-C: Worst case constant
-D: No meaning
-
-D) [Missing option - Please review]
+A) Always constant time
+B) Average constant time over sequence of operations
+C) Worst case constant
+D) No meaning
 
 ✔ Correct Answer: B
 
@@ -531,12 +495,10 @@ Difficulty: Medium
 
 Question: What is the space complexity of recursive Fibonacci?
 
-A: O(1)
-B: O(n)
-C: O(n²)
-D: O(2^n)
-
-D) [Missing option - Please review]
+A) O(1)
+B) O(n)
+C) O(n²)
+D) O(2^n)
 
 ✔ Correct Answer: B
 
@@ -560,12 +522,10 @@ result = reduce(lambda x, y: x * y, nums)
 print(result)
 ```
 
-A: 10
-B: 24
-C: 16
-D: Error
-
-D) [Missing option - Please review]
+A) 10
+B) 24
+C) 16
+D) Error
 
 ✔ Correct Answer: B
 
@@ -588,12 +548,10 @@ result = sorted(words, key=len)
 print(result[0])
 ```
 
-A: apple
-B: a
-C: pie
-D: zoo
-
-D) [Missing option - Please review]
+A) apple
+B) a
+C) pie
+D) zoo
 
 ✔ Correct Answer: B
 
@@ -616,12 +574,10 @@ result = max(words, key=len)
 print(result)
 ```
 
-A: a
-B: ab
-C: abc
-D: Error
-
-D) [Missing option - Please review]
+A) a
+B) ab
+C) abc
+D) Error
 
 ✔ Correct Answer: C
 
@@ -639,12 +595,10 @@ Difficulty: Hard
 
 Question: What is precision in classification?
 
-A: Total correct
-B: True positives / (True positives + False positives)
-C: True positives / Total positives
-D: Random metric
-
-D) [Missing option - Please review]
+A) Total correct
+B) True positives / (True positives + False positives)
+C) True positives / Total positives
+D) Random metric
 
 ✔ Correct Answer: B
 
@@ -662,12 +616,10 @@ Difficulty: Hard
 
 Question: What is recall in classification?
 
-A: Total correct
-B: True positives / (True positives + False negatives)
-C: False positives / Total
-D: Random metric
-
-D) [Missing option - Please review]
+A) Total correct
+B) True positives / (True positives + False negatives)
+C) False positives / Total
+D) Random metric
 
 ✔ Correct Answer: B
 
@@ -685,12 +637,10 @@ Difficulty: Hard
 
 Question: What is the F1 score?
 
-A: Average of precision and recall
-B: Harmonic mean of precision and recall
-C: Product of precision and recall
-D: Random metric
-
-D) [Missing option - Please review]
+A) Average of precision and recall
+B) Harmonic mean of precision and recall
+C) Product of precision and recall
+D) Random metric
 
 ✔ Correct Answer: B
 
@@ -708,12 +658,10 @@ Difficulty: Medium
 
 Question: What is constraint relaxation in problem solving?
 
-A: Adding constraints
-B: Temporarily removing constraints to explore solutions
-C: Ignoring all rules
-D: No technique
-
-D) [Missing option - Please review]
+A) Adding constraints
+B) Temporarily removing constraints to explore solutions
+C) Ignoring all rules
+D) No technique
 
 ✔ Correct Answer: B
 
@@ -731,12 +679,10 @@ Difficulty: Medium
 
 Question: What is assumption reversal?
 
-A: Confirming assumptions
-B: Reversing assumptions to generate new perspectives
-C: Random thinking
-D: No technique
-
-D) [Missing option - Please review]
+A) Confirming assumptions
+B) Reversing assumptions to generate new perspectives
+C) Random thinking
+D) No technique
 
 ✔ Correct Answer: B
 
@@ -754,12 +700,10 @@ Difficulty: Medium
 
 Question: What is technical debt?
 
-A: Financial debt
-B: Cost of rework from choosing quick solutions over better approaches
-C: No debt
-D: Random concept
-
-D) [Missing option - Please review]
+A) Financial debt
+B) Cost of rework from choosing quick solutions over better approaches
+C) No debt
+D) Random concept
 
 ✔ Correct Answer: B
 
@@ -777,12 +721,10 @@ Difficulty: Medium
 
 Question: What is yak shaving?
 
-A: Direct problem solving
-B: Series of tangential tasks before addressing original problem
-C: Efficient approach
-D: No concept
-
-D) [Missing option - Please review]
+A) Direct problem solving
+B) Series of tangential tasks before addressing original problem
+C) Efficient approach
+D) No concept
 
 ✔ Correct Answer: B
 
@@ -800,12 +742,10 @@ Difficulty: Hard
 
 Question: What is literate programming?
 
-A: Random code
-B: Writing programs as explanation to humans with code embedded
-C: Minimal comments
-D: No documentation
-
-D) [Missing option - Please review]
+A) Random code
+B) Writing programs as explanation to humans with code embedded
+C) Minimal comments
+D) No documentation
 
 ✔ Correct Answer: B
 
@@ -823,12 +763,10 @@ Difficulty: Easy
 
 Question: What makes code self-documenting?
 
-A: No comments needed
-B: Clear naming and structure that explains intent
-C: Random names
-D: Complex logic
-
-D) [Missing option - Please review]
+A) No comments needed
+B) Clear naming and structure that explains intent
+C) Random names
+D) Complex logic
 
 ✔ Correct Answer: B
 
@@ -846,12 +784,10 @@ Difficulty: Medium
 
 Question: What is analogical problem solving?
 
-A: Random approach
-B: Solving problems by finding similar solved problems
-C: Ignoring past solutions
-D: No method
-
-D) [Missing option - Please review]
+A) Random approach
+B) Solving problems by finding similar solved problems
+C) Ignoring past solutions
+D) No method
 
 ✔ Correct Answer: B
 
@@ -869,12 +805,10 @@ Difficulty: Hard
 
 Question: What is forward chaining?
 
-A: Working backward
-B: Starting from known facts and deriving conclusions
-C: Random approach
-D: No method
-
-D) [Missing option - Please review]
+A) Working backward
+B) Starting from known facts and deriving conclusions
+C) Random approach
+D) No method
 
 ✔ Correct Answer: B
 
@@ -892,12 +826,10 @@ Difficulty: Hard
 
 Question: What is backward chaining?
 
-A: Starting from facts
-B: Starting from goal and working backward to find supporting facts
-C: Random approach
-D: No method
-
-D) [Missing option - Please review]
+A) Starting from facts
+B) Starting from goal and working backward to find supporting facts
+C) Random approach
+D) No method
 
 ✔ Correct Answer: B
 
@@ -915,12 +847,10 @@ Difficulty: Hard
 
 Question: What is breadth-first search strategy?
 
-A: Deep exploration first
-B: Exploring all neighbors before going deeper
-C: Random search
-D: No strategy
-
-D) [Missing option - Please review]
+A) Deep exploration first
+B) Exploring all neighbors before going deeper
+C) Random search
+D) No strategy
 
 ✔ Correct Answer: B
 
@@ -938,12 +868,10 @@ Difficulty: Hard
 
 Question: What is depth-first search strategy?
 
-A: Wide exploration first
-B: Exploring as deep as possible before backtracking
-C: Random search
-D: No strategy
-
-D) [Missing option - Please review]
+A) Wide exploration first
+B) Exploring as deep as possible before backtracking
+C) Random search
+D) No strategy
 
 ✔ Correct Answer: B
 
@@ -961,12 +889,10 @@ Difficulty: Hard
 
 Question: What makes an argument sound?
 
-A: Only valid
-B: Valid with true premises
-C: Random argument
-D: No requirements
-
-D) [Missing option - Please review]
+A) Only valid
+B) Valid with true premises
+C) Random argument
+D) No requirements
 
 ✔ Correct Answer: B
 
@@ -984,12 +910,10 @@ Difficulty: Hard
 
 Question: What makes an argument valid?
 
-A: True premises
-B: If premises are true, conclusion must be true
-C: Random structure
-D: No requirements
-
-D) [Missing option - Please review]
+A) True premises
+B) If premises are true, conclusion must be true
+C) Random structure
+D) No requirements
 
 ✔ Correct Answer: B
 
@@ -1007,12 +931,10 @@ Difficulty: Medium
 
 Question: Which is a stable sorting algorithm?
 
-A: Quicksort (typical implementation)
-B: Merge sort
-C: Heapsort
-D: Selection sort
-
-D) [Missing option - Please review]
+A) Quicksort (typical implementation)
+B) Merge sort
+C) Heapsort
+D) Selection sort
 
 ✔ Correct Answer: B
 
@@ -1030,12 +952,10 @@ Difficulty: Medium
 
 Question: What is an in-place algorithm?
 
-A: Uses extra memory
-B: Transforms input using minimal extra space
-C: Creates copies
-D: No algorithm
-
-D) [Missing option - Please review]
+A) Uses extra memory
+B) Transforms input using minimal extra space
+C) Creates copies
+D) No algorithm
 
 ✔ Correct Answer: B
 
@@ -1053,12 +973,10 @@ Difficulty: Medium
 
 Question: What is a parity bit used for?
 
-A: Encryption
-B: Error detection
-C: Compression
-D: No use
-
-D) [Missing option - Please review]
+A) Encryption
+B) Error detection
+C) Compression
+D) No use
 
 ✔ Correct Answer: B
 
@@ -1076,12 +994,10 @@ Difficulty: Hard
 
 Question: What is the Hamming distance between 1010 and 1100?
 
-A: 1
-B: 2
-C: 3
-D: 4
-
-D) [Missing option - Please review]
+A) 1
+B) 2
+C) 3
+D) 4
 
 ✔ Correct Answer: B
 
@@ -1099,12 +1015,10 @@ Difficulty: Hard
 
 Question: What defines the Pell sequence?
 
-A: P(n) = P(n-1) + P(n-2)
-B: P(n) = 2×P(n-1) + P(n-2)
-C: P(n) = P(n-1) × P(n-2)
-D: Random sequence
-
-D) [Missing option - Please review]
+A) P(n) = P(n-1) + P(n-2)
+B) P(n) = 2×P(n-1) + P(n-2)
+C) P(n) = P(n-1) × P(n-2)
+D) Random sequence
 
 ✔ Correct Answer: B
 
@@ -1122,12 +1036,10 @@ Difficulty: Hard
 
 Question: How do Lucas numbers differ from Fibonacci?
 
-A: Different recurrence
-B: Same recurrence, different initial values
-C: No relation
-D: Random difference
-
-D) [Missing option - Please review]
+A) Different recurrence
+B) Same recurrence, different initial values
+C) No relation
+D) Random difference
 
 ✔ Correct Answer: B
 
@@ -1145,12 +1057,10 @@ Difficulty: Easy
 
 Question: What is ⌊3.7⌋ (floor of 3.7)?
 
-A: 3
-B: 4
-C: 3.5
-D: 3.7
-
-D) [Missing option - Please review]
+A) 3
+B) 4
+C) 3.5
+D) 3.7
 
 ✔ Correct Answer: A
 
@@ -1168,12 +1078,10 @@ Difficulty: Easy
 
 Question: What is ⌈3.2⌉ (ceiling of 3.2)?
 
-A: 3
-B: 4
-C: 3.5
-D: 3.2
-
-D) [Missing option - Please review]
+A) 3
+B) 4
+C) 3.5
+D) 3.2
 
 ✔ Correct Answer: B
 
@@ -1191,12 +1099,10 @@ Difficulty: Hard
 
 Question: What problem does reservoir sampling solve?
 
-A: Sorting
-B: Randomly sampling from stream of unknown size
-C: Searching
-D: No problem
-
-D) [Missing option - Please review]
+A) Sorting
+B) Randomly sampling from stream of unknown size
+C) Searching
+D) No problem
 
 ✔ Correct Answer: B
 
@@ -1214,12 +1120,10 @@ Difficulty: Hard
 
 Question: What does Fisher-Yates algorithm do?
 
-A: Sorts array
-B: Randomly shuffles array
-C: Searches array
-D: No function
-
-D) [Missing option - Please review]
+A) Sorts array
+B) Randomly shuffles array
+C) Searches array
+D) No function
 
 ✔ Correct Answer: B
 
@@ -1237,12 +1141,10 @@ Difficulty: Hard
 
 Question: What is the minimax strategy?
 
-A: Maximize everything
-B: Minimize maximum possible loss
-C: Random strategy
-D: No strategy
-
-D) [Missing option - Please review]
+A) Maximize everything
+B) Minimize maximum possible loss
+C) Random strategy
+D) No strategy
 
 ✔ Correct Answer: B
 
@@ -1260,12 +1162,10 @@ Difficulty: Hard
 
 Question: What is Nash equilibrium?
 
-A: Random state
-B: State where no player benefits from changing strategy alone
-C: Optimal for all
-D: No equilibrium
-
-D) [Missing option - Please review]
+A) Random state
+B) State where no player benefits from changing strategy alone
+C) Optimal for all
+D) No equilibrium
 
 ✔ Correct Answer: B
 
@@ -1283,12 +1183,10 @@ Difficulty: Hard
 
 Question: What is mutation testing?
 
-A: Testing mutations
-B: Modifying code to test if tests catch the changes
-C: Random testing
-D: No testing
-
-D) [Missing option - Please review]
+A) Testing mutations
+B) Modifying code to test if tests catch the changes
+C) Random testing
+D) No testing
 
 ✔ Correct Answer: B
 
@@ -1306,12 +1204,10 @@ Difficulty: Medium
 
 Question: What is fuzz testing?
 
-A: Clear testing
-B: Providing random/invalid inputs to find crashes
-C: Manual testing
-D: No testing
-
-D) [Missing option - Please review]
+A) Clear testing
+B) Providing random/invalid inputs to find crashes
+C) Manual testing
+D) No testing
 
 ✔ Correct Answer: B
 
@@ -1329,12 +1225,10 @@ Difficulty: Hard
 
 Question: What does Θ (Theta) notation represent?
 
-A: Upper bound only
-B: Tight bound (both upper and lower)
-C: Lower bound only
-D: No bound
-
-D) [Missing option - Please review]
+A) Upper bound only
+B) Tight bound (both upper and lower)
+C) Lower bound only
+D) No bound
 
 ✔ Correct Answer: B
 
@@ -1352,12 +1246,10 @@ Difficulty: Hard
 
 Question: What does Ω (Omega) notation represent?
 
-A: Upper bound
-B: Lower bound
-C: Tight bound
-D: No bound
-
-D) [Missing option - Please review]
+A) Upper bound
+B) Lower bound
+C) Tight bound
+D) No bound
 
 ✔ Correct Answer: B
 
@@ -1375,12 +1267,10 @@ Difficulty: Medium
 
 Question: What does the walrus operator := do in Python?
 
-A: Comparison
-B: Assignment within expression
-C: Division
-D: No function
-
-D) [Missing option - Please review]
+A) Comparison
+B) Assignment within expression
+C) Division
+D) No function
 
 ✔ Correct Answer: B
 
@@ -1402,12 +1292,10 @@ a, *b, c = [1, 2, 3, 4, 5]
 print(len(b))
 ```
 
-A: 1
-B: 2
-C: 3
-D: 5
-
-D) [Missing option - Please review]
+A) 1
+B) 2
+C) 3
+D) 5
 
 ✔ Correct Answer: C
 
@@ -1431,12 +1319,10 @@ d3 = {**d1, **d2}
 print(d3['b'])
 ```
 
-A: 2
-B: 3
-C: 5
-D: Error
-
-D) [Missing option - Please review]
+A) 2
+B) 3
+C) 5
+D) Error
 
 ✔ Correct Answer: B
 
@@ -1454,12 +1340,10 @@ Difficulty: Hard
 
 Question: What does ROC curve plot?
 
-A: Accuracy vs time
-B: True positive rate vs false positive rate
-C: Precision vs recall
-D: Random metrics
-
-D) [Missing option - Please review]
+A) Accuracy vs time
+B) True positive rate vs false positive rate
+C) Precision vs recall
+D) Random metrics
 
 ✔ Correct Answer: B
 
@@ -1477,12 +1361,10 @@ Difficulty: Hard
 
 Question: What does AUC measure?
 
-A: Average accuracy
-B: Area under ROC curve
-C: Total errors
-D: Random metric
-
-D) [Missing option - Please review]
+A) Average accuracy
+B) Area under ROC curve
+C) Total errors
+D) Random metric
 
 ✔ Correct Answer: B
 
@@ -1500,12 +1382,10 @@ Difficulty: Medium
 
 Question: What is the forced connections technique?
 
-A: Random connections
-B: Forcing relationships between unrelated concepts
-C: Avoiding connections
-D: No technique
-
-D) [Missing option - Please review]
+A) Random connections
+B) Forcing relationships between unrelated concepts
+C) Avoiding connections
+D) No technique
 
 ✔ Correct Answer: B
 
@@ -1523,12 +1403,10 @@ Difficulty: Medium
 
 Question: How does random input technique work?
 
-A: Structured approach
-B: Using random words/objects to trigger new ideas
-C: Planned input
-D: No technique
-
-D) [Missing option - Please review]
+A) Structured approach
+B) Using random words/objects to trigger new ideas
+C) Planned input
+D) No technique
 
 ✔ Correct Answer: B
 
@@ -1546,12 +1424,10 @@ Difficulty: Medium
 
 Question: What is rate limiting?
 
-A: No limits
-B: Controlling frequency of operations
-C: Unlimited access
-D: Random control
-
-D) [Missing option - Please review]
+A) No limits
+B) Controlling frequency of operations
+C) Unlimited access
+D) Random control
 
 ✔ Correct Answer: B
 
@@ -1569,12 +1445,10 @@ Difficulty: Medium
 
 Question: What is throttling?
 
-A: Speeding up
-B: Limiting rate of operations
-C: No control
-D: Random behavior
-
-D) [Missing option - Please review]
+A) Speeding up
+B) Limiting rate of operations
+C) No control
+D) Random behavior
 
 ✔ Correct Answer: B
 
@@ -1592,12 +1466,10 @@ Difficulty: Medium
 
 Question: In semantic versioning X.Y.Z, what does Y represent?
 
-A: Major version
-B: Minor version (backward-compatible features)
-C: Patch version
-D: Random number
-
-D) [Missing option - Please review]
+A) Major version
+B) Minor version (backward-compatible features)
+C) Patch version
+D) Random number
 
 ✔ Correct Answer: B
 
@@ -1615,12 +1487,10 @@ Difficulty: Easy
 
 Question: What is a breaking change?
 
-A: Bug fix
-B: Change that breaks backward compatibility
-C: New feature
-D: Documentation update
-
-D) [Missing option - Please review]
+A) Bug fix
+B) Change that breaks backward compatibility
+C) New feature
+D) Documentation update
 
 ✔ Correct Answer: B
 
@@ -1638,12 +1508,10 @@ Difficulty: Hard
 
 Question: What is bounded rationality?
 
-A: Perfect rationality
-B: Decision-making limited by information, time, and cognitive ability
-C: Unlimited rationality
-D: No rationality
-
-D) [Missing option - Please review]
+A) Perfect rationality
+B) Decision-making limited by information, time, and cognitive ability
+C) Unlimited rationality
+D) No rationality
 
 ✔ Correct Answer: B
 
@@ -1661,12 +1529,10 @@ Difficulty: Medium
 
 Question: Why do people satisfice?
 
-A: Laziness
-B: Bounded rationality and resource constraints
-C: No reason
-D: Random choice
-
-D) [Missing option - Please review]
+A) Laziness
+B) Bounded rationality and resource constraints
+C) No reason
+D) Random choice
 
 ✔ Correct Answer: B
 
@@ -1684,12 +1550,10 @@ Difficulty: Hard
 
 Question: What is sensitivity analysis?
 
-A: Random analysis
-B: Studying how output changes with input variations
-C: No analysis
-D: Single test
-
-D) [Missing option - Please review]
+A) Random analysis
+B) Studying how output changes with input variations
+C) No analysis
+D) Single test
 
 ✔ Correct Answer: B
 
@@ -1707,12 +1571,10 @@ Difficulty: Medium
 
 Question: What is what-if analysis?
 
-A: Historical analysis
-B: Exploring outcomes under different scenarios
-C: No analysis
-D: Single scenario
-
-D) [Missing option - Please review]
+A) Historical analysis
+B) Exploring outcomes under different scenarios
+C) No analysis
+D) Single scenario
 
 ✔ Correct Answer: B
 
@@ -1730,12 +1592,10 @@ Difficulty: Hard
 
 Question: What is the law of excluded middle?
 
-A: Middle values exist
-B: Proposition is either true or false, no middle
-C: Multiple values
-D: No law
-
-D) [Missing option - Please review]
+A) Middle values exist
+B) Proposition is either true or false, no middle
+C) Multiple values
+D) No law
 
 ✔ Correct Answer: B
 
@@ -1753,12 +1613,10 @@ Difficulty: Hard
 
 Question: What is the law of non-contradiction?
 
-A: Contradictions allowed
-B: Proposition cannot be both true and false simultaneously
-C: Multiple truths
-D: No law
-
-D) [Missing option - Please review]
+A) Contradictions allowed
+B) Proposition cannot be both true and false simultaneously
+C) Multiple truths
+D) No law
 
 ✔ Correct Answer: B
 
@@ -1776,12 +1634,10 @@ Difficulty: Easy
 
 Question: What is a sentinel loop?
 
-A: Infinite loop
-B: Loop that continues until sentinel value is encountered
-C: Fixed iterations
-D: No loop
-
-D) [Missing option - Please review]
+A) Infinite loop
+B) Loop that continues until sentinel value is encountered
+C) Fixed iterations
+D) No loop
 
 ✔ Correct Answer: B
 
@@ -1799,12 +1655,10 @@ Difficulty: Easy
 
 Question: What is a counting loop?
 
-A: Random iterations
-B: Loop with predetermined number of iterations
-C: Infinite loop
-D: No loop
-
-D) [Missing option - Please review]
+A) Random iterations
+B) Loop with predetermined number of iterations
+C) Infinite loop
+D) No loop
 
 ✔ Correct Answer: B
 
@@ -1822,12 +1676,10 @@ Difficulty: Medium
 
 Question: What is run-length encoding?
 
-A: Random encoding
-B: Compressing by storing value and count of consecutive repeats
-C: No compression
-D: Complex encoding
-
-D) [Missing option - Please review]
+A) Random encoding
+B) Compressing by storing value and count of consecutive repeats
+C) No compression
+D) Complex encoding
 
 ✔ Correct Answer: B
 
@@ -1845,12 +1697,10 @@ Difficulty: Hard
 
 Question: What is Huffman coding based on?
 
-A: Fixed-length codes
-B: Variable-length codes based on frequency
-C: Random codes
-D: No coding
-
-D) [Missing option - Please review]
+A) Fixed-length codes
+B) Variable-length codes based on frequency
+C) Random codes
+D) No coding
 
 ✔ Correct Answer: B
 
@@ -1868,12 +1718,10 @@ Difficulty: Hard
 
 Question: What do Bell numbers count?
 
-A: Prime numbers
-B: Ways to partition a set
-C: Perfect squares
-D: Random values
-
-D) [Missing option - Please review]
+A) Prime numbers
+B) Ways to partition a set
+C) Perfect squares
+D) Random values
 
 ✔ Correct Answer: B
 
@@ -1891,12 +1739,10 @@ Difficulty: Hard
 
 Question: What do Stirling numbers of the second kind count?
 
-A: Permutations
-B: Ways to partition n objects into k non-empty subsets
-C: Combinations
-D: Random values
-
-D) [Missing option - Please review]
+A) Permutations
+B) Ways to partition n objects into k non-empty subsets
+C) Combinations
+D) Random values
 
 ✔ Correct Answer: B
 
@@ -1914,12 +1760,10 @@ Difficulty: Medium
 
 Question: What is C(5,2) or "5 choose 2"?
 
-A: 5
-B: 10
-C: 20
-D: 25
-
-D) [Missing option - Please review]
+A) 5
+B) 10
+C) 20
+D) 25
 
 ✔ Correct Answer: B
 
@@ -1937,12 +1781,10 @@ Difficulty: Hard
 
 Question: What is Pascal's identity?
 
-A: C(n,k) = n!
-B: C(n,k) = C(n-1,k-1) + C(n-1,k)
-C: C(n,k) = n×k
-D: Random formula
-
-D) [Missing option - Please review]
+A) C(n,k) = n!
+B) C(n,k) = C(n-1,k-1) + C(n-1,k)
+C) C(n,k) = n×k
+D) Random formula
 
 ✔ Correct Answer: B
 
@@ -1960,12 +1802,10 @@ Difficulty: Hard
 
 Question: What is the meet-in-the-middle technique?
 
-A: Linear search
-B: Splitting problem and solving from both ends
-C: Random approach
-D: No technique
-
-D) [Missing option - Please review]
+A) Linear search
+B) Splitting problem and solving from both ends
+C) Random approach
+D) No technique
 
 ✔ Correct Answer: B
 
@@ -1983,12 +1823,10 @@ Difficulty: Hard
 
 Question: What is coordinate compression?
 
-A: Random compression
-B: Mapping large coordinate values to smaller range
-C: No compression
-D: Data deletion
-
-D) [Missing option - Please review]
+A) Random compression
+B) Mapping large coordinate values to smaller range
+C) No compression
+D) Data deletion
 
 ✔ Correct Answer: B
 
@@ -2006,12 +1844,10 @@ Difficulty: Hard
 
 Question: What does the prisoner's dilemma illustrate?
 
-A: Cooperation always wins
-B: Individual rationality can lead to worse collective outcome
-C: Betrayal always wins
-D: No lesson
-
-D) [Missing option - Please review]
+A) Cooperation always wins
+B) Individual rationality can lead to worse collective outcome
+C) Betrayal always wins
+D) No lesson
 
 ✔ Correct Answer: B
 
@@ -2029,12 +1865,10 @@ Difficulty: Medium
 
 Question: What is a zero-sum game?
 
-A: Everyone wins
-B: One player's gain equals another's loss
-C: Everyone loses
-D: No game
-
-D) [Missing option - Please review]
+A) Everyone wins
+B) One player's gain equals another's loss
+C) Everyone loses
+D) No game
 
 ✔ Correct Answer: B
 
@@ -2052,12 +1886,10 @@ Difficulty: Medium
 
 Question: What is code coverage?
 
-A: Code length
-B: Percentage of code executed by tests
-C: Code quality
-D: Random metric
-
-D) [Missing option - Please review]
+A) Code length
+B) Percentage of code executed by tests
+C) Code quality
+D) Random metric
 
 ✔ Correct Answer: B
 
@@ -2075,12 +1907,10 @@ Difficulty: Medium
 
 Question: What is branch coverage?
 
-A: Line coverage
-B: Percentage of decision branches tested
-C: Function coverage
-D: Random metric
-
-D) [Missing option - Please review]
+A) Line coverage
+B) Percentage of decision branches tested
+C) Function coverage
+D) Random metric
 
 ✔ Correct Answer: B
 
@@ -2098,12 +1928,10 @@ Difficulty: Hard
 
 Question: What is competitive ratio in online algorithms?
 
-A: Speed comparison
-B: Ratio of online algorithm performance to optimal offline
-C: Random ratio
-D: No ratio
-
-D) [Missing option - Please review]
+A) Speed comparison
+B) Ratio of online algorithm performance to optimal offline
+C) Random ratio
+D) No ratio
 
 ✔ Correct Answer: B
 
@@ -2121,12 +1949,10 @@ Difficulty: Hard
 
 Question: What is approximation ratio?
 
-A: Exact solution
-B: Ratio of approximate solution to optimal solution
-C: Random ratio
-D: No ratio
-
-D) [Missing option - Please review]
+A) Exact solution
+B) Ratio of approximate solution to optimal solution
+C) Random ratio
+D) No ratio
 
 ✔ Correct Answer: B
 
@@ -2144,12 +1970,10 @@ Difficulty: Hard
 
 Question: What does memoization do?
 
-A: Forgets results
-B: Caches function results for given inputs
-C: Slows execution
-D: No effect
-
-D) [Missing option - Please review]
+A) Forgets results
+B) Caches function results for given inputs
+C) Slows execution
+D) No effect
 
 ✔ Correct Answer: B
 
@@ -2174,12 +1998,10 @@ print(len(func(1)))
 print(len(func(2)))
 ```
 
-A: 1, 1
-B: 1, 2
-C: 2, 2
-D: Error
-
-D) [Missing option - Please review]
+A) 1, 1
+B) 1, 2
+C) 2, 2
+D) Error
 
 ✔ Correct Answer: B
 
@@ -2197,12 +2019,10 @@ Difficulty: Medium
 
 Question: In a confusion matrix, what is on the diagonal?
 
-A: Errors
-B: Correct predictions
-C: Random values
-D: No values
-
-D) [Missing option - Please review]
+A) Errors
+B) Correct predictions
+C) Random values
+D) No values
 
 ✔ Correct Answer: B
 
@@ -2220,12 +2040,10 @@ Difficulty: Medium
 
 Question: What is k-fold cross-validation?
 
-A: Single split
-B: Dividing data into k parts, training on k-1, testing on 1
-C: No validation
-D: Random split
-
-D) [Missing option - Please review]
+A) Single split
+B) Dividing data into k parts, training on k-1, testing on 1
+C) No validation
+D) Random split
 
 ✔ Correct Answer: B
 
@@ -2243,12 +2061,10 @@ Difficulty: Medium
 
 Question: What is a provocation in creative thinking?
 
-A: Logical statement
-B: Deliberately absurd statement to trigger new ideas
-C: Factual statement
-D: No technique
-
-D) [Missing option - Please review]
+A) Logical statement
+B) Deliberately absurd statement to trigger new ideas
+C) Factual statement
+D) No technique
 
 ✔ Correct Answer: B
 
@@ -2266,12 +2082,10 @@ Difficulty: Medium
 
 Question: What is attribute listing?
 
-A: Random listing
-B: Listing and modifying attributes to generate ideas
-C: No listing
-D: Final list
-
-D) [Missing option - Please review]
+A) Random listing
+B) Listing and modifying attributes to generate ideas
+C) No listing
+D) Final list
 
 ✔ Correct Answer: B
 
@@ -2289,12 +2103,10 @@ Difficulty: Hard
 
 Question: What is eventual consistency?
 
-A: Immediate consistency
-B: System becomes consistent over time
-C: Never consistent
-D: Random consistency
-
-D) [Missing option - Please review]
+A) Immediate consistency
+B) System becomes consistent over time
+C) Never consistent
+D) Random consistency
 
 ✔ Correct Answer: B
 
@@ -2312,12 +2124,10 @@ Difficulty: Easy
 
 Question: What does deprecating a feature mean?
 
-A: Removing immediately
-B: Marking for future removal while still available
-C: Adding feature
-D: No change
-
-D) [Missing option - Please review]
+A) Removing immediately
+B) Marking for future removal while still available
+C) Adding feature
+D) No change
 
 ✔ Correct Answer: B
 

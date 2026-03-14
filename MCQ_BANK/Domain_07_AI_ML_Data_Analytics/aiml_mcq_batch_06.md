@@ -363,9 +363,7 @@ Difficulty: Hard
 
 Question: What is Independent Component Analysis (ICA)?
 A) PCA variant
-B: Separating mixed signals into independent sources
-B) [Missing option - Please review]
-
+B) Separating mixed signals into independent sources
 C) Clustering method
 D) Classification method
 
@@ -419,9 +417,7 @@ Difficulty: Hard
 
 Question: What is temperature scaling?
 A) Hardware cooling
-B: Post-hoc calibration method dividing logits by temperature
-B) [Missing option - Please review]
-
+B) Post-hoc calibration method dividing logits by temperature
 C) Data scaling
 D) Feature scaling
 
@@ -462,13 +458,9 @@ Difficulty: Hard
 
 Question: What is a metric space?
 A) Space with measurements
-B: Set with distance function satisfying metric properties
-B) [Missing option - Please review]
-
+B) Set with distance function satisfying metric properties
 C) Euclidean space only
-D: Vector space
-
-D) [Missing option - Please review]
+D) Vector space
 
 ✔ Correct Answer: B
 Reason: Metric space has distance function satisfying non-negativity, identity, symmetry, triangle inequality.
@@ -483,12 +475,10 @@ Subtopic: Normalization Layers
 Difficulty: Medium
 
 Question: What is group normalization?
-A: Batch normalization
-B: Normalizing within groups of channels
-C: Layer normalization
-D: Instance normalization
-
-D) [Missing option - Please review]
+A) Batch normalization
+B) Normalizing within groups of channels
+C) Layer normalization
+D) Instance normalization
 
 ✔ Correct Answer: B
 Reason: Group norm divides channels into groups and normalizes within each group.
@@ -503,12 +493,10 @@ Subtopic: Data Profiling
 Difficulty: Medium
 
 Question: What is cardinality in data profiling?
-A: Data quality
-B: Number of unique values in column
-C: Data type
-D: Data size
-
-D) [Missing option - Please review]
+A) Data quality
+B) Number of unique values in column
+C) Data type
+D) Data size
 
 ✔ Correct Answer: B
 Reason: Cardinality measures distinctness of values in a feature.
@@ -523,12 +511,10 @@ Subtopic: Coreference Resolution
 Difficulty: Hard
 
 Question: What is anaphora resolution?
-A: Resolving conflicts
-B: Identifying what pronouns refer to
-C: Spell checking
-D: Grammar correction
-
-D) [Missing option - Please review]
+A) Resolving conflicts
+B) Identifying what pronouns refer to
+C) Spell checking
+D) Grammar correction
 
 ✔ Correct Answer: B
 Reason: Anaphora resolution links pronouns to their antecedents.
@@ -543,12 +529,10 @@ Subtopic: Ensemble Optimization
 Difficulty: Hard
 
 Question: What is ensemble pruning optimization?
-A: Adding models
-B: Selecting optimal subset of ensemble members
-C: Training more models
-D: No optimization
-
-D) [Missing option - Please review]
+A) Adding models
+B) Selecting optimal subset of ensemble members
+C) Training more models
+D) No optimization
 
 ✔ Correct Answer: B
 Reason: Ensemble pruning removes redundant models while maintaining performance.
@@ -563,12 +547,10 @@ Subtopic: Dimensionality Reduction
 Difficulty: Medium
 
 Question: What is the curse of dimensionality?
-A: Too few features
-B: Problems arising from high-dimensional spaces
-C: Data imbalance
-D: Missing values
-
-D) [Missing option - Please review]
+A) Too few features
+B) Problems arising from high-dimensional spaces
+C) Data imbalance
+D) Missing values
 
 ✔ Correct Answer: B
 Reason: High dimensions cause data sparsity, making learning difficult.
@@ -583,12 +565,10 @@ Subtopic: Image Retrieval
 Difficulty: Medium
 
 Question: What is content-based image retrieval?
-A: Text-based search
-B: Searching images by visual content
-C: Metadata search
-D: Random retrieval
-
-D) [Missing option - Please review]
+A) Text-based search
+B) Searching images by visual content
+C) Metadata search
+D) Random retrieval
 
 ✔ Correct Answer: B
 Reason: CBIR uses visual features (color, texture, shape) to find similar images.
@@ -603,12 +583,10 @@ Subtopic: Hypothesis Testing
 Difficulty: Medium
 
 Question: What is Type II error?
-A: False Positive
-B: False Negative
-C: True Positive
-D: True Negative
-
-D) [Missing option - Please review]
+A) False Positive
+B) False Negative
+C) True Positive
+D) True Negative
 
 ✔ Correct Answer: B
 Reason: Type II error (β) is failing to reject false null hypothesis (False Negative).
@@ -628,12 +606,10 @@ import numpy as np
 arr = np.array([1, 2, 3])
 print(arr.reshape(3, 1).shape)
 ```
-A: (3,)
-B: (3, 1)
-C: (1, 3)
-D: (3, 3)
-
-D) [Missing option - Please review]
+A) (3,)
+B) (3, 1)
+C) (1, 3)
+D) (3, 3)
 
 ✔ Correct Answer: B
 Reason: reshape(3, 1) creates 3 rows, 1 column: shape (3, 1).
@@ -648,12 +624,10 @@ Subtopic: Multi-Label Classification
 Difficulty: Medium
 
 Question: What is multi-label classification?
-A: Single label per sample
-B: Multiple labels per sample
-C: Binary classification
-D: Regression
-
-D) [Missing option - Please review]
+A) Single label per sample
+B) Multiple labels per sample
+C) Binary classification
+D) Regression
 
 ✔ Correct Answer: B
 Reason: Multi-label allows assigning multiple non-exclusive labels to each instance.
@@ -668,12 +642,10 @@ Subtopic: Graph Algorithms
 Difficulty: Medium
 
 Question: What is PageRank algorithm?
-A: Sorting algorithm
-B: Algorithm measuring node importance in graph
-C: Search algorithm
-D: Clustering algorithm
-
-D) [Missing option - Please review]
+A) Sorting algorithm
+B) Algorithm measuring node importance in graph
+C) Search algorithm
+D) Clustering algorithm
 
 ✔ Correct Answer: B
 Reason: PageRank computes importance scores based on link structure.
@@ -688,12 +660,10 @@ Subtopic: Sequence Models
 Difficulty: Hard
 
 Question: What is bidirectional RNN?
-A: Single direction RNN
-B: Processing sequence in both forward and backward directions
-C: Two separate RNNs
-D: No directionality
-
-D) [Missing option - Please review]
+A) Single direction RNN
+B) Processing sequence in both forward and backward directions
+C) Two separate RNNs
+D) No directionality
 
 ✔ Correct Answer: B
 Reason: Bidirectional RNN captures context from past and future.
@@ -708,12 +678,10 @@ Subtopic: Statistical Tests
 Difficulty: Medium
 
 Question: What does the Shapiro-Wilk test check?
-A: Mean equality
-B: Normality of distribution
-C: Variance equality
-D: Independence
-
-D) [Missing option - Please review]
+A) Mean equality
+B) Normality of distribution
+C) Variance equality
+D) Independence
 
 ✔ Correct Answer: B
 Reason: Shapiro-Wilk tests whether sample comes from normal distribution.
@@ -728,12 +696,10 @@ Subtopic: Audit Trails
 Difficulty: Medium
 
 Question: What is an ML audit trail?
-A: Financial audit
-B: Record of model development and decisions
-C: Code review
-D: Testing log
-
-D) [Missing option - Please review]
+A) Financial audit
+B) Record of model development and decisions
+C) Code review
+D) Testing log
 
 ✔ Correct Answer: B
 Reason: Audit trails document model lifecycle for accountability and compliance.
@@ -748,12 +714,10 @@ Subtopic: Semantic Parsing
 Difficulty: Hard
 
 Question: What is semantic parsing?
-A: Parsing syntax
-B: Mapping text to formal meaning representations
-C: Tokenization
-D: POS tagging
-
-D) [Missing option - Please review]
+A) Parsing syntax
+B) Mapping text to formal meaning representations
+C) Tokenization
+D) POS tagging
 
 ✔ Correct Answer: B
 Reason: Semantic parsing converts natural language to logical forms or programs.
@@ -768,12 +732,10 @@ Subtopic: Outlier Detection
 Difficulty: Medium
 
 Question: What is Local Outlier Factor (LOF)?
-A: Global outlier detection
-B: Density-based outlier detection measuring local deviation
-C: Statistical method
-D: Clustering method
-
-D) [Missing option - Please review]
+A) Global outlier detection
+B) Density-based outlier detection measuring local deviation
+C) Statistical method
+D) Clustering method
 
 ✔ Correct Answer: B
 Reason: LOF identifies outliers by comparing local density to neighbors' densities.
@@ -788,12 +750,10 @@ Subtopic: Feature Monitoring
 Difficulty: Medium
 
 Question: What is feature drift?
-A: Model drift
-B: Change in feature distributions over time
-C: Concept drift
-D: No drift
-
-D) [Missing option - Please review]
+A) Model drift
+B) Change in feature distributions over time
+C) Concept drift
+D) No drift
 
 ✔ Correct Answer: B
 Reason: Feature drift occurs when input feature statistics change from training distribution.
@@ -808,12 +768,10 @@ Subtopic: Image Generation
 Difficulty: Hard
 
 Question: What is conditional GAN?
-A: Standard GAN
-B: GAN conditioned on additional information
-C: Unconditional generation
-D: Discriminator only
-
-D) [Missing option - Please review]
+A) Standard GAN
+B) GAN conditioned on additional information
+C) Unconditional generation
+D) Discriminator only
 
 ✔ Correct Answer: B
 Reason: Conditional GAN generates images based on class labels or other conditions.
@@ -828,12 +786,10 @@ Subtopic: Sample Weighting
 Difficulty: Medium
 
 Question: Why use sample weights in training?
-A: No reason
-B: Handle class imbalance or importance differences
-C: Speed up training
-D: Reduce model size
-
-D) [Missing option - Please review]
+A) No reason
+B) Handle class imbalance or importance differences
+C) Speed up training
+D) Reduce model size
 
 ✔ Correct Answer: B
 Reason: Sample weights adjust loss contribution of individual samples.
@@ -853,12 +809,10 @@ import pandas as pd
 df = pd.DataFrame({'A': [1, 2, 3, 4]})
 print(df['A'].rolling(window=2).mean().iloc[-1])
 ```
-A: 2.5
-B: 3.5
-C: 4.0
-D: NaN
-
-D) [Missing option - Please review]
+A) 2.5
+B) 3.5
+C) 4.0
+D) NaN
 
 ✔ Correct Answer: B
 Reason: Rolling mean with window=2 at last position: (3+4)/2 = 3.5.
@@ -873,12 +827,10 @@ Subtopic: Optimization Theory
 Difficulty: Hard
 
 Question: What is a saddle-free Newton method?
-A: Standard Newton
-B: Modified Newton avoiding saddle points
-C: Gradient descent
-D: No optimization
-
-D) [Missing option - Please review]
+A) Standard Newton
+B) Modified Newton avoiding saddle points
+C) Gradient descent
+D) No optimization
 
 ✔ Correct Answer: B
 Reason: Saddle-free methods modify Hessian to escape saddle points.
@@ -893,12 +845,10 @@ Subtopic: Attention Pooling
 Difficulty: Hard
 
 Question: What is global average pooling?
-A: Max pooling
-B: Averaging entire feature map to single value
-C: Local pooling
-D: No pooling
-
-D) [Missing option - Please review]
+A) Max pooling
+B) Averaging entire feature map to single value
+C) Local pooling
+D) No pooling
 
 ✔ Correct Answer: B
 Reason: Global average pooling reduces spatial dimensions to 1x1 by averaging.
@@ -913,12 +863,10 @@ Subtopic: Data Lineage
 Difficulty: Medium
 
 Question: Why is data lineage important?
-A: Storage optimization
-B: Traceability, debugging, and compliance
-C: Faster processing
-D: Better accuracy
-
-D) [Missing option - Please review]
+A) Storage optimization
+B) Traceability, debugging, and compliance
+C) Faster processing
+D) Better accuracy
 
 ✔ Correct Answer: B
 Reason: Data lineage tracks data flow for reproducibility and governance.
@@ -933,12 +881,10 @@ Subtopic: Text Similarity
 Difficulty: Easy
 
 Question: What is Jaccard similarity?
-A: Cosine similarity
-B: Intersection over union of sets
-C: Euclidean distance
-D: Edit distance
-
-D) [Missing option - Please review]
+A) Cosine similarity
+B) Intersection over union of sets
+C) Euclidean distance
+D) Edit distance
 
 ✔ Correct Answer: B
 Reason: Jaccard = |A ∩ B| / |A ∪ B|, measures set overlap.
@@ -953,12 +899,10 @@ Subtopic: Ensemble Diversity
 Difficulty: Medium
 
 Question: Why is diversity important in ensembles?
-A: No importance
-B: Diverse errors lead to better ensemble performance
-C: Faster training
-D: Smaller models
-
-D) [Missing option - Please review]
+A) No importance
+B) Diverse errors lead to better ensemble performance
+C) Faster training
+D) Smaller models
 
 ✔ Correct Answer: B
 Reason: Diversity ensures models make different mistakes, improving combined predictions.
@@ -973,12 +917,10 @@ Subtopic: Feature Importance
 Difficulty: Medium
 
 Question: What is mean decrease impurity?
-A: Data impurity
-B: Feature importance measure from tree-based models
-C: Loss function
-D: Accuracy metric
-
-D) [Missing option - Please review]
+A) Data impurity
+B) Feature importance measure from tree-based models
+C) Loss function
+D) Accuracy metric
 
 ✔ Correct Answer: B
 Reason: MDI measures average decrease in node impurity from feature splits.
@@ -993,12 +935,10 @@ Subtopic: Video Analysis
 Difficulty: Medium
 
 Question: What is optical character recognition (OCR)?
-A: Object detection
-B: Converting images of text to machine-readable text
-C: Face recognition
-D: Image classification
-
-D) [Missing option - Please review]
+A) Object detection
+B) Converting images of text to machine-readable text
+C) Face recognition
+D) Image classification
 
 ✔ Correct Answer: B
 Reason: OCR extracts text from images or scanned documents.
@@ -1013,12 +953,10 @@ Subtopic: Resampling Methods
 Difficulty: Medium
 
 Question: What is .632 bootstrap?
-A: Standard bootstrap
-B: Bootstrap method adjusting for optimism bias
-C: Cross-validation
-D: Holdout validation
-
-D) [Missing option - Please review]
+A) Standard bootstrap
+B) Bootstrap method adjusting for optimism bias
+C) Cross-validation
+D) Holdout validation
 
 ✔ Correct Answer: B
 Reason: .632 bootstrap combines training error and out-of-bag error with weights.
@@ -1038,12 +976,10 @@ import numpy as np
 arr = np.array([1, 2, 3, 4, 5])
 print(arr.argmax())
 ```
-A: 5
-B: 4
-C: 0
-D: 1
-
-D) [Missing option - Please review]
+A) 5
+B) 4
+C) 0
+D) 1
 
 ✔ Correct Answer: B
 Reason: argmax() returns index of maximum value: index 4 (value 5).
@@ -1058,12 +994,10 @@ Subtopic: Hierarchical Classification
 Difficulty: Hard
 
 Question: What is hierarchical classification?
-A: Flat classification
-B: Classification with class hierarchy/taxonomy
-C: Binary classification
-D: Regression
-
-D) [Missing option - Please review]
+A) Flat classification
+B) Classification with class hierarchy/taxonomy
+C) Binary classification
+D) Regression
 
 ✔ Correct Answer: B
 Reason: Hierarchical classification organizes classes in tree structure.
@@ -1078,12 +1012,10 @@ Subtopic: Measure Theory
 Difficulty: Hard
 
 Question: What is a probability measure?
-A: Any measure
-B: Measure assigning probabilities to events
-C: Distance measure
-D: Size measure
-
-D) [Missing option - Please review]
+A) Any measure
+B) Measure assigning probabilities to events
+C) Distance measure
+D) Size measure
 
 ✔ Correct Answer: B
 Reason: Probability measure satisfies non-negativity, normalization, and countable additivity.
@@ -1098,12 +1030,10 @@ Subtopic: Regularization Techniques
 Difficulty: Medium
 
 Question: What is DropConnect?
-A: Dropout variant
-B: Randomly dropping connections instead of neurons
-C: No dropout
-D: Layer dropout
-
-D) [Missing option - Please review]
+A) Dropout variant
+B) Randomly dropping connections instead of neurons
+C) No dropout
+D) Layer dropout
 
 ✔ Correct Answer: B
 Reason: DropConnect sets random weights to zero rather than activations.
@@ -1118,10 +1048,10 @@ Subtopic: Robust Statistics
 Difficulty: Medium
 
 Question: What is the median absolute deviation (MAD)?
-A: Mean deviation
-B: Robust measure of variability
-C: Standard deviation
-D: Range
+A) Mean deviation
+B) Robust measure of variability
+C) Standard deviation
+D) Range
 
 ✔ Correct Answer: B
 Reason: MAD = median(|Xi - median(X)|), resistant to outliers.
@@ -1136,12 +1066,10 @@ Subtopic: Data Minimization
 Difficulty: Medium
 
 Question: What is data minimization principle?
-A: Collecting all data
-B: Collecting only necessary data
-C: Deleting all data
-D: Maximizing data
-
-D) [Missing option - Please review]
+A) Collecting all data
+B) Collecting only necessary data
+C) Deleting all data
+D) Maximizing data
 
 ✔ Correct Answer: B
 Reason: Data minimization limits collection to what's needed for specific purpose.
@@ -1156,12 +1084,10 @@ Subtopic: Abstractive Summarization
 Difficulty: Hard
 
 Question: How does abstractive summarization differ from extractive?
-A: No difference
-B: Generates new sentences vs. selecting existing ones
-C: Extractive is better
-D: Same output
-
-D) [Missing option - Please review]
+A) No difference
+B) Generates new sentences vs. selecting existing ones
+C) Extractive is better
+D) Same output
 
 ✔ Correct Answer: B
 Reason: Abstractive creates novel text; extractive selects and combines existing sentences.
@@ -1176,12 +1102,10 @@ Subtopic: Dimensionality Reduction
 Difficulty: Hard
 
 Question: What is Isomap?
-A: PCA variant
-B: Nonlinear dimensionality reduction using geodesic distances
-C: Linear method
-D: Clustering method
-
-D) [Missing option - Please review]
+A) PCA variant
+B) Nonlinear dimensionality reduction using geodesic distances
+C) Linear method
+D) Clustering method
 
 ✔ Correct Answer: B
 Reason: Isomap preserves geodesic distances along manifold.
@@ -1196,12 +1120,10 @@ Subtopic: Model Packaging
 Difficulty: Medium
 
 Question: What is ONNX?
-A: Programming language
-B: Open format for representing ML models
-C: Database
-D: Operating system
-
-D) [Missing option - Please review]
+A) Programming language
+B) Open format for representing ML models
+C) Database
+D) Operating system
 
 ✔ Correct Answer: B
 Reason: ONNX (Open Neural Network Exchange) enables model interoperability across frameworks.
@@ -1216,12 +1138,10 @@ Subtopic: Image Inpainting
 Difficulty: Medium
 
 Question: What is image inpainting?
-A: Image classification
-B: Filling missing or damaged regions in images
-C: Object detection
-D: Image compression
-
-D) [Missing option - Please review]
+A) Image classification
+B) Filling missing or damaged regions in images
+C) Object detection
+D) Image compression
 
 ✔ Correct Answer: B
 Reason: Inpainting reconstructs missing parts using surrounding context.
@@ -1236,12 +1156,10 @@ Subtopic: Calibration Curves
 Difficulty: Hard
 
 Question: What does a well-calibrated model show?
-A: High accuracy
-B: Predicted probabilities match observed frequencies
-C: Low loss
-D: Fast inference
-
-D) [Missing option - Please review]
+A) High accuracy
+B) Predicted probabilities match observed frequencies
+C) Low loss
+D) Fast inference
 
 ✔ Correct Answer: B
 Reason: Calibrated models have predicted probabilities aligned with actual outcomes.
@@ -1261,12 +1179,10 @@ import pandas as pd
 s = pd.Series([1, 2, 3, 4, 5])
 print(s.between(2, 4).sum())
 ```
-A: 2
-B: 3
-C: 9
-D: 5
-
-D) [Missing option - Please review]
+A) 2
+B) 3
+C) 9
+D) 5
 
 ✔ Correct Answer: B
 Reason: between(2, 4) returns [False, True, True, True, False], sum = 3.
@@ -1281,12 +1197,10 @@ Subtopic: Stochastic Processes
 Difficulty: Hard
 
 Question: What is a Gaussian process?
-A: Normal distribution
-B: Distribution over functions
-C: Random variable
-D: Deterministic process
-
-D) [Missing option - Please review]
+A) Normal distribution
+B) Distribution over functions
+C) Random variable
+D) Deterministic process
 
 ✔ Correct Answer: B
 Reason: Gaussian process defines distribution over functions, used in GP regression.
@@ -1301,12 +1215,10 @@ Subtopic: Loss Functions
 Difficulty: Medium
 
 Question: What is contrastive loss?
-A: Classification loss
-B: Loss for learning embeddings by contrasting pairs
-C: Regression loss
-D: No loss
-
-D) [Missing option - Please review]
+A) Classification loss
+B) Loss for learning embeddings by contrasting pairs
+C) Regression loss
+D) No loss
 
 ✔ Correct Answer: B
 Reason: Contrastive loss pulls similar pairs together, pushes dissimilar apart.
@@ -1321,12 +1233,10 @@ Subtopic: Data Quality Dimensions
 Difficulty: Easy
 
 Question: What is data completeness?
-A: Data accuracy
-B: Extent to which data is present
-C: Data consistency
-D: Data timeliness
-
-D) [Missing option - Please review]
+A) Data accuracy
+B) Extent to which data is present
+C) Data consistency
+D) Data timeliness
 
 ✔ Correct Answer: B
 Reason: Completeness measures whether all required data is available.
@@ -1341,12 +1251,10 @@ Subtopic: Neural Machine Translation
 Difficulty: Medium
 
 Question: What is the attention mechanism's role in NMT?
-A: No role
-B: Allowing decoder to focus on relevant source words
-C: Speeding up training
-D: Reducing model size
-
-D) [Missing option - Please review]
+A) No role
+B) Allowing decoder to focus on relevant source words
+C) Speeding up training
+D) Reducing model size
 
 ✔ Correct Answer: B
 Reason: Attention helps decoder attend to relevant parts of source sentence.
@@ -1361,12 +1269,10 @@ Subtopic: Ensemble Combination
 Difficulty: Medium
 
 Question: What is stacked generalization?
-A: Simple averaging
-B: Using meta-model to combine base models
-C: Majority voting
-D: Random selection
-
-D) [Missing option - Please review]
+A) Simple averaging
+B) Using meta-model to combine base models
+C) Majority voting
+D) Random selection
 
 ✔ Correct Answer: B
 Reason: Stacking trains meta-learner on base model predictions.
@@ -1381,12 +1287,10 @@ Subtopic: Text Features
 Difficulty: Medium
 
 Question: What is n-gram feature?
-A: Single word
-B: Sequence of n consecutive tokens
-C: Character count
-D: Sentence length
-
-D) [Missing option - Please review]
+A) Single word
+B) Sequence of n consecutive tokens
+C) Character count
+D) Sentence length
 
 ✔ Correct Answer: B
 Reason: N-grams capture local word sequences (unigram, bigram, trigram, etc.).
@@ -1401,12 +1305,10 @@ Subtopic: Image Hashing
 Difficulty: Medium
 
 Question: What is perceptual hashing?
-A: Cryptographic hash
-B: Hash based on image content for similarity detection
-C: Random hash
-D: File hash
-
-D) [Missing option - Please review]
+A) Cryptographic hash
+B) Hash based on image content for similarity detection
+C) Random hash
+D) File hash
 
 ✔ Correct Answer: B
 Reason: Perceptual hashing creates similar hashes for visually similar images.
@@ -1421,12 +1323,10 @@ Subtopic: Evaluation Metrics
 Difficulty: Easy
 
 Question: What is Mean Absolute Error (MAE)?
-A: Average squared error
-B: Average absolute difference between predictions and actuals
-C: Relative error
-D: Percentage error
-
-D) [Missing option - Please review]
+A) Average squared error
+B) Average absolute difference between predictions and actuals
+C) Relative error
+D) Percentage error
 
 ✔ Correct Answer: B
 Reason: MAE = (1/n)Σ|yi - ŷi|, measures average prediction error magnitude.
@@ -1446,12 +1346,10 @@ import numpy as np
 arr = np.array([1, 2, 3])
 print(arr.repeat(2))
 ```
-A: [1 2 3 1 2 3]
-B: [1 1 2 2 3 3]
-C: [2 4 6]
-D: [1 2 3]
-
-D) [Missing option - Please review]
+A) [1 2 3 1 2 3]
+B) [1 1 2 2 3 3]
+C) [2 4 6]
+D) [1 2 3]
 
 ✔ Correct Answer: B
 Reason: repeat(2) repeats each element twice: [1, 1, 2, 2, 3, 3].
@@ -1466,12 +1364,10 @@ Subtopic: Incremental Learning
 Difficulty: Hard
 
 Question: What is incremental learning?
-A: Batch learning
-B: Learning from data arriving sequentially
-C: One-time learning
-D: No learning
-
-D) [Missing option - Please review]
+A) Batch learning
+B) Learning from data arriving sequentially
+C) One-time learning
+D) No learning
 
 ✔ Correct Answer: B
 Reason: Incremental learning updates model as new data becomes available.
@@ -1486,12 +1382,10 @@ Subtopic: Linear Algebra Applications
 Difficulty: Medium
 
 Question: What is the rank of a matrix?
-A: Matrix size
-B: Maximum number of linearly independent rows/columns
-C: Determinant
-D: Trace
-
-D) [Missing option - Please review]
+A) Matrix size
+B) Maximum number of linearly independent rows/columns
+C) Determinant
+D) Trace
 
 ✔ Correct Answer: B
 Reason: Rank indicates dimensionality of vector space spanned by rows/columns.
@@ -1506,12 +1400,10 @@ Subtopic: Activation Functions
 Difficulty: Easy
 
 Question: What is the Swish activation function?
-A: Linear
-B: x * sigmoid(x)
-C: max(0, x)
-D: tanh(x)
-
-D) [Missing option - Please review]
+A) Linear
+B) x * sigmoid(x)
+C) max(0, x)
+D) tanh(x)
 
 ✔ Correct Answer: B
 Reason: Swish(x) = x * σ(x), smooth non-monotonic function.
@@ -1526,12 +1418,10 @@ Subtopic: Bivariate Analysis
 Difficulty: Easy
 
 Question: What does a scatter plot show?
-A: Single variable distribution
-B: Relationship between two continuous variables
-C: Categorical frequencies
-D: Time series
-
-D) [Missing option - Please review]
+A) Single variable distribution
+B) Relationship between two continuous variables
+C) Categorical frequencies
+D) Time series
 
 ✔ Correct Answer: B
 Reason: Scatter plots visualize correlation and patterns between two variables.
@@ -1546,12 +1436,10 @@ Subtopic: Right to be Forgotten
 Difficulty: Medium
 
 Question: What is the right to be forgotten?
-A: Forgetting passwords
-B: Right to have personal data deleted
-C: Model forgetting
-D: Data backup
-
-D) [Missing option - Please review]
+A) Forgetting passwords
+B) Right to have personal data deleted
+C) Model forgetting
+D) Data backup
 
 ✔ Correct Answer: B
 Reason: GDPR grants individuals right to request data deletion.
@@ -1566,12 +1454,10 @@ Subtopic: Text Augmentation
 Difficulty: Medium
 
 Question: What is synonym replacement in text augmentation?
-A: Removing synonyms
-B: Replacing words with synonyms
-C: Finding synonyms
-D: No replacement
-
-D) [Missing option - Please review]
+A) Removing synonyms
+B) Replacing words with synonyms
+C) Finding synonyms
+D) No replacement
 
 ✔ Correct Answer: B
 Reason: Synonym replacement creates variations by substituting words with similar meanings.
@@ -1586,12 +1472,10 @@ Subtopic: Clustering Validation
 Difficulty: Medium
 
 Question: What is the Davies-Bouldin index?
-A: Classification metric
-B: Clustering quality measure (lower is better)
-C: Regression metric
-D: Dimensionality measure
-
-D) [Missing option - Please review]
+A) Classification metric
+B) Clustering quality measure (lower is better)
+C) Regression metric
+D) Dimensionality measure
 
 ✔ Correct Answer: B
 Reason: Davies-Bouldin measures average similarity between clusters; lower indicates better separation.
@@ -1606,12 +1490,10 @@ Subtopic: Model Retraining
 Difficulty: Medium
 
 Question: When should models be retrained?
-A: Never
-B: When performance degrades or data distribution changes
-C: Daily always
-D: Randomly
-
-D) [Missing option - Please review]
+A) Never
+B) When performance degrades or data distribution changes
+C) Daily always
+D) Randomly
 
 ✔ Correct Answer: B
 Reason: Retraining addresses model drift and maintains performance.
@@ -1626,12 +1508,10 @@ Subtopic: Image Morphology
 Difficulty: Medium
 
 Question: What is morphological dilation?
-A: Image shrinking
-B: Expanding bright regions in binary images
-C: Edge detection
-D: Color adjustment
-
-D) [Missing option - Please review]
+A) Image shrinking
+B) Expanding bright regions in binary images
+C) Edge detection
+D) Color adjustment
 
 ✔ Correct Answer: B
 Reason: Dilation grows foreground regions by adding pixels at boundaries.
@@ -1646,12 +1526,10 @@ Subtopic: Ensemble Diversity
 Difficulty: Hard
 
 Question: What is negative correlation learning?
-A: Positive correlation
-B: Training ensemble members to make different errors
-C: No correlation
-D: Random training
-
-D) [Missing option - Please review]
+A) Positive correlation
+B) Training ensemble members to make different errors
+C) No correlation
+D) Random training
 
 ✔ Correct Answer: B
 Reason: NCL explicitly encourages diversity by penalizing correlated errors.
@@ -1671,12 +1549,10 @@ import pandas as pd
 df = pd.DataFrame({'A': [1, 2, 3]})
 print(df['A'].expanding().mean().iloc[-1])
 ```
-A: 1.0
-B: 2.0
-C: 3.0
-D: 6.0
-
-D) [Missing option - Please review]
+A) 1.0
+B) 2.0
+C) 3.0
+D) 6.0
 
 ✔ Correct Answer: B
 Reason: Expanding mean at last position: (1+2+3)/3 = 2.0.
@@ -1691,12 +1567,10 @@ Subtopic: Information Theory
 Difficulty: Medium
 
 Question: What is mutual information?
-A: Shared information
-B: Amount of information one variable contains about another
-C: Total information
-D: No information
-
-D) [Missing option - Please review]
+A) Shared information
+B) Amount of information one variable contains about another
+C) Total information
+D) No information
 
 ✔ Correct Answer: B
 Reason: Mutual information measures reduction in uncertainty about one variable given another.
@@ -1711,12 +1585,10 @@ Subtopic: Sequence-to-Sequence
 Difficulty: Hard
 
 Question: What is teacher forcing?
-A: No forcing
-B: Using ground truth as input during training
-C: Random input
-D: Predicted output as input
-
-D) [Missing option - Please review]
+A) No forcing
+B) Using ground truth as input during training
+C) Random input
+D) Predicted output as input
 
 ✔ Correct Answer: B
 Reason: Teacher forcing feeds true previous output as next input during training.
@@ -1731,12 +1603,10 @@ Subtopic: Data Integration
 Difficulty: Medium
 
 Question: What is schema matching?
-A: Pattern matching
-B: Identifying corresponding elements across schemas
-C: Data matching
-D: Record matching
-
-D) [Missing option - Please review]
+A) Pattern matching
+B) Identifying corresponding elements across schemas
+C) Data matching
+D) Record matching
 
 ✔ Correct Answer: B
 Reason: Schema matching aligns attributes from different data sources.
@@ -1751,12 +1621,10 @@ Subtopic: Evaluation Metrics
 Difficulty: Medium
 
 Question: What is ROUGE score?
-A: Classification metric
-B: Evaluation metric for summarization
-C: Clustering metric
-D: Regression metric
-
-D) [Missing option - Please review]
+A) Classification metric
+B) Evaluation metric for summarization
+C) Clustering metric
+D) Regression metric
 
 ✔ Correct Answer: B
 Reason: ROUGE measures overlap between generated and reference summaries.
@@ -1771,12 +1639,10 @@ Subtopic: Ensemble Architecture
 Difficulty: Hard
 
 Question: What is a multi-stage ensemble?
-A: Single stage
-B: Ensemble with sequential stages of models
-C: Parallel ensemble
-D: No stages
-
-D) [Missing option - Please review]
+A) Single stage
+B) Ensemble with sequential stages of models
+C) Parallel ensemble
+D) No stages
 
 ✔ Correct Answer: B
 Reason: Multi-stage ensembles process data through successive model layers.
@@ -1791,12 +1657,10 @@ Subtopic: Automated Feature Engineering
 Difficulty: Hard
 
 Question: What is deep feature synthesis?
-A: Manual feature creation
-B: Automated feature generation using relational data
-C: Feature selection
-D: Feature scaling
-
-D) [Missing option - Please review]
+A) Manual feature creation
+B) Automated feature generation using relational data
+C) Feature selection
+D) Feature scaling
 
 ✔ Correct Answer: B
 Reason: Deep feature synthesis automatically creates features from relational datasets.
@@ -1811,12 +1675,10 @@ Subtopic: Image Quality Assessment
 Difficulty: Medium
 
 Question: What is PSNR?
-A: Signal-to-noise ratio
-B: Peak Signal-to-Noise Ratio for image quality
-C: Processing speed
-D: Pixel count
-
-D) [Missing option - Please review]
+A) Signal-to-noise ratio
+B) Peak Signal-to-Noise Ratio for image quality
+C) Processing speed
+D) Pixel count
 
 ✔ Correct Answer: B
 Reason: PSNR measures reconstruction quality by comparing original and processed images.
@@ -1831,12 +1693,10 @@ Subtopic: Cross-Validation Strategies
 Difficulty: Medium
 
 Question: What is group k-fold cross-validation?
-A: Standard k-fold
-B: Ensuring same group doesn't appear in train and test
-C: Random splits
-D: No grouping
-
-D) [Missing option - Please review]
+A) Standard k-fold
+B) Ensuring same group doesn't appear in train and test
+C) Random splits
+D) No grouping
 
 ✔ Correct Answer: B
 Reason: Group k-fold prevents data leakage when samples are grouped.
@@ -1856,12 +1716,10 @@ import numpy as np
 arr = np.array([1, 2, 3, 4, 5])
 print(arr.clip(2, 4))
 ```
-A: [1 2 3 4 5]
-B: [2 2 3 4 4]
-C: [2 3 4]
-D: [1 2 3]
-
-D) [Missing option - Please review]
+A) [1 2 3 4 5]
+B) [2 2 3 4 4]
+C) [2 3 4]
+D) [1 2 3]
 
 ✔ Correct Answer: B
 Reason: clip(2, 4) limits values to [2, 4]: [2, 2, 3, 4, 4].
@@ -1876,12 +1734,10 @@ Subtopic: Probabilistic Models
 Difficulty: Hard
 
 Question: What is a Bayesian network?
-A: Neural network
-B: Probabilistic graphical model representing dependencies
-C: Decision tree
-D: Linear model
-
-D) [Missing option - Please review]
+A) Neural network
+B) Probabilistic graphical model representing dependencies
+C) Decision tree
+D) Linear model
 
 ✔ Correct Answer: B
 Reason: Bayesian networks use DAGs to represent conditional dependencies.
@@ -1896,12 +1752,10 @@ Subtopic: Numerical Methods
 Difficulty: Hard
 
 Question: What is the Newton-Raphson method?
-A: Linear search
-B: Iterative root-finding algorithm
-C: Sorting algorithm
-D: Clustering method
-
-D) [Missing option - Please review]
+A) Linear search
+B) Iterative root-finding algorithm
+C) Sorting algorithm
+D) Clustering method
 
 ✔ Correct Answer: B
 Reason: Newton-Raphson finds successively better approximations to roots using derivatives.
@@ -1916,12 +1770,10 @@ Subtopic: Generative Models
 Difficulty: Hard
 
 Question: What is a Variational Autoencoder (VAE)?
-A: Standard autoencoder
-B: Generative model learning probabilistic latent space
-C: Discriminative model
-D: Classification model
-
-D) [Missing option - Please review]
+A) Standard autoencoder
+B) Generative model learning probabilistic latent space
+C) Discriminative model
+D) Classification model
 
 ✔ Correct Answer: B
 Reason: VAE learns distribution over latent space for generation.
@@ -1936,12 +1788,10 @@ Subtopic: Multivariate Statistics
 Difficulty: Medium
 
 Question: What is Mahalanobis distance?
-A: Euclidean distance
-B: Distance accounting for correlations and scale
-C: Manhattan distance
-D: Cosine distance
-
-D) [Missing option - Please review]
+A) Euclidean distance
+B) Distance accounting for correlations and scale
+C) Manhattan distance
+D) Cosine distance
 
 ✔ Correct Answer: B
 Reason: Mahalanobis distance considers covariance structure of data.
@@ -1956,12 +1806,10 @@ Subtopic: Secure Multi-Party Computation
 Difficulty: Hard
 
 Question: What is secure multi-party computation?
-A: Single party computation
-B: Computing on data from multiple parties without revealing individual inputs
-C: Public computation
-D: No security
-
-D) [Missing option - Please review]
+A) Single party computation
+B) Computing on data from multiple parties without revealing individual inputs
+C) Public computation
+D) No security
 
 ✔ Correct Answer: B
 Reason: SMPC enables collaborative computation while preserving privacy.
@@ -1976,12 +1824,10 @@ Subtopic: Knowledge Graphs
 Difficulty: Hard
 
 Question: What is a knowledge graph?
-A: Data graph
-B: Graph representing entities and relationships
-C: Neural network
-D: Decision tree
-
-D) [Missing option - Please review]
+A) Data graph
+B) Graph representing entities and relationships
+C) Neural network
+D) Decision tree
 
 ✔ Correct Answer: B
 Reason: Knowledge graphs structure information as entities (nodes) and relations (edges).
@@ -1996,12 +1842,10 @@ Subtopic: Data Warehousing
 Difficulty: Easy
 
 Question: What is a data warehouse?
-A: Data storage only
-B: Central repository for integrated data from multiple sources
-C: Backup system
-D: Cache
-
-D) [Missing option - Please review]
+A) Data storage only
+B) Central repository for integrated data from multiple sources
+C) Backup system
+D) Cache
 
 ✔ Correct Answer: B
 Reason: Data warehouses consolidate data for analysis and reporting.

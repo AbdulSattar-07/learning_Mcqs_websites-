@@ -211,9 +211,7 @@ Difficulty: Easy
 
 Question: What are magic numbers in code?
 A) Random numbers
-B: Unexplained numeric literals
-B) [Missing option - Please review]
-
+B) Unexplained numeric literals
 C) Lucky numbers
 D) Prime numbers
 
@@ -877,9 +875,7 @@ Question: When should you optimize code?
 A) Always first
 B) After profiling identifies bottlenecks
 C) Never
-D: Before it works
-
-D) [Missing option - Please review]
+D) Before it works
 
 ✔ Correct Answer: B
 

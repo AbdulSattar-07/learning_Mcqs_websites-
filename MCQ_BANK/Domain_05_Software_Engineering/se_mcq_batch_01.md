@@ -853,9 +853,7 @@ Question: What is encapsulation?
 A) Exposing all data
 B) Bundling data and methods, hiding internal state
 C) Separating data and methods
-D: No data protection
-
-D) [Missing option - Please review]
+D) No data protection
 
 ✔ Correct Answer: B
 
@@ -873,9 +871,7 @@ Difficulty: Medium
 
 Question: What is modularity?
 A) Single large module
-B: Dividing system into separate, independent modules
-B) [Missing option - Please review]
-
+B) Dividing system into separate, independent modules
 C) No division
 D) Random organization
 
@@ -1473,9 +1469,7 @@ Difficulty: Medium
 Question: What is integration testing?
 A) Testing single unit
 B) Testing interactions between integrated components
-C: User acceptance
-C) [Missing option - Please review]
-
+C) User acceptance
 D) No testing
 
 ✔ Correct Answer: B
@@ -1952,9 +1946,7 @@ Difficulty: Medium
 
 Question: What is branching in version control?
 A) Tree structure
-B: Creating separate line of development
-B) [Missing option - Please review]
-
+B) Creating separate line of development
 C) Deleting code
 D) No development
 

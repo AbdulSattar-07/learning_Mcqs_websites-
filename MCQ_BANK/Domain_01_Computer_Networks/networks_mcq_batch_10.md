@@ -10,12 +10,10 @@ Subtopic: SLA
 Difficulty: Easy
 
 Question: What does SLA stand for?
-A: System Level Agreement
-B: Service Level Agreement
-C: Software License Agreement
-D: Security Level Assessment
-
-D) [Missing option - Please review]
+A) System Level Agreement
+B) Service Level Agreement
+C) Software License Agreement
+D) Security Level Assessment
 
 ✔ Correct Answer: B
 
@@ -32,12 +30,10 @@ Subtopic: SLO
 Difficulty: Medium
 
 Question: What is an SLO (Service Level Objective)?
-A: Same as SLA
-B: Specific measurable target within SLA
-C: Service location
-D: Security objective
-
-D) [Missing option - Please review]
+A) Same as SLA
+B) Specific measurable target within SLA
+C) Service location
+D) Security objective
 
 ✔ Correct Answer: B
 
@@ -54,12 +50,10 @@ Subtopic: SLI
 Difficulty: Hard
 
 Question: What is an SLI (Service Level Indicator)?
-A: Service location
-B: Quantitative measure of service level
-C: Service list
-D: Security indicator
-
-D) [Missing option - Please review]
+A) Service location
+B) Quantitative measure of service level
+C) Service list
+D) Security indicator
 
 ✔ Correct Answer: B
 
@@ -76,12 +70,10 @@ Subtopic: Error Budget
 Difficulty: Hard
 
 Question: What is an error budget?
-A: Budget for errors
-B: Acceptable amount of downtime/errors based on SLO
-C: Error count
-D: Budget allocation
-
-D) [Missing option - Please review]
+A) Budget for errors
+B) Acceptable amount of downtime/errors based on SLO
+C) Error count
+D) Budget allocation
 
 ✔ Correct Answer: B
 
@@ -98,12 +90,10 @@ Subtopic: Graceful Shutdown
 Difficulty: Medium
 
 Question: What is graceful shutdown?
-A: Immediate shutdown
-B: Completing in-flight requests before stopping
-C: Forced shutdown
-D: No shutdown
-
-D) [Missing option - Please review]
+A) Immediate shutdown
+B) Completing in-flight requests before stopping
+C) Forced shutdown
+D) No shutdown
 
 ✔ Correct Answer: B
 
@@ -121,12 +111,10 @@ Subtopic: Rolling Deployment
 Difficulty: Medium
 
 Question: What is rolling deployment?
-A: Random deployment
-B: Gradually updating instances one or few at a time
-C: Instant deployment
-D: No deployment
-
-D) [Missing option - Please review]
+A) Random deployment
+B) Gradually updating instances one or few at a time
+C) Instant deployment
+D) No deployment
 
 ✔ Correct Answer: B
 
@@ -143,12 +131,10 @@ Subtopic: Immutable Infrastructure
 Difficulty: Hard
 
 Question: What is immutable infrastructure?
-A: Infrastructure that changes
-B: Servers replaced rather than updated
-C: Permanent infrastructure
-D: Unchangeable configuration
-
-D) [Missing option - Please review]
+A) Infrastructure that changes
+B) Servers replaced rather than updated
+C) Permanent infrastructure
+D) Unchangeable configuration
 
 ✔ Correct Answer: B
 
@@ -165,12 +151,10 @@ Subtopic: Infrastructure as Code
 Difficulty: Medium
 
 Question: What is Infrastructure as Code (IaC)?
-A: Coding infrastructure
-B: Managing infrastructure through code and version control
-C: Infrastructure documentation
-D: Manual infrastructure
-
-D) [Missing option - Please review]
+A) Coding infrastructure
+B) Managing infrastructure through code and version control
+C) Infrastructure documentation
+D) Manual infrastructure
 
 ✔ Correct Answer: B
 
@@ -187,12 +171,10 @@ Subtopic: Configuration Drift
 Difficulty: Medium
 
 Question: What is configuration drift?
-A: Intentional changes
-B: Unintended divergence from desired configuration
-C: Configuration backup
-D: Configuration encryption
-
-D) [Missing option - Please review]
+A) Intentional changes
+B) Unintended divergence from desired configuration
+C) Configuration backup
+D) Configuration encryption
 
 ✔ Correct Answer: B
 
@@ -209,12 +191,10 @@ Subtopic: GitOps
 Difficulty: Hard
 
 Question: What is GitOps?
-A: Git operations
-B: Using Git as single source of truth for infrastructure
-C: Git backup
-D: Git security
-
-D) [Missing option - Please review]
+A) Git operations
+B) Using Git as single source of truth for infrastructure
+C) Git backup
+D) Git security
 
 ✔ Correct Answer: B
 
@@ -231,12 +211,10 @@ Subtopic: Secrets Management
 Difficulty: Medium
 
 Question: Why use dedicated secrets management tools?
-A: Faster access
-B: Secure storage, rotation, and access control for credentials
-C: Simpler code
-D: Better documentation
-
-D) [Missing option - Please review]
+A) Faster access
+B) Secure storage, rotation, and access control for credentials
+C) Simpler code
+D) Better documentation
 
 ✔ Correct Answer: B
 
@@ -253,12 +231,10 @@ Subtopic: Encryption at Rest
 Difficulty: Easy
 
 Question: What is encryption at rest?
-A: Encrypting moving data
-B: Encrypting stored data
-C: No encryption
-D: Partial encryption
-
-D) [Missing option - Please review]
+A) Encrypting moving data
+B) Encrypting stored data
+C) No encryption
+D) Partial encryption
 
 ✔ Correct Answer: B
 
@@ -275,12 +251,10 @@ Subtopic: Encryption in Transit
 Difficulty: Easy
 
 Question: What is encryption in transit?
-A: Encrypting stored data
-B: Encrypting data during transmission
-C: No encryption
-D: Partial encryption
-
-D) [Missing option - Please review]
+A) Encrypting stored data
+B) Encrypting data during transmission
+C) No encryption
+D) Partial encryption
 
 ✔ Correct Answer: B
 
@@ -297,12 +271,10 @@ Subtopic: Key Rotation
 Difficulty: Medium
 
 Question: What is key rotation?
-A: Physical rotation
-B: Periodically changing encryption keys
-C: Key backup
-D: Key deletion
-
-D) [Missing option - Please review]
+A) Physical rotation
+B) Periodically changing encryption keys
+C) Key backup
+D) Key deletion
 
 ✔ Correct Answer: B
 
@@ -319,12 +291,10 @@ Subtopic: Multi-Tenancy
 Difficulty: Medium
 
 Question: What is multi-tenancy?
-A: Multiple buildings
-B: Multiple customers sharing same infrastructure with isolation
-C: Single customer
-D: Multiple applications
-
-D) [Missing option - Please review]
+A) Multiple buildings
+B) Multiple customers sharing same infrastructure with isolation
+C) Single customer
+D) Multiple applications
 
 ✔ Correct Answer: B
 
@@ -341,12 +311,10 @@ Subtopic: Tenant Isolation
 Difficulty: Hard
 
 Question: What is tenant isolation?
-A: Physical separation
-B: Ensuring tenants cannot access each other's data
-C: Network isolation only
-D: No isolation
-
-D) [Missing option - Please review]
+A) Physical separation
+B) Ensuring tenants cannot access each other's data
+C) Network isolation only
+D) No isolation
 
 ✔ Correct Answer: B
 
@@ -363,12 +331,10 @@ Subtopic: Noisy Neighbor
 Difficulty: Medium
 
 Question: What is the noisy neighbor problem?
-A: Loud servers
-B: One tenant consuming excessive resources affecting others
-C: Network noise
-D: Physical noise
-
-D) [Missing option - Please review]
+A) Loud servers
+B) One tenant consuming excessive resources affecting others
+C) Network noise
+D) Physical noise
 
 ✔ Correct Answer: B
 
@@ -385,12 +351,10 @@ Subtopic: Resource Quotas
 Difficulty: Easy
 
 Question: What are resource quotas?
-A: Price quotas
-B: Limits on resource usage per tenant/user
-C: Resource sharing
-D: Resource backup
-
-D) [Missing option - Please review]
+A) Price quotas
+B) Limits on resource usage per tenant/user
+C) Resource sharing
+D) Resource backup
 
 ✔ Correct Answer: B
 
@@ -407,12 +371,10 @@ Subtopic: Horizontal Scaling
 Difficulty: Easy
 
 Question: What is horizontal scaling?
-A: Vertical growth
-B: Adding more instances/servers
-C: Upgrading existing servers
-D: Reducing servers
-
-D) [Missing option - Please review]
+A) Vertical growth
+B) Adding more instances/servers
+C) Upgrading existing servers
+D) Reducing servers
 
 ✔ Correct Answer: B
 
@@ -429,12 +391,10 @@ Subtopic: Vertical Scaling
 Difficulty: Easy
 
 Question: What is vertical scaling?
-A: Adding more servers
-B: Upgrading existing server resources (CPU, RAM)
-C: Removing resources
-D: Horizontal growth
-
-D) [Missing option - Please review]
+A) Adding more servers
+B) Upgrading existing server resources (CPU, RAM)
+C) Removing resources
+D) Horizontal growth
 
 ✔ Correct Answer: B
 
@@ -451,12 +411,10 @@ Subtopic: Auto-Scaling
 Difficulty: Medium
 
 Question: What triggers auto-scaling?
-A: Manual intervention
-B: Metrics like CPU, memory, request rate
-C: Time only
-D: Random triggers
-
-D) [Missing option - Please review]
+A) Manual intervention
+B) Metrics like CPU, memory, request rate
+C) Time only
+D) Random triggers
 
 ✔ Correct Answer: B
 
@@ -473,12 +431,10 @@ Subtopic: Predictive Scaling
 Difficulty: Hard
 
 Question: What is predictive scaling?
-A: Random scaling
-B: Scaling based on predicted future load
-C: Reactive scaling only
-D: No scaling
-
-D) [Missing option - Please review]
+A) Random scaling
+B) Scaling based on predicted future load
+C) Reactive scaling only
+D) No scaling
 
 ✔ Correct Answer: B
 
@@ -495,12 +451,10 @@ Subtopic: Scheduled Scaling
 Difficulty: Easy
 
 Question: When is scheduled scaling useful?
-A: Random times
-B: Predictable traffic patterns (business hours, events)
-C: Never
-D: Always
-
-D) [Missing option - Please review]
+A) Random times
+B) Predictable traffic patterns (business hours, events)
+C) Never
+D) Always
 
 ✔ Correct Answer: B
 
@@ -517,12 +471,10 @@ Subtopic: Warm Pool
 Difficulty: Hard
 
 Question: What is a warm pool in auto-scaling?
-A: Heated servers
-B: Pre-initialized instances ready for quick activation
-C: Active instances
-D: Cold instances
-
-D) [Missing option - Please review]
+A) Heated servers
+B) Pre-initialized instances ready for quick activation
+C) Active instances
+D) Cold instances
 
 ✔ Correct Answer: B
 
@@ -539,12 +491,10 @@ Subtopic: Stateful vs Stateless
 Difficulty: Medium
 
 Question: Why are stateless services easier to scale?
-A: Faster processing
-B: Any instance can handle any request
-C: Better security
-D: Lower cost
-
-D) [Missing option - Please review]
+A) Faster processing
+B) Any instance can handle any request
+C) Better security
+D) Lower cost
 
 ✔ Correct Answer: B
 
@@ -561,12 +511,10 @@ Subtopic: Sticky Sessions Impact
 Difficulty: Medium
 
 Question: What is a drawback of sticky sessions?
-A: Better performance
-B: Uneven load distribution and scaling complexity
-C: Improved security
-D: No drawbacks
-
-D) [Missing option - Please review]
+A) Better performance
+B) Uneven load distribution and scaling complexity
+C) Improved security
+D) No drawbacks
 
 ✔ Correct Answer: B
 
@@ -583,12 +531,10 @@ Subtopic: Request Coalescing
 Difficulty: Hard
 
 Question: What is request coalescing?
-A: Combining requests
-B: Merging duplicate concurrent requests into one
-C: Splitting requests
-D: Delaying requests
-
-D) [Missing option - Please review]
+A) Combining requests
+B) Merging duplicate concurrent requests into one
+C) Splitting requests
+D) Delaying requests
 
 ✔ Correct Answer: B
 
@@ -605,12 +551,10 @@ Subtopic: Batch Processing
 Difficulty: Easy
 
 Question: When is batch processing preferred over real-time?
-A: Always
-B: For large volumes where latency is acceptable
-C: Never
-D: Random choice
-
-D) [Missing option - Please review]
+A) Always
+B) For large volumes where latency is acceptable
+C) Never
+D) Random choice
 
 ✔ Correct Answer: B
 
@@ -627,12 +571,10 @@ Subtopic: Stream Processing
 Difficulty: Medium
 
 Question: What characterizes stream processing?
-A: Batch processing
-B: Processing data continuously as it arrives
-C: Delayed processing
-D: No processing
-
-D) [Missing option - Please review]
+A) Batch processing
+B) Processing data continuously as it arrives
+C) Delayed processing
+D) No processing
 
 ✔ Correct Answer: B
 
@@ -649,12 +591,10 @@ Subtopic: Lambda Architecture
 Difficulty: Hard
 
 Question: What does Lambda architecture combine?
-A: Two databases
-B: Batch and stream processing layers
-C: Two networks
-D: Two servers
-
-D) [Missing option - Please review]
+A) Two databases
+B) Batch and stream processing layers
+C) Two networks
+D) Two servers
 
 ✔ Correct Answer: B
 
@@ -671,12 +611,10 @@ Subtopic: Kappa Architecture
 Difficulty: Hard
 
 Question: How does Kappa architecture differ from Lambda?
-A: Same thing
-B: Stream processing only, no separate batch layer
-C: Batch only
-D: No processing
-
-D) [Missing option - Please review]
+A) Same thing
+B) Stream processing only, no separate batch layer
+C) Batch only
+D) No processing
 
 ✔ Correct Answer: B
 
@@ -693,12 +631,10 @@ Subtopic: Data Pipeline
 Difficulty: Medium
 
 Question: What is a data pipeline?
-A: Physical pipe
-B: Series of processing steps for data transformation
-C: Data storage
-D: Data backup
-
-D) [Missing option - Please review]
+A) Physical pipe
+B) Series of processing steps for data transformation
+C) Data storage
+D) Data backup
 
 ✔ Correct Answer: B
 
@@ -715,12 +651,10 @@ Subtopic: ETL
 Difficulty: Easy
 
 Question: What does ETL stand for?
-A: Encrypt, Transfer, Load
-B: Extract, Transform, Load
-C: Execute, Test, Launch
-D: Export, Transfer, Link
-
-D) [Missing option - Please review]
+A) Encrypt, Transfer, Load
+B) Extract, Transform, Load
+C) Execute, Test, Launch
+D) Export, Transfer, Link
 
 ✔ Correct Answer: B
 
@@ -737,12 +671,10 @@ Subtopic: ELT
 Difficulty: Medium
 
 Question: How does ELT differ from ETL?
-A: Same thing
-B: Loads raw data first, transforms in destination
-C: Faster always
-D: More secure
-
-D) [Missing option - Please review]
+A) Same thing
+B) Loads raw data first, transforms in destination
+C) Faster always
+D) More secure
 
 ✔ Correct Answer: B
 
@@ -759,12 +691,10 @@ Subtopic: Data Lake
 Difficulty: Medium
 
 Question: What is a data lake?
-A: Water storage
-B: Centralized repository for raw data in native format
-C: Structured database only
-D: Data backup
-
-D) [Missing option - Please review]
+A) Water storage
+B) Centralized repository for raw data in native format
+C) Structured database only
+D) Data backup
 
 ✔ Correct Answer: B
 
@@ -781,12 +711,10 @@ Subtopic: Data Warehouse
 Difficulty: Easy
 
 Question: What is a data warehouse?
-A: Physical warehouse
-B: Centralized repository for structured, processed data
-C: Raw data storage
-D: Temporary storage
-
-D) [Missing option - Please review]
+A) Physical warehouse
+B) Centralized repository for structured, processed data
+C) Raw data storage
+D) Temporary storage
 
 ✔ Correct Answer: B
 
@@ -803,12 +731,10 @@ Subtopic: Data Mart
 Difficulty: Medium
 
 Question: What is a data mart?
-A: Data market
-B: Subset of data warehouse for specific business area
-C: Complete warehouse
-D: Data backup
-
-D) [Missing option - Please review]
+A) Data market
+B) Subset of data warehouse for specific business area
+C) Complete warehouse
+D) Data backup
 
 ✔ Correct Answer: B
 
@@ -825,12 +751,10 @@ Subtopic: OLTP vs OLAP
 Difficulty: Medium
 
 Question: How does OLTP differ from OLAP?
-A: Same thing
-B: OLTP for transactions, OLAP for analytics
-C: OLTP is newer
-D: OLAP is faster
-
-D) [Missing option - Please review]
+A) Same thing
+B) OLTP for transactions, OLAP for analytics
+C) OLTP is newer
+D) OLAP is faster
 
 ✔ Correct Answer: B
 
@@ -847,12 +771,10 @@ Subtopic: Star Schema
 Difficulty: Hard
 
 Question: What is star schema in data warehousing?
-A: Star-shaped network
-B: Fact table surrounded by dimension tables
-C: Star topology
-D: Encryption schema
-
-D) [Missing option - Please review]
+A) Star-shaped network
+B) Fact table surrounded by dimension tables
+C) Star topology
+D) Encryption schema
 
 ✔ Correct Answer: B
 
@@ -869,12 +791,10 @@ Subtopic: Snowflake Schema
 Difficulty: Hard
 
 Question: How does snowflake schema differ from star schema?
-A: Same thing
-B: Dimension tables are normalized into multiple tables
-C: Simpler
-D: Faster always
-
-D) [Missing option - Please review]
+A) Same thing
+B) Dimension tables are normalized into multiple tables
+C) Simpler
+D) Faster always
 
 ✔ Correct Answer: B
 
@@ -891,12 +811,10 @@ Subtopic: Denormalization
 Difficulty: Medium
 
 Question: Why denormalize databases?
-A: Save space
-B: Improve read performance by reducing joins
-C: Better security
-D: Easier updates
-
-D) [Missing option - Please review]
+A) Save space
+B) Improve read performance by reducing joins
+C) Better security
+D) Easier updates
 
 ✔ Correct Answer: B
 
@@ -913,12 +831,10 @@ Subtopic: CQRS Benefits
 Difficulty: Hard
 
 Question: What benefit does CQRS provide?
-A: Simpler code
-B: Optimize read and write models independently
-C: Faster always
-D: Better security
-
-D) [Missing option - Please review]
+A) Simpler code
+B) Optimize read and write models independently
+C) Faster always
+D) Better security
 
 ✔ Correct Answer: B
 
@@ -935,12 +851,10 @@ Subtopic: Event Store
 Difficulty: Hard
 
 Question: What is an event store?
-A: Store events only
-B: Database optimized for appending and reading events
-C: Regular database
-D: Cache
-
-D) [Missing option - Please review]
+A) Store events only
+B) Database optimized for appending and reading events
+C) Regular database
+D) Cache
 
 ✔ Correct Answer: B
 
@@ -957,12 +871,10 @@ Subtopic: Projection
 Difficulty: Hard
 
 Question: What is a projection in event sourcing?
-A: Future prediction
-B: Current state derived from event history
-C: Data backup
-D: Data encryption
-
-D) [Missing option - Please review]
+A) Future prediction
+B) Current state derived from event history
+C) Data backup
+D) Data encryption
 
 ✔ Correct Answer: B
 
@@ -979,12 +891,10 @@ Subtopic: Snapshot
 Difficulty: Medium
 
 Question: Why use snapshots in event sourcing?
-A: Photography
-B: Avoid replaying all events by storing periodic state
-C: Backup only
-D: Security
-
-D) [Missing option - Please review]
+A) Photography
+B) Avoid replaying all events by storing periodic state
+C) Backup only
+D) Security
 
 ✔ Correct Answer: B
 
@@ -1001,12 +911,10 @@ Subtopic: Outbox Pattern
 Difficulty: Hard
 
 Question: What problem does the outbox pattern solve?
-A: Email problems
-B: Ensuring database changes and message publishing are atomic
-C: Storage issues
-D: Network issues
-
-D) [Missing option - Please review]
+A) Email problems
+B) Ensuring database changes and message publishing are atomic
+C) Storage issues
+D) Network issues
 
 ✔ Correct Answer: B
 
@@ -1023,12 +931,10 @@ Subtopic: Change Data Capture
 Difficulty: Hard
 
 Question: What is Change Data Capture (CDC)?
-A: Capturing photos
-B: Tracking and capturing database changes for replication
-C: Change management
-D: Data backup
-
-D) [Missing option - Please review]
+A) Capturing photos
+B) Tracking and capturing database changes for replication
+C) Change management
+D) Data backup
 
 ✔ Correct Answer: B
 
@@ -1045,12 +951,10 @@ Subtopic: Webhook
 Difficulty: Easy
 
 Question: What is a webhook?
-A: Web hook tool
-B: HTTP callback for event notifications
-C: Web security
-D: Web storage
-
-D) [Missing option - Please review]
+A) Web hook tool
+B) HTTP callback for event notifications
+C) Web security
+D) Web storage
 
 ✔ Correct Answer: B
 
@@ -1067,12 +971,10 @@ Subtopic: Polling vs Webhooks
 Difficulty: Medium
 
 Question: What advantage do webhooks have over polling?
-A: Simpler
-B: Real-time notifications without constant checking
-C: More secure
-D: Faster always
-
-D) [Missing option - Please review]
+A) Simpler
+B) Real-time notifications without constant checking
+C) More secure
+D) Faster always
 
 ✔ Correct Answer: B
 
@@ -1089,12 +991,10 @@ Subtopic: Long Polling
 Difficulty: Medium
 
 Question: What is long polling?
-A: Frequent polling
-B: Server holds request until data available or timeout
-C: Short polling
-D: No polling
-
-D) [Missing option - Please review]
+A) Frequent polling
+B) Server holds request until data available or timeout
+C) Short polling
+D) No polling
 
 ✔ Correct Answer: B
 
@@ -1112,12 +1012,10 @@ Subtopic: Server-Sent Events
 Difficulty: Medium
 
 Question: What does SSE (Server-Sent Events) provide?
-A: Two-way communication
-B: One-way server-to-client push over HTTP
-C: Client-to-server only
-D: No communication
-
-D) [Missing option - Please review]
+A) Two-way communication
+B) One-way server-to-client push over HTTP
+C) Client-to-server only
+D) No communication
 
 ✔ Correct Answer: B
 
@@ -1134,12 +1032,10 @@ Subtopic: WebSocket vs SSE
 Difficulty: Medium
 
 Question: When should you use WebSocket over SSE?
-A: Never
-B: When bidirectional communication is needed
-C: Always
-D: Random choice
-
-D) [Missing option - Please review]
+A) Never
+B) When bidirectional communication is needed
+C) Always
+D) Random choice
 
 ✔ Correct Answer: B
 
@@ -1156,12 +1052,10 @@ Subtopic: Compression
 Difficulty: Easy
 
 Question: What is the trade-off of data compression?
-A: No trade-offs
-B: Reduced bandwidth for increased CPU usage
-C: Increased bandwidth
-D: No CPU impact
-
-D) [Missing option - Please review]
+A) No trade-offs
+B) Reduced bandwidth for increased CPU usage
+C) Increased bandwidth
+D) No CPU impact
 
 ✔ Correct Answer: B
 
@@ -1178,12 +1072,10 @@ Subtopic: Gzip
 Difficulty: Easy
 
 Question: What types of content benefit most from gzip compression?
-A: Images
-B: Text-based content (HTML, CSS, JS, JSON)
-C: Videos
-D: Already compressed files
-
-D) [Missing option - Please review]
+A) Images
+B) Text-based content (HTML, CSS, JS, JSON)
+C) Videos
+D) Already compressed files
 
 ✔ Correct Answer: B
 
@@ -1200,12 +1092,10 @@ Subtopic: Brotli
 Difficulty: Medium
 
 Question: What advantage does Brotli have over gzip?
-A: Faster compression
-B: Better compression ratio
-C: Simpler
-D: Older technology
-
-D) [Missing option - Please review]
+A) Faster compression
+B) Better compression ratio
+C) Simpler
+D) Older technology
 
 ✔ Correct Answer: B
 
@@ -1222,12 +1112,10 @@ Subtopic: API Gateway Features
 Difficulty: Medium
 
 Question: What features do API gateways typically provide?
-A: Routing only
-B: Routing, authentication, rate limiting, transformation
-C: Storage only
-D: Encryption only
-
-D) [Missing option - Please review]
+A) Routing only
+B) Routing, authentication, rate limiting, transformation
+C) Storage only
+D) Encryption only
 
 ✔ Correct Answer: B
 
@@ -1244,12 +1132,10 @@ Subtopic: Backend for Frontend
 Difficulty: Hard
 
 Question: Why use separate BFFs for mobile and web?
-A: More servers
-B: Optimize API for each client's specific needs
-C: Better security
-D: Faster always
-
-D) [Missing option - Please review]
+A) More servers
+B) Optimize API for each client's specific needs
+C) Better security
+D) Faster always
 
 ✔ Correct Answer: B
 
@@ -1266,12 +1152,10 @@ Subtopic: Response Compression
 Difficulty: Medium
 
 Question: When should you avoid compressing responses?
-A: Always compress
-B: For small responses or already compressed content
-C: Never compress
-D: Random decision
-
-D) [Missing option - Please review]
+A) Always compress
+B) For small responses or already compressed content
+C) Never compress
+D) Random decision
 
 ✔ Correct Answer: B
 
@@ -1288,12 +1172,10 @@ Subtopic: Microservices Challenges
 Difficulty: Medium
 
 Question: What is a key challenge of microservices architecture?
-A: Too simple
-B: Distributed system complexity and debugging
-C: Too fast
-D: No challenges
-
-D) [Missing option - Please review]
+A) Too simple
+B) Distributed system complexity and debugging
+C) Too fast
+D) No challenges
 
 ✔ Correct Answer: B
 
@@ -1310,12 +1192,10 @@ Subtopic: Monolith vs Microservices
 Difficulty: Medium
 
 Question: What is an advantage of monolithic architecture?
-A: Better scaling
-B: Simpler development and debugging
-C: More flexible
-D: Better fault isolation
-
-D) [Missing option - Please review]
+A) Better scaling
+B) Simpler development and debugging
+C) More flexible
+D) Better fault isolation
 
 ✔ Correct Answer: B
 
@@ -1332,12 +1212,10 @@ Subtopic: Service Boundaries
 Difficulty: Hard
 
 Question: How should microservice boundaries be defined?
-A: Random division
-B: Around business capabilities or bounded contexts
-C: By technology
-D: By team size
-
-D) [Missing option - Please review]
+A) Random division
+B) Around business capabilities or bounded contexts
+C) By technology
+D) By team size
 
 ✔ Correct Answer: B
 
@@ -1354,12 +1232,10 @@ Subtopic: Database per Service
 Difficulty: Hard
 
 Question: Why should each microservice have its own database?
-A: More databases
-B: Ensure loose coupling and independent scaling
-C: Better security only
-D: Easier management
-
-D) [Missing option - Please review]
+A) More databases
+B) Ensure loose coupling and independent scaling
+C) Better security only
+D) Easier management
 
 ✔ Correct Answer: B
 
@@ -1376,12 +1252,10 @@ Subtopic: Shared Database Anti-pattern
 Difficulty: Hard
 
 Question: Why is sharing a database between microservices problematic?
-A: Too fast
-B: Creates tight coupling and coordination overhead
-C: Too simple
-D: No problems
-
-D) [Missing option - Please review]
+A) Too fast
+B) Creates tight coupling and coordination overhead
+C) Too simple
+D) No problems
 
 ✔ Correct Answer: B
 
@@ -1398,12 +1272,10 @@ Subtopic: Database Connection Pooling Size
 Difficulty: Hard
 
 Question: What happens if connection pool is too small?
-A: Better performance
-B: Requests wait for available connections
-C: Faster queries
-D: No impact
-
-D) [Missing option - Please review]
+A) Better performance
+B) Requests wait for available connections
+C) Faster queries
+D) No impact
 
 ✔ Correct Answer: B
 
@@ -1420,12 +1292,10 @@ Subtopic: Strangler Fig Pattern
 Difficulty: Hard
 
 Question: What is the strangler fig pattern?
-A: Plant pattern
-B: Gradually replacing legacy system with new system
-C: Instant replacement
-D: No replacement
-
-D) [Missing option - Please review]
+A) Plant pattern
+B) Gradually replacing legacy system with new system
+C) Instant replacement
+D) No replacement
 
 ✔ Correct Answer: B
 
@@ -1442,12 +1312,10 @@ Subtopic: Anti-Corruption Layer
 Difficulty: Hard
 
 Question: What does an anti-corruption layer do?
-A: Prevent corruption
-B: Translate between different domain models
-C: Encrypt data
-D: Backup data
-
-D) [Missing option - Please review]
+A) Prevent corruption
+B) Translate between different domain models
+C) Encrypt data
+D) Backup data
 
 ✔ Correct Answer: B
 
@@ -1464,12 +1332,10 @@ Subtopic: API Composition
 Difficulty: Hard
 
 Question: What is API composition pattern?
-A: Writing APIs
-B: Aggregating data from multiple services
-C: Single API only
-D: API deletion
-
-D) [Missing option - Please review]
+A) Writing APIs
+B) Aggregating data from multiple services
+C) Single API only
+D) API deletion
 
 ✔ Correct Answer: B
 
@@ -1486,12 +1352,10 @@ Subtopic: Parallel Requests
 Difficulty: Medium
 
 Question: What is the benefit of parallel API requests?
-A: Sequential processing
-B: Reduced total latency by concurrent execution
-C: Increased latency
-D: No benefit
-
-D) [Missing option - Please review]
+A) Sequential processing
+B) Reduced total latency by concurrent execution
+C) Increased latency
+D) No benefit
 
 ✔ Correct Answer: B
 
@@ -1508,12 +1372,10 @@ Subtopic: Timeout Hierarchy
 Difficulty: Hard
 
 Question: How should timeouts be configured in service chains?
-A: All equal
-B: Each service timeout < upstream timeout
-C: Random values
-D: No timeouts
-
-D) [Missing option - Please review]
+A) All equal
+B) Each service timeout < upstream timeout
+C) Random values
+D) No timeouts
 
 ✔ Correct Answer: B
 
@@ -1530,12 +1392,10 @@ Subtopic: Request Deduplication
 Difficulty: Hard
 
 Question: What is request deduplication?
-A: Removing duplicates from data
-B: Detecting and handling duplicate requests
-C: Deleting requests
-D: Copying requests
-
-D) [Missing option - Please review]
+A) Removing duplicates from data
+B) Detecting and handling duplicate requests
+C) Deleting requests
+D) Copying requests
 
 ✔ Correct Answer: B
 
@@ -1552,12 +1412,10 @@ Subtopic: Saga Compensation
 Difficulty: Hard
 
 Question: What are compensating transactions in saga pattern?
-A: Payment compensation
-B: Undo operations for rollback
-C: Bonus transactions
-D: Faster transactions
-
-D) [Missing option - Please review]
+A) Payment compensation
+B) Undo operations for rollback
+C) Bonus transactions
+D) Faster transactions
 
 ✔ Correct Answer: B
 
@@ -1574,12 +1432,10 @@ Subtopic: Choreography vs Orchestration
 Difficulty: Hard
 
 Question: How does choreography differ from orchestration in sagas?
-A: Same thing
-B: Choreography is decentralized, orchestration is centralized
-C: Choreography is faster
-D: Orchestration is simpler
-
-D) [Missing option - Please review]
+A) Same thing
+B) Choreography is decentralized, orchestration is centralized
+C) Choreography is faster
+D) Orchestration is simpler
 
 ✔ Correct Answer: B
 
@@ -1596,12 +1452,10 @@ Subtopic: Async Processing
 Difficulty: Medium
 
 Question: When should you use asynchronous processing?
-A: Always
-B: For long-running or non-critical operations
-C: Never
-D: Short operations only
-
-D) [Missing option - Please review]
+A) Always
+B) For long-running or non-critical operations
+C) Never
+D) Short operations only
 
 ✔ Correct Answer: B
 
@@ -1618,12 +1472,10 @@ Subtopic: Job Queue
 Difficulty: Easy
 
 Question: What is a job queue?
-A: Employment queue
-B: Queue for asynchronous task processing
-C: Network queue
-D: Print queue
-
-D) [Missing option - Please review]
+A) Employment queue
+B) Queue for asynchronous task processing
+C) Network queue
+D) Print queue
 
 ✔ Correct Answer: B
 
@@ -1640,12 +1492,10 @@ Subtopic: Worker Processes
 Difficulty: Easy
 
 Question: What do worker processes do?
-A: Manage workers
-B: Process jobs from queue asynchronously
-C: Handle HTTP requests
-D: Store data
-
-D) [Missing option - Please review]
+A) Manage workers
+B) Process jobs from queue asynchronously
+C) Handle HTTP requests
+D) Store data
 
 ✔ Correct Answer: B
 
@@ -1662,12 +1512,10 @@ Subtopic: Dead Letter Queue
 Difficulty: Hard
 
 Question: What is a dead letter queue?
-A: Mail queue
-B: Queue for messages that failed processing
-C: Deleted messages
-D: Priority queue
-
-D) [Missing option - Please review]
+A) Mail queue
+B) Queue for messages that failed processing
+C) Deleted messages
+D) Priority queue
 
 ✔ Correct Answer: B
 
@@ -1684,12 +1532,10 @@ Subtopic: Message Ordering
 Difficulty: Hard
 
 Question: What is required to guarantee message ordering?
-A: Fast network
-B: Single consumer or partition-based ordering
-C: Multiple consumers
-D: No requirements
-
-D) [Missing option - Please review]
+A) Fast network
+B) Single consumer or partition-based ordering
+C) Multiple consumers
+D) No requirements
 
 ✔ Correct Answer: B
 
@@ -1706,12 +1552,10 @@ Subtopic: At-Least-Once Delivery
 Difficulty: Hard
 
 Question: What does at-least-once delivery guarantee?
-A: Exactly one delivery
-B: Message delivered one or more times
-C: No delivery
-D: At most once
-
-D) [Missing option - Please review]
+A) Exactly one delivery
+B) Message delivered one or more times
+C) No delivery
+D) At most once
 
 ✔ Correct Answer: B
 
@@ -1728,12 +1572,10 @@ Subtopic: At-Most-Once Delivery
 Difficulty: Hard
 
 Question: What does at-most-once delivery guarantee?
-A: Multiple deliveries
-B: Message delivered zero or one time, no duplicates
-C: Exactly once
-D: At least once
-
-D) [Missing option - Please review]
+A) Multiple deliveries
+B) Message delivered zero or one time, no duplicates
+C) Exactly once
+D) At least once
 
 ✔ Correct Answer: B
 
@@ -1750,12 +1592,10 @@ Subtopic: Exactly-Once Delivery
 Difficulty: Hard
 
 Question: Why is exactly-once delivery difficult?
-A: Too easy
-B: Requires coordination between delivery and processing
-C: Too fast
-D: Not useful
-
-D) [Missing option - Please review]
+A) Too easy
+B) Requires coordination between delivery and processing
+C) Too fast
+D) Not useful
 
 ✔ Correct Answer: B
 
@@ -1772,12 +1612,10 @@ Subtopic: Message Acknowledgment
 Difficulty: Medium
 
 Question: When should messages be acknowledged?
-A: Immediately on receipt
-B: After successful processing
-C: Before processing
-D: Never
-
-D) [Missing option - Please review]
+A) Immediately on receipt
+B) After successful processing
+C) Before processing
+D) Never
 
 ✔ Correct Answer: B
 
@@ -1794,12 +1632,10 @@ Subtopic: Prefetch Count
 Difficulty: Hard
 
 Question: What does prefetch count control in message queues?
-A: Fetch speed
-B: Number of unacknowledged messages consumer can have
-C: Message size
-D: Queue size
-
-D) [Missing option - Please review]
+A) Fetch speed
+B) Number of unacknowledged messages consumer can have
+C) Message size
+D) Queue size
 
 ✔ Correct Answer: B
 
@@ -1816,12 +1652,10 @@ Subtopic: Message TTL
 Difficulty: Medium
 
 Question: What is message TTL (Time To Live)?
-A: Message lifetime
-B: Maximum time message can stay in queue
-C: Processing time
-D: Delivery time
-
-D) [Missing option - Please review]
+A) Message lifetime
+B) Maximum time message can stay in queue
+C) Processing time
+D) Delivery time
 
 ✔ Correct Answer: B
 
@@ -1838,12 +1672,10 @@ Subtopic: Priority Queue
 Difficulty: Easy
 
 Question: What is a priority queue?
-A: Fast queue
-B: Queue where messages processed by priority
-C: First-in-first-out
-D: Random processing
-
-D) [Missing option - Please review]
+A) Fast queue
+B) Queue where messages processed by priority
+C) First-in-first-out
+D) Random processing
 
 ✔ Correct Answer: B
 
@@ -1860,12 +1692,10 @@ Subtopic: Fanout Exchange
 Difficulty: Hard
 
 Question: What does a fanout exchange do?
-A: Fan cooling
-B: Broadcasts messages to all bound queues
-C: Routes to one queue
-D: Drops messages
-
-D) [Missing option - Please review]
+A) Fan cooling
+B) Broadcasts messages to all bound queues
+C) Routes to one queue
+D) Drops messages
 
 ✔ Correct Answer: B
 
@@ -1882,12 +1712,10 @@ Subtopic: Topic Exchange
 Difficulty: Hard
 
 Question: What does a topic exchange use for routing?
-A: Random routing
-B: Pattern matching on routing keys
-C: Round robin
-D: No routing
-
-D) [Missing option - Please review]
+A) Random routing
+B) Pattern matching on routing keys
+C) Round robin
+D) No routing
 
 ✔ Correct Answer: B
 
@@ -1904,12 +1732,10 @@ Subtopic: Direct Exchange
 Difficulty: Medium
 
 Question: How does a direct exchange route messages?
-A: Random routing
-B: Exact match on routing key
-C: Pattern matching
-D: Broadcast
-
-D) [Missing option - Please review]
+A) Random routing
+B) Exact match on routing key
+C) Pattern matching
+D) Broadcast
 
 ✔ Correct Answer: B
 
@@ -1926,12 +1752,10 @@ Subtopic: Message Durability
 Difficulty: Medium
 
 Question: What does message durability ensure?
-A: Message speed
-B: Messages survive broker restart
-C: Message encryption
-D: Message compression
-
-D) [Missing option - Please review]
+A) Message speed
+B) Messages survive broker restart
+C) Message encryption
+D) Message compression
 
 ✔ Correct Answer: B
 
@@ -1948,12 +1772,10 @@ Subtopic: Transient Messages
 Difficulty: Medium
 
 Question: When are transient (non-durable) messages appropriate?
-A: Critical data
-B: High-throughput, loss-tolerant scenarios
-C: Financial transactions
-D: Never
-
-D) [Missing option - Please review]
+A) Critical data
+B) High-throughput, loss-tolerant scenarios
+C) Financial transactions
+D) Never
 
 ✔ Correct Answer: B
 
@@ -1970,12 +1792,10 @@ Subtopic: Message Batching
 Difficulty: Medium
 
 Question: What is message batching?
-A: Processing one at a time
-B: Grouping multiple messages for efficient processing
-C: Delaying messages
-D: Splitting messages
-
-D) [Missing option - Please review]
+A) Processing one at a time
+B) Grouping multiple messages for efficient processing
+C) Delaying messages
+D) Splitting messages
 
 ✔ Correct Answer: B
 
@@ -1992,12 +1812,10 @@ Subtopic: Event Streaming
 Difficulty: Medium
 
 Question: How does event streaming differ from message queuing?
-A: Same thing
-B: Streaming retains events for replay, queuing deletes after consumption
-C: Streaming is slower
-D: Queuing is newer
-
-D) [Missing option - Please review]
+A) Same thing
+B) Streaming retains events for replay, queuing deletes after consumption
+C) Streaming is slower
+D) Queuing is newer
 
 ✔ Correct Answer: B
 
@@ -2014,12 +1832,10 @@ Subtopic: Log Compaction
 Difficulty: Hard
 
 Question: What is log compaction in Kafka?
-A: Compressing logs
-B: Retaining only latest value per key
-C: Deleting all logs
-D: Encrypting logs
-
-D) [Missing option - Please review]
+A) Compressing logs
+B) Retaining only latest value per key
+C) Deleting all logs
+D) Encrypting logs
 
 ✔ Correct Answer: B
 
@@ -2036,12 +1852,10 @@ Subtopic: Consumer Groups
 Difficulty: Hard
 
 Question: What do consumer groups in Kafka enable?
-A: Group chat
-B: Parallel processing with load balancing
-C: Sequential processing only
-D: No grouping
-
-D) [Missing option - Please review]
+A) Group chat
+B) Parallel processing with load balancing
+C) Sequential processing only
+D) No grouping
 
 ✔ Correct Answer: B
 
@@ -2058,12 +1872,10 @@ Subtopic: Partition Key
 Difficulty: Hard
 
 Question: What determines which partition a message goes to?
-A: Random selection
-B: Hash of partition key
-C: Message size
-D: Timestamp
-
-D) [Missing option - Please review]
+A) Random selection
+B) Hash of partition key
+C) Message size
+D) Timestamp
 
 ✔ Correct Answer: B
 
@@ -2080,12 +1892,10 @@ Subtopic: Replication Factor
 Difficulty: Hard
 
 Question: What does replication factor determine?
-A: Replication speed
-B: Number of copies of data maintained
-C: Replication time
-D: Replication cost
-
-D) [Missing option - Please review]
+A) Replication speed
+B) Number of copies of data maintained
+C) Replication time
+D) Replication cost
 
 ✔ Correct Answer: B
 
@@ -2102,12 +1912,10 @@ Subtopic: Leader-Follower Replication
 Difficulty: Medium
 
 Question: In leader-follower replication, what handles writes?
-A: All nodes
-B: Leader only
-C: Followers only
-D: Random node
-
-D) [Missing option - Please review]
+A) All nodes
+B) Leader only
+C) Followers only
+D) Random node
 
 ✔ Correct Answer: B
 
@@ -2124,12 +1932,10 @@ Subtopic: Failover Process
 Difficulty: Medium
 
 Question: What happens during failover?
-A: System fails
-B: Backup system takes over from failed primary
-C: System restarts
-D: Nothing
-
-D) [Missing option - Please review]
+A) System fails
+B) Backup system takes over from failed primary
+C) System restarts
+D) Nothing
 
 ✔ Correct Answer: B
 
@@ -2146,12 +1952,10 @@ Subtopic: Split-Brain Prevention
 Difficulty: Hard
 
 Question: How is split-brain prevented?
-A: Physical separation
-B: Quorum-based decisions
-C: Faster networks
-D: More nodes
-
-D) [Missing option - Please review]
+A) Physical separation
+B) Quorum-based decisions
+C) Faster networks
+D) More nodes
 
 ✔ Correct Answer: B
 
@@ -2168,12 +1972,10 @@ Subtopic: Performance Testing
 Difficulty: Easy
 
 Question: What is load testing?
-A: Testing physical load
-B: Testing system behavior under expected load
-C: Testing maximum load only
-D: No testing
-
-D) [Missing option - Please review]
+A) Testing physical load
+B) Testing system behavior under expected load
+C) Testing maximum load only
+D) No testing
 
 ✔ Correct Answer: B
 
@@ -2190,12 +1992,10 @@ Subtopic: Stress Testing
 Difficulty: Medium
 
 Question: What is the purpose of stress testing?
-A: Test normal load
-B: Find breaking point by exceeding expected load
-C: Test minimum load
-D: No purpose
-
-D) [Missing option - Please review]
+A) Test normal load
+B) Find breaking point by exceeding expected load
+C) Test minimum load
+D) No purpose
 
 ✔ Correct Answer: B
 

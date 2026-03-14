@@ -10,12 +10,10 @@ Subtopic: CAP Theorem
 Difficulty: Hard
 
 Question: What does the CAP theorem state?
-A: All three can be achieved
-B: Only two of Consistency, Availability, Partition tolerance can be guaranteed
-C: Only one can be achieved
-D: None can be guaranteed
-
-D) [Missing option - Please review]
+A) All three can be achieved
+B) Only two of Consistency, Availability, Partition tolerance can be guaranteed
+C) Only one can be achieved
+D) None can be guaranteed
 
 ✔ Correct Answer: B
 
@@ -32,12 +30,10 @@ Subtopic: BASE
 Difficulty: Hard
 
 Question: What does BASE stand for in distributed systems?
-A: Basic Available Soft-state Eventually consistent
-B: Basically Available, Soft state, Eventually consistent
-C: Best Available System Ever
-D: Basic Architecture for System Engineering
-
-D) [Missing option - Please review]
+A) Basic Available Soft-state Eventually consistent
+B) Basically Available, Soft state, Eventually consistent
+C) Best Available System Ever
+D) Basic Architecture for System Engineering
 
 ✔ Correct Answer: B
 
@@ -54,12 +50,10 @@ Subtopic: Eventual Consistency
 Difficulty: Medium
 
 Question: What is eventual consistency?
-A: Immediate consistency
-B: System becomes consistent after some time without updates
-C: Never consistent
-D: Always consistent
-
-D) [Missing option - Please review]
+A) Immediate consistency
+B) System becomes consistent after some time without updates
+C) Never consistent
+D) Always consistent
 
 ✔ Correct Answer: B
 
@@ -76,12 +70,10 @@ Subtopic: Strong Consistency
 Difficulty: Medium
 
 Question: What does strong consistency guarantee?
-A: Eventual consistency
-B: All reads return most recent write immediately
-C: No consistency
-D: Delayed consistency
-
-D) [Missing option - Please review]
+A) Eventual consistency
+B) All reads return most recent write immediately
+C) No consistency
+D) Delayed consistency
 
 ✔ Correct Answer: B
 
@@ -98,12 +90,10 @@ Subtopic: Quorum
 Difficulty: Hard
 
 Question: What is a quorum in distributed systems?
-A: Meeting
-B: Minimum number of nodes that must agree for operation
-C: All nodes
-D: Single node
-
-D) [Missing option - Please review]
+A) Meeting
+B) Minimum number of nodes that must agree for operation
+C) All nodes
+D) Single node
 
 ✔ Correct Answer: B
 
@@ -121,12 +111,10 @@ Subtopic: Split Brain
 Difficulty: Hard
 
 Question: What is split brain in distributed systems?
-A: Brain damage
-B: Network partition causing multiple nodes to act as primary
-C: Load balancing
-D: Data replication
-
-D) [Missing option - Please review]
+A) Brain damage
+B) Network partition causing multiple nodes to act as primary
+C) Load balancing
+D) Data replication
 
 ✔ Correct Answer: B
 
@@ -143,12 +131,10 @@ Subtopic: Consensus Algorithms
 Difficulty: Hard
 
 Question: What do consensus algorithms like Raft and Paxos achieve?
-A: Faster processing
-B: Agreement among distributed nodes despite failures
-C: Better encryption
-D: Load balancing
-
-D) [Missing option - Please review]
+A) Faster processing
+B) Agreement among distributed nodes despite failures
+C) Better encryption
+D) Load balancing
 
 ✔ Correct Answer: B
 
@@ -165,12 +151,10 @@ Subtopic: Leader Election
 Difficulty: Hard
 
 Question: What is leader election in distributed systems?
-A: Voting for leaders
-B: Process to select one node as coordinator
-C: User election
-D: Random selection
-
-D) [Missing option - Please review]
+A) Voting for leaders
+B) Process to select one node as coordinator
+C) User election
+D) Random selection
 
 ✔ Correct Answer: B
 
@@ -187,12 +171,10 @@ Subtopic: Distributed Locks
 Difficulty: Hard
 
 Question: What are distributed locks used for?
-A: Physical locks
-B: Coordinating access to shared resources across nodes
-C: Security locks
-D: File locks only
-
-D) [Missing option - Please review]
+A) Physical locks
+B) Coordinating access to shared resources across nodes
+C) Security locks
+D) File locks only
 
 ✔ Correct Answer: B
 
@@ -209,12 +191,10 @@ Subtopic: Idempotency
 Difficulty: Medium
 
 Question: What does idempotency mean?
-A: Same operation multiple times has same effect as once
-B: Operations always fail
-C: Operations never repeat
-D: Random results
-
-D) [Missing option - Please review]
+A) Same operation multiple times has same effect as once
+B) Operations always fail
+C) Operations never repeat
+D) Random results
 
 ✔ Correct Answer: A
 
@@ -231,12 +211,10 @@ Subtopic: Idempotency Keys
 Difficulty: Hard
 
 Question: What are idempotency keys used for?
-A: Encryption
-B: Ensuring duplicate requests are processed only once
-C: Authentication
-D: Routing
-
-D) [Missing option - Please review]
+A) Encryption
+B) Ensuring duplicate requests are processed only once
+C) Authentication
+D) Routing
 
 ✔ Correct Answer: B
 
@@ -253,12 +231,10 @@ Subtopic: Cache Invalidation
 Difficulty: Medium
 
 Question: What is cache invalidation?
-A: Invalid cache
-B: Removing or updating stale cached data
-C: Disabling cache
-D: Cache encryption
-
-D) [Missing option - Please review]
+A) Invalid cache
+B) Removing or updating stale cached data
+C) Disabling cache
+D) Cache encryption
 
 ✔ Correct Answer: B
 
@@ -275,12 +251,10 @@ Subtopic: Cache Strategies
 Difficulty: Medium
 
 Question: In write-through caching, when is cache updated?
-A: Never
-B: Simultaneously with database write
-C: After database write
-D: Before database write
-
-D) [Missing option - Please review]
+A) Never
+B) Simultaneously with database write
+C) After database write
+D) Before database write
 
 ✔ Correct Answer: B
 
@@ -297,12 +271,10 @@ Subtopic: Cache-Aside
 Difficulty: Medium
 
 Question: In cache-aside pattern, who manages the cache?
-A: Database
-B: Application code
-C: Cache server automatically
-D: Operating system
-
-D) [Missing option - Please review]
+A) Database
+B) Application code
+C) Cache server automatically
+D) Operating system
 
 ✔ Correct Answer: B
 
@@ -319,12 +291,10 @@ Subtopic: Read-Through Cache
 Difficulty: Medium
 
 Question: How does read-through cache work?
-A: Application manages cache
-B: Cache automatically loads from database on miss
-C: No automatic loading
-D: Preloads everything
-
-D) [Missing option - Please review]
+A) Application manages cache
+B) Cache automatically loads from database on miss
+C) No automatic loading
+D) Preloads everything
 
 ✔ Correct Answer: B
 
@@ -341,12 +311,10 @@ Subtopic: Write-Behind Cache
 Difficulty: Hard
 
 Question: What is the risk of write-behind (write-back) caching?
-A: Too slow
-B: Data loss if cache fails before writing to database
-C: Too fast
-D: No risks
-
-D) [Missing option - Please review]
+A) Too slow
+B) Data loss if cache fails before writing to database
+C) Too fast
+D) No risks
 
 ✔ Correct Answer: B
 
@@ -363,12 +331,10 @@ Subtopic: Cache Eviction
 Difficulty: Easy
 
 Question: What is LRU cache eviction policy?
-A: Least Recently Used items evicted first
-B: Most recently used evicted
-C: Random eviction
-D: Largest items evicted
-
-D) [Missing option - Please review]
+A) Least Recently Used items evicted first
+B) Most recently used evicted
+C) Random eviction
+D) Largest items evicted
 
 ✔ Correct Answer: A
 
@@ -385,12 +351,10 @@ Subtopic: Cache Eviction Policies
 Difficulty: Medium
 
 Question: Which cache eviction policy is simplest to implement?
-A: LRU
-B: LFU
-C: FIFO
-D: Random
-
-D) [Missing option - Please review]
+A) LRU
+B) LFU
+C) FIFO
+D) Random
 
 ✔ Correct Answer: C
 
@@ -407,10 +371,10 @@ Subtopic: LFU
 Difficulty: Medium
 
 Question: What does LFU (Least Frequently Used) eviction track?
-A: Recent access time
-B: Access frequency count
-C: Item size
-D: Creation time
+A) Recent access time
+B) Access frequency count
+C) Item size
+D) Creation time
 
 ✔ Correct Answer: B
 
@@ -427,12 +391,10 @@ Subtopic: Cache Stampede
 Difficulty: Hard
 
 Question: What is cache stampede?
-A: Physical damage
-B: Multiple requests simultaneously regenerating expired cache
-C: Cache overflow
-D: Cache deletion
-
-D) [Missing option - Please review]
+A) Physical damage
+B) Multiple requests simultaneously regenerating expired cache
+C) Cache overflow
+D) Cache deletion
 
 ✔ Correct Answer: B
 
@@ -449,12 +411,10 @@ Subtopic: Database Replication
 Difficulty: Medium
 
 Question: What is master-slave replication?
-A: Equal nodes
-B: One primary accepts writes, replicas handle reads
-C: All nodes accept writes
-D: No replication
-
-D) [Missing option - Please review]
+A) Equal nodes
+B) One primary accepts writes, replicas handle reads
+C) All nodes accept writes
+D) No replication
 
 ✔ Correct Answer: B
 
@@ -471,12 +431,10 @@ Subtopic: Multi-Master Replication
 Difficulty: Hard
 
 Question: What challenge does multi-master replication face?
-A: Too simple
-B: Conflict resolution when same data modified on different masters
-C: Too slow
-D: No challenges
-
-D) [Missing option - Please review]
+A) Too simple
+B) Conflict resolution when same data modified on different masters
+C) Too slow
+D) No challenges
 
 ✔ Correct Answer: B
 
@@ -493,12 +451,10 @@ Subtopic: Synchronous Replication
 Difficulty: Medium
 
 Question: What is the trade-off of synchronous replication?
-A: No trade-offs
-B: Strong consistency but higher latency
-C: Fast but inconsistent
-D: No consistency
-
-D) [Missing option - Please review]
+A) No trade-offs
+B) Strong consistency but higher latency
+C) Fast but inconsistent
+D) No consistency
 
 ✔ Correct Answer: B
 
@@ -515,12 +471,10 @@ Subtopic: Asynchronous Replication
 Difficulty: Medium
 
 Question: What is the main risk of asynchronous replication?
-A: Too slow
-B: Data loss if primary fails before replication
-C: Too complex
-D: No risks
-
-D) [Missing option - Please review]
+A) Too slow
+B) Data loss if primary fails before replication
+C) Too complex
+D) No risks
 
 ✔ Correct Answer: B
 
@@ -537,12 +491,10 @@ Subtopic: WebRTC
 Difficulty: Medium
 
 Question: What does WebRTC enable?
-A: Web routing
-B: Real-time communication in browsers without plugins
-C: Web caching
-D: Web security
-
-D) [Missing option - Please review]
+A) Web routing
+B) Real-time communication in browsers without plugins
+C) Web caching
+D) Web security
 
 ✔ Correct Answer: B
 
@@ -559,12 +511,10 @@ Subtopic: WebRTC Signaling
 Difficulty: Hard
 
 Question: What is signaling in WebRTC?
-A: Signal processing
-B: Exchanging session information to establish connection
-C: Audio signals
-D: Network signals
-
-D) [Missing option - Please review]
+A) Signal processing
+B) Exchanging session information to establish connection
+C) Audio signals
+D) Network signals
 
 ✔ Correct Answer: B
 
@@ -581,12 +531,10 @@ Subtopic: SDP Offer/Answer
 Difficulty: Hard
 
 Question: What information does SDP exchange in WebRTC?
-A: Security data
-B: Media capabilities, codecs, and connection information
-C: User data
-D: File data
-
-D) [Missing option - Please review]
+A) Security data
+B) Media capabilities, codecs, and connection information
+C) User data
+D) File data
 
 ✔ Correct Answer: B
 
@@ -603,12 +551,10 @@ Subtopic: DTLS
 Difficulty: Hard
 
 Question: What is DTLS (Datagram TLS)?
-A: Database TLS
-B: TLS for UDP-based protocols
-C: Faster TLS
-D: Disabled TLS
-
-D) [Missing option - Please review]
+A) Database TLS
+B) TLS for UDP-based protocols
+C) Faster TLS
+D) Disabled TLS
 
 ✔ Correct Answer: B
 
@@ -625,12 +571,10 @@ Subtopic: SRTP
 Difficulty: Hard
 
 Question: What does SRTP (Secure RTP) provide?
-A: Faster RTP
-B: Encryption and authentication for RTP streams
-C: Better compression
-D: Lower latency
-
-D) [Missing option - Please review]
+A) Faster RTP
+B) Encryption and authentication for RTP streams
+C) Better compression
+D) Lower latency
 
 ✔ Correct Answer: B
 
@@ -647,12 +591,10 @@ Subtopic: Peer-to-Peer
 Difficulty: Easy
 
 Question: What characterizes peer-to-peer (P2P) networks?
-A: Central server required
-B: Nodes act as both clients and servers
-C: Hierarchical structure
-D: Single point of control
-
-D) [Missing option - Please review]
+A) Central server required
+B) Nodes act as both clients and servers
+C) Hierarchical structure
+D) Single point of control
 
 ✔ Correct Answer: B
 
@@ -669,12 +611,10 @@ Subtopic: DHT
 Difficulty: Hard
 
 Question: What is DHT (Distributed Hash Table)?
-A: Database hash
-B: Decentralized key-value store across P2P network
-C: Hash function
-D: Encryption table
-
-D) [Missing option - Please review]
+A) Database hash
+B) Decentralized key-value store across P2P network
+C) Hash function
+D) Encryption table
 
 ✔ Correct Answer: B
 
@@ -691,12 +631,10 @@ Subtopic: Chord Protocol
 Difficulty: Hard
 
 Question: What does Chord protocol provide?
-A: Music protocol
-B: Efficient DHT lookup in P2P networks
-C: Encryption
-D: Routing protocol
-
-D) [Missing option - Please review]
+A) Music protocol
+B) Efficient DHT lookup in P2P networks
+C) Encryption
+D) Routing protocol
 
 ✔ Correct Answer: B
 
@@ -713,12 +651,10 @@ Subtopic: BitTorrent
 Difficulty: Medium
 
 Question: How does BitTorrent improve download speed?
-A: Faster servers
-B: Downloading from multiple peers simultaneously
-C: Better compression
-D: Larger files
-
-D) [Missing option - Please review]
+A) Faster servers
+B) Downloading from multiple peers simultaneously
+C) Better compression
+D) Larger files
 
 ✔ Correct Answer: B
 
@@ -735,12 +671,10 @@ Subtopic: Blockchain
 Difficulty: Medium
 
 Question: What is a key characteristic of blockchain?
-A: Centralized control
-B: Immutable distributed ledger
-C: Mutable database
-D: Single point of failure
-
-D) [Missing option - Please review]
+A) Centralized control
+B) Immutable distributed ledger
+C) Mutable database
+D) Single point of failure
 
 ✔ Correct Answer: B
 
@@ -757,12 +691,10 @@ Subtopic: Consensus Mechanisms
 Difficulty: Hard
 
 Question: What is Proof of Work (PoW) in blockchain?
-A: Work certificate
-B: Computational puzzle solving for block validation
-C: Identity proof
-D: Signature verification
-
-D) [Missing option - Please review]
+A) Work certificate
+B) Computational puzzle solving for block validation
+C) Identity proof
+D) Signature verification
 
 ✔ Correct Answer: B
 
@@ -779,12 +711,10 @@ Subtopic: Proof of Stake
 Difficulty: Hard
 
 Question: How does Proof of Stake differ from Proof of Work?
-A: Same mechanism
-B: Validators chosen based on stake, not computation
-C: Faster always
-D: Less secure
-
-D) [Missing option - Please review]
+A) Same mechanism
+B) Validators chosen based on stake, not computation
+C) Faster always
+D) Less secure
 
 ✔ Correct Answer: B
 
@@ -801,12 +731,10 @@ Subtopic: Smart Contracts
 Difficulty: Medium
 
 Question: What are smart contracts?
-A: Legal contracts
-B: Self-executing code on blockchain
-C: Paper contracts
-D: Contract management software
-
-D) [Missing option - Please review]
+A) Legal contracts
+B) Self-executing code on blockchain
+C) Paper contracts
+D) Contract management software
 
 ✔ Correct Answer: B
 
@@ -823,12 +751,10 @@ Subtopic: IPFS
 Difficulty: Hard
 
 Question: What does IPFS (InterPlanetary File System) provide?
-A: Space communication
-B: Content-addressed distributed file system
-C: Faster FTP
-D: Encrypted storage
-
-D) [Missing option - Please review]
+A) Space communication
+B) Content-addressed distributed file system
+C) Faster FTP
+D) Encrypted storage
 
 ✔ Correct Answer: B
 
@@ -845,12 +771,10 @@ Subtopic: Content Addressing
 Difficulty: Hard
 
 Question: How does content addressing differ from location addressing?
-A: Same thing
-B: Identifies content by hash, not location
-C: Faster addressing
-D: More secure always
-
-D) [Missing option - Please review]
+A) Same thing
+B) Identifies content by hash, not location
+C) Faster addressing
+D) More secure always
 
 ✔ Correct Answer: B
 
@@ -867,12 +791,10 @@ Subtopic: Multipath TCP
 Difficulty: Hard
 
 Question: What does Multipath TCP (MPTCP) enable?
-A: Multiple protocols
-B: Using multiple network paths simultaneously
-C: Faster single path
-D: Path encryption
-
-D) [Missing option - Please review]
+A) Multiple protocols
+B) Using multiple network paths simultaneously
+C) Faster single path
+D) Path encryption
 
 ✔ Correct Answer: B
 
@@ -889,12 +811,10 @@ Subtopic: TCP Hybla
 Difficulty: Hard
 
 Question: What does TCP Hybla optimize for?
-A: LAN networks
-B: High-latency satellite links
-C: Low-latency networks
-D: Wireless only
-
-D) [Missing option - Please review]
+A) LAN networks
+B) High-latency satellite links
+C) Low-latency networks
+D) Wireless only
 
 ✔ Correct Answer: B
 
@@ -911,12 +831,10 @@ Subtopic: TCP Vegas
 Difficulty: Hard
 
 Question: How does TCP Vegas detect congestion?
-A: Packet loss only
-B: Measuring RTT changes before loss occurs
-C: Random detection
-D: No detection
-
-D) [Missing option - Please review]
+A) Packet loss only
+B) Measuring RTT changes before loss occurs
+C) Random detection
+D) No detection
 
 ✔ Correct Answer: B
 
@@ -933,12 +851,10 @@ Subtopic: TCP Westwood
 Difficulty: Hard
 
 Question: What does TCP Westwood optimize for?
-A: Wired networks only
-B: Wireless and high-loss networks
-C: Low-latency networks
-D: Satellite only
-
-D) [Missing option - Please review]
+A) Wired networks only
+B) Wireless and high-loss networks
+C) Low-latency networks
+D) Satellite only
 
 ✔ Correct Answer: B
 
@@ -955,12 +871,10 @@ Subtopic: Bandwidth Estimation
 Difficulty: Hard
 
 Question: What is packet pair technique used for?
-A: Pairing packets
-B: Estimating available bandwidth
-C: Encryption
-D: Compression
-
-D) [Missing option - Please review]
+A) Pairing packets
+B) Estimating available bandwidth
+C) Encryption
+D) Compression
 
 ✔ Correct Answer: B
 
@@ -977,12 +891,10 @@ Subtopic: Active Queue Management
 Difficulty: Hard
 
 Question: What is active queue management (AQM)?
-A: Managing queues manually
-B: Proactively dropping packets before buffer fills
-C: Passive monitoring
-D: Queue encryption
-
-D) [Missing option - Please review]
+A) Managing queues manually
+B) Proactively dropping packets before buffer fills
+C) Passive monitoring
+D) Queue encryption
 
 ✔ Correct Answer: B
 
@@ -999,12 +911,10 @@ Subtopic: CoDel
 Difficulty: Hard
 
 Question: What does CoDel (Controlled Delay) target?
-A: Maximum throughput
-B: Keeping queuing delay below target
-C: Zero delay
-D: Maximum delay
-
-D) [Missing option - Please review]
+A) Maximum throughput
+B) Keeping queuing delay below target
+C) Zero delay
+D) Maximum delay
 
 ✔ Correct Answer: B
 
@@ -1021,12 +931,10 @@ Subtopic: Bufferbloat
 Difficulty: Medium
 
 Question: What is bufferbloat?
-A: Buffer overflow
-B: Excessive buffering causing high latency
-C: Buffer underflow
-D: Buffer encryption
-
-D) [Missing option - Please review]
+A) Buffer overflow
+B) Excessive buffering causing high latency
+C) Buffer underflow
+D) Buffer encryption
 
 ✔ Correct Answer: B
 
@@ -1043,12 +951,10 @@ Subtopic: FQ-CoDel
 Difficulty: Hard
 
 Question: What does FQ-CoDel combine?
-A: Two encryption methods
-B: Fair queuing with CoDel AQM
-C: Two routing protocols
-D: Two compression methods
-
-D) [Missing option - Please review]
+A) Two encryption methods
+B) Fair queuing with CoDel AQM
+C) Two routing protocols
+D) Two compression methods
 
 ✔ Correct Answer: B
 
@@ -1065,12 +971,10 @@ Subtopic: ECN in TCP
 Difficulty: Hard
 
 Question: How does ECN help TCP?
-A: Faster encryption
-B: Signals congestion without dropping packets
-C: Better routing
-D: Compression
-
-D) [Missing option - Please review]
+A) Faster encryption
+B) Signals congestion without dropping packets
+C) Better routing
+D) Compression
 
 ✔ Correct Answer: B
 
@@ -1087,12 +991,10 @@ Subtopic: Anycast Routing
 Difficulty: Hard
 
 Question: How do routers handle anycast addresses?
-A: Broadcast to all
-B: Route to nearest instance based on routing metrics
-C: Random selection
-D: Round robin
-
-D) [Missing option - Please review]
+A) Broadcast to all
+B) Route to nearest instance based on routing metrics
+C) Random selection
+D) Round robin
 
 ✔ Correct Answer: B
 
@@ -1110,12 +1012,10 @@ Subtopic: TLS 1.3 Improvements
 Difficulty: Hard
 
 Question: What improvement does TLS 1.3 have over TLS 1.2?
-A: Slower handshake
-B: Faster handshake (1-RTT) and removed weak ciphers
-C: More ciphers
-D: No improvements
-
-D) [Missing option - Please review]
+A) Slower handshake
+B) Faster handshake (1-RTT) and removed weak ciphers
+C) More ciphers
+D) No improvements
 
 ✔ Correct Answer: B
 
@@ -1132,12 +1032,10 @@ Subtopic: Perfect Forward Secrecy
 Difficulty: Hard
 
 Question: What does Perfect Forward Secrecy (PFS) ensure?
-A: Perfect encryption
-B: Session keys not compromised if long-term key is compromised
-C: Faster encryption
-D: No forward secrecy
-
-D) [Missing option - Please review]
+A) Perfect encryption
+B) Session keys not compromised if long-term key is compromised
+C) Faster encryption
+D) No forward secrecy
 
 ✔ Correct Answer: B
 
@@ -1154,12 +1052,10 @@ Subtopic: Diffie-Hellman
 Difficulty: Hard
 
 Question: What does Diffie-Hellman enable?
-A: Encryption
-B: Secure key exchange over insecure channel
-C: Authentication
-D: Compression
-
-D) [Missing option - Please review]
+A) Encryption
+B) Secure key exchange over insecure channel
+C) Authentication
+D) Compression
 
 ✔ Correct Answer: B
 
@@ -1176,12 +1072,10 @@ Subtopic: Elliptic Curve Cryptography
 Difficulty: Hard
 
 Question: What advantage does ECC have over RSA?
-A: Simpler
-B: Same security with smaller key sizes
-C: Faster always
-D: Older technology
-
-D) [Missing option - Please review]
+A) Simpler
+B) Same security with smaller key sizes
+C) Faster always
+D) Older technology
 
 ✔ Correct Answer: B
 
@@ -1198,12 +1092,10 @@ Subtopic: API Versioning
 Difficulty: Medium
 
 Question: Why is API versioning important?
-A: Version control
-B: Maintain backward compatibility while evolving API
-C: Faster APIs
-D: Better security
-
-D) [Missing option - Please review]
+A) Version control
+B) Maintain backward compatibility while evolving API
+C) Faster APIs
+D) Better security
 
 ✔ Correct Answer: B
 
@@ -1220,12 +1112,10 @@ Subtopic: API Rate Limiting
 Difficulty: Medium
 
 Question: What HTTP status code indicates rate limit exceeded?
-A: 403
-B: 429 (Too Many Requests)
-C: 503
-D: 500
-
-D) [Missing option - Please review]
+A) 403
+B) 429 (Too Many Requests)
+C) 503
+D) 500
 
 ✔ Correct Answer: B
 
@@ -1242,12 +1132,10 @@ Subtopic: API Throttling
 Difficulty: Medium
 
 Question: What is the difference between rate limiting and throttling?
-A: Same thing
-B: Rate limiting rejects, throttling delays requests
-C: Throttling is faster
-D: Rate limiting is newer
-
-D) [Missing option - Please review]
+A) Same thing
+B) Rate limiting rejects, throttling delays requests
+C) Throttling is faster
+D) Rate limiting is newer
 
 ✔ Correct Answer: B
 
@@ -1264,12 +1152,10 @@ Subtopic: API Keys
 Difficulty: Easy
 
 Question: What is the primary purpose of API keys?
-A: Encryption
-B: Identify and authenticate API clients
-C: Compression
-D: Routing
-
-D) [Missing option - Please review]
+A) Encryption
+B) Identify and authenticate API clients
+C) Compression
+D) Routing
 
 ✔ Correct Answer: B
 
@@ -1286,12 +1172,10 @@ Subtopic: OAuth 2.0
 Difficulty: Medium
 
 Question: What does OAuth 2.0 provide?
-A: Password sharing
-B: Delegated authorization without sharing credentials
-C: Encryption
-D: Faster authentication
-
-D) [Missing option - Please review]
+A) Password sharing
+B) Delegated authorization without sharing credentials
+C) Encryption
+D) Faster authentication
 
 ✔ Correct Answer: B
 
@@ -1308,12 +1192,10 @@ Subtopic: OAuth Flows
 Difficulty: Hard
 
 Question: Which OAuth 2.0 flow is most secure for server-side applications?
-A: Implicit flow
-B: Authorization Code flow
-C: Password flow
-D: Client Credentials
-
-D) [Missing option - Please review]
+A) Implicit flow
+B) Authorization Code flow
+C) Password flow
+D) Client Credentials
 
 ✔ Correct Answer: B
 
@@ -1330,12 +1212,10 @@ Subtopic: JWT
 Difficulty: Medium
 
 Question: What is a JWT (JSON Web Token)?
-A: Java Web Token
-B: Self-contained token with encoded claims
-C: JavaScript Token
-D: JSON Transfer
-
-D) [Missing option - Please review]
+A) Java Web Token
+B) Self-contained token with encoded claims
+C) JavaScript Token
+D) JSON Transfer
 
 ✔ Correct Answer: B
 
@@ -1352,12 +1232,10 @@ Subtopic: JWT Structure
 Difficulty: Hard
 
 Question: What are the three parts of a JWT?
-A: User, Password, Token
-B: Header, Payload, Signature
-C: Key, Value, Hash
-D: Start, Middle, End
-
-D) [Missing option - Please review]
+A) User, Password, Token
+B) Header, Payload, Signature
+C) Key, Value, Hash
+D) Start, Middle, End
 
 ✔ Correct Answer: B
 
@@ -1374,12 +1252,10 @@ Subtopic: Refresh Tokens
 Difficulty: Medium
 
 Question: What is the purpose of refresh tokens?
-A: Refresh pages
-B: Obtain new access tokens without re-authentication
-C: Refresh cache
-D: Refresh DNS
-
-D) [Missing option - Please review]
+A) Refresh pages
+B) Obtain new access tokens without re-authentication
+C) Refresh cache
+D) Refresh DNS
 
 ✔ Correct Answer: B
 
@@ -1396,12 +1272,10 @@ Subtopic: Token Rotation
 Difficulty: Hard
 
 Question: What is refresh token rotation?
-A: Rotating servers
-B: Issuing new refresh token with each use
-C: Rotating encryption
-D: No rotation
-
-D) [Missing option - Please review]
+A) Rotating servers
+B) Issuing new refresh token with each use
+C) Rotating encryption
+D) No rotation
 
 ✔ Correct Answer: B
 
@@ -1418,12 +1292,10 @@ Subtopic: PKCE
 Difficulty: Hard
 
 Question: What does PKCE (Proof Key for Code Exchange) prevent?
-A: All attacks
-B: Authorization code interception attacks
-C: DDoS attacks
-D: SQL injection
-
-D) [Missing option - Please review]
+A) All attacks
+B) Authorization code interception attacks
+C) DDoS attacks
+D) SQL injection
 
 ✔ Correct Answer: B
 
@@ -1440,12 +1312,10 @@ Subtopic: OpenID Connect
 Difficulty: Hard
 
 Question: What does OpenID Connect add to OAuth 2.0?
-A: Better authorization
-B: Identity layer with ID tokens
-C: Faster flow
-D: More security
-
-D) [Missing option - Please review]
+A) Better authorization
+B) Identity layer with ID tokens
+C) Faster flow
+D) More security
 
 ✔ Correct Answer: B
 
@@ -1462,12 +1332,10 @@ Subtopic: SAML
 Difficulty: Medium
 
 Question: What is SAML primarily used for?
-A: Email authentication
-B: Enterprise SSO (Single Sign-On)
-C: API authentication
-D: Database authentication
-
-D) [Missing option - Please review]
+A) Email authentication
+B) Enterprise SSO (Single Sign-On)
+C) API authentication
+D) Database authentication
 
 ✔ Correct Answer: B
 
@@ -1484,12 +1352,10 @@ Subtopic: SSO
 Difficulty: Easy
 
 Question: What does SSO (Single Sign-On) enable?
-A: Single password
-B: One authentication for multiple applications
-C: Single user
-D: Single server
-
-D) [Missing option - Please review]
+A) Single password
+B) One authentication for multiple applications
+C) Single user
+D) Single server
 
 ✔ Correct Answer: B
 
@@ -1506,12 +1372,10 @@ Subtopic: Identity Provider
 Difficulty: Medium
 
 Question: What is an Identity Provider (IdP)?
-A: ID card provider
-B: Service that authenticates users and provides identity assertions
-C: Database provider
-D: Network provider
-
-D) [Missing option - Please review]
+A) ID card provider
+B) Service that authenticates users and provides identity assertions
+C) Database provider
+D) Network provider
 
 ✔ Correct Answer: B
 
@@ -1528,12 +1392,10 @@ Subtopic: Service Provider
 Difficulty: Medium
 
 Question: In SSO, what is a Service Provider (SP)?
-A: Internet service provider
-B: Application trusting IdP for authentication
-C: Cloud provider
-D: Network provider
-
-D) [Missing option - Please review]
+A) Internet service provider
+B) Application trusting IdP for authentication
+C) Cloud provider
+D) Network provider
 
 ✔ Correct Answer: B
 
@@ -1550,12 +1412,10 @@ Subtopic: MFA
 Difficulty: Easy
 
 Question: What does MFA (Multi-Factor Authentication) require?
-A: Single factor
-B: Multiple independent authentication factors
-C: Multiple passwords
-D: Multiple users
-
-D) [Missing option - Please review]
+A) Single factor
+B) Multiple independent authentication factors
+C) Multiple passwords
+D) Multiple users
 
 ✔ Correct Answer: B
 
@@ -1572,10 +1432,10 @@ Subtopic: TOTP
 Difficulty: Medium
 
 Question: What is TOTP (Time-based One-Time Password)?
-A: Permanent password
-B: Password generated based on current time
-C: Random password
-D: Encrypted password
+A) Permanent password
+B) Password generated based on current time
+C) Random password
+D) Encrypted password
 
 ✔ Correct Answer: B
 
@@ -1592,12 +1452,10 @@ Subtopic: HOTP
 Difficulty: Hard
 
 Question: How does HOTP differ from TOTP?
-A: Same thing
-B: Counter-based instead of time-based
-C: Faster
-D: More secure
-
-D) [Missing option - Please review]
+A) Same thing
+B) Counter-based instead of time-based
+C) Faster
+D) More secure
 
 ✔ Correct Answer: B
 
@@ -1614,12 +1472,10 @@ Subtopic: WebAuthn
 Difficulty: Hard
 
 Question: What does WebAuthn enable?
-A: Web authentication only
-B: Passwordless authentication using biometrics or security keys
-C: Password management
-D: Web authorization
-
-D) [Missing option - Please review]
+A) Web authentication only
+B) Passwordless authentication using biometrics or security keys
+C) Password management
+D) Web authorization
 
 ✔ Correct Answer: B
 
@@ -1636,12 +1492,10 @@ Subtopic: FIDO2
 Difficulty: Hard
 
 Question: What does FIDO2 consist of?
-A: Two passwords
-B: WebAuthn and CTAP protocols
-C: Two servers
-D: Two networks
-
-D) [Missing option - Please review]
+A) Two passwords
+B) WebAuthn and CTAP protocols
+C) Two servers
+D) Two networks
 
 ✔ Correct Answer: B
 
@@ -1659,12 +1513,10 @@ Subtopic: Session Management
 Difficulty: Medium
 
 Question: What is session affinity (sticky sessions)?
-A: Session encryption
-B: Routing user requests to same backend server
-C: Session timeout
-D: Session replication
-
-D) [Missing option - Please review]
+A) Session encryption
+B) Routing user requests to same backend server
+C) Session timeout
+D) Session replication
 
 ✔ Correct Answer: B
 
@@ -1681,12 +1533,10 @@ Subtopic: Stateless Sessions
 Difficulty: Medium
 
 Question: How do stateless sessions work?
-A: No sessions
-B: Session data stored in client (cookies, JWT)
-C: Server stores everything
-D: Database stores sessions
-
-D) [Missing option - Please review]
+A) No sessions
+B) Session data stored in client (cookies, JWT)
+C) Server stores everything
+D) Database stores sessions
 
 ✔ Correct Answer: B
 
@@ -1703,10 +1553,10 @@ Subtopic: Session Store
 Difficulty: Medium
 
 Question: What is a centralized session store?
-A: Local storage
-B: Shared storage (Redis, Memcached) for session data
-C: No storage
-D: Client storage
+A) Local storage
+B) Shared storage (Redis, Memcached) for session data
+C) No storage
+D) Client storage
 
 ✔ Correct Answer: B
 
@@ -1723,12 +1573,10 @@ Subtopic: Database Indexing
 Difficulty: Easy
 
 Question: What is the primary purpose of database indexes?
-A: Store data
-B: Speed up data retrieval
-C: Encrypt data
-D: Backup data
-
-D) [Missing option - Please review]
+A) Store data
+B) Speed up data retrieval
+C) Encrypt data
+D) Backup data
 
 ✔ Correct Answer: B
 
@@ -1745,12 +1593,10 @@ Subtopic: Query Optimization
 Difficulty: Medium
 
 Question: What is query optimization?
-A: Making queries shorter
-B: Finding most efficient execution plan for query
-C: Caching queries
-D: Encrypting queries
-
-D) [Missing option - Please review]
+A) Making queries shorter
+B) Finding most efficient execution plan for query
+C) Caching queries
+D) Encrypting queries
 
 ✔ Correct Answer: B
 
@@ -1767,12 +1613,10 @@ Subtopic: Materialized Views
 Difficulty: Hard
 
 Question: What are materialized views?
-A: Virtual views
-B: Precomputed query results stored physically
-C: Regular views
-D: Temporary views
-
-D) [Missing option - Please review]
+A) Virtual views
+B) Precomputed query results stored physically
+C) Regular views
+D) Temporary views
 
 ✔ Correct Answer: B
 
@@ -1789,12 +1633,10 @@ Subtopic: Database Partitioning
 Difficulty: Medium
 
 Question: What is vertical partitioning?
-A: Horizontal split
-B: Splitting table by columns
-C: Splitting by rows
-D: No splitting
-
-D) [Missing option - Please review]
+A) Horizontal split
+B) Splitting table by columns
+C) Splitting by rows
+D) No splitting
 
 ✔ Correct Answer: B
 
@@ -1811,12 +1653,10 @@ Subtopic: Horizontal Partitioning
 Difficulty: Medium
 
 Question: What is horizontal partitioning?
-A: Splitting by columns
-B: Splitting table by rows (sharding)
-C: No splitting
-D: Vertical split
-
-D) [Missing option - Please review]
+A) Splitting by columns
+B) Splitting table by rows (sharding)
+C) No splitting
+D) Vertical split
 
 ✔ Correct Answer: B
 
@@ -1833,12 +1673,10 @@ Subtopic: Connection Multiplexing
 Difficulty: Hard
 
 Question: What is connection multiplexing in HTTP/2?
-A: Multiple connections
-B: Multiple requests/responses over single connection
-C: Single request only
-D: No multiplexing
-
-D) [Missing option - Please review]
+A) Multiple connections
+B) Multiple requests/responses over single connection
+C) Single request only
+D) No multiplexing
 
 ✔ Correct Answer: B
 
@@ -1855,12 +1693,10 @@ Subtopic: Domain Sharding
 Difficulty: Medium
 
 Question: What was domain sharding used for in HTTP/1.1?
-A: Database sharding
-B: Overcome browser connection limits per domain
-C: Security
-D: Faster DNS
-
-D) [Missing option - Please review]
+A) Database sharding
+B) Overcome browser connection limits per domain
+C) Security
+D) Faster DNS
 
 ✔ Correct Answer: B
 
@@ -1877,12 +1713,10 @@ Subtopic: Lazy Loading
 Difficulty: Easy
 
 Question: What is lazy loading?
-A: Slow loading
-B: Loading resources only when needed
-C: Loading everything upfront
-D: No loading
-
-D) [Missing option - Please review]
+A) Slow loading
+B) Loading resources only when needed
+C) Loading everything upfront
+D) No loading
 
 ✔ Correct Answer: B
 
@@ -1899,12 +1733,10 @@ Subtopic: Eager Loading
 Difficulty: Medium
 
 Question: When is eager loading preferred over lazy loading?
-A: Always
-B: When data is definitely needed and latency matters
-C: Never
-D: Random choice
-
-D) [Missing option - Please review]
+A) Always
+B) When data is definitely needed and latency matters
+C) Never
+D) Random choice
 
 ✔ Correct Answer: B
 
@@ -1921,12 +1753,10 @@ Subtopic: Pagination
 Difficulty: Easy
 
 Question: What is the purpose of API pagination?
-A: Page design
-B: Limit response size by returning data in chunks
-C: Faster responses
-D: Better security
-
-D) [Missing option - Please review]
+A) Page design
+B) Limit response size by returning data in chunks
+C) Faster responses
+D) Better security
 
 ✔ Correct Answer: B
 
@@ -1943,12 +1773,10 @@ Subtopic: Cursor-Based Pagination
 Difficulty: Hard
 
 Question: What advantage does cursor-based pagination have over offset-based?
-A: Simpler
-B: Consistent results when data changes
-C: Faster always
-D: No advantages
-
-D) [Missing option - Please review]
+A) Simpler
+B) Consistent results when data changes
+C) Faster always
+D) No advantages
 
 ✔ Correct Answer: B
 
@@ -1965,12 +1793,10 @@ Subtopic: GraphQL Pagination
 Difficulty: Hard
 
 Question: What pagination approach does GraphQL commonly use?
-A: Offset-based only
-B: Cursor-based (Relay-style connections)
-C: No pagination
-D: Page numbers only
-
-D) [Missing option - Please review]
+A) Offset-based only
+B) Cursor-based (Relay-style connections)
+C) No pagination
+D) Page numbers only
 
 ✔ Correct Answer: B
 
@@ -1987,12 +1813,10 @@ Subtopic: Database Connection Limits
 Difficulty: Medium
 
 Question: Why limit database connections?
-A: Save money
-B: Prevent resource exhaustion on database server
-C: Increase speed
-D: Better security
-
-D) [Missing option - Please review]
+A) Save money
+B) Prevent resource exhaustion on database server
+C) Increase speed
+D) Better security
 
 ✔ Correct Answer: B
 
@@ -2009,12 +1833,10 @@ Subtopic: Circuit Breaker States
 Difficulty: Hard
 
 Question: What are the three states in circuit breaker pattern?
-A: On, Off, Standby
-B: Closed, Open, Half-Open
-C: Active, Passive, Idle
-D: Start, Stop, Pause
-
-D) [Missing option - Please review]
+A) On, Off, Standby
+B) Closed, Open, Half-Open
+C) Active, Passive, Idle
+D) Start, Stop, Pause
 
 ✔ Correct Answer: B
 
@@ -2031,12 +1853,10 @@ Subtopic: Timeout Configuration
 Difficulty: Medium
 
 Question: What happens if timeouts are too short?
-A: Better performance
-B: False failures and unnecessary retries
-C: Improved reliability
-D: No issues
-
-D) [Missing option - Please review]
+A) Better performance
+B) False failures and unnecessary retries
+C) Improved reliability
+D) No issues
 
 ✔ Correct Answer: B
 
@@ -2053,12 +1873,10 @@ Subtopic: Tail Latency
 Difficulty: Hard
 
 Question: What is tail latency?
-A: Average latency
-B: Latency at high percentiles (p95, p99)
-C: Minimum latency
-D: Median latency
-
-D) [Missing option - Please review]
+A) Average latency
+B) Latency at high percentiles (p95, p99)
+C) Minimum latency
+D) Median latency
 
 ✔ Correct Answer: B
 
@@ -2075,12 +1893,10 @@ Subtopic: Hedged Requests
 Difficulty: Hard
 
 Question: What are hedged requests?
-A: Protected requests
-B: Sending duplicate request if first is slow
-C: Encrypted requests
-D: Compressed requests
-
-D) [Missing option - Please review]
+A) Protected requests
+B) Sending duplicate request if first is slow
+C) Encrypted requests
+D) Compressed requests
 
 ✔ Correct Answer: B
 
@@ -2097,12 +1913,10 @@ Subtopic: Backpressure
 Difficulty: Hard
 
 Question: What is backpressure in distributed systems?
-A: Physical pressure
-B: Downstream signaling upstream to slow down
-C: Increased pressure
-D: No pressure
-
-D) [Missing option - Please review]
+A) Physical pressure
+B) Downstream signaling upstream to slow down
+C) Increased pressure
+D) No pressure
 
 ✔ Correct Answer: B
 
@@ -2119,12 +1933,10 @@ Subtopic: Reactive Streams
 Difficulty: Hard
 
 Question: What do reactive streams provide?
-A: Fast streams
-B: Asynchronous stream processing with backpressure
-C: Synchronous streams
-D: No streams
-
-D) [Missing option - Please review]
+A) Fast streams
+B) Asynchronous stream processing with backpressure
+C) Synchronous streams
+D) No streams
 
 ✔ Correct Answer: B
 
@@ -2141,12 +1953,10 @@ Subtopic: Flow Control
 Difficulty: Medium
 
 Question: What is the purpose of flow control?
-A: Control water flow
-B: Prevent sender from overwhelming receiver
-C: Increase speed
-D: Encryption
-
-D) [Missing option - Please review]
+A) Control water flow
+B) Prevent sender from overwhelming receiver
+C) Increase speed
+D) Encryption
 
 ✔ Correct Answer: B
 
@@ -2163,12 +1973,10 @@ Subtopic: Congestion Control
 Difficulty: Medium
 
 Question: How does congestion control differ from flow control?
-A: Same thing
-B: Congestion control considers network capacity, flow control receiver capacity
-C: Congestion is faster
-D: Flow control is newer
-
-D) [Missing option - Please review]
+A) Same thing
+B) Congestion control considers network capacity, flow control receiver capacity
+C) Congestion is faster
+D) Flow control is newer
 
 ✔ Correct Answer: B
 
@@ -2185,12 +1993,10 @@ Subtopic: Network Capacity Planning
 Difficulty: Medium
 
 Question: What is capacity planning?
-A: Planning storage
-B: Forecasting resource needs for future growth
-C: Current capacity only
-D: Random planning
-
-D) [Missing option - Please review]
+A) Planning storage
+B) Forecasting resource needs for future growth
+C) Current capacity only
+D) Random planning
 
 ✔ Correct Answer: B
 

@@ -127,9 +127,7 @@ Question: What is method overloading?
 A) Too many methods
 B) Multiple methods with same name but different parameters
 C) Overriding
-D: Deleting methods
-
-D) [Missing option - Please review]
+D) Deleting methods
 
 ✔ Correct Answer: B
 
@@ -709,9 +707,7 @@ Difficulty: Hard
 
 Question: What are templates in C++?
 A) Design patterns
-B: Generic programming feature for type-independent code
-B) [Missing option - Please review]
-
+B) Generic programming feature for type-independent code
 C) Class templates only
 D) Documentation
 

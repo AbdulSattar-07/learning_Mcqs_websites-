@@ -553,9 +553,7 @@ Question: When should read-write locks be used?
 A) Equal reads and writes
 B) Read-heavy workloads
 C) Write-heavy workloads
-D: Never
-
-D) [Missing option - Please review]
+D) Never
 
 ✔ Correct Answer: B
 
@@ -595,9 +593,7 @@ Question: What are memory barriers?
 A) Physical barriers
 B) Instructions ensuring memory operation ordering
 C) Memory allocation
-D: No barriers
-
-D) [Missing option - Please review]
+D) No barriers
 
 ✔ Correct Answer: B
 
@@ -614,12 +610,10 @@ Subtopic: Happens-Before Relationship
 Difficulty: Hard
 
 Question: What is happens-before relationship?
-A: Random relationship
-B: Partial ordering ensuring one operation's effects visible to another
-C: No relationship
-D: Time-based only
-
-D) [Missing option - Please review]
+A) Random relationship
+B) Partial ordering ensuring one operation's effects visible to another
+C) No relationship
+D) Time-based only
 
 ✔ Correct Answer: B
 
@@ -636,12 +630,10 @@ Subtopic: Deadlock vs Livelock
 Difficulty: Medium
 
 Question: How does livelock differ from deadlock?
-A: Same thing
-B: Livelock processes active but not progressing, deadlock processes blocked
-C: Livelock is faster
-D: No difference
-
-D) [Missing option - Please review]
+A) Same thing
+B) Livelock processes active but not progressing, deadlock processes blocked
+C) Livelock is faster
+D) No difference
 
 ✔ Correct Answer: B
 
@@ -658,12 +650,10 @@ Subtopic: Deadlock Prevention Tradeoffs
 Difficulty: Hard
 
 Question: What is the cost of preventing hold and wait?
-A: No cost
-B: Low resource utilization, possible starvation
-C: Better performance
-D: No impact
-
-D) [Missing option - Please review]
+A) No cost
+B) Low resource utilization, possible starvation
+C) Better performance
+D) No impact
 
 ✔ Correct Answer: B
 
@@ -680,12 +670,10 @@ Subtopic: Deadlock Prevention Tradeoffs
 Difficulty: Hard
 
 Question: What is the cost of allowing preemption?
-A: No cost
-B: Overhead of saving/restoring state, not applicable to all resources
-C: Faster execution
-D: No impact
-
-D) [Missing option - Please review]
+A) No cost
+B) Overhead of saving/restoring state, not applicable to all resources
+C) Faster execution
+D) No impact
 
 ✔ Correct Answer: B
 
@@ -702,12 +690,10 @@ Subtopic: Memory Allocation Algorithms
 Difficulty: Medium
 
 Question: Which allocation algorithm is fastest?
-A: Best-fit
-B: First-fit
-C: Worst-fit
-D: All equal
-
-D) [Missing option - Please review]
+A) Best-fit
+B) First-fit
+C) Worst-fit
+D) All equal
 
 ✔ Correct Answer: B
 
@@ -724,12 +710,10 @@ Subtopic: Memory Compaction
 Difficulty: Hard
 
 Question: When should memory compaction be performed?
-A: Always
-B: When fragmentation severe and performance degraded
-C: Never
-D: Randomly
-
-D) [Missing option - Please review]
+A) Always
+B) When fragmentation severe and performance degraded
+C) Never
+D) Randomly
 
 ✔ Correct Answer: B
 
@@ -746,12 +730,10 @@ Subtopic: Paging Hardware
 Difficulty: Medium
 
 Question: What is the page table base register (PTBR)?
-A: Page size register
-B: Points to page table location
-C: Frame register
-D: No register
-
-D) [Missing option - Please review]
+A) Page size register
+B) Points to page table location
+C) Frame register
+D) No register
 
 ✔ Correct Answer: B
 
@@ -768,12 +750,10 @@ Subtopic: Paging Hardware
 Difficulty: Medium
 
 Question: What is the page table length register (PTLR)?
-A: Page size
-B: Indicates page table size
-C: Frame count
-D: No register
-
-D) [Missing option - Please review]
+A) Page size
+B) Indicates page table size
+C) Frame count
+D) No register
 
 ✔ Correct Answer: B
 
@@ -790,12 +770,10 @@ Subtopic: Shared Pages
 Difficulty: Hard
 
 Question: What requirement must shared pages meet?
-A: Any pages
-B: Must be reentrant (read-only) code
-C: Must be writable
-D: No requirement
-
-D) [Missing option - Please review]
+A) Any pages
+B) Must be reentrant (read-only) code
+C) Must be writable
+D) No requirement
 
 ✔ Correct Answer: B
 
@@ -812,12 +790,10 @@ Subtopic: Segmentation Advantages
 Difficulty: Medium
 
 Question: What advantage does segmentation provide?
-A: Fixed sizes
-B: Logical organization matching program structure
-C: No advantages
-D: Slower access
-
-D) [Missing option - Please review]
+A) Fixed sizes
+B) Logical organization matching program structure
+C) No advantages
+D) Slower access
 
 ✔ Correct Answer: B
 
@@ -834,12 +810,10 @@ Subtopic: Segmentation Disadvantages
 Difficulty: Medium
 
 Question: What is the main disadvantage of segmentation?
-A: Too simple
-B: External fragmentation from variable-size segments
-C: Too fast
-D: No disadvantages
-
-D) [Missing option - Please review]
+A) Too simple
+B) External fragmentation from variable-size segments
+C) Too fast
+D) No disadvantages
 
 ✔ Correct Answer: B
 
@@ -856,12 +830,10 @@ Subtopic: Virtual Memory Benefits
 Difficulty: Easy
 
 Question: What is a key benefit of virtual memory?
-A: Slower execution
-B: Programs larger than physical memory can execute
-C: More complexity
-D: Less memory
-
-D) [Missing option - Please review]
+A) Slower execution
+B) Programs larger than physical memory can execute
+C) More complexity
+D) Less memory
 
 ✔ Correct Answer: B
 
@@ -878,12 +850,10 @@ Subtopic: Virtual Memory Benefits
 Difficulty: Medium
 
 Question: How does virtual memory improve multiprogramming?
-A: Reduces multiprogramming
-B: More processes in memory as not all pages needed
-C: No impact
-D: Slows down
-
-D) [Missing option - Please review]
+A) Reduces multiprogramming
+B) More processes in memory as not all pages needed
+C) No impact
+D) Slows down
 
 ✔ Correct Answer: B
 
@@ -900,12 +870,10 @@ Subtopic: Demand Paging Optimization
 Difficulty: Hard
 
 Question: What is prepaging strategy?
-A: No paging
-B: Load predicted pages before referenced
-C: Delayed paging
-D: Random paging
-
-D) [Missing option - Please review]
+A) No paging
+B) Load predicted pages before referenced
+C) Delayed paging
+D) Random paging
 
 ✔ Correct Answer: B
 
@@ -922,12 +890,10 @@ Subtopic: Page Size Considerations
 Difficulty: Hard
 
 Question: What happens with very small page size?
-A: Better performance
-B: Large page table, more page faults, better locality
-C: Optimal size
-D: No impact
-
-D) [Missing option - Please review]
+A) Better performance
+B) Large page table, more page faults, better locality
+C) Optimal size
+D) No impact
 
 ✔ Correct Answer: B
 
@@ -944,12 +910,10 @@ Subtopic: Page Size Considerations
 Difficulty: Hard
 
 Question: What happens with very large page size?
-A: Optimal performance
-B: Internal fragmentation, fewer page faults, smaller table
-C: Worse performance
-D: No impact
-
-D) [Missing option - Please review]
+A) Optimal performance
+B) Internal fragmentation, fewer page faults, smaller table
+C) Worse performance
+D) No impact
 
 ✔ Correct Answer: B
 
@@ -966,12 +930,10 @@ Subtopic: TLB Performance
 Difficulty: Hard
 
 Question: What is TLB coverage?
-A: TLB size
-B: Amount of memory addressable through TLB
-C: TLB speed
-D: No concept
-
-D) [Missing option - Please review]
+A) TLB size
+B) Amount of memory addressable through TLB
+C) TLB speed
+D) No concept
 
 ✔ Correct Answer: B
 
@@ -988,12 +950,10 @@ Subtopic: Inverted Page Table Benefits
 Difficulty: Hard
 
 Question: What is the main benefit of inverted page tables?
-A: Faster access
-B: Fixed size regardless of virtual address space
-C: Simpler implementation
-D: No benefits
-
-D) [Missing option - Please review]
+A) Faster access
+B) Fixed size regardless of virtual address space
+C) Simpler implementation
+D) No benefits
 
 ✔ Correct Answer: B
 
@@ -1010,12 +970,10 @@ Subtopic: Inverted Page Table Drawbacks
 Difficulty: Hard
 
 Question: What is the main drawback of inverted page tables?
-A: Too large
-B: Slower lookup requiring search or hashing
-C: Too simple
-D: No drawbacks
-
-D) [Missing option - Please review]
+A) Too large
+B) Slower lookup requiring search or hashing
+C) Too simple
+D) No drawbacks
 
 ✔ Correct Answer: B
 
@@ -1032,12 +990,10 @@ Subtopic: Copy-on-Write Benefits
 Difficulty: Hard
 
 Question: Why is copy-on-write beneficial for fork()?
-A: Slower fork
-B: Fast process creation, memory saved if no writes
-C: More memory used
-D: No benefits
-
-D) [Missing option - Please review]
+A) Slower fork
+B) Fast process creation, memory saved if no writes
+C) More memory used
+D) No benefits
 
 ✔ Correct Answer: B
 
@@ -1054,12 +1010,10 @@ Subtopic: Memory-Mapped Files Benefits
 Difficulty: Hard
 
 Question: What is an advantage of memory-mapped files?
-A: Slower access
-B: File I/O through memory operations, efficient for large files
-C: More complex
-D: No advantages
-
-D) [Missing option - Please review]
+A) Slower access
+B) File I/O through memory operations, efficient for large files
+C) More complex
+D) No advantages
 
 ✔ Correct Answer: B
 
@@ -1076,12 +1030,10 @@ Subtopic: Kernel Memory Allocation
 Difficulty: Hard
 
 Question: Why does kernel memory allocation differ from user memory?
-A: No difference
-B: Kernel needs contiguous physical memory, no page faults allowed
-C: Kernel is simpler
-D: User is more complex
-
-D) [Missing option - Please review]
+A) No difference
+B) Kernel needs contiguous physical memory, no page faults allowed
+C) Kernel is simpler
+D) User is more complex
 
 ✔ Correct Answer: B
 
@@ -1098,12 +1050,10 @@ Subtopic: Thrashing Prevention
 Difficulty: Medium
 
 Question: How can thrashing be prevented?
-A: Cannot prevent
-B: Ensure sufficient frames per process, limit multiprogramming
-C: Add more processes
-D: Reduce memory
-
-D) [Missing option - Please review]
+A) Cannot prevent
+B) Ensure sufficient frames per process, limit multiprogramming
+C) Add more processes
+D) Reduce memory
 
 ✔ Correct Answer: B
 
@@ -1120,12 +1070,10 @@ Subtopic: Working Set Model
 Difficulty: Hard
 
 Question: What does working set model assume?
-A: Random access
-B: Locality of reference - process uses subset of pages
-C: All pages used
-D: No assumptions
-
-D) [Missing option - Please review]
+A) Random access
+B) Locality of reference - process uses subset of pages
+C) All pages used
+D) No assumptions
 
 ✔ Correct Answer: B
 
@@ -1142,12 +1090,10 @@ Subtopic: File System Mounting
 Difficulty: Medium
 
 Question: What happens when file system is unmounted?
-A: File system deleted
-B: File system detached, must ensure no open files
-C: File system formatted
-D: Nothing
-
-D) [Missing option - Please review]
+A) File system deleted
+B) File system detached, must ensure no open files
+C) File system formatted
+D) Nothing
 
 ✔ Correct Answer: B
 
@@ -1164,12 +1110,10 @@ Subtopic: File System Types
 Difficulty: Medium
 
 Question: What is a journaling file system?
-A: No journal
-B: Logs changes before committing for crash recovery
-C: Slower system
-D: Old system
-
-D) [Missing option - Please review]
+A) No journal
+B) Logs changes before committing for crash recovery
+C) Slower system
+D) Old system
 
 ✔ Correct Answer: B
 
@@ -1186,12 +1130,10 @@ Subtopic: ext4 Features
 Difficulty: Hard
 
 Question: What features does ext4 provide?
-A: Basic features only
-B: Extents, delayed allocation, journal checksums, large file support
-C: No features
-D: Minimal features
-
-D) [Missing option - Please review]
+A) Basic features only
+B) Extents, delayed allocation, journal checksums, large file support
+C) No features
+D) Minimal features
 
 ✔ Correct Answer: B
 
@@ -1208,12 +1150,10 @@ Subtopic: NTFS Features
 Difficulty: Hard
 
 Question: What characterizes NTFS?
-A: Simple file system
-B: Journaling, ACLs, encryption, compression, large files
-C: No features
-D: FAT variant
-
-D) [Missing option - Please review]
+A) Simple file system
+B) Journaling, ACLs, encryption, compression, large files
+C) No features
+D) FAT variant
 
 ✔ Correct Answer: B
 
@@ -1230,12 +1170,10 @@ Subtopic: File System Performance
 Difficulty: Medium
 
 Question: What improves file system read performance?
-A: Slower disk
-B: Read-ahead (prefetching) and caching
-C: Less memory
-D: No optimization
-
-D) [Missing option - Please review]
+A) Slower disk
+B) Read-ahead (prefetching) and caching
+C) Less memory
+D) No optimization
 
 ✔ Correct Answer: B
 
@@ -1252,12 +1190,10 @@ Subtopic: File System Performance
 Difficulty: Medium
 
 Question: What improves file system write performance?
-A: Synchronous writes
-B: Write-behind (delayed write) and buffering
-C: Immediate writes
-D: No optimization
-
-D) [Missing option - Please review]
+A) Synchronous writes
+B) Write-behind (delayed write) and buffering
+C) Immediate writes
+D) No optimization
 
 ✔ Correct Answer: B
 
@@ -1274,12 +1210,10 @@ Subtopic: Block Allocation
 Difficulty: Hard
 
 Question: What is delayed allocation?
-A: Immediate allocation
-B: Defer block allocation until write-back
-C: No allocation
-D: Random allocation
-
-D) [Missing option - Please review]
+A) Immediate allocation
+B) Defer block allocation until write-back
+C) No allocation
+D) Random allocation
 
 ✔ Correct Answer: B
 
@@ -1296,12 +1230,10 @@ Subtopic: Directory Caching
 Difficulty: Medium
 
 Question: What is directory name lookup cache (dcache)?
-A: Disk cache
-B: Cache mapping pathnames to inodes
-C: Data cache
-D: No cache
-
-D) [Missing option - Please review]
+A) Disk cache
+B) Cache mapping pathnames to inodes
+C) Data cache
+D) No cache
 
 ✔ Correct Answer: B
 
@@ -1318,12 +1250,10 @@ Subtopic: Inode Caching
 Difficulty: Medium
 
 Question: What is inode cache?
-A: Data cache
-B: Cache of recently accessed inodes
-C: Directory cache
-D: No cache
-
-D) [Missing option - Please review]
+A) Data cache
+B) Cache of recently accessed inodes
+C) Directory cache
+D) No cache
 
 ✔ Correct Answer: B
 
@@ -1340,12 +1270,10 @@ Subtopic: File System Reliability
 Difficulty: Medium
 
 Question: How do file systems ensure reliability?
-A: No mechanisms
-B: Journaling, checksums, redundancy, backups
-C: Single copy only
-D: No protection
-
-D) [Missing option - Please review]
+A) No mechanisms
+B) Journaling, checksums, redundancy, backups
+C) Single copy only
+D) No protection
 
 ✔ Correct Answer: B
 
@@ -1362,12 +1290,10 @@ Subtopic: Soft Updates
 Difficulty: Hard
 
 Question: What are soft updates?
-A: Hard updates
-B: Ordering metadata writes to maintain consistency
-C: Random updates
-D: No updates
-
-D) [Missing option - Please review]
+A) Hard updates
+B) Ordering metadata writes to maintain consistency
+C) Random updates
+D) No updates
 
 ✔ Correct Answer: B
 
@@ -1384,12 +1310,10 @@ Subtopic: Disk Scheduling Performance
 Difficulty: Medium
 
 Question: Which disk scheduling algorithm provides most uniform wait time?
-A: FCFS
-B: C-SCAN
-C: SSTF
-D: Random
-
-D) [Missing option - Please review]
+A) FCFS
+B) C-SCAN
+C) SSTF
+D) Random
 
 ✔ Correct Answer: B
 
@@ -1406,12 +1330,10 @@ Subtopic: Disk Performance Factors
 Difficulty: Medium
 
 Question: What affects disk performance most?
-A: Color
-B: Seek time and rotational latency
-C: Brand
-D: Age only
-
-D) [Missing option - Please review]
+A) Color
+B) Seek time and rotational latency
+C) Brand
+D) Age only
 
 ✔ Correct Answer: B
 
@@ -1428,12 +1350,10 @@ Subtopic: Disk Caching
 Difficulty: Medium
 
 Question: Where can disk caching occur?
-A: Disk only
-B: Disk controller, OS buffer cache, application
-C: OS only
-D: No caching
-
-D) [Missing option - Please review]
+A) Disk only
+B) Disk controller, OS buffer cache, application
+C) OS only
+D) No caching
 
 ✔ Correct Answer: B
 
@@ -1450,12 +1370,10 @@ Subtopic: Native Command Queuing
 Difficulty: Hard
 
 Question: What is NCQ?
-A: No queuing
-B: Disk reorders commands for optimal performance
-C: FCFS queuing
-D: Random queuing
-
-D) [Missing option - Please review]
+A) No queuing
+B) Disk reorders commands for optimal performance
+C) FCFS queuing
+D) Random queuing
 
 ✔ Correct Answer: B
 
@@ -1472,12 +1390,10 @@ Subtopic: SSD Performance
 Difficulty: Medium
 
 Question: Why are SSDs faster than HDDs?
-A: Larger size
-B: No mechanical parts, parallel access
-C: Cheaper
-D: Older technology
-
-D) [Missing option - Please review]
+A) Larger size
+B) No mechanical parts, parallel access
+C) Cheaper
+D) Older technology
 
 ✔ Correct Answer: B
 
@@ -1494,12 +1410,10 @@ Subtopic: SSD Limitations
 Difficulty: Hard
 
 Question: What limits SSD lifespan?
-A: Unlimited writes
-B: Limited write/erase cycles per cell
-C: Read operations
-D: No limitations
-
-D) [Missing option - Please review]
+A) Unlimited writes
+B) Limited write/erase cycles per cell
+C) Read operations
+D) No limitations
 
 ✔ Correct Answer: B
 
@@ -1516,12 +1430,10 @@ Subtopic: SSD Garbage Collection
 Difficulty: Hard
 
 Question: Why do SSDs need garbage collection?
-A: No need
-B: Reclaim space from invalid pages, consolidate data
-C: Delete files
-D: Format disk
-
-D) [Missing option - Please review]
+A) No need
+B) Reclaim space from invalid pages, consolidate data
+C) Delete files
+D) Format disk
 
 ✔ Correct Answer: B
 
@@ -1538,12 +1450,10 @@ Subtopic: Over-Provisioning
 Difficulty: Hard
 
 Question: What is over-provisioning in SSDs?
-A: Under-provisioning
-B: Extra capacity for wear leveling and performance
-C: No extra space
-D: User storage
-
-D) [Missing option - Please review]
+A) Under-provisioning
+B) Extra capacity for wear leveling and performance
+C) No extra space
+D) User storage
 
 ✔ Correct Answer: B
 
@@ -1560,12 +1470,10 @@ Subtopic: RAID Performance
 Difficulty: Hard
 
 Question: Which RAID level provides best read performance?
-A: RAID 1
-B: RAID 0
-C: RAID 5
-D: RAID 6
-
-D) [Missing option - Please review]
+A) RAID 1
+B) RAID 0
+C) RAID 5
+D) RAID 6
 
 ✔ Correct Answer: B
 
@@ -1582,12 +1490,10 @@ Subtopic: RAID Reliability
 Difficulty: Hard
 
 Question: Which RAID level provides highest reliability?
-A: RAID 0
-B: RAID 6 or RAID 10
-C: RAID 1
-D: RAID 5
-
-D) [Missing option - Please review]
+A) RAID 0
+B) RAID 6 or RAID 10
+C) RAID 1
+D) RAID 5
 
 ✔ Correct Answer: B
 
@@ -1604,12 +1510,10 @@ Subtopic: Storage Area Network
 Difficulty: Hard
 
 Question: What is a SAN?
-A: Local storage
-B: Network providing block-level storage access
-C: File system
-D: Direct attached storage
-
-D) [Missing option - Please review]
+A) Local storage
+B) Network providing block-level storage access
+C) File system
+D) Direct attached storage
 
 ✔ Correct Answer: B
 
@@ -1626,12 +1530,10 @@ Subtopic: Network Attached Storage
 Difficulty: Hard
 
 Question: How does NAS differ from SAN?
-A: No difference
-B: NAS provides file-level access, SAN provides block-level
-C: NAS is faster
-D: SAN is obsolete
-
-D) [Missing option - Please review]
+A) No difference
+B) NAS provides file-level access, SAN provides block-level
+C) NAS is faster
+D) SAN is obsolete
 
 ✔ Correct Answer: B
 
@@ -1648,12 +1550,10 @@ Subtopic: I/O Performance
 Difficulty: Medium
 
 Question: What improves I/O performance?
-A: Slower devices
-B: Buffering, caching, scheduling, asynchronous I/O
-C: Less memory
-D: No optimization
-
-D) [Missing option - Please review]
+A) Slower devices
+B) Buffering, caching, scheduling, asynchronous I/O
+C) Less memory
+D) No optimization
 
 ✔ Correct Answer: B
 
@@ -1670,12 +1570,10 @@ Subtopic: I/O Buffering
 Difficulty: Medium
 
 Question: What is double buffering?
-A: Single buffer
-B: Two buffers alternating for continuous I/O
-C: No buffering
-D: Triple buffering
-
-D) [Missing option - Please review]
+A) Single buffer
+B) Two buffers alternating for continuous I/O
+C) No buffering
+D) Triple buffering
 
 ✔ Correct Answer: B
 
@@ -1692,12 +1590,10 @@ Subtopic: Scatter-Gather I/O
 Difficulty: Hard
 
 Question: What is scatter-gather I/O?
-A: Single buffer I/O
-B: Single I/O operation with multiple buffers
-C: No I/O
-D: Sequential I/O
-
-D) [Missing option - Please review]
+A) Single buffer I/O
+B) Single I/O operation with multiple buffers
+C) No I/O
+D) Sequential I/O
 
 ✔ Correct Answer: B
 
@@ -1714,12 +1610,10 @@ Subtopic: I/O Modes
 Difficulty: Medium
 
 Question: What is memory-mapped I/O advantage?
-A: Slower access
-B: Use standard memory instructions for I/O
-C: More complex
-D: No advantages
-
-D) [Missing option - Please review]
+A) Slower access
+B) Use standard memory instructions for I/O
+C) More complex
+D) No advantages
 
 ✔ Correct Answer: B
 
@@ -1736,12 +1630,10 @@ Subtopic: I/O Modes
 Difficulty: Medium
 
 Question: What is port-mapped I/O advantage?
-A: No advantages
-B: Separate address space protects memory from I/O
-C: Slower
-D: More complex
-
-D) [Missing option - Please review]
+A) No advantages
+B) Separate address space protects memory from I/O
+C) Slower
+D) More complex
 
 ✔ Correct Answer: B
 
@@ -1758,12 +1650,10 @@ Subtopic: Interrupt Coalescing
 Difficulty: Hard
 
 Question: What is interrupt coalescing?
-A: More interrupts
-B: Combining multiple interrupts into single interrupt
-C: No interrupts
-D: Random interrupts
-
-D) [Missing option - Please review]
+A) More interrupts
+B) Combining multiple interrupts into single interrupt
+C) No interrupts
+D) Random interrupts
 
 ✔ Correct Answer: B
 
@@ -1780,12 +1670,10 @@ Subtopic: I/O APIC
 Difficulty: Hard
 
 Question: What is I/O APIC?
-A: Old interrupt controller
-B: Advanced interrupt controller for multiprocessor systems
-C: No controller
-D: Simple controller
-
-D) [Missing option - Please review]
+A) Old interrupt controller
+B) Advanced interrupt controller for multiprocessor systems
+C) No controller
+D) Simple controller
 
 ✔ Correct Answer: B
 
@@ -1802,12 +1690,10 @@ Subtopic: Security Principles
 Difficulty: Medium
 
 Question: What is the principle of separation of privilege?
-A: Single privilege
-B: Require multiple conditions for access
-C: No separation
-D: Unlimited privilege
-
-D) [Missing option - Please review]
+A) Single privilege
+B) Require multiple conditions for access
+C) No separation
+D) Unlimited privilege
 
 ✔ Correct Answer: B
 
@@ -1824,12 +1710,10 @@ Subtopic: Security Principles
 Difficulty: Hard
 
 Question: What is the principle of fail-safe defaults?
-A: Default allow
-B: Default deny unless explicitly permitted
-C: No defaults
-D: Random defaults
-
-D) [Missing option - Please review]
+A) Default allow
+B) Default deny unless explicitly permitted
+C) No defaults
+D) Random defaults
 
 ✔ Correct Answer: B
 
@@ -1846,12 +1730,10 @@ Subtopic: Security Principles
 Difficulty: Hard
 
 Question: What is the principle of economy of mechanism?
-A: Complex design
-B: Keep security mechanisms simple
-C: Large systems
-D: No principle
-
-D) [Missing option - Please review]
+A) Complex design
+B) Keep security mechanisms simple
+C) Large systems
+D) No principle
 
 ✔ Correct Answer: B
 
@@ -1868,12 +1750,10 @@ Subtopic: Access Control Models
 Difficulty: Hard
 
 Question: What is Mandatory Access Control (MAC)?
-A: User controls access
-B: System enforces access based on security labels
-C: No control
-D: Optional control
-
-D) [Missing option - Please review]
+A) User controls access
+B) System enforces access based on security labels
+C) No control
+D) Optional control
 
 ✔ Correct Answer: B
 
@@ -1890,12 +1770,10 @@ Subtopic: Security Levels
 Difficulty: Hard
 
 Question: What is the Bell-LaPadula model?
-A: Integrity model
-B: Confidentiality model with no read up, no write down
-C: Availability model
-D: No model
-
-D) [Missing option - Please review]
+A) Integrity model
+B) Confidentiality model with no read up, no write down
+C) Availability model
+D) No model
 
 ✔ Correct Answer: B
 
@@ -1912,12 +1790,10 @@ Subtopic: Security Levels
 Difficulty: Hard
 
 Question: What is the Biba model?
-A: Confidentiality model
-B: Integrity model with no write up, no read down
-C: Availability model
-D: No model
-
-D) [Missing option - Please review]
+A) Confidentiality model
+B) Integrity model with no write up, no read down
+C) Availability model
+D) No model
 
 ✔ Correct Answer: B
 
@@ -1934,12 +1810,10 @@ Subtopic: Security Mechanisms
 Difficulty: Medium
 
 Question: What is two-factor authentication?
-A: Single factor
-B: Requires two different authentication factors
-C: No authentication
-D: Three factors
-
-D) [Missing option - Please review]
+A) Single factor
+B) Requires two different authentication factors
+C) No authentication
+D) Three factors
 
 ✔ Correct Answer: B
 
@@ -1956,12 +1830,10 @@ Subtopic: Security Mechanisms
 Difficulty: Hard
 
 Question: What is challenge-response authentication?
-A: Static password
-B: Server challenges, client responds with computed value
-C: No challenge
-D: Simple password
-
-D) [Missing option - Please review]
+A) Static password
+B) Server challenges, client responds with computed value
+C) No challenge
+D) Simple password
 
 ✔ Correct Answer: B
 
@@ -1978,12 +1850,10 @@ Subtopic: Security Attacks
 Difficulty: Medium
 
 Question: What is a brute-force attack?
-A: Physical attack
-B: Trying all possible passwords/keys
-C: Social engineering
-D: Network attack
-
-D) [Missing option - Please review]
+A) Physical attack
+B) Trying all possible passwords/keys
+C) Social engineering
+D) Network attack
 
 ✔ Correct Answer: B
 
@@ -2000,12 +1870,10 @@ Subtopic: Security Attacks
 Difficulty: Hard
 
 Question: What is a timing attack?
-A: Random attack
-B: Analyzing execution time to extract secrets
-C: Slow attack
-D: No attack
-
-D) [Missing option - Please review]
+A) Random attack
+B) Analyzing execution time to extract secrets
+C) Slow attack
+D) No attack
 
 ✔ Correct Answer: B
 
@@ -2022,12 +1890,10 @@ Subtopic: Security Attacks
 Difficulty: Hard
 
 Question: What is a side-channel attack?
-A: Direct attack
-B: Exploiting information from physical implementation
-C: Network attack
-D: No attack
-
-D) [Missing option - Please review]
+A) Direct attack
+B) Exploiting information from physical implementation
+C) Network attack
+D) No attack
 
 ✔ Correct Answer: B
 
@@ -2044,12 +1910,10 @@ Subtopic: Security Defenses
 Difficulty: Medium
 
 Question: What is the purpose of DEP (Data Execution Prevention)?
-A: Allow code execution anywhere
-B: Prevent code execution from data pages
-C: No prevention
-D: Allow all execution
-
-D) [Missing option - Please review]
+A) Allow code execution anywhere
+B) Prevent code execution from data pages
+C) No prevention
+D) Allow all execution
 
 ✔ Correct Answer: B
 
@@ -2066,12 +1930,10 @@ Subtopic: Security Defenses
 Difficulty: Hard
 
 Question: What is control-flow integrity (CFI)?
-A: No integrity
-B: Ensuring program follows valid control-flow paths
-C: Data integrity
-D: Random flow
-
-D) [Missing option - Please review]
+A) No integrity
+B) Ensuring program follows valid control-flow paths
+C) Data integrity
+D) Random flow
 
 ✔ Correct Answer: B
 
@@ -2088,12 +1950,10 @@ Subtopic: Secure Boot
 Difficulty: Hard
 
 Question: What is secure boot?
-A: Fast boot
-B: Verifying boot components using digital signatures
-C: No verification
-D: Slow boot
-
-D) [Missing option - Please review]
+A) Fast boot
+B) Verifying boot components using digital signatures
+C) No verification
+D) Slow boot
 
 ✔ Correct Answer: B
 
@@ -2110,12 +1970,10 @@ Subtopic: Trusted Platform Module
 Difficulty: Hard
 
 Question: What is TPM?
-A: Software module
-B: Hardware chip providing cryptographic functions
-C: Network module
-D: No module
-
-D) [Missing option - Please review]
+A) Software module
+B) Hardware chip providing cryptographic functions
+C) Network module
+D) No module
 
 ✔ Correct Answer: B
 
@@ -2132,12 +1990,10 @@ Subtopic: Security Monitoring
 Difficulty: Medium
 
 Question: What is intrusion detection system (IDS)?
-A: Prevention system
-B: Monitors network/system for malicious activity
-C: Firewall
-D: Antivirus
-
-D) [Missing option - Please review]
+A) Prevention system
+B) Monitors network/system for malicious activity
+C) Firewall
+D) Antivirus
 
 ✔ Correct Answer: B
 

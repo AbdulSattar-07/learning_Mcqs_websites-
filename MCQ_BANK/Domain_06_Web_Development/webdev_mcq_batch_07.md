@@ -1479,9 +1479,7 @@ Difficulty: Hard
 
 Question: What is Subresource Integrity (SRI)?
 A) Database integrity
-B: Verifying fetched resources haven't been tampered with
-B) [Missing option - Please review]
-
+B) Verifying fetched resources haven't been tampered with
 C) API security
 D) User authentication
 
@@ -1537,9 +1535,7 @@ Question: Which CSS property maintains element aspect ratio?
 A) ratio
 B) aspect-ratio
 C) proportion
-D: size-ratio
-
-D) [Missing option - Please review]
+D) size-ratio
 
 ✔ Correct Answer: B
 Reason: aspect-ratio property defines width-to-height ratio of elements.
@@ -1646,9 +1642,7 @@ Difficulty: Medium
 Question: Which property controls how element colors blend with background?
 A) blend
 B) mix-blend-mode
-C: color-blend
-C) [Missing option - Please review]
-
+C) color-blend
 D) background-blend
 
 ✔ Correct Answer: B
@@ -1755,9 +1749,7 @@ Difficulty: Hard
 
 Question: What is the Permissions Policy (formerly Feature Policy)?
 A) User permissions
-B: Controls which browser features can be used
-B) [Missing option - Please review]
-
+B) Controls which browser features can be used
 C) API access control
 D) Cookie policy
 
