@@ -344,6 +344,12 @@ A) [Option A]
 B) [Option B]
 C) [Option C]
 D) [Option D]
+
+✔ Correct Answer: A
+Reason: [Reason needs review]
+Tag: Normal
+
+---
 ### Question 515
 Domain: Data Structures
 Topic: Matrix Algorithms

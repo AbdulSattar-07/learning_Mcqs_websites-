@@ -723,6 +723,12 @@ A) [Option A]
 B) [Option B]
 C) [Option C]
 D) [Option D]
+
+✔ Correct Answer: A
+Reason: [Reason needs review]
+Tag: Normal
+
+---
 ### Question 321
 Domain: Data Structures
 Topic: Stack Applications
@@ -768,6 +774,8 @@ Domain: Data Structures
 Topic: Code Analysis
 Subtopic: Circular Queue
 Difficulty: Hard
+
+Question: [Question text needs review]
 
 ```python
 class CircularQueue:
