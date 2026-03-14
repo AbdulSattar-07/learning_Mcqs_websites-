@@ -15,6 +15,8 @@ B: Stack for operators
 C: Array
 D: Tree
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Stack maintains operators based on precedence, outputting higher precedence operators before lower ones, converting infix to postfix.
@@ -34,6 +36,8 @@ A: Generate all permutations
 B: Find rightmost ascending pair, swap and reverse suffix
 C: Sort
 D: Random
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -55,6 +59,8 @@ B: KMP O(m+n)
 C: Brute force
 D: Sorting
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: KMP algorithm with LPS array achieves O(m+n) time complexity, most efficient for substring search compared to naive O(m*n).
@@ -74,6 +80,8 @@ A: Use extra array
 B: Reverse entire, reverse first k, reverse remaining
 C: Shift one by one
 D: Impossible
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -95,6 +103,8 @@ B: Traverse both lists with carry tracking
 C: Reverse and add
 D: Use array
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Traverse both lists simultaneously, adding digits with carry, creating result list, handling different lengths and final carry.
@@ -114,6 +124,8 @@ A: Use two stacks alternating direction
 B: Single queue with reverse
 C: Recursion only
 D: DFS
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: A
 
@@ -135,6 +147,8 @@ B: DP with dp[i] = min coins for amount i
 C: Backtracking only
 D: Sorting
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: DP builds solution: dp[i] = min(dp[i-coin]+1) for all coins, handles cases where greedy fails.
@@ -154,6 +168,8 @@ A: Check for cycle in directed graph using DFS
 B: Sort courses
 C: Count edges
 D: BFS only
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: A
 
@@ -175,6 +191,8 @@ B: Min heap of size k, O(n log k)
 C: Linear scan
 D: Binary search
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Maintain min heap of k largest elements, root is kth largest, O(n log k) time better than sorting for small k.
@@ -194,6 +212,8 @@ A: Check all substrings O(n³)
 B: Expand around centers O(n²)
 C: Greedy
 D: Sorting
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -215,6 +235,8 @@ B: Two pointers from ends, move smaller height
 C: Sort heights
 D: Stack
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Two pointers start at ends, area = min(height) * width, move pointer with smaller height inward, O(n) time.
@@ -234,6 +256,8 @@ A: Generate all permutations and filter
 B: Backtrack with open/close count constraints
 C: Dynamic programming
 D: Greedy
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -255,6 +279,8 @@ B: Recursive: if p and q in different subtrees, root is LCA
 C: Level order traversal
 D: Inorder traversal
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Recursively check if p and q in different subtrees of current node, if yes current is LCA, else recurse to subtree containing both.
@@ -274,6 +300,8 @@ A: Sort by start, merge if overlap
 B: Check all pairs
 C: Use heap
 D: Dynamic programming
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: A
 
@@ -295,6 +323,8 @@ B: DFS/BFS from each unvisited land cell, mark visited
 C: Union-find only
 D: Greedy
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Iterate grid, when finding unvisited land, DFS/BFS to mark entire island, increment count, O(m*n) time.
@@ -314,6 +344,8 @@ A: 2^(m+n)
 B: dp[i][j] = dp[i-1][j] + dp[i][j-1]
 C: m + n
 D: m * n
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -335,6 +367,8 @@ B: Use sorted string as hash key
 C: Count characters for each
 D: Random grouping
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Sort each string as key in hashmap, anagrams have same sorted form, group by key, O(n*k log k) where k is max string length.
@@ -354,6 +388,8 @@ A: Yes, always
 B: No, need inorder with one of them
 C: Yes, if tree is full binary tree
 D: Yes, with level order
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: C
 
@@ -375,6 +411,8 @@ B: Greedy: track max reachable index
 C: BFS all positions
 D: Dynamic programming only
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Greedy approach: iterate updating max reachable, if current index > max reachable return false, O(n) time O(1) space.
@@ -394,6 +432,8 @@ A: Merge two at a time sequentially
 B: Use min heap with k elements
 C: Merge all into array and sort
 D: Recursion only
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -415,6 +455,8 @@ B: Modified binary search checking which half is sorted
 C: Sort first
 D: Two pointers
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Binary search modified: determine which half is sorted, check if target in sorted half, adjust search space accordingly, O(log n).
@@ -434,6 +476,8 @@ A: Try all combinations
 B: DP: dp[i] = true if s[0:i] can be segmented
 C: Greedy matching
 D: Sort and search
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -455,6 +499,8 @@ B: Inorder only
 C: Preorder only
 D: Count nodes
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: A
 
 Reason: Level order traversal with null markers for missing children preserves structure, can reconstruct tree uniquely from serialized form.
@@ -474,6 +520,8 @@ A: Copy nodes only
 B: DFS/BFS with hashmap mapping old to new nodes
 C: Copy edges only
 D: Serialize and parse
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -495,6 +543,8 @@ B: Sliding window with hashset, expand/contract
 C: Sort characters
 D: Two passes
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Sliding window with hashset, expand right adding chars, contract left when duplicate found, track max length, O(n) time.
@@ -514,6 +564,8 @@ A: Split randomly
 B: Track last occurrence of each char, extend partition to max last occurrence
 C: Sort characters
 D: Use stack
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -535,6 +587,8 @@ B: Morris traversal or reverse preorder with right pointer
 C: Level order
 D: Inorder only
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Reverse preorder (right, left, root) maintaining previous node, link current.right to previous, set left to null, O(n) time O(1) space.
@@ -554,6 +608,8 @@ A: Count digits
 B: DP: dp[i] = dp[i-1] + dp[i-2] if valid two-digit
 C: Greedy
 D: Factorial
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -575,6 +631,8 @@ B: Bit manipulation with ones and twos variables
 C: Sort and compare
 D: XOR
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Track bits appearing once (ones) and twice (twos), when bit appears third time clear from both, remaining in ones is answer.
@@ -594,6 +652,8 @@ A: Check all pairs O(n²)
 B: Stack maintaining increasing heights, calculate area on pop
 C: Divide and conquer only
 D: Greedy
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -615,6 +675,8 @@ B: BFS treating words as graph nodes
 C: Greedy character matching
 D: Sort words
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: BFS on word graph where edge exists if words differ by one character, finds shortest path, O(M²*N) where M is word length, N is word count.
@@ -634,6 +696,8 @@ A: Nested loops O(n²)
 B: Left and right product arrays
 C: Use division
 D: Impossible
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -655,6 +719,8 @@ B: Recursively compute max gain from each subtree, update global max
 C: Level order sum
 D: Preorder sum
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: For each node, max gain = node.val + max(0, left_gain, right_gain), path through node = node.val + left_gain + right_gain, track global max.
@@ -674,6 +740,8 @@ A: Check all substrings
 B: Sliding window with character frequency maps
 C: Sort both strings
 D: Greedy
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -695,6 +763,8 @@ B: Hashmap old to new nodes, two passes
 C: Single pass impossible
 D: Ignore random pointers
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: First pass creates nodes in hashmap, second pass sets next and random pointers using hashmap, handles cycles and complex references.
@@ -714,6 +784,8 @@ A: Count different characters
 B: DP: dp[i][j] = min ops for s[0:i] to t[0:j]
 C: Greedy replacement
 D: Sort and compare
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -735,6 +807,8 @@ B: Return smallest permutation (reverse array)
 C: Return error
 D: Return empty
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: When array is in descending order (largest permutation), next permutation wraps to smallest (ascending order), reverse entire array.
@@ -754,6 +828,8 @@ A: Traverse right subtree only
 B: Level order, take last node of each level
 C: Preorder traversal
 D: Inorder traversal
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -775,6 +851,8 @@ B: DFS from ocean borders inward, find intersection
 C: BFS from center
 D: Greedy
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: DFS from Pacific borders marking reachable cells, DFS from Atlantic borders, intersection is answer, O(m*n) time.
@@ -794,6 +872,8 @@ A: Sort after each insertion
 B: Two heaps: max heap for lower half, min heap for upper half
 C: Single array
 D: Binary search tree
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -815,6 +895,8 @@ B: Build trie of dictionary, DFS board with trie traversal
 C: Check all paths
 D: Sort board
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Trie enables simultaneous search for all words, DFS board following trie paths, prune branches not in trie, much faster than individual searches.
@@ -834,6 +916,8 @@ A: Simulate water filling
 B: For each position, water = min(max_left, max_right) - height
 C: Sort heights
 D: Greedy
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -855,6 +939,8 @@ B: Binary search with patience sorting O(n log n)
 C: Greedy O(n)
 D: Backtracking
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Maintain array of smallest tail elements for increasing subsequences of each length, binary search to place elements, O(n log n).
@@ -874,6 +960,8 @@ A: Count opening and closing
 B: Stack: push opening, pop on closing, match types
 C: Recursion
 D: Two pointers
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -895,6 +983,8 @@ B: Build graph from adjacent word pairs, topological sort
 C: Count character frequency
 D: Alphabetical order
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Compare adjacent words to find character ordering (edges in graph), topological sort gives valid character order, detect cycles for invalid input.
@@ -914,6 +1004,8 @@ A: Inorder traversal, return kth element
 B: Level order traversal
 C: Preorder traversal
 D: Count all nodes
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: A
 
@@ -935,6 +1027,8 @@ B: Binary search: if mid > mid+1, peak in left half
 C: Sort array
 D: Two pointers
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Binary search: if arr[mid] > arr[mid+1], peak exists in left half including mid, else in right half, O(log n) time.
@@ -954,6 +1048,8 @@ A: Rob all houses
 B: DP: dp[i] = max(dp[i-1], dp[i-2] + nums[i])
 C: Rob every other house
 D: Greedy largest values
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -975,6 +1071,8 @@ B: DP: dp[i][j] = LCS of s1[0:i] and s2[0:j]
 C: Greedy matching
 D: Sort and compare
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: DP: if chars match dp[i][j]=dp[i-1][j-1]+1, else max(dp[i-1][j], dp[i][j-1]), O(m*n) time and space.
@@ -994,6 +1092,8 @@ A: Check each region separately
 B: DFS from borders marking non-captured, flip remaining
 C: BFS from center
 D: Count regions
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1015,6 +1115,8 @@ B: Merge sort with slow/fast pointers to find middle
 C: Bubble sort
 D: Insertion sort
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Merge sort on linked list: find middle with slow/fast pointers, recursively sort halves, merge sorted halves, O(n log n) time O(1) space.
@@ -1034,6 +1136,8 @@ A: Check all subarrays
 B: Track both max and min products (negatives can flip)
 C: Greedy largest values
 D: Sort array
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1055,6 +1159,8 @@ B: Check if perfect tree, else recurse on subtrees, O(log²n)
 C: Level order count
 D: Impossible
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Check left and right heights, if equal tree is perfect (2^h - 1 nodes), else recurse on subtrees, O(log²n) time.
@@ -1074,6 +1180,8 @@ A: Hashmap counting
 B: Boyer-Moore voting with two candidates
 C: Sort and count
 D: Nested loops
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1095,6 +1203,8 @@ B: Build weighted graph, DFS/BFS to find path product
 C: Store all ratios
 D: Matrix multiplication
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Graph where edge a→b has weight k, b→a has weight 1/k, query a/c is path product from a to c using DFS/BFS.
@@ -1113,6 +1223,8 @@ A: Try all combinations
 B: DP: dp[i][j] = true if s3[0:i+j] is interleaving of s1[0:i] and s2[0:j]
 C: Merge and compare
 D: Greedy matching
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1134,6 +1246,8 @@ B: Last postorder element is root, find in inorder to split subtrees
 C: First postorder is root
 D: Impossible
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Last postorder element is root, find it in inorder to determine left/right subtrees, recursively build subtrees, O(n) with hashmap.
@@ -1153,6 +1267,8 @@ A: Iterate and AND all
 B: Find common prefix of m and n in binary
 C: AND m and n only
 D: XOR operation
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1174,6 +1290,8 @@ B: Stack for numbers and operators, handle precedence and parentheses
 C: Convert to postfix first
 D: Recursion only
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Stack maintains numbers and signs, on '(' push current result and sign, on ')' pop and apply, handle signs properly, O(n) time.
@@ -1193,6 +1311,8 @@ A: Try each station
 B: Track total and current surplus, start where current goes negative
 C: Greedy largest gas
 D: Binary search
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1214,6 +1334,8 @@ B: Backtrack with palindrome checking, build partitions
 C: Greedy longest palindromes
 D: Dynamic programming only
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Backtracking: try each position as partition point, check if prefix is palindrome, recurse on suffix, collect all valid partitions.
@@ -1233,6 +1355,8 @@ A: BFS unweighted
 B: Dijkstra's algorithm for shortest paths
 C: DFS
 D: Count edges
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1254,6 +1378,8 @@ B: Assign column indices, use hashmap, sort by column then row then value
 C: Level order only
 D: Preorder traversal
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Assign column index (left child: col-1, right: col+1), track row, group by column in hashmap, sort appropriately, O(n log n).
@@ -1273,6 +1399,8 @@ A: Greedy burst smallest
 B: DP: dp[i][j] = max coins bursting balloons between i and j, try each as last
 C: Burst randomly
 D: Sort and burst
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1294,6 +1422,8 @@ B: Find middle, reverse second half, merge alternately
 C: Recursion only
 D: Swap adjacent
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Find middle with slow/fast pointers, reverse second half, merge two halves alternately, O(n) time O(1) space.
@@ -1313,6 +1443,8 @@ A: Max of each window O(n*k)
 B: Deque maintaining decreasing elements
 C: Heap for each window
 D: Sort each window
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1334,6 +1466,8 @@ B: Union-Find, return edge that connects already connected nodes
 C: BFS
 D: Count degrees
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Union-Find tracks connected components, when adding edge between nodes already in same component, that edge creates cycle, O(n*α(n)).
@@ -1353,6 +1487,8 @@ A: Place on all nodes
 B: Greedy post-order: place camera when child uncovered
 C: Place on leaves
 D: Random placement
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1374,6 +1510,8 @@ B: DP: dp[i][j] = match of s[0:i] and p[0:j]
 C: Greedy matching
 D: Backtracking only
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: DP handles . (any char) and * (zero or more of previous), dp[i][j] considers char match and * cases, O(m*n) time.
@@ -1393,6 +1531,8 @@ A: Sort array
 B: Use array indices as hash, place each num at index num-1
 C: Use hashset
 D: Linear scan
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1414,6 +1554,8 @@ B: Split by '/', use stack, push dirs, pop on '..'
 C: Remove all dots
 D: Reverse path
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Split path by '/', use stack: push directory names, pop on '..', ignore '.' and empty, join stack with '/', O(n) time.
@@ -1433,6 +1575,8 @@ A: Compare all pairs
 B: Union-Find on emails, group by component
 C: Sort emails
 D: Hashmap only
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1454,6 +1598,8 @@ B: Build parent pointers, BFS treating as undirected graph
 C: Level order from root
 D: Preorder traversal
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Add parent pointers, BFS from target in all directions (left, right, parent) treating as undirected graph, track visited, O(n) time.
@@ -1473,6 +1619,8 @@ A: Generate all subsequences
 B: DP: dp[i][j] = count for s[0:i] and t[0:j]
 C: Greedy matching
 D: Backtracking
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1494,6 +1642,8 @@ B: HashSet, for each sequence start, count length
 C: Nested loops
 D: Binary search
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Add all to hashset, for each number without num-1 (sequence start), count consecutive numbers, track max, O(n) time.
@@ -1513,6 +1663,8 @@ A: String comparison
 B: DP: dp[i][j] = match of s[0:i] and p[0:j], handle * matching zero or more
 C: Greedy
 D: Regex library
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1534,6 +1686,8 @@ B: Trim leaves iteratively, remaining nodes are centers
 C: BFS from random node
 D: DFS all paths
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Minimum height tree roots are graph centers, iteratively remove leaves (degree 1 nodes) until 1-2 nodes remain, O(n) time.
@@ -1553,6 +1707,8 @@ A: DFS tracking current number, add at leaves
 B: Level order sum
 C: Inorder traversal
 D: Count nodes
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: A
 
@@ -1574,6 +1730,8 @@ B: DP/Recursion: try all split points, check if scrambled
 C: Character count
 D: Reverse string
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Recursively try each split point, check if (left1 scrambles left2 and right1 scrambles right2) or (left1 scrambles right2 and right1 scrambles left2).
@@ -1593,6 +1751,8 @@ A: Sort and compare O(n log n)
 B: Bucket sort: gap must be >= ceiling((max-min)/(n-1))
 C: Linear scan
 D: Heap
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1614,6 +1774,8 @@ B: Tarjan's algorithm with DFS and low-link values
 C: BFS from each node
 D: Count degrees
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Tarjan's algorithm: DFS tracking discovery time and low-link value, edge is bridge if low[child] > disc[parent], O(V+E).
@@ -1633,6 +1795,8 @@ A: Add reverse of string
 B: Find longest palindromic prefix using KMP, add remaining reversed
 C: Check all possibilities
 D: Add one character
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1654,6 +1818,8 @@ B: Inorder traversal finds two violations, swap them back
 C: Level order fix
 D: Preorder fix
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Inorder of BST is sorted, find two positions where order violated (first and second), swap those nodes' values, O(n) time O(1) space.
@@ -1673,6 +1839,8 @@ A: Check all rectangles
 B: Convert to histogram problem for each row
 C: Count 1s
 D: Greedy
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1694,6 +1862,8 @@ B: DP tracking max profit after each transaction state
 C: Greedy two largest gains
 D: Sort prices
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: DP with states: buy1, sell1, buy2, sell2, update each considering previous state and current price, O(n) time O(1) space.
@@ -1713,6 +1883,8 @@ A: Add spaces randomly
 B: Distribute spaces evenly, left-justify last line
 C: Center align all
 D: Right align
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1734,6 +1906,8 @@ B: BFS with price tracking, limit depth to K+1
 C: DFS all paths
 D: Greedy shortest path
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: BFS level by level (each level is one stop), track minimum price to each city, limit to K+1 levels, O(K*E) time.
@@ -1753,6 +1927,8 @@ A: Count all nodes
 B: Level order with position indices, width = max - min + 1
 C: Count leaves
 D: Height of tree
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1774,6 +1950,8 @@ B: Yes, first player can always choose all even or all odd indices
 C: No
 D: Random
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: With even number of piles, first player can force taking all even-indexed or all odd-indexed piles, one set has more stones.
@@ -1793,6 +1971,8 @@ A: Check all subarrays O(n²)
 B: Prefix sum with hashmap tracking frequencies
 C: Sort array
 D: Two pointers
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1814,6 +1994,8 @@ B: DP: dp[i][j] = LPS length in s[i:j], or LCS of s and reverse(s)
 C: Greedy
 D: Expand around centers
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: DP: if s[i]==s[j], dp[i][j]=dp[i+1][j-1]+2, else max(dp[i+1][j], dp[i][j-1]), or use LCS(s, reverse(s)), O(n²).
@@ -1833,6 +2015,8 @@ A: BFS shortest path
 B: Binary search on time + BFS, or Dijkstra with max height as cost
 C: DFS all paths
 D: Greedy
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1854,6 +2038,8 @@ B: Post-order: moves = sum of |balance| of children
 C: Level order distribution
 D: Preorder distribution
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Post-order compute balance (coins - 1) for each subtree, moves through edge = |balance|, sum all moves, O(n) time.
@@ -1873,6 +2059,8 @@ A: Random tree
 B: Greedy or DP: merge smallest adjacent leaves first
 C: Balanced tree
 D: Left-skewed tree
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1894,6 +2082,8 @@ B: Two pointers: expand to find T, contract to minimize
 C: Dynamic programming
 D: Sort strings
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Expand right pointer matching T characters, when complete contract left pointer while maintaining match, track minimum window, O(S*T).
@@ -1913,6 +2103,8 @@ A: BFS on stops
 B: BFS on bus routes (nodes are buses, edges if share stop)
 C: DFS all routes
 D: Greedy nearest
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1934,6 +2126,8 @@ B: Trie with reverse lookup, check prefixes and suffixes
 C: Sort and compare
 D: Hashmap only
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: For each word, check if reverse exists (full palindrome), check prefixes (if suffix is palindrome), check suffixes (if prefix is palindrome), O(n*k²).
@@ -1953,6 +2147,8 @@ A: Random construction
 B: Find max as root, recursively build left and right subtrees
 C: Inorder construction
 D: Level order construction
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1974,6 +2170,8 @@ B: DP: two people going down simultaneously
 C: Greedy path
 D: BFS
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Model as two people going down simultaneously, DP state (r1, c1, r2, c2), share cherry if same cell, O(n⁴) or O(n³) optimized.
@@ -1993,6 +2191,8 @@ A: Check all subarrays O(n²)
 B: Merge sort with prefix sums counting inversions
 C: Segment tree
 D: Binary search
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 

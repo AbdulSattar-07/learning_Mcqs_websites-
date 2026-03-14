@@ -15,6 +15,8 @@ B: Max heap by frequency, alternate most frequent characters
 C: Random shuffle
 D: Reverse string
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Max heap of character frequencies, repeatedly take two most frequent, append to result, decrease counts, impossible if max frequency > (n+1)/2.
@@ -34,6 +36,8 @@ A: All nodes
 B: Nodes with no incoming edges
 C: Highest degree nodes
 D: Random nodes
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -55,6 +59,8 @@ B: DFS to depth-1, insert new nodes as children
 C: Preorder insertion
 D: Random insertion
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: DFS to target depth-1, for each node create new nodes with old children, set new nodes as children, handle depth=1 special case, O(n).
@@ -74,6 +80,8 @@ A: Permutations
 B: DP: dp[i] = ways to make amount i, iterate coins outer loop
 C: Greedy
 D: Backtracking
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -95,6 +103,8 @@ B: Greedy: count direction changes
 C: DP tracking up and down
 D: Sort
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Greedy counts peaks and valleys (direction changes), or DP: up[i] = longest ending with increase, down[i] = longest ending with decrease, O(n).
@@ -114,6 +124,8 @@ A: Random order
 B: Greedy with heap: use most frequent, avoid three consecutive
 C: Alternate characters
 D: Sort
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -135,6 +147,8 @@ B: Floyd-Warshall for all pairs shortest paths, count reachable
 C: Dijkstra from each
 D: DFS
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Floyd-Warshall computes all pairs shortest paths, for each city count cities within threshold, return city with minimum count, O(n³).
@@ -154,6 +168,8 @@ A: Inorder check
 B: Level order traversal checking values and order at each level
 C: DFS
 D: Preorder
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -175,6 +191,8 @@ B: DP: dp[i][vowel] = count of strings length i ending with vowel
 C: Calculate directly
 D: Backtracking
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: DP: for each vowel track count of strings ending with it, update based on rules, sum all vowels at length n, O(n) time.
@@ -194,6 +212,8 @@ A: Try all positions
 B: Greedy with flip tracking: flip when encountering 0
 C: Random flips
 D: Binary search
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -215,6 +235,8 @@ B: Two pointers swapping only letters
 C: Stack
 D: Sort
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Two pointers from ends, skip non-letters, swap letters, O(n) time O(1) space.
@@ -234,6 +256,8 @@ A: DFS
 B: BFS tracking distance
 C: Dijkstra
 D: Greedy
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -255,6 +279,8 @@ B: Stack of decreasing indices, scan right finding matches
 C: Sort
 D: Two pointers
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Build stack of decreasing elements (potential left boundaries), scan from right, for each element pop smaller stack elements computing width, O(n).
@@ -274,6 +300,8 @@ A: Merge randomly
 B: DP: dp[i][j][p] = min cost to merge piles i to j into p piles
 C: Greedy smallest
 D: Sort piles
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -295,6 +323,8 @@ B: Sort weights, two pointers pairing lightest with heaviest
 C: Greedy heaviest
 D: Random pairing
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Sort weights, two pointers: if lightest + heaviest ≤ limit pair them, else take heaviest alone, O(n log n) time.
@@ -314,6 +344,8 @@ A: Compare directly
 B: Check if exactly 2 differences and swappable, or equal with duplicates
 C: Sort both
 D: Count characters
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -335,6 +367,8 @@ B: BFS treating board as graph, follow snakes/ladders
 C: Greedy
 D: Dijkstra
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: BFS from square 1, for each square try moves 1-6, follow snake/ladder if present, first to reach n² is minimum, O(n²).
@@ -354,6 +388,8 @@ A: Inorder traversal
 B: Level order traversal, return first value of last level
 C: Preorder
 D: DFS right side
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -375,6 +411,8 @@ B: DP: dp[i][j] = max strings with i zeros and j ones
 C: Sort strings
 D: Backtracking
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: 2D knapsack: for each string count zeros and ones, update dp[i][j] = max(dp[i][j], dp[i-zeros][j-ones]+1), O(l*m*n) time.
@@ -394,6 +432,8 @@ A: Try all indices
 B: Precompute max from left and min from right arrays
 C: Sort array
 D: Binary search
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -415,6 +455,8 @@ B: Two pointers from end, skip backspaced characters
 C: Stack for each
 D: Remove all #
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Two pointers from end, count backspaces, skip characters accordingly, compare characters, O(n+m) time O(1) space.
@@ -434,6 +476,8 @@ A: Count oranges
 B: Multi-source BFS from all rotten oranges, track time
 C: DFS
 D: Greedy
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -455,6 +499,8 @@ B: Inorder traversal building new tree with right pointers only
 C: Level order
 D: Preorder
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Inorder traversal visits nodes in increasing order, build new tree linking each node as right child of previous, O(n) time.
@@ -474,6 +520,8 @@ A: Try all partitions
 B: Backtracking with memoization, target = sum/k
 C: Greedy division
 D: Sort and split
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -495,6 +543,8 @@ B: Sort, negate k smallest, if k remains toggle smallest absolute value
 C: Negate largest
 D: Negate first k
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Sort array, negate k smallest (prioritize negatives), if k remains after all negatives, toggle smallest absolute value repeatedly, O(n log n).
@@ -514,6 +564,8 @@ A: Check longest words
 B: Sort words, use set to check if prefix exists
 C: Trie
 D: Random
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -535,6 +587,8 @@ B: BFS/DFS with 2-coloring, check for conflicts
 C: Check degrees
 D: Sort nodes
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Try to color graph with 2 colors using BFS/DFS, if adjacent nodes get same color not bipartite, handle disconnected components, O(V+E).
@@ -554,6 +608,8 @@ A: Remove and rebuild
 B: Recursively: if node < low return right, if > high return left, else recurse both
 C: Level order trim
 D: Inorder trim
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -575,6 +631,8 @@ B: Count xy and yx patterns, swaps = xy/2 + yx/2 + (xy%2)*2
 C: Greedy swap
 D: Sort strings
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Count mismatches: xy (s1[i]='x', s2[i]='y') and yx patterns, each pair of same pattern needs 1 swap, mixed pair needs 2 swaps, O(n).
@@ -594,6 +652,8 @@ A: Check all subarrays
 B: Sliding window: expand right, contract left when sum ≥ target
 C: Binary search
 D: Sort array
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -615,6 +675,8 @@ B: Split words, apply rules, join
 C: Reverse words
 D: Sort
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Split by spaces, for each word apply vowel/consonant rule, append "ma" + "a"*word_index, join with spaces, O(n) time.
@@ -634,6 +696,8 @@ A: Random property
 B: Tree centers are at most 2 adjacent nodes
 C: Always exactly 2
 D: Can be more
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -655,6 +719,8 @@ B: DFS/BFS tracking depth and parent for both nodes
 C: Level order
 D: Inorder
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: DFS or BFS finding both nodes, record depth and parent for each, cousins if same depth and different parents, O(n) time.
@@ -674,6 +740,8 @@ A: Check each number
 B: DP with three pointers for multiples of 2, 3, 5
 C: Generate randomly
 D: Prime factorization
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -695,6 +763,8 @@ B: Sort, fix one, two pointers for other two
 C: Greedy
 D: Binary search
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Sort array, fix first element, use two pointers for remaining two, track closest sum to target, O(n²) time.
@@ -714,6 +784,8 @@ A: Count all emails
 B: Normalize each email, use set to count unique
 C: Sort emails
 D: Hashmap
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -755,6 +827,8 @@ B: Queue-based BFS, process each level
 C: DFS
 D: Inorder
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: BFS with queue, track level size, process all nodes at current level before moving to next, O(n) time.
@@ -774,6 +848,8 @@ A: Try all combinations
 B: DP: dp[i] = min(dp[i-j²]+1) for all j where j²≤i
 C: Greedy largest squares
 D: Math formula
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -795,6 +871,8 @@ B: Dutch National Flag: three pointers (low, mid, high)
 C: Quick sort
 D: Merge sort
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Three pointers: low for 0s, high for 2s, mid iterates, swap 0s to low, 2s to high, 1s stay in middle, O(n) time O(1) space.
@@ -814,6 +892,8 @@ A: Reverse entire string
 B: Iterate in 2k chunks, reverse first k of each
 C: Reverse all k-length substrings
 D: Random
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -835,6 +915,8 @@ B: DFS with path tracking, backtrack
 C: Dijkstra
 D: Greedy
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: DFS from source maintaining current path, when reaching target add path copy to result, backtrack, O(2^n * n) worst case.
@@ -854,6 +936,8 @@ A: Sum all leaves
 B: DFS/BFS tracking if node is left child and leaf
 C: Inorder sum
 D: Level order sum
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -875,6 +959,8 @@ B: DP: dp[i] = sum of dp[i-num] for all nums
 C: Greedy
 D: Permutations
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: DP: for each amount, sum ways from all possible previous amounts (amount - num), target loop outside counts permutations, O(target*n).
@@ -894,6 +980,8 @@ A: Use hashset
 B: Mark presence by negating value at index num-1
 C: Sort array
 D: Nested loops
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -915,6 +1003,8 @@ B: Two hashmaps ensuring bijection (s→t and t→s)
 C: Sort both
 D: Count characters
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Maintain two hashmaps for bidirectional mapping, ensure each character maps consistently and uniquely, O(n) time.
@@ -934,6 +1024,8 @@ A: Random assignment
 B: Greedy: for each garden, assign first available type not used by neighbors
 C: Backtracking
 D: Graph coloring algorithm
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -955,6 +1047,8 @@ B: DFS/BFS comparing each node with root value
 C: Inorder check
 D: Level order
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: DFS or BFS checking if each node's value equals root value, return false on first mismatch, O(n) time.
@@ -974,6 +1068,8 @@ A: Greedy down-right
 B: DP: dp[i][j] = grid[i][j] + min(dp[i-1][j], dp[i][j-1])
 C: DFS all paths
 D: Dijkstra
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -995,6 +1091,8 @@ B: Single pass tracking if increasing and decreasing
 C: Compare first and last
 D: Count changes
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Iterate tracking if any decrease and any increase seen, monotonic if not both, O(n) time O(1) space.
@@ -1013,6 +1111,8 @@ A: Reverse entire string
 B: Two pointers swapping only vowels
 C: Stack
 D: Sort
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1054,6 +1154,8 @@ B: DFS pruning: skip left if node < low, skip right if node > high
 C: Inorder traversal
 D: Level order
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: DFS with pruning: if node.val < low skip left subtree, if > high skip right subtree, add node if in range, O(n) worst case.
@@ -1073,6 +1175,8 @@ A: Check all subarrays
 B: DP tracking current length with last comparison direction
 C: Greedy
 D: Sort
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1094,6 +1198,8 @@ B: Two pointers from ends, compare absolute values
 C: Square in place
 D: Binary search
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Two pointers from ends (largest absolute values), compare and place larger square at end of result, O(n) time O(n) space.
@@ -1113,6 +1219,8 @@ A: Longest string
 B: Check each string if it's subsequence of any other
 C: Sort by length
 D: Random
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1154,6 +1262,8 @@ B: Recursively merge: sum overlapping, keep non-null children
 C: Level order merge
 D: Inorder merge
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Recursion: if both nodes exist create new with sum and merge children, if one null return other, O(min(n,m)) time.
@@ -1173,6 +1283,8 @@ A: Check all subarrays
 B: Track current arithmetic sequence length, add to count
 C: DP array
 D: Greedy
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1194,6 +1306,8 @@ B: Two pointers: one for non-zero position, one iterating
 C: Sort
 D: Swap adjacent
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Pointer for next non-zero position, iterate array, when finding non-zero swap with position pointer and increment, O(n) time O(1) space.
@@ -1213,6 +1327,8 @@ A: Count capitals
 B: Check three conditions: all upper, all lower, or first upper rest lower
 C: Regex
 D: Sort
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1234,6 +1350,8 @@ B: BFS treating genes as graph nodes, edges for one-char difference in bank
 C: DFS
 D: Greedy
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: BFS from start gene, try all one-character mutations in bank, track visited, first to reach end is minimum, O(B*N) where B is bank size.
@@ -1253,6 +1371,8 @@ A: Count all nodes
 B: DFS computing height, diameter through node = sum of two largest child heights
 C: Level order
 D: BFS
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1274,6 +1394,8 @@ B: DP: dp[i][j] = max advantage for current player in range [i,j]
 C: Random
 D: Sum comparison
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: DP: dp[i][j] = max(nums[i] - dp[i+1][j], nums[j] - dp[i][j-1]), first player wins if dp[0][n-1] ≥ 0, O(n²).
@@ -1293,6 +1415,8 @@ A: Sort and pick third
 B: Track three maximums in single pass
 C: Heap
 D: Count all
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1314,6 +1438,8 @@ B: Remove dashes, reverse, insert every k, reverse back
 C: Count characters
 D: Sort
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Remove existing dashes, reverse string, insert dash every k characters, reverse result, ensures first group has remainder, O(n) time.
@@ -1333,6 +1459,8 @@ A: Random person
 B: Count in-degree and out-degree, judge has in=n-1 and out=0
 C: Highest degree
 D: First person
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1354,6 +1482,8 @@ B: Inorder traversal to sorted array, two pointers
 C: Level order
 D: Random
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Inorder traversal gives sorted array, apply two pointers from ends, O(n) time and space, or use hashset during traversal.
@@ -1373,6 +1503,8 @@ A: Sort array
 B: Find median, partition, interleave from ends
 C: Random shuffle
 D: Greedy
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1394,6 +1526,8 @@ B: Sliding window with hashset of size k
 C: Sort array
 D: Nested loops
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Maintain hashset of last k elements, if current element in set return true, slide window removing old elements, O(n) time.
@@ -1413,6 +1547,8 @@ A: Convert to decimal
 B: Iterate from right with carry, build result
 C: XOR operation
 D: Sort
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1434,6 +1570,8 @@ B: DFS/BFS from employee summing importance values
 C: Sum all
 D: Greedy
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: DFS or BFS from target employee, traverse subordinates recursively, sum importance values, O(n) time.
@@ -1453,6 +1591,8 @@ A: Maximum depth
 B: Level order BFS, return depth at first leaf
 C: DFS all paths
 D: Inorder
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1474,6 +1614,8 @@ B: Fibonacci: dp[i] = dp[i-1] + dp[i-2]
 C: n
 D: n!
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: DP: ways to reach step i = ways to reach i-1 (then 1 step) + ways to reach i-2 (then 2 steps), Fibonacci sequence, O(n).
@@ -1493,6 +1635,8 @@ A: Sort and scan
 B: Sum formula: n*(n+1)/2 - array_sum, or XOR all
 C: Hashset
 D: Nested loops
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1514,6 +1658,8 @@ B: Two hashmaps ensuring bijection between pattern chars and words
 C: Sort both
 D: Length comparison
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Split string by spaces, maintain two hashmaps for bidirectional mapping between pattern characters and words, O(n) time.
@@ -1533,6 +1679,8 @@ A: Highest degree node
 B: Common node in first two edges
 C: First node
 D: Random
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1554,6 +1702,8 @@ B: Recursively compare structure and values
 C: Inorder comparison only
 D: Level order
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Recursion: both null return true, one null return false, values equal and both subtrees identical, O(n) time.
@@ -1573,6 +1723,8 @@ A: Calculate each element separately
 B: Each element = sum of two elements above it
 C: Binomial formula for each
 D: Random
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1594,6 +1746,8 @@ B: Use two hashsets, find common elements
 C: Sort both
 D: Merge
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Convert both to sets, compute intersection, return as array, O(n+m) time and space.
@@ -1613,6 +1767,8 @@ A: Delete each and check
 B: Two pointers, on mismatch try skipping left or right
 C: Sort string
 D: Count characters
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1634,6 +1790,8 @@ B: DFS/BFS from starting pixel changing connected same-color pixels
 C: Random fill
 D: Diagonal fill
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: DFS or BFS from starting pixel, change color and recurse to 4-connected neighbors with same original color, O(m*n) time.
@@ -1653,6 +1811,8 @@ A: Inorder traversal
 B: Recursively swap left and right children
 C: Level order
 D: Preorder only
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1674,6 +1834,8 @@ B: Iterative with two variables
 C: DP array
 D: Matrix exponentiation
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Maintain only last two values, update iteratively: a, b = b, a+b, O(n) time O(1) space, better than DP array.
@@ -1693,6 +1855,8 @@ A: Try all pairs
 B: Track minimum price seen, update max profit
 C: Greedy
 D: Sort prices
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1714,6 +1878,8 @@ B: Count character frequencies, check if magazine has enough
 C: Sort both
 D: Substring search
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Count character frequencies in magazine, for each character in ransom note check if available and decrement, O(m+n) time.
@@ -1733,6 +1899,8 @@ A: Count nodes
 B: DFS/BFS from each unvisited node, count components
 C: Count edges
 D: Union-Find
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1754,6 +1922,8 @@ B: DFS subtracting node value, check if leaf with sum=0
 C: Level order
 D: Inorder
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: DFS passing remaining sum (sum - node.val), at leaf check if remaining sum equals node value, O(n) time.
@@ -1773,6 +1943,8 @@ A: Convert each to binary
 B: DP: dp[i] = dp[i>>1] + (i&1)
 C: Count manually
 D: Lookup table
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1794,6 +1966,8 @@ B: Boyer-Moore voting algorithm
 C: Sort and pick middle
 D: Nested loops
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Boyer-Moore: maintain candidate and count, increment if same, decrement if different, reset candidate when count=0, O(n) time O(1) space.
@@ -1813,6 +1987,8 @@ A: Compare all pairs
 B: Compare characters at each position across all strings
 C: Sort and compare first and last
 D: Random
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1834,6 +2010,8 @@ B: Check for node with two parents or cycle, handle cases
 C: Remove longest edge
 D: Random
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Two cases: node with two parents (try removing each), or cycle (use Union-Find), handle combination, O(n) time.
@@ -1853,6 +2031,8 @@ A: Compare all nodes
 B: Recursively check if left subtree mirrors right subtree
 C: Inorder traversal
 D: Level order
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1874,6 +2054,8 @@ B: Kadane's algorithm: max_ending = max(num, max_ending + num)
 C: Greedy largest elements
 D: Sort
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Kadane's algorithm: track max sum ending at current position, update global max, O(n) time O(1) space.
@@ -1893,6 +2075,8 @@ A: Nested loops O(n²)
 B: Hashmap storing value to index
 C: Sort and binary search
 D: Greedy
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1914,6 +2098,8 @@ B: Count character frequencies, compare counts
 C: Reverse and compare
 D: Random
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Count character frequencies in both strings, compare frequency maps, or sort both and compare, O(n) time with counting.
@@ -1933,6 +2119,8 @@ A: Count all 1s
 B: DFS from each unvisited land cell, track max area
 C: BFS
 D: Greedy
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1954,6 +2142,8 @@ B: Recursively: 1 + max(left_depth, right_depth)
 C: Inorder traversal
 D: Count leaves
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Recursion: depth of tree is 1 plus maximum depth of subtrees, base case null returns 0, O(n) time.
@@ -1974,6 +2164,8 @@ B: Run House Robber twice: exclude first house, exclude last house
 C: Rob every other
 D: Greedy
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Can't rob both first and last, run linear House Robber on [0:n-1] and [1:n], take maximum of both results, O(n) time.
@@ -1993,6 +2185,8 @@ A: Create new array
 B: Two pointers: one for unique position, one iterating
 C: Hashset
 D: Sort again
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 

@@ -504,6 +504,8 @@ def fib(n):
 print(fib(6))
 ```
 A: 5
+A) [Missing option - Please review]
+
 B) 8
 C) 13
 D) Error
@@ -2214,6 +2216,8 @@ Question: What is Memento pattern?
 A) Memory pattern
 B) Captures and restores object state (undo functionality)
 C: Remembers objects
+C) [Missing option - Please review]
+
 D) Memo pattern
 
 ✔ Correct Answer: B

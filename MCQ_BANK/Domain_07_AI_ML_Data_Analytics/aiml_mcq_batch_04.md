@@ -215,8 +215,12 @@ Difficulty: Medium
 Question: What is feature crossing?
 A) Removing features
 B: Creating new features by combining existing ones
+B) [Missing option - Please review]
+
 C) Scaling features
 D: Encoding features
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Feature crossing creates interaction features (e.g., [A, B] → [A, B, A×B]).
@@ -256,8 +260,12 @@ Difficulty: Medium
 Question: What is the difference between SGD and batch gradient descent?
 A) No difference
 B: SGD updates weights using single/mini-batch samples
+B) [Missing option - Please review]
+
 C) SGD is slower
 D: Batch is more accurate
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: SGD uses subset of data per update; batch GD uses entire dataset.
@@ -277,6 +285,8 @@ B: Future state depends only on current state
 C: All states matter
 D: Random property
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Markov property: future is independent of past given present.
 Tag: Normal
@@ -294,6 +304,8 @@ A) Increase learning rate
 B: Gradient clipping or normalization
 C: Add more layers
 D: Remove regularization
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Gradient clipping caps gradient magnitude; normalization stabilizes training.
@@ -313,6 +325,8 @@ B: Missing Conditionally At Random
 C: Missing Constantly At Random
 D: Missing Carefully At Random
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: A
 Reason: MCAR means missingness is independent of observed and unobserved data.
 Tag: Normal
@@ -330,6 +344,8 @@ A: Model speed
 B: Understanding how model works and makes decisions
 C: Model size
 D: Model accuracy
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Transparency involves making model behavior understandable to stakeholders.
@@ -349,6 +365,8 @@ B: Keeping top-k most probable sequences at each step
 C: Greedy search
 D: Exhaustive search
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Beam search maintains multiple hypotheses to find better sequences.
 Tag: Normal
@@ -366,6 +384,8 @@ A: Surface learning
 B: Finding low-dimensional structure in high-dimensional data
 C: Deep learning
 D: Supervised learning
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Manifold learning assumes data lies on low-dimensional manifold.
@@ -385,6 +405,8 @@ B: Degradation of model performance over time
 C: Model training
 D: Model improvement
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Drift occurs when data distribution changes, affecting model accuracy.
 Tag: Normal
@@ -403,6 +425,8 @@ B: Generate candidate object bounding boxes
 C: Segment images
 D: Compress images
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: RPNs predict object locations for two-stage detectors like Faster R-CNN.
 Tag: Normal
@@ -420,6 +444,8 @@ A: Underfitting
 B: Overfitting
 C: Good fit
 D: No issue
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Large gap suggests model memorizes training data but doesn't generalize.
@@ -444,6 +470,8 @@ B: 3
 C: 5
 D: 15
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: C
 Reason: max() returns maximum value in array: 5.
 Tag: Normal
@@ -461,6 +489,8 @@ A: Matrix operations
 B: Optimization with constraints
 C: Integration
 D: Differentiation
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Lagrange multipliers find extrema of functions subject to constraints.
@@ -480,6 +510,8 @@ B: Importance scores for different inputs
 C: Layer weights
 D: Bias terms
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Attention weights indicate how much focus to place on each input element.
 Tag: Normal
@@ -497,6 +529,8 @@ A: Saves space
 B: Reproducibility and tracking data changes
 C: Faster processing
 D: Better accuracy
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Data versioning ensures experiments are reproducible with specific data versions.
@@ -516,6 +550,8 @@ B: How well model predicts sample
 C: Speed
 D: Size
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Perplexity measures model's uncertainty; lower perplexity = better predictions.
 Tag: Normal
@@ -533,6 +569,8 @@ A: No difference
 B: Boosting is sequential, bagging is parallel
 C: Bagging is sequential
 D: Both are sequential
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Boosting trains models sequentially; bagging trains independently in parallel.
@@ -552,6 +590,8 @@ B: All bins have same range
 C: Random binning
 D: No binning
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Equal-width divides range into intervals of equal size.
 Tag: Normal
@@ -570,6 +610,8 @@ B: Learning similarity between inputs
 C: Regression only
 D: Clustering only
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Siamese networks learn embeddings for similarity/distance learning tasks.
 Tag: Normal
@@ -587,6 +629,8 @@ A: Single CV loop
 B: Outer loop for evaluation, inner loop for hyperparameter tuning
 C: No CV
 D: Random validation
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Nested CV prevents optimistic bias in hyperparameter selection.
@@ -611,6 +655,8 @@ B: 2, 3
 C: 2, 3, 4
 D: 1, 2, 3
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: iloc[1:3] returns elements at index 1 and 2: values 2 and 3.
 Tag: Normal
@@ -628,6 +674,8 @@ A: Class labels only
 B: Probability distribution over classes
 C: Binary values
 D: Continuous values
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Probabilistic classifiers provide confidence scores for each class.
@@ -647,6 +695,8 @@ B: Random sampling for numerical results
 C: Exact calculations
 D: Symbolic computation
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Monte Carlo uses repeated random sampling to obtain numerical results.
 Tag: Normal
@@ -664,6 +714,8 @@ A: Random training
 B: Training on easier examples first, then harder
 C: Training on hard examples first
 D: No specific order
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Curriculum learning mimics human learning by starting with simple concepts.
@@ -683,6 +735,8 @@ B: Trend reverses when data is aggregated
 C: Statistical error
 D: Sampling bias
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Simpson's Paradox occurs when trends in groups reverse in aggregate.
 Tag: Normal
@@ -700,6 +754,8 @@ A: Code documentation
 B: Responsibility for AI system outcomes
 C: Testing procedures
 D: Version control
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Accountability ensures organizations are responsible for AI decisions and impacts.
@@ -719,6 +775,8 @@ B: Conversational agent using NLP
 C: Search engine
 D: Database system
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Chatbots use NLP to understand and respond to user queries.
 Tag: Normal
@@ -736,6 +794,8 @@ A: Two-step clustering
 B: Simultaneous clustering of rows and columns
 C: Binary clustering
 D: Hierarchical clustering
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Biclustering finds submatrices with similar patterns in both dimensions.
@@ -755,6 +815,8 @@ B: Running two identical environments for zero-downtime updates
 C: Single environment
 D: No deployment
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Blue-green maintains two environments, switching traffic for seamless updates.
 Tag: Normal
@@ -773,6 +835,8 @@ B: Pattern of apparent motion of objects in visual scene
 C: Image brightness
 D: Color flow
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Optical flow estimates motion between consecutive frames.
 Tag: Normal
@@ -790,6 +854,8 @@ A: Reducing computational cost
 B: Assigning different costs to different types of errors
 C: Minimizing training time
 D: Reducing model size
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Cost-sensitive learning accounts for varying misclassification costs.
@@ -814,6 +880,8 @@ B: float64
 C: object
 D: bool
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: np.zeros() creates float64 array by default.
 Tag: Normal
@@ -831,6 +899,8 @@ A: Two matrices
 B: Three matrices (U, Σ, V^T)
 C: Four matrices
 D: Cannot decompose
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: SVD factorizes matrix A = UΣV^T where U, V are orthogonal, Σ is diagonal.
@@ -850,6 +920,8 @@ B: Training smaller model to mimic larger model
 C: Feature extraction
 D: Data augmentation
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Distillation transfers knowledge from teacher model to student model.
 Tag: Normal
@@ -867,6 +939,8 @@ A: Data size
 B: Tracking data's origins and transformations
 C: Data type
 D: Data storage
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Data lineage documents data flow from source through transformations.
@@ -886,6 +960,8 @@ B: Translating to another language and back for augmentation
 C: Backward propagation
 D: Text reversal
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Back-translation creates paraphrases by translating through intermediate language.
 Tag: Normal
@@ -903,6 +979,8 @@ A: Removing trees
 B: Selecting subset of ensemble members
 C: Data pruning
 D: Feature pruning
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Pruning removes redundant models to reduce ensemble size while maintaining performance.
@@ -922,6 +1000,8 @@ B: High-dimensional categorical features
 C: Missing values
 D: Outliers
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Feature hashing maps features to fixed-size vector, handling high cardinality.
 Tag: Normal
@@ -940,6 +1020,8 @@ B: Detecting body keypoints and skeleton
 C: Object detection
 D: Image classification
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Pose estimation identifies locations of body joints and limbs.
 Tag: Normal
@@ -957,6 +1039,8 @@ A: Classification
 B: Survival analysis and ranking
 C: Regression
 D: Clustering
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: C-index (concordance index) measures ranking quality in survival models.
@@ -981,6 +1065,8 @@ B: 12
 C: 18
 D: 24
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Apply doubles each value [2,4,6], sum = 2+4+6 = 12.
 Tag: Normal
@@ -998,6 +1084,8 @@ A: Random learning
 B: Learning by storing representative examples
 C: Deep learning
 D: Ensemble learning
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Prototype methods represent classes with typical examples (e.g., K-NN, LVQ).
@@ -1017,6 +1105,8 @@ B: Converts signal from time to frequency domain
 C: Spatial transform
 D: No transformation
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Fourier Transform decomposes signal into constituent frequencies.
 Tag: Normal
@@ -1034,6 +1124,8 @@ A: Learning metadata
 B: Learning to learn (learning algorithms)
 C: Deep learning
 D: Transfer learning
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Meta-learning trains models to quickly adapt to new tasks with few examples.
@@ -1053,6 +1145,8 @@ B: Analyzing data structure, content, and quality
 C: Data storage
 D: Data deletion
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Data profiling examines data to understand its characteristics and quality issues.
 Tag: Normal
@@ -1070,6 +1164,8 @@ A: Model size
 B: Ability to maintain performance under perturbations
 C: Training speed
 D: Accuracy only
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Robust models perform consistently despite noise or adversarial inputs.
@@ -1089,6 +1185,8 @@ B: Identifying relationships between entities
 C: Text summarization
 D: Translation
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Relation extraction identifies semantic relationships between named entities.
 Tag: Normal
@@ -1106,6 +1204,8 @@ A: Clustering method
 B: Non-parametric way to estimate probability density
 C: Classification method
 D: Regression technique
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: KDE estimates PDF by placing kernels at each data point.
@@ -1125,6 +1225,8 @@ B: Reducing numerical precision of weights
 C: Adding layers
 D: Removing layers
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Quantization converts weights to lower precision (e.g., float32 to int8).
 Tag: Normal
@@ -1143,6 +1245,8 @@ B: Increasing image resolution
 C: Image classification
 D: Object detection
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Super-resolution reconstructs high-resolution image from low-resolution input.
 Tag: Normal
@@ -1160,6 +1264,8 @@ A: Passive learning
 B: Model selects most informative samples to label
 C: Random sampling
 D: Batch learning
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Active learning queries oracle for labels on uncertain examples.
@@ -1184,6 +1290,8 @@ B: 1
 C: 5
 D: 15
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: min() returns minimum value in array: 1.
 Tag: Normal
@@ -1201,6 +1309,8 @@ A: No importance
 B: Guarantees global optimum
 C: Faster only
 D: Better visualization
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Convex problems have single global minimum, no local minima.
@@ -1220,6 +1330,8 @@ B: Spatial hierarchies and viewpoint invariance
 C: Size
 D: Accuracy only
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Capsule networks better capture spatial relationships and pose information.
 Tag: Normal
@@ -1237,6 +1349,8 @@ A: Removing features
 B: Transforming raw data into meaningful features
 C: Scaling features
 D: Encoding features
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Feature extraction derives informative representations from raw data.
@@ -1256,6 +1370,8 @@ B: Cosine similarity of embeddings
 C: Word count
 D: Length difference
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Semantic similarity computed using vector representations (embeddings).
 Tag: Normal
@@ -1273,6 +1389,8 @@ A: Single expert
 B: Multiple specialized models with gating network
 C: Ensemble voting
 D: Bagging
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: MoE uses gating network to route inputs to specialized expert models.
@@ -1292,6 +1410,8 @@ B: Using model performance to select features
 C: Feature encoding
 D: Feature scaling
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Wrapper methods evaluate feature subsets using actual model performance.
 Tag: Normal
@@ -1310,6 +1430,8 @@ B: Predicting distance of objects from camera
 C: Object detection
 D: Image segmentation
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Depth estimation infers 3D structure from 2D images.
 Tag: Normal
@@ -1327,6 +1449,8 @@ A: Feature permutation
 B: Non-parametric hypothesis test using random permutations
 C: Data shuffling
 D: Model testing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Permutation tests assess significance by comparing to random permutations.
@@ -1351,6 +1475,8 @@ B: ~1.67
 C: 2.5
 D: 10
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Variance of [1,2,3,4] with ddof=1 (sample variance) ≈ 1.67.
 Tag: Normal
@@ -1368,6 +1494,8 @@ A: Copying data
 B: Learning from expert demonstrations
 C: Transfer learning
 D: Ensemble learning
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Imitation learning trains agents by observing expert behavior.
@@ -1387,6 +1515,8 @@ B: Structure of nodes and edges representing relationships
 C: Chart
 D: Plot
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Graphs model relationships between entities using nodes and edges.
 Tag: Normal
@@ -1404,6 +1534,8 @@ A: Standard neural networks
 B: Networks defined by ordinary differential equations
 C: Optimization methods
 D: Data structures
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Neural ODEs model continuous-depth networks using ODE solvers.
@@ -1423,6 +1555,8 @@ B: Values beyond Q1-1.5×IQR or Q3+1.5×IQR
 C: Using median
 D: Using mode
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: IQR method defines outliers as points outside 1.5×IQR from quartiles.
 Tag: Normal
@@ -1440,6 +1574,8 @@ A: Data ownership
 B: Data subject to laws of country where it's located
 C: Data quality
 D: Data storage
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Data sovereignty refers to legal jurisdiction over data based on location.
@@ -1459,6 +1595,8 @@ B: Multilingual BERT trained on multiple languages
 C: Mini BERT
 D: Modified BERT
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: mBERT is BERT trained on Wikipedia in 104 languages.
 Tag: Normal
@@ -1476,6 +1614,8 @@ A: Standard clustering
 B: Clustering in different subspaces of feature space
 C: 3D clustering
 D: Time-series clustering
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Subspace clustering finds clusters in different feature subsets.
@@ -1495,6 +1635,8 @@ B: Removing unnecessary weights/neurons
 C: Feature pruning
 D: Sample pruning
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Pruning removes redundant parameters to reduce model size and latency.
 Tag: Normal
@@ -1513,6 +1655,8 @@ B: Classifying actions/activities in video sequences
 C: Face recognition
 D: Image classification
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Action recognition identifies human activities in video data.
 Tag: Normal
@@ -1530,6 +1674,8 @@ A: No difference
 B: Classes have natural ordering
 C: More classes
 D: Binary only
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Ordinal classification respects order relationships between classes.
@@ -1554,6 +1700,8 @@ B: (3,)
 C: [3]
 D: (1, 3)
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: shape returns tuple of dimensions: (3,) for 1D array with 3 elements.
 Tag: Normal
@@ -1571,6 +1719,8 @@ A: Prior probability
 B: Updated probability after observing data
 C: Likelihood
 D: Evidence
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Posterior = (Likelihood × Prior) / Evidence, represents updated beliefs.
@@ -1590,6 +1740,8 @@ B: Learning from unlabeled data by creating pretext tasks
 C: Unsupervised learning
 D: Reinforcement learning
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Self-supervised learning generates labels from data structure itself.
 Tag: Normal
@@ -1607,6 +1759,8 @@ A: Data deletion
 B: Integrating data from multiple sources
 C: Data splitting
 D: Data compression
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Data fusion combines information from heterogeneous sources.
@@ -1626,6 +1780,8 @@ B: Learning from very few examples
 C: No examples
 D: Standard training
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Few-shot learning adapts to new tasks with minimal labeled examples.
 Tag: Normal
@@ -1643,6 +1799,8 @@ A: Static selection
 B: Selecting ensemble members based on test instance
 C: Random selection
 D: All members always
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: DES chooses competent models for each test sample dynamically.
@@ -1662,6 +1820,8 @@ B: Using statistical measures independent of model
 C: Random selection
 D: Manual selection
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Filter methods use statistical tests (correlation, chi-square) before modeling.
 Tag: Normal
@@ -1680,6 +1840,8 @@ B: Set of 3D points representing object surface
 C: Image pixels
 D: Data cluster
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Point clouds are 3D representations from sensors like LiDAR.
 Tag: Normal
@@ -1697,6 +1859,8 @@ A: Equal accuracy
 B: Equal positive prediction rates across groups
 C: Equal precision
 D: Equal recall
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Demographic parity requires same proportion of positive predictions per group.
@@ -1721,6 +1885,8 @@ B: 3
 C: 6
 D: 0
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: nunique() counts unique values: 1, 2, 3 = 3 unique values.
 Tag: Normal
@@ -1738,6 +1904,8 @@ A: Measuring metrics
 B: Learning distance functions for similarity
 C: Feature scaling
 D: Model evaluation
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Metric learning trains models to learn appropriate distance metrics.
@@ -1757,6 +1925,8 @@ B: Convex has single global minimum, non-convex may have multiple local minima
 C: Convex is slower
 D: Non-convex is easier
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Non-convex problems can have multiple local minima, making optimization harder.
 Tag: Normal
@@ -1774,6 +1944,8 @@ A: Supervised learning
 B: Learning by contrasting similar and dissimilar pairs
 C: Classification
 D: Regression
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Contrastive learning pulls similar samples together, pushes dissimilar apart.
@@ -1793,6 +1965,8 @@ B: Trend, seasonality, and residual
 C: Only seasonality
 D: Only noise
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Time series decomposed into trend, seasonal, and residual components.
 Tag: Normal
@@ -1810,6 +1984,8 @@ A: Inverting predictions
 B: Reconstructing training data from model
 C: Reversing training
 D: Model deletion
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Model inversion exploits model to recover sensitive training information.
@@ -1829,6 +2005,8 @@ B: Designing input prompts to guide model behavior
 C: Hardware engineering
 D: Software engineering
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Prompt engineering crafts inputs to elicit desired outputs from language models.
 Tag: Normal
@@ -1846,6 +2024,8 @@ A: Batch processing
 B: Processing data in real-time as it arrives
 C: Offline processing
 D: Static processing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Stream processing analyzes continuous data flows in real-time.

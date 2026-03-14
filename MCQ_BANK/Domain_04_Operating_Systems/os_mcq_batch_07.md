@@ -555,6 +555,8 @@ B) Read-heavy workloads
 C) Write-heavy workloads
 D: Never
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Read-write locks optimize read-heavy workloads by allowing concurrent readers, beneficial when reads greatly outnumber writes.
@@ -595,6 +597,8 @@ B) Instructions ensuring memory operation ordering
 C) Memory allocation
 D: No barriers
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Memory barriers (fences) prevent CPU/compiler from reordering memory operations, ensuring visibility in concurrent programs.
@@ -614,6 +618,8 @@ A: Random relationship
 B: Partial ordering ensuring one operation's effects visible to another
 C: No relationship
 D: Time-based only
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -635,6 +641,8 @@ B: Livelock processes active but not progressing, deadlock processes blocked
 C: Livelock is faster
 D: No difference
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Deadlock has processes blocked waiting; livelock has processes actively changing state but making no progress.
@@ -654,6 +662,8 @@ A: No cost
 B: Low resource utilization, possible starvation
 C: Better performance
 D: No impact
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -675,6 +685,8 @@ B: Overhead of saving/restoring state, not applicable to all resources
 C: Faster execution
 D: No impact
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Preemption requires saving/restoring resource state and only works for resources whose state can be saved (memory, CPU, not printers).
@@ -694,6 +706,8 @@ A: Best-fit
 B: First-fit
 C: Worst-fit
 D: All equal
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -715,6 +729,8 @@ B: When fragmentation severe and performance degraded
 C: Never
 D: Randomly
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Compaction is expensive; perform only when external fragmentation significantly impacts allocation or performance.
@@ -734,6 +750,8 @@ A: Page size register
 B: Points to page table location
 C: Frame register
 D: No register
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -755,6 +773,8 @@ B: Indicates page table size
 C: Frame count
 D: No register
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: PTLR indicates size of page table, used to check if page number is within valid range.
@@ -774,6 +794,8 @@ A: Any pages
 B: Must be reentrant (read-only) code
 C: Must be writable
 D: No requirement
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -795,6 +817,8 @@ B: Logical organization matching program structure
 C: No advantages
 D: Slower access
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Segmentation provides logical organization (code, data, stack segments) matching programmer's view, simplifying protection and sharing.
@@ -814,6 +838,8 @@ A: Too simple
 B: External fragmentation from variable-size segments
 C: Too fast
 D: No disadvantages
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -835,6 +861,8 @@ B: Programs larger than physical memory can execute
 C: More complexity
 D: Less memory
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Virtual memory allows execution of programs larger than physical RAM by keeping only needed portions in memory.
@@ -854,6 +882,8 @@ A: Reduces multiprogramming
 B: More processes in memory as not all pages needed
 C: No impact
 D: Slows down
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -875,6 +905,8 @@ B: Load predicted pages before referenced
 C: Delayed paging
 D: Random paging
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Prepaging loads pages likely to be used soon (e.g., working set) to reduce page faults, trading I/O efficiency for prediction accuracy.
@@ -894,6 +926,8 @@ A: Better performance
 B: Large page table, more page faults, better locality
 C: Optimal size
 D: No impact
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -915,6 +949,8 @@ B: Internal fragmentation, fewer page faults, smaller table
 C: Worse performance
 D: No impact
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Large pages reduce page table size and page faults but increase internal fragmentation and reduce locality.
@@ -934,6 +970,8 @@ A: TLB size
 B: Amount of memory addressable through TLB
 C: TLB speed
 D: No concept
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -955,6 +993,8 @@ B: Fixed size regardless of virtual address space
 C: Simpler implementation
 D: No benefits
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Inverted page table size depends on physical memory (one entry per frame), not virtual address space size.
@@ -974,6 +1014,8 @@ A: Too large
 B: Slower lookup requiring search or hashing
 C: Too simple
 D: No drawbacks
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -995,6 +1037,8 @@ B: Fast process creation, memory saved if no writes
 C: More memory used
 D: No benefits
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: COW makes fork() fast by sharing pages initially, copying only when written, saving memory and time.
@@ -1014,6 +1058,8 @@ A: Slower access
 B: File I/O through memory operations, efficient for large files
 C: More complex
 D: No advantages
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1035,6 +1081,8 @@ B: Kernel needs contiguous physical memory, no page faults allowed
 C: Kernel is simpler
 D: User is more complex
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Kernel often needs contiguous physical memory for DMA, cannot handle page faults in interrupt handlers.
@@ -1054,6 +1102,8 @@ A: Cannot prevent
 B: Ensure sufficient frames per process, limit multiprogramming
 C: Add more processes
 D: Reduce memory
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1075,6 +1125,8 @@ B: Locality of reference - process uses subset of pages
 C: All pages used
 D: No assumptions
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Working set model assumes locality of reference, where process actively uses only subset of pages in time window.
@@ -1094,6 +1146,8 @@ A: File system deleted
 B: File system detached, must ensure no open files
 C: File system formatted
 D: Nothing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1115,6 +1169,8 @@ B: Logs changes before committing for crash recovery
 C: Slower system
 D: Old system
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Journaling file systems log metadata changes to journal before committing, enabling fast recovery after crashes.
@@ -1134,6 +1190,8 @@ A: Basic features only
 B: Extents, delayed allocation, journal checksums, large file support
 C: No features
 D: Minimal features
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1155,6 +1213,8 @@ B: Journaling, ACLs, encryption, compression, large files
 C: No features
 D: FAT variant
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: NTFS provides journaling, access control lists, encryption, compression, and supports very large files and volumes.
@@ -1174,6 +1234,8 @@ A: Slower disk
 B: Read-ahead (prefetching) and caching
 C: Less memory
 D: No optimization
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1195,6 +1257,8 @@ B: Write-behind (delayed write) and buffering
 C: Immediate writes
 D: No optimization
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Write-behind delays writes to batch them efficiently, buffering accumulates writes, both improving write performance.
@@ -1214,6 +1278,8 @@ A: Immediate allocation
 B: Defer block allocation until write-back
 C: No allocation
 D: Random allocation
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1235,6 +1301,8 @@ B: Cache mapping pathnames to inodes
 C: Data cache
 D: No cache
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Dcache caches recent directory lookups, mapping pathnames to inodes, avoiding repeated directory traversals.
@@ -1254,6 +1322,8 @@ A: Data cache
 B: Cache of recently accessed inodes
 C: Directory cache
 D: No cache
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1275,6 +1345,8 @@ B: Journaling, checksums, redundancy, backups
 C: Single copy only
 D: No protection
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Reliability ensured through journaling (consistency), checksums (corruption detection), redundancy (RAID), and backups.
@@ -1294,6 +1366,8 @@ A: Hard updates
 B: Ordering metadata writes to maintain consistency
 C: Random updates
 D: No updates
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1315,6 +1389,8 @@ B: C-SCAN
 C: SSTF
 D: Random
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: C-SCAN provides more uniform wait time than SCAN by treating requests more fairly with circular pattern.
@@ -1334,6 +1410,8 @@ A: Color
 B: Seek time and rotational latency
 C: Brand
 D: Age only
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1355,6 +1433,8 @@ B: Disk controller, OS buffer cache, application
 C: OS only
 D: No caching
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Disk caching occurs at multiple levels: disk controller cache, OS buffer cache, and application-level caching.
@@ -1374,6 +1454,8 @@ A: No queuing
 B: Disk reorders commands for optimal performance
 C: FCFS queuing
 D: Random queuing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1395,6 +1477,8 @@ B: No mechanical parts, parallel access
 C: Cheaper
 D: Older technology
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: SSDs have no mechanical delays, support parallel operations across channels, and provide consistent low latency.
@@ -1414,6 +1498,8 @@ A: Unlimited writes
 B: Limited write/erase cycles per cell
 C: Read operations
 D: No limitations
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1435,6 +1521,8 @@ B: Reclaim space from invalid pages, consolidate data
 C: Delete files
 D: Format disk
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: SSDs need garbage collection to reclaim space from invalid pages and consolidate valid data for efficient block erasure.
@@ -1454,6 +1542,8 @@ A: Under-provisioning
 B: Extra capacity for wear leveling and performance
 C: No extra space
 D: User storage
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1475,6 +1565,8 @@ B: RAID 0
 C: RAID 5
 D: RAID 6
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: RAID 0 provides best read performance through striping without redundancy overhead, though no fault tolerance.
@@ -1494,6 +1586,8 @@ A: RAID 0
 B: RAID 6 or RAID 10
 C: RAID 1
 D: RAID 5
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1515,6 +1609,8 @@ B: Network providing block-level storage access
 C: File system
 D: Direct attached storage
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: SAN (Storage Area Network) is dedicated network providing block-level storage access to multiple servers.
@@ -1534,6 +1630,8 @@ A: No difference
 B: NAS provides file-level access, SAN provides block-level
 C: NAS is faster
 D: SAN is obsolete
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1555,6 +1653,8 @@ B: Buffering, caching, scheduling, asynchronous I/O
 C: Less memory
 D: No optimization
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: I/O performance improved through buffering (smooth speed differences), caching (reduce I/O), scheduling (order requests), async I/O (concurrency).
@@ -1574,6 +1674,8 @@ A: Single buffer
 B: Two buffers alternating for continuous I/O
 C: No buffering
 D: Triple buffering
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1595,6 +1697,8 @@ B: Single I/O operation with multiple buffers
 C: No I/O
 D: Sequential I/O
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Scatter-gather I/O allows single I/O operation to read into (scatter) or write from (gather) multiple buffers.
@@ -1614,6 +1718,8 @@ A: Slower access
 B: Use standard memory instructions for I/O
 C: More complex
 D: No advantages
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1635,6 +1741,8 @@ B: Separate address space protects memory from I/O
 C: Slower
 D: More complex
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Port-mapped I/O uses separate address space, preventing accidental memory access when performing I/O.
@@ -1654,6 +1762,8 @@ A: More interrupts
 B: Combining multiple interrupts into single interrupt
 C: No interrupts
 D: Random interrupts
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1675,6 +1785,8 @@ B: Advanced interrupt controller for multiprocessor systems
 C: No controller
 D: Simple controller
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: I/O APIC (Advanced Programmable Interrupt Controller) handles interrupts in multiprocessor systems, replacing PIC.
@@ -1694,6 +1806,8 @@ A: Single privilege
 B: Require multiple conditions for access
 C: No separation
 D: Unlimited privilege
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1715,6 +1829,8 @@ B: Default deny unless explicitly permitted
 C: No defaults
 D: Random defaults
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Fail-safe defaults deny access unless explicitly granted, more secure than allowing access unless explicitly denied.
@@ -1734,6 +1850,8 @@ A: Complex design
 B: Keep security mechanisms simple
 C: Large systems
 D: No principle
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1755,6 +1873,8 @@ B: System enforces access based on security labels
 C: No control
 D: Optional control
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: MAC enforces access control based on security classifications and clearances, users cannot override system policy.
@@ -1774,6 +1894,8 @@ A: Integrity model
 B: Confidentiality model with no read up, no write down
 C: Availability model
 D: No model
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1795,6 +1917,8 @@ B: Integrity model with no write up, no read down
 C: Availability model
 D: No model
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Biba ensures integrity: no write up (can't write to higher integrity), no read down (can't read lower integrity).
@@ -1814,6 +1938,8 @@ A: Single factor
 B: Requires two different authentication factors
 C: No authentication
 D: Three factors
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1835,6 +1961,8 @@ B: Server challenges, client responds with computed value
 C: No challenge
 D: Simple password
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Challenge-response sends random challenge, client computes response using secret, preventing replay attacks.
@@ -1854,6 +1982,8 @@ A: Physical attack
 B: Trying all possible passwords/keys
 C: Social engineering
 D: Network attack
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1875,6 +2005,8 @@ B: Analyzing execution time to extract secrets
 C: Slow attack
 D: No attack
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Timing attack analyzes time taken for operations to infer secret information like cryptographic keys.
@@ -1894,6 +2026,8 @@ A: Direct attack
 B: Exploiting information from physical implementation
 C: Network attack
 D: No attack
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1915,6 +2049,8 @@ B: Prevent code execution from data pages
 C: No prevention
 D: Allow all execution
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: DEP marks data pages as non-executable, preventing buffer overflow attacks from executing injected code.
@@ -1934,6 +2070,8 @@ A: No integrity
 B: Ensuring program follows valid control-flow paths
 C: Data integrity
 D: Random flow
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1955,6 +2093,8 @@ B: Verifying boot components using digital signatures
 C: No verification
 D: Slow boot
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Secure boot verifies digital signatures of bootloader and OS components, preventing rootkit and bootkit infections.
@@ -1975,6 +2115,8 @@ B: Hardware chip providing cryptographic functions
 C: Network module
 D: No module
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: TPM (Trusted Platform Module) is hardware chip providing secure key storage, random number generation, and cryptographic operations.
@@ -1994,6 +2136,8 @@ A: Prevention system
 B: Monitors network/system for malicious activity
 C: Firewall
 D: Antivirus
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 

@@ -797,6 +797,8 @@ Difficulty: Medium
 Question: What is Bayes' Theorem used for?
 A) Matrix multiplication
 B: Updating probability based on new evidence
+B) [Missing option - Please review]
+
 C) Calculating derivatives
 D) Finding eigenvalues
 
@@ -1210,6 +1212,8 @@ Difficulty: Medium
 
 Question: What is transfer learning?
 A: Training from scratch
+A) [Missing option - Please review]
+
 B) Using pre-trained models for new tasks
 C) Transferring data
 D) Moving models between servers

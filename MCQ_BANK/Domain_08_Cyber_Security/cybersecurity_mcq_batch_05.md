@@ -1802,6 +1802,7 @@ Tag: Normal
 
 Domain: Cyber Security
 Topic: Network Security
+Subtopic: General
 Subtipo: SNMP Security
 
 Difficulty: Medium

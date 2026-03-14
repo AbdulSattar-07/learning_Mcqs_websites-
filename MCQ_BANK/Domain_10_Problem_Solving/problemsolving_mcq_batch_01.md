@@ -707,6 +707,8 @@ Question: What is a trade-off in decision making?
 
 A) Perfect solution
 B: Giving up one benefit to gain another
+B) [Missing option - Please review]
+
 C) No compromise
 D) Random choice
 

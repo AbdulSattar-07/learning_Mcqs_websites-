@@ -1312,6 +1312,8 @@ B: Verifying adherence to standards
 C: No verification
 D: Performance testing
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Compliance audits ensure organization meets regulatory requirements.
 Tag: Normal
@@ -1329,6 +1331,8 @@ A: No regulations
 B: Data subject to laws of storage location
 C: Global data
 D: No boundaries
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Data sovereignty means data is governed by laws of country where stored.
@@ -1348,6 +1352,8 @@ B: Using technology to perform security tasks
 C: No automation
 D: Slowing security
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Automation handles repetitive security tasks for faster response.
 Tag: Normal
@@ -1365,6 +1371,8 @@ A: Prevents attacks
 B: Fixes damage after incident
 C: Detects attacks
 D: No action
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Corrective controls restore systems and mitigate damage.
@@ -1384,6 +1392,8 @@ B: Quantum computers threaten current encryption
 C: Slower encryption
 D: Aesthetic purposes
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Post-quantum cryptography resists attacks from quantum computers.
 Tag: Normal
@@ -1401,6 +1411,8 @@ A: Network Access Control
 B: Network Application Center
 C: New Access Configuration
 D: No Access Control
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: A
 Reason: NAC enforces security policy on devices accessing network.
@@ -1420,6 +1432,8 @@ B: Weak session management
 C: Perfect implementation
 D: No authentication
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Broken authentication results from flawed credential/session handling.
 Tag: Normal
@@ -1437,6 +1451,8 @@ A: Static code
 B: Changes code to evade detection
 C: No changes
 D: Deleted malware
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Polymorphic malware mutates while maintaining functionality.
@@ -1456,6 +1472,8 @@ B: Privileged Access Management
 C: Public Access Module
 D: Protected Application Method
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: PAM controls and monitors privileged account access.
 Tag: Normal
@@ -1473,6 +1491,8 @@ A: Secret algorithms
 B: Security not dependent on secrecy of design
 C: Hidden implementation
 D: Proprietary only
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Open design relies on key secrecy, not algorithm secrecy.
@@ -1492,6 +1512,8 @@ B: Securing OS kernel against attacks
 C: No security
 D: User space only
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Kernel hardening applies security measures to OS core.
 Tag: Normal
@@ -1509,6 +1531,8 @@ A: Cipher Block Chaining
 B: Central Block Cipher
 C: Complete Block Code
 D: Circular Block Cipher
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: A
 Reason: CBC chains blocks where each depends on previous ciphertext.
@@ -1528,6 +1552,8 @@ B: DNS Security Extensions
 C: Dynamic Name System Security
 D: Direct Network Security
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: DNSSEC adds authentication to DNS to prevent spoofing.
 Tag: Normal
@@ -1545,6 +1571,8 @@ A: Waste storage
 B: Audit trail and incident investigation
 C: No reason
 D: Slow application
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Logs provide evidence and help detect/investigate security incidents.
@@ -1564,6 +1592,8 @@ B: Compromising trusted third-party
 C: Physical attack
 D: No attack
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Supply chain attacks infiltrate through trusted vendors or software.
 Tag: Normal
@@ -1581,6 +1611,8 @@ A: Slow development
 B: Prevent common vulnerabilities
 C: No benefit
 D: Increase bugs
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Secure coding standards reduce security flaws in software.
@@ -1600,6 +1632,8 @@ B: Techniques to hinder investigation
 C: Evidence collection
 D: Forensic analysis
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Anti-forensics attempts to prevent or mislead forensic analysis.
 Tag: Normal
@@ -1617,6 +1651,8 @@ A: Maximum Time To Detect
 B: Mean Time To Detect
 C: Minimum Time To Detect
 D: Multiple Time To Detect
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: MTTD measures average time to identify security incident.
@@ -1636,6 +1672,8 @@ B: Isolating apps from each other
 C: Full access
 D: No security
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Mobile sandboxing restricts app access to system and other apps.
 Tag: Normal
@@ -1653,6 +1691,8 @@ A: Never
 B: At rest and in transit
 C: Only at rest
 D: Only in transit
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Comprehensive protection requires encryption both stored and transmitted.
@@ -1672,6 +1712,8 @@ B: Evaluating overall security status
 C: No evaluation
 D: Network speed test
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Posture assessment identifies security strengths and weaknesses.
 Tag: Normal
@@ -1689,6 +1731,8 @@ A: Legal activity
 B: Criminal activity using computers
 C: Ethical hacking
 D: Security testing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Cybercrime involves illegal acts committed via computer systems.
@@ -1708,6 +1752,8 @@ B: Extended Detection and Response
 C: External Device Registry
 D: Extreme Data Replication
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: XDR integrates security tools for unified threat detection and response.
 Tag: Normal
@@ -1725,6 +1771,8 @@ A: Waste time
 B: Reduce human error and social engineering
 C: No importance
 D: Slow productivity
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Training helps users recognize and avoid security threats.
@@ -1744,6 +1792,8 @@ B: Hiding messages in other data
 C: Hashing
 D: Compression
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Steganography conceals information within innocent-looking files.
 Tag: Normal
@@ -1761,6 +1811,8 @@ A: Web browsing
 B: Secure remote access
 C: Email
 D: File storage
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: SSH provides encrypted remote login and command execution.
@@ -1780,6 +1832,8 @@ B: Brute force and DoS attacks
 C: Encryption
 D: Authentication
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Rate limiting restricts request frequency to prevent abuse.
 Tag: Normal
@@ -1797,6 +1851,8 @@ A: Password creation
 B: Using stolen credentials on multiple sites
 C: Password hashing
 D: Account creation
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Credential stuffing exploits password reuse across services.

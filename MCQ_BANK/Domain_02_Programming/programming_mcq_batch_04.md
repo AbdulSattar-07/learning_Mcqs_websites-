@@ -129,6 +129,8 @@ B) Multiple methods with same name but different parameters
 C) Overriding
 D: Deleting methods
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Overloading allows multiple methods with same name but different parameter lists (number, type, order), resolved at compile time.
@@ -708,6 +710,8 @@ Difficulty: Hard
 Question: What are templates in C++?
 A) Design patterns
 B: Generic programming feature for type-independent code
+B) [Missing option - Please review]
+
 C) Class templates only
 D) Documentation
 

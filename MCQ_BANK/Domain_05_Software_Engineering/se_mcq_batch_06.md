@@ -212,6 +212,8 @@ Difficulty: Easy
 Question: What are magic numbers in code?
 A) Random numbers
 B: Unexplained numeric literals
+B) [Missing option - Please review]
+
 C) Lucky numbers
 D) Prime numbers
 
@@ -876,6 +878,8 @@ A) Always first
 B) After profiling identifies bottlenecks
 C) Never
 D: Before it works
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 

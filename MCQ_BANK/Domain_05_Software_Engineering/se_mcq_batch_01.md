@@ -855,6 +855,8 @@ B) Bundling data and methods, hiding internal state
 C) Separating data and methods
 D: No data protection
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Encapsulation bundles data and methods operating on data, hiding internal state and requiring interaction through defined interface.
@@ -872,6 +874,8 @@ Difficulty: Medium
 Question: What is modularity?
 A) Single large module
 B: Dividing system into separate, independent modules
+B) [Missing option - Please review]
+
 C) No division
 D) Random organization
 
@@ -1470,6 +1474,8 @@ Question: What is integration testing?
 A) Testing single unit
 B) Testing interactions between integrated components
 C: User acceptance
+C) [Missing option - Please review]
+
 D) No testing
 
 ✔ Correct Answer: B
@@ -1947,6 +1953,8 @@ Difficulty: Medium
 Question: What is branching in version control?
 A) Tree structure
 B: Creating separate line of development
+B) [Missing option - Please review]
+
 C) Deleting code
 D) No development
 

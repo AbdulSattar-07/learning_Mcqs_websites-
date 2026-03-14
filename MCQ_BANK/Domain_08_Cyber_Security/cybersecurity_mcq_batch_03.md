@@ -1705,6 +1705,8 @@ Difficulty: Hard
 Question: What is confidential computing?
 A) Secret meetings
 B: Protecting data in use through hardware
+B) [Missing option - Please review]
+
 C) Data at rest only
 D) No protection
 
@@ -1759,8 +1761,12 @@ Difficulty: Hard
 Question: What is NDR?
 A) Network Data Recovery
 B: Network Detection and Response
+B) [Missing option - Please review]
+
 C) New Device Registration
 D: No Detection Required
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: NDR monitors network traffic for threats and responds to incidents.
@@ -1797,6 +1803,8 @@ A) Physical travel
 B: Compromising partners to reach target
 C: Direct attack
 D: No attack
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Island hopping exploits trusted third-party relationships to breach targets.

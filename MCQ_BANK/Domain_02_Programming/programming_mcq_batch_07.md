@@ -73,6 +73,8 @@ Question: What data structure does DFS use?
 A) Queue
 B) Stack (or recursion)
 C: Priority queue
+C) [Missing option - Please review]
+
 D) Linked list
 
 ✔ Correct Answer: B

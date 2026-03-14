@@ -1571,6 +1571,8 @@ with my_context():
     print("Inside")
 ```
 A: Inside
+A) [Missing option - Please review]
+
 B) Enter Inside Exit
 C) Enter Exit
 D) Error

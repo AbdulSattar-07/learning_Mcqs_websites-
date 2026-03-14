@@ -1036,6 +1036,8 @@ B) Each boolean sub-expression evaluated to true and false
 C) If statements only
 D: Loops only
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Condition coverage ensures each boolean sub-expression in conditions has been evaluated to both true and false.

@@ -472,6 +472,8 @@ Difficulty: Hard
 Question: What is coarse-grained multithreading?
 A) Fine switching
 B: Thread switch only on long-latency events
+B) [Missing option - Please review]
+
 C) Constant switching
 D) No switching
 
@@ -572,6 +574,8 @@ Difficulty: Hard
 Question: What is livelock?
 A) Deadlock variant
 B: Processes actively changing state but making no progress
+B) [Missing option - Please review]
+
 C) Normal operation
 D) System crash
 
@@ -653,6 +657,8 @@ Question: What is the multiple producer-consumer problem?
 A) Single producer and consumer
 B) Multiple producers and consumers sharing buffer
 C: No producers
+C) [Missing option - Please review]
+
 D) No consumers
 
 ✔ Correct Answer: B
@@ -693,6 +699,8 @@ Question: What is a drawback of deadlock prevention?
 A) No drawbacks
 B) May reduce resource utilization and system throughput
 C: Always optimal
+C) [Missing option - Please review]
+
 D) Increases performance
 
 ✔ Correct Answer: B
@@ -711,6 +719,8 @@ Difficulty: Hard
 
 Question: What limits practical use of Banker's Algorithm?
 A: No limitations
+A) [Missing option - Please review]
+
 B) Requires knowing maximum resource needs in advance
 C) Too simple
 D) Always works perfectly
@@ -1655,6 +1665,8 @@ B) Data reconstructed on replacement disk
 C) All data lost
 D: System shutdown
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: RAID rebuild reconstructs data on replacement disk using remaining disks and parity information.
@@ -1755,6 +1767,8 @@ B) Handle urgent interrupts before less critical ones
 C) Slow down system
 D: Random handling
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Interrupt priorities ensure time-critical interrupts (e.g., hardware failures) are handled before less urgent ones.
@@ -1835,6 +1849,8 @@ B) Prevent rainbow table attacks
 C) Slow down system
 D: No reason
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Salt (random data) added before hashing prevents precomputed rainbow table attacks and ensures identical passwords have different hashes.
@@ -1873,6 +1889,8 @@ Question: What does complete mediation require?
 A) No checking
 B) Every access checked against access control
 C: Random checking
+C) [Missing option - Please review]
+
 D) One-time checking
 
 ✔ Correct Answer: B
@@ -1935,6 +1953,8 @@ B) Values placed on stack to detect buffer overflows
 C) Stack pointers
 D: No function
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Stack canaries are known values placed between buffer and control data; modification indicates buffer overflow attempt.
@@ -1992,6 +2012,8 @@ Difficulty: Medium
 Question: What is security auditing?
 A) Financial audit
 B: Recording and analyzing system activities for security
+B) [Missing option - Please review]
+
 C) Performance monitoring
 D) Disk checking
 

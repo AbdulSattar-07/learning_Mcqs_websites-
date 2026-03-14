@@ -435,6 +435,8 @@ B) Sort by start, use min-heap for end times
 C) Random allocation
 D: Cannot determine
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Sort by start time. Use min-heap for end times. If new meeting starts before earliest end, need new room. Time: O(n log n).
@@ -909,6 +911,8 @@ Topic: Code Analysis
 Subtopic: Hash Table
 Difficulty: Hard
 
+Question: [Missing question - Please review]
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -1005,6 +1009,8 @@ Domain: Data Structures
 Topic: Code Analysis
 Subtopic: Heap Operations
 Difficulty: Hard
+
+Question: [Missing question - Please review]
 
 ```python
 import heapq
@@ -1115,6 +1121,8 @@ Domain: Data Structures
 Topic: Code Analysis
 Subtopic: Trie Search
 Difficulty: Hard
+
+Question: [Missing question - Please review]
 
 ```java
 class TrieNode {
@@ -1291,6 +1299,8 @@ Domain: Data Structures
 Topic: Code Analysis
 Subtopic: Union-Find
 Difficulty: Hard
+
+Question: [Missing question - Please review]
 
 ```cpp
 class UnionFind {
@@ -1585,6 +1595,8 @@ Topic: Code Analysis
 Subtopic: AVL Rotation
 Difficulty: Hard
 
+Question: [Missing question - Please review]
+
 ```python
 class Node:
     def __init__(self, val):
@@ -1686,6 +1698,8 @@ Topic: Code Analysis
 Subtopic: DFS Traversal
 Difficulty: Medium
 
+Question: [Missing question - Please review]
+
 ```python
 def dfs(graph, start, visited=None):
     if visited is None:
@@ -1748,6 +1762,8 @@ Difficulty: Medium
 Question: How can you detect a cycle in a directed graph using DFS?
 A) Count vertices
 B: Check if back edge exists during DFS
+B) [Missing option - Please review]
+
 C) Use BFS
 D) Count edges
 
@@ -1845,6 +1861,8 @@ Topic: Code Analysis
 Subtopic: Dijkstra Implementation
 Difficulty: Hard
 
+Question: [Missing question - Please review]
+
 ```python
 import heapq
 
@@ -1936,6 +1954,8 @@ Topic: Code Analysis
 Subtopic: MST
 Difficulty: Hard
 
+Question: [Missing question - Please review]
+
 ```cpp
 #include <iostream>
 #include <vector>
@@ -2024,6 +2044,8 @@ Domain: Data Structures
 Topic: Code Analysis
 Subtopic: Fibonacci DP
 Difficulty: Medium
+
+Question: [Missing question - Please review]
 
 ```python
 def fib(n, memo={}):
@@ -2135,6 +2157,8 @@ Domain: Data Structures
 Topic: Code Analysis
 Subtopic: Greedy Algorithm
 Difficulty: Medium
+
+Question: [Missing question - Please review]
 
 ```cpp
 #include <iostream>
@@ -2255,6 +2279,8 @@ Domain: Data Structures
 Topic: Code Analysis
 Subtopic: Partition Function
 Difficulty: Hard
+
+Question: [Missing question - Please review]
 
 ```java
 public static int partition(int[] arr, int low, int high) {
@@ -2381,6 +2407,8 @@ Topic: Code Analysis
 Subtopic: Sliding Window
 Difficulty: Hard
 
+Question: [Missing question - Please review]
+
 ```python
 def max_sum_subarray(arr, k):
     n = len(arr)
@@ -2459,6 +2487,8 @@ Topic: Code Analysis
 Subtopic: Bit Manipulation
 Difficulty: Medium
 
+Question: [Missing question - Please review]
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -2514,6 +2544,8 @@ Domain: Data Structures
 Topic: Code Analysis
 Subtopic: XOR Application
 Difficulty: Medium
+
+Question: [Missing question - Please review]
 
 ```python
 def find_unique(arr):
@@ -2584,6 +2616,8 @@ Domain: Data Structures
 Topic: Code Analysis
 Subtopic: Matrix Diagonal
 Difficulty: Medium
+
+Question: [Missing question - Please review]
 
 ```python
 def sum_diagonals(matrix):
@@ -2659,6 +2693,8 @@ Domain: Data Structures
 Topic: Code Analysis
 Subtopic: Next Greater Element
 Difficulty: Hard
+
+Question: [Missing question - Please review]
 
 ```cpp
 #include <iostream>

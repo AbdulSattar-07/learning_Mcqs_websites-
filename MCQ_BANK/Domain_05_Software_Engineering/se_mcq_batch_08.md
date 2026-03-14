@@ -1334,6 +1334,8 @@ Question: What is change control?
 A) Controlling team
 B) Formal process for managing changes
 C: Random changes
+C) [Missing option - Please review]
+
 D) No control
 
 ✔ Correct Answer: B
@@ -1393,6 +1395,8 @@ Difficulty: Medium
 Question: What is build management?
 A) Building construction
 B: Managing compilation and packaging process
+B) [Missing option - Please review]
+
 C) Team management
 D) Project management
 
@@ -1894,6 +1898,8 @@ Question: What does CIA triad represent in security?
 A) Intelligence agency
 B) Confidentiality, Integrity, Availability
 C: Cost, Implementation, Analysis
+C) [Missing option - Please review]
+
 D) Code, Integration, Architecture
 
 ✔ Correct Answer: B

@@ -195,6 +195,8 @@ B) Supplicant, Authenticator, Authentication Server
 C) User, Switch, Router
 D: Host, Gateway, Firewall
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: 802.1X uses Supplicant (client), Authenticator (switch/AP), and Authentication Server (RADIUS) for port-based network access control.
@@ -232,6 +234,8 @@ Difficulty: Hard
 Question: What does PEAP (Protected EAP) provide?
 A) Faster authentication
 B: TLS tunnel protecting inner authentication
+B) [Missing option - Please review]
+
 C) No encryption
 D) Simpler configuration
 
@@ -272,6 +276,8 @@ Difficulty: Easy
 Question: What is an enterprise network?
 A) Small home network
 B: Organization's entire network infrastructure
+B) [Missing option - Please review]
+
 C) Public Internet
 D) Single LAN
 
@@ -295,6 +301,8 @@ B) Highest weight (Cisco)
 C) LOCAL_PREF
 D: MED
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: BGP path selection follows a specific order. Cisco routers first check Weight (local to router), then LOCAL_PREF, then locally originated routes.
@@ -312,6 +320,8 @@ Difficulty: Hard
 Question: What is the scope of BGP LOCAL_PREF attribute?
 A) Global
 B: Within the AS only
+B) [Missing option - Please review]
+
 C) Between two routers only
 D) Across all ASes
 
@@ -333,6 +343,8 @@ Question: What does MED (Multi-Exit Discriminator) influence?
 A) Outbound traffic
 B) Inbound traffic from neighboring AS
 C: Internal routing
+C) [Missing option - Please review]
+
 D) Multicast routing
 
 ✔ Correct Answer: B
@@ -355,6 +367,8 @@ B) Make path less preferred by increasing length
 C) Faster routing
 D: Better encryption
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: AS_PATH prepending artificially lengthens the AS path to make it less preferred, influencing inbound traffic routing from other autonomous systems.
@@ -372,8 +386,12 @@ Difficulty: Hard
 Question: What are BGP communities used for?
 A) Social networking
 B: Grouping routes for common policy application
+B) [Missing option - Please review]
+
 C) Encryption
 D: Compression
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -395,6 +413,8 @@ B: Full mesh iBGP requirement
 C: Security issues
 D: Bandwidth limitations
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Route reflectors eliminate the need for full mesh iBGP by reflecting routes to clients, reducing the number of required iBGP sessions.
@@ -414,6 +434,8 @@ A: Increase speed
 B: Divide large AS into sub-ASes to reduce iBGP mesh
 C: Encrypt BGP
 D: Compress updates
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -435,6 +457,8 @@ B: 64 KB
 C: 128 KB
 D: 256 KB
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: The TCP window field is 16 bits, allowing maximum 65,535 bytes (64 KB). Window scaling option is needed for larger windows.
@@ -454,6 +478,8 @@ A: 8
 B: 14
 C: 16
 D: 32
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -475,6 +501,8 @@ B: Maximum TCP payload size
 C: Maximum window size
 D: Maximum frame size
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: MSS specifies the maximum amount of data in a TCP segment (excluding headers), typically 1460 bytes for Ethernet (1500 MTU - 20 IP - 20 TCP).
@@ -494,6 +522,8 @@ A: MSS = MTU
 B: MSS = MTU - IP header - TCP header
 C: MSS > MTU
 D: Unrelated
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -515,6 +545,8 @@ B: ICMP filtering by firewalls
 C: High bandwidth
 D: Low latency
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: PMTUD relies on ICMP "Fragmentation Needed" messages. If firewalls block ICMP, PMTUD fails, causing "black hole" where large packets are silently dropped.
@@ -534,6 +566,8 @@ A: Increase speed
 B: Adjust MSS to prevent fragmentation
 C: Encrypt TCP
 D: Compress segments
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -555,6 +589,8 @@ B: 20 bytes
 C: 24 bytes (20 IP + 4 GRE)
 D: 40 bytes
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: C
 
 Reason: GRE adds 24 bytes overhead: 20-byte IP header for tunnel and 4-byte GRE header (more with optional fields), reducing effective MTU.
@@ -574,6 +610,8 @@ A: 10 bytes
 B: 30 bytes
 C: 50-60 bytes
 D: 100 bytes
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: C
 
@@ -595,6 +633,8 @@ B: Move TCP processing to network card
 C: Encrypt TCP
 D: Compress TCP
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: TOE offloads TCP/IP processing from CPU to the network interface card, reducing CPU usage and improving performance for high-throughput applications.
@@ -614,6 +654,8 @@ A: Encrypt received packets
 B: Distribute packet processing across multiple CPU cores
 C: Compress received data
 D: Filter received packets
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -635,6 +677,8 @@ B: Batching interrupts to reduce CPU overhead
 C: Encrypting interrupts
 D: Blocking interrupts
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Interrupt coalescing batches multiple packet arrivals into single interrupt, reducing CPU overhead from interrupt handling at the cost of slight latency increase.
@@ -654,6 +698,8 @@ A: Better security
 B: Reduced overhead and CPU usage
 C: Longer transmission distance
 D: Better encryption
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -675,6 +721,8 @@ B: End-to-end support across all devices
 C: Only receiver support
 D: No special requirements
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: All devices in the path (NICs, switches, routers) must support jumbo frames. If any device doesn't support them, packets will be dropped or fragmented.
@@ -694,6 +742,8 @@ A: Small jumbo frames
 B: Frames slightly larger than 1500 bytes for VLAN tags
 C: Compressed frames
 D: Encrypted frames
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -715,6 +765,8 @@ B: 802.3 with 802.2 LLC
 C: 802.3 Raw
 D: Token Ring
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: A
 
 Reason: Ethernet II (DIX) is the most common frame type, using a 2-byte EtherType field to identify the protocol (0x0800 for IPv4, 0x86DD for IPv6).
@@ -734,6 +786,8 @@ A: Save memory
 B: Ensure entries stay current and detect changes
 C: Increase speed
 D: Improve security
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -755,6 +809,8 @@ B: Changing device's MAC address to impersonate another
 C: Hiding MAC address
 D: Compressing MAC addresses
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: MAC spoofing changes a device's MAC address to impersonate another device, bypassing MAC-based security controls or access restrictions.
@@ -774,6 +830,8 @@ A: Overloading router
 B: Flooding switch with fake MAC addresses to fill CAM table
 C: DDoS attack
 D: DNS attack
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -795,6 +853,8 @@ B: Port is disabled (err-disabled state)
 C: Traffic is dropped silently
 D: Nothing
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: In shutdown mode, the port enters err-disabled state when violation occurs, requiring manual intervention to re-enable, providing strongest security.
@@ -814,6 +874,8 @@ A: Port shuts down
 B: Violation packets dropped, SNMP trap sent, counter incremented
 C: All traffic allowed
 D: Port speed reduced
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -835,6 +897,8 @@ B: Dynamically learns and saves MAC addresses to config
 C: Blocks all MACs
 D: Encrypts MACs
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Sticky MAC learning dynamically learns MAC addresses and adds them to running configuration, combining convenience of dynamic learning with persistence.
@@ -854,6 +918,8 @@ A: Access
 B: Dynamic desirable
 C: Dynamic auto
 D: Trunk
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -875,6 +941,8 @@ B: Server
 C: Transparent
 D: Off
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: VTP Server mode can create/modify/delete VLANs and propagate changes. Client mode receives updates, Transparent mode doesn't participate but forwards updates.
@@ -894,6 +962,8 @@ A: Deletes VLANs
 B: Restricts flooded traffic to trunk links with active VLANs
 C: Removes old entries
 D: Compresses VTP messages
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -915,6 +985,8 @@ B: Extended VLAN support and authentication
 C: Encryption
 D: Compression
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: VTP v3 adds extended VLAN range support (1-4094), improved authentication, and protection against accidental database overwrites with primary server concept.
@@ -934,6 +1006,8 @@ A: Too many users
 B: Layer 2 loops causing infinite broadcast propagation
 C: High bandwidth
 D: Encryption
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -975,6 +1049,8 @@ B: 5
 C: 2
 D: 4
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: A
 
 Reason: RSTP simplifies STP's 5 states to 3: Discarding (combines Disabled, Blocking, Listening), Learning, and Forwarding.
@@ -994,6 +1070,8 @@ A: Root port
 B: Designated port
 C: Alternate port
 D: Disabled port
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: C
 
@@ -1015,6 +1093,8 @@ B: Rapid convergence without waiting timers
 C: Load balancing
 D: Compression
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: RSTP's proposal/agreement handshake allows rapid transition to forwarding state without waiting for timers, achieving sub-second convergence.
@@ -1034,6 +1114,8 @@ A: Only region name
 B: Region name, revision number, and VLAN-to-instance mapping
 C: Only VLAN configuration
 D: Only priority
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1055,6 +1137,8 @@ B: 64
 C: 4096
 D: 16 (0-15) plus IST
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: D
 
 Reason: MST supports 16 instances (0-15). Instance 0 is the IST (Internal Spanning Tree), and instances 1-15 can be configured for VLAN groups.
@@ -1074,6 +1158,8 @@ A: Round robin only
 B: Source/destination MAC, IP, or port hashing
 C: Random selection
 D: Bandwidth-based
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1095,6 +1181,8 @@ B: Speed, duplex, VLAN, and other configurations
 C: Only VLAN
 D: Nothing
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: EtherChannel members must have matching speed, duplex, VLAN configuration, and other settings. Mismatches prevent bundle formation.
@@ -1114,6 +1202,8 @@ A: On
 B: Active
 C: Passive
 D: Auto
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1135,6 +1225,8 @@ B: Desirable
 C: Auto
 D: Off
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: PAgP Desirable mode actively sends PAgP packets. Auto mode waits for the other side. At least one side must be Desirable.
@@ -1154,6 +1246,8 @@ A: Port failures
 B: Loops from EtherChannel misconfiguration
 C: Bandwidth issues
 D: Security breaches
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1175,6 +1269,8 @@ B: Connection from lower to higher layer in hierarchy
 C: Backup link
 D: Encrypted link
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: An uplink connects a device to a higher-level device in the network hierarchy, such as access switch to distribution switch.
@@ -1194,6 +1290,8 @@ A: Failed link
 B: Connection from higher to lower layer in hierarchy
 C: Slow link
 D: Wireless link only
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1215,6 +1313,8 @@ B: Links where traffic flows only one direction
 C: Encrypted links
 D: Wireless links
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: UDLD detects unidirectional links where traffic flows only one way, which can cause loops and other issues. It disables affected ports.
@@ -1234,6 +1334,8 @@ A: Increases speed
 B: Disables port on any UDLD failure including neighbor loss
 C: Encrypts traffic
 D: Increases bandwidth
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1255,6 +1357,8 @@ B: Isolating workloads with granular security policies
 C: Physical cable segmentation
 D: VLAN subdivision only
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Micro-segmentation creates fine-grained security zones, isolating individual workloads or applications with specific policies, often using software-defined networking.
@@ -1274,6 +1378,8 @@ A: Trust all internal traffic
 B: Never trust, always verify
 C: Trust based on location
 D: Trust based on device type
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1295,6 +1401,8 @@ B: Device identity from location
 C: Data and control planes
 D: IPv4 and IPv6
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: LISP separates endpoint identifiers (EIDs) from routing locators (RLOCs), improving scalability and mobility in large networks.
@@ -1314,6 +1422,8 @@ A: Physical cables
 B: Unified network architecture with consistent policies
 C: Wireless network
 D: Backup network
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1335,6 +1445,8 @@ B: Predictable latency and high bandwidth
 C: Simpler cabling only
 D: Less equipment
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Leaf-spine provides predictable latency (maximum 2 hops) and high bisectional bandwidth through full mesh between layers, ideal for data centers.
@@ -1354,6 +1466,8 @@ A: Encryption
 B: Layer 2 multipathing using IS-IS
 C: Faster switching
 D: Compression
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1375,6 +1489,8 @@ B: Layer 2 multipathing alternative to STP
 C: Layer 3 routing only
 D: Encryption
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: SPB (802.1aq) provides Layer 2 multipathing using IS-IS, similar to TRILL, eliminating STP limitations and enabling all paths to be used.
@@ -1394,6 +1510,8 @@ A: Physical cable type
 B: Layer 2 multipathing technology
 C: Routing protocol
 D: Encryption method
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1415,6 +1533,8 @@ B: Multi-stage switching fabric with multiple paths
 C: Bus topology
 D: Single path topology
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Clos topology is a multi-stage switching fabric providing multiple paths between endpoints, used in modern data center leaf-spine architectures.
@@ -1434,6 +1554,8 @@ A: Single root
 B: Increasing bandwidth toward root
 C: Decreasing bandwidth toward root
 D: Equal bandwidth everywhere
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1455,6 +1577,8 @@ B: Large, long-lived flows consuming significant bandwidth
 C: Multicast flows
 D: Encrypted flows
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Elephant flows are large, long-duration flows that consume significant bandwidth, requiring special handling for load balancing and QoS.
@@ -1474,6 +1598,8 @@ A: Large size
 B: Small, short-lived flows
 C: Long duration
 D: High bandwidth
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1495,6 +1621,8 @@ B: Ensure packets of same flow take same path
 C: Random distribution
 D: Compression
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: ECMP uses hash of packet headers to select path, ensuring all packets of a flow take the same path, preventing reordering.
@@ -1514,6 +1642,8 @@ A: Faster
 B: Prevents packet reordering within flows
 C: Better encryption
 D: Lower latency
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1535,6 +1665,8 @@ B: Same gateway IP/MAC on multiple VTEPs
 C: Random gateway
 D: Backup gateway
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Anycast gateway configures the same gateway IP and MAC on multiple VTEPs, allowing hosts to use any VTEP as gateway, improving load distribution.
@@ -1554,6 +1686,8 @@ A: One active, one standby
 B: Multiple devices actively forwarding traffic simultaneously
 C: All devices standby
 D: Sequential activation
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1575,6 +1709,8 @@ B: When active device fails
 C: Never
 D: Randomly
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: In active-standby, the standby device remains idle and takes over only when the active device fails, providing redundancy without load balancing.
@@ -1595,6 +1731,8 @@ B: VRRP
 C: GLBP
 D: None
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: C
 
 Reason: GLBP provides load balancing by assigning different virtual MAC addresses to hosts, distributing traffic across multiple routers. HSRP/VRRP are active-standby.
@@ -1606,6 +1744,7 @@ Tag: Normal
 ### Question 581
 Domain: Computer Networks
 Topic: Network Security
+Subtopic: General
 Subtip: VLAN Security Best Practices
 Difficulty: Medium
 
@@ -1614,6 +1753,8 @@ A: Use VLAN 1 for all traffic
 B: Change native VLAN from default and disable unused ports
 C: Enable DTP on all ports
 D: Use same VLAN for all devices
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1635,6 +1776,8 @@ B: Isolate management traffic for security
 C: Reduce costs
 D: Increase bandwidth
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Separate management VLAN isolates management traffic (SSH, SNMP, etc.) from user traffic, improving security and preventing unauthorized access.
@@ -1654,6 +1797,8 @@ A: Phones require it
 B: QoS prioritization and security separation
 C: Cost reduction
 D: Faster calls
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1675,6 +1820,8 @@ B: LLDP-MED or CDP from switch
 C: DHCP
 D: DNS
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Switches advertise voice VLAN information via LLDP-MED or CDP, allowing IP phones to automatically configure themselves for the correct VLAN.
@@ -1694,6 +1841,8 @@ A: Firewall location
 B: Point where QoS markings are trusted or remarked
 C: Network edge only
 D: Router location
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1715,6 +1864,8 @@ B: Classification identifies traffic, marking sets QoS bits
 C: Marking is faster
 D: Classification is more secure
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Classification identifies traffic based on criteria (ACLs, NBAR), while marking sets QoS bits (DSCP, CoS) in packet headers for downstream QoS treatment.
@@ -1734,6 +1885,8 @@ A: Encrypts applications
 B: Classifies traffic by deep packet inspection
 C: Blocks applications
 D: Compresses traffic
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1755,6 +1908,8 @@ B: Round robin
 C: Weighted fair queuing
 D: FIFO
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Round robin serves each queue in turn equally, providing fair distribution. WFQ uses weights, priority queuing favors high-priority queues.
@@ -1774,6 +1929,8 @@ A: Too slow
 B: Pauses all traffic, not per-priority
 C: Too complex
 D: Requires expensive hardware
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1795,6 +1952,8 @@ B: Forwarding frame before fully received
 C: Blocking traffic
 D: Encrypting frames
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Cut-through switching forwards frames after reading destination MAC (first 6 bytes), reducing latency but not checking for errors.
@@ -1814,6 +1973,8 @@ A: Forwards immediately
 B: Receives entire frame, checks errors, then forwards
 C: Stores frames permanently
 D: Forwards to all ports
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1835,6 +1996,8 @@ B: First 64 bytes for collision fragments
 C: Only destination MAC
 D: Nothing
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Fragment-free switching reads first 64 bytes (minimum frame size) to filter collision fragments, balancing speed and error detection.
@@ -1854,6 +2017,8 @@ A: Store-and-forward
 B: Cut-through
 C: Fragment-free
 D: All equal
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1875,6 +2040,8 @@ B: Examining source MAC of received frames
 C: DNS queries
 D: DHCP
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Switches learn MAC addresses by examining the source MAC address of received frames and associating it with the ingress port.
@@ -1894,6 +2061,8 @@ A: 30 seconds
 B: 5 minutes (300 seconds)
 C: 1 hour
 D: 24 hours
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1915,6 +2084,8 @@ B: Floods it out all ports except ingress port
 C: Sends to router
 D: Buffers it
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: When destination MAC is not in the table, the switch floods the frame out all ports (except ingress) in the VLAN, similar to broadcast.
@@ -1934,6 +2105,8 @@ A: Increase speed
 B: Prevent CAM table overflow attacks
 C: Reduce costs
 D: Improve encryption
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1955,6 +2128,8 @@ B: Least significant bit of first byte is 1
 C: Last byte is FF
 D: All bytes are same
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Multicast MAC addresses have the least significant bit of the first byte set to 1 (e.g., 01:00:5E:xx:xx:xx for IPv4 multicast).
@@ -1975,6 +2150,8 @@ B: Forwards multicast only to ports with interested receivers
 C: Blocks all multicast
 D: Encrypts multicast
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: IGMP snooping examines IGMP messages to learn which ports have multicast receivers, forwarding multicast only to those ports instead of flooding.
@@ -1994,6 +2171,8 @@ A: Multicast routing protocol
 B: IPv6 equivalent of IGMP for multicast group management
 C: Encryption protocol
 D: Load balancing protocol
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 

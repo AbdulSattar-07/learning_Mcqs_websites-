@@ -491,6 +491,8 @@ Difficulty: Easy
 Question: What is batch size?
 A) Model size
 B: Number of samples per training iteration
+B) [Missing option - Please review]
+
 C) Dataset size
 D) Layer size
 
@@ -785,6 +787,8 @@ Question: What does momentum in optimization do?
 A) Stops training
 B) Accelerates convergence using past gradients
 C: Slows training
+C) [Missing option - Please review]
+
 D) No effect
 
 ✔ Correct Answer: B
@@ -841,6 +845,8 @@ B) Separates individual object instances
 C) Only classes
 D: Random segmentation
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Instance segmentation identifies each object separately, not just classes.
 Tag: Normal
@@ -892,6 +898,8 @@ Difficulty: Hard
 Question: What is federated learning?
 A) Centralized training
 B: Training on decentralized data
+B) [Missing option - Please review]
+
 C) No training
 D) Single device
 
@@ -1041,6 +1049,8 @@ Question: When is balanced accuracy useful?
 A) Balanced datasets
 B) Imbalanced datasets
 C: Never useful
+C) [Missing option - Please review]
+
 D) Only regression
 
 ✔ Correct Answer: B
@@ -1058,6 +1068,8 @@ Difficulty: Hard
 Question: What does mutual information measure?
 A) Nothing
 B: Dependency between variables
+B) [Missing option - Please review]
+
 C) Mean
 D) Variance
 
@@ -1112,6 +1124,8 @@ Difficulty: Medium
 Question: What is dependency parsing?
 A) Word counting
 B: Analyzing grammatical structure relationships
+B) [Missing option - Please review]
+
 C) Translation
 D) Summarization
 
@@ -1130,6 +1144,8 @@ Difficulty: Hard
 Question: What is optical flow?
 A) Light intensity
 B: Pattern of motion between frames
+B) [Missing option - Please review]
+
 C) Color flow
 D) No flow
 
@@ -1148,6 +1164,8 @@ Difficulty: Medium
 Question: What is a data lake?
 A) Small database
 B: Centralized repository for raw data
+B) [Missing option - Please review]
+
 C) Processed data only
 D) No storage
 
@@ -1166,8 +1184,12 @@ Difficulty: Hard
 Question: What is a feature store?
 A) Data warehouse
 B: Centralized repository for ML features
+B) [Missing option - Please review]
+
 C) Model storage
 D: Code repository
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Feature store manages, versions, and serves features for ML models.
@@ -1184,8 +1206,12 @@ Difficulty: Hard
 Question: What is model poisoning?
 A) Deleting model
 B: Injecting malicious data during training
+B) [Missing option - Please review]
+
 C) Model compression
 D: No attack
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Model poisoning corrupts training data to compromise model behavior.
@@ -1207,6 +1233,8 @@ print(arr.flatten().sum())
 ```
 A) 4
 B: 10
+B) [Missing option - Please review]
+
 C) 7
 D) 5
 
@@ -1225,8 +1253,12 @@ Difficulty: Hard
 Question: What is Taylor series used for?
 A) Random approximation
 B: Approximating functions with polynomials
+B) [Missing option - Please review]
+
 C) No use
 D: Exact values only
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Taylor series expresses function as infinite sum of polynomial terms.
@@ -1243,8 +1275,12 @@ Difficulty: Hard
 Question: What constraint does isotonic regression enforce?
 A) No constraint
 B: Monotonic relationship
+B) [Missing option - Please review]
+
 C) Linear only
 D: Random
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Isotonic regression fits non-decreasing function to data.
@@ -1261,8 +1297,12 @@ Difficulty: Medium
 Question: What is winsorization?
 A) Deleting outliers
 B: Capping extreme values at percentiles
+B) [Missing option - Please review]
+
 C) No change
 D: Adding outliers
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Winsorization limits extreme values to reduce outlier impact.
@@ -1279,8 +1319,12 @@ Difficulty: Medium
 Question: What does QQ plot compare?
 A) Two datasets
 B: Sample distribution vs theoretical distribution
+B) [Missing option - Please review]
+
 C) Time series
 D: Categories
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: QQ plot compares quantiles to assess if data follows distribution.
@@ -1300,6 +1344,8 @@ B: Models from different training epochs
 C: Single model
 D: No ensemble
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Snapshot ensembles save models at different training stages.
 Tag: Normal
@@ -1318,6 +1364,8 @@ B: Eigenvalues of similarity matrix
 C: No matrix
 D: Distance only
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Spectral clustering uses graph theory and eigendecomposition.
 Tag: Normal
@@ -1333,8 +1381,12 @@ Difficulty: Hard
 Question: What does Cohen's Kappa measure?
 A) Accuracy
 B: Inter-rater agreement beyond chance
+B) [Missing option - Please review]
+
 C) Loss
 D: Speed
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Cohen's Kappa measures agreement between raters accounting for chance.
@@ -1354,6 +1406,8 @@ B: Products or combinations of features
 C: Deleted features
 D: No features
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Interaction features capture relationships between multiple variables.
 Tag: Normal
@@ -1371,6 +1425,8 @@ A) Constant rate
 B: Gradually reducing learning rate
 C: Increasing rate
 D: Random rate
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Learning rate decay reduces step size over time for fine-tuning.
@@ -1390,6 +1446,8 @@ B: Automated neural network architecture design
 C: No search
 D: Random architecture
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: NAS automatically discovers optimal network architectures.
 Tag: Normal
@@ -1407,6 +1465,8 @@ A: Word counting
 B: Identifying expressions referring to same entity
 C: Translation
 D: Summarization
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Coreference resolution links pronouns/mentions to their referents.
@@ -1426,6 +1486,8 @@ B: Confirming if two faces match
 C: Detecting faces
 D: No verification
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Face verification determines if two images are of same person.
 Tag: Normal
@@ -1443,6 +1505,8 @@ A: Slower queries
 B: Efficient for analytical queries
 C: More space
 D: No advantage
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Columnar storage optimizes read performance for analytical workloads.
@@ -1462,6 +1526,8 @@ B: Running new model alongside old without affecting users
 C: No deployment
 D: Replacing old model
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Shadow deployment tests new model in production without serving results.
 Tag: Normal
@@ -1479,6 +1545,8 @@ A: Standard encryption
 B: Computing on encrypted data
 C: No encryption
 D: Decryption only
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Homomorphic encryption allows computations on encrypted data without decrypting.
@@ -1502,6 +1570,8 @@ B: 3.0
 C: 15.0
 D: 5.0
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Sum = 15, length = 5, mean = 15/5 = 3.0.
 Tag: Normal
@@ -1519,6 +1589,8 @@ A: Random matrix
 B: Matrix of first-order partial derivatives
 C: Identity matrix
 D: No matrix
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Jacobian contains all first-order partial derivatives of vector function.
@@ -1538,6 +1610,8 @@ B: Conditional quantiles of response
 C: Mode only
 D: Variance only
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Quantile regression estimates specific percentiles of target distribution.
 Tag: Normal
@@ -1555,6 +1629,8 @@ A: Deleting data
 B: Analyzing data structure and quality
 C: Storing data
 D: Visualizing only
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Data profiling examines data to understand content, structure, and quality.
@@ -1574,6 +1650,8 @@ B: Visualizing multivariate data
 C: Single variable
 D: No use
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Andrews curves map multivariate data to curves for pattern detection.
 Tag: Normal
@@ -1591,6 +1669,8 @@ A: Positive correlation
 B: Training diverse ensemble members
 C: No correlation
 D: Random training
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Negative correlation learning encourages diversity among ensemble models.
@@ -1610,6 +1690,8 @@ B: Exemplars representing clusters
 C: No clusters
 D: Single cluster
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Affinity propagation identifies exemplar data points as cluster centers.
 Tag: Normal
@@ -1627,6 +1709,8 @@ A: Classification accuracy
 B: Accuracy of probabilistic predictions
 C: Regression error
 D: Clustering quality
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Brier score measures mean squared difference between predicted probabilities and outcomes.
@@ -1646,6 +1730,8 @@ B: Feature selection using random forests
 C: Classification method
 D: No algorithm
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Boruta identifies relevant features by comparing with shadow features.
 Tag: Normal
@@ -1663,6 +1749,8 @@ A: Constant rates
 B: Varying learning rate in cycles
 C: Decreasing only
 D: No variation
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Cyclical learning rates oscillate between bounds to escape local minima.
@@ -1682,6 +1770,8 @@ B: Learning to learn from few examples
 C: No learning
 D: Random learning
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Meta-learning trains models to quickly adapt to new tasks with limited data.
 Tag: Normal
@@ -1699,6 +1789,8 @@ A: Generating answers
 B: Selecting answer span from text
 C: Translation
 D: Summarization
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Extractive QA identifies answer location in given passage.
@@ -1718,6 +1810,8 @@ B: Learning similarity between inputs
 C: Regression only
 D: No use
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Siamese networks learn embeddings for similarity comparison tasks.
 Tag: Normal
@@ -1735,6 +1829,8 @@ A: Single layer
 B: Batch and stream processing
 C: No processing
 D: Storage only
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Lambda architecture integrates batch and real-time processing layers.
@@ -1754,6 +1850,8 @@ B: Centralized model metadata repository
 C: Code repository
 D: No registry
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Model registry tracks versions, metadata, and lineage of ML models.
 Tag: Normal
@@ -1771,6 +1869,8 @@ A: Adding members
 B: Determining if data was in training set
 C: Deleting members
 D: No attack
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Membership inference identifies whether specific data point was used in training.
@@ -1795,6 +1895,8 @@ B: (3, 2)
 C: (2, 3)
 D: 6
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: values returns array with shape (rows, columns) = (3, 2).
 Tag: Normal
@@ -1813,6 +1915,8 @@ B: Constrained optimization
 C: No optimization
 D: Unconstrained only
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Lagrange multipliers find extrema of function subject to constraints.
 Tag: Normal
@@ -1830,6 +1934,8 @@ A: Narrow AI
 B: AI with human-level general intelligence
 C: Current AI
 D: No intelligence
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: AGI refers to AI systems with broad human-like cognitive abilities.

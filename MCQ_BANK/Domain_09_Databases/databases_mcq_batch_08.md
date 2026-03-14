@@ -1975,6 +1975,8 @@ Question: When is optimistic concurrency control most effective?
 A) High conflict scenarios
 B) Low conflict scenarios with mostly read operations
 C: Never effective
+C) [Missing option - Please review]
+
 D) Always effective
 
 ✔ Correct Answer: B

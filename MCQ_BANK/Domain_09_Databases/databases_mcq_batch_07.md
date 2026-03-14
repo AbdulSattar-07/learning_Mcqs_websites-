@@ -1874,6 +1874,8 @@ B) It adds overhead for duplicate elimination
 C) It's required
 D: No reason
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: DISTINCT adds overhead for sorting/hashing to eliminate duplicates; avoid it if duplicates don't matter.

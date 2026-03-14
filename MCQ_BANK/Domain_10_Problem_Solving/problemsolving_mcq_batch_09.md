@@ -878,6 +878,8 @@ B) Probabilistic data structure with multiple levels
 C) Simple list
 D: No structure
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Skip list is a probabilistic data structure with multiple levels allowing O(log n) search time.
@@ -897,6 +899,8 @@ Question: What does the Collatz conjecture state?
 A) All sequences diverge
 B) All sequences eventually reach 1
 C: No pattern
+C) [Missing option - Please review]
+
 D) Random conjecture
 
 ✔ Correct Answer: B
@@ -1336,6 +1340,8 @@ Question: What is the circuit breaker pattern?
 
 A) Random pattern
 B: Preventing cascading failures by stopping requests to failing service
+B) [Missing option - Please review]
+
 C) No prevention
 D) Continuous requests
 
@@ -1985,6 +1991,8 @@ Question: What is the bias-variance tradeoff?
 
 A) No tradeoff
 B: Balance between model simplicity and flexibility
+B) [Missing option - Please review]
+
 C) Always choose high bias
 D) Random concept
 

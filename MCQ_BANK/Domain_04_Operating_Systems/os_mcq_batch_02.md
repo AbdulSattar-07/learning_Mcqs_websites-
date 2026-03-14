@@ -212,6 +212,8 @@ Difficulty: Medium
 Question: What is direct (random) file access?
 A) Sequential access only
 B: Access any record directly without reading previous records
+B) [Missing option - Please review]
+
 C) No access allowed
 D) Ordered access only
 
@@ -495,6 +497,8 @@ A) External fragmentation
 B) No random access, pointer overhead
 C) Too fast
 D: No disadvantages
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -973,6 +977,8 @@ Difficulty: Hard
 Question: What does RAID 5 use for redundancy?
 A) Mirroring
 B: Distributed parity
+B) [Missing option - Please review]
+
 C) No redundancy
 D) Triple redundancy
 
@@ -1377,6 +1383,8 @@ B) Trying all possible password combinations
 C) Social engineering
 D: Guessing once
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Brute force systematically tries all possible password combinations until finding the correct one, time-consuming but eventually successful.
@@ -1393,6 +1401,8 @@ Difficulty: Medium
 
 Question: What is a dictionary attack?
 A: Random guessing
+A) [Missing option - Please review]
+
 B) Trying common words and phrases from dictionary
 C) Physical attack
 D) No attack

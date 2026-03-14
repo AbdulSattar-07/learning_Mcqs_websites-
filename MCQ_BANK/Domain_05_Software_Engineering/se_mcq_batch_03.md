@@ -475,6 +475,8 @@ B) Predict future sprint capacity
 C) Measure speed only
 D: No purpose
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Team velocity (average story points per sprint) predicts future capacity and helps plan releases.
@@ -591,6 +593,8 @@ Difficulty: Hard
 
 Question: What is Proxy pattern?
 A: Direct access
+A) [Missing option - Please review]
+
 B) Provides surrogate controlling access to object
 C) No control
 D) Random access
@@ -1449,6 +1453,8 @@ Difficulty: Hard
 
 Question: What are test doubles?
 A: Duplicate tests
+A) [Missing option - Please review]
+
 B) Generic term for mocks, stubs, fakes, spies
 C) No doubles
 D) Random objects

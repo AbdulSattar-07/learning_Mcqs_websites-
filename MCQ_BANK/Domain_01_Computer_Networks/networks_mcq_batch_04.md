@@ -652,6 +652,8 @@ Difficulty: Hard
 Question: What is LLMNR used for in Windows networks?
 A) File sharing
 B: Local name resolution when DNS fails
+B) [Missing option - Please review]
+
 C) Printer discovery
 D) User authentication
 
@@ -1654,6 +1656,8 @@ A) Backbone bandwidth
 B) Convergence when indirect link fails
 C) Security
 D: Compression
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 

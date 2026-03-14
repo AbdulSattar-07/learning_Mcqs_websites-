@@ -11,6 +11,8 @@ Difficulty: Hard
 
 Question: What is composition in OOP?
 A: Inheritance
+A) [Missing option - Please review]
+
 B) Object contains other objects as members (has-a relationship)
 C) Method composition
 D) Class merging
@@ -239,6 +241,8 @@ print(s)
 ```
 A) Hello
 B: TypeError
+B) [Missing option - Please review]
+
 C) hello
 D) H
 

@@ -247,6 +247,8 @@ Difficulty: Easy
 Question: What is a voting classifier?
 A) Single model
 B: Combines predictions from multiple models by voting
+B) [Missing option - Please review]
+
 C) Feature selection method
 D) Data preprocessing technique
 
@@ -266,6 +268,8 @@ Question: Which technique is used for edge detection in images?
 A) K-Means
 B) Sobel operator
 C: Linear Regression
+C) [Missing option - Please review]
+
 D) PCA
 
 ✔ Correct Answer: B
@@ -629,6 +633,8 @@ Difficulty: Medium
 
 Question: What is the key idea behind gradient boosting?
 A: Random sampling
+A) [Missing option - Please review]
+
 B) Building models sequentially to correct previous errors
 C) Parallel training
 D) Feature selection
@@ -1583,6 +1589,8 @@ A) Ignoring them
 B) Capping, transformation, or removal
 C) Only removal
 D: No treatment needed
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Outliers can be capped (winsorization), transformed (log), or removed based on context.

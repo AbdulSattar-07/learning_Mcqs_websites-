@@ -1006,6 +1006,8 @@ Difficulty: Medium
 Question: What does the law of large numbers state?
 
 A: Small samples are accurate
+A) [Missing option - Please review]
+
 B) Sample average converges to expected value as sample size increases
 C) Random convergence
 D) No law
@@ -1871,6 +1873,8 @@ B) Data too large to fit in memory
 C) Data fits in memory
 D: Never needed
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: External sorting is used when data is too large to fit in main memory and must use external storage.
@@ -1993,6 +1997,8 @@ Difficulty: Medium
 Question: What are oblique strategies?
 
 A: Direct solutions
+A) [Missing option - Please review]
+
 B) Prompts to overcome creative blocks
 C) Linear thinking
 D) No strategies

@@ -971,6 +971,8 @@ Difficulty: Hard
 
 Question: What features does Btrfs provide?
 A: Simple features
+A) [Missing option - Please review]
+
 B) COW, snapshots, subvolumes, checksums, compression
 C) No features
 D) Minimal features

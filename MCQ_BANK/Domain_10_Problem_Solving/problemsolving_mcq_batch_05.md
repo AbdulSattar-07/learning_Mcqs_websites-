@@ -119,6 +119,8 @@ Question: What distinguishes first-order logic from propositional logic?
 
 A) No difference
 B: Includes quantifiers and predicates over variables
+B) [Missing option - Please review]
+
 C) Simpler
 D) Random difference
 
@@ -143,6 +145,8 @@ B: Help prove algorithm correctness
 C: Slow down execution
 D: No reason
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Loop invariants are crucial for proving algorithm correctness through mathematical induction.
@@ -163,6 +167,8 @@ A: Final state
 B: Condition that must be true before function executes
 C: Random condition
 D: No condition
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -185,6 +191,8 @@ B: Condition guaranteed to be true after function executes
 C: Random condition
 D: No condition
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: A postcondition is a condition guaranteed to be true after a function successfully executes.
@@ -205,6 +213,8 @@ A: Random encoding
 B: Adjacent values differ by only one bit
 C: Same as binary
 D: No special property
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -227,6 +237,8 @@ B: Each decimal digit encoded as 4 bits
 C: Standard binary
 D: No encoding
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: BCD encodes each decimal digit (0-9) as a separate 4-bit binary number.
@@ -247,6 +259,8 @@ A: n
 B: n(n+1)/2
 C: n²
 D: 2n
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -269,6 +283,8 @@ B: 2^(n+1) - 1
 C: 2^n + 1
 D: n²
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Sum of geometric series with ratio 2: 2^(n+1) - 1.
@@ -289,6 +305,8 @@ A: 15
 B: 25
 C: 55
 D: 30
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: C
 
@@ -311,6 +329,8 @@ B: 24
 C: 16
 D: 20
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: 1 × 2 × 3 × 4 = 24 (which is 4!).
@@ -331,6 +351,8 @@ A: Composite numbers
 B: All prime numbers up to n
 C: Perfect squares
 D: Random numbers
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -353,6 +375,8 @@ B: 4
 C: 5
 D: 7
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: C
 
 Reason: Distance = √((3-0)² + (4-0)²) = √(9 + 16) = √25 = 5.
@@ -373,6 +397,8 @@ A: 5
 B: 7
 C: 12
 D: 3
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -395,6 +421,8 @@ B: Correlation shows relationship, causation shows one causes the other
 C: Same thing
 D: Random difference
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Correlation indicates a relationship; causation means one variable directly causes changes in another.
@@ -415,6 +443,8 @@ A: True relationship
 B: Apparent correlation without causal relationship
 C: Strong causation
 D: No correlation
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -437,6 +467,8 @@ B: To check assumptions during development
 C: In production only
 D: Randomly
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Assertions check assumptions and invariants during development, helping catch bugs early.
@@ -457,6 +489,8 @@ A: ERROR, WARN, INFO, DEBUG
 B: DEBUG, INFO, WARN, ERROR
 C: INFO, DEBUG, WARN, ERROR
 D: WARN, ERROR, INFO, DEBUG
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -479,6 +513,8 @@ B: Average constant time over sequence of operations
 C: Worst case constant
 D: No meaning
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Amortized O(1) means operations average to constant time over a sequence, though individual ops may vary.
@@ -499,6 +535,8 @@ A: O(1)
 B: O(n)
 C: O(n²)
 D: O(2^n)
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -527,6 +565,8 @@ B: 24
 C: 16
 D: Error
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Reduce multiplies all elements: 1 × 2 × 3 × 4 = 24.
@@ -552,6 +592,8 @@ A: apple
 B: a
 C: pie
 D: zoo
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -579,6 +621,8 @@ B: ab
 C: abc
 D: Error
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: C
 
 Reason: max() with key=len returns the longest string: 'abc'.
@@ -599,6 +643,8 @@ A: Total correct
 B: True positives / (True positives + False positives)
 C: True positives / Total positives
 D: Random metric
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -621,6 +667,8 @@ B: True positives / (True positives + False negatives)
 C: False positives / Total
 D: Random metric
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Recall = TP / (TP + FN) - proportion of actual positives correctly identified.
@@ -641,6 +689,8 @@ A: Average of precision and recall
 B: Harmonic mean of precision and recall
 C: Product of precision and recall
 D: Random metric
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -663,6 +713,8 @@ B: Temporarily removing constraints to explore solutions
 C: Ignoring all rules
 D: No technique
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Constraint relaxation temporarily removes constraints to explore creative solutions, then reintroduces them.
@@ -683,6 +735,8 @@ A: Confirming assumptions
 B: Reversing assumptions to generate new perspectives
 C: Random thinking
 D: No technique
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -705,6 +759,8 @@ B: Cost of rework from choosing quick solutions over better approaches
 C: No debt
 D: Random concept
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Technical debt is the implied cost of future rework caused by choosing quick solutions over better approaches.
@@ -725,6 +781,8 @@ A: Direct problem solving
 B: Series of tangential tasks before addressing original problem
 C: Efficient approach
 D: No concept
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -747,6 +805,8 @@ B: Writing programs as explanation to humans with code embedded
 C: Minimal comments
 D: No documentation
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Literate programming treats programs as literature, explaining logic to humans with executable code embedded.
@@ -767,6 +827,8 @@ A: No comments needed
 B: Clear naming and structure that explains intent
 C: Random names
 D: Complex logic
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -789,6 +851,8 @@ B: Solving problems by finding similar solved problems
 C: Ignoring past solutions
 D: No method
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Analogical problem solving uses solutions from similar problems in different domains.
@@ -809,6 +873,8 @@ A: Working backward
 B: Starting from known facts and deriving conclusions
 C: Random approach
 D: No method
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -831,6 +897,8 @@ B: Starting from goal and working backward to find supporting facts
 C: Random approach
 D: No method
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Backward chaining starts with the goal and works backward to find facts that support it.
@@ -851,6 +919,8 @@ A: Deep exploration first
 B: Exploring all neighbors before going deeper
 C: Random search
 D: No strategy
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -873,6 +943,8 @@ B: Exploring as deep as possible before backtracking
 C: Random search
 D: No strategy
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Depth-first search explores as far as possible along each branch before backtracking.
@@ -893,6 +965,8 @@ A: Only valid
 B: Valid with true premises
 C: Random argument
 D: No requirements
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -915,6 +989,8 @@ B: If premises are true, conclusion must be true
 C: Random structure
 D: No requirements
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: A valid argument has a structure where if premises are true, the conclusion must be true.
@@ -935,6 +1011,8 @@ A: Quicksort (typical implementation)
 B: Merge sort
 C: Heapsort
 D: Selection sort
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -957,6 +1035,8 @@ B: Transforms input using minimal extra space
 C: Creates copies
 D: No algorithm
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: In-place algorithms transform input using only O(1) or O(log n) extra space.
@@ -977,6 +1057,8 @@ A: Encryption
 B: Error detection
 C: Compression
 D: No use
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -999,6 +1081,8 @@ B: 2
 C: 3
 D: 4
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Hamming distance counts differing bit positions. 1010 vs 1100: positions 2 and 3 differ = 2.
@@ -1019,6 +1103,8 @@ A: P(n) = P(n-1) + P(n-2)
 B: P(n) = 2×P(n-1) + P(n-2)
 C: P(n) = P(n-1) × P(n-2)
 D: Random sequence
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1041,6 +1127,8 @@ B: Same recurrence, different initial values
 C: No relation
 D: Random difference
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Lucas numbers use same recurrence as Fibonacci but start with L(0)=2, L(1)=1.
@@ -1061,6 +1149,8 @@ A: 3
 B: 4
 C: 3.5
 D: 3.7
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: A
 
@@ -1083,6 +1173,8 @@ B: 4
 C: 3.5
 D: 3.2
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Ceiling function rounds up to nearest integer: ⌈3.2⌉ = 4.
@@ -1103,6 +1195,8 @@ A: Sorting
 B: Randomly sampling from stream of unknown size
 C: Searching
 D: No problem
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1125,6 +1219,8 @@ B: Randomly shuffles array
 C: Searches array
 D: No function
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Fisher-Yates (Knuth) shuffle randomly permutes an array in O(n) time.
@@ -1145,6 +1241,8 @@ A: Maximize everything
 B: Minimize maximum possible loss
 C: Random strategy
 D: No strategy
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1167,6 +1265,8 @@ B: State where no player benefits from changing strategy alone
 C: Optimal for all
 D: No equilibrium
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Nash equilibrium is a state where no player can benefit by changing strategy while others keep theirs.
@@ -1187,6 +1287,8 @@ A: Testing mutations
 B: Modifying code to test if tests catch the changes
 C: Random testing
 D: No testing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1209,6 +1311,8 @@ B: Providing random/invalid inputs to find crashes
 C: Manual testing
 D: No testing
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Fuzz testing provides random, unexpected, or invalid inputs to discover crashes and vulnerabilities.
@@ -1229,6 +1333,8 @@ A: Upper bound only
 B: Tight bound (both upper and lower)
 C: Lower bound only
 D: No bound
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1251,6 +1357,8 @@ B: Lower bound
 C: Tight bound
 D: No bound
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Ω notation provides an asymptotic lower bound on algorithm complexity.
@@ -1271,6 +1379,8 @@ A: Comparison
 B: Assignment within expression
 C: Division
 D: No function
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1296,6 +1406,8 @@ A: 1
 B: 2
 C: 3
 D: 5
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: C
 
@@ -1324,6 +1436,8 @@ B: 3
 C: 5
 D: Error
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Dictionary unpacking merges dicts; d2 values override d1. d3['b'] = 3.
@@ -1344,6 +1458,8 @@ A: Accuracy vs time
 B: True positive rate vs false positive rate
 C: Precision vs recall
 D: Random metrics
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1366,6 +1482,8 @@ B: Area under ROC curve
 C: Total errors
 D: Random metric
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: AUC (Area Under Curve) measures the area under the ROC curve, indicating classifier performance.
@@ -1386,6 +1504,8 @@ A: Random connections
 B: Forcing relationships between unrelated concepts
 C: Avoiding connections
 D: No technique
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1408,6 +1528,8 @@ B: Using random words/objects to trigger new ideas
 C: Planned input
 D: No technique
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Random input uses random words or objects to break thinking patterns and trigger creative ideas.
@@ -1428,6 +1550,8 @@ A: No limits
 B: Controlling frequency of operations
 C: Unlimited access
 D: Random control
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1450,6 +1574,8 @@ B: Limiting rate of operations
 C: No control
 D: Random behavior
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Throttling limits the rate at which operations are performed to manage load.
@@ -1470,6 +1596,8 @@ A: Major version
 B: Minor version (backward-compatible features)
 C: Patch version
 D: Random number
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1492,6 +1620,8 @@ B: Change that breaks backward compatibility
 C: New feature
 D: Documentation update
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: A breaking change modifies functionality in a way that breaks backward compatibility.
@@ -1512,6 +1642,8 @@ A: Perfect rationality
 B: Decision-making limited by information, time, and cognitive ability
 C: Unlimited rationality
 D: No rationality
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1534,6 +1666,8 @@ B: Bounded rationality and resource constraints
 C: No reason
 D: Random choice
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: People satisfice due to bounded rationality, limited time, and resource constraints.
@@ -1554,6 +1688,8 @@ A: Random analysis
 B: Studying how output changes with input variations
 C: No analysis
 D: Single test
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1576,6 +1712,8 @@ B: Exploring outcomes under different scenarios
 C: No analysis
 D: Single scenario
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: What-if analysis explores potential outcomes by varying assumptions and inputs.
@@ -1596,6 +1734,8 @@ A: Middle values exist
 B: Proposition is either true or false, no middle
 C: Multiple values
 D: No law
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1618,6 +1758,8 @@ B: Proposition cannot be both true and false simultaneously
 C: Multiple truths
 D: No law
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Law of non-contradiction states a proposition cannot be both true and false at the same time.
@@ -1638,6 +1780,8 @@ A: Infinite loop
 B: Loop that continues until sentinel value is encountered
 C: Fixed iterations
 D: No loop
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1660,6 +1804,8 @@ B: Loop with predetermined number of iterations
 C: Infinite loop
 D: No loop
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: A counting loop executes a predetermined number of times (e.g., for i in range(n)).
@@ -1680,6 +1826,8 @@ A: Random encoding
 B: Compressing by storing value and count of consecutive repeats
 C: No compression
 D: Complex encoding
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1702,6 +1850,8 @@ B: Variable-length codes based on frequency
 C: Random codes
 D: No coding
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Huffman coding uses variable-length codes, assigning shorter codes to more frequent symbols.
@@ -1722,6 +1872,8 @@ A: Prime numbers
 B: Ways to partition a set
 C: Perfect squares
 D: Random values
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1744,6 +1896,8 @@ B: Ways to partition n objects into k non-empty subsets
 C: Combinations
 D: Random values
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Stirling numbers of the second kind count ways to partition n objects into k non-empty subsets.
@@ -1764,6 +1918,8 @@ A: 5
 B: 10
 C: 20
 D: 25
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1786,6 +1942,8 @@ B: C(n,k) = C(n-1,k-1) + C(n-1,k)
 C: C(n,k) = n×k
 D: Random formula
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Pascal's identity: C(n,k) = C(n-1,k-1) + C(n-1,k), basis for Pascal's triangle.
@@ -1806,6 +1964,8 @@ A: Linear search
 B: Splitting problem and solving from both ends
 C: Random approach
 D: No technique
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1828,6 +1988,8 @@ B: Mapping large coordinate values to smaller range
 C: No compression
 D: Data deletion
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Coordinate compression maps large sparse coordinate values to a smaller dense range.
@@ -1848,6 +2010,8 @@ A: Cooperation always wins
 B: Individual rationality can lead to worse collective outcome
 C: Betrayal always wins
 D: No lesson
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1870,6 +2034,8 @@ B: One player's gain equals another's loss
 C: Everyone loses
 D: No game
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: In zero-sum games, one player's gain is exactly balanced by another player's loss.
@@ -1890,6 +2056,8 @@ A: Code length
 B: Percentage of code executed by tests
 C: Code quality
 D: Random metric
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1912,6 +2080,8 @@ B: Percentage of decision branches tested
 C: Function coverage
 D: Random metric
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Branch coverage measures the percentage of decision branches (true/false paths) executed in tests.
@@ -1932,6 +2102,8 @@ A: Speed comparison
 B: Ratio of online algorithm performance to optimal offline
 C: Random ratio
 D: No ratio
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1954,6 +2126,8 @@ B: Ratio of approximate solution to optimal solution
 C: Random ratio
 D: No ratio
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Approximation ratio measures how close an approximate solution is to the optimal solution.
@@ -1974,6 +2148,8 @@ A: Forgets results
 B: Caches function results for given inputs
 C: Slows execution
 D: No effect
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -2003,6 +2179,8 @@ B: 1, 2
 C: 2, 2
 D: Error
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Default mutable arguments are shared. First call: [1] (len=1). Second call: [1,2] (len=2).
@@ -2023,6 +2201,8 @@ A: Errors
 B: Correct predictions
 C: Random values
 D: No values
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -2045,6 +2225,8 @@ B: Dividing data into k parts, training on k-1, testing on 1
 C: No validation
 D: Random split
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: K-fold cross-validation divides data into k parts, using k-1 for training and 1 for testing, rotating k times.
@@ -2065,6 +2247,8 @@ A: Logical statement
 B: Deliberately absurd statement to trigger new ideas
 C: Factual statement
 D: No technique
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -2087,6 +2271,8 @@ B: Listing and modifying attributes to generate ideas
 C: No listing
 D: Final list
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Attribute listing identifies object attributes and explores modifications to generate creative solutions.
@@ -2108,6 +2294,8 @@ B: System becomes consistent over time
 C: Never consistent
 D: Random consistency
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Eventual consistency guarantees that if no new updates occur, all replicas will eventually converge.
@@ -2128,6 +2316,8 @@ A: Removing immediately
 B: Marking for future removal while still available
 C: Adding feature
 D: No change
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 

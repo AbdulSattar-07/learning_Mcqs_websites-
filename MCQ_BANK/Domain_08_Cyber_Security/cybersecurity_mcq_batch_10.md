@@ -1288,6 +1288,7 @@ Tag: Past Paper
 ### Question 962
 Domain: Cyber Security
 Topic: Cyber Laws & Ethics
+Subtopic: General
 Difficulty: Medium
 
 Question: What is the principle of responsible disclosure?

@@ -120,6 +120,8 @@ Question: If "Being a mammal is necessary for being a dog", what does this mean?
 A) All mammals are dogs
 B) All dogs are mammals
 C) No relationship
+C) [Missing option - Please review]
+
 D) Random statement
 
 ✔ Correct Answer: B
@@ -911,6 +913,8 @@ Question: What is lazy evaluation?
 A) Immediate evaluation
 B) Delaying computation until result is needed
 C: Random evaluation
+C) [Missing option - Please review]
+
 D) No evaluation
 
 ✔ Correct Answer: B
@@ -1142,6 +1146,8 @@ Question: Why does rubber duck debugging work?
 A) Magic
 B) Explaining forces clear thinking and reveals assumptions
 C: Ducks are smart
+C) [Missing option - Please review]
+
 D) No reason
 
 ✔ Correct Answer: B
@@ -1393,6 +1399,8 @@ Question: What is the circuit breaker pattern?
 
 A) Electrical circuit
 B: Preventing cascading failures by stopping requests to failing service
+B) [Missing option - Please review]
+
 C) No pattern
 D) Random pattern
 
@@ -1456,6 +1464,8 @@ Question: What is the difference between satisficing and optimizing?
 
 A) No difference
 B: Satisficing finds acceptable solution, optimizing finds best solution
+B) [Missing option - Please review]
+
 C) Same approach
 D) Random difference
 
@@ -1498,6 +1508,8 @@ Question: What is impact analysis?
 
 A) Random analysis
 B: Assessing effects of proposed changes
+B) [Missing option - Please review]
+
 C) No analysis
 D) Final testing
 
@@ -1522,6 +1534,8 @@ B: Identifies relationships and potential bottlenecks
 C: Wastes time
 D: No reason
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Dependency mapping identifies relationships between components and potential bottlenecks or risks.
@@ -1542,6 +1556,8 @@ A) Valid argument
 B: Misrepresenting opponent's argument to make it easier to attack
 C: Strong argument
 D: No fallacy
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1564,6 +1580,8 @@ B: Claiming one event will lead to extreme consequences without evidence
 C: Logical progression
 D: No fallacy
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Slippery slope assumes one action will inevitably lead to extreme consequences without justification.
@@ -1585,6 +1603,8 @@ B: Recursive call is the last operation in function
 C: First operation
 D: No recursion
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Tail recursion occurs when the recursive call is the last operation, enabling optimization.
@@ -1605,6 +1625,8 @@ A) Single function recursion
 B: Two or more functions calling each other recursively
 C: No recursion
 D: Random calls
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1687,6 +1709,8 @@ Question: What defines Hofstadter's Q-sequence?
 
 A) Linear growth
 B: Q(n) = Q(n - Q(n-1)) + Q(n - Q(n-2))
+B) [Missing option - Please review]
+
 C) Exponential growth
 D) Random values
 
@@ -1750,6 +1774,8 @@ Question: What problem does the Dutch National Flag algorithm solve?
 
 A) Searching
 B: Partitioning array into three groups
+B) [Missing option - Please review]
+
 C) Sorting completely
 D) No problem
 
@@ -1771,6 +1797,8 @@ Question: What does Boyer-Moore majority vote algorithm find?
 
 A) Minimum element
 B: Element appearing more than n/2 times
+B) [Missing option - Please review]
+
 C) All elements
 D) Random element
 
@@ -1792,6 +1820,8 @@ Question: What is the Dunning-Kruger effect?
 
 A) Expert confidence
 B: Incompetent people overestimate their ability
+B) [Missing option - Please review]
+
 C) Accurate self-assessment
 D) No effect
 
@@ -1816,6 +1846,8 @@ B: Doubting abilities despite evidence of competence
 C: Accurate assessment
 D: No syndrome
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Imposter syndrome is doubting one's abilities and feeling like a fraud despite evidence of competence.
@@ -1836,6 +1868,8 @@ A) Testing all users
 B: Releasing to small subset before full rollout
 C: No testing
 D: Final testing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1858,6 +1892,8 @@ B: Running two identical environments for zero-downtime deployment
 C: Single environment
 D: No deployment
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Blue-green deployment maintains two identical environments, switching traffic for zero-downtime updates.
@@ -1878,6 +1914,8 @@ A) Ignore cache
 B: Efficient without knowing cache parameters
 C: Require cache knowledge
 D: No algorithms
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1900,6 +1938,8 @@ B: Processes input piece-by-piece without future knowledge
 C: Knows all input upfront
 D: No algorithm
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Online algorithms process input sequentially without knowledge of future inputs.
@@ -1920,6 +1960,8 @@ A) Random use
 B: Ensure proper resource acquisition and release
 C: Speed up code
 D: No purpose
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1942,6 +1984,8 @@ B: Optimized at C level in Python
 C: Use more memory
 D: Random reason
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: List comprehensions are optimized at the C level, making them faster than equivalent for loops.
@@ -1962,6 +2006,8 @@ A) Correct decision
 B: False positive - rejecting true null hypothesis
 C: False negative
 D: No error
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1984,6 +2030,8 @@ B: False negative - failing to reject false null hypothesis
 C: Correct decision
 D: No error
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Type II error (false negative) occurs when failing to reject a false null hypothesis.
@@ -2004,6 +2052,8 @@ A) Random design
 B: Imitating nature's strategies to solve problems
 C: Avoiding nature
 D: No method
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -2026,6 +2076,8 @@ B: Theory of Inventive Problem Solving
 C: Programming language
 D: No method
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: TRIZ (Theory of Inventive Problem Solving) is a systematic approach to innovation and problem-solving.
@@ -2046,6 +2098,8 @@ A) Complete failure
 B: System continues with reduced functionality when components fail
 C: No degradation
 D: Random behavior
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -2068,6 +2122,8 @@ B: Operation produces same result when repeated
 C: Different results each time
 D: No property
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: An idempotent operation produces the same result no matter how many times it's executed.
@@ -2086,6 +2142,8 @@ Question: What is an ADR (Architecture Decision Record)?
 
 A) Random document
 B: Document capturing important architectural decisions
+B) [Missing option - Please review]
+
 C) Code comment
 D) No document
 
@@ -2107,6 +2165,8 @@ Question: What is an RFC in software development?
 
 A) Random file
 B: Request for Comments - proposal for discussion
+B) [Missing option - Please review]
+
 C) Final decision
 D) No document
 

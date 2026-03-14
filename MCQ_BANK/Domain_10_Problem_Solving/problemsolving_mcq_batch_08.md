@@ -437,6 +437,8 @@ B) Number of data transfers between memory levels
 C) Memory usage
 D: No measurement
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: I/O complexity measures the number of data transfers between different levels of memory hierarchy.
@@ -1507,6 +1509,8 @@ A) Dense graphs
 B) Sparse graphs
 C) Always
 D: Never
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 

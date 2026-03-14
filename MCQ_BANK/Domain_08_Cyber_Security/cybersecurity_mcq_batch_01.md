@@ -823,6 +823,8 @@ Difficulty: Hard
 Question: What does Content-Security-Policy header do?
 A) Compress content
 B: Prevent XSS and injection attacks
+B) [Missing option - Please review]
+
 C) Cache content
 D) No function
 
@@ -898,6 +900,8 @@ B: Removing threat from environment
 C: Documentation only
 D: No action
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Eradication eliminates malware, closes vulnerabilities, and removes attacker access.
 Tag: Normal
@@ -915,6 +919,8 @@ A: Bluetooth hacking for data theft
 B: Sending unsolicited messages via Bluetooth
 C: Bluetooth encryption
 D: Bluetooth pairing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Bluejacking sends anonymous messages to nearby Bluetooth devices.
@@ -934,6 +940,8 @@ B: Breaking out of container to access host
 C: Container migration
 D: Container shutdown
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Container escape exploits vulnerabilities to access underlying host system.
 Tag: Normal
@@ -951,6 +959,8 @@ A: Creating vulnerabilities
 B: Automated identification of security weaknesses
 C: Exploiting vulnerabilities
 D: Ignoring vulnerabilities
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Vulnerability scanners automatically detect known security flaws.
@@ -970,6 +980,8 @@ B: Authorized security testing
 C: Malicious hacking
 D: No hacking
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Ethical hackers test systems with permission to find vulnerabilities.
 Tag: Normal
@@ -987,6 +999,8 @@ A: No security
 B: Immutable distributed ledger
 C: Centralized control
 D: Easy modification
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Blockchain's distributed, tamper-resistant nature enhances data integrity.
@@ -1006,6 +1020,8 @@ B: Entity that poses security threat
 C: Firewall
 D: Antivirus
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Threat actor is individual or group that carries out attacks.
 Tag: Normal
@@ -1023,6 +1039,8 @@ A: Advanced Encryption Standard
 B: Automatic Encryption System
 C: Applied Encryption Security
 D: Advanced Electronic Security
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: A
 Reason: AES is widely-used symmetric encryption algorithm.
@@ -1042,6 +1060,8 @@ B: Hides internal IP addresses
 C: Increases speed
 D: Encrypts data
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: NAT obscures internal network structure from external networks.
 Tag: Normal
@@ -1059,6 +1079,8 @@ A: Creating sessions
 B: Stealing user session to impersonate
 C: Ending sessions
 D: Session encryption
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Session hijacking captures session tokens to gain unauthorized access.
@@ -1078,6 +1100,8 @@ B: Malware hiding its presence
 C: Admin tool
 D: Backup system
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Rootkit conceals malware by modifying OS to avoid detection.
 Tag: Normal
@@ -1095,6 +1119,8 @@ A: Single Security Option
 B: Single Sign-On for multiple applications
 C: Super Secure Operation
 D: System Security Only
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: SSO allows one authentication for access to multiple systems.
@@ -1114,6 +1140,8 @@ B: Relies on secrecy, not strong design
 C: Best practice
 D: Always works
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Security by obscurity fails when secret is discovered; use proven methods.
 Tag: Normal
@@ -1131,6 +1159,8 @@ A: Linux distribution
 B: Security-Enhanced Linux with mandatory access control
 C: Linux firewall
 D: Linux antivirus
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: SELinux implements MAC (Mandatory Access Control) in Linux kernel.
@@ -1150,6 +1180,8 @@ B: Public Key Infrastructure
 C: Protected Key Internet
 D: Public Kernel Interface
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: PKI manages digital certificates and public-key encryption.
 Tag: Normal
@@ -1167,6 +1199,8 @@ A: Sweet storage
 B: Decoy system to attract attackers
 C: Backup server
 D: Load balancer
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Honeypot lures attackers to study tactics and protect real systems.
@@ -1186,6 +1220,8 @@ B: Open Web Application Security Project
 C: Online Web Access Security Platform
 D: Organized Web Application System
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: OWASP is nonprofit focused on improving software security.
 Tag: Normal
@@ -1203,6 +1239,8 @@ A: Network attack
 B: Manipulating people to divulge information
 C: Software vulnerability
 D: Encryption method
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Social engineering exploits human psychology rather than technical vulnerabilities.
@@ -1222,6 +1260,8 @@ B: Software Assurance Maturity Model
 C: Malware scanner
 D: Network protocol
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: SAMM helps organizations assess and improve software security practices.
 Tag: Normal
@@ -1239,6 +1279,8 @@ A: Network design
 B: Capturing and analyzing network traffic
 C: Network speed testing
 D: Network installation
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Network forensics monitors and analyzes network data for investigations.
@@ -1258,6 +1300,8 @@ B: Restoring systems to normal operation
 C: Ignoring incident
 D: No action
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Recovery restores affected systems and services to operational state.
 Tag: Normal
@@ -1275,6 +1319,8 @@ A: No challenges
 B: Managing personal devices accessing corporate data
 C: Faster networks
 D: Better security
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: BYOD (Bring Your Own Device) creates security and policy enforcement challenges.
@@ -1294,6 +1340,8 @@ B: Data isolation between customers
 C: Faster performance
 D: Lower cost
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Multi-tenancy requires strong isolation to prevent data leakage between tenants.
 Tag: Normal
@@ -1311,6 +1359,8 @@ A: Network installation
 B: Simulated attack to find vulnerabilities
 C: Software development
 D: Data backup
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Pen testing ethically exploits systems to identify security weaknesses.
@@ -1330,6 +1380,8 @@ B: Inform affected individuals of compromise
 C: Hide breaches
 D: Slow response
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Breach notification laws require timely disclosure to affected parties.
 Tag: Normal
@@ -1347,6 +1399,8 @@ A: No threat
 B: Breaking current encryption algorithms
 C: Stronger encryption
 D: Faster encryption
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Quantum computers could break RSA and other current encryption methods.
@@ -1366,6 +1420,8 @@ B: Sum of vulnerabilities accessible to attackers
 C: Network speed
 D: Storage capacity
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Attack surface includes all points where unauthorized user can enter or extract data.
 Tag: Normal
@@ -1383,6 +1439,8 @@ A: Seasoning
 B: Random data added before hashing
 C: Encryption key
 D: Hash algorithm
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Salt adds randomness to prevent rainbow table attacks on hashed passwords.
@@ -1402,6 +1460,8 @@ B: Allowing/blocking devices by hardware address
 C: IP filtering
 D: Port filtering
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: MAC filtering controls network access based on device MAC addresses.
 Tag: Normal
@@ -1419,6 +1479,8 @@ A: Slowing APIs
 B: Restricting number of requests per time period
 C: Stopping APIs
 D: No limits
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Rate limiting prevents abuse and DoS attacks on APIs.
@@ -1438,6 +1500,8 @@ B: Attack on unknown vulnerability
 C: Patched vulnerability
 D: No vulnerability
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Zero-day exploits target vulnerabilities before vendor awareness or patches.
 Tag: Normal
@@ -1455,6 +1519,8 @@ A: Password protocol
 B: Open standard for access delegation
 C: Encryption method
 D: Firewall rule
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: OAuth allows third-party access without sharing credentials.
@@ -1474,6 +1540,8 @@ B: Dividing tasks among multiple people
 C: No division
 D: Random assignment
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Separation of duties prevents fraud by requiring multiple parties for critical tasks.
 Tag: Normal
@@ -1491,6 +1559,8 @@ A: Fast boot
 B: Verifying boot components before loading
 C: No verification
 D: Random boot
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Secure boot ensures only trusted software loads during startup.
@@ -1510,6 +1580,8 @@ B: Trusted entity issuing digital certificates
 C: Antivirus company
 D: ISP
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: CA verifies identity and issues digital certificates for secure communication.
 Tag: Normal
@@ -1527,6 +1599,8 @@ A: No improvement
 B: Segment network to isolate traffic
 C: Increase speed
 D: Reduce cost
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: VLANs create logical network segments to contain broadcast and limit access.
@@ -1546,6 +1620,8 @@ B: Cleaning user input to prevent attacks
 C: Ignoring input
 D: No validation
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Sanitization removes or escapes dangerous characters from user input.
 Tag: Normal
@@ -1563,6 +1639,8 @@ A: Antivirus
 B: Software secretly monitoring user activity
 C: Firewall
 D: Encryption tool
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Spyware collects information without user knowledge or consent.
@@ -1582,6 +1660,8 @@ B: Identifying and prioritizing potential threats
 C: No analysis
 D: Performance testing
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Threat modeling systematically identifies security threats during design.
 Tag: Normal
@@ -1599,6 +1679,8 @@ A: Disk analysis
 B: Analyzing RAM for evidence
 C: Network analysis
 D: File analysis
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Memory forensics examines volatile memory for malware, passwords, and artifacts.
@@ -1618,6 +1700,8 @@ B: Improve future incident response
 C: Ignore incident
 D: No purpose
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Lessons learned reviews incident to improve processes and prevent recurrence.
 Tag: Normal
@@ -1635,6 +1719,8 @@ A: Legitimate access point
 B: Rogue access point mimicking legitimate one
 C: Firewall
 D: Encryption method
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Evil twin is fake WiFi hotspot impersonating legitimate network.
@@ -1654,6 +1740,8 @@ B: Protect confidentiality
 C: Increase cost
 D: No reason
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Encryption protects data from unauthorized access in cloud environments.
 Tag: Normal
@@ -1671,6 +1759,8 @@ A: Random configuration
 B: Minimum security standards
 C: Maximum security
 D: No standards
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Security baseline defines minimum acceptable security configuration.
@@ -1690,6 +1780,8 @@ B: Unauthorized copying or distribution
 C: Purchasing software
 D: Open source
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Software piracy violates copyright by illegal copying or distribution.
 Tag: Normal
@@ -1707,6 +1799,8 @@ A: Too secure
 B: Many devices with weak security
 C: No devices
 D: Perfect security
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: IoT devices often lack security features and create large attack surface.
@@ -1726,6 +1820,8 @@ B: Overall security status of organization
 C: Network speed
 D: Storage capacity
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Security posture reflects organization's cybersecurity strength and readiness.
 Tag: Normal
@@ -1743,6 +1839,8 @@ A: No importance
 B: Secure generation, storage, and distribution of keys
 C: Slow encryption
 D: Increase cost
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Poor key management undermines encryption effectiveness.
@@ -1762,6 +1860,8 @@ B: Dividing network into isolated segments
 C: No division
 D: Single network
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Segmentation limits lateral movement and contains breaches.
 Tag: Normal
@@ -1780,6 +1880,8 @@ B: Insecure default or incomplete settings
 C: No configuration
 D: Optimal settings
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Misconfiguration leaves systems vulnerable through improper settings.
 Tag: Normal
@@ -1797,6 +1899,8 @@ A: Simple attack
 B: Prolonged targeted attack by sophisticated actors
 C: One-time attack
 D: Automated attack
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: APT is stealthy, continuous attack campaign by skilled adversaries.

@@ -33,6 +33,8 @@ Question: What is authentication?
 A) Authorization
 B) Verifying identity of user or system
 C: No verification
+C) [Missing option - Please review]
+
 D) Encryption
 
 ✔ Correct Answer: B
@@ -92,6 +94,8 @@ Difficulty: Hard
 Question: What is SQL injection?
 A) Database feature
 B: Security vulnerability allowing malicious SQL execution
+B) [Missing option - Please review]
+
 C) Normal query
 D) No issue
 
@@ -135,6 +139,8 @@ B) Anyone affected by or affecting software project
 C) Users only
 D: Managers only
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Stakeholders include anyone affected by or affecting project: users, developers, managers, customers, investors, regulators.
@@ -152,6 +158,8 @@ Difficulty: Medium
 Question: What contributes to software complexity?
 A) Simple requirements
 B: Size, dependencies, changing requirements, technology
+B) [Missing option - Please review]
+
 C) Small codebase
 D) No factors
 
@@ -172,8 +180,12 @@ Difficulty: Hard
 Question: When is waterfall model appropriate?
 A) Unclear requirements
 B: Well-understood, stable requirements
+B) [Missing option - Please review]
+
 C) Rapidly changing requirements
 D: Never appropriate
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -194,6 +206,8 @@ A: No difference
 B: Agile is iterative, Waterfall is sequential
 C: Both are same
 D: Waterfall is iterative
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -234,6 +248,8 @@ B: Team selects work for upcoming sprint
 C: Sprint execution
 D: Sprint review
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Sprint Planning meeting where team selects items from product backlog and plans how to deliver them in upcoming sprint.
@@ -253,6 +269,8 @@ A) Daily meeting
 B: Demo of completed work to stakeholders
 C: Planning meeting
 D: No review
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -274,6 +292,8 @@ B: Team reflects on process and identifies improvements
 C: Demo to stakeholders
 D: No reflection
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Sprint Retrospective is meeting where team reflects on sprint process, identifies what went well, and plans improvements.
@@ -293,6 +313,8 @@ A: Completed features
 B: Prioritized list of features and requirements
 C: Bug list only
 D: No list
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -314,6 +336,8 @@ B: Shared understanding of what complete means
 C: Starting criteria
 D: Random definition
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Definition of Done is shared understanding of criteria that must be met for work to be considered complete.
@@ -333,6 +357,8 @@ A: Code speed
 B: Amount of work team completes per sprint
 C: Network speed
 D: No measurement
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -354,6 +380,8 @@ B: Software can be released to production at any time
 C: No delivery
 D: Annual delivery
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Continuous delivery ensures software is always in releasable state, enabling deployment to production at any time.
@@ -373,6 +401,8 @@ A: Not necessary
 B: Limited resources, deliver most valuable features first
 C: All equal priority
 D: Random order
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -394,6 +424,8 @@ B: Must have, Should have, Could have, Won't have
 C: Random acronym
 D: No meaning
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: MoSCoW is prioritization technique: Must have (critical), Should have (important), Could have (nice to have), Won't have (excluded).
@@ -413,6 +445,8 @@ A: No tracking
 B: Tracking requirements through development lifecycle
 C: Random tracking
 D: Deleting requirements
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -434,6 +468,8 @@ B: Description of system interaction from user perspective
 C: Code case
 D: No description
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Use case describes how user interacts with system to achieve specific goal, including steps and variations.
@@ -453,6 +489,8 @@ A: Real user
 B: Fictional character representing user type
 C: Developer profile
 D: No representation
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -474,6 +512,8 @@ B: Work required to deliver product with specified features
 C: Project time
 D: No definition
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Project scope defines work required to deliver product with specified features and functions, establishing boundaries.
@@ -493,6 +533,8 @@ A: Planned changes
 B: Uncontrolled expansion of project scope
 C: Scope reduction
 D: No changes
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -514,6 +556,8 @@ B: Significant point or event in project
 C: Daily task
 D: No significance
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Milestone is significant point or event in project timeline, marking completion of major phase or deliverable.
@@ -533,6 +577,8 @@ A: No allocation
 B: Assigning resources to project tasks
 C: Random assignment
 D: Deleting resources
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -554,6 +600,8 @@ B: Identifying and managing stakeholder expectations
 C: No management
 D: Random communication
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Stakeholder management identifies stakeholders, understands their needs, and manages their expectations and engagement throughout project.
@@ -573,6 +621,8 @@ A: No changes allowed
 B: Formal process for handling project changes
 C: Random changes
 D: Automatic changes
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -594,6 +644,8 @@ B: Formal completion, documentation, lessons learned
 C: Start new project
 D: No activities
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Project closure formally completes project, delivers final product, documents outcomes, captures lessons learned, and releases resources.
@@ -613,6 +665,8 @@ A: Exposing all details
 B: Hiding implementation details behind interface
 C: No hiding
 D: Deleting information
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -634,6 +688,8 @@ B: Dividing program into distinct sections handling specific concerns
 C: Mixing everything
 D: Random organization
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Separation of concerns divides program into distinct sections, each addressing separate concern, improving modularity and maintainability.
@@ -653,6 +709,8 @@ A: Do Repeat Yourself
 B: Don't Repeat Yourself
 C: Data Replication Yearly
 D: Design Review Yearly
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -674,6 +732,8 @@ B: Keep It Simple, Stupid
 C: Knowledge Integration System Software
 D: Key Information Storage System
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: KISS (Keep It Simple, Stupid) principle advocates for simplicity in design, avoiding unnecessary complexity.
@@ -693,6 +753,8 @@ A: You Always Get New Ideas
 B: You Aren't Gonna Need It
 C: Your Application Generates New Income
 D: Yet Another Generic Network Interface
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -714,6 +776,8 @@ B: Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregatio
 C: Software Object Linking Integration Design
 D: System Optimization Logic Integration Development
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: SOLID is five object-oriented design principles: SRP, OCP, LSP, ISP, DIP, promoting maintainable and flexible code.
@@ -733,6 +797,8 @@ A: Multiple responsibilities
 B: Class should have only one reason to change
 C: No responsibilities
 D: Random responsibilities
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -754,6 +820,8 @@ B: Open for extension, closed for modification
 C: Always open
 D: No principle
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Open-Closed Principle states software entities should be open for extension but closed for modification, enabling new functionality without changing existing code.
@@ -773,6 +841,8 @@ A: Creating dependencies internally
 B: Providing dependencies from outside
 C: No dependencies
 D: Random injection
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -794,6 +864,8 @@ B: Creates objects without specifying exact class
 C: No object creation
 D: Random creation
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Factory pattern provides interface for creating objects without specifying exact class, delegating instantiation to subclasses.
@@ -812,6 +884,8 @@ A: Business strategy
 B: Defines family of algorithms, makes them interchangeable
 C: No algorithms
 D: Single algorithm
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -833,6 +907,8 @@ B: Adds responsibilities to object dynamically
 C: Removes features
 D: No changes
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Decorator pattern attaches additional responsibilities to object dynamically, providing flexible alternative to subclassing for extending functionality.
@@ -852,6 +928,8 @@ A: Class structure
 B: Workflow and control flow
 C: Database schema
 D: Network topology
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -873,6 +951,8 @@ B: Object states and transitions
 C: Database states
 D: No states
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: State diagram shows possible states of object and transitions between states triggered by events.
@@ -892,6 +972,8 @@ A: Hardware components
 B: Software components and dependencies
 C: Network components
 D: No components
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -913,6 +995,8 @@ B: Single unified application
 C: Distributed system
 D: No architecture
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Monolithic architecture builds application as single unified unit where all components are interconnected and interdependent.
@@ -932,6 +1016,8 @@ A: Small, medium, large
 B: Presentation, business logic, data
 C: Front, middle, back
 D: No tiers
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -953,6 +1039,8 @@ B: Nodes act as both clients and servers
 C: Centralized system
 D: No communication
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Peer-to-peer architecture has nodes acting as both clients and servers, sharing resources directly without central server.
@@ -972,6 +1060,8 @@ A: Email queue
 B: Asynchronous communication mechanism
 C: Synchronous communication
 D: No communication
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -993,6 +1083,8 @@ B: Single entry point for API requests
 C: Database gateway
 D: No gateway
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: API Gateway provides single entry point for API requests, handling routing, authentication, rate limiting, and aggregation.
@@ -1012,6 +1104,8 @@ A: Weight scale
 B: Distributes traffic across multiple servers
 C: Single server
 D: No distribution
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1033,6 +1127,8 @@ B: Storing frequently accessed data for quick retrieval
 C: No storage
 D: Permanent storage
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Caching stores frequently accessed data in fast-access storage for quick retrieval, improving performance and reducing load.
@@ -1052,6 +1148,8 @@ A: Cost of UI
 B: Visual cue suggesting how to interact with element
 C: UI color
 D: No cue
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1073,6 +1171,8 @@ B: Informs users about action results
 C: Slows system
 D: No purpose
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Feedback informs users about results of their actions, system status, and errors, improving user experience and confidence.
@@ -1092,6 +1192,8 @@ A: Showing errors
 B: Designing to prevent errors before they occur
 C: Ignoring errors
 D: No prevention
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1113,6 +1215,8 @@ B: Revealing information gradually as needed
 C: Hiding all information
 D: Random display
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Progressive disclosure reveals information gradually as needed, reducing cognitive load and complexity while maintaining access to advanced features.
@@ -1132,6 +1236,8 @@ A: Network cable
 B: Low-fidelity sketch of UI layout
 C: Final design
 D: No design
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1153,6 +1259,8 @@ B: Detailed, interactive mockup resembling final product
 C: Sketch only
 D: No prototype
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: High-fidelity prototype is detailed, interactive mockup closely resembling final product in appearance and functionality.
@@ -1172,6 +1280,8 @@ A: Not important
 B: Improve code readability and consistency
 C: Slow development
 D: No purpose
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1193,6 +1303,8 @@ B: Explain why, not what, for complex logic
 C: Every line
 D: Random comments
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Comments should explain why (rationale, business logic) rather than what (obvious from code), focusing on complex or non-obvious logic.
@@ -1212,6 +1324,8 @@ A: Good code
 B: Indicator of potential problem in code
 C: No issue
 D: Code fragrance
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1233,6 +1347,8 @@ B: Knowledge sharing and fewer defects
 C: No benefits
 D: More bugs
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Pair programming benefits include knowledge sharing, fewer defects through real-time review, better design, and team collaboration.
@@ -1252,6 +1368,8 @@ A: One person owns code
 B: Entire team owns and can modify any code
 C: No ownership
 D: Manager owns code
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1273,6 +1391,8 @@ B: Automated deployment to production after passing tests
 C: No deployment
 D: Annual deployment
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Continuous deployment automatically deploys every change that passes automated tests to production, enabling rapid delivery.
@@ -1292,6 +1412,8 @@ A: Manual building
 B: Automating compilation, testing, and packaging
 C: No automation
 D: Random building
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1313,6 +1435,8 @@ B: Specific conditions and steps to verify functionality
 C: No testing
 D: Code case
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Test case specifies conditions, inputs, execution steps, and expected results to verify specific functionality or requirement.
@@ -1332,6 +1456,8 @@ A: Single test
 B: Collection of related test cases
 C: No tests
 D: Testing tool
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1353,6 +1479,8 @@ B: Quick test to verify basic functionality
 C: Comprehensive testing
 D: No testing
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Smoke testing is quick, preliminary test verifying basic functionality works before more thorough testing, catching major issues early.
@@ -1372,6 +1500,8 @@ A: Mental health test
 B: Quick test after changes to verify specific functionality
 C: Full testing
 D: No testing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1393,6 +1523,8 @@ B: Internal testing by developers/QA before release
 C: Production testing
 D: No testing
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Alpha testing is internal testing performed by developers and QA team in controlled environment before releasing to external users.
@@ -1411,6 +1543,8 @@ A: Internal testing
 B: External testing by real users before release
 C: No testing
 D: Developer testing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1432,6 +1566,8 @@ B: Testing system behavior under expected load
 C: No testing
 D: Functional testing
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Load testing evaluates system behavior under expected load conditions, measuring response time, throughput, and resource usage.
@@ -1451,6 +1587,8 @@ A: Mental stress
 B: Testing system beyond normal capacity
 C: Normal testing
 D: No testing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1472,6 +1610,8 @@ B: Simulating attacks to find vulnerabilities
 C: No testing
 D: Performance testing
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Penetration testing simulates cyber attacks to identify security vulnerabilities, weaknesses, and potential entry points.
@@ -1491,6 +1631,8 @@ A: Functional testing
 B: Testing with real users to evaluate ease of use
 C: No testing
 D: Performance testing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1512,6 +1654,8 @@ B: Simultaneous learning, test design, and execution
 C: No testing
 D: Automated testing
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Exploratory testing simultaneously learns about system, designs tests, and executes them without predefined scripts, relying on tester expertise.
@@ -1531,6 +1675,8 @@ A: Random testing
 B: Testing at boundaries of input ranges
 C: No testing
 D: Middle value testing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1552,6 +1698,8 @@ B: Dividing inputs into equivalent classes
 C: No partitioning
 D: All inputs tested
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Equivalence partitioning divides input domain into classes where all members should behave similarly, testing one from each class.
@@ -1571,6 +1719,8 @@ A: Genetic testing
 B: Introducing bugs to test quality of tests
 C: No testing
 D: Normal testing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1592,6 +1742,8 @@ B: Red (fail), Green (pass), Refactor
 C: Test only
 D: No cycle
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: TDD cycle: Red (write failing test), Green (write minimal code to pass), Refactor (improve code while keeping tests passing).
@@ -1611,6 +1763,8 @@ A: New system
 B: Old system still in use, often difficult to maintain
 C: Modern system
 D: No system
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1632,6 +1786,8 @@ B: When cost of maintenance exceeds rewrite cost
 C: Never rewrite
 D: Random decision
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Rewrite when maintenance cost exceeds rewrite cost, technology is obsolete, or architecture fundamentally flawed; otherwise refactor incrementally.
@@ -1651,6 +1807,8 @@ A: Forward engineering
 B: Analyzing system to understand design and implementation
 C: No analysis
 D: Random engineering
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1672,6 +1830,8 @@ B: Restructuring and modifying existing system
 C: New development
 D: Deleting system
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Re-engineering restructures and modifies existing system to improve quality, performance, or maintainability without changing functionality.
@@ -1691,6 +1851,8 @@ A: Same thing
 B: QC finds defects in product, QA prevents defects in process
 C: No difference
 D: QC is process-focused
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1712,6 +1874,8 @@ B: Formal, systematic examination of code
 C: No examination
 D: Automated testing
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Code inspection is formal, systematic examination of code by team to find defects, following defined process and checklist.
@@ -1731,6 +1895,8 @@ A: Physical walk
 B: Informal review where author presents work
 C: No review
 D: Automated process
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1752,6 +1918,8 @@ B: Quality management methodology for reducing defects
 C: No methodology
 D: Testing tool
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Six Sigma is data-driven quality management methodology aiming to reduce defects to 3.4 per million opportunities.
@@ -1771,6 +1939,8 @@ A: Programming language
 B: Capability Maturity Model Integration for process improvement
 C: Testing tool
 D: No model
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1792,6 +1962,8 @@ B: Size measure based on functionality from user perspective
 C: Performance metric
 D: No measurement
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Function points measure software size based on functionality delivered to user, independent of implementation technology.
@@ -1811,6 +1983,8 @@ A: Code size only
 B: Program complexity based on operators and operands
 C: Performance
 D: No measurement
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1832,6 +2006,8 @@ B: Composite metric indicating code maintainability
 C: Performance metric
 D: No index
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Maintainability index is composite metric (0-100) combining cyclomatic complexity, LOC, and Halstead volume to indicate maintainability.
@@ -1851,6 +2027,8 @@ A: Mean Time Before Failure
 B: Mean Time Between Failures
 C: Maximum Time Between Failures
 D: No metric
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1872,6 +2050,8 @@ B: Formally approved version serving as reference
 C: No version
 D: Latest version
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Baseline is formally reviewed and approved version of configuration items serving as reference for future changes.
@@ -1891,6 +2071,8 @@ A: No conflict
 B: Conflicting changes to same code section
 C: Automatic merge
 D: No changes
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1912,6 +2094,8 @@ B: Early detection of integration issues
 C: More bugs
 D: No benefits
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: CI benefits include early detection of integration issues, faster feedback, reduced integration problems, and improved code quality.
@@ -1931,6 +2115,8 @@ A: Random calculation
 B: Probability × Impact
 C: Probability + Impact
 D: No calculation
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1952,6 +2138,8 @@ B: Taking actions to reduce risk probability or impact
 C: Accepting all risks
 D: No action
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Risk mitigation takes proactive actions to reduce risk probability or impact through planning, prevention, and contingency.
@@ -1972,6 +2160,8 @@ B: Injecting malicious scripts into web pages
 C: Normal feature
 D: No issue
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: XSS (Cross-Site Scripting) injects malicious scripts into web pages viewed by other users, compromising security.
@@ -1991,6 +2181,8 @@ A: Normal request
 B: Forcing user to execute unwanted actions
 C: No issue
 D: Authentication method
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 

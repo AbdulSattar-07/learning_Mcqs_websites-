@@ -15,6 +15,8 @@ B: Message queues and event streaming
 C: Shared database
 D: File sharing
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Message queues (RabbitMQ, Kafka) and event streaming enable asynchronous, decoupled communication between microservices, improving scalability and resilience.
@@ -34,6 +36,8 @@ A: Email queuing
 B: Reliable message queuing with routing and security
 C: Web queuing
 D: File queuing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -55,6 +59,8 @@ B: Components communicate through events
 C: Polling-based only
 D: Direct coupling
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Event-driven architecture has components that produce and consume events asynchronously, enabling loose coupling and scalability.
@@ -74,6 +80,8 @@ A: Database
 B: Distributed event streaming platform
 C: Web server
 D: Email server
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -95,6 +103,8 @@ B: Cascading failures in distributed systems
 C: Network loops
 D: Data corruption
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Circuit breaker pattern prevents cascading failures by stopping requests to failing services, allowing them to recover and preventing resource exhaustion.
@@ -114,6 +124,8 @@ A: Linear retry intervals
 B: Increasing retry intervals exponentially
 C: Random retries
 D: No retries
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -135,6 +147,8 @@ B: Isolate resources to prevent total system failure
 C: Encrypt data
 D: Compress data
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Bulkhead pattern isolates resources (thread pools, connections) for different components, preventing failure in one from exhausting resources for others.
@@ -154,6 +168,8 @@ A: Time to transfer data
 B: Maximum time to establish connection
 C: Time to close connection
 D: Idle timeout
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -175,6 +191,8 @@ B: Maximum time waiting for data after connection established
 C: Time to write data
 D: DNS resolution time
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Read timeout is the maximum time to wait for data from the server after connection is established, preventing indefinite blocking on slow responses.
@@ -194,6 +212,8 @@ A: Unary only
 B: Unary, server streaming, client streaming, bidirectional
 C: Server streaming only
 D: No streaming
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -215,6 +235,8 @@ B: Binary serialization format
 C: Encryption protocol
 D: Routing protocol
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Protocol Buffers is Google's language-neutral, platform-neutral binary serialization format, more efficient than JSON/XML, used by gRPC.
@@ -234,6 +256,8 @@ A: Faster always
 B: Clients specify exactly what data they need
 C: Better security
 D: Simpler implementation
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -275,6 +299,8 @@ B: Cross-domain HTTP requests from browsers
 C: Encryption
 D: Compression
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: CORS is a security mechanism that controls which domains can make cross-origin HTTP requests from browsers, preventing unauthorized access.
@@ -294,6 +320,8 @@ A: Same domain access
 B: Cross-origin document/script interactions
 C: Same protocol only
 D: Port access
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -315,6 +343,8 @@ B: XSS and code injection attacks
 C: DDoS attacks
 D: Phishing
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: CSP is a security header that specifies approved sources for content, preventing XSS attacks by blocking unauthorized script execution.
@@ -334,6 +364,8 @@ A: Legitimate scripting
 B: Injecting malicious scripts into web pages
 C: Cross-platform development
 D: Faster scripting
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -355,6 +387,8 @@ B: User's authenticated session to perform unauthorized actions
 C: DNS servers
 D: Email servers
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: CSRF tricks authenticated users into executing unwanted actions by exploiting their existing session, requiring anti-CSRF tokens for prevention.
@@ -375,6 +409,8 @@ B: Database queries through unsanitized input
 C: Email servers
 D: DNS servers
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: SQL injection exploits unsanitized user input in SQL queries, potentially allowing attackers to read, modify, or delete database data.
@@ -394,6 +430,8 @@ A: Faster processing
 B: Prevent injection attacks and data corruption
 C: Better UI
 D: Reduced bandwidth
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -416,6 +454,8 @@ B: Hides backend server details from clients
 C: Blocks all attacks
 D: Requires no configuration
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Reverse proxies hide backend server IP addresses and architecture from clients, providing security through obscurity and centralized security controls.
@@ -435,6 +475,8 @@ A: Ending SSL support
 B: Decrypting SSL at load balancer, forwarding unencrypted to backend
 C: Encrypting everything
 D: Blocking SSL
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -456,6 +498,8 @@ B: Encrypted traffic forwarded to backend without decryption
 C: More secure always
 D: Requires no certificates
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: SSL passthrough forwards encrypted traffic directly to backend servers without decryption, maintaining end-to-end encryption but limiting load balancer capabilities.
@@ -475,6 +519,8 @@ A: Connecting SSL servers
 B: Decrypt at load balancer, re-encrypt to backend
 C: No encryption
 D: Bridge SSL versions
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -496,6 +542,8 @@ B: Multiple SSL certificates on same IP address
 C: Better encryption
 D: Automatic certificates
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: SNI allows clients to specify hostname during SSL handshake, enabling servers to present correct certificate when hosting multiple SSL sites on one IP.
@@ -515,6 +563,8 @@ A: Negotiate IP addresses
 B: Negotiate application protocol during TLS handshake
 C: Negotiate encryption
 D: Negotiate ports
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -536,6 +586,8 @@ B: Detects loss through duplicate ACKs without waiting for timeout
 C: Skips retransmission
 D: Uses compression
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Fast retransmit detects loss through three duplicate ACKs (typically ~RTT), much faster than waiting for RTO which can be seconds.
@@ -555,6 +607,8 @@ A: Packet corruption
 B: Premature timeout when packet is delayed not lost
 C: Intentional duplication
 D: Encryption errors
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -576,6 +630,8 @@ B: Detect and ignore duplicate segments
 C: Speed up retransmission
 D: Encrypt timestamps
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: TCP timestamps help detect spurious retransmissions by identifying duplicate segments, allowing the receiver to ignore them and sender to adjust RTO.
@@ -595,6 +651,8 @@ A: Physical blocking
 B: Lost packet blocks delivery of subsequent packets
 C: Router blocking
 D: Firewall blocking
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -616,6 +674,8 @@ B: Independent streams within connection
 C: No ordering
 D: Multiple connections
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: QUIC multiplexes multiple independent streams within a connection. Loss in one stream doesn't block others, eliminating head-of-line blocking.
@@ -635,6 +695,8 @@ A: No encryption
 B: Sending data in first packet without handshake
 C: Slower connection
 D: Better security
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -656,6 +718,8 @@ B: Vulnerable to replay attacks
 C: Weak encryption
 D: No authentication
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: 0-RTT data can be replayed by attackers. Applications must ensure 0-RTT requests are idempotent or implement replay protection.
@@ -675,6 +739,8 @@ A: Physical placement
 B: Helper container deployed alongside main container
 C: Backup service
 D: Load balancer
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -696,6 +762,8 @@ B: Proxy for external service communication
 C: Authentication only
 D: Routing only
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Ambassador pattern uses a proxy container to handle communication with external services, providing retry logic, circuit breaking, and monitoring.
@@ -715,6 +783,8 @@ A: Hardware adapter
 B: Standardizes interface to heterogeneous services
 C: Power adapter
 D: Network adapter
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -736,6 +806,8 @@ B: Metrics, Logs, Traces
 C: CPU, Memory, Disk
 D: Latency, Throughput, Errors
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Observability relies on three pillars: Metrics (numerical measurements), Logs (event records), and Traces (request flows), providing system insights.
@@ -755,6 +827,8 @@ A: Physical locations
 B: Request flow across multiple services
 C: User locations
 D: Network cables
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -776,6 +850,8 @@ B: Application performance and user experience
 C: Power monitoring
 D: Physical monitoring
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: APM monitors application performance, transaction times, error rates, and user experience, helping identify and resolve performance issues.
@@ -795,6 +871,8 @@ A: Monitoring fake systems
 B: Simulated transactions to test availability and performance
 C: Monitoring synthesis
 D: Chemical monitoring
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -816,6 +894,8 @@ B: Actual user experience and performance
 C: Robot users
 D: Random users
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: RUM collects performance data from actual user interactions, providing real-world insights into user experience across different locations and conditions.
@@ -835,6 +915,8 @@ A: Color coding
 B: Two identical environments for zero-downtime deployment
 C: Network coloring
 D: Cable coloring
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -856,6 +938,8 @@ B: Gradual rollout to subset of users before full deployment
 C: Instant deployment
 D: Backup deployment
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Canary deployment releases new version to a small subset of users first, monitoring for issues before full rollout, reducing risk.
@@ -876,6 +960,8 @@ B: Toggle features without deploying new code
 C: Security flags
 D: Error flags
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Feature flags allow enabling/disabling features at runtime without code deployment, enabling A/B testing, gradual rollouts, and quick rollbacks.
@@ -895,6 +981,8 @@ A: Testing two networks
 B: Comparing two versions to determine which performs better
 C: Alphabetical testing
 D: Testing twice
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -917,6 +1005,8 @@ B: Deliberately injecting failures to test resilience
 C: Random testing
 D: Disorganized development
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Chaos engineering deliberately introduces failures in production to test system resilience and identify weaknesses before real failures occur.
@@ -936,6 +1026,8 @@ A: Closing all connections
 B: Allowing existing connections to complete before shutdown
 C: Draining bandwidth
 D: Removing connections
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -957,6 +1049,8 @@ B: Verify backend servers are operational
 C: Check network speed
 D: Monitor bandwidth
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Health checks periodically verify backend servers are responding correctly, removing failed servers from rotation to ensure traffic goes to healthy servers.
@@ -976,6 +1070,8 @@ A: Slow failure
 B: System continues with reduced functionality when components fail
 C: Complete shutdown
 D: No degradation
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -997,6 +1093,8 @@ B: Time to switch from failed to backup system
 C: Time between failures
 D: Failure duration
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Failover time is the duration required to detect failure and switch to backup system, critical for high-availability requirements.
@@ -1016,6 +1114,8 @@ A: Total transfer time
 B: Time from request to first byte of response
 C: Time to last byte
 D: Connection time only
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1037,6 +1137,8 @@ B: Network latency, server processing, resource size, rendering
 C: Server location only
 D: Browser only
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Page load time is affected by network latency, DNS resolution, server processing, resource sizes, number of requests, and browser rendering.
@@ -1056,6 +1158,8 @@ A: Making code smaller in lines
 B: Removing whitespace and comments to reduce file size
 C: Encrypting code
 D: Compressing images
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1077,6 +1181,8 @@ B: Reduce number of HTTP requests
 C: Improve security
 D: Enable caching only
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Bundling combines multiple files into one, reducing HTTP requests and connection overhead, though HTTP/2 multiplexing reduces this need.
@@ -1096,6 +1202,8 @@ A: Dividing developers
 B: Loading only necessary code initially, lazy loading rest
 C: Splitting across servers
 D: Breaking code randomly
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1117,6 +1225,8 @@ B: Eliminating unused code from bundles
 C: Organizing code
 D: Testing code
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Tree shaking analyzes code to eliminate unused exports and imports, reducing bundle size by including only code that's actually used.
@@ -1136,6 +1246,8 @@ A: Using largest size
 B: Responsive images and modern formats (WebP, AVIF)
 C: Avoiding images
 D: Using only PNG
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1157,6 +1269,8 @@ B: Specifying importance of resources for optimal loading
 C: Encryption priority
 D: Server priority only
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: HTTP/2 allows clients to specify stream priorities and dependencies, enabling browsers to request critical resources first for faster page rendering.
@@ -1176,6 +1290,8 @@ A: Preload content
 B: Establish connection before resource is needed
 C: Prefetch DNS only
 D: Cache resources
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1197,6 +1313,8 @@ B: Resolve domain names before they're needed
 C: Cache DNS permanently
 D: Block DNS
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: DNS prefetch resolves domain names in advance, reducing DNS lookup latency when resources from those domains are requested.
@@ -1216,6 +1334,8 @@ A: Load all resources
 B: Fetch critical resources early in page load
 C: Preload images only
 D: Preload DNS
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1237,6 +1357,8 @@ B: Work offline using service workers
 C: Require app store
 D: iOS only
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: PWAs use service workers to cache resources and work offline, providing app-like experience through web technologies without app store distribution.
@@ -1256,6 +1378,8 @@ A: Manage employees
 B: Intercept network requests and cache resources
 C: Process payments
 D: Manage databases
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1277,6 +1401,8 @@ B: Serverless functions running at CDN edge locations
 C: Router functions
 D: Switch functions
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Edge functions are serverless functions deployed at CDN edge locations, enabling dynamic content generation and API responses close to users.
@@ -1296,6 +1422,8 @@ A: No servers exist
 B: Auto-scaling, pay-per-execution, no server management
 C: Dedicated servers
 D: Manual scaling
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1317,6 +1445,8 @@ B: Latency when function instance starts from scratch
 C: Fast start
 D: Warm start
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Cold start is the initialization latency when a new function instance starts, including loading code and dependencies, affecting first request performance.
@@ -1336,6 +1466,8 @@ A: Heating servers
 B: Keeping function instances alive to avoid cold starts
 C: Faster execution
 D: Better encryption
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1357,6 +1489,8 @@ B: Automated deployment, scaling, and management of containers
 C: Manual container management
 D: Container storage
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Container orchestration platforms (Kubernetes, Docker Swarm) automate deployment, scaling, networking, and management of containerized applications.
@@ -1377,6 +1511,8 @@ B: Stable endpoint for accessing pods
 C: Storage service
 D: Security service
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Kubernetes Service provides a stable IP and DNS name for accessing a set of pods, abstracting pod IP changes and providing load balancing.
@@ -1396,6 +1532,8 @@ A: Control entry to building
 B: Manage external access to services (HTTP/HTTPS routing)
 C: Control egress only
 D: Block all traffic
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1418,6 +1556,8 @@ B: Pod-to-pod communication rules
 C: Storage policies
 D: Deployment policies
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Network Policies define rules for pod-to-pod communication, implementing micro-segmentation and security controls at the network layer.
@@ -1437,6 +1577,8 @@ A: Container naming
 B: Standard for configuring container networking
 C: Container images
 D: Container storage
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1458,6 +1600,8 @@ B: Virtual network built on top of existing network
 C: Backup network
 D: Wireless network
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Overlay networks create virtual networks on top of physical infrastructure, enabling container communication across hosts using encapsulation (VXLAN, etc.).
@@ -1477,6 +1621,8 @@ A: Discovering new services
 B: Automatically locating service instances
 C: Manual configuration
 D: DNS only
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1498,6 +1644,8 @@ B: Database of available service instances and locations
 C: Domain registrations
 D: Certificate registry
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Service registry maintains a database of available service instances, their locations, and health status, enabling dynamic service discovery.
@@ -1517,6 +1665,8 @@ A: Load balancer
 B: Client directly
 C: Server
 D: Router
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1538,6 +1688,8 @@ B: Load balancer or router
 C: Database
 D: DNS only
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: In server-side discovery, clients request through a load balancer/router that queries the registry and routes to appropriate instance, simplifying clients.
@@ -1557,6 +1709,8 @@ A: Too fast
 B: Uses long-lived HTTP/2 connections
 C: Too slow
 D: No load balancing support
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1578,6 +1732,8 @@ B: Intercepts all service traffic for observability and control
 C: Backup proxy
 D: DNS proxy
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Sidecar proxies intercept all inbound/outbound traffic for a service, providing observability, security, and traffic management without code changes.
@@ -1597,6 +1753,8 @@ A: Handle all traffic
 B: Configure and manage data plane proxies
 C: Store data
 D: Process requests
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1618,6 +1776,8 @@ B: Both client and server authenticate each other
 C: No authentication
 D: Faster TLS
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: mTLS requires both client and server to present certificates, providing mutual authentication and ensuring both parties are who they claim to be.
@@ -1637,6 +1797,8 @@ A: Trust internal network
 B: Authentication and authorization
 C: VPN connection
 D: Physical access
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1658,6 +1820,8 @@ B: Routing percentage of traffic to different service versions
 C: Bandwidth division
 D: Packet fragmentation
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Traffic splitting routes a percentage of traffic to different service versions, enabling canary deployments, A/B testing, and gradual rollouts.
@@ -1677,6 +1841,8 @@ A: Creating real faults
 B: Deliberately introducing delays or errors for testing
 C: Fixing faults
 D: Detecting faults
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1698,6 +1864,8 @@ B: Prevent indefinite waiting and resource exhaustion
 C: Increase speed
 D: Better encryption
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Request timeouts prevent clients from waiting indefinitely for responses, freeing resources and allowing faster failure detection and recovery.
@@ -1717,6 +1885,8 @@ A: Financial budget
 B: Limit on retry attempts to prevent retry storms
 C: Unlimited retries
 D: No retries
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1738,6 +1908,8 @@ B: Passing request deadline through service chain
 C: Time synchronization
 D: Timeout extension
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Deadline propagation passes request deadlines through the service call chain, allowing services to abort work that would exceed the deadline.
@@ -1757,6 +1929,8 @@ A: Stories
 B: Distributed transactions across microservices
 C: User sessions
 D: File transfers
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1778,6 +1952,8 @@ B: Blocking protocol with single point of failure
 C: Too simple
 D: No drawbacks
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: 2PC is a blocking protocol where participants wait for coordinator. If coordinator fails, participants remain blocked, making it unsuitable for microservices.
@@ -1797,6 +1973,8 @@ A: Finding event sources
 B: Storing state changes as sequence of events
 C: Event logging only
 D: Event deletion
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1818,6 +1996,8 @@ B: Servers and clients
 C: Networks and storage
 D: Users and admins
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: A
 
 Reason: CQRS separates read (query) and write (command) operations into different models, optimizing each independently for performance and scalability.
@@ -1837,6 +2017,8 @@ A: More connections
 B: Reuse connections avoiding expensive creation overhead
 C: Better security
 D: Faster queries
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1858,6 +2040,8 @@ B: One query plus N additional queries in loop
 C: Query optimization
 D: Query caching
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: N+1 problem occurs when fetching a list (1 query) then fetching related data for each item (N queries), causing performance issues.
@@ -1877,6 +2061,8 @@ A: Running queries in batches
 B: Combining multiple queries into single request
 C: Delaying queries
 D: Caching queries
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1898,6 +2084,8 @@ B: Processing data close to where it's stored
 C: Remote processing only
 D: Cloud storage
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Data locality processes data close to where it's stored, reducing network transfer overhead and improving performance in distributed systems.
@@ -1917,6 +2105,8 @@ A: Breaking databases
 B: Horizontal partitioning across multiple databases
 C: Vertical partitioning
 D: Database backup
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1938,6 +2128,8 @@ B: Minimizing remapping when nodes are added/removed
 C: Faster hashing
 D: Better encryption
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Consistent hashing minimizes key remapping when nodes are added or removed, distributing load evenly while maintaining cache efficiency.
@@ -1957,6 +2149,8 @@ A: Slow replication
 B: Time delay between primary and replica data
 C: Replication failure
 D: Network lag
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1978,6 +2172,8 @@ B: Scale read operations by distributing across multiple copies
 C: Write scaling
 D: Encryption
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Read replicas are copies of the database that handle read queries, distributing read load and improving performance without affecting the primary.
@@ -1997,6 +2193,8 @@ A: Read replicas
 B: Sharding and partitioning
 C: Caching
 D: CDN
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 

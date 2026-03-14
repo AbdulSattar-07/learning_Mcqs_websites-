@@ -149,6 +149,8 @@ Topic: Code Analysis
 Subtopic: Kadane's Algorithm
 Difficulty: Medium
 
+Question: [Missing question - Please review]
+
 ```python
 def max_subarray_sum(arr):
     max_so_far = arr[0]
@@ -223,6 +225,8 @@ Domain: Data Structures
 Topic: Code Analysis
 Subtopic: LCS Implementation
 Difficulty: Hard
+
+Question: [Missing question - Please review]
 
 ```java
 public static int lcs(String s1, String s2) {
@@ -321,6 +325,8 @@ Domain: Data Structures
 Topic: Code Analysis
 Subtopic: LIS DP
 Difficulty: Hard
+
+Question: [Missing question - Please review]
 
 ```python
 def lis_length(arr):
@@ -597,6 +603,8 @@ Topic: Code Analysis
 Subtopic: Counting Sort
 Difficulty: Medium
 
+Question: [Missing question - Please review]
+
 ```cpp
 #include <iostream>
 #include <vector>
@@ -681,6 +689,8 @@ Domain: Data Structures
 Topic: Code Analysis
 Subtopic: Partition
 Difficulty: Medium
+
+Question: [Missing question - Please review]
 
 ```python
 def partition(arr, low, high):
@@ -779,6 +789,8 @@ Topic: Code Analysis
 Subtopic: Tree Diameter
 Difficulty: Hard
 
+Question: [Missing question - Please review]
+
 ```python
 def tree_diameter(adj, n):
     def bfs(start):
@@ -854,6 +866,8 @@ Difficulty: Hard
 Question: What does Aho-Corasick algorithm do?
 A) Single pattern matching
 B: Multiple pattern matching simultaneously
+B) [Missing option - Please review]
+
 C) Sorting
 D) Hashing
 
@@ -951,6 +965,8 @@ Topic: Code Analysis
 Subtopic: Binary Search Variation
 Difficulty: Hard
 
+Question: [Missing question - Please review]
+
 ```cpp
 #include <iostream>
 #include <vector>
@@ -1044,6 +1060,8 @@ Topic: Code Analysis
 Subtopic: Majority Element
 Difficulty: Medium
 
+Question: [Missing question - Please review]
+
 ```python
 def find_majority(arr):
     candidate = None
@@ -1118,6 +1136,8 @@ Domain: Data Structures
 Topic: Code Analysis
 Subtopic: Stock Span
 Difficulty: Medium
+
+Question: [Missing question - Please review]
 
 ```java
 import java.util.*;
@@ -1247,6 +1267,8 @@ Topic: Code Analysis
 Subtopic: List Intersection
 Difficulty: Hard
 
+Question: [Missing question - Please review]
+
 ```python
 class ListNode:
     def __init__(self, val=0, next=None):
@@ -1328,6 +1350,8 @@ Domain: Data Structures
 Topic: Code Analysis
 Subtopic: Deque Application
 Difficulty: Hard
+
+Question: [Missing question - Please review]
 
 ```cpp
 #include <iostream>
@@ -1440,6 +1464,8 @@ Domain: Data Structures
 Topic: Code Analysis
 Subtopic: Tree Path Sum
 Difficulty: Medium
+
+Question: [Missing question - Please review]
 
 ```python
 class TreeNode:
@@ -1608,6 +1634,8 @@ Topic: Code Analysis
 Subtopic: Kth Largest
 Difficulty: Medium
 
+Question: [Missing question - Please review]
+
 ```python
 import heapq
 
@@ -1745,6 +1773,8 @@ Topic: Code Analysis
 Subtopic: Bit Manipulation
 Difficulty: Medium
 
+Question: [Missing question - Please review]
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -1821,6 +1851,8 @@ Domain: Data Structures
 Topic: Code Analysis
 Subtopic: XOR Application
 Difficulty: Easy
+
+Question: [Missing question - Please review]
 
 ```python
 def find_single(nums):
@@ -1931,6 +1963,8 @@ Domain: Data Structures
 Topic: Code Analysis
 Subtopic: Subset Sum DP
 Difficulty: Hard
+
+Question: [Missing question - Please review]
 
 ```java
 public static boolean subsetSum(int[] arr, int sum) {
@@ -2154,6 +2188,8 @@ Topic: Code Analysis
 Subtopic: Sliding Window Maximum
 Difficulty: Hard
 
+Question: [Missing question - Please review]
+
 ```python
 from collections import deque
 
@@ -2239,6 +2275,8 @@ Topic: Code Analysis
 Subtopic: Word Break DP
 Difficulty: Hard
 
+Question: [Missing question - Please review]
+
 ```python
 def wordBreak(s, wordDict):
     n = len(s)
@@ -2316,6 +2354,8 @@ Domain: Data Structures
 Topic: Code Analysis
 Subtopic: Activity Selection
 Difficulty: Medium
+
+Question: [Missing question - Please review]
 
 ```cpp
 #include <iostream>
@@ -2411,6 +2451,8 @@ Domain: Data Structures
 Topic: Code Analysis
 Subtopic: Sudoku Solver
 Difficulty: Hard
+
+Question: [Missing question - Please review]
 
 ```python
 def isValid(board, row, col, num):

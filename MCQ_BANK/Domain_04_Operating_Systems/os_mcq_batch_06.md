@@ -353,6 +353,8 @@ Question: What does SIGTERM signal do?
 A) Continues process
 B) Requests graceful termination
 C: Forces immediate termination
+C) [Missing option - Please review]
+
 D) Pauses process
 
 ✔ Correct Answer: B
@@ -735,6 +737,8 @@ B) Provide atomic operations for building synchronization primitives
 C) Slow down system
 D: No reason
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Hardware atomic instructions (test-and-set, compare-and-swap) provide foundation for implementing locks and synchronization primitives.
@@ -812,6 +816,8 @@ Difficulty: Hard
 Question: How can dining philosophers deadlock be prevented?
 A) Cannot prevent
 B: Limit philosophers, asymmetric solution, or resource ordering
+B) [Missing option - Please review]
+
 C) More forks
 D) No solution
 
@@ -834,6 +840,8 @@ A) Sleep patterns
 B) Synchronization with limited resources and waiting
 C) Scheduling
 D: Memory management
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -874,6 +882,8 @@ A) Always
 B) When each resource type has single instance
 C) Never
 D: Randomly
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -935,6 +945,8 @@ B) Return process to safe state before deadlock
 C) Terminate process
 D: No action
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Rollback returns process to earlier checkpoint before resource acquisition, allowing retry without deadlock.
@@ -974,6 +986,8 @@ A) Use 50% memory
 B) On average, half of memory is in holes
 C) 50% fragmentation
 D: No rule
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1035,6 +1049,8 @@ B) Reduce memory overhead for sparse address spaces
 C) Increase complexity
 D: No benefit
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Multi-level page tables allocate page table space only for used portions of address space, saving memory.
@@ -1054,6 +1070,8 @@ A) Physical walk
 B) Process of translating virtual to physical address through page tables
 C) Memory scan
 D: No process
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1075,6 +1093,8 @@ B) Amount of memory accessible via TLB (entries × page size)
 C) TLB speed
 D: No concept
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: TLB reach = (number of TLB entries) × (page size), represents memory accessible without page table walk.
@@ -1094,6 +1114,8 @@ A) User program
 B) Hardware or OS depending on architecture
 C: Always user
 D: No handling
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1115,6 +1137,8 @@ B) Logical address → segment → linear address → paging → physical
 C: Only segmentation
 D: No combination
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: x86 first translates logical address using segmentation to linear address, then uses paging to get physical address.
@@ -1134,6 +1158,8 @@ A) Slower access
 B: File I/O through memory operations, shared memory
 C: More complex
 D: No advantage
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1155,6 +1181,8 @@ B: Page fault rate
 C: Memory size only
 D: Disk color
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Page fault rate critically affects performance as disk I/O is orders of magnitude slower than memory access.
@@ -1174,6 +1202,8 @@ A) FIFO
 B: LRU or its approximations
 C: Random
 D: MFU
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1195,6 +1225,8 @@ B: Uses reference bit to give pages second chance
 C: Slower
 D: More complex only
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Clock algorithm uses reference bit to skip recently used pages, approximating LRU more efficiently than FIFO.
@@ -1214,6 +1246,8 @@ A: Only reference bit
 B: Reference and dirty bits for better victim selection
 C: Only dirty bit
 D: Nothing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1235,6 +1269,8 @@ B: Adjusts frame allocation based on fault rate
 C: Fixed allocation
 D: No control
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: PFF monitors page fault rate; if too high, allocate more frames; if too low, reduce frames to free memory.
@@ -1254,6 +1290,8 @@ A: Global selection
 B: Process selects victim from its own frames
 C: Any frame
 D: No replacement
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1275,6 +1313,8 @@ B: Process can select victim from all frames
 C: No selection
 D: Fixed frames
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Global replacement allows selecting victim from all frames, better utilization but processes can affect each other.
@@ -1294,6 +1334,8 @@ A: User files
 B: Bootstrap loader code
 C: Data files
 D: Temporary files
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1315,6 +1357,8 @@ B: Logical file system → file organization → basic file system → I/O contr
 C: Single layer
 D: No layers
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: File system layers: logical (metadata), file organization (blocks), basic (device drivers), I/O control (hardware).
@@ -1334,6 +1378,8 @@ A: Linked
 B: Contiguous
 C: Indexed
 D: All equal
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1355,6 +1401,8 @@ B: Contiguous or indexed
 C: FAT
 D: None
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Contiguous and indexed allocation support efficient random access; linked requires traversing chain.
@@ -1374,6 +1422,8 @@ A: Slower
 B: Efficient to find contiguous free blocks
 C: More space
 D: No advantage
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1395,6 +1445,8 @@ B: Storing addresses of n free blocks in first free block
 C: Random storage
 D: Single block
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Grouping stores addresses of n free blocks in first free block, with last address pointing to another block of addresses.
@@ -1414,6 +1466,8 @@ A: Count files
 B: Store address and count of contiguous free blocks
 C: Count users
 D: No counting
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1435,6 +1489,8 @@ B: As special files containing name-to-inode mappings
 C: As memory
 D: As networks
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Directories are special files containing entries mapping filenames to inode numbers or file locations.
@@ -1454,6 +1510,8 @@ A: Linear search only
 B: Caching, hashing, or B-trees
 C: No optimization
 D: Random search
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1475,6 +1533,8 @@ B: Caching, read-ahead, write-behind
 C: Less memory
 D: No optimization
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Performance improved by caching frequently accessed blocks, read-ahead (prefetch), and write-behind (delayed write).
@@ -1494,6 +1554,8 @@ A: Separate caches
 B: Single cache for file system and virtual memory
 C: No cache
 D: Multiple caches
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1515,6 +1577,8 @@ B: I/O operation returns immediately, completes in background
 C: Blocking operation
 D: No I/O
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Asynchronous I/O allows process to continue while I/O completes in background, improving concurrency.
@@ -1534,6 +1598,8 @@ A: Asynchronous operation
 B: Process waits until I/O completes
 C: Background operation
 D: No waiting
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1555,6 +1621,8 @@ B: Separate OS, data, swap; multiple file systems
 C: Speed up disk
 D: No purpose
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Partitioning separates OS from data, creates swap space, allows multiple file systems or operating systems.
@@ -1574,6 +1642,8 @@ A: Mean Time Before Failure
 B: Mean Time Between Failures
 C: Maximum Time Between Failures
 D: Minimum Time Before Failure
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1595,6 +1665,8 @@ B: Improved performance and/or reliability
 C: Slower access
 D: Less capacity
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: RAID improves performance through parallelism (striping) and/or reliability through redundancy (mirroring/parity).
@@ -1614,6 +1686,8 @@ A: RAID 1
 B: RAID 0
 C: RAID 5
 D: RAID 6
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1635,6 +1709,8 @@ B: RAID 6
 C: RAID 1
 D: RAID 5
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: RAID 6 uses two parity blocks, allowing system to survive two simultaneous disk failures.
@@ -1654,6 +1730,8 @@ A: Software implementation
 B: Dedicated controller managing RAID
 C: No RAID
 D: OS-based RAID
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1675,6 +1753,8 @@ B: OS manages RAID operations
 C: No RAID
 D: Firmware RAID
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Software RAID is implemented by OS, using CPU for RAID operations, more flexible but higher CPU overhead.
@@ -1694,6 +1774,8 @@ A: Unstable storage
 B: Storage that survives failures through redundancy
 C: Single disk
 D: Temporary storage
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1715,6 +1797,8 @@ B: User-level, device-independent, device drivers, hardware
 C: Random layers
 D: No layers
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: I/O software organized in layers: user-level I/O, device-independent OS software, device drivers, interrupt handlers, hardware.
@@ -1734,6 +1818,8 @@ A: Device-specific code
 B: Common I/O functions independent of device details
 C: Hardware code
 D: No software
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1755,6 +1841,8 @@ B: Translate generic commands to device-specific operations
 C: File management
 D: Memory management
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Device drivers translate generic I/O requests into device-specific commands, isolating device details from OS.
@@ -1774,6 +1862,8 @@ A: No services
 B: Scheduling, buffering, caching, spooling, error handling
 C: Only scheduling
 D: Only buffering
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1795,6 +1885,8 @@ B: Prevent user programs from performing illegal I/O
 C: Faster execution
 D: No reason
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: I/O instructions are privileged to prevent user programs from accessing devices directly, ensuring protection and security.
@@ -1814,6 +1906,8 @@ A: Water flow
 B: Framework for modular, bidirectional I/O
 C: File system
 D: Network only
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1835,6 +1929,8 @@ B: Set of objects and access rights
 C: File system
 D: Memory region
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Protection domain specifies resources (objects) process can access and operations (access rights) it can perform.
@@ -1854,6 +1950,8 @@ A: Never
 B: When process changes protection domain (e.g., system call)
 C: Randomly
 D: At boot only
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1875,6 +1973,8 @@ B: ACLs easier to revoke, capabilities easier to transfer
 C: Same implementation
 D: No difference
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: ACLs make revocation easy (modify object's list) but transfer hard; capabilities make transfer easy but revocation hard.
@@ -1894,6 +1994,8 @@ A: Easy revocation
 B: Capabilities distributed, hard to find all copies
 C: No difficulty
 D: Automatic revocation
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1915,6 +2017,8 @@ B: Using programming language features for protection
 C: Assembly only
 D: No protection
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Language-based protection uses compiler and runtime to enforce protection, like Java's type safety and access modifiers.
@@ -1934,6 +2038,8 @@ A: Physical attack
 B: Intercepting and possibly altering communication
 C: Denial of service
 D: Password guessing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1955,6 +2061,8 @@ B: Retransmitting valid data maliciously
 C: Deleting data
 D: Creating data
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Replay attack captures valid transmission and retransmits it later to gain unauthorized access or repeat transaction.
@@ -1975,6 +2083,8 @@ B: Same key for encryption and decryption
 C: No key
 D: Public key
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Symmetric encryption uses same secret key for both encryption and decryption, fast but requires secure key distribution.
@@ -1994,6 +2104,8 @@ A: Same key
 B: Different keys for encryption (public) and decryption (private)
 C: No encryption
 D: Single key
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 

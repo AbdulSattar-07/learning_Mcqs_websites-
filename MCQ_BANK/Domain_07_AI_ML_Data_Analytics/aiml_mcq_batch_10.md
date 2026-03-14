@@ -743,6 +743,7 @@ Tag: Normal
 ### Question 941
 Domain: AI/ML/Data Analytics
 Topic: Model Evaluation & Validation
+Subtopic: General
 Specificity: Log Loss
 Difficulty: Medium
 
@@ -769,6 +770,8 @@ A) Model-based selection
 B) Statistical measures for feature selection
 C) No selection
 D: Random selection
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Filter methods use statistical tests independent of ML models.
@@ -806,6 +809,8 @@ B: Transferring knowledge from large to small model
 C: No transfer
 D: Single model training
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Distillation trains compact model to mimic larger teacher model.
 Tag: Normal
@@ -823,6 +828,8 @@ A: Text generation
 B: Assigning categories to text
 C: Translation
 D: Summarization
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Text classification assigns predefined labels to documents.
@@ -842,6 +849,8 @@ B: Distinctive points like corners
 C: All pixels
 D: No points
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Keypoints are salient features used for matching and recognition.
 Tag: Normal
@@ -859,6 +868,8 @@ A: Small database
 B: Central repository for integrated data
 C: Temporary storage
 D: No storage
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Data warehouse stores historical data from multiple sources for analysis.
@@ -878,6 +889,8 @@ B: Processing multiple inputs together
 C: No inference
 D: Random processing
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Batch inference processes multiple samples simultaneously for efficiency.
 Tag: Normal
@@ -895,6 +908,8 @@ A: No fairness
 B: Equal positive prediction rates across groups
 C: Random predictions
 D: Single group
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Demographic parity ensures equal outcome rates regardless of protected attributes.
@@ -919,6 +934,8 @@ B: [2 4 6]
 C: 6
 D: [3 4 5]
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Broadcasting multiplies each element by 2: [2, 4, 6].
 Tag: Normal
@@ -936,6 +953,8 @@ A: Temperature
 B: Measure of uncertainty/information
 C: Energy
 D: No measure
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Entropy H(X) = -Σp(x)log(p(x)), quantifies information content.
@@ -955,6 +974,8 @@ B: Predicting multiple continuous targets
 C: Classification
 D: Clustering
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Multi-output regression predicts multiple dependent variables simultaneously.
 Tag: Normal
@@ -972,6 +993,8 @@ A: Data size
 B: Tracking data origin and transformations
 C: Data type
 D: No tracking
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Data lineage documents data flow from source through transformations.
@@ -991,6 +1014,8 @@ B: Cumulative Distribution Function
 C: Central Data Function
 D: No function
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: CDF gives probability that variable is less than or equal to value.
 Tag: Normal
@@ -1008,6 +1033,8 @@ A: Single expert
 B: Multiple specialized models with gating network
 C: No experts
 D: Random models
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Mixture of experts uses gating network to route inputs to specialized models.
@@ -1027,6 +1054,8 @@ B: Non-parametric density estimation
 C: No estimation
 D: Classification method
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: KDE estimates probability density function without assuming distribution.
 Tag: Normal
@@ -1044,6 +1073,8 @@ A: No bias
 B: Non-representative test set
 C: Perfect evaluation
 D: Random bias
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Selection bias occurs when test data doesn't represent real distribution.
@@ -1063,6 +1094,8 @@ B: Create meaningful features
 C: Random features
 D: Delete features
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Domain expertise helps identify relevant features and relationships.
 Tag: Normal
@@ -1080,6 +1113,8 @@ A: Using all data
 B: Using single random sample per update
 C: No updates
 D: Fixed updates
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: SGD updates parameters using gradient from single training example.
@@ -1099,6 +1134,8 @@ B: Learning from very few examples
 C: No learning
 D: Infinite examples
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Few-shot learning trains models to generalize from limited labeled data.
 Tag: Normal
@@ -1116,6 +1153,8 @@ A: No change
 B: Converting text to standard form
 C: Deleting text
 D: Random changes
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Normalization standardizes text (lowercasing, removing punctuation, etc.).
@@ -1135,6 +1174,8 @@ B: Multi-scale representation
 C: No representation
 D: Random images
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Image pyramid contains multiple resolutions for scale-invariant processing.
 Tag: Normal
@@ -1152,6 +1193,8 @@ A: Enter Transform Load
 B: Extract Transform Load
 C: Exit Transfer Load
 D: Evaluate Test Load
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: ETL extracts data from sources, transforms it, and loads to destination.
@@ -1171,6 +1214,8 @@ B: Framework for managing ML lifecycle
 C: Random management
 D: Single deployment
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Model governance ensures compliance, quality, and accountability.
 Tag: Normal
@@ -1188,6 +1233,8 @@ A: No responsibility
 B: Responsibility for AI system outcomes
 C: Random outcomes
 D: No oversight
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Algorithmic accountability assigns responsibility for AI decisions and impacts.
@@ -1212,6 +1259,8 @@ B: 4
 C: 5
 D: Error
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: C
 Reason: iloc[-1] accesses last element: 5.
 Tag: Normal
@@ -1229,6 +1278,8 @@ A: Random theorem
 B: Sample means approach normal distribution
 C: No theorem
 D: Single sample
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: CLT states that sample means distribution becomes normal with large samples.
@@ -1248,6 +1299,8 @@ B: Incremental learning from streaming data
 C: No learning
 D: Offline only
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Online learning updates model continuously as new data arrives.
 Tag: Normal
@@ -1265,6 +1318,8 @@ A: Random data
 B: Data uniformity across sources
 C: Inconsistent data
 D: No data
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Consistency ensures data is uniform and follows same format/rules.
@@ -1284,6 +1339,8 @@ B: Trend, seasonality, noise
 C: No components
 D: Random values
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Time series decomposed into trend, seasonal, and residual components.
 Tag: Normal
@@ -1301,6 +1358,8 @@ A: Parallel models
 B: Sequential models with early exit
 C: Single model
 D: No ensemble
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Cascade uses simpler models first, complex ones only when needed.
@@ -1320,6 +1379,8 @@ B: Learning low-dimensional structure in high-dimensional data
 C: No learning
 D: Supervised learning
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Manifold learning discovers intrinsic geometry of data.
 Tag: Normal
@@ -1337,6 +1398,8 @@ A: Single value
 B: Range likely containing true parameter
 C: No range
 D: Random range
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Confidence interval provides range with specified probability of containing parameter.
@@ -1356,6 +1419,8 @@ B: Mapping features to fixed-size vector using hash
 C: No mapping
 D: Random features
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Feature hashing (hashing trick) reduces dimensionality using hash functions.
 Tag: Normal
@@ -1373,6 +1438,8 @@ A: Increase overfitting
 B: Prevent overfitting
 C: No purpose
 D: Increase complexity
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Regularization adds constraints to reduce model complexity and overfitting.
@@ -1392,6 +1459,8 @@ B: Networks using differential equations
 C: No networks
 D: Random networks
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Neural ODEs model continuous transformations using ordinary differential equations.
 Tag: Normal
@@ -1409,6 +1478,8 @@ A: Translation
 B: Identifying language of text
 C: Summarization
 D: Generation
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Language detection classifies text into language categories.
@@ -1428,6 +1499,8 @@ B: Estimating distance from camera
 C: Edge detection
 D: No estimation
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Depth estimation infers 3D structure from 2D images.
 Tag: Normal
@@ -1445,6 +1518,8 @@ A: Batch processing
 B: Immediate data analysis as it arrives
 C: Delayed analysis
 D: No analysis
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Real-time analytics processes and analyzes data with minimal latency.
@@ -1464,6 +1539,8 @@ B: Revert to previous version if issues occur
 C: Slow deployment
 D: Increase errors
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Rollback allows quick recovery from problematic deployments.
 Tag: Normal
@@ -1481,6 +1558,8 @@ A: Collecting all data
 B: Collecting only necessary data
 C: No collection
 D: Random collection
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Data minimization principle limits collection to what's needed for purpose.
@@ -1504,6 +1583,8 @@ B: [2, 3]
 C: [1, 2, 3]
 D: [2, 3, 4]
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Slicing [1:3] returns elements at indices 1 and 2: [2, 3].
 Tag: Normal
@@ -1521,6 +1602,8 @@ A: Joint probability
 B: Posterior probability from prior and likelihood
 C: Marginal probability
 D: No probability
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Bayes: P(A|B) = P(B|A)P(A)/P(B), updates beliefs with evidence.
@@ -1540,6 +1623,8 @@ B: Model selects most informative samples to label
 C: Random selection
 D: No selection
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Active learning queries most uncertain examples to minimize labeling effort.
 Tag: Normal
@@ -1557,6 +1642,8 @@ A: Data size
 B: Documentation of data origin and history
 C: Data type
 D: No documentation
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Provenance tracks data sources, transformations, and custody chain.
@@ -1576,6 +1663,8 @@ B: High correlation among predictor variables
 C: Low correlation
 D: Random correlation
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Multicollinearity occurs when features are highly correlated with each other.
 Tag: Normal
@@ -1593,6 +1682,8 @@ A: Static selection
 B: Selecting ensemble members per instance
 C: No selection
 D: Random selection
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Dynamic selection chooses competent models for each test sample.
@@ -1612,6 +1703,8 @@ B: Latent Dirichlet Allocation
 C: Logistic Data Analysis
 D: No method
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: LDA discovers abstract topics in document collections.
 Tag: Normal
@@ -1629,6 +1722,8 @@ A: Probability value
 B: Probability of observing results if null hypothesis true
 C: Power value
 D: No value
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: P-value measures evidence against null hypothesis.
@@ -1648,6 +1743,8 @@ B: Problems arising from high-dimensional spaces
 C: No problems
 D: Low dimensions
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: High dimensions cause sparsity, making learning difficult.
 Tag: Normal
@@ -1665,6 +1762,8 @@ A: Slower training
 B: Higher learning rates and faster convergence
 C: No benefit
 D: Smaller models
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Batch norm stabilizes training, allowing higher learning rates.
@@ -1684,6 +1783,8 @@ B: Learning from unlabeled data using pretext tasks
 C: No learning
 D: Random learning
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Self-supervised creates labels from data structure for pre-training.
 Tag: Normal
@@ -1701,6 +1802,8 @@ A: No translation
 B: Translating to another language and back
 C: Forward translation
 D: Random translation
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Back-translation creates paraphrases for data augmentation.
@@ -1720,6 +1823,8 @@ B: Creating new images from models
 C: Image compression
 D: No generation
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Image synthesis generates novel images using learned distributions.
 Tag: Normal
@@ -1737,6 +1842,8 @@ A: Random partitioning
 B: Using hash function to distribute data
 C: No partitioning
 D: Sequential partitioning
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Hash partitioning uses hash of key to determine partition.
@@ -1756,6 +1863,8 @@ B: Model performance and data drift
 C: Only accuracy
 D: Random metrics
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Monitor performance degradation and distribution changes.
 Tag: Normal
@@ -1773,6 +1882,8 @@ A: Hidden model
 B: Understandable model decisions
 C: Black box
 D: No understanding
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Transparency enables understanding how models make decisions.
@@ -1797,6 +1908,8 @@ B: 10
 C: 15
 D: 0
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: arange(5) = [0,1,2,3,4], sum = 0+1+2+3+4 = 10.
 Tag: Normal
@@ -1815,6 +1928,8 @@ B: Condition that solution must satisfy
 C: Random condition
 D: Objective function
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Constraints limit feasible solution space in optimization problems.
 Tag: Normal
@@ -1832,6 +1947,8 @@ A: Cloud computing
 B: Running AI on local devices
 C: Centralized AI
 D: No AI
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Edge AI processes data locally on devices for low latency and privacy.

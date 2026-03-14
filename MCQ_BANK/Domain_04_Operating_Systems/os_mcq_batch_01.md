@@ -633,6 +633,8 @@ Question: What happens if the time quantum in Round Robin is too small?
 A) Better average waiting time
 B) Excessive context switching overhead
 C: Improved CPU utilization
+C) [Missing option - Please review]
+
 D) Reduced turnaround time
 
 ✔ Correct Answer: B
@@ -1276,6 +1278,8 @@ B) Require processes to request all resources at once
 C) Use circular wait
 D: Ignore deadlocks
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Hold and wait can be prevented by requiring processes to request all needed resources at once before execution, or release all before requesting new ones.
@@ -1292,6 +1296,8 @@ Difficulty: Hard
 
 Question: How can circular wait be prevented?
 A: Allow hold and wait
+A) [Missing option - Please review]
+
 B) Impose total ordering on resource types
 C) Remove mutual exclusion
 D) Allow preemption randomly

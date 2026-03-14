@@ -417,6 +417,8 @@ B) Method to calibrate classifier probabilities
 C) Data scaling
 D: Model compression
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Platt scaling fits sigmoid to classifier scores for probability calibration.
 Tag: Normal
@@ -1445,6 +1447,8 @@ B) Performing tasks without task-specific training examples
 C) Single example
 D: No testing
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Zero-shot learning generalizes to unseen tasks using pre-trained knowledge.
 Tag: Normal
@@ -1627,6 +1631,8 @@ Difficulty: Hard
 Question: What is negative correlation learning?
 A) Removing correlations
 B: Training ensemble members to make different errors
+B) [Missing option - Please review]
+
 C) Positive correlation
 D) No correlation
 
@@ -1758,6 +1764,8 @@ Difficulty: Medium
 Question: What is the right to explanation?
 A) Model documentation
 B: Legal right to understand automated decisions
+B) [Missing option - Please review]
+
 C) Code comments
 D) User manual
 
@@ -1794,6 +1802,8 @@ Difficulty: Hard
 Question: What are cross-lingual models?
 A) Single language models
 B: Models trained on multiple languages sharing representations
+B) [Missing option - Please review]
+
 C) Translation models only
 D) Monolingual models
 
@@ -1812,6 +1822,8 @@ Difficulty: Hard
 Question: What is Featuretools?
 A) Manual feature creation
 B: Library for automated feature engineering
+B) [Missing option - Please review]
+
 C) Feature visualization
 D) Feature scaling
 
@@ -1830,8 +1842,12 @@ Difficulty: Easy
 Question: What is a data lake?
 A) Small database
 B: Centralized repository storing structured and unstructured data
+B) [Missing option - Please review]
+
 C) Data warehouse only
 D: Backup system
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Data lakes store raw data in native format for flexible analysis.

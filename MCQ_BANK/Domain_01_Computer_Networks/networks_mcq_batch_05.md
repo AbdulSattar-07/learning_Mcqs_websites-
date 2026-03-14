@@ -1275,6 +1275,8 @@ B) VLAN Tunnel Encryption Point
 C) Virtual Transport Endpoint
 D: VXLAN Tunnel Encryption Protocol
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: A
 
 Reason: VTEP (VXLAN Tunnel End Point) encapsulates and decapsulates VXLAN packets, acting as the entry and exit points for VXLAN tunnels.

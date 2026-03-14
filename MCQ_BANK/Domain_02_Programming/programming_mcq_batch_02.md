@@ -33,6 +33,8 @@ Question: When is LinkedList preferred over ArrayList?
 A) Random access
 B) Frequent insertions/deletions at beginning or middle
 C: Always
+C) [Missing option - Please review]
+
 D) Never
 
 ✔ Correct Answer: B

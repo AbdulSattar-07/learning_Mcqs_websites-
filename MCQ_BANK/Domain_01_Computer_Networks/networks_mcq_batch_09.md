@@ -15,6 +15,8 @@ B: Only two of Consistency, Availability, Partition tolerance can be guaranteed
 C: Only one can be achieved
 D: None can be guaranteed
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: CAP theorem states distributed systems can guarantee only two of three: Consistency, Availability, and Partition tolerance. Network partitions force choice between C and A.
@@ -34,6 +36,8 @@ A: Basic Available Soft-state Eventually consistent
 B: Basically Available, Soft state, Eventually consistent
 C: Best Available System Ever
 D: Basic Architecture for System Engineering
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -55,6 +59,8 @@ B: System becomes consistent after some time without updates
 C: Never consistent
 D: Always consistent
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Eventual consistency guarantees that if no new updates are made, all replicas will eventually converge to the same value, trading immediate consistency for availability.
@@ -75,6 +81,8 @@ B: All reads return most recent write immediately
 C: No consistency
 D: Delayed consistency
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Strong consistency ensures all reads return the most recent write immediately, providing linearizability but potentially sacrificing availability.
@@ -94,6 +102,8 @@ A: Meeting
 B: Minimum number of nodes that must agree for operation
 C: All nodes
 D: Single node
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -116,6 +126,8 @@ B: Network partition causing multiple nodes to act as primary
 C: Load balancing
 D: Data replication
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Split brain occurs when network partition causes multiple nodes to believe they're primary, potentially causing data inconsistency. Quorum prevents this.
@@ -135,6 +147,8 @@ A: Faster processing
 B: Agreement among distributed nodes despite failures
 C: Better encryption
 D: Load balancing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -156,6 +170,8 @@ B: Process to select one node as coordinator
 C: User election
 D: Random selection
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Leader election selects one node as coordinator/leader to make decisions, preventing conflicts and ensuring consistency in distributed systems.
@@ -175,6 +191,8 @@ A: Physical locks
 B: Coordinating access to shared resources across nodes
 C: Security locks
 D: File locks only
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -196,6 +214,8 @@ B: Operations always fail
 C: Operations never repeat
 D: Random results
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: A
 
 Reason: Idempotent operations produce the same result whether executed once or multiple times, crucial for safe retries in distributed systems.
@@ -215,6 +235,8 @@ A: Encryption
 B: Ensuring duplicate requests are processed only once
 C: Authentication
 D: Routing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -236,6 +258,8 @@ B: Removing or updating stale cached data
 C: Disabling cache
 D: Cache encryption
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Cache invalidation removes or updates cached data when the source data changes, ensuring cache consistency but adding complexity.
@@ -255,6 +279,8 @@ A: Never
 B: Simultaneously with database write
 C: After database write
 D: Before database write
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -276,6 +302,8 @@ B: Application code
 C: Cache server automatically
 D: Operating system
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: In cache-aside (lazy loading), application code explicitly manages cache: check cache, if miss, load from database and populate cache.
@@ -295,6 +323,8 @@ A: Application manages cache
 B: Cache automatically loads from database on miss
 C: No automatic loading
 D: Preloads everything
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -316,6 +346,8 @@ B: Data loss if cache fails before writing to database
 C: Too fast
 D: No risks
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Write-behind updates cache immediately and database asynchronously. If cache fails before database write, data is lost, trading consistency for performance.
@@ -336,6 +368,8 @@ B: Most recently used evicted
 C: Random eviction
 D: Largest items evicted
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: A
 
 Reason: LRU (Least Recently Used) evicts items that haven't been accessed recently, assuming recently accessed items are more likely to be accessed again.
@@ -355,6 +389,8 @@ A: LRU
 B: LFU
 C: FIFO
 D: Random
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: C
 
@@ -396,6 +432,8 @@ B: Multiple requests simultaneously regenerating expired cache
 C: Cache overflow
 D: Cache deletion
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Cache stampede occurs when many requests simultaneously try to regenerate an expired popular cache item, overwhelming the backend. Locking prevents this.
@@ -415,6 +453,8 @@ A: Equal nodes
 B: One primary accepts writes, replicas handle reads
 C: All nodes accept writes
 D: No replication
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -436,6 +476,8 @@ B: Conflict resolution when same data modified on different masters
 C: Too slow
 D: No challenges
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Multi-master allows writes on multiple nodes, requiring conflict resolution strategies when same data is modified concurrently on different masters.
@@ -455,6 +497,8 @@ A: No trade-offs
 B: Strong consistency but higher latency
 C: Fast but inconsistent
 D: No consistency
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -476,6 +520,8 @@ B: Data loss if primary fails before replication
 C: Too complex
 D: No risks
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Asynchronous replication doesn't wait for replica confirmation. If primary fails before replication completes, recent writes may be lost.
@@ -495,6 +541,8 @@ A: Web routing
 B: Real-time communication in browsers without plugins
 C: Web caching
 D: Web security
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -516,6 +564,8 @@ B: Exchanging session information to establish connection
 C: Audio signals
 D: Network signals
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Signaling exchanges session descriptions (SDP) and ICE candidates between peers to establish WebRTC connection, typically using WebSocket or HTTP.
@@ -535,6 +585,8 @@ A: Security data
 B: Media capabilities, codecs, and connection information
 C: User data
 D: File data
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -556,6 +608,8 @@ B: TLS for UDP-based protocols
 C: Faster TLS
 D: Disabled TLS
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: DTLS provides TLS-like security for UDP-based protocols, used by WebRTC and other applications requiring encryption without TCP overhead.
@@ -575,6 +629,8 @@ A: Faster RTP
 B: Encryption and authentication for RTP streams
 C: Better compression
 D: Lower latency
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -596,6 +652,8 @@ B: Nodes act as both clients and servers
 C: Hierarchical structure
 D: Single point of control
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: P2P networks have nodes that act as both clients and servers, sharing resources directly without central coordination, providing scalability and resilience.
@@ -615,6 +673,8 @@ A: Database hash
 B: Decentralized key-value store across P2P network
 C: Hash function
 D: Encryption table
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -636,6 +696,8 @@ B: Efficient DHT lookup in P2P networks
 C: Encryption
 D: Routing protocol
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Chord is a DHT protocol providing efficient key lookup in P2P networks using consistent hashing and finger tables, achieving O(log N) lookup.
@@ -655,6 +717,8 @@ A: Faster servers
 B: Downloading from multiple peers simultaneously
 C: Better compression
 D: Larger files
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -676,6 +740,8 @@ B: Immutable distributed ledger
 C: Mutable database
 D: Single point of failure
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Blockchain is a distributed, immutable ledger where blocks are cryptographically linked, making historical data tamper-evident and providing decentralized trust.
@@ -695,6 +761,8 @@ A: Work certificate
 B: Computational puzzle solving for block validation
 C: Identity proof
 D: Signature verification
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -716,6 +784,8 @@ B: Validators chosen based on stake, not computation
 C: Faster always
 D: Less secure
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: PoS selects validators based on their stake (holdings) rather than computational power, reducing energy consumption while maintaining security.
@@ -735,6 +805,8 @@ A: Legal contracts
 B: Self-executing code on blockchain
 C: Paper contracts
 D: Contract management software
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -756,6 +828,8 @@ B: Content-addressed distributed file system
 C: Faster FTP
 D: Encrypted storage
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: IPFS is a peer-to-peer distributed file system using content addressing (hash-based), providing decentralized, permanent, and censorship-resistant storage.
@@ -775,6 +849,8 @@ A: Same thing
 B: Identifies content by hash, not location
 C: Faster addressing
 D: More secure always
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -796,6 +872,8 @@ B: Using multiple network paths simultaneously
 C: Faster single path
 D: Path encryption
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: MPTCP allows a TCP connection to use multiple network interfaces/paths simultaneously, improving throughput and resilience for mobile devices.
@@ -815,6 +893,8 @@ A: LAN networks
 B: High-latency satellite links
 C: Low-latency networks
 D: Wireless only
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -836,6 +916,8 @@ B: Measuring RTT changes before loss occurs
 C: Random detection
 D: No detection
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: TCP Vegas proactively detects congestion by monitoring RTT changes, adjusting window before packet loss occurs, unlike loss-based algorithms.
@@ -855,6 +937,8 @@ A: Wired networks only
 B: Wireless and high-loss networks
 C: Low-latency networks
 D: Satellite only
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -876,6 +960,8 @@ B: Estimating available bandwidth
 C: Encryption
 D: Compression
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Packet pair sends two packets back-to-back, measuring arrival time difference to estimate available bandwidth on the path.
@@ -895,6 +981,8 @@ A: Managing queues manually
 B: Proactively dropping packets before buffer fills
 C: Passive monitoring
 D: Queue encryption
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -916,6 +1004,8 @@ B: Keeping queuing delay below target
 C: Zero delay
 D: Maximum delay
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: CoDel targets keeping queuing delay below a threshold (typically 5ms), dropping packets when delay exceeds target, reducing bufferbloat.
@@ -935,6 +1025,8 @@ A: Buffer overflow
 B: Excessive buffering causing high latency
 C: Buffer underflow
 D: Buffer encryption
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -956,6 +1048,8 @@ B: Fair queuing with CoDel AQM
 C: Two routing protocols
 D: Two compression methods
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: FQ-CoDel combines fair queuing (separating flows) with CoDel (controlling delay), providing both fairness and low latency.
@@ -976,6 +1070,8 @@ B: Signals congestion without dropping packets
 C: Better routing
 D: Compression
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: ECN allows routers to mark packets instead of dropping them to signal congestion, enabling TCP to reduce rate without packet loss.
@@ -995,6 +1091,8 @@ A: Broadcast to all
 B: Route to nearest instance based on routing metrics
 C: Random selection
 D: Round robin
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1017,6 +1115,8 @@ B: Faster handshake (1-RTT) and removed weak ciphers
 C: More ciphers
 D: No improvements
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: TLS 1.3 reduces handshake to 1-RTT (from 2-RTT), removes weak ciphers, and improves security and performance over TLS 1.2.
@@ -1036,6 +1136,8 @@ A: Perfect encryption
 B: Session keys not compromised if long-term key is compromised
 C: Faster encryption
 D: No forward secrecy
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1057,6 +1159,8 @@ B: Secure key exchange over insecure channel
 C: Authentication
 D: Compression
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Diffie-Hellman allows two parties to establish a shared secret over an insecure channel without transmitting the secret, used for key exchange.
@@ -1076,6 +1180,8 @@ A: Simpler
 B: Same security with smaller key sizes
 C: Faster always
 D: Older technology
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1097,6 +1203,8 @@ B: Maintain backward compatibility while evolving API
 C: Faster APIs
 D: Better security
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: API versioning allows introducing changes and new features while maintaining backward compatibility for existing clients, preventing breaking changes.
@@ -1116,6 +1224,8 @@ A: 403
 B: 429 (Too Many Requests)
 C: 503
 D: 500
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1137,6 +1247,8 @@ B: Rate limiting rejects, throttling delays requests
 C: Throttling is faster
 D: Rate limiting is newer
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Rate limiting rejects requests exceeding limits, while throttling delays/queues them, allowing processing at controlled rate without rejection.
@@ -1156,6 +1268,8 @@ A: Encryption
 B: Identify and authenticate API clients
 C: Compression
 D: Routing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1177,6 +1291,8 @@ B: Delegated authorization without sharing credentials
 C: Encryption
 D: Faster authentication
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: OAuth 2.0 enables delegated authorization, allowing third-party applications to access resources without sharing user credentials.
@@ -1196,6 +1312,8 @@ A: Implicit flow
 B: Authorization Code flow
 C: Password flow
 D: Client Credentials
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1217,6 +1335,8 @@ B: Self-contained token with encoded claims
 C: JavaScript Token
 D: JSON Transfer
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: JWT is a compact, self-contained token containing encoded claims (user info, permissions), signed to prevent tampering, used for stateless authentication.
@@ -1236,6 +1356,8 @@ A: User, Password, Token
 B: Header, Payload, Signature
 C: Key, Value, Hash
 D: Start, Middle, End
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1257,6 +1379,8 @@ B: Obtain new access tokens without re-authentication
 C: Refresh cache
 D: Refresh DNS
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Refresh tokens are long-lived tokens used to obtain new short-lived access tokens without requiring user re-authentication, balancing security and UX.
@@ -1276,6 +1400,8 @@ A: Rotating servers
 B: Issuing new refresh token with each use
 C: Rotating encryption
 D: No rotation
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1297,6 +1423,8 @@ B: Authorization code interception attacks
 C: DDoS attacks
 D: SQL injection
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: PKCE prevents authorization code interception attacks in OAuth, particularly important for mobile and single-page applications without client secrets.
@@ -1316,6 +1444,8 @@ A: Better authorization
 B: Identity layer with ID tokens
 C: Faster flow
 D: More security
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1337,6 +1467,8 @@ B: Enterprise SSO (Single Sign-On)
 C: API authentication
 D: Database authentication
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: SAML (Security Assertion Markup Language) is an XML-based standard for enterprise SSO, exchanging authentication and authorization data between parties.
@@ -1356,6 +1488,8 @@ A: Single password
 B: One authentication for multiple applications
 C: Single user
 D: Single server
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1377,6 +1511,8 @@ B: Service that authenticates users and provides identity assertions
 C: Database provider
 D: Network provider
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: IdP authenticates users and provides identity assertions to service providers, centralizing authentication in SSO and federated identity systems.
@@ -1397,6 +1533,8 @@ B: Application trusting IdP for authentication
 C: Cloud provider
 D: Network provider
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Service Provider is an application that trusts the Identity Provider for user authentication, relying on IdP's assertions about user identity.
@@ -1416,6 +1554,8 @@ A: Single factor
 B: Multiple independent authentication factors
 C: Multiple passwords
 D: Multiple users
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1457,6 +1597,8 @@ B: Counter-based instead of time-based
 C: Faster
 D: More secure
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: HOTP (HMAC-based OTP) uses a counter instead of time, incrementing with each use, requiring synchronization between client and server.
@@ -1477,6 +1619,8 @@ B: Passwordless authentication using biometrics or security keys
 C: Password management
 D: Web authorization
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: WebAuthn is a W3C standard enabling passwordless authentication using biometrics, security keys, or platform authenticators, improving security and UX.
@@ -1496,6 +1640,8 @@ A: Two passwords
 B: WebAuthn and CTAP protocols
 C: Two servers
 D: Two networks
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1518,6 +1664,8 @@ B: Routing user requests to same backend server
 C: Session timeout
 D: Session replication
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Session affinity ensures requests from same user go to same backend server, maintaining session state but reducing load balancing effectiveness.
@@ -1537,6 +1685,8 @@ A: No sessions
 B: Session data stored in client (cookies, JWT)
 C: Server stores everything
 D: Database stores sessions
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1578,6 +1728,8 @@ B: Speed up data retrieval
 C: Encrypt data
 D: Backup data
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Indexes create data structures that speed up data retrieval at the cost of additional storage and slower writes, crucial for query performance.
@@ -1597,6 +1749,8 @@ A: Making queries shorter
 B: Finding most efficient execution plan for query
 C: Caching queries
 D: Encrypting queries
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1618,6 +1772,8 @@ B: Precomputed query results stored physically
 C: Regular views
 D: Temporary views
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Materialized views store precomputed query results physically, trading storage and freshness for faster query performance on complex aggregations.
@@ -1637,6 +1793,8 @@ A: Horizontal split
 B: Splitting table by columns
 C: Splitting by rows
 D: No splitting
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1658,6 +1816,8 @@ B: Splitting table by rows (sharding)
 C: No splitting
 D: Vertical split
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Horizontal partitioning splits tables by rows, distributing data across multiple databases/tables based on partition key, enabling scaling.
@@ -1677,6 +1837,8 @@ A: Multiple connections
 B: Multiple requests/responses over single connection
 C: Single request only
 D: No multiplexing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1698,6 +1860,8 @@ B: Overcome browser connection limits per domain
 C: Security
 D: Faster DNS
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Domain sharding served resources from multiple domains to bypass browser's per-domain connection limit (6-8), less needed with HTTP/2 multiplexing.
@@ -1717,6 +1881,8 @@ A: Slow loading
 B: Loading resources only when needed
 C: Loading everything upfront
 D: No loading
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1738,6 +1904,8 @@ B: When data is definitely needed and latency matters
 C: Never
 D: Random choice
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Eager loading fetches related data upfront when it's definitely needed, avoiding N+1 queries and reducing latency from multiple round trips.
@@ -1757,6 +1925,8 @@ A: Page design
 B: Limit response size by returning data in chunks
 C: Faster responses
 D: Better security
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1778,6 +1948,8 @@ B: Consistent results when data changes
 C: Faster always
 D: No advantages
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Cursor-based pagination uses pointers to specific items, providing consistent results even when data changes, unlike offset which can skip/duplicate items.
@@ -1797,6 +1969,8 @@ A: Offset-based only
 B: Cursor-based (Relay-style connections)
 C: No pagination
 D: Page numbers only
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1818,6 +1992,8 @@ B: Prevent resource exhaustion on database server
 C: Increase speed
 D: Better security
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Each connection consumes memory and resources. Limiting connections prevents database server resource exhaustion while connection pooling enables reuse.
@@ -1837,6 +2013,8 @@ A: On, Off, Standby
 B: Closed, Open, Half-Open
 C: Active, Passive, Idle
 D: Start, Stop, Pause
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1858,6 +2036,8 @@ B: False failures and unnecessary retries
 C: Improved reliability
 D: No issues
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Too-short timeouts cause false failures, triggering unnecessary retries and potentially overwhelming services. Too-long timeouts delay failure detection.
@@ -1877,6 +2057,8 @@ A: Average latency
 B: Latency at high percentiles (p95, p99)
 C: Minimum latency
 D: Median latency
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1898,6 +2080,8 @@ B: Sending duplicate request if first is slow
 C: Encrypted requests
 D: Compressed requests
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Hedged requests send duplicate request to another server if first doesn't respond quickly, reducing tail latency at cost of increased load.
@@ -1917,6 +2101,8 @@ A: Physical pressure
 B: Downstream signaling upstream to slow down
 C: Increased pressure
 D: No pressure
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1938,6 +2124,8 @@ B: Asynchronous stream processing with backpressure
 C: Synchronous streams
 D: No streams
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Reactive streams provide asynchronous, non-blocking stream processing with backpressure, enabling efficient handling of data flows without overwhelming consumers.
@@ -1957,6 +2145,8 @@ A: Control water flow
 B: Prevent sender from overwhelming receiver
 C: Increase speed
 D: Encryption
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1978,6 +2168,8 @@ B: Congestion control considers network capacity, flow control receiver capacity
 C: Congestion is faster
 D: Flow control is newer
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Flow control manages sender-receiver rate based on receiver capacity. Congestion control manages rate based on network capacity to prevent congestion.
@@ -1997,6 +2189,8 @@ A: Planning storage
 B: Forecasting resource needs for future growth
 C: Current capacity only
 D: Random planning
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 

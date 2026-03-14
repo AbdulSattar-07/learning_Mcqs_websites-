@@ -711,6 +711,8 @@ Difficulty: Medium
 
 Question: What is page table?
 A: Process table
+A) [Missing option - Please review]
+
 B) Data structure mapping logical pages to physical frames
 C) File table
 D) Network table

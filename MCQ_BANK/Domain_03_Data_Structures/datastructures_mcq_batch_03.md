@@ -15,6 +15,8 @@ B) Randomized BST combining tree and heap properties
 C) Binary tree
 D: Array tree
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Treap: each node has key (BST property) and random priority (heap property). Self-balancing via rotations. Expected height: O(log n).
@@ -80,6 +82,8 @@ Difficulty: Hard
 Question: Why serialize binary tree?
 A) Sort tree
 B: Convert to string/array for storage or transmission
+B) [Missing option - Please review]
+
 C) Delete tree
 D) Balance tree
 
@@ -318,6 +322,8 @@ Difficulty: Hard
 Question: What is heavy-light decomposition?
 A) Weight-based
 B: Decompose tree into chains for efficient path queries
+B) [Missing option - Please review]
+
 C) Tree splitting
 D) Balancing
 
@@ -1376,6 +1382,8 @@ Difficulty: Hard
 
 Question: What is advantage of disjoint sparse table?
 A: Simpler
+A) [Missing option - Please review]
+
 B) Supports range queries on any associative operation
 C) Less space
 D) Faster

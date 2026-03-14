@@ -49,6 +49,8 @@ Topic: Code Analysis
 Subtopic: Permutation Generation
 Difficulty: Hard
 
+Question: [Missing question - Please review]
+
 ```python
 def permute(nums):
     result = []
@@ -128,6 +130,8 @@ Domain: Data Structures
 Topic: Code Analysis
 Subtopic: Rat in Maze
 Difficulty: Medium
+
+Question: [Missing question - Please review]
 
 ```cpp
 #include <iostream>
@@ -257,6 +261,8 @@ Topic: Code Analysis
 Subtopic: Catalan Number
 Difficulty: Medium
 
+Question: [Missing question - Please review]
+
 ```python
 def catalan(n):
     if n <= 1:
@@ -333,6 +339,8 @@ Topic: Code Analysis
 Subtopic: Matrix Rotation
 Difficulty: Hard
 
+Question: [Missing question - Please review]
+
 ```java
 public static void rotate(int[][] matrix) {
     int n = matrix.length;
@@ -367,6 +375,8 @@ B: O(m*n) where m and n are dimensions
 C: O(m+n)
 D: O(log n)
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Spiral traversal visits each element exactly once in an m×n matrix, resulting in O(m*n) time complexity.
@@ -386,6 +396,8 @@ A: a
 B: 0
 C: 1
 D: 2a
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -407,6 +419,8 @@ B: x | (1 << n)
 C: x ^ (1 << n)
 D: x >> n
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: OR operation with (1 << n) sets the nth bit to 1 without affecting other bits. AND checks bit, XOR toggles bit.
@@ -426,6 +440,8 @@ A: x & ~(1 << n)
 B: x | (1 << n)
 C: x ^ (1 << n)
 D: x << n
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: A
 
@@ -447,6 +463,8 @@ B: Counting set bits efficiently
 C: Searching
 D: Hashing
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Brian Kernighan's algorithm counts set bits by repeatedly clearing the rightmost set bit (n & (n-1)), running in O(number of set bits).
@@ -466,6 +484,8 @@ A: n % 2 == 0
 B: (n & (n-1)) == 0 and n != 0
 C: n / 2 == integer
 D: n > 0
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -487,6 +507,8 @@ B: O(n)
 C: O(n²)
 D: O(log n)
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Checking palindrome requires comparing characters from both ends moving inward, visiting each character once, resulting in O(n) time.
@@ -506,6 +528,8 @@ A: Sort both and compare
 B: Count character frequencies
 C: Both A and B
 D: Nested loops
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: C
 
@@ -527,6 +551,8 @@ B: O(m+n)
 C: O(m*n) where m is pattern, n is text length
 D: O(log n)
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: C
 
 Reason: Naive string matching checks pattern at each position in text, resulting in O((n-m+1)*m) ≈ O(m*n) worst case.
@@ -546,6 +572,8 @@ A: O(m*n)
 B: O(m+n)
 C: O(n²)
 D: O(log n)
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -567,6 +595,8 @@ B: Rolling hash
 C: Divide and conquer
 D: Greedy approach
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Rabin-Karp uses rolling hash to efficiently compute hash values for all substrings, achieving O(m+n) average case for string matching.
@@ -586,6 +616,8 @@ A: O(1)
 B: O(k)
 C: O(n)
 D: O(k²)
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -607,6 +639,8 @@ B: High space complexity
 C: Cannot store strings
 D: Slow insertion
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Tries can consume significant memory as each node may have many child pointers (26 for lowercase English), though compressed tries reduce this.
@@ -626,6 +660,8 @@ A: Tree traversal
 B: Efficient pattern matching and substring operations
 C: Sorting
 D: Hashing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -647,6 +683,8 @@ B: O(log n)
 C: O(√n)
 D: O(1)
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Segment tree is a balanced binary tree with height O(log n), requiring 4n space for array of size n.
@@ -666,6 +704,8 @@ A: AVL Tree
 B: Binary Indexed Tree (BIT)
 C: Red-Black Tree
 D: B-Tree
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -687,6 +727,8 @@ B: Directed Acyclic Graph (DAG)
 C: Cyclic graph
 D: Complete graph
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Topological sort orders vertices such that for every edge u→v, u comes before v, only possible in DAGs (no cycles).
@@ -706,6 +748,12 @@ A: DFS
 B: BFS with in-degree tracking
 C: Dijkstra's approach
 D: Greedy method
+
+C) [Missing option - Please review]
+
+D) [Missing option - Please review]
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -727,6 +775,8 @@ B: Kosaraju's or Tarjan's algorithm
 C: Dijkstra's algorithm
 D: Prim's algorithm
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Kosaraju's algorithm uses two DFS passes, Tarjan's uses single DFS with low-link values, both finding SCCs in O(V+E) time.
@@ -747,6 +797,8 @@ B: Vertex whose removal increases connected components
 C: Ending point
 D: Highest degree vertex
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Articulation point (cut vertex) is a vertex whose removal disconnects the graph or increases the number of connected components.
@@ -766,6 +818,8 @@ A: Physical bridge
 B: Edge whose removal increases connected components
 C: Shortest edge
 D: Longest edge
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -807,6 +861,8 @@ B: Same subproblems solved multiple times
 C: Unique subproblems
 D: No subproblems
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Overlapping subproblems occur when same subproblems are solved repeatedly. DP stores results (memoization) to avoid recomputation.
@@ -826,6 +882,8 @@ A: Same thing
 B: Memoization is top-down, tabulation is bottom-up
 C: Memoization is slower
 D: Tabulation uses recursion
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -847,6 +905,8 @@ B: O(n)
 C: O(n²)
 D: O(log n)
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: DP computes each Fibonacci number once and stores it, reducing exponential O(2ⁿ) recursive solution to linear O(n).
@@ -866,6 +926,8 @@ A: O(n)
 B: O(m*n) where m, n are string lengths
 C: O(n²)
 D: O(log n)
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -887,6 +949,8 @@ B: O(n*W) where n is items, W is capacity
 C: O(n²)
 D: O(2ⁿ)
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: 0/1 Knapsack DP fills a table of size n×W, where each cell is computed in O(1), resulting in O(n*W) pseudo-polynomial time.
@@ -906,6 +970,8 @@ A: Greedy only
 B: Dynamic programming (unbounded knapsack variant)
 C: Divide and conquer
 D: Backtracking
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -927,6 +993,8 @@ B: Minimum operations to transform one string to another
 C: String similarity only
 D: Character count
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Edit distance counts minimum insertions, deletions, and substitutions needed to transform one string into another, useful for spell checking.
@@ -946,6 +1014,8 @@ A: Matrix values
 B: Order of multiplication to minimize operations
 C: Matrix size
 D: Storage space
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -967,6 +1037,8 @@ B: Activity finishing earliest
 C: Activity starting earliest
 D: Random activity
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Activity selection greedily selects activity finishing earliest, leaving maximum time for remaining activities, proving optimal solution.
@@ -986,6 +1058,8 @@ A: Encryption
 B: Variable-length encoding minimizing average code length
 C: Fixed-length encoding
 D: Decoding speed
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1007,6 +1081,8 @@ B: Can take fractions of items, solvable by greedy
 C: Harder problem
 D: No difference
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Fractional knapsack allows taking fractions of items, solvable optimally by greedy (highest value/weight ratio). 0/1 requires DP.
@@ -1026,6 +1102,8 @@ A: O(n)
 B: O(n log n)
 C: O(n²)
 D: O(log n)
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1047,6 +1125,8 @@ B: O(n²)
 C: O(n)
 D: O(log n)
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Quick sort worst case O(n²) occurs with poor pivot selection (already sorted array). Average case is O(n log n) with good pivot.
@@ -1066,6 +1146,8 @@ A: Unsorted array
 B: Sorted array
 C: Linked list
 D: Tree structure
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1088,6 +1170,8 @@ B: Merge sort
 C: Heap sort
 D: Selection sort
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Stable sorts maintain relative order of equal elements. Merge sort is stable, while quick sort, heap sort, and selection sort are typically unstable.
@@ -1107,6 +1191,8 @@ A: Bubble sort
 B: Merge sort
 C: Selection sort
 D: Insertion sort
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1128,6 +1214,8 @@ B: When range of input is small compared to n
 C: For large ranges
 D: Never
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Counting sort is O(n+k) where k is range. Efficient when k is O(n), but impractical for large ranges requiring excessive space.
@@ -1147,6 +1235,8 @@ A: O(n log n)
 B: O(d*n) where d is number of digits
 C: O(n²)
 D: O(n)
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1168,6 +1258,8 @@ B: Uniformly distributed data
 C: Sorted data
 D: Reverse sorted data
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Bucket sort performs well (O(n)) when data is uniformly distributed across buckets. Skewed distribution degrades to O(n²).
@@ -1187,6 +1279,8 @@ A: Linking tables
 B: Storing colliding elements in linked list at same index
 C: Rehashing
 D: Linear probing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1208,6 +1302,8 @@ B: Finding alternative location for colliding element
 C: Using linked lists
 D: External storage
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Open addressing resolves collisions by probing for alternative locations within the hash table (linear, quadratic, double hashing).
@@ -1227,6 +1323,8 @@ A: Good clustering
 B: Consecutive occupied slots forming clusters
 C: Random distribution
 D: No clustering
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1248,6 +1346,8 @@ B: Uses quadratic function for probe sequence
 C: Linear probing
 D: No reduction
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Quadratic probing uses i² for probe sequence, reducing primary clustering but can cause secondary clustering and may not probe all slots.
@@ -1267,6 +1367,8 @@ A: Single hash function
 B: Uses two hash functions for probe sequence
 C: Triple hashing
 D: No hashing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1288,6 +1390,8 @@ B: Ratio of elements to table size (n/m)
 C: Hash function speed
 D: Collision count
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Load factor α = n/m (elements/size) indicates how full the table is. Higher load factor increases collisions, requiring rehashing.
@@ -1307,6 +1411,8 @@ A: After every insertion
 B: When load factor exceeds threshold (e.g., 0.75)
 C: Never
 D: Randomly
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1328,6 +1434,8 @@ B: No false negatives, but possible false positives
 C: No false positives, but possible false negatives
 D: Both false positives and negatives
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Bloom filter never has false negatives (if says no, definitely not present) but can have false positives (if says yes, might not be present).
@@ -1347,6 +1455,8 @@ A: O(n)
 B: O(log n)
 C: O(1)
 D: O(n log n)
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1368,6 +1478,8 @@ B: O(α(n)) - inverse Ackermann, nearly constant
 C: O(log n)
 D: O(1)
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: With both optimizations, union-find operations are O(α(n)) where α is inverse Ackermann function, effectively constant for practical values.
@@ -1388,6 +1500,8 @@ B: Tree connecting all vertices with minimum total edge weight
 C: Shortest path tree
 D: Balanced tree
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: MST is a subset of edges forming a tree that connects all vertices with minimum total edge weight, used in network design.
@@ -1407,6 +1521,8 @@ A: Stack
 B: Min heap (priority queue)
 C: Queue
 D: Array only
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1468,6 +1584,8 @@ B: Handles negative edge weights
 C: Simpler
 D: Uses less space
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Bellman-Ford handles negative edge weights and detects negative cycles, though slower O(VE) compared to Dijkstra's O(E log V).
@@ -1489,6 +1607,8 @@ B: All-pairs shortest paths
 C: MST
 D: Topological sort
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Floyd-Warshall finds shortest paths between all pairs of vertices in O(V³) time, using dynamic programming approach.
@@ -1508,6 +1628,8 @@ A: BFS only
 B: Heuristic function with actual cost
 C: DFS only
 D: Random search
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1529,6 +1651,8 @@ B: If back edge to visited non-parent node found
 C: Count vertices
 D: Random check
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: In undirected graph DFS, cycle exists if we encounter a visited vertex that's not the parent of current vertex (back edge).
@@ -1548,6 +1672,8 @@ A: BFS only
 B: DFS with recursion stack tracking
 C: Count edges
 D: Topological sort only
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1569,6 +1695,8 @@ B: O(n!)
 C: O(2ⁿ)
 D: O(n log n)
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: N-Queens explores permutations of queen placements with pruning, resulting in O(n!) time complexity in worst case.
@@ -1588,6 +1716,8 @@ A: Greedy choice
 B: Try possibilities, backtrack on failure
 C: Dynamic programming
 D: Divide and conquer
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1609,6 +1739,8 @@ B: O(2ⁿ)
 C: O(n²)
 D: O(n log n)
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Backtracking explores all subsets (include/exclude each element), resulting in O(2ⁿ) time. DP can solve in pseudo-polynomial time.
@@ -1628,6 +1760,8 @@ A: Random problems
 B: Contiguous subarray/substring problems
 C: Graph problems
 D: Tree problems
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1649,6 +1783,8 @@ B: Two pointers moving through data structure
 C: Two arrays
 D: Two loops
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Two-pointer technique uses two pointers moving through array/list (same/opposite directions) to solve problems efficiently, often reducing O(n²) to O(n).
@@ -1668,6 +1804,8 @@ A: Rabbit algorithm
 B: Tortoise and hare algorithm
 C: Fast algorithm
 D: Slow algorithm
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1689,6 +1827,8 @@ B: O(h) where h is height
 C: O(n)
 D: O(log n) always
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Finding LCA requires traversing from root to nodes, taking O(h) time where h is tree height (O(log n) balanced, O(n) skewed).
@@ -1708,6 +1848,8 @@ A: Tree width
 B: Longest path between any two nodes
 C: Tree height
 D: Number of nodes
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1729,6 +1871,8 @@ B: Converting tree to string/array representation
 C: Sorting tree
 D: Deleting tree
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Serialization converts tree to linear format (string/array) for storage/transmission, deserializing reconstructs tree from representation.
@@ -1748,6 +1892,8 @@ A: Sorting
 B: Maximum subarray sum
 C: Searching
 D: Merging
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1769,6 +1915,8 @@ B: Partition array into three parts
 C: Binary partition
 D: Find median
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Dutch National Flag algorithm partitions array into three parts (low, mid, high values) in single pass O(n), useful for 3-way partitioning.
@@ -1788,6 +1936,8 @@ A: All elements
 B: Element appearing more than n/2 times
 C: Minimum element
 D: Maximum element
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1809,6 +1959,8 @@ B: O(n)
 C: O(n log n)
 D: O(n³)
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Manacher's algorithm finds longest palindromic substring in O(n) time using previously computed palindrome information.
@@ -1828,6 +1980,8 @@ A: Water sampling
 B: Random sampling from stream of unknown size
 C: Sorting
 D: Searching
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1849,6 +2003,8 @@ B: Randomly shuffle array with uniform distribution
 C: Search array
 D: Reverse array
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Fisher-Yates shuffle randomly permutes array in O(n) time, ensuring each permutation has equal probability.
@@ -1868,6 +2024,8 @@ A: Uses recursion
 B: Inorder traversal in O(1) space
 C: Uses stack
 D: Requires extra tree
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1889,6 +2047,8 @@ B: Hash map + doubly linked list
 C: Stack
 D: Queue only
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Hash map provides O(1) lookup, doubly linked list maintains access order for O(1) eviction, together implementing O(1) LRU cache operations.
@@ -1908,6 +2068,8 @@ A: Recent access
 B: Access frequency
 C: Item size
 D: Creation time
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1929,6 +2091,8 @@ B: Length of longest substring starting from each position matching prefix
 C: Character count
 D: Hash value
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Z-algorithm computes Z-array where Z[i] is length of longest substring starting at i matching prefix, useful for pattern matching in O(n).
@@ -1948,6 +2112,8 @@ A: Random problems
 B: Finding next greater/smaller element
 C: Sorting
 D: Searching
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1969,6 +2135,8 @@ B: Sliding window maximum/minimum
 C: Searching
 D: Hashing
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Monotonic deque maintains elements in order within sliding window, finding max/min in O(1) per window, total O(n) for all windows.
@@ -1988,6 +2156,8 @@ A: Lifting trees
 B: Finding kth ancestor in O(log n)
 C: Tree traversal
 D: Tree sorting
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -2009,6 +2179,8 @@ B: Path queries in O(log² n)
 C: Tree sorting
 D: Tree deletion
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Heavy-light decomposition partitions tree into heavy and light paths, enabling path queries and updates in O(log² n) with segment trees.
@@ -2028,6 +2200,8 @@ A: Finding center
 B: Divide and conquer on trees
 C: Tree balancing
 D: Tree traversal
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -2049,6 +2223,8 @@ B: Unimodal functions (single peak/valley)
 C: Multimodal functions
 D: Random functions
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Ternary search finds maximum/minimum of unimodal function by dividing into three parts, converging in O(log n) iterations.
@@ -2068,6 +2244,8 @@ A: Find middle element
 B: Split problem into two halves, solve separately and combine
 C: Sort middle elements
 D: Delete middle
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 

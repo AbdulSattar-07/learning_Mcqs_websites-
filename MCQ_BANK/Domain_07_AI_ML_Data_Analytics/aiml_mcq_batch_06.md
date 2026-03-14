@@ -364,6 +364,8 @@ Difficulty: Hard
 Question: What is Independent Component Analysis (ICA)?
 A) PCA variant
 B: Separating mixed signals into independent sources
+B) [Missing option - Please review]
+
 C) Clustering method
 D) Classification method
 
@@ -418,6 +420,8 @@ Difficulty: Hard
 Question: What is temperature scaling?
 A) Hardware cooling
 B: Post-hoc calibration method dividing logits by temperature
+B) [Missing option - Please review]
+
 C) Data scaling
 D) Feature scaling
 
@@ -459,8 +463,12 @@ Difficulty: Hard
 Question: What is a metric space?
 A) Space with measurements
 B: Set with distance function satisfying metric properties
+B) [Missing option - Please review]
+
 C) Euclidean space only
 D: Vector space
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Metric space has distance function satisfying non-negativity, identity, symmetry, triangle inequality.
@@ -480,6 +488,8 @@ B: Normalizing within groups of channels
 C: Layer normalization
 D: Instance normalization
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Group norm divides channels into groups and normalizes within each group.
 Tag: Normal
@@ -497,6 +507,8 @@ A: Data quality
 B: Number of unique values in column
 C: Data type
 D: Data size
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Cardinality measures distinctness of values in a feature.
@@ -516,6 +528,8 @@ B: Identifying what pronouns refer to
 C: Spell checking
 D: Grammar correction
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Anaphora resolution links pronouns to their antecedents.
 Tag: Normal
@@ -533,6 +547,8 @@ A: Adding models
 B: Selecting optimal subset of ensemble members
 C: Training more models
 D: No optimization
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Ensemble pruning removes redundant models while maintaining performance.
@@ -552,6 +568,8 @@ B: Problems arising from high-dimensional spaces
 C: Data imbalance
 D: Missing values
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: High dimensions cause data sparsity, making learning difficult.
 Tag: Past Paper
@@ -570,6 +588,8 @@ B: Searching images by visual content
 C: Metadata search
 D: Random retrieval
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: CBIR uses visual features (color, texture, shape) to find similar images.
 Tag: Normal
@@ -587,6 +607,8 @@ A: False Positive
 B: False Negative
 C: True Positive
 D: True Negative
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Type II error (β) is failing to reject false null hypothesis (False Negative).
@@ -611,6 +633,8 @@ B: (3, 1)
 C: (1, 3)
 D: (3, 3)
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: reshape(3, 1) creates 3 rows, 1 column: shape (3, 1).
 Tag: Normal
@@ -628,6 +652,8 @@ A: Single label per sample
 B: Multiple labels per sample
 C: Binary classification
 D: Regression
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Multi-label allows assigning multiple non-exclusive labels to each instance.
@@ -647,6 +673,8 @@ B: Algorithm measuring node importance in graph
 C: Search algorithm
 D: Clustering algorithm
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: PageRank computes importance scores based on link structure.
 Tag: Normal
@@ -664,6 +692,8 @@ A: Single direction RNN
 B: Processing sequence in both forward and backward directions
 C: Two separate RNNs
 D: No directionality
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Bidirectional RNN captures context from past and future.
@@ -683,6 +713,8 @@ B: Normality of distribution
 C: Variance equality
 D: Independence
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Shapiro-Wilk tests whether sample comes from normal distribution.
 Tag: Normal
@@ -700,6 +732,8 @@ A: Financial audit
 B: Record of model development and decisions
 C: Code review
 D: Testing log
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Audit trails document model lifecycle for accountability and compliance.
@@ -719,6 +753,8 @@ B: Mapping text to formal meaning representations
 C: Tokenization
 D: POS tagging
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Semantic parsing converts natural language to logical forms or programs.
 Tag: Normal
@@ -736,6 +772,8 @@ A: Global outlier detection
 B: Density-based outlier detection measuring local deviation
 C: Statistical method
 D: Clustering method
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: LOF identifies outliers by comparing local density to neighbors' densities.
@@ -755,6 +793,8 @@ B: Change in feature distributions over time
 C: Concept drift
 D: No drift
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Feature drift occurs when input feature statistics change from training distribution.
 Tag: Normal
@@ -773,6 +813,8 @@ B: GAN conditioned on additional information
 C: Unconditional generation
 D: Discriminator only
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Conditional GAN generates images based on class labels or other conditions.
 Tag: Normal
@@ -790,6 +832,8 @@ A: No reason
 B: Handle class imbalance or importance differences
 C: Speed up training
 D: Reduce model size
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Sample weights adjust loss contribution of individual samples.
@@ -814,6 +858,8 @@ B: 3.5
 C: 4.0
 D: NaN
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Rolling mean with window=2 at last position: (3+4)/2 = 3.5.
 Tag: Normal
@@ -831,6 +877,8 @@ A: Standard Newton
 B: Modified Newton avoiding saddle points
 C: Gradient descent
 D: No optimization
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Saddle-free methods modify Hessian to escape saddle points.
@@ -850,6 +898,8 @@ B: Averaging entire feature map to single value
 C: Local pooling
 D: No pooling
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Global average pooling reduces spatial dimensions to 1x1 by averaging.
 Tag: Normal
@@ -867,6 +917,8 @@ A: Storage optimization
 B: Traceability, debugging, and compliance
 C: Faster processing
 D: Better accuracy
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Data lineage tracks data flow for reproducibility and governance.
@@ -886,6 +938,8 @@ B: Intersection over union of sets
 C: Euclidean distance
 D: Edit distance
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Jaccard = |A ∩ B| / |A ∪ B|, measures set overlap.
 Tag: Normal
@@ -903,6 +957,8 @@ A: No importance
 B: Diverse errors lead to better ensemble performance
 C: Faster training
 D: Smaller models
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Diversity ensures models make different mistakes, improving combined predictions.
@@ -922,6 +978,8 @@ B: Feature importance measure from tree-based models
 C: Loss function
 D: Accuracy metric
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: MDI measures average decrease in node impurity from feature splits.
 Tag: Normal
@@ -940,6 +998,8 @@ B: Converting images of text to machine-readable text
 C: Face recognition
 D: Image classification
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: OCR extracts text from images or scanned documents.
 Tag: Normal
@@ -957,6 +1017,8 @@ A: Standard bootstrap
 B: Bootstrap method adjusting for optimism bias
 C: Cross-validation
 D: Holdout validation
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: .632 bootstrap combines training error and out-of-bag error with weights.
@@ -981,6 +1043,8 @@ B: 4
 C: 0
 D: 1
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: argmax() returns index of maximum value: index 4 (value 5).
 Tag: Normal
@@ -998,6 +1062,8 @@ A: Flat classification
 B: Classification with class hierarchy/taxonomy
 C: Binary classification
 D: Regression
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Hierarchical classification organizes classes in tree structure.
@@ -1017,6 +1083,8 @@ B: Measure assigning probabilities to events
 C: Distance measure
 D: Size measure
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Probability measure satisfies non-negativity, normalization, and countable additivity.
 Tag: Normal
@@ -1034,6 +1102,8 @@ A: Dropout variant
 B: Randomly dropping connections instead of neurons
 C: No dropout
 D: Layer dropout
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: DropConnect sets random weights to zero rather than activations.
@@ -1071,6 +1141,8 @@ B: Collecting only necessary data
 C: Deleting all data
 D: Maximizing data
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Data minimization limits collection to what's needed for specific purpose.
 Tag: Normal
@@ -1088,6 +1160,8 @@ A: No difference
 B: Generates new sentences vs. selecting existing ones
 C: Extractive is better
 D: Same output
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Abstractive creates novel text; extractive selects and combines existing sentences.
@@ -1107,6 +1181,8 @@ B: Nonlinear dimensionality reduction using geodesic distances
 C: Linear method
 D: Clustering method
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Isomap preserves geodesic distances along manifold.
 Tag: Normal
@@ -1124,6 +1200,8 @@ A: Programming language
 B: Open format for representing ML models
 C: Database
 D: Operating system
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: ONNX (Open Neural Network Exchange) enables model interoperability across frameworks.
@@ -1143,6 +1221,8 @@ B: Filling missing or damaged regions in images
 C: Object detection
 D: Image compression
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Inpainting reconstructs missing parts using surrounding context.
 Tag: Normal
@@ -1160,6 +1240,8 @@ A: High accuracy
 B: Predicted probabilities match observed frequencies
 C: Low loss
 D: Fast inference
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Calibrated models have predicted probabilities aligned with actual outcomes.
@@ -1184,6 +1266,8 @@ B: 3
 C: 9
 D: 5
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: between(2, 4) returns [False, True, True, True, False], sum = 3.
 Tag: Normal
@@ -1201,6 +1285,8 @@ A: Normal distribution
 B: Distribution over functions
 C: Random variable
 D: Deterministic process
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Gaussian process defines distribution over functions, used in GP regression.
@@ -1220,6 +1306,8 @@ B: Loss for learning embeddings by contrasting pairs
 C: Regression loss
 D: No loss
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Contrastive loss pulls similar pairs together, pushes dissimilar apart.
 Tag: Normal
@@ -1237,6 +1325,8 @@ A: Data accuracy
 B: Extent to which data is present
 C: Data consistency
 D: Data timeliness
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Completeness measures whether all required data is available.
@@ -1256,6 +1346,8 @@ B: Allowing decoder to focus on relevant source words
 C: Speeding up training
 D: Reducing model size
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Attention helps decoder attend to relevant parts of source sentence.
 Tag: Normal
@@ -1273,6 +1365,8 @@ A: Simple averaging
 B: Using meta-model to combine base models
 C: Majority voting
 D: Random selection
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Stacking trains meta-learner on base model predictions.
@@ -1292,6 +1386,8 @@ B: Sequence of n consecutive tokens
 C: Character count
 D: Sentence length
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: N-grams capture local word sequences (unigram, bigram, trigram, etc.).
 Tag: Normal
@@ -1310,6 +1406,8 @@ B: Hash based on image content for similarity detection
 C: Random hash
 D: File hash
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Perceptual hashing creates similar hashes for visually similar images.
 Tag: Normal
@@ -1327,6 +1425,8 @@ A: Average squared error
 B: Average absolute difference between predictions and actuals
 C: Relative error
 D: Percentage error
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: MAE = (1/n)Σ|yi - ŷi|, measures average prediction error magnitude.
@@ -1351,6 +1451,8 @@ B: [1 1 2 2 3 3]
 C: [2 4 6]
 D: [1 2 3]
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: repeat(2) repeats each element twice: [1, 1, 2, 2, 3, 3].
 Tag: Normal
@@ -1368,6 +1470,8 @@ A: Batch learning
 B: Learning from data arriving sequentially
 C: One-time learning
 D: No learning
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Incremental learning updates model as new data becomes available.
@@ -1387,6 +1491,8 @@ B: Maximum number of linearly independent rows/columns
 C: Determinant
 D: Trace
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Rank indicates dimensionality of vector space spanned by rows/columns.
 Tag: Normal
@@ -1404,6 +1510,8 @@ A: Linear
 B: x * sigmoid(x)
 C: max(0, x)
 D: tanh(x)
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Swish(x) = x * σ(x), smooth non-monotonic function.
@@ -1423,6 +1531,8 @@ B: Relationship between two continuous variables
 C: Categorical frequencies
 D: Time series
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Scatter plots visualize correlation and patterns between two variables.
 Tag: Normal
@@ -1440,6 +1550,8 @@ A: Forgetting passwords
 B: Right to have personal data deleted
 C: Model forgetting
 D: Data backup
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: GDPR grants individuals right to request data deletion.
@@ -1459,6 +1571,8 @@ B: Replacing words with synonyms
 C: Finding synonyms
 D: No replacement
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Synonym replacement creates variations by substituting words with similar meanings.
 Tag: Normal
@@ -1476,6 +1590,8 @@ A: Classification metric
 B: Clustering quality measure (lower is better)
 C: Regression metric
 D: Dimensionality measure
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Davies-Bouldin measures average similarity between clusters; lower indicates better separation.
@@ -1495,6 +1611,8 @@ B: When performance degrades or data distribution changes
 C: Daily always
 D: Randomly
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Retraining addresses model drift and maintains performance.
 Tag: Normal
@@ -1513,6 +1631,8 @@ B: Expanding bright regions in binary images
 C: Edge detection
 D: Color adjustment
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Dilation grows foreground regions by adding pixels at boundaries.
 Tag: Normal
@@ -1530,6 +1650,8 @@ A: Positive correlation
 B: Training ensemble members to make different errors
 C: No correlation
 D: Random training
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: NCL explicitly encourages diversity by penalizing correlated errors.
@@ -1554,6 +1676,8 @@ B: 2.0
 C: 3.0
 D: 6.0
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Expanding mean at last position: (1+2+3)/3 = 2.0.
 Tag: Normal
@@ -1571,6 +1695,8 @@ A: Shared information
 B: Amount of information one variable contains about another
 C: Total information
 D: No information
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Mutual information measures reduction in uncertainty about one variable given another.
@@ -1590,6 +1716,8 @@ B: Using ground truth as input during training
 C: Random input
 D: Predicted output as input
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Teacher forcing feeds true previous output as next input during training.
 Tag: Normal
@@ -1607,6 +1735,8 @@ A: Pattern matching
 B: Identifying corresponding elements across schemas
 C: Data matching
 D: Record matching
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Schema matching aligns attributes from different data sources.
@@ -1626,6 +1756,8 @@ B: Evaluation metric for summarization
 C: Clustering metric
 D: Regression metric
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: ROUGE measures overlap between generated and reference summaries.
 Tag: Normal
@@ -1643,6 +1775,8 @@ A: Single stage
 B: Ensemble with sequential stages of models
 C: Parallel ensemble
 D: No stages
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Multi-stage ensembles process data through successive model layers.
@@ -1662,6 +1796,8 @@ B: Automated feature generation using relational data
 C: Feature selection
 D: Feature scaling
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Deep feature synthesis automatically creates features from relational datasets.
 Tag: Normal
@@ -1680,6 +1816,8 @@ B: Peak Signal-to-Noise Ratio for image quality
 C: Processing speed
 D: Pixel count
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: PSNR measures reconstruction quality by comparing original and processed images.
 Tag: Normal
@@ -1697,6 +1835,8 @@ A: Standard k-fold
 B: Ensuring same group doesn't appear in train and test
 C: Random splits
 D: No grouping
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Group k-fold prevents data leakage when samples are grouped.
@@ -1721,6 +1861,8 @@ B: [2 2 3 4 4]
 C: [2 3 4]
 D: [1 2 3]
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: clip(2, 4) limits values to [2, 4]: [2, 2, 3, 4, 4].
 Tag: Normal
@@ -1738,6 +1880,8 @@ A: Neural network
 B: Probabilistic graphical model representing dependencies
 C: Decision tree
 D: Linear model
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Bayesian networks use DAGs to represent conditional dependencies.
@@ -1757,6 +1901,8 @@ B: Iterative root-finding algorithm
 C: Sorting algorithm
 D: Clustering method
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Newton-Raphson finds successively better approximations to roots using derivatives.
 Tag: Normal
@@ -1774,6 +1920,8 @@ A: Standard autoencoder
 B: Generative model learning probabilistic latent space
 C: Discriminative model
 D: Classification model
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: VAE learns distribution over latent space for generation.
@@ -1793,6 +1941,8 @@ B: Distance accounting for correlations and scale
 C: Manhattan distance
 D: Cosine distance
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Mahalanobis distance considers covariance structure of data.
 Tag: Normal
@@ -1810,6 +1960,8 @@ A: Single party computation
 B: Computing on data from multiple parties without revealing individual inputs
 C: Public computation
 D: No security
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: SMPC enables collaborative computation while preserving privacy.
@@ -1829,6 +1981,8 @@ B: Graph representing entities and relationships
 C: Neural network
 D: Decision tree
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Knowledge graphs structure information as entities (nodes) and relations (edges).
 Tag: Normal
@@ -1846,6 +2000,8 @@ A: Data storage only
 B: Central repository for integrated data from multiple sources
 C: Backup system
 D: Cache
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Data warehouses consolidate data for analysis and reporting.

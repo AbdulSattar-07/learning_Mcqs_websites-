@@ -121,6 +121,8 @@ Difficulty: Medium
 Question: What does the File System Access API enable?
 A) Server file access
 B: Reading and writing local files with user permission
+B) [Missing option - Please review]
+
 C) Cloud storage
 D) Database files
 
@@ -175,6 +177,8 @@ Difficulty: Hard
 Question: What is the sidecar pattern?
 A) Motorcycle attachment
 B: Deploying helper container alongside main application
+B) [Missing option - Please review]
+
 C) Backup pattern
 D) Caching pattern
 
@@ -211,6 +215,8 @@ Difficulty: Medium
 Question: What is AbortController used for?
 A) Stopping loops
 B: Canceling asynchronous operations like fetch
+B) [Missing option - Please review]
+
 C) Error handling
 D) Aborting functions
 
@@ -229,6 +235,8 @@ Difficulty: Medium
 Question: What are database migrations?
 A) Moving databases
 B: Version-controlled schema changes
+B) [Missing option - Please review]
+
 C) Data backups
 D) Database replication
 
@@ -247,8 +255,12 @@ Difficulty: Medium
 Question: What does Largest Contentful Paint (LCP) measure?
 A) Total page size
 B: Time to render largest visible content element
+B) [Missing option - Please review]
+
 C) Number of elements
 D: Paint operations
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: LCP measures loading performance by tracking largest content render time.
@@ -268,6 +280,8 @@ B: Selects parent based on child elements
 C: Validates forms
 D: Checks properties
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: :has() is a parent selector that matches elements containing specific descendants.
 Tag: Normal
@@ -285,6 +299,8 @@ A: Attacking suppliers
 B: Compromising dependencies to inject malicious code
 C: Network attacks
 D: Physical attacks
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Supply chain attacks target dependencies and build tools to compromise applications.
@@ -304,6 +320,8 @@ B: Native popover UI without JavaScript
 C: Tooltips only
 D: Modal dialogs
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Popover API provides declarative way to create popover elements.
 Tag: Normal
@@ -321,6 +339,8 @@ A: Tracking event attendance
 B: Storing state changes as sequence of events
 C: Event logging
 D: Event handling
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Event sourcing persists all state changes as events, enabling replay and audit.
@@ -340,6 +360,8 @@ B: In ES modules at module scope
 C: Only in functions
 D: Only in classes
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Top-level await allows await at module top level in ES modules.
 Tag: Normal
@@ -357,6 +379,8 @@ A: Sharing files between servers
 B: Native sharing of content to other apps
 C: Social media integration
 D: Screen sharing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Web Share API invokes native sharing mechanisms of the device.
@@ -376,6 +400,8 @@ B: Writing selectors inside other selectors
 C: Nested functions
 D: Nested grids
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: CSS nesting allows writing child selectors inside parent rules, like Sass.
 Tag: Normal
@@ -393,6 +419,8 @@ A: Moving left on screen
 B: Testing earlier in development cycle
 C: Left-aligned tests
 D: Testing on left side
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Shift-left moves testing earlier to catch issues sooner and reduce costs.
@@ -412,6 +440,8 @@ B: Gradually replacing legacy system with new implementation
 C: Throttling pattern
 D: Caching pattern
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Strangler fig incrementally migrates functionality from old to new system.
 Tag: Normal
@@ -429,6 +459,8 @@ A: Null check
 B: Assigns only if left side is null/undefined
 C: Comparison
 D: Multiplication
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: ??= is nullish coalescing assignment, assigns only for null/undefined.
@@ -448,6 +480,8 @@ B: Similarity search and embeddings
 C: Vectors only
 D: Mathematical operations
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Vector databases store and query high-dimensional vectors for AI/ML applications.
 Tag: Normal
@@ -465,6 +499,8 @@ A: Paint time
 B: Overall responsiveness to user interactions
 C: Initial load
 D: Animation performance
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: INP measures latency of all interactions throughout page lifecycle.
@@ -484,6 +520,8 @@ B: Container query width
 C: Computed query width
 D: Content query width
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: cqw is 1% of container's width, used with container queries.
 Tag: Normal
@@ -501,6 +539,8 @@ A: Type errors
 B: DOM-based XSS attacks
 C: Type coercion
 D: CSRF attacks
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Trusted Types enforce type checking for dangerous DOM sinks to prevent XSS.
@@ -520,6 +560,8 @@ B: Removes element from accessibility tree and interaction
 C: Hides element
 D: Disables animations
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: inert makes element and descendants non-interactive and ignored by assistive tech.
 Tag: Normal
@@ -537,6 +579,8 @@ A: Command Query Request System
 B: Command Query Responsibility Segregation
 C: Concurrent Query Response System
 D: Cached Query Result Storage
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: CQRS separates read and write operations into different models.
@@ -556,6 +600,8 @@ B: Specifying expected module type (JSON, CSS)
 C: Validating imports
 D: Import errors
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Import assertions declare expected module type for security and correctness.
 Tag: Normal
@@ -573,6 +619,8 @@ A: View switching
 B: Smooth animated transitions between page states
 C: Multiple views
 D: View rendering
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: View Transitions API creates smooth animations when DOM changes.
@@ -592,6 +640,8 @@ B: Positioning elements relative to other elements
 C: Anchor tags
 D: Fixed positioning
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Anchor positioning enables positioning elements relative to anchor elements.
 Tag: Normal
@@ -609,6 +659,8 @@ A: Single branch
 B: Multiple long-lived branches (develop, release, hotfix)
 C: No branches
 D: Trunk-based development
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Gitflow uses structured branching model with develop, feature, release branches.
@@ -628,6 +680,8 @@ B: Proxy for network communication handling
 C: Authentication pattern
 D: Routing pattern
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Ambassador pattern offloads network tasks like retry, monitoring to helper service.
 Tag: Normal
@@ -645,6 +699,8 @@ A: Multiplication
 B: Improving readability (numeric separators)
 C: Special operation
 D: Error
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Numeric separators improve readability of large numbers without affecting value.
@@ -664,6 +720,8 @@ B: Single database serving multiple customers with data isolation
 C: Multiple servers
 D: Backup strategy
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Multi-tenancy allows multiple tenants to share infrastructure with isolated data.
 Tag: Normal
@@ -681,6 +739,8 @@ A: First download
 B: Time from request to first byte of response
 C: First render
 D: First interaction
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: TTFB measures server responsiveness from request to first response byte.
@@ -700,6 +760,8 @@ B: Limits CSS rules to specific DOM subtree
 C: Global scope
 D: Function scope
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: @scope creates scoped styles applying only to specific DOM sections.
 Tag: Normal
@@ -717,6 +779,8 @@ A: Creates sandbox
 B: Restricts iframe capabilities for security
 C: Styles iframe
 D: Hides iframe
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: sandbox attribute applies security restrictions to iframe content.
@@ -736,6 +800,8 @@ B: Marking up search functionality sections
 C: Database search
 D: Text search
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: <search> is semantic element for search/filtering functionality.
 Tag: Normal
@@ -753,6 +819,8 @@ A: Linear retries
 B: Increasing delay between retry attempts exponentially
 C: Immediate retries
 D: Random delays
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Exponential backoff increases wait time between retries to reduce load.
@@ -772,6 +840,8 @@ B: Immutable data structures (proposal)
 C: Function types
 D: Array methods
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Records and Tuples are proposed immutable, deeply comparable data structures.
 Tag: Normal
@@ -789,6 +859,8 @@ A: Creating badges
 B: Setting notification badges on app icons
 C: User badges
 D: Security badges
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Badging API sets notification count badges on installed web app icons.
@@ -808,6 +880,8 @@ B: sin(), cos(), tan()
 C: abs(), sign()
 D: round(), floor()
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: CSS now supports sin(), cos(), tan(), asin(), acos(), atan() functions.
 Tag: Normal
@@ -825,6 +899,8 @@ A: Coding infrastructure
 B: Managing infrastructure through code/configuration files
 C: Infrastructure documentation
 D: Server programming
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: IaC uses code to provision and manage infrastructure automatically.
@@ -844,6 +920,8 @@ B: Converting interface to match expected interface
 C: Network adapters
 D: Database adapters
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Adapter pattern makes incompatible interfaces work together.
 Tag: Normal
@@ -861,6 +939,8 @@ A: private method()
 B: #method()
 C: _method()
 D: $method()
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: # prefix creates truly private methods in JavaScript classes.
@@ -880,6 +960,8 @@ B: Reusing connections reduces overhead
 C: Faster queries
 D: Better security
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Connection pooling reuses existing connections, avoiding creation overhead.
 Tag: Normal
@@ -897,6 +979,8 @@ A: Faster fetch
 B: Hints browser to prioritize resource loading
 C: Caches resource
 D: Preloads resource
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: fetchpriority attribute provides hints for resource loading priority.
@@ -916,6 +1000,8 @@ B: Deriving colors from other colors
 C: Color relationships
 D: Relative units
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Relative colors create new colors by modifying existing color values.
 Tag: Normal
@@ -933,6 +1019,8 @@ A: Analytics
 B: Collecting security and deprecation reports
 C: Error reporting
 D: Performance reports
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Reporting API collects CSP violations, deprecations, and other browser reports.
@@ -952,6 +1040,8 @@ B: Explicitly marks resource as render-blocking
 C: Prevents loading
 D: Blocks users
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: blocking attribute explicitly declares render-blocking behavior.
 Tag: Normal
@@ -969,6 +1059,8 @@ A: Speed, security, scalability
 B: Logs, metrics, traces
 C: Frontend, backend, database
 D: Development, testing, production
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Observability relies on logs, metrics, and distributed traces.
@@ -988,6 +1080,8 @@ B: Functions that modify classes/methods (proposal)
 C: Styling functions
 D: Comments
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Decorators are proposed syntax for modifying class declarations and members.
 Tag: Normal
@@ -1005,6 +1099,8 @@ A: Compression
 B: Information about system resource pressure
 C: CPU calculations
 D: Performance metrics
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Compute Pressure API exposes system thermal and CPU pressure states.
@@ -1024,6 +1120,8 @@ B: Identifies elements for view transition animations
 C: Transitions names
 D: View labels
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: view-transition-name creates correspondence between old and new states.
 Tag: Normal
@@ -1041,6 +1139,8 @@ A: Disorganized development
 B: Deliberately injecting failures to test resilience
 C: Random testing
 D: Chaotic code
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Chaos engineering tests system resilience by introducing controlled failures.
@@ -1060,6 +1160,8 @@ B: Ensuring reliable message publishing with database transactions
 C: Output formatting
 D: Logging pattern
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Outbox pattern ensures atomic database updates and message publishing.
 Tag: Normal
@@ -1077,6 +1179,8 @@ A: Regex patterns
 B: Structural matching similar to switch with destructuring
 C: String matching
 D: Design patterns
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Pattern matching proposal enables concise conditional logic with destructuring.
@@ -1096,6 +1200,8 @@ B: Tracking and capturing database changes for replication
 C: Data validation
 D: Change logs
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: CDC identifies and captures database changes for downstream processing.
 Tag: Normal
@@ -1113,6 +1219,8 @@ A: Unimportant content
 B: Resource can be loaded with lower priority
 C: Low quality
 D: Optional resource
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: importance attribute (now fetchpriority) hints resource loading priority.
@@ -1132,6 +1240,8 @@ B: Animations controlled by scroll position
 C: Smooth scrolling
 D: Scroll bars
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Scroll-driven animations link animation progress to scroll position.
 Tag: Normal
@@ -1149,6 +1259,8 @@ A: Embeds content
 B: Enables cross-origin isolation for SharedArrayBuffer
 C: Blocks embedding
 D: Policy management
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: COEP is required for cross-origin isolation and powerful features.
@@ -1168,6 +1280,8 @@ B: Creating Shadow DOM with HTML instead of JavaScript
 C: Hidden DOM
 D: Shadow effects
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Declarative Shadow DOM enables server-side rendering of Web Components.
 Tag: Normal
@@ -1185,6 +1299,8 @@ A: Trace routes
 B: Tracking requests across multiple services
 C: Error tracing
 D: Code tracing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Distributed tracing follows requests through microservices for debugging.
@@ -1204,6 +1320,8 @@ B: Chains function calls in readable sequence
 C: Pipes data
 D: Logical OR
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Pipeline operator enables functional composition: value |> func1 |> func2.
 Tag: Normal
@@ -1221,6 +1339,8 @@ A: Eye tracking
 B: Picking colors from screen
 C: Dropdown menus
 D: Visual effects
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: EyeDropper API lets users sample colors from anywhere on screen.
@@ -1240,6 +1360,8 @@ B: Layer order matters more than specificity within layers
 C: Increases specificity
 D: Removes specificity
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Cascade layers create specificity contexts; later layers win regardless of specificity.
 Tag: Normal
@@ -1257,6 +1379,8 @@ A: Git operations
 B: Using Git as single source of truth for infrastructure
 C: Git workflows
 D: Git optimization
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: GitOps uses Git repositories to declaratively manage infrastructure and deployments.
@@ -1294,6 +1418,8 @@ B: Original error that caused current error
 C: Error location
 D: Error type
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: cause property chains errors, preserving original error context.
 Tag: Normal
@@ -1311,6 +1437,8 @@ A: Temperature
 B: Frequently accessed data
 C: Recent data
 D: Important data
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Hot data is frequently accessed; cold data is rarely accessed.
@@ -1330,6 +1458,8 @@ B: Declarative prefetching and prerendering
 C: Speculative execution
 D: Future predictions
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Speculation rules API defines prefetch/prerender rules for navigation.
 Tag: Normal
@@ -1347,6 +1477,8 @@ A: Rounds corners
 B: Rounds numeric values to nearest step
 C: Creates circles
 D: Rounds borders
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: round() rounds values to nearest multiple of specified step.
@@ -1366,6 +1498,8 @@ B: HTTP header or iframe allow attribute
 C: Meta tags only
 D: CSS
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Permissions Policy uses Permissions-Policy header or allow attribute.
 Tag: Normal
@@ -1383,6 +1517,8 @@ A: Invokes functions
 B: Declaratively triggers actions on target elements
 C: Targets elements
 D: Invokes APIs
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: invoketarget enables declarative element interactions without JavaScript.
@@ -1402,6 +1538,8 @@ B: Header versioning (Accept header)
 C: Query parameter versioning
 D: No versioning
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Header versioning uses Accept or custom headers to specify API version.
 Tag: Normal
@@ -1419,6 +1557,8 @@ A: Time zone
 B: Period where let/const variables exist but can't be accessed
 C: Dead code
 D: Timeout zone
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: TDZ is time between scope entry and variable declaration where access throws error.
@@ -1438,6 +1578,8 @@ B: User inactivity (idle state)
 C: Idle processes
 D: Idle connections
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Idle Detection API detects when user is inactive or screen is locked.
 Tag: Normal
@@ -1455,6 +1597,8 @@ A: exp()
 B: power()
 C: exponent()
 D: pow()
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: D
 Reason: pow() calculates base raised to exponent; exp() calculates e^x.
@@ -1474,6 +1618,8 @@ B: Same concept, different terminology
 C: Toggles are permanent
 D: Flags are deprecated
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Feature toggles and feature flags are synonymous terms.
 Tag: Normal
@@ -1491,6 +1637,8 @@ A: Immediate shutdown
 B: Completing in-flight requests before shutting down
 C: Slow shutdown
 D: Scheduled shutdown
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Graceful shutdown finishes processing requests before terminating.
@@ -1510,6 +1658,8 @@ B: Safer, works with objects without hasOwnProperty method
 C: Newer syntax
 D: No advantage
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Object.hasOwn() is safer for objects created with null prototype.
 Tag: Normal
@@ -1527,6 +1677,8 @@ A: Always optimistic
 B: Assumes conflicts are rare, checks at commit time
 C: Locks immediately
 D: No locking
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Optimistic locking doesn't lock; detects conflicts when committing changes.
@@ -1546,6 +1698,8 @@ B: Instant navigation by caching entire pages
 C: Forward proxy
 D: Backward compatibility
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: bfcache stores complete page snapshots for instant back/forward navigation.
 Tag: Normal
@@ -1563,6 +1717,8 @@ A: Initial styles
 B: Defines styles before transition from display:none
 C: Starting animations
 D: First styles
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: @starting-style enables transitions when elements become visible.
@@ -1582,6 +1738,8 @@ B: Isolated frames for privacy-preserving ads
 C: Secure iframes
 D: Frame borders
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Fenced frames provide isolation for embedded content with limited communication.
 Tag: Normal
@@ -1599,6 +1757,8 @@ A: Menu selection
 B: Fully customizable select dropdown (proposal)
 C: Context menu
 D: Navigation menu
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: <selectmenu> is proposed element for styleable, accessible select controls.
@@ -1618,6 +1778,8 @@ B: Tracking requests across distributed systems
 C: ID generation
 D: Database relations
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Correlation IDs link related operations across services for tracing.
 Tag: Normal
@@ -1635,6 +1797,8 @@ A: Groups objects
 B: Groups array elements by callback result
 C: Object grouping
 D: Creates groups
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Object.groupBy() groups array elements into object based on callback.
@@ -1654,6 +1818,8 @@ B: Safely sanitizes HTML to prevent XSS
 C: Data cleaning
 D: Input validation
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Sanitizer API provides safe HTML sanitization built into browsers.
 Tag: Normal
@@ -1671,6 +1837,8 @@ A: Lighting effects
 B: Returns different values for light/dark color schemes
 C: Brightness control
 D: Theme switching
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: light-dark() simplifies color scheme adaptation with single declaration.
@@ -1690,6 +1858,8 @@ B: Replacing servers instead of updating them
 C: Permanent infrastructure
 D: Static infrastructure
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Immutable infrastructure replaces servers rather than modifying them.
 Tag: Normal
@@ -1707,6 +1877,8 @@ A: Combining requests
 B: Merging duplicate concurrent requests into single operation
 C: Request batching
 D: Request caching
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Request coalescing deduplicates identical concurrent requests.
@@ -1726,6 +1898,8 @@ B: Creates array from async iterable
 C: Async conversion
 D: Promise arrays
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Array.fromAsync() creates arrays from async iterables or promises.
 Tag: Normal
@@ -1743,6 +1917,8 @@ A: Cause and effect
 B: Preserves cause-effect relationships in distributed systems
 C: Casual consistency
 D: Random consistency
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Causal consistency ensures causally related operations are seen in order.
@@ -1762,6 +1938,8 @@ B: Detailed timing of page navigation and loading
 C: Route timing
 D: Link timing
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: Navigation Timing API provides detailed performance metrics for page loads.
 Tag: Normal
@@ -1780,6 +1958,8 @@ B: Makes form controls size to their content
 C: Content sizing
 D: Field width
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 Reason: field-sizing: content makes inputs automatically size to content.
 Tag: Normal
@@ -1797,6 +1977,8 @@ A: Knows everything
 B: Proficient in both frontend and backend technologies
 C: Works full time
 D: Senior developer
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: Full-stack developers work across the entire web application stack from UI to database.

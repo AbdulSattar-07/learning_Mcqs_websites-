@@ -15,6 +15,8 @@ B: O(1)
 C: O(log n)
 D: O(n²)
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: After O(n) preprocessing to build prefix sum array, each range sum query is answered in O(1) using prefixSum[r] - prefixSum[l-1].
@@ -34,6 +36,8 @@ A: Finding differences
 B: Efficient range updates
 C: Sorting
 D: Searching
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -55,6 +59,8 @@ B: Flattening tree to array for range queries
 C: Tree sorting
 D: Tree deletion
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Euler tour flattens tree into array where subtree becomes contiguous range, enabling segment tree queries on tree paths/subtrees.
@@ -74,6 +80,8 @@ A: Count vertices
 B: 2-color using BFS/DFS
 C: Check edges
 D: Random check
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -95,6 +103,8 @@ B: Hungarian algorithm or Ford-Fulkerson
 C: DFS only
 D: Dijkstra's
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Maximum bipartite matching can be solved using Hungarian algorithm O(n³) or reducing to max flow problem with Ford-Fulkerson.
@@ -114,6 +124,8 @@ A: Shortest path
 B: Maximum flow in network
 C: MST
 D: Topological order
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -135,6 +147,8 @@ B: Max flow value equals min cut capacity
 C: Max flow > min cut
 D: Max flow < min cut
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Max-flow min-cut theorem states maximum flow value equals minimum cut capacity, fundamental result in network flow theory.
@@ -154,6 +168,8 @@ A: Searching for answer
 B: Binary search on solution space to find optimal value
 C: Regular binary search
 D: Random search
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -175,6 +191,8 @@ B: O(log n) matrix multiplications
 C: O(n²)
 D: O(2ⁿ)
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Matrix exponentiation uses binary exponentiation, computing A^n in O(log n) matrix multiplications, each taking O(d³) for d×d matrix.
@@ -194,6 +212,8 @@ A: Recursion
 B: Matrix exponentiation
 C: Iteration only
 D: Impossible
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -215,6 +235,8 @@ B: O(n*m) where m is min string length
 C: O(n)
 D: O(log n)
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Finding longest common prefix requires comparing characters across all n strings up to minimum length m, resulting in O(n*m).
@@ -234,6 +256,8 @@ A: Sort both
 B: Check if s2 is substring of s1+s1
 C: Compare lengths only
 D: Reverse and compare
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -255,6 +279,8 @@ B: Two pointers or precomputed max heights
 C: Sorting
 D: Hashing
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Two-pointer approach or precomputing left/right max heights solves in O(n) time, calculating water trapped based on min of max heights.
@@ -274,6 +300,8 @@ A: Stock prices
 B: Number of consecutive days with price ≤ current
 C: Maximum price
 D: Minimum price
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -295,6 +323,8 @@ B: Stack-based approach in O(n)
 C: Sorting
 D: Binary search
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Using stack to track increasing heights and calculating area when smaller height encountered solves in O(n) time.
@@ -314,6 +344,8 @@ A: Simple queue
 B: Monotonic deque
 C: Stack
 D: Array
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -335,6 +367,8 @@ B: Horizontal distance from root
 C: Node value
 D: Parent pointer
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Vertical order traversal groups nodes by horizontal distance from root, using map to store nodes at each distance level.
@@ -354,6 +388,8 @@ A: All nodes
 B: Left boundary, leaves, right boundary (excluding root duplicates)
 C: Root only
 D: Leaves only
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -375,6 +411,8 @@ B: Nodes where right child is same diagonal, left child is next
 C: All nodes at same level
 D: Random grouping
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: In diagonal traversal, right children stay on same diagonal while left children move to next diagonal, grouping nodes diagonally.
@@ -394,6 +432,8 @@ A: Always
 B: Exactly 0 or 2 vertices with odd degree
 C: All even degrees
 D: Never
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -416,6 +456,8 @@ B: Eulerian visits each edge once, Hamiltonian visits each vertex once
 C: Eulerian is faster
 D: No difference
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Eulerian path visits each edge exactly once, Hamiltonian path visits each vertex exactly once. Hamiltonian is NP-complete.
@@ -435,6 +477,8 @@ A: Number of colors
 B: Minimum colors needed to color vertices with no adjacent same color
 C: Maximum colors
 D: Average colors
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -456,6 +500,8 @@ B: 2
 C: 3
 D: Depends on size
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Bipartite graphs can be 2-colored by definition (two independent sets), so chromatic number is always 2 (or 1 if no edges).
@@ -475,6 +521,8 @@ A: Update queries
 B: Range minimum/maximum queries (immutable)
 C: Insert queries
 D: Delete queries
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -496,6 +544,8 @@ B: O(√n)
 C: O(n)
 D: O(log n)
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Dividing array into √n blocks, range queries process at most 2 partial blocks and √n complete blocks, resulting in O(√n).
@@ -515,6 +565,8 @@ A: Online queries
 B: Offline range queries
 C: Update queries
 D: Insert queries
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -536,6 +588,8 @@ B: Sorted array of suffix starting positions
 C: Array of prefixes
 D: Random array
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Suffix array stores starting positions of all suffixes in sorted order, enabling efficient pattern matching and string operations.
@@ -555,6 +609,8 @@ A: Longest common prefix
 B: Length of longest common prefix between consecutive suffixes in suffix array
 C: All prefixes
 D: Character positions
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -576,6 +632,8 @@ B: Convex hull of points in O(n log n)
 C: Shortest path
 D: Maximum distance
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Graham scan finds convex hull by sorting points by polar angle and using stack to maintain hull vertices in O(n log n).
@@ -595,6 +653,8 @@ A: Drawing lines
 B: Processing events in sorted order (sweep line across plane)
 C: Random processing
 D: Parallel processing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -616,6 +676,8 @@ B: Heap property for values, BST property for indices
 C: AVL property
 D: No special property
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Cartesian tree satisfies min/max heap property for values and BST property for array indices, useful for range minimum queries.
@@ -635,6 +697,8 @@ A: Tree and heap
 B: BST (by key) and heap (by random priority)
 C: Tree and map
 D: Heap and array
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -656,6 +720,8 @@ B: Self-adjusting, recently accessed nodes move to root
 C: Fixed structure
 D: No rotations
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Splay trees move accessed nodes to root via rotations (splaying), achieving O(log n) amortized time and good cache performance.
@@ -675,6 +741,8 @@ A: m-1
 B: m
 C: 2m
 D: m+1
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -696,6 +764,8 @@ B: All data in leaf nodes, internal nodes only for routing
 C: B+ is smaller
 D: B+ is faster always
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: B+ tree stores all data in leaf nodes (linked for range queries), internal nodes only store keys for routing, optimizing range scans.
@@ -715,6 +785,8 @@ A: Longest interval
 B: Earliest finish time
 C: Earliest start time
 D: Random selection
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -736,6 +808,8 @@ B: Number of resources needed for overlapping intervals
 C: Interval length
 D: Start times
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Interval partitioning finds minimum resources (classrooms, processors) needed when intervals overlap, equal to maximum overlap depth.
@@ -755,6 +829,8 @@ A: BFS only
 B: DFS with backtracking
 C: Level order
 D: Inorder traversal
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -776,6 +852,8 @@ B: Recursively compute max path through each node
 C: Level order
 D: Sorting
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: For each node, compute maximum path sum passing through it (left + node + right), tracking global maximum across all nodes.
@@ -795,6 +873,8 @@ A: O(n²)
 B: O(n² * 2ⁿ)
 C: O(n!)
 D: O(n log n)
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -816,6 +896,8 @@ B: Small state spaces representable as bits
 C: Continuous values
 D: Never
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Bitmasking represents state as bits (subsets, visited nodes) when state space is small (≤20 elements), enabling compact DP solutions.
@@ -835,6 +917,8 @@ A: Arithmetic
 B: Counting numbers with digit constraints
 C: Sorting digits
 D: Finding digits
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -856,6 +940,8 @@ B: Can array be partitioned into two equal sum subsets
 C: Find maximum partition
 D: Count partitions
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Partition problem asks if array can be divided into two subsets with equal sum, solvable using subset sum DP in O(n*sum).
@@ -876,6 +962,8 @@ B: Minimum cuts to partition string into palindromes
 C: Longest palindrome
 D: Palindrome count
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Palindrome partitioning finds minimum cuts needed to partition string such that each substring is palindrome, using DP in O(n²).
@@ -895,6 +983,8 @@ A: Egg count
 B: Minimum trials to find critical floor in worst case
 C: Floor count
 D: Breaking eggs
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -917,6 +1007,8 @@ B: Number of BSTs, valid parentheses, paths in grid
 C: Fibonacci variants
 D: Sorting problems
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Catalan numbers count BSTs with n nodes, valid parentheses combinations, paths in grid not crossing diagonal, and many combinatorial structures.
@@ -936,6 +1028,8 @@ A: Inorder only
 B: Inorder + (Preorder or Postorder)
 C: Preorder only
 D: Any single traversal
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -957,6 +1051,8 @@ B: Element appearing more than n/2 times
 C: Most frequent element
 D: Median element
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Majority element appears more than ⌊n/2⌋ times. Boyer-Moore voting algorithm finds it in O(n) time and O(1) space.
@@ -976,6 +1072,8 @@ A: Sort and search
 B: Sum formula or XOR
 C: Linear search
 D: Binary search
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -997,6 +1095,8 @@ B: Floyd's cycle detection or sum/XOR
 C: Hash map only
 D: Linear search
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Floyd's cycle detection treats array as linked list (value as next index) finding cycle in O(n) time, O(1) space. Sum/XOR also work.
@@ -1016,6 +1116,8 @@ A: Create new matrix
 B: Transpose then reverse each row
 C: Reverse then transpose
 D: Cannot do in-place
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1037,6 +1139,8 @@ B: Use first row and column as markers
 C: Create new matrix
 D: Use hash map
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Use first row and column to mark which rows/columns to zero, with separate variables for first row/column themselves.
@@ -1056,6 +1160,8 @@ A: O(n²)
 B: O(n)
 C: O(n*k)
 D: O(k)
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1077,6 +1183,8 @@ B: Find middle, reverse second half, compare
 C: Use stack
 D: Impossible
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Find middle using slow/fast pointers, reverse second half, compare with first half, achieving O(n) time and O(1) space.
@@ -1096,6 +1204,8 @@ A: O(n)
 B: O(n log k)
 C: O(n*k)
 D: O(n²)
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1117,6 +1227,8 @@ B: Maintain auxiliary stack tracking minimums
 C: Linear search
 D: Impossible
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Maintain auxiliary stack where top always contains minimum of elements below in main stack, both push/pop/getMin in O(1).
@@ -1136,6 +1248,8 @@ A: One stack only
 B: One for enqueue, one for dequeue with transfer
 C: Three stacks
 D: Impossible
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1157,6 +1271,8 @@ B: Transfer elements between queues to maintain LIFO
 C: Three queues
 D: Impossible
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Transfer n-1 elements to second queue on pop, making last element accessible, or use single queue with rotation, achieving O(n) pop.
@@ -1176,6 +1292,8 @@ A: Create new list
 B: Morris traversal or reverse postorder with pointer manipulation
 C: Level order
 D: Impossible in-place
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1197,6 +1315,8 @@ B: No, need inorder with one of them
 C: Yes, if full binary tree
 D: Never possible
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: C
 
 Reason: Preorder and postorder alone don't uniquely determine tree, except for full binary trees where each node has 0 or 2 children.
@@ -1216,6 +1336,8 @@ A: Copy nodes only
 B: DFS/BFS with hash map tracking old-to-new node mapping
 C: Copy edges only
 D: Simple copy
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1237,6 +1359,8 @@ B: BFS for shortest transformation sequence
 C: Binary search
 D: Sorting
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: BFS finds shortest transformation sequence from start to end word, treating words as graph vertices with edges between one-letter-different words.
@@ -1256,6 +1380,8 @@ A: Compare all pairs
 B: Use sorted string or character count as hash key
 C: Random grouping
 D: Length-based grouping
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1277,6 +1403,8 @@ B: Stack
 C: Array
 D: Tree
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Stack matches opening brackets with closing brackets, pushing opening and popping on closing, valid if stack empty at end.
@@ -1296,6 +1424,8 @@ A: Simple counting
 B: Stack or DP tracking valid lengths
 C: Sorting
 D: Hashing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1318,6 +1448,8 @@ B: Left and right product arrays
 C: Sorting
 D: Impossible
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Compute left products and right products separately, then multiply for each position, achieving O(n) time without division.
@@ -1337,6 +1469,8 @@ A: Brute force only
 B: Two pointers from ends
 C: Sorting
 D: Binary search
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1358,6 +1492,8 @@ B: O(n²)
 C: O(n³)
 D: O(n log n)
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Sort array O(n log n), then for each element use two pointers to find pairs, resulting in O(n²) total time.
@@ -1377,6 +1513,8 @@ A: Brute force
 B: Sliding window with character frequency
 C: Sorting
 D: Binary search
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1398,6 +1536,8 @@ B: Sliding window with hash set
 C: Sorting
 D: Binary search
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Sliding window with hash set tracks characters in current window, expanding right and contracting left on duplicates, O(n) time.
@@ -1417,6 +1557,8 @@ A: Check each node with children only
 B: Check each node is within valid range from ancestors
 C: Inorder only
 D: Level order
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1438,6 +1580,8 @@ B: Inorder traversal finds two violations
 C: Level order
 D: Preorder traversal
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Inorder traversal of BST should be sorted. Two swapped nodes create violations where current < previous, identifying the swapped nodes.
@@ -1457,6 +1601,8 @@ A: Schedule optimization
 B: If courses can be completed (cycle detection in DAG)
 C: Minimum courses
 D: Maximum courses
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1478,6 +1624,8 @@ B: Character order from sorted alien words
 C: Word count
 D: Dictionary size
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Build graph from character order constraints in sorted words, then topological sort gives character order, detecting invalid input if cycle exists.
@@ -1497,6 +1645,8 @@ A: O(n²)
 B: O(n log n) using binary search
 C: O(n)
 D: O(n³)
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1518,6 +1668,8 @@ B: 2D LIS problem after sorting
 C: Simple LIS
 D: Reverse LIS
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Sort by width ascending and height descending, then find LIS on heights, handling 2D nesting constraint in O(n log n).
@@ -1537,6 +1689,8 @@ A: Random merging
 B: Sort by start time, then merge overlapping
 C: No sorting needed
 D: Binary search
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1558,6 +1712,8 @@ B: Find position, merge overlapping intervals
 C: Append at end
 D: Random insertion
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Find insertion position, merge with overlapping intervals, maintaining sorted order in O(n) time without full resort.
@@ -1577,6 +1733,8 @@ A: Level order
 B: Inorder traversal (iterative or recursive)
 C: Preorder
 D: Postorder
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1598,6 +1756,8 @@ B: Use stack for controlled inorder traversal
 C: Use queue
 D: Use array
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Stack stores path to current node, pushing left children and popping for next, achieving O(h) space and amortized O(1) next operation.
@@ -1617,6 +1777,8 @@ A: O(m+n)
 B: O(log(min(m,n)))
 C: O(m*n)
 D: O(n)
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1638,6 +1800,8 @@ B: O(n)
 C: O(n log n)
 D: O(log n)
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Quickselect uses partitioning like quicksort but recurses only on relevant side, achieving O(n) average, O(n²) worst case.
@@ -1657,6 +1821,8 @@ A: Sort completely
 B: Min heap of size k
 C: Max heap of size n
 D: Array scan
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1678,6 +1844,8 @@ B: Min heap of size k
 C: Max heap
 D: Stack
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Min heap of size k maintains k largest elements, with root being kth largest, allowing O(log k) insertion and O(1) kth largest access.
@@ -1697,6 +1865,8 @@ A: Sort on each insertion
 B: Two heaps (max heap for lower half, min heap for upper half)
 C: Single heap
 D: Array
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1718,6 +1888,8 @@ B: Prunes search space by checking valid prefixes
 C: Sorts words
 D: Random search
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Trie enables checking if current path forms valid prefix, pruning DFS early if no words start with current prefix.
@@ -1737,6 +1909,8 @@ A: Stores all words
 B: Finds all words with given prefix efficiently
 C: Random suggestions
 D: Sorting
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1758,6 +1932,8 @@ B: Hash set with sequence building
 C: Binary search
 D: Nested loops
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Use hash set for O(1) lookup, for each sequence start (no num-1 exists), count consecutive numbers, achieving O(n) time.
@@ -1777,6 +1953,8 @@ A: Linear search
 B: Start from top-right or bottom-left corner
 C: Binary search each row
 D: Random search
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1798,6 +1976,8 @@ B: Sweep line with priority queue
 C: Sorting only
 D: Random
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Process building start/end events in sorted order, using priority queue to track active buildings and detect height changes.
@@ -1817,6 +1997,8 @@ A: Greedy
 B: Dynamic programming
 C: Backtracking only
 D: Sorting
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1838,6 +2020,8 @@ B: C(m+n-2, m-1) or DP
 C: m*n
 D: m^n
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Combinatorial formula C(m+n-2, m-1) or DP with dp[i][j] = dp[i-1][j] + dp[i][j-1] computes unique paths.
@@ -1857,6 +2041,8 @@ A: Greedy
 B: DP with dp[i][j] = grid[i][j] + min(dp[i-1][j], dp[i][j-1])
 C: BFS
 D: DFS
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1878,6 +2064,8 @@ B: DFS/BFS from each unvisited land cell
 C: Count rows
 D: Count columns
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: For each unvisited land cell, perform DFS/BFS to mark entire island, incrementing count, O(m*n) time.
@@ -1897,6 +2085,8 @@ A: Capture all
 B: DFS/BFS from border, mark non-captured, flip rest
 C: Random capture
 D: Capture none
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1918,6 +2108,8 @@ B: Use parent's next pointer (O(1) space)
 C: DFS
 D: Impossible
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: For perfect binary tree, use parent's next pointer to connect children without queue, achieving O(1) space instead of O(n).
@@ -1937,6 +2129,8 @@ A: Greedy
 B: DP with dp[i] = any(dp[j] and s[j:i] in dict)
 C: Backtracking only
 D: Sorting
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1958,6 +2152,8 @@ B: Dynamic programming or recursion with memoization
 C: Greedy
 D: Sorting
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: DP handles . (any char) and * (zero or more) by checking character matches and star patterns, O(m*n) time for pattern m and text n.
@@ -1978,6 +2174,8 @@ B: Uses ? (single char) and * (any sequence)
 C: Simpler always
 D: No difference
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Wildcard uses ? for single character and * for any sequence (including empty), solved with DP similar to regex but different rules.
@@ -1997,6 +2195,8 @@ A: Two stacks
 B: Single stack
 C: Queue
 D: Recursion
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 

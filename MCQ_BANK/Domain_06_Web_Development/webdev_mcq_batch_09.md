@@ -157,6 +157,8 @@ Difficulty: Hard
 Question: What does the Broadcast Channel API enable?
 A) TV broadcasting
 B: Communication between browsing contexts (tabs, windows, iframes)
+B) [Missing option - Please review]
+
 C) Network broadcasting
 D) Audio streaming
 
@@ -482,6 +484,8 @@ Question: What is tail call optimization?
 A) Optimizing function endings
 B) Reusing stack frame for tail-recursive calls
 C: Removing unused code
+C) [Missing option - Please review]
+
 D) Compressing functions
 
 ✔ Correct Answer: B
@@ -552,6 +556,8 @@ Difficulty: Medium
 
 Question: What does JAMstack stand for?
 A: Java, API, Markup
+A) [Missing option - Please review]
+
 B) JavaScript, APIs, Markup
 C) JSON, API, Markdown
 D) jQuery, AJAX, MySQL
@@ -1219,6 +1225,8 @@ Difficulty: Medium
 Question: What is secrets management?
 A) Hiding features
 B: Securely storing and accessing sensitive configuration data
+B) [Missing option - Please review]
+
 C) Private repositories
 D) Encrypted databases
 
@@ -1327,6 +1335,8 @@ Difficulty: Hard
 Question: What is contract testing?
 A) Legal testing
 B: Verifying API interactions match agreed contracts
+B) [Missing option - Please review]
+
 C) User agreements
 D) Performance testing
 
@@ -1417,6 +1427,8 @@ Difficulty: Medium
 Question: What is bundle splitting?
 A) Dividing teams
 B: Separating code into multiple bundles for better caching
+B) [Missing option - Please review]
+
 C) Breaking builds
 D) File compression
 
@@ -1472,6 +1484,8 @@ Question: What is Zero Trust security model?
 A) No security
 B) Never trust, always verify every request
 C: Trusting internal network
+C) [Missing option - Please review]
+
 D) Password-less authentication
 
 ✔ Correct Answer: B
@@ -1526,6 +1540,8 @@ Question: What are Atomics in JavaScript?
 A) Small particles
 B) Operations for shared memory in concurrent programming
 C: Atomic design
+C) [Missing option - Please review]
+
 D) Minimal functions
 
 ✔ Correct Answer: B
@@ -1561,6 +1577,8 @@ Difficulty: Easy
 Question: What does the gap property do in Flexbox/Grid?
 A) Creates holes
 B: Sets spacing between items
+B) [Missing option - Please review]
+
 C) Removes items
 D) Aligns items
 
@@ -1615,6 +1633,8 @@ Difficulty: Medium
 Question: What are React Portals used for?
 A) Navigation
 B: Rendering children outside parent DOM hierarchy
+B) [Missing option - Please review]
+
 C) Data portals
 D) API gateways
 
@@ -1632,6 +1652,8 @@ Difficulty: Medium
 
 Question: What is the Intl API used for?
 A: Internet protocols
+A) [Missing option - Please review]
+
 B) Internationalization and localization
 C) Internal functions
 D) Integer operations

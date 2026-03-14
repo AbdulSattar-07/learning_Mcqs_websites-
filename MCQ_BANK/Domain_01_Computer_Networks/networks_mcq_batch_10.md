@@ -15,6 +15,8 @@ B: Service Level Agreement
 C: Software License Agreement
 D: Security Level Assessment
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: SLA (Service Level Agreement) defines expected service levels (uptime, performance, response time) and consequences if not met.
@@ -34,6 +36,8 @@ A: Same as SLA
 B: Specific measurable target within SLA
 C: Service location
 D: Security objective
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -55,6 +59,8 @@ B: Quantitative measure of service level
 C: Service list
 D: Security indicator
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: SLI is a quantitative measurement (error rate, latency, throughput) used to evaluate if SLOs are being met, forming the basis for SLA compliance.
@@ -75,6 +81,8 @@ B: Acceptable amount of downtime/errors based on SLO
 C: Error count
 D: Budget allocation
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Error budget is the acceptable amount of downtime or errors (100% - SLO), balancing reliability and innovation velocity.
@@ -94,6 +102,8 @@ A: Immediate shutdown
 B: Completing in-flight requests before stopping
 C: Forced shutdown
 D: No shutdown
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -116,6 +126,8 @@ B: Gradually updating instances one or few at a time
 C: Instant deployment
 D: No deployment
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Rolling deployment updates instances gradually in batches, maintaining service availability while deploying, allowing monitoring and rollback if issues arise.
@@ -135,6 +147,8 @@ A: Infrastructure that changes
 B: Servers replaced rather than updated
 C: Permanent infrastructure
 D: Unchangeable configuration
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -156,6 +170,8 @@ B: Managing infrastructure through code and version control
 C: Infrastructure documentation
 D: Manual infrastructure
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: IaC manages infrastructure through machine-readable files under version control, enabling automation, consistency, and reproducibility.
@@ -175,6 +191,8 @@ A: Intentional changes
 B: Unintended divergence from desired configuration
 C: Configuration backup
 D: Configuration encryption
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -196,6 +214,8 @@ B: Using Git as single source of truth for infrastructure
 C: Git backup
 D: Git security
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: GitOps uses Git repositories as single source of truth for infrastructure and application configuration, with automated deployment on Git changes.
@@ -215,6 +235,8 @@ A: Faster access
 B: Secure storage, rotation, and access control for credentials
 C: Simpler code
 D: Better documentation
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -236,6 +258,8 @@ B: Encrypting stored data
 C: No encryption
 D: Partial encryption
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Encryption at rest protects stored data (databases, files, backups) from unauthorized access if storage media is compromised.
@@ -255,6 +279,8 @@ A: Encrypting stored data
 B: Encrypting data during transmission
 C: No encryption
 D: Partial encryption
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -276,6 +302,8 @@ B: Periodically changing encryption keys
 C: Key backup
 D: Key deletion
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Key rotation periodically changes encryption keys, limiting damage from key compromise and meeting compliance requirements.
@@ -295,6 +323,8 @@ A: Multiple buildings
 B: Multiple customers sharing same infrastructure with isolation
 C: Single customer
 D: Multiple applications
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -316,6 +346,8 @@ B: Ensuring tenants cannot access each other's data
 C: Network isolation only
 D: No isolation
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Tenant isolation ensures customers in multi-tenant systems cannot access each other's data through logical separation, security controls, and access policies.
@@ -335,6 +367,8 @@ A: Loud servers
 B: One tenant consuming excessive resources affecting others
 C: Network noise
 D: Physical noise
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -356,6 +390,8 @@ B: Limits on resource usage per tenant/user
 C: Resource sharing
 D: Resource backup
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Resource quotas limit CPU, memory, storage, or API calls per tenant/user, preventing resource exhaustion and ensuring fair sharing.
@@ -375,6 +411,8 @@ A: Vertical growth
 B: Adding more instances/servers
 C: Upgrading existing servers
 D: Reducing servers
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -396,6 +434,8 @@ B: Upgrading existing server resources (CPU, RAM)
 C: Removing resources
 D: Horizontal growth
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Vertical scaling (scale up) increases resources of existing server, simpler but has limits and creates single point of failure.
@@ -415,6 +455,8 @@ A: Manual intervention
 B: Metrics like CPU, memory, request rate
 C: Time only
 D: Random triggers
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -436,6 +478,8 @@ B: Scaling based on predicted future load
 C: Reactive scaling only
 D: No scaling
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Predictive scaling uses machine learning to forecast load and scale proactively, preventing performance degradation during traffic spikes.
@@ -455,6 +499,8 @@ A: Random times
 B: Predictable traffic patterns (business hours, events)
 C: Never
 D: Always
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -476,6 +522,8 @@ B: Pre-initialized instances ready for quick activation
 C: Active instances
 D: Cold instances
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Warm pools maintain pre-initialized instances that can be quickly activated, reducing scale-out time compared to starting from scratch.
@@ -495,6 +543,8 @@ A: Faster processing
 B: Any instance can handle any request
 C: Better security
 D: Lower cost
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -516,6 +566,8 @@ B: Uneven load distribution and scaling complexity
 C: Improved security
 D: No drawbacks
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Sticky sessions can cause uneven load distribution, complicate auto-scaling, and create issues during instance termination or failure.
@@ -535,6 +587,8 @@ A: Combining requests
 B: Merging duplicate concurrent requests into one
 C: Splitting requests
 D: Delaying requests
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -556,6 +610,8 @@ B: For large volumes where latency is acceptable
 C: Never
 D: Random choice
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Batch processing is efficient for large data volumes where immediate results aren't needed, trading latency for throughput and resource efficiency.
@@ -575,6 +631,8 @@ A: Batch processing
 B: Processing data continuously as it arrives
 C: Delayed processing
 D: No processing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -596,6 +654,8 @@ B: Batch and stream processing layers
 C: Two networks
 D: Two servers
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Lambda architecture combines batch layer (comprehensive, accurate) and speed layer (real-time, approximate) to provide both accuracy and low latency.
@@ -615,6 +675,8 @@ A: Same thing
 B: Stream processing only, no separate batch layer
 C: Batch only
 D: No processing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -636,6 +698,8 @@ B: Series of processing steps for data transformation
 C: Data storage
 D: Data backup
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Data pipeline is a series of processing steps that ingest, transform, and move data from sources to destinations, enabling analytics and insights.
@@ -655,6 +719,8 @@ A: Encrypt, Transfer, Load
 B: Extract, Transform, Load
 C: Execute, Test, Launch
 D: Export, Transfer, Link
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -676,6 +742,8 @@ B: Loads raw data first, transforms in destination
 C: Faster always
 D: More secure
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: ELT loads raw data into destination (data lake/warehouse) first, then transforms using destination's processing power, leveraging modern scalable systems.
@@ -695,6 +763,8 @@ A: Water storage
 B: Centralized repository for raw data in native format
 C: Structured database only
 D: Data backup
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -716,6 +786,8 @@ B: Centralized repository for structured, processed data
 C: Raw data storage
 D: Temporary storage
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Data warehouse stores structured, processed data optimized for analysis and reporting, using predefined schemas and typically supporting SQL queries.
@@ -735,6 +807,8 @@ A: Data market
 B: Subset of data warehouse for specific business area
 C: Complete warehouse
 D: Data backup
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -756,6 +830,8 @@ B: OLTP for transactions, OLAP for analytics
 C: OLTP is newer
 D: OLAP is faster
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: OLTP (Online Transaction Processing) optimizes for fast transactions and updates. OLAP (Online Analytical Processing) optimizes for complex queries and analysis.
@@ -775,6 +851,8 @@ A: Star-shaped network
 B: Fact table surrounded by dimension tables
 C: Star topology
 D: Encryption schema
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -796,6 +874,8 @@ B: Dimension tables are normalized into multiple tables
 C: Simpler
 D: Faster always
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Snowflake schema normalizes dimension tables into multiple related tables, saving storage but requiring more joins, trading space for query complexity.
@@ -815,6 +895,8 @@ A: Save space
 B: Improve read performance by reducing joins
 C: Better security
 D: Easier updates
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -836,6 +918,8 @@ B: Optimize read and write models independently
 C: Faster always
 D: Better security
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: CQRS allows optimizing read and write models separately, using different databases or schemas for each, improving performance and scalability.
@@ -855,6 +939,8 @@ A: Store events only
 B: Database optimized for appending and reading events
 C: Regular database
 D: Cache
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -876,6 +962,8 @@ B: Current state derived from event history
 C: Data backup
 D: Data encryption
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Projection is a read model built by replaying events, representing current state or specific view of data derived from event history.
@@ -895,6 +983,8 @@ A: Photography
 B: Avoid replaying all events by storing periodic state
 C: Backup only
 D: Security
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -916,6 +1006,8 @@ B: Ensuring database changes and message publishing are atomic
 C: Storage issues
 D: Network issues
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Outbox pattern stores messages in database as part of transaction, then publishes them, ensuring atomicity between database changes and messaging.
@@ -935,6 +1027,8 @@ A: Capturing photos
 B: Tracking and capturing database changes for replication
 C: Change management
 D: Data backup
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -956,6 +1050,8 @@ B: HTTP callback for event notifications
 C: Web security
 D: Web storage
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Webhooks are HTTP callbacks that notify applications of events by sending POST requests to configured URLs, enabling event-driven integrations.
@@ -976,6 +1072,8 @@ B: Real-time notifications without constant checking
 C: More secure
 D: Faster always
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Webhooks push notifications immediately when events occur, eliminating polling overhead and latency, though requiring publicly accessible endpoints.
@@ -995,6 +1093,8 @@ A: Frequent polling
 B: Server holds request until data available or timeout
 C: Short polling
 D: No polling
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1017,6 +1117,8 @@ B: One-way server-to-client push over HTTP
 C: Client-to-server only
 D: No communication
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: SSE enables servers to push updates to clients over HTTP, simpler than WebSocket for one-way communication, with automatic reconnection.
@@ -1036,6 +1138,8 @@ A: Never
 B: When bidirectional communication is needed
 C: Always
 D: Random choice
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1057,6 +1161,8 @@ B: Reduced bandwidth for increased CPU usage
 C: Increased bandwidth
 D: No CPU impact
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Compression reduces bandwidth and transfer time but increases CPU usage for compression/decompression, beneficial when bandwidth is bottleneck.
@@ -1076,6 +1182,8 @@ A: Images
 B: Text-based content (HTML, CSS, JS, JSON)
 C: Videos
 D: Already compressed files
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1097,6 +1205,8 @@ B: Better compression ratio
 C: Simpler
 D: Older technology
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Brotli achieves 15-25% better compression than gzip for text content, though with slower compression, widely supported in modern browsers.
@@ -1116,6 +1226,8 @@ A: Routing only
 B: Routing, authentication, rate limiting, transformation
 C: Storage only
 D: Encryption only
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1137,6 +1249,8 @@ B: Optimize API for each client's specific needs
 C: Better security
 D: Faster always
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Separate BFFs allow optimizing API responses for each client type's needs (mobile: less data, web: richer data), improving performance and UX.
@@ -1156,6 +1270,8 @@ A: Always compress
 B: For small responses or already compressed content
 C: Never compress
 D: Random decision
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1177,6 +1293,8 @@ B: Distributed system complexity and debugging
 C: Too fast
 D: No challenges
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Microservices introduce distributed system complexity: network latency, partial failures, distributed debugging, and eventual consistency challenges.
@@ -1196,6 +1314,8 @@ A: Better scaling
 B: Simpler development and debugging
 C: More flexible
 D: Better fault isolation
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1217,6 +1337,8 @@ B: Around business capabilities or bounded contexts
 C: By technology
 D: By team size
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Services should be bounded by business capabilities or domain-driven design bounded contexts, ensuring cohesion and loose coupling.
@@ -1236,6 +1358,8 @@ A: More databases
 B: Ensure loose coupling and independent scaling
 C: Better security only
 D: Easier management
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1257,6 +1381,8 @@ B: Creates tight coupling and coordination overhead
 C: Too simple
 D: No problems
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Shared databases create tight coupling, prevent independent deployment, cause coordination overhead for schema changes, and limit technology choices.
@@ -1276,6 +1402,8 @@ A: Better performance
 B: Requests wait for available connections
 C: Faster queries
 D: No impact
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1297,6 +1425,8 @@ B: Gradually replacing legacy system with new system
 C: Instant replacement
 D: No replacement
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Strangler fig pattern gradually replaces legacy system by incrementally building new system around it, routing traffic progressively until legacy is retired.
@@ -1316,6 +1446,8 @@ A: Prevent corruption
 B: Translate between different domain models
 C: Encrypt data
 D: Backup data
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1337,6 +1469,8 @@ B: Aggregating data from multiple services
 C: Single API only
 D: API deletion
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: API composition aggregates data from multiple services to fulfill a request, though it can cause performance issues with sequential calls.
@@ -1356,6 +1490,8 @@ A: Sequential processing
 B: Reduced total latency by concurrent execution
 C: Increased latency
 D: No benefit
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1377,6 +1513,8 @@ B: Each service timeout < upstream timeout
 C: Random values
 D: No timeouts
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Each service's timeout should be less than its upstream caller's timeout, ensuring proper error propagation and preventing cascading timeouts.
@@ -1396,6 +1534,8 @@ A: Removing duplicates from data
 B: Detecting and handling duplicate requests
 C: Deleting requests
 D: Copying requests
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1417,6 +1557,8 @@ B: Undo operations for rollback
 C: Bonus transactions
 D: Faster transactions
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Compensating transactions undo effects of completed steps when saga fails, providing rollback mechanism in distributed transactions without 2PC.
@@ -1436,6 +1578,8 @@ A: Same thing
 B: Choreography is decentralized, orchestration is centralized
 C: Choreography is faster
 D: Orchestration is simpler
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1457,6 +1601,8 @@ B: For long-running or non-critical operations
 C: Never
 D: Short operations only
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Async processing is ideal for long-running operations (reports, emails) or non-critical tasks, improving responsiveness by not blocking user requests.
@@ -1476,6 +1622,8 @@ A: Employment queue
 B: Queue for asynchronous task processing
 C: Network queue
 D: Print queue
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1497,6 +1645,8 @@ B: Process jobs from queue asynchronously
 C: Handle HTTP requests
 D: Store data
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Worker processes consume jobs from queues and process them asynchronously, separating long-running tasks from request-response cycle.
@@ -1516,6 +1666,8 @@ A: Mail queue
 B: Queue for messages that failed processing
 C: Deleted messages
 D: Priority queue
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1537,6 +1689,8 @@ B: Single consumer or partition-based ordering
 C: Multiple consumers
 D: No requirements
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Guaranteed ordering requires single consumer or partition-based ordering (messages with same key go to same partition/consumer), limiting parallelism.
@@ -1556,6 +1710,8 @@ A: Exactly one delivery
 B: Message delivered one or more times
 C: No delivery
 D: At most once
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1577,6 +1733,8 @@ B: Message delivered zero or one time, no duplicates
 C: Exactly once
 D: At least once
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: At-most-once delivery ensures no duplicates but messages may be lost, suitable when occasional loss is acceptable but duplicates are problematic.
@@ -1596,6 +1754,8 @@ A: Too easy
 B: Requires coordination between delivery and processing
 C: Too fast
 D: Not useful
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1617,6 +1777,8 @@ B: After successful processing
 C: Before processing
 D: Never
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Messages should be acknowledged after successful processing, not on receipt, ensuring messages aren't lost if processing fails.
@@ -1636,6 +1798,8 @@ A: Fetch speed
 B: Number of unacknowledged messages consumer can have
 C: Message size
 D: Queue size
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1657,6 +1821,8 @@ B: Maximum time message can stay in queue
 C: Processing time
 D: Delivery time
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Message TTL defines maximum time a message can remain in queue before expiring, preventing processing of stale messages.
@@ -1676,6 +1842,8 @@ A: Fast queue
 B: Queue where messages processed by priority
 C: First-in-first-out
 D: Random processing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1697,6 +1865,8 @@ B: Broadcasts messages to all bound queues
 C: Routes to one queue
 D: Drops messages
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Fanout exchange broadcasts messages to all bound queues, ignoring routing keys, useful for pub-sub patterns where all subscribers receive messages.
@@ -1716,6 +1886,8 @@ A: Random routing
 B: Pattern matching on routing keys
 C: Round robin
 D: No routing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1737,6 +1909,8 @@ B: Exact match on routing key
 C: Pattern matching
 D: Broadcast
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Direct exchange routes messages to queues where binding key exactly matches routing key, providing simple point-to-point or multicast routing.
@@ -1756,6 +1930,8 @@ A: Message speed
 B: Messages survive broker restart
 C: Message encryption
 D: Message compression
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1777,6 +1953,8 @@ B: High-throughput, loss-tolerant scenarios
 C: Financial transactions
 D: Never
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Transient messages are faster but lost on broker restart, suitable for high-throughput scenarios where occasional loss is acceptable (metrics, logs).
@@ -1796,6 +1974,8 @@ A: Processing one at a time
 B: Grouping multiple messages for efficient processing
 C: Delaying messages
 D: Splitting messages
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1817,6 +1997,8 @@ B: Streaming retains events for replay, queuing deletes after consumption
 C: Streaming is slower
 D: Queuing is newer
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Event streaming platforms (Kafka) retain events for configured time allowing replay, while message queues delete messages after consumption.
@@ -1836,6 +2018,8 @@ A: Compressing logs
 B: Retaining only latest value per key
 C: Deleting all logs
 D: Encrypting logs
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1857,6 +2041,8 @@ B: Parallel processing with load balancing
 C: Sequential processing only
 D: No grouping
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Consumer groups allow multiple consumers to share partition consumption, enabling parallel processing and load balancing while maintaining ordering per partition.
@@ -1876,6 +2062,8 @@ A: Random selection
 B: Hash of partition key
 C: Message size
 D: Timestamp
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1897,6 +2085,8 @@ B: Number of copies of data maintained
 C: Replication time
 D: Replication cost
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Replication factor specifies how many copies of data are maintained across nodes, balancing durability and availability against storage and performance costs.
@@ -1916,6 +2106,8 @@ A: All nodes
 B: Leader only
 C: Followers only
 D: Random node
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1937,6 +2129,8 @@ B: Backup system takes over from failed primary
 C: System restarts
 D: Nothing
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Failover automatically switches from failed primary to backup system, maintaining service availability, requiring health monitoring and state synchronization.
@@ -1956,6 +2150,8 @@ A: Physical separation
 B: Quorum-based decisions
 C: Faster networks
 D: More nodes
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1977,6 +2173,8 @@ B: Testing system behavior under expected load
 C: Testing maximum load only
 D: No testing
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Load testing evaluates system performance under expected normal and peak loads, identifying bottlenecks and ensuring SLOs are met.
@@ -1996,6 +2194,8 @@ A: Test normal load
 B: Find breaking point by exceeding expected load
 C: Test minimum load
 D: No purpose
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 

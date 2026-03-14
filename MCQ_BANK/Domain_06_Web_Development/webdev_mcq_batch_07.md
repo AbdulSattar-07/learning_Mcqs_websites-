@@ -700,6 +700,7 @@ Tag: Normal
 ### Question 639
 Domain: Web Development
 Topic: Deployment & Hosting
+Subtopic: General
 Difficulty: Easy
 
 Question: What is a domain name?
@@ -1479,6 +1480,8 @@ Difficulty: Hard
 Question: What is Subresource Integrity (SRI)?
 A) Database integrity
 B: Verifying fetched resources haven't been tampered with
+B) [Missing option - Please review]
+
 C) API security
 D) User authentication
 
@@ -1535,6 +1538,8 @@ A) ratio
 B) aspect-ratio
 C) proportion
 D: size-ratio
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 Reason: aspect-ratio property defines width-to-height ratio of elements.
@@ -1642,6 +1647,8 @@ Question: Which property controls how element colors blend with background?
 A) blend
 B) mix-blend-mode
 C: color-blend
+C) [Missing option - Please review]
+
 D) background-blend
 
 ✔ Correct Answer: B
@@ -1749,6 +1756,8 @@ Difficulty: Hard
 Question: What is the Permissions Policy (formerly Feature Policy)?
 A) User permissions
 B: Controls which browser features can be used
+B) [Missing option - Please review]
+
 C) API access control
 D) Cookie policy
 

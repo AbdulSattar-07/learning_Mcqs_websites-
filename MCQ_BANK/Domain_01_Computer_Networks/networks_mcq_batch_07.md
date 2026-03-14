@@ -15,6 +15,8 @@ B: IPv6 multicast optimization like IGMP snooping
 C: Encryption method
 D: Routing protocol
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: MLD snooping is the IPv6 equivalent of IGMP snooping, forwarding IPv6 multicast traffic only to ports with interested listeners.
@@ -35,6 +37,8 @@ B: 16
 C: 32
 D: 64
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: C
 
 Reason: Only 23 bits of IP multicast address map to MAC (01:00:5E:0x:xx:xx), so 32 IP addresses (5 bits ambiguous) map to same MAC address.
@@ -54,6 +58,8 @@ A: Network with single protocol
 B: Network carrying multiple traffic types (data, voice, video)
 C: Wireless only network
 D: Backup network
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -76,6 +82,8 @@ B: 15.4W
 C: 30W
 D: 60W
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: PoE (802.3af) delivers up to 15.4W at the source, with 12.95W available at the device after cable loss. PoE+ (802.3at) provides 30W.
@@ -95,6 +103,8 @@ A: 15.4W
 B: 25.5W
 C: 30W
 D: 60W
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: C
 
@@ -116,6 +126,8 @@ B: Cisco proprietary 60W PoE
 C: Wireless PoE
 D: Low-power PoE
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: UPoE is Cisco's proprietary standard delivering up to 60W, supporting high-power devices before 802.3bt standard was finalized.
@@ -135,6 +147,8 @@ A: Type 1 and 2
 B: Type 3 (60W) and Type 4 (100W)
 C: Type A and B
 D: Class 1 and 2
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -156,6 +170,8 @@ B: Total power budget of switch and per-port requirements
 C: Only cable length
 D: Only switch model
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: PoE planning requires calculating total power needs of all devices and ensuring switch power budget is sufficient, considering per-port and total limits.
@@ -175,6 +191,8 @@ A: Encryption
 B: Extensions for VoIP and media endpoint devices
 C: Faster discovery
 D: Compression
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -196,6 +214,8 @@ B: Disables port if BPDU is received
 C: Encrypts BPDUs
 D: Compresses BPDUs
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: BPDU Guard disables ports (err-disabled) if BPDUs are received, protecting against unauthorized switches and STP manipulation on access ports.
@@ -215,6 +235,8 @@ A: Root password attacks
 B: Unauthorized switch from becoming root bridge
 C: Root access
 D: Root directory access
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -236,6 +258,8 @@ B: Unidirectional link failures causing loops
 C: Routing loops
 D: Application loops
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Loop Guard prevents alternate or root ports from becoming designated ports due to loss of BPDUs (unidirectional failure), preventing loops.
@@ -255,6 +279,8 @@ A: Increases port speed
 B: Bypasses STP listening/learning states on access ports
 C: Encrypts port traffic
 D: Disables ports
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -276,6 +302,8 @@ B: Fast convergence when direct uplink fails
 C: Encrypt uplinks
 D: Load balance uplinks
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: UplinkFast provides fast convergence (1-3 seconds) when a direct uplink fails by immediately activating a blocked port, used on access layer switches.
@@ -295,6 +323,8 @@ A: Backbone speed
 B: Convergence for indirect link failures
 C: Backbone security
 D: Backbone capacity
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -316,6 +346,8 @@ B: Connecting switches to operate as single logical unit
 C: Backup switches
 D: Wireless connection
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Switch stacking connects multiple physical switches through stack cables to operate as a single logical switch with unified management.
@@ -335,6 +367,8 @@ A: Virtual machines
 B: Two physical switches operating as one logical switch
 C: Software switches only
 D: Wireless switching
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -356,6 +390,8 @@ B: Device to connect to two switches as single port channel
 C: Wireless channels
 D: Encrypted channels
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: vPC allows a device to form a port channel to two separate switches, providing redundancy without STP blocking while maintaining loop-free topology.
@@ -375,6 +411,8 @@ A: Single switch feature
 B: Link aggregation across multiple switches
 C: Wireless aggregation
 D: Bandwidth compression
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -396,6 +434,8 @@ B: VRRP
 C: GLBP
 D: None
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: C
 
 Reason: GLBP (Gateway Load Balancing Protocol) provides both redundancy and load balancing by distributing traffic across multiple routers using virtual MAC addresses.
@@ -415,6 +455,8 @@ A: Packet loss
 B: Variation in packet delay
 C: Bandwidth fluctuation
 D: Signal interference
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -436,6 +478,8 @@ B: Smooth out delay variations in real-time streams
 C: Encrypt packets
 D: Compress audio
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Jitter buffers temporarily store packets to smooth out delay variations, ensuring consistent playback in real-time applications like VoIP.
@@ -455,6 +499,8 @@ A: Encrypt calls
 B: Compress and decompress audio
 C: Route calls
 D: Authenticate users
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -476,6 +522,8 @@ B: 150ms
 C: 300ms
 D: 500ms
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: VoIP requires latency under 150ms for good quality. Above 150ms, conversation quality degrades noticeably. Jitter should be under 30ms.
@@ -495,6 +543,8 @@ A: Web proxy
 B: Intermediary routing SIP requests
 C: DNS server
 D: DHCP server
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -516,6 +566,8 @@ B: Accept REGISTER requests and maintain user location
 C: Register IP addresses
 D: Register MAC addresses
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: SIP registrar accepts REGISTER requests from user agents and maintains a database of user locations (IP addresses) for call routing.
@@ -535,6 +587,8 @@ A: Video codec
 B: Suite of protocols for multimedia communication
 C: Audio codec
 D: Encryption standard
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -556,6 +610,8 @@ B: Voice, video, messaging, presence, collaboration
 C: Only email and chat
 D: Only phone systems
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Unified communications integrates multiple communication methods (voice, video, IM, presence, email, conferencing) into a cohesive system.
@@ -575,6 +631,8 @@ A: Peer-to-peer protocol
 B: Centralized call control protocol
 C: Routing protocol
 D: Security protocol
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -596,6 +654,8 @@ B: Same protocol with different names
 C: Megaco replaced H.248
 D: Unrelated
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Megaco (IETF) and H.248 (ITU) are the same protocol with different names, used for controlling media gateways in VoIP networks.
@@ -615,6 +675,8 @@ A: Physical network division
 B: Creating multiple virtual networks on shared infrastructure
 C: Bandwidth reduction
 D: Security feature only
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -636,6 +698,8 @@ B: Ultra-low latency (1ms)
 C: Higher latency
 D: Less bandwidth
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: 5G provides ultra-low latency (~1ms), massive device connectivity, and higher speeds (up to 20 Gbps) compared to 4G's ~50ms latency.
@@ -655,6 +719,8 @@ A: Transferring files
 B: Transferring connection from one cell to another
 C: Handing over control
 D: Device replacement
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -676,6 +742,8 @@ B: Using network outside home network area
 C: Switching apps
 D: Changing phone numbers
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Roaming allows mobile devices to access services through a visited network when outside their home network's coverage area.
@@ -695,6 +763,8 @@ A: Small phone
 B: Low-power cellular base station
 C: Small antenna
 D: Reduced coverage area only
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -716,6 +786,8 @@ B: Small cellular base station for home/office
 C: Satellite station
 D: Wireless router
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Femtocells are very small cellular base stations for home or small office use, connecting to carrier network via broadband, improving indoor coverage.
@@ -735,6 +807,8 @@ A: 10-200 meters
 B: 1-2 km
 C: 5-10 km
 D: 20-50 km
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: A
 
@@ -756,6 +830,8 @@ B: Traditional large cell tower
 C: Satellite cell
 D: Underground cell
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Macrocells are traditional large cellular base stations providing wide area coverage (up to 35km), forming the backbone of mobile networks.
@@ -775,6 +851,8 @@ A: Single cell type network
 B: Network mixing macro, micro, pico, and femtocells
 C: Wired network only
 D: Satellite network
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -796,6 +874,8 @@ B: Managed Input Managed Output
 C: Modular Input Modular Output
 D: Maximum Input Maximum Output
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: A
 
 Reason: MIMO uses multiple antennas at transmitter and receiver to improve communication performance through spatial multiplexing and diversity.
@@ -815,6 +895,8 @@ A: Creating physical beams
 B: Focusing signal toward specific receiver
 C: Blocking signals
 D: Encrypting signals
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -836,6 +918,8 @@ B: Simultaneous communication with multiple users
 C: Faster single-user speed
 D: Better encryption
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: MU-MIMO (Multi-User MIMO) allows an access point to communicate with multiple clients simultaneously using spatial multiplexing, improving efficiency.
@@ -855,6 +939,8 @@ A: 10 MHz
 B: 20 MHz
 C: 40 MHz
 D: 80 MHz
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -876,6 +962,8 @@ B: More non-overlapping channels
 C: Better wall penetration
 D: Lower cost
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: 5 GHz band has more spectrum and non-overlapping channels (up to 24), reducing interference, though with shorter range than 2.4 GHz.
@@ -895,6 +983,8 @@ A: Faster frequency switching
 B: Avoiding radar interference on 5 GHz channels
 C: Selecting best channel automatically
 D: Frequency encryption
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -917,6 +1007,8 @@ B: Adjust transmit power to reduce interference
 C: Disable transmission
 D: Encrypt transmissions
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: TPC dynamically adjusts transmit power to minimum needed for reliable communication, reducing interference and power consumption.
@@ -936,6 +1028,8 @@ A: 802.11r
 B: 802.11k
 C: 802.11v
 D: 802.11w
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: A
 
@@ -957,6 +1051,8 @@ B: Radio resource measurement for better roaming decisions
 C: Faster speed
 D: Longer range
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: 802.11k enables clients to gather information about neighboring APs, making better roaming decisions based on signal strength and load.
@@ -976,6 +1072,8 @@ A: Video streaming
 B: Network-assisted power management and roaming
 C: Voice calls
 D: Virtual networks
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -997,6 +1095,8 @@ B: Management frames from spoofing/forgery
 C: Control frames
 D: All frames equally
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: 802.11w (Protected Management Frames) encrypts and authenticates management frames, preventing deauthentication attacks and other management frame exploits.
@@ -1016,6 +1116,8 @@ A: Control wired networks
 B: Centrally manage multiple access points
 C: Control internet access
 D: Manage switches
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1037,6 +1139,8 @@ B: Standalone with full configuration
 C: Cannot work independently
 D: Cloud-managed only
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Autonomous APs operate independently with full configuration on each device, unlike lightweight APs that require a controller.
@@ -1056,6 +1160,8 @@ A: Low-weight hardware
 B: AP requiring controller for configuration and management
 C: Low-power AP
 D: Portable AP
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1077,6 +1183,8 @@ B: Encapsulate and tunnel traffic between AP and controller
 C: Authenticate users
 D: Assign channels
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: CAPWAP (Control And Provisioning of Wireless Access Points) tunnels traffic between lightweight APs and controllers, enabling centralized management.
@@ -1096,6 +1204,8 @@ A: Lightweight application
 B: Cisco proprietary predecessor to CAPWAP
 C: Linux wireless protocol
 D: Low-power protocol
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1117,6 +1227,8 @@ B: Protection against offline dictionary attacks
 C: Longer passwords only
 D: No improvements
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: WPA3 uses SAE (Simultaneous Authentication of Equals) instead of PSK, protecting against offline dictionary attacks and providing forward secrecy.
@@ -1136,6 +1248,8 @@ A: Faster authentication
 B: Secure password-based authentication resistant to offline attacks
 C: No password needed
 D: Biometric authentication
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1157,6 +1271,8 @@ B: Encryption for open networks without authentication
 C: No encryption
 D: Password-based encryption
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: OWE provides encryption for open Wi-Fi networks without requiring passwords, protecting against passive eavesdropping while maintaining ease of access.
@@ -1176,6 +1292,8 @@ A: Single access point
 B: APs interconnected wirelessly forming mesh
 C: Wired connections only
 D: Star topology only
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1197,6 +1315,8 @@ B: HWMP (Hybrid Wireless Mesh Protocol)
 C: RIP
 D: BGP
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: HWMP, defined in 802.11s, combines proactive and reactive routing for wireless mesh networks, optimizing path selection.
@@ -1216,6 +1336,8 @@ A: 4
 B: 8
 C: 64
 D: 256
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1237,6 +1359,8 @@ B: Point where QoS markings are trusted or remarked
 C: Network edge only
 D: Firewall location
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Trust boundary defines where QoS markings are trusted. Typically at access layer, markings from end devices are remarked to prevent abuse.
@@ -1256,6 +1380,8 @@ A: Core layer
 B: As close to source as possible (access layer)
 C: Distribution layer only
 D: At destination
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1277,6 +1403,8 @@ B: Classification identifies traffic, marking sets QoS bits
 C: Marking is faster
 D: Classification is more secure
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Classification identifies traffic types using various criteria (ACLs, NBAR), while marking sets QoS bits (CoS, DSCP) in packet headers.
@@ -1296,6 +1424,8 @@ A: Only at source
 B: At network boundaries and ingress
 C: Only at destination
 D: Core only
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1317,6 +1447,8 @@ B: Minimum of congestion window and receiver window
 C: Only receiver window
 D: Only congestion window
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: TCP sending rate is limited by the minimum of congestion window (network capacity) and receiver window (receiver buffer), ensuring flow and congestion control.
@@ -1336,6 +1468,8 @@ A: Total bandwidth
 B: Amount of data in flight on the network
 C: Delay only
 D: Packet loss rate
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1357,6 +1491,8 @@ B: Window size and RTT
 C: CPU speed
 D: Encryption
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: On high-latency links, TCP throughput is limited by window size divided by RTT. Small windows on high-latency links prevent full bandwidth utilization.
@@ -1377,6 +1513,8 @@ B: Congestion control algorithm
 C: Routing protocol
 D: Security protocol
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: TCP Cubic is a congestion control algorithm optimized for high-bandwidth, high-latency networks, default in Linux, using cubic function for window growth.
@@ -1396,6 +1534,8 @@ A: Security
 B: Congestion control based on bottleneck bandwidth
 C: Encryption speed
 D: Routing
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1418,6 +1558,8 @@ B: Close to end users (edge)
 C: In core network only
 D: At ISP only
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Caching content close to end users (edge caching) reduces latency, bandwidth usage, and origin server load, improving user experience.
@@ -1437,6 +1579,8 @@ A: Content-Type
 B: Cache-Control
 C: Accept
 D: Host
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1458,6 +1602,8 @@ B: Identifier for specific version of resource
 C: Error tag
 D: Expiration tag
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: ETag is an identifier for a specific version of a resource, used for cache validation and conditional requests to check if content changed.
@@ -1477,6 +1623,8 @@ A: Success
 B: Not Found
 C: Server Error
 D: Redirect
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1498,6 +1646,8 @@ B: Forbidden
 C: Service Unavailable
 D: Bad Request
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: C
 
 Reason: 503 Service Unavailable indicates the server is temporarily unable to handle requests, often due to overload or maintenance.
@@ -1517,6 +1667,8 @@ A: POST
 B: PUT
 C: PATCH
 D: All methods
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1538,6 +1690,8 @@ B: Server sending resources before client requests them
 C: Faster uploads
 D: Better encryption
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Server push allows servers to proactively send resources (CSS, JS) to clients before they're requested, reducing page load time.
@@ -1557,6 +1711,8 @@ A: GZIP
 B: HPACK
 C: Deflate
 D: Brotli
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1578,6 +1734,8 @@ B: HTTPS connections only
 C: FTP connections
 D: No encryption
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: HSTS forces browsers to use HTTPS for all connections to a domain, preventing protocol downgrade attacks and cookie hijacking.
@@ -1597,6 +1755,8 @@ A: Attaching certificates
 B: Associating host with specific certificate or public key
 C: Removing certificates
 D: Encrypting certificates
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1618,6 +1778,8 @@ B: Real-time certificate revocation status
 C: Certificate creation date
 D: Certificate owner
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: OCSP checks if a certificate has been revoked in real-time, providing more current information than CRL (Certificate Revocation List).
@@ -1637,6 +1799,8 @@ A: Slow encryption
 B: Privacy and performance issues of OCSP
 C: Certificate storage
 D: Key generation
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1658,6 +1822,8 @@ B: Name resolution on local network without DNS server
 C: Encrypted DNS
 D: Faster DNS
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: mDNS enables name resolution on local networks without a DNS server, used by Apple Bonjour and other zero-configuration services.
@@ -1677,6 +1843,8 @@ A: Faster DNS
 B: Discovering services on network using DNS records
 C: Secure DNS
 D: DNS caching
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1698,6 +1866,8 @@ B: Automatic device discovery and configuration
 C: Faster processing
 D: Better graphics
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: UPnP enables devices to discover each other and establish network services automatically without manual configuration, though with security concerns.
@@ -1717,6 +1887,8 @@ A: Too slow
 B: Can be exploited to open firewall ports
 C: Too complex
 D: Requires passwords
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1738,6 +1910,8 @@ B: SSDP (Simple Service Discovery Protocol)
 C: DNS
 D: DHCP
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: UPnP uses SSDP over UDP multicast for device discovery and advertisement, allowing devices to announce their presence and services.
@@ -1757,6 +1931,8 @@ A: Faster encryption
 B: Routes queries to nearest DNS server
 C: Caches more data
 D: Uses more servers
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1778,6 +1954,8 @@ B: Return different IP addresses based on client location
 C: Faster DNS resolution
 D: Block DNS queries
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: GeoDNS returns different IP addresses based on the geographic location of the DNS query, directing users to nearest or most appropriate server.
@@ -1797,6 +1975,8 @@ A: Security
 B: Simple load distribution across multiple IPs
 C: Faster resolution
 D: Encryption
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1818,6 +1998,8 @@ B: Intelligent traffic distribution across geographic locations
 C: Faster routing
 D: Better encryption
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: GSLB distributes traffic across geographically dispersed data centers based on health, proximity, and load, providing disaster recovery and optimization.
@@ -1837,6 +2019,8 @@ A: One active, one standby
 B: All systems actively handling traffic simultaneously
 C: Sequential activation
 D: Random activation
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1858,6 +2042,8 @@ B: When active system fails
 C: Randomly
 D: Never
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: In active-passive (active-standby), the passive system remains idle until the active system fails, then takes over to maintain service availability.
@@ -1877,6 +2063,8 @@ A: Increase speed
 B: Detect connection failures and maintain sessions
 C: Encrypt connections
 D: Compress data
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1898,6 +2086,8 @@ B: Reuses connections reducing overhead of creating new ones
 C: Better security
 D: Faster encryption
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Connection pooling maintains a pool of reusable connections, avoiding the overhead of establishing new connections for each request, improving performance.
@@ -1917,6 +2107,8 @@ A: Better security
 B: Reuses TCP connection for multiple requests
 C: Faster encryption
 D: Larger files
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1938,6 +2130,8 @@ B: Multiple requests without waiting for responses
 C: Faster encryption
 D: Better compression
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: HTTP pipelining allows sending multiple requests without waiting for responses, reducing latency. However, it has issues and is largely replaced by HTTP/2 multiplexing.
@@ -1957,6 +2151,8 @@ A: Network routing
 B: Single entry point managing API requests
 C: DNS resolution
 D: File storage
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
@@ -1978,6 +2174,8 @@ B: Control request rate to prevent abuse and overload
 C: Encrypt faster
 D: Compress data
 
+D) [Missing option - Please review]
+
 ✔ Correct Answer: B
 
 Reason: Rate limiting restricts the number of requests from a client in a time period, preventing abuse, DDoS attacks, and resource exhaustion.
@@ -1997,6 +2195,8 @@ A: Requests are queued
 B: Requests are rejected or delayed
 C: Bucket refills instantly
 D: All requests allowed
+
+D) [Missing option - Please review]
 
 ✔ Correct Answer: B
 
